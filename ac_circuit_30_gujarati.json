@@ -1,0 +1,304 @@
+{
+  "data": [
+    {
+      "Question": "સાઇનસોઇડલ વોલ્ટેજનું આરએમએસ મૂલ્ય શું છે જો પીક મૂલ્ય Vp હોય?",
+      "A": "Vp/√2",
+      "B": "Vp/2",
+      "C": "Vp",
+      "D": "2Vp",
+      "Image": 1,
+      "Explaination": "સાઇન વેવનું આરએમએસ મૂલ્ય = Vp/√2",
+      "Answer": "A"
+    },
+    {
+      "Question": "એંગ્યુલર ફ્રીક્વન્સી ω પર ઇન્ડક્ટર L નો રિએક્ટન્સ શું છે?",
+      "A": "1/(ωL)",
+      "B": "ωL",
+      "C": "ω/L",
+      "D": "L/ω",
+      "Image": 1,
+      "Explaination": "ઇન્ડક્ટિવ રિએક્ટન્સ XL = ωL",
+      "Answer": "B"
+    },
+    {
+      "Question": "એંગ્યુલર ફ્રીક્વન્સી ω પર કેપેસિટર C નો રિએક્ટન્સ શું છે?",
+      "A": "1/(ωC)",
+      "B": "ωC",
+      "C": "C/ω",
+      "D": "ω/C",
+      "Image": 1,
+      "Explaination": "કેપેસિટિવ રિએક્ટન્સ XC = 1/(ωC)",
+      "Answer": "A"
+    },
+    {
+      "Question": "શુદ્ધ રેઝિસ્ટિવ એસી સર્કિટમાં વોલ્ટેજ અને કરંટ કેવી રીતે હોય છે?",
+      "A": "Current leads voltage by 90°",
+      "B": "Voltage leads current by 90°",
+      "C": "In phase",
+      "D": "Opposite phase",
+      "Image": 1,
+      "Explaination": "રેઝિસ્ટર કોઈ ફેઝ શિફ્ટ કરતું નથી; વોલ્ટેજ અને કરંટ એક જ ફેઝમાં હોય છે",
+      "Answer": "C"
+    },
+    {
+      "Question": "જે સર્કિટમાં કરંટ વોલ્ટેજ કરતા પાછળ રહે છે તેનો પાવર ફેક્ટર શું દર્શાવે છે?",
+      "A": "Capacitive load",
+      "B": "Inductive load",
+      "C": "Purely resistive",
+      "D": "Negative resistance",
+      "Image": 1,
+      "Explaination": "લેગિંગ કરંટ ઇન્ડક્ટિવ લોડ દર્શાવે છે",
+      "Answer": "B"
+    },
+    {
+      "Question": "એપેરેંટ પાવર S (VA માં) કેટલું છે?",
+      "A": "V_rms × I_rms",
+      "B": "V_peak × I_peak",
+      "C": "V_rms / I_rms",
+      "D": "V_peak / I_peak",
+      "Image": 1,
+      "Explaination": "એપેરેંટ પાવર S = Vrms × Irms",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: Real power P (in watts) equals:",
+      "A": "S × cosφ",
+      "B": "S × sinφ",
+      "C": "V_peak × I_peak",
+      "D": "V_rms × I_peak",
+      "Image": 1,
+      "Explaination": "સમજાવટ: P = S cosφ where cosφ is power factor",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: In a series RLC circuit at resonance, impedance is:",
+      "A": "Maximum",
+      "B": "Minimum and equals R",
+      "C": "Purely inductive",
+      "D": "Purely capacitive",
+      "Image": 1,
+      "Explaination": "સમજાવટ: At resonance XL = XC so impedance = R (minimum)",
+      "Answer": "B"
+    },
+    {
+      "Question": "પ્રશ્ન: Resonant frequency of a series RLC circuit ω0 is:",
+      "A": "1/√(LC)",
+      "B": "√(L/C)",
+      "C": "1/(LC)",
+      "D": "√(C/L)",
+      "Image": 1,
+      "Explaination": "સમજાવટ: ω0 = 1/√(LC)",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: Quality factor Q of a series RLC is:",
+      "A": "R/ω0L",
+      "B": "ω0L/R",
+      "C": "ω0C/R",
+      "D": "R/ω0C",
+      "Image": 1,
+      "Explaination": "સમજાવટ: For series RLC, Q = ω0L / R",
+      "Answer": "B"
+    },
+    {
+      "Question": "પ્રશ્ન: In a parallel RLC at resonance, the circuit is:",
+      "A": "High impedance",
+      "B": "Low impedance",
+      "C": "Short circuit",
+      "D": "Open circuit",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Parallel resonance gives high impedance",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: The total impedance of resistor R and inductor L in series is:",
+      "A": "R + jωL",
+      "B": "R - j/(ωL)",
+      "C": "R + j/(ωC)",
+      "D": "R - jωL",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Series impedance Z = R + jXL = R + jωL",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: Phase angle φ between voltage and current in R-L series is:",
+      "A": "arctan(XL/R)",
+      "B": "arctan(R/XL)",
+      "C": "-arctan(XC/R)",
+      "D": "0",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Phase = arctan((XL - XC)/R); for R-L, φ = arctan(XL/R)",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: For a purely capacitive circuit, current relative to voltage is:",
+      "A": "In phase",
+      "B": "Current leads voltage by 90°",
+      "C": "Voltage leads current by 90°",
+      "D": "Current lags by 90°",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Capacitor causes current to lead voltage by 90°",
+      "Answer": "B"
+    },
+    {
+      "Question": "પ્રશ્ન: Impedance of a capacitor is:",
+      "A": "jωC",
+      "B": "-j/(ωC)",
+      "C": "1/(jωC)",
+      "D": "j/(ωC)",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Zc = 1/(jωC) which equals -j/(ωC)",
+      "Answer": "C"
+    },
+    {
+      "Question": "પ્રશ્ન: If power factor is 0.8 lagging and apparent power is 100 VA, real power is:",
+      "A": "80 W",
+      "B": "60 W",
+      "C": "100 W",
+      "D": "125 W",
+      "Image": 1,
+      "Explaination": "સમજાવટ: P = S × pf = 100 × 0.8 = 80 W",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: The average power absorbed by an ideal capacitor over one cycle is:",
+      "A": "Positive",
+      "B": "Negative",
+      "C": "Zero",
+      "D": "Depends on frequency",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Ideal reactive elements (C,L) absorb zero average power",
+      "Answer": "C"
+    },
+    {
+      "Question": "પ્રશ્ન: In AC steady state, phasor representation uses:",
+      "A": "Time domain functions",
+      "B": "Complex numbers representing magnitude and phase",
+      "C": "Only magnitudes",
+      "D": "Only phases",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Phasors represent magnitude and phase as complex numbers",
+      "Answer": "B"
+    },
+    {
+      "Question": "પ્રશ્ન: Which quantity is frequency dependent in AC circuits?",
+      "A": "Resistance of a pure resistor",
+      "B": "Reactance of L and C",
+      "C": "DC voltage",
+      "D": "Resistivity of copper at constant temp",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Reactance depends on frequency",
+      "Answer": "B"
+    },
+    {
+      "Question": "પ્રશ્ન: Transformer transfers power by:",
+      "A": "Conduction",
+      "B": "Capacitive coupling",
+      "C": "Magnetic coupling",
+      "D": "Direct connection",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Transformers use magnetic coupling between windings",
+      "Answer": "C"
+    },
+    {
+      "Question": "પ્રશ્ન: Turns ratio n = Np/Ns of an ideal transformer relates voltages as:",
+      "A": "Vp/Vs = Ns/Np",
+      "B": "Vp/Vs = Np/Ns",
+      "C": "Vp × Vs = Np × Ns",
+      "D": "Vp - Vs = Np - Ns",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Voltage ratio equals turns ratio",
+      "Answer": "B"
+    },
+    {
+      "Question": "પ્રશ્ન: In a step-up transformer, secondary voltage is:",
+      "A": "Higher than primary",
+      "B": "Lower than primary",
+      "C": "Equal to primary",
+      "D": "Zero",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Step-up increases secondary voltage",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: Leakage reactance in transformer causes:",
+      "A": "Perfect coupling",
+      "B": "Voltage regulation effect",
+      "C": "Infinite efficiency",
+      "D": "No effect",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Leakage reactance reduces coupling and affects voltage regulation",
+      "Answer": "B"
+    },
+    {
+      "Question": "પ્રશ્ન: Skin effect in conductors causes effective resistance to:",
+      "A": "Decrease with frequency",
+      "B": "Increase with frequency",
+      "C": "Remain constant",
+      "D": "Become zero",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Skin effect confines current to surface, increasing resistance at high freq",
+      "Answer": "B"
+    },
+    {
+      "Question": "પ્રશ્ન: What is the unit of susceptance?",
+      "A": "Siemens (S)",
+      "B": "Ohm (Ω)",
+      "C": "Henry (H)",
+      "D": "Farad (F)",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Susceptance is the imaginary part of admittance, unit Siemens",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: In a single-phase AC, maximum instantaneous power equals:",
+      "A": "Vrms × Irms",
+      "B": "Vp × Ip × cosφ",
+      "C": "Vp × Ip × cos(2ωt)",
+      "D": "Depends on load only",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Instantaneous power varies with time; peak involves cos(2ωt) term",
+      "Answer": "C"
+    },
+    {
+      "Question": "પ્રશ્ન: Current in a series circuit is:",
+      "A": "Same through all components",
+      "B": "Divided according to impedance",
+      "C": "Zero",
+      "D": "Opposite in branches",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Series current is common",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: Voltage across components in parallel is:",
+      "A": "Same across each branch",
+      "B": "Different across each branch",
+      "C": "Zero",
+      "D": "Depends on current",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Parallel branches share same voltage",
+      "Answer": "A"
+    },
+    {
+      "Question": "પ્રશ્ન: A wattless circuit has power factor:",
+      "A": "1",
+      "B": "0",
+      "C": "0.5",
+      "D": "-1",
+      "Image": 1,
+      "Explaination": "સમજાવટ: Wattless means no real power, PF = 0",
+      "Answer": "B"
+    },
+    {
+      "Question": "પ્રશ્ન: In an R-L series circuit, as frequency increases, the impedance:",
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains same",
+      "D": "Becomes purely resistive",
+      "Image": 1,
+      "Explaination": "સમજાવટ: XL increases with ω so Z increases",
+      "Answer": "A"
+    }
+  ]
+}
