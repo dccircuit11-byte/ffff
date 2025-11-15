@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "ઇન્ડક્ટરનું મુખ્ય કાર્ય શું છે?",
+    "A": "કરંટ વધારવું",
+    "B": "વોલ્ટેજ ઘટાડવું",
+    "C": "મેગ્નેટિક ઉર્જા સંગ્રહવું",
+    "D": "રેઝિસ્ટન્સ ઘટાડવું",
+    "Image": 1,
+    "Explaination": "ઇન્ડક્ટર કરંટમાં ફેરફાર થાય ત્યારે મેગ્નેટિક ઉર્જા સંગ્રહે છે.",
+    "Answer": "મેગ્નેટિક ઉર્જા સંગ્રહવું"
+  },
+  {
+    "Question": "ઇન્ડક્ટન્સની SI એકમ શું છે?",
+    "A": "વેબર",
+    "B": "હેનરી",
+    "C": "ટેસ્લા",
+    "D": "ઓહ્મ",
+    "Image": 1,
+    "Explaination": "Inductance ની SI એકમ Henry છે.",
+    "Answer": "હેનરી"
+  },
+  {
+    "Question": "જો કોઇલમાં turn ની સંખ્યા વધારીએ તો ઇન્ડક્ટન્સ…?",
+    "A": "ઘટે છે",
+    "B": "વધે છે",
+    "C": "યથાવત રહે છે",
+    "D": "શૂન્ય બને છે",
+    "Image": 1,
+    "Explaination": "More turns → More magnetic flux → More inductance.",
+    "Answer": "વધે છે"
+  },
+  {
+    "Question": "Self-Inductance શું છે?",
+    "A": "એક કોઇલ દ્વારા બીજા કોઇલમાં EMF ઉત્પન્ન થવું",
+    "B": "એક જ કોઇલમાં પોતાના કરંટના ફેરફારથી EMF ઉત્પન્ન થવું",
+    "C": "કરંટને સ્થિર રાખવું",
+    "D": "રેઝિસ્ટન્સ ઉત્પન્ન કરવું",
+    "Image": 1,
+    "Explaination": "Self-Induction એટલે પોતાની જ કોઇલમાં EMF ઉત્પન્ન થવું.",
+    "Answer": "એક જ કોઇલમાં પોતાના કરંટના ફેરફારથી EMF ઉત્પન્ન થવું"
+  },
+  {
+    "Question": "Mutual Inductance ક્યાં બને છે?",
+    "A": "એક જ કોઇલમાં",
+    "B": "બે અલગ-અલગ કોઇલ વચ્ચે",
+    "C": "રેઝિસ્ટર અને બેટરી વચ્ચે",
+    "D": "મોટર અંદર",
+    "Image": 1,
+    "Explaination": "Mutual Inductance ત્યારે બને છે જ્યારે એક કોઇલનો કરંટ બીજા કોઇલમાં EMF ઉત્પન્ન કરે.",
+    "Answer": "બે અલગ-અલગ કોઇલ વચ્ચે"
+  },
+  {
+    "Question": "Mutual Inductance ની SI એકમ શું છે?",
+    "A": "ટેસ્લા",
+    "B": "હેનરી",
+    "C": "એમ્પિયર",
+    "D": "ઓહ્મ",
+    "Image": 1,
+    "Explaination": "Self અને Mutual inductance બન્નેની SI એકમ Henry છે.",
+    "Answer": "હેનરી"
+  },
+  {
+    "Question": "કયા સામગ્રીના કોરથી ઇન્ડક્ટન્સ વધારે મળે છે?",
+    "A": "પ્લાસ્ટિક",
+    "B": "લોખંડનો કોર",
+    "C": "કાચ",
+    "D": "હવા",
+    "Image": 1,
+    "Explaination": "Iron core ની permeability ઊંચી હોવાથી ઇન્ડક્ટન્સ વધારે મળે છે.",
+    "Answer": "લોખંડનો કોર"
+  },
+  {
+    "Question": "Mutual inductance સૌથી વધારે ક્યાં જોવા મળે છે?",
+    "A": "બે દુરના કોઇલમાં",
+    "B": "એકબીજાની નજીક wound થયેલા કોઇલોમાં",
+    "C": "DC સર્કિટમાં",
+    "D": "રેઝિસ્ટરમાં",
+    "Image": 1,
+    "Explaination": "Coils જેટલા નજીક હોય તેટલું flux linkage વધારે અને mutual inductance પણ વધારે.",
+    "Answer": "એકબીજાની નજીક wound થયેલા કોઇલોમાં"
+  },
+  {
+    "Question": "ઇન્ડક્ટર કરંટમાં અચાનક ફેરફારને…?",
+    "A": "મદદ કરે છે",
+    "B": "વિરોધ કરે છે",
+    "C": "બમણું કરે છે",
+    "D": "શૂન્ય બનાવે છે",
+    "Image": 1,
+    "Explaination": "Inductor always opposes sudden change in current (Lenz’s law).",
+    "Answer": "વિરોધ કરે છે"
+  },
+  {
+    "Question": "Transformer કાર્ય કયા સિદ્ધાંત પર આધારિત છે?",
+    "A": "Self Induction",
+    "B": "Mutual Induction",
+    "C": "Static Induction",
+    "D": "Resistance Law",
+    "Image": 1,
+    "Explaination": "Transformer નું કાર્ય સંપૂર્ણ રીતે Mutual Induction પર આધારિત છે.",
+    "Answer": "Mutual Induction"
+  }
+]
