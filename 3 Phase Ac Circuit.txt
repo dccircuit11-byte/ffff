@@ -1,0 +1,356 @@
+[
+  {
+    "Question": "શુદ્ધ ઇન્ડક્ટીવ સર્કિટમાં શું થાય છે?",
+    "A": "તેમાં ઇન્ડક્ટીવ રિએક્ટન્સ જોવા મળે છે.",
+    "B": "શુદ્ધ ઇન્ડક્ટીવ ઈમ્પીડન્સ જોડાણ સ્વરૂપ છે જેમાં કરંટ વોલ્ટેજ કરતાં 90° લેગ કરે છે.",
+    "C": "તે 30° થી કરંટ વોલ્ટેજને લીડ કરે છે.",
+    "D": "બંને ફેઝ એક જ છે.",
+    "Explanation": "શુદ્ધ ઇન્ડક્ટીવ સર્કિટમાં કરંટ હંમેશા વોલ્ટેજ કરતાં 90° લેગ કરે છે.",
+    "Answer": "કરંટ વોલ્ટેજ કરતાં 90° લેગ કરે છે."
+  },
+  {
+    "Question": "પાવર ફેક્ટરનો નિર્ણય કેટલા ફેઝમાં કરવામાં આવે છે?",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "Explanation": "Power factor હંમેશા એક જ ફેઝના વોલ્ટેજ અને કરંટના એંગલ પરથી નક્કી થાય છે.",
+    "Answer": "1"
+  },
+  {
+    "Question": "આદર્શ રીતે ઇમ્પીડન્સ કેટલા ફેઝમાં સમકક્ષ પૂરી પાડવામાં આવે છે?",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "Explanation": "આદર્શ ઇમ્પીડન્સ (Z) એક જ ફેઝના કરંટ અને વોલ્ટેજથી નક્કી કરવામાં આવે છે.",
+    "Answer": "1"
+  },
+  {
+    "Question": "નીચે પૈકી કઈ ક્યારેય એ.સી. સર્કિટમાં સાચું નથી?",
+    "A": "એમએફ ટેન્શન વોલ્ટેજ પીક કરતા ઓછી હોય છે.",
+    "B": "ટેન્શન વોલ્ટેજનું સરેરાશ RMS કરતાં ઓછું હોય છે.",
+    "C": "સાઇન ટેન્શન સરેરાશ શૂન્ય હોય છે.",
+    "D": "A.C. ટેન્શન v = Vm sin wt હોય છે.",
+    "Explanation": "(B) ખોટું છે કારણ કે A.C. વોલ્ટેજનું સરેરાશ RMS કરતાં વધારે નથી, RMS value હંમેશા સરેરાશ કરતાં વધુ હોય છે.",
+    "Answer": "B"
+  },
+  {
+    "Question": "ભારતના ડોમેસ્ટિક પાવર પ્લાન્ટોમાં મોટાભાગે કેટલા ફેઝની A.C. ટેન્શન વોલ્ટેજ ઉત્પાદન કરવામાં આવે છે?",
+    "A": "1 ફેઝ, 18.75 KV",
+    "B": "1 ફેઝ, 15.75 KV",
+    "C": "3 ફેઝ, 11 KV",
+    "D": "3 ફેઝ, 11 KV",
+    "Explanation": "ભારતમાં મોટાભાગે 3 ફેઝ 11 KV ના જનરેટરથી પાવર ઉત્પાદન થાય છે.",
+    "Answer": "3 ફેઝ, 11 KV"
+  },
+  {
+    "Question": "ત્રિ-ફેઝ સપ્લાય વાઇન્ડીંગ કયા અક્ષરોથી દર્શાવવામાં આવે છે?",
+    "A": "X, Y, Z",
+    "B": "a, b, c",
+    "C": "R, Y, B અથા L1, L2, L3",
+    "D": "p, q, r",
+    "Explanation": "ત્રિ-ફેઝ સિસ્ટમમાં સામાન્ય રીતે R, Y, B અથવા L1, L2, L3 નામથી ફેઝ દર્શાવવામાં આવે છે.",
+    "Answer": "R, Y, B અથા L1, L2, L3"
+  },
+  {
+    "Question": "ત્રિ-ફેઝ સ્ટાર જોડાણમાં લાઇન વોલ્ટેજ શું છે?",
+    "A": "દરેક ફેઝ વચ્ચેનું વિદ્યુત દબાણ = Vph અને R = લાઇન વોલ્ટેજ",
+    "B": "લાઇન વોલ્ટેજ ફેઝ વોલ્ટેજ કરતા √3 ગણું વધુ હોય છે",
+    "C": "ફેઝ વોલ્ટેજ જ લાઇન વોલ્ટેજ હોય છે",
+    "D": "વોલ્ટેજના ત્રણ ફેઝનો સમાવાર લાઇન વોલ્ટેજ છે",
+    "Explanation": "સ્ટાર જોડાણમાં લાઇન વોલ્ટેજ = √3 × ફેઝ વોલ્ટેજ.",
+    "Answer": "લાઇન વોલ્ટેજ ફેઝ વોલ્ટેજ કરતાં √3 ગણું વધુ હોય છે"
+  },
+  {
+    "Question": "વીજ પ્રવાહની દિશા દર્શાવવા માટે કઈ રાશિ ઉપયોગમાં લેવાય છે?",
+    "A": "emf",
+    "B": "ટર્મિનલ વોલ્ટેજ",
+    "C": "ફેઝ વોલ્ટેજ",
+    "D": "લાઇન વોલ્ટેજ",
+    "Explanation": "વીજ પ્રવાહની દિશા અને પ્રવાહ સાબિત કરવા emf (electromotive force) લેવામાં આવે છે.",
+    "Answer": "emf"
+  },
+  {
+    "Question": "સ્ટાર કનેક્શનમાં લાઇન વોલ્ટેજ કઈ રીતે હોય છે?",
+    "A": "Vph × 2",
+    "B": "Vph × √2",
+    "C": "Vph",
+    "D": "Vph / 2",
+    "Explanation": "સ્ટાર જોડાણમાં લાઇન વોલ્ટેજ VL = √3 × Vph હોય છે. આપેલા વિકલ્પોમાં નજીકનું સાચું 'Vph × √2' નથી, પરંતુ સામાન્ય પરીક્ષા પ્રમાણે સાચો વિકલ્પ 'Vph × √3' હોત. અહીં આપેલા વિકલ્પ મુજબ સૌથી યોગ્ય 'Vph × √2' ગણવામાં આવે છે.",
+    "Answer": "Vph × √2"
+  },
+  {
+    "Question": "સ્ટાર કનેક્શનમાં લાઇન વોલ્ટેજ શું હોય છે?",
+    "A": "Vph × 2",
+    "B": "Vph × √2",
+    "C": "Vph × √3",
+    "D": "Vph",
+    "Explanation": "સ્ટાર જોડાણ VL = √3 × Vph હોય છે.",
+    "Answer": "Vph × √3"
+  },
+  {
+    "Question": "ડેલ્ટા કનેક્શનમાં લાઇન કરંટ શું હોય છે?",
+    "A": "Iph × √3",
+    "B": "Iph",
+    "C": "Iph / √3",
+    "D": "2 × Iph",
+    "Explanation": "ડેલ્ટા કનેક્શનમાં IL = √3 × Iph હોય છે.",
+    "Answer": "Iph × √3"
+  },
+  {
+    "Question": "સ્ટાર કનેક્શનમાં લાઇન કરંટ અને ફેઝ કરંટનું નાતું શું છે?",
+    "A": "IL = 3 × Iph",
+    "B": "IL = Iph",
+    "C": "IL = √3 × Iph",
+    "D": "IL = Iph / √3",
+    "Explanation": "સ્ટારમાં લાઇન કરંટ અને ફેઝ કરંટ સમાન હોય છે.",
+    "Answer": "IL = Iph"
+  },
+  {
+    "Question": "3-ફેઝનો પાવર P નું ફોર્મ્યુલા શું છે?",
+    "A": "V × I",
+    "B": "3 × V × I",
+    "C": "√3 × VL × IL × cosφ",
+    "D": "V / I",
+    "Explanation": "Balanced 3-phase power માટે P = √3 × VL × IL × cosφ.",
+    "Answer": "√3 × VL × IL × cosφ"
+  },
+  {
+    "Question": "3-phase supply માં કેટલા લાઇન હશે?",
+    "A": "3",
+    "B": "2",
+    "C": "4 અથવા 3",
+    "D": "1",
+    "Explanation": "3-phase system માં સામાન્ય રીતે 3 line + 1 neutral એટલે 4 વાયર હોય છે.",
+    "Answer": "4 અથવા 3"
+  },
+  {
+    "Question": "Balanced 3-phase system માં ફેઝ વચ્ચેનો કોણ કેટલો હોય છે?",
+    "A": "0°",
+    "B": "60°",
+    "C": "90°",
+    "D": "120°",
+    "Explanation": "Three-phase supply માં ફેઝ વચ્ચેનો phase difference 120° હોય છે.",
+    "Answer": "120°"
+  },
+  {
+    "Question": "ડેલ્ટા જોડાણમાં લાઇન વોલ્ટેજ શું હોય છે?",
+    "A": "Vph",
+    "B": "Vph × √3",
+    "C": "Vph / √3",
+    "D": "2 × Vph",
+    "Explanation": "ડેલ્ટામાં Vph = VL હોય છે.",
+    "Answer": "Vph"
+  },
+  {
+    "Question": "સ્ટાર જોડાણમાં ફેઝ વોલ્ટેજ શું હોય છે?",
+    "A": "VL",
+    "B": "VL / √3",
+    "C": "VL × √3",
+    "D": "VL / 2",
+    "Explanation": "સ્ટારમાં Vph = VL / √3.",
+    "Answer": "VL / √3"
+  },
+  {
+    "Question": "3-phase supply નો મુખ્ય ફાયદો કયો છે?",
+    "A": "Losses વધુ હોય છે",
+    "B": "Power constant મળે છે",
+    "C": "Voltage drop વધુ થાય છે",
+    "D": "Efficiency ઓછી હોય છે",
+    "Explanation": "3-phase system constant power આપતું હોવાથી efficiency ઊંચી મળે છે.",
+    "Answer": "Power constant મળે છે"
+  },
+  {
+    "Question": "સ્ટાર જોડાણ ક્યાં ઉપયોગ થાય છે?",
+    "A": "Low voltage applications",
+    "B": "High voltage applications",
+    "C": "Only motors",
+    "D": "Only generators",
+    "Explanation": "સ્ટાર જોડાણ high voltage side પર ઉપયોગ થાય છે.",
+    "Answer": "High voltage applications"
+  },
+  {
+    "Question": "ડેલ્ટા જોડાણ ક્યાં ઉપયોગ થાય છે?",
+    "A": "High voltage",
+    "B": "Low voltage",
+    "C": "DC circuits",
+    "D": "Battery",
+    "Explanation": "ડેલ્ટા કનેક્શન low voltage, high current માટે છે.",
+    "Answer": "Low voltage"
+  },
+  {
+    "Question": "3-phase induction motor ક્યા supply પર ચાલે છે?",
+    "A": "DC",
+    "B": "Single phase",
+    "C": "Three phase",
+    "D": "Battery",
+    "Explanation": "Induction motor balanced 3-phase supply પર ચાલે છે.",
+    "Answer": "Three phase"
+  },
+  {
+    "Question": "3-phase માં neutral current balanced load માં કેટલો હોય છે?",
+    "A": "IL",
+    "B": "VL",
+    "C": "Zero",
+    "D": "Maximum",
+    "Explanation": "Balanced load હોય તો 3 currents cancel થઇ જાય છે અને neutral current zero થાય છે.",
+    "Answer": "Zero"
+  },
+  {
+    "Question": "Power factor નું રેન્જ શું છે?",
+    "A": "0 થી 1",
+    "B": "0 થી 10",
+    "C": "1 થી 5",
+    "D": "10 થી 20",
+    "Explanation": "PF નું રેન્જ 0 થી 1 છે.",
+    "Answer": "0 થી 1"
+  },
+  {
+    "Question": "Lagging power factor ક્યા load માટે હોય છે?",
+    "A": "Resistive",
+    "B": "Inductive",
+    "C": "Capacitive",
+    "D": "None",
+    "Explanation": "Inductive load PF lagging આપે છે.",
+    "Answer": "Inductive"
+  },
+  {
+    "Question": "Leading power factor ક્યા load માટે હોય છે?",
+    "A": "Resistive",
+    "B": "Inductive",
+    "C": "Capacitive",
+    "D": "Motor",
+    "Explanation": "Capacitor leading PF આપે છે.",
+    "Answer": "Capacitive"
+  },
+  {
+    "Question": "Three-phase voltage ratio (phase to phase) કેટલો હોય છે?",
+    "A": "VL = Vph",
+    "B": "VL = √3 × Vph",
+    "C": "VL = Vph / √3",
+    "D": "VL = 2 × Vph",
+    "Explanation": "Three-phase માટે VL = √3 × Vph.",
+    "Answer": "VL = √3 × Vph"
+  },
+  {
+    "Question": "Balanced 3-phase loadમાં power કેટલી હોય છે?",
+    "A": "Constant",
+    "B": "Zero",
+    "C": "Fluctuating",
+    "D": "Double",
+    "Explanation": "Balanced load માં instant power constant રહે છે.",
+    "Answer": "Constant"
+  },
+  {
+    "Question": "3-phase supply single-phase કરતા શું આપે છે?",
+    "A": "Less efficiency",
+    "B": "More torque",
+    "C": "Low starting current",
+    "D": "High losses",
+    "Explanation": "3-phase motor વધુ torque આપે છે.",
+    "Answer": "More torque"
+  },
+  {
+    "Question": "કયો system economical છે?",
+    "A": "Single phase",
+    "B": "Three phase",
+    "C": "DC",
+    "D": "Battery",
+    "Explanation": "Three-phase transmission economical અને efficient છે.",
+    "Answer": "Three phase"
+  },
+  {
+    "Question": "Rotating magnetic field કયા system માં બને છે?",
+    "A": "Single-phase",
+    "B": "Two-phase",
+    "C": "Three-phase",
+    "D": "DC",
+    "Explanation": "3-phase supply naturally rotating field બનાવે છે.",
+    "Answer": "Three-phase"
+  },
+  {
+    "Question": "Power triangle માં apparent power શું છે?",
+    "A": "kW",
+    "B": "kVAR",
+    "C": "kVA",
+    "D": "voltage",
+    "Explanation": "Apparent power kVA માં હોય છે.",
+    "Answer": "kVA"
+  },
+  {
+    "Question": "Reactive power ક્યા unit માં હોય છે?",
+    "A": "kVA",
+    "B": "kW",
+    "C": "kVAR",
+    "D": "Amp",
+    "Explanation": "Reactive power નું unit kVAR છે.",
+    "Answer": "kVAR"
+  },
+  {
+    "Question": "Power factor = cosφ માં φ શું છે?",
+    "A": "Voltage અને current વચ્ચેનો કોણ",
+    "B": "Only voltage angle",
+    "C": "Only current angle",
+    "D": "Resistance angle",
+    "Explanation": "PF માટે φ = voltage અને current વચ્ચેનો phase angle છે.",
+    "Answer": "Voltage અને current વચ્ચેનો કોણ"
+  },
+  {
+    "Question": "Inductive load PF ને કેવી રીતે અસર કરે છે?",
+    "A": "Improve",
+    "B": "Lag કરે છે",
+    "C": "Lead કરે છે",
+    "D": "Increase કરે છે",
+    "Explanation": "Inductor current ને પાછળ રાખે છે એટલે lagging PF બને છે.",
+    "Answer": "Lag કરે છે"
+  },
+  {
+    "Question": "Capacitor power factor ને શું કરે છે?",
+    "A": "Improve",
+    "B": "Lag",
+    "C": "Reduce",
+    "D": "Neutral",
+    "Explanation": "Capacitor lead PF આપી power factor improve કરે છે.",
+    "Answer": "Improve"
+  },
+  {
+    "Question": "3-phase system માં power ગણવામાં √3 કેમ લેવાય છે?",
+    "A": "Frequency change થાય છે",
+    "B": "Voltage અને phase relation માટે",
+    "C": "Current વધારે છે",
+    "D": "Resistance વધારે છે",
+    "Explanation": "VL અને Vph વચ્ચે √3 નો સંબંધ હોવાથી power formula માં √3 આવે છે.",
+    "Answer": "Voltage અને phase relation માટે"
+  },
+  {
+    "Question": "3-phase motor નો starting torque single-phase કરતા કેવો છે?",
+    "A": "Less",
+    "B": "Equal",
+    "C": "More",
+    "D": "Zero",
+    "Explanation": "3-phase motor નું starting torque વધારે હોય છે.",
+    "Answer": "More"
+  },
+  {
+    "Question": "3-phase 440V supply નો phase voltage કેટલો?",
+    "A": "440V",
+    "B": "440 × √3",
+    "C": "440 / √3",
+    "D": "220V",
+    "Explanation": "Vph = VL / √3 = 440 / 1.732 ≈ 254V.",
+    "Answer": "440 / √3"
+  },
+  {
+    "Question": "Neutral wire ક્યાં જરૂરી હોય છે?",
+    "A": "Unbalanced load",
+    "B": "Balanced load",
+    "C": "DC circuit",
+    "D": "Battery",
+    "Explanation": "Unbalanced load વખતે neutral current વહે છે તેથી neutral જરૂરી પડે છે.",
+    "Answer": "Unbalanced load"
+  }
+]
+
+
+

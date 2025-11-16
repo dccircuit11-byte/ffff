@@ -1,0 +1,272 @@
+[
+  {
+    "Question": "AC supply માં frequency શું દર્શાવે છે?",
+    "A": "Voltage",
+    "B": "Current",
+    "C": "Per second cycles",
+    "D": "Resistance",
+    "Explanation": "Frequency એટલે 1 સેકન્ડમાં થતા cycle ની સંખ્યા.",
+    "Answer": "Per second cycles"
+  },
+  {
+    "Question": "ભારતમાં AC supply ની frequency કેટલી છે?",
+    "A": "25 Hz",
+    "B": "100 Hz",
+    "C": "60 Hz",
+    "D": "50 Hz",
+    "Explanation": "ભારતમાં 50 Hz ની AC supply આપવામાં આવે છે.",
+    "Answer": "50 Hz"
+  },
+  {
+    "Question": "AC voltage નો RMS value શું છે?",
+    "A": "Vmax × 2",
+    "B": "Vmax / √2",
+    "C": "2 × Vmax",
+    "D": "Vmax × √3",
+    "Explanation": "RMS = Vmax / √2.",
+    "Answer": "Vmax / √2"
+  },
+  {
+    "Question": "AC current નો peak value 10A હોય તો RMS value કેટલો?",
+    "A": "7.07 A",
+    "B": "10 A",
+    "C": "14 A",
+    "D": "5 A",
+    "Explanation": "I(RMS) = Imax / √2 = 10 / 1.414 = 7.07 A.",
+    "Answer": "7.07 A"
+  },
+  {
+    "Question": "Purely resistive circuit માં current voltage ની સામે શું કરે છે?",
+    "A": "Lag",
+    "B": "Lead",
+    "C": "Same phase",
+    "D": "Opposite phase",
+    "Explanation": "Resistor માં voltage અને current same phase માં રહે છે.",
+    "Answer": "Same phase"
+  },
+  {
+    "Question": "Inductive circuit માં current શું કરે છે?",
+    "A": "Lead કરે છે",
+    "B": "Lag કરે છે",
+    "C": "Same રહે છે",
+    "D": "Zero થાય છે",
+    "Explanation": "Inductor current ને voltage કરતા પાછળ રાખે છે એટલે lag કરે છે.",
+    "Answer": "Lag કરે છે"
+  },
+  {
+    "Question": "Capacitive circuit માં current શું કરે છે?",
+    "A": "Lag કરે છે",
+    "B": "Lead કરે છે",
+    "C": "Zero",
+    "D": "Opposite phase",
+    "Explanation": "Capacitor current ને voltage કરતા આગળ રાખે છે એટલે lead કરે છે.",
+    "Answer": "Lead કરે છે"
+  },
+  {
+    "Question": "Power factor નું value શું હોઈ શકે?",
+    "A": "0 થી 1",
+    "B": "0 થી 10",
+    "C": "1 થી 5",
+    "D": "10 થી 20",
+    "Explanation": "PF નું રેન્જ 0 થી 1 હોય છે.",
+    "Answer": "0 થી 1"
+  },
+  {
+    "Question": "Power factor = ?",
+    "A": "sinφ",
+    "B": "tanφ",
+    "C": "cosφ",
+    "D": "φ × V",
+    "Explanation": "Power factor = cosφ છે.",
+    "Answer": "cosφ"
+  },
+  {
+    "Question": "AC circuit માં apparent power કયામાં માપાય છે?",
+    "A": "kW",
+    "B": "kVA",
+    "C": "kVAR",
+    "D": "Amp",
+    "Explanation": "Apparent power નું unit kVA છે.",
+    "Answer": "kVA"
+  },
+  {
+    "Question": "AC circuit માં real power કયું?",
+    "A": "kW",
+    "B": "kVA",
+    "C": "Amp",
+    "D": "Volt",
+    "Explanation": "Real power watt અથવા kW માં હોય છે.",
+    "Answer": "kW"
+  },
+  {
+    "Question": "Reactive power નો unit શું છે?",
+    "A": "Watt",
+    "B": "Volt",
+    "C": "kVAR",
+    "D": "Ohm",
+    "Explanation": "Reactive power નું unit kVAR છે.",
+    "Answer": "kVAR"
+  },
+  {
+    "Question": "AC circuit માં impedance Z શું કહે છે?",
+    "A": "Voltage",
+    "B": "Resistance + Reactance નો સંયુક્ત પ્રભાવ",
+    "C": "Current",
+    "D": "Power",
+    "Explanation": "Impedance એટલે resistance અને reactance નો મળેલ વિરોધ.",
+    "Answer": "Resistance + Reactance નો સંયુક્ત પ્રભાવ"
+  },
+  {
+    "Question": "Inductive reactance નું formula શું?",
+    "A": "1 / 2πfC",
+    "B": "2πfL",
+    "C": "2πfR",
+    "D": "R / L",
+    "Explanation": "Inductive reactance XL = 2πfL.",
+    "Answer": "2πfL"
+  },
+  {
+    "Question": "Capacitive reactance નું formula શું?",
+    "A": "2πfL",
+    "B": "R × L",
+    "C": "1 / 2πfC",
+    "D": "C × R",
+    "Explanation": "Capacitive reactance XC = 1 / 2πfC.",
+    "Answer": "1 / 2πfC"
+  },
+  {
+    "Question": "Power factor 1 હોય ત્યારે કયું load હોય?",
+    "A": "Pure inductive",
+    "B": "Pure capacitive",
+    "C": "Pure resistive",
+    "D": "No load",
+    "Explanation": "Pure Resistive load PF = 1 આપે છે.",
+    "Answer": "Pure resistive"
+  },
+  {
+    "Question": "AC circuit માં current zero કેમ થાય છે?",
+    "A": "Resistance zero",
+    "B": "Reactance કારણે",
+    "C": "Frequency વધી જાય એટલે",
+    "D": "Voltage zero",
+    "Explanation": "Voltage sinusoidal હોવાથી કેટલીક ક્ષણોએ current zero થાય છે.",
+    "Answer": "Voltage zero"
+  },
+  {
+    "Question": "AC waveform કયા shapeની હોય છે?",
+    "A": "Rectangular",
+    "B": "Sinusoidal",
+    "C": "Square",
+    "D": "Constant",
+    "Explanation": "AC supply sinusoidal waveform આપે છે.",
+    "Answer": "Sinusoidal"
+  },
+  {
+    "Question": "Voltage form V(t)=Vmax sinωt માં ω શું છે?",
+    "A": "Power",
+    "B": "Angular frequency",
+    "C": "Current",
+    "D": "Impedance",
+    "Explanation": "ω = angular frequency = 2πf.",
+    "Answer": "Angular frequency"
+  },
+  {
+    "Question": "Phase difference ક્યાં unit માં માપાય છે?",
+    "A": "Amp",
+    "B": "Volt",
+    "C": "Radian અથવા Degree",
+    "D": "Watt",
+    "Explanation": "Phase difference degree અથવા radian માં થાય છે.",
+    "Answer": "Radian અથવા Degree"
+  },
+  {
+    "Question": "AC circuit માં transformer કેમ વાપરાય છે?",
+    "A": "Frequency વધારવા",
+    "B": "Frequency ઘટાડવા",
+    "C": "Voltage step-up/step-down કરવા",
+    "D": "DC બનાવવા",
+    "Explanation": "Transformer voltage change કરવા ઉપયોગી છે.",
+    "Answer": "Voltage step-up/step-down કરવા"
+  },
+  {
+    "Question": "AC supply DC માં ફેરવવા કયું device વપરાય છે?",
+    "A": "Transformer",
+    "B": "Rectifier",
+    "C": "Inductor",
+    "D": "Capacitor",
+    "Explanation": "Rectifier AC ને DC માં બદલે છે.",
+    "Answer": "Rectifier"
+  },
+  {
+    "Question": "AC circuit માં power factor improve કરવા શું વપરાય છે?",
+    "A": "Inductor",
+    "B": "Transformer",
+    "C": "Capacitor",
+    "D": "Resistor",
+    "Explanation": "Capacitor PF improve કરવા ઉપયોગી છે.",
+    "Answer": "Capacitor"
+  },
+  {
+    "Question": "Reactance વખતે power શું થાય છે?",
+    "A": "Increase",
+    "B": "Decrease",
+    "C": "Zero",
+    "D": "Constant",
+    "Explanation": "Reactance real power નું consumption નથી કરતી.",
+    "Answer": "Zero"
+  },
+  {
+    "Question": "AC circuit માં average power શું છે?",
+    "A": "Vmax × Imax",
+    "B": "Vrms × Irms × cosφ",
+    "C": "V × I",
+    "D": "Zero always",
+    "Explanation": "Average power = Vrms × Irms × cosφ.",
+    "Answer": "Vrms × Irms × cosφ"
+  },
+  {
+    "Question": "XL > XC હોય તો circuit કયું કહેવાય?",
+    "A": "Capacitive",
+    "B": "Resistive",
+    "C": "Inductive",
+    "D": "Balanced",
+    "Explanation": "XL વધુ હોય એટલે circuit inductive બને છે.",
+    "Answer": "Inductive"
+  },
+  {
+    "Question": "XC > XL હોય તો circuit કયું કહેવાય?",
+    "A": "Inductive",
+    "B": "Capacitive",
+    "C": "Resistive",
+    "D": "Short circuit",
+    "Explanation": "XC વધુ એટલે capacitive circuit.",
+    "Answer": "Capacitive"
+  },
+  {
+    "Question": "Impedance Z = ?",
+    "A": "R + XL",
+    "B": "√(R² + X²)",
+    "C": "R × X",
+    "D": "R - X",
+    "Explanation": "Impedance = √(R² + X²).",
+    "Answer": "√(R² + X²)"
+  },
+  {
+    "Question": "Power factor lagging ક્યાં load માં થાય?",
+    "A": "Capacitive",
+    "B": "Inductive",
+    "C": "Resistive",
+    "D": "Short",
+    "Explanation": "Inductive load lagging PF આપે છે.",
+    "Answer": "Inductive"
+  },
+  {
+    "Question": "Power factor leading ક્યાં load માં થાય?",
+    "A": "Inductive",
+    "B": "Resistive",
+    "C": "Capacitive",
+    "D": "Open circuit",
+    "Explanation": "Capacitor current lead કરાવે છે.",
+    "Answer": "Capacitive"
+  }
+]
