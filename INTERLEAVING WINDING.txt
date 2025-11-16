@@ -1,0 +1,52 @@
+[
+  {
+    "Question": "Interleaving windingનો મુખ્ય હેતુ શું છે?",
+    "A": "વજન વધારવું",
+    "B": "લીકેજ રિએક્ટન્સ ઘટાડવું",
+    "C": "કોર લોસ વધારવું",
+    "D": "ઓઇલ લેવલ માપવું",
+    "Answer": "લીકેજ રિએક્ટન્સ ઘટાડવું",
+    "Image": 1,
+    "Explaination": "Interleaving winding હાઈ વોલ્ટેજ ટ્રાન્સફોર્મરમાં લીકેજ રિએક્ટન્સ ઘટાડે છે."
+  },
+  {
+    "Question": "Interleaving winding ખાસ કરીને ક્યાં વપરાય છે?",
+    "A": "Low voltage transformer",
+    "B": "Power transformer",
+    "C": "Auto transformer",
+    "D": "Pulse transformer",
+    "Answer": "Power transformer",
+    "Image": 1,
+    "Explaination": "હાઈ વોલ્ટેજ અને પાવર ટ્રાન્સફોર્મરમાં Interleaving winding વપરાય છે."
+  },
+  {
+    "Question": "Interleaving winding માં Primary અને Secondary winding કેવી રીતે રાખવામાં આવે છે?",
+    "A": "એક તરફ",
+    "B": "એક બાદ એક layer માં",
+    "C": "વિસ્તૃત અંતરે",
+    "D": "કોરની બહાર",
+    "Answer": "એક બાદ એક layer માં",
+    "Image": 1,
+    "Explaination": "Interleaving windingમાં primary અને secondary layers alternate રીતે wound થાય છે."
+  },
+  {
+    "Question": "Interleaving windingનો મુખ્ય ફાયદો શું છે?",
+    "A": "Cooling વધે છે",
+    "B": "Voltage regulation સુધરે છે",
+    "C": "Flux leakage વધે છે",
+    "D": "Weight વધે છે",
+    "Answer": "Voltage regulation સુધરે છે",
+    "Image": 1,
+    "Explaination": "Leakage reactance ઓછું થતા Voltage regulation સુધારે છે."
+  },
+  {
+    "Question": "Interleaving winding થી કયા પ્રકારનું fault probability ઘટે છે?",
+    "A": "Mechanical fault",
+    "B": "Inter-turn insulation failure",
+    "C": "Oil leakage",
+    "D": "Cooling failure",
+    "Answer": "Inter-turn insulation failure",
+    "Image": 1,
+    "Explaination": "Interleaving arrangement થી winding stress ઓછો થાય છે અને insulation failure probability ઓછું થાય છે."
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "Question": "ટ્રાન્સફોર્મર કયા સિદ્ધાંત પર કામ કરે છે?",
+    "A": "સેલ્ફ ઇન્ડક્શન",
+    "B": "મ્યુચ્યુઅલ ઇન્ડક્શન",
+    "C": "ઇલેક્ટ્રોસ્ટેટિક ઇન્ડક્શન",
+    "D": "ફ્લેમ ઇફેક્ટ",
+    "Answer": "મ્યુચ્યુઅલ ઇન્ડક્શન",
+    "Image": 1,
+    "Explaination": "ટ્રાન્સફોર્મર મ્યુચ્યુઅલ ઇન્ડક્શનના સિદ્ધાંત પર કામ કરે છે."
+  },
+  {
+    "Question": "ટ્રાન્સફોર્મરમાં Energyનું રૂપાંતરણ શું થાય છે?",
+    "A": "Electrical થી Mechanical",
+    "B": "AC વોલ્ટેજ લેવલ બદલે છે",
+    "C": "DC થી AC",
+    "D": "Chemical થી Electrical",
+    "Answer": "AC વોલ્ટેજ લેવલ બદલે છે",
+    "Image": 1,
+    "Explaination": "ટ્રાન્સફોર્મર માત્ર AC વોલ્ટેજ લેવલ વધારે કે ઓછું કરે છે."
+  },
+  {
+    "Question": "ટ્રાન્સફોર્મર કઈ Supply પર કામ કરે છે?",
+    "A": "DC",
+    "B": "AC",
+    "C": "Both",
+    "D": "None",
+    "Answer": "AC",
+    "Image": 1,
+    "Explaination": "DC માં ફ્લક્સ ફેરફાર ન થવાથી ટ્રાન્સફોર્મર કાર્ય નથી કરતું."
+  },
+  {
+    "Question": "ટ્રાન્સફોર્મરમાં ફ્લક્સ ક્યાં produce થાય છે?",
+    "A": "ઓઇલ",
+    "B": "કોર",
+    "C": "ટૅન્ક",
+    "D": "ઇન્સ્યુલેશન",
+    "Answer": "કોર",
+    "Image": 1,
+    "Explaination": "AC current પ્રાથમિક વડે પસાર થાય ત્યારે કોરમાં alternating ફ્લક્સ ઉત્પન્ન થાય છે."
+  },
+  {
+    "Question": "સેકન્ડરી વાઇન્ડિંગમાં EMF કેવી રીતે જનરેટ થાય છે?",
+    "A": "ડાયરેક્ટ supplyથી",
+    "B": "ફેરફારતા ફ્લક્સથી induce EMF",
+    "C": "સ્ટેટિક ચાર્જથી",
+    "D": "મેગ્નેટિક બ્લોકથી",
+    "Answer": "ફેરફારતા ફ્લક્સથી induce EMF",
+    "Image": 1,
+    "Explaination": "મ્યુચ્યુઅલ ઇન્ડક્શનના કારણે સેકન્ડરીમાં EMF induce થાય છે."
+  },
+  {
+    "Question": "કયા ટ્રાન્સફોર્મર વોલ્ટેજ વધારે કરે છે?",
+    "A": "Step-Down",
+    "B": "Step-Up",
+    "C": "Auto Transformer",
+    "D": "Isolation",
+    "Answer": "Step-Up",
+    "Image": 1,
+    "Explaination": "Step-Up transformer સેકન્ડરી વોલ્ટેજ વધારવા કાર્ય કરે છે."
+  },
+  {
+    "Question": "જો પ્રાથમિક ટર્ન્સ વધારે હોય અને સેકન્ડરી ટર્ન્સ ઓછા હોય તો તે કયો ટ્રાન્સફોર્મર?",
+    "A": "Step-Up",
+    "B": "Step-Down",
+    "C": "Isolation",
+    "D": "Pulse",
+    "Answer": "Step-Down",
+    "Image": 1,
+    "Explaination": "પ્રાથમિક ટર્ન્સ વધારે હોય તો સેકન્ડરી વોલ્ટેજ ઓછું બને."
+  },
+  {
+    "Question": "ટ્રાન્સફોર્મર DC પર કેમ કામ નથી કરતી?",
+    "A": "કન્ડક્ટર તૂટે છે",
+    "B": "ફ્લક્સ બદલાતો નથી",
+    "C": "ઓઇલ ગરમ થાય છે",
+    "D": "ઇલેક્ટ્રિક આર્ક થાય છે",
+    "Answer": "ફ્લક્સ બદલાતો નથી",
+    "Image": 1,
+    "Explaination": "DC માં ફ્લક્સ constant રહે એટલે EMF ઉત્પન્ન નથી થતું."
+  },
+  {
+    "Question": "ટ્રાન્સફોર્મરની વધુ કાર્યક્ષમતા ક્યાં મળે છે?",
+    "A": "No Load",
+    "B": "Half Load",
+    "C": "Full Load",
+    "D": "Over Load",
+    "Answer": "Full Load",
+    "Image": 1,
+    "Explaination": "Full Load પર core loss અને copper loss balance થાય છે."
+  },
+  {
+    "Question": "No-load current નું મુખ્ય કાર્ય શું છે?",
+    "A": "કોર લોસ પૂરા કરવો",
+    "B": "કોપર લોસ વધારવું",
+    "C": "વોલ્ટેજ વધારવું",
+    "D": "ઓઇલ ગરમ કરવું",
+    "Answer": "કોર લોસ પૂરા કરવો",
+    "Image": 1,
+    "Explaination": "No-load current મુખ્યત્વે core flux બનાવવા અને core loss meet કરવા કામ કરે છે."
+  },
+
+  {
+    "Question": "Turn Ratio એટલે શું?",
+    "A": "વોલ્ટેજનો અનુપાત",
+    "B": "ટર્ન્સનો અનુપાત",
+    "C": "લોડનો અનુપાત",
+    "D": "કોર સાઇઝ",
+    "Answer": "ટર્ન્સનો અનુપાત",
+    "Image": 1,
+    "Explaination": "Turn Ratio = N1 / N2 (Primary turns / Secondary turns)"
+  },
+  {
+    "Question": "Voltage Transformation Ratio (VTR) કઈ રીતે કાઢી શકાય?",
+    "A": "V1 × V2",
+    "B": "V2 / V1",
+    "C": "N1 / N2",
+    "D": "Both B & C",
+    "Answer": "Both B & C",
+    "Image": 1,
+    "Explaination": "Transformer ratio V2/V1 = N2/N1"
+  },
+  {
+    "Question": "જો N1 = 500 અને N2 = 100 હોય તો transformer કયો છે?",
+    "A": "Step-Up",
+    "B": "Step-Down",
+    "C": "Isolation",
+    "D": "Auto",
+    "Answer": "Step-Down",
+    "Image": 1,
+    "Explaination": "Primary turns વધારે એટલે સેકન્ડરી વોલ્ટેજ ઓછું બનશે."
+  },
+  {
+    "Question": "જો V1 = 200V અને V2 = 100V હોય તો ratio કેટલો?",
+    "A": "1:2",
+    "B": "2:1",
+    "C": "5:1",
+    "D": "1:5",
+    "Answer": "2:1",
+    "Image": 1,
+    "Explaination": "V1/V2 = 200/100 = 2:1"
+  },
+  {
+    "Question": "Step-Up transformer માં કયું વધારે હોય છે?",
+    "A": "N1",
+    "B": "N2",
+    "C": "V1",
+    "D": "R1",
+    "Answer": "N2",
+    "Image": 1,
+    "Explaination": "Step-up transformer માં સેકન્ડરી ટર્ન્સ (N2) વધારે હોય છે."
+  },
+  {
+    "Question": "Turn Ratio 1:1 હોય તો transformer કયો?",
+    "A": "Step-Up",
+    "B": "Step-Down",
+    "C": "Isolation",
+    "D": "Auto",
+    "Answer": "Isolation",
+    "Image": 1,
+    "Explaination": "Isolation transformer વોલ્ટેજ બદલે નહીં, માત્ર isolation આપે છે."
+  },
+  {
+    "Question": "જો N2/N1 = 3 હોય તો transformer શું કરશે?",
+    "A": "વોલ્ટેજ ઘટાડશે",
+    "B": "વોલ્ટેજ વધારશે",
+    "C": "કરંટ same રાખશે",
+    "D": "Loss ઘટાડશે",
+    "Answer": "વોલ્ટેજ વધારશે",
+    "Image": 1,
+    "Explaination": "Turn ratio વધારે એટલે step-up transformer."
+  },
+  {
+    "Question": "Transformer ratio કઈ quantity પર નિર્ભર છે?",
+    "A": "Core material",
+    "B": "Turns ratio",
+    "C": "Oil type",
+    "D": "Temperature",
+    "Answer": "Turns ratio",
+    "Image": 1,
+    "Explaination": "Transformer voltage ratio turns ratio પર આધારિત રહે છે."
+  },
+  {
+    "Question": "જો V2 > V1 હોય તો કયો transformer?",
+    "A": "Step-Down",
+    "B": "Isolation",
+    "C": "Step-Up",
+    "D": "Pulse",
+    "Answer": "Step-Up",
+    "Image": 1,
+    "Explaination": "સેકન્ડરી વોલ્ટેજ વધારે એટલે Step-Up transformer."
+  },
+  {
+    "Question": "ટર્ન્સ ઓછા અને વોલ્ટેજ વધારે — ક્યાં જોવા મળે?",
+    "A": "Step-Down",
+    "B": "Step-Up",
+    "C": "Stabilizer",
+    "D": "Inverter",
+    "Answer": "Step-Up",
+    "Image": 1,
+    "Explaination": "Step-up transformer માં voltage વધે છે અને current ઘટે છે."
+  }
+]
+

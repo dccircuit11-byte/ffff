@@ -1,0 +1,52 @@
+[
+  {
+    "Question": "ટ્રાન્સફોર્મરની અફિસિયન્સીનું ફોર્મૂલા શું છે?",
+    "A": "Output / Input",
+    "B": "Input / Output",
+    "C": "Loss × Output",
+    "D": "V × I",
+    "Answer": "Output / Input",
+    "Image": 1,
+    "Explaination": "ટ્રાન્સફોર્મરની અફિસિયન્સી = Output Power / Input Power."
+  },
+  {
+    "Question": "ટ્રાન્સફોર્મરમાં કયા δύο લોસ અફિસિયન્સી ઘટાડે છે?",
+    "A": "Mechanical અને Friction loss",
+    "B": "Core loss અને Copper loss",
+    "C": "Voltage loss અને Current loss",
+    "D": "Power loss અને Time loss",
+    "Answer": "Core loss અને Copper loss",
+    "Image": 1,
+    "Explaination": "ટ્રાન્સફોર્મરમાં મુખ્ય Core Loss અને Copper Lossના કારણે અફિસિયન્સી ઘટે છે."
+  },
+  {
+    "Question": "ટ્રાન્સફોર્મરની સૌથી વધુ અફિસિયન્સી ક્યારે મળે છે?",
+    "A": "Half Load",
+    "B": "No Load",
+    "C": "Full Load",
+    "D": "Core Saturation",
+    "Answer": "Full Load",
+    "Image": 1,
+    "Explaination": "Full Load પર Copper Loss અને Core Loss balance થાય છે તેથી અફિસિયન્સી વધુ હોય છે."
+  },
+  {
+    "Question": "કોર લોસ પર કઈ વસ્તુ અસર કરે છે?",
+    "A": "Load",
+    "B": "Voltage",
+    "C": "Frequency",
+    "D": "Both Voltage & Frequency",
+    "Answer": "Both Voltage & Frequency",
+    "Image": 1,
+    "Explaination": "Core Loss voltage અને frequency પર આધારિત હોય છે, load પર નહીં."
+  },
+  {
+    "Question": "Copper loss કઈ વસ્તુ પર આધારિત છે?",
+    "A": "Temperature only",
+    "B": "Frequency only",
+    "C": "Current squared (I²R)",
+    "D": "Voltage squared",
+    "Answer": "Current squared (I²R)",
+    "Image": 1,
+    "Explaination": "Copper Loss = I²R એટલે current વધે તો copper loss ઝડપથી વધે છે."
+  }
+]
