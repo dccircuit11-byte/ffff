@@ -366,7 +366,7 @@
     "C": "dy1",
     "D": "dd11",
     "Answer": "Dy1",
-    "Image": 1,
+    "Image": "https://drive.google.com/uc?export=download&id=1PAGevuWEmBEXpTU8fQ3CJwSDCiepHMJF",
     "Explaination": "પ્રાઇમરી હંમેશા કેપિટલ અક્ષર હોય અટકે પેલા હંમેશા કેપિટલ અક્ષર આવશે પેલા D આવશે એટલે ઓપ્શન a અને b માંથી હોય શકે 30 ડિગ્રી ગાડીલાય ના કટા ની 1 વાગ તરફ che એટલે Dy1 આવશે "
   },
   {
