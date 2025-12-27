@@ -796,7 +796,7 @@
     "C": "એક બેટરી સિરીઝ મા છે",
     "D": "સ્વીચ",
     "Answer": "2 કરતા વધારે બેટરી સિરીઝ માં છે ",
-    "Image": 1,
+    "Image": "https://drive.google.com/uc?export=download&id=1YPlsTQQCv4IT_xoARI1EcB3XRKPyvxEb",
     "Explaination": "વચે ડોટ વળી લાઈન છે એટલે બોવ વધારે બેટરી series માં છે"
   },
   {
