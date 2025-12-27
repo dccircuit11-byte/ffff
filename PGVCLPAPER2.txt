@@ -410,14 +410,14 @@
     "Explaination": "I એટલે Intensity of Current (વીજ પ્રવાહ). પાવર એટલે વોલ્ટેજ અને કરંટનો ગુણાકાર [9]."
   },
   {
-    "Question": "NPN અને PNP કોના પ્રકાર છે?",
-    "A": "ડાયોડ",
-    "B": "ટ્રાન્ઝિસ્ટર",
-    "C": "રેઝિસ્ટર",
-    "D": "ફ્યુઝ",
-    "Answer": "ટ્રાન્ઝિસ્ટર",
-    "Image": 1,
-    "Explaination": "ટ્રાન્ઝિસ્ટર એ ત્રણ ટર્મિનલ ધરાવતી સેમિકન્ડક્ટર સ્વીચ છે જે મુખ્યત્વે NPN અને PNP એમ બે પ્રકારમાં મળે છે [9]."
+    "Question": "નીચેની માંથી સિમ્બોલ કેનો છે",
+    "A": "NPN",
+    "B": "BPN",
+    "C": "BJT",
+    "D": "A અને C બને",
+    "Answer": "A અને C બને",
+    "Image": "https://drive.google.com/uc?export=download&id=1c7nVUAXSxvmyhQLtz9TZoE6GbeU8cqmp",
+    "Explaination": "NPN ટ્રાન્ઝિસ્ટર નો છે અને NPN ટ્રાન્ઝિસ્ટર જ bjt નો પ્રકાર છે અટકે a અને C બને આવશે"
   },
   {
     "Question": "ટ્રાન્સફોર્મરમાં કન્ઝર્વેટર (Conservator) નું કાર્ય શું છે?",
