@@ -12,9 +12,9 @@
   {
     "Question": "નીચેની સર્કિટમાં બલ્બ નો અવરોધ અને ટોટલ પ્રવાહ શોધો",
     "A": "R=25ohm અને I=2A",
-    "B": "R=25ohm અને I=2A",
-    "C": "R=25ohm અને I=2A",
-    "D": "R=25ohm અને I=2A",
+    "B": "R=25ohm અને I=3A",
+    "C": "R=25ohm અને I=4A",
+    "D": "R=250ohm અને I=2A",
     "Answer": "R=25ohm અને I=2A",
     "Image": "https://drive.google.com/uc?export=download&id=1eAKq8WHlZb2qSbQXCR0F38xP6aua7NHR",
     "Explaination": "power na સુક્ત્રો નો ઉપયોગ કરો P=vi Ane p= v^2/I [2]."
@@ -1000,3 +1000,4 @@
     "Explaination": "ટ્રાન્ઝિસ્ટરના સિમ્બોલમાં એરો હંમેશા એમીટર ટર્મિનલ પર જ હોય છે [58]."
   }
 ]
+
