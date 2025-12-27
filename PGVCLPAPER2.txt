@@ -5,8 +5,8 @@
     "B": "OR",
     "C": "NOT",
     "D": "એક પણ નહિ",
-    "Answer": "ઇલેક્ટ્રોમોટિવ ફોર્સ",
-    "Image": https://drive.google.com/uc?export=download&id=1AvE8v_ksRbJKGrUVVsworLZ6vWOzIW8z,
+    "Answer": "AND",
+    "Image": "https://drive.google.com/uc?export=download&id=1AvE8v_ksRbJKGrUVVsworLZ6vWOzIW8z",
     "Explaination": "EMF એટલે ઇલેક્ટ્રોમોટિવ ફોર્સ, જે વિદ્યુત પરિપથમાં ઇલેક્ટ્રોનને ગતિ આપવા માટે જરૂરી દબાણ પૂરું પાડે છે [1]. તે વોલ્ટેજ તરીકે પણ ઓળખાય છે અને તેનો એકમ વોલ્ટ છે."
   },
   {
