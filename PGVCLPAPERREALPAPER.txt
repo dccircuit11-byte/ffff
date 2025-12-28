@@ -516,7 +516,7 @@
     "C": "2.0 A",
     "D": "4.0 A",
     "Answer": "2.0 A",
-    "Image": 13,
+    "Image": "https://drive.google.com/uc?export=download&id=1GW9NwvUUaG0BwzpxDA-myXWMoSFSxNHm",
     "Explaination": "ઓહમના નિયમ મુજબ I = V/R. અહીં 230V / 115Ω = 2 Amps થાય [9]."
   },
   {
