@@ -316,7 +316,7 @@
     "C": "એન્વાયરમેન્ટ રક્ષણ",
     "D": "ઉપરના તમામ",
     "Answer": "ઈલેક્ટ્રીકલ ઈન્સ્યુલેશન",
-    "Image": 7,
+    "Image": "https://drive.google.com/uc?export=download&id=1ksMHiK_BiRuUzNjhtKvcy_RUzBbtqsko",
     "Explaination": "આકૃતિમાં હીટિંગ એલિમેન્ટ સપોર્ટ છે જે ઇન્સ્યુલેશન પૂરો પાડે છે [5]."
   },
   {
@@ -326,7 +326,7 @@
     "C": "11 KV AB સ્વીચ",
     "D": "MCCB",
     "Answer": "11 KV AB સ્વીચ",
-    "Image": 9,
+    "Image": "https://drive.google.com/uc?export=download&id=1XB-G1sb2P9zhgg2OrvN7Vu0I8QOE0idi",
     "Explaination": "આ 11 KV ની એર-બ્રેક (AB) સ્વીચ છે જે ટ્રાન્સફોર્મર ને આઈસોલેટ કરવા વપરાય છે [6]."
   },
   {
@@ -336,7 +336,7 @@
     "C": "સ્પાન ઓછો હોય ત્યાં",
     "D": "ઉપરના તમામ",
     "Answer": "સ્પાન વધારે હોય ત્યાં",
-    "Image": 9,
+    "Image": "https://drive.google.com/uc?export=download&id=1c0yZSbsqVQ78t0bgyT_7J11Hr-QsWrE4",
     "Explaination": "સ્ટ્રેન્ડેડ કન્ડક્ટર (ACSR) લોંગ સ્પાન ઓવરહેડ લાઈનમાં વપરાય છે [6]."
   },
   {
