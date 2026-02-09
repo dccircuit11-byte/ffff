@@ -136,7 +136,7 @@
     "C": "એવરેજ (સરેરાશ) મૂલ્ય",
     "D": "ઇન્સ્ટન્ટેનિયસ (તાત્કાલિક) મૂલ્ય",
     "Answer": "ઇન્સ્ટન્ટેનિયસ (તાત્કાલિક) મૂલ્ય",
-    "Image": "1",
+    "Image": "https://drive.google.com/uc?export=download&id=1rK7PPu1vDrNlZzT6KrbTdWsqlIgR_mKh",
     "Explaination": "ગ્રાફમાં રહેલી તૂટક રેખા તે ચોક્કસ ક્ષણનું વોલ્ટેજ એટલે કે તાત્કાલિક મૂલ્ય બતાવે છે [6]."
   },
   {
@@ -146,7 +146,7 @@
     "C": "RC ફિલ્ટર",
     "D": "ચોક ઇનપુટ LC ફિલ્ટર",
     "Answer": "સિરીઝ ઇન્ડક્ટર ફિલ્ટર",
-    "Image": "https://drive.google.com/uc?export=download&id=1rK7PPu1vDrNlZzT6KrbTdWsqlIgR_mKh",
+    "Image": "https://drive.google.com/uc?export=download&id=1mDBl5jncUPoLW5rvtrf0WoqK207L2M2E",
     "Explaination": "આ સર્કિટમાં ઇન્ડક્ટર શ્રેણીમાં જોડેલું હોવાથી તેને સિરીઝ ઇન્ડક્ટર ફિલ્ટર કહેવાય છે [7]."
   },
   {
@@ -1010,3 +1010,4 @@
     "Explaination": "આ માનવ નિર્મિત સ્થાયી ચુંબકનું ઉદાહરણ છે [Source context]."
   }
 ]
+
