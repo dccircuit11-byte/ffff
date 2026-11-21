@@ -1,0 +1,292 @@
+[
+  {
+    "Question": "A 6-pole alternator is running at 1000 RPM. What is the frequency of the generated EMF?",
+    "A": "50 Hz",
+    "B": "60 Hz",
+    "C": "40 Hz",
+    "D": "25 Hz",
+    "Answer": "50 Hz",
+    "Image": "",
+    "Explaination": "Frequency f = (P × N) / 120 = (6 × 1000) / 120 = 50 Hz."
+  },
+  {
+    "Question": "A 4-pole, 50 Hz synchronous generator has an inertia constant H = 5 MJ/MVA. What is the value of angular momentum M in MJ-s/elec. rad?",
+    "A": "0.0318",
+    "B": "0.0159",
+    "C": "0.0636",
+    "D": "0.127",
+    "Answer": "0.0318",
+    "Image": "",
+    "Explaination": "M = GH / (πf) = (1 × 5) / (π × 50) = 5 / 157.08 = 0.0318 MJ-s/elec. rad."
+  },
+  {
+    "Question": "A synchronous generator has H = 4 MJ/MVA and is connected to an infinite bus. If the mechanical power input is 1.0 p.u. and electrical power output is 0.8 p.u., what is the accelerating power?",
+    "A": "0.2 p.u.",
+    "B": "0.8 p.u.",
+    "C": "1.0 p.u.",
+    "D": "1.8 p.u.",
+    "Answer": "0.2 p.u.",
+    "Image": "",
+    "Explaination": "Accelerating power Pa = Pm - Pe = 1.0 - 0.8 = 0.2 p.u."
+  },
+  {
+    "Question": "For a cylindrical rotor generator, the maximum power transfer is 2.0 p.u. at δ = 90°. What is the steady-state stability limit in p.u.?",
+    "A": "2.0",
+    "B": "1.0",
+    "C": "0.5",
+    "D": "4.0",
+    "Answer": "2.0",
+    "Image": "",
+    "Explaination": "For a cylindrical rotor generator, the steady-state stability limit occurs at δ = 90°, where P = Pmax = 2.0 p.u."
+  },
+  {
+    "Question": "A generator is connected to an infinite bus through a transmission line with reactance X = 0.5 p.u. The generator internal voltage is E = 1.2 p.u. and the infinite bus voltage is V = 1.0 p.u. What is the maximum power transfer Pmax?",
+    "A": "2.4 p.u.",
+    "B": "1.2 p.u.",
+    "C": "0.6 p.u.",
+    "D": "3.0 p.u.",
+    "Answer": "2.4 p.u.",
+    "Image": "",
+    "Explaination": "Pmax = (|E| × |V|) / X = (1.2 × 1.0) / 0.5 = 2.4 p.u."
+  },
+  {
+    "Question": "In a power system, a 100 MVA, 11 kV generator has a reactance of 0.2 p.u. on its own base. What is the reactance on a 50 MVA, 11 kV base?",
+    "A": "0.1 p.u.",
+    "B": "0.2 p.u.",
+    "C": "0.4 p.u.",
+    "D": "0.8 p.u.",
+    "Answer": "0.4 p.u.",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/bucf78"
+  },
+  {
+    "Question": "A 3-phase, 50 Hz, 4-pole synchronous generator has an inertia constant H = 6 MJ/MVA. What is the stored kinetic energy at rated speed?",
+    "A": "6 MJ",
+    "B": "12 MJ",
+    "C": "3 MJ",
+    "D": "24 MJ",
+    "Answer": "6 MJ",
+    "Image": "",
+    "Explaination": "Stored kinetic energy = H × Rated MVA = 6 × 1 = 6 MJ (for 1 MVA base). If machine rating is 1 MVA, KE = 6 MJ."
+  },
+  {
+    "Question": "A generator has a swing equation M d²δ/dt² = Pm - Pe. If Pm = 1.0 p.u., Pe = 0.6 p.u., and M = 0.02 p.u.-s²/elec. rad, what is the initial acceleration?",
+    "A": "20 rad/s²",
+    "B": "10 rad/s²",
+    "C": "40 rad/s²",
+    "D": "5 rad/s²",
+    "Answer": "20 rad/s²",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/u3mz0l"
+  },
+  {
+    "Question": "In a power system, the critical clearing angle δcr is 60°. If the initial operating angle δ0 is 30°, what is the maximum swing angle δm for stability?",
+    "A": "120°",
+    "B": "90°",
+    "C": "150°",
+    "D": "180°",
+    "Answer": "150°",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/uugblz"
+  },
+  {
+    "Question": "A 50 MVA, 11 kV synchronous generator has a synchronous reactance of 1.0 p.u. What is the actual value of reactance in ohms?",
+    "A": "2.42 Ω",
+    "B": "1.21 Ω",
+    "C": "4.84 Ω",
+    "D": "0.605 Ω",
+    "Answer": "2.42 Ω",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/8jz5r0"
+  },
+  {
+    "Question": "A generator is delivering 1.0 p.u. power to an infinite bus at δ = 30°. If the maximum power limit is 2.0 p.u., what is the synchronizing power coefficient Psyn?",
+    "A": "1.732 p.u.",
+    "B": "1.0 p.u.",
+    "C": "0.5 p.u.",
+    "D": "2.0 p.u.",
+    "Answer": "1.732 p.u.",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/p8bly0"
+  },
+  {
+    "Question": "A 3-phase, 50 Hz, 2-pole turbo-generator has a moment of inertia J = 10,000 kg-m². What is the inertia constant H for a 100 MVA rating?",
+    "A": "2.74 MJ/MVA",
+    "B": "5.48 MJ/MVA",
+    "C": "1.37 MJ/MVA",
+    "D": "10.96 MJ/MVA",
+    "Answer": "2.74 MJ/MVA",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/hlo5u2"
+  },
+  {
+    "Question": "A 100 MVA, 13.8 kV generator has a subtransient reactance of 0.15 p.u. What is the fault MVA for a three-phase fault at the generator terminals?",
+    "A": "666.67 MVA",
+    "B": "100 MVA",
+    "C": "150 MVA",
+    "D": "15 MVA",
+    "Answer": "666.67 MVA",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/2bb1md"
+  },
+  {
+    "Question": "In a 3-phase system, the base voltage is 11 kV and base power is 100 MVA. What is the base current?",
+    "A": "5248.6 A",
+    "B": "2624.3 A",
+    "C": "10497.2 A",
+    "D": "1312.1 A",
+    "Answer": "5248.6 A",
+    "Image": "",
+    "Explaination": "Ibase = Sbase / (√3 × Vbase) = 100 × 10^6 / (√3 × 11 × 10^3) = 5248.6 A."
+  },
+  {
+    "Question": "A 50 Hz, 4-pole synchronous generator is running at 1500 RPM. What is the slip?",
+    "A": "0%",
+    "B": "2%",
+    "C": "5%",
+    "D": "1%",
+    "Answer": "0%",
+    "Image": "",
+    "Explaination": "Synchronous speed Ns = 120f/P = 120 × 50 / 4 = 1500 RPM. Since the generator runs at synchronous speed, slip = 0%."
+  },
+  {
+    "Question": "A generator has an inertia constant H = 8 MJ/MVA and is rated at 25 MVA. What is the total stored kinetic energy?",
+    "A": "200 MJ",
+    "B": "25 MJ",
+    "C": "8 MJ",
+    "D": "100 MJ",
+    "Answer": "200 MJ",
+    "Image": "",
+    "Explaination": "Total KE = H × MVA = 8 × 25 = 200 MJ."
+  },
+  {
+    "Question": "A transmission line has a reactance of 0.4 p.u. and resistance of 0.05 p.u. What is the impedance in p.u.?",
+    "A": "0.403 p.u.",
+    "B": "0.45 p.u.",
+    "C": "0.35 p.u.",
+    "D": "0.41 p.u.",
+    "Answer": "0.403 p.u.",
+    "Image": "",
+    "Explaination": "Z = √(R² + X²) = √(0.05² + 0.4²) = √(0.0025 + 0.16) = √0.1625 = 0.403 p.u."
+  },
+  {
+    "Question": "A 3-phase, 50 Hz, 6-pole induction motor runs at 960 RPM. What is the slip?",
+    "A": "4%",
+    "B": "5%",
+    "C": "3%",
+    "D": "6%",
+    "Answer": "4%",
+    "Image": "",
+    "Explaination": "Ns = 120f/P = 120 × 50 / 6 = 1000 RPM. Slip s = (Ns - N) / Ns = (1000 - 960) / 1000 = 0.04 = 4%."
+  },
+  {
+    "Question": "A generator is connected to a bus with a reactance of 0.2 p.u. and the bus voltage is 1.0 p.u. If the generator internal voltage is 1.1 p.u. and the power angle is 30°, what is the power transfer?",
+    "A": "2.75 p.u.",
+    "B": "1.375 p.u.",
+    "C": "0.55 p.u.",
+    "D": "1.1 p.u.",
+    "Answer": "2.75 p.u.",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/dneg1q"
+  },
+  {
+    "Question": "In a power system, the base impedance is 10 Ω. If the actual impedance is 20 Ω, what is the per-unit impedance?",
+    "A": "2.0 p.u.",
+    "B": "0.5 p.u.",
+    "C": "10 p.u.",
+    "D": "20 p.u.",
+    "Answer": "2.0 p.u.",
+    "Image": "",
+    "Explaination": "Zpu = Zactual / Zbase = 20 / 10 = 2.0 p.u."
+  },
+  {
+    "Question": "A 100 MVA, 11 kV generator has a reactance of 0.2 p.u. What is the reactance in ohms?",
+    "A": "0.242 Ω",
+    "B": "0.121 Ω",
+    "C": "0.484 Ω",
+    "D": "0.605 Ω",
+    "Answer": "0.242 Ω",
+    "Image": "",
+    "Explaination": "Zbase = (Vbase)² / Sbase = (11 kV)² / 100 MVA = 121 / 100 = 1.21 Ω. Xactual = Xpu × Zbase = 0.2 × 1.21 = 0.242 Ω."
+  },
+  {
+    "Question": "A 3-phase fault occurs at the terminals of a 50 MVA, 11 kV generator with a subtransient reactance of 0.2 p.u. What is the fault current in amperes?",
+    "A": "13,120 A",
+    "B": "6,560 A",
+    "C": "26,240 A",
+    "D": "3,280 A",
+    "Answer": "13,120 A",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/clgcms"
+  },
+  {
+    "Question": "In the equal area criterion, if the accelerating area is 0.5 p.u.-rad and the decelerating area is 0.6 p.u.-rad, is the system stable?",
+    "A": "Yes, because A2 > A1",
+    "B": "No, because A2 < A1",
+    "C": "Yes, because A1 > A2",
+    "D": "No, because A1 = A2",
+    "Answer": "Yes, because A2 > A1",
+    "Image": "",
+    "Explaination": "The system is stable if the decelerating area (A2) is greater than or equal to the accelerating area (A1). Here A2 = 0.6 > A1 = 0.5, so the system is stable."
+  },
+  {
+    "Question": "A synchronous generator has H = 3 MJ/MVA. What is the angular momentum M in MJ-s/elec. deg for a 50 Hz system?",
+    "A": "0.000106",
+    "B": "0.000212",
+    "C": "0.000053",
+    "D": "0.000424",
+    "Answer": "0.000106",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/n2ocos"
+  },
+  {
+    "Question": "A 3-phase, 50 Hz, 4-pole generator has a rotor inertia of 2000 kg-m². What is the inertia constant H for a 10 MVA rating?",
+    "A": "2.47 MJ/MVA",
+    "B": "4.94 MJ/MVA",
+    "C": "1.23 MJ/MVA",
+    "D": "9.88 MJ/MVA",
+    "Answer": "2.47 MJ/MVA",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/okoidd"
+  },
+  {
+    "Question": "A 50 Hz, 2-pole synchronous generator has an inertia constant H = 4 MJ/MVA. What is the value of M in MJ-s/elec. rad?",
+    "A": "0.0255",
+    "B": "0.0127",
+    "C": "0.0510",
+    "D": "0.102",
+    "Answer": "0.0255",
+    "Image": "",
+    "Explaination": "M = GH / (πf) = (1 × 4) / (π × 50) = 4 / 157.08 = 0.0255 MJ-s/elec. rad."
+  },
+  {
+    "Question": "In a short circuit study, the base voltage is 33 kV and the base power is 50 MVA. What is the base impedance?",
+    "A": "21.78 Ω",
+    "B": "10.89 Ω",
+    "C": "43.56 Ω",
+    "D": "5.45 Ω",
+    "Answer": "21.78 Ω",
+    "Image": "",
+    "Explaination": "Zbase = (Vbase)² / Sbase = (33 kV)² / 50 MVA = 1089 / 50 = 21.78 Ω."
+  },
+  {
+    "Question": "A generator is operating at δ = 45° with Pmax = 1.5 p.u. What is the synchronizing power coefficient?",
+    "A": "1.06 p.u.",
+    "B": "1.5 p.u.",
+    "C": "0.75 p.u.",
+    "D": "2.12 p.u.",
+    "Answer": "1.06 p.u.",
+    "Image": "",
+    "Explaination": "Psyn = Pmax cos δ = 1.5 × cos 45° = 1.5 × 0.707 = 1.06 p.u."
+  },
+  {
+    "Question": "A 100 MVA, 11 kV generator has a reactance of 0.1 p.u. A three-phase fault occurs at the generator terminals. What is the fault current in p.u.?",
+    "A": "10 p.u.",
+    "B": "0.1 p.u.",
+    "C": "1 p.u.",
+    "D": "100 p.u.",
+    "Answer": "10 p.u.",
+    "Image": "",
+    "Explaination": "Ifault (p.u.) = 1 / X''d = 1 / 0.1 = 10 p.u."
+  }
+]
