@@ -1,4 +1,4 @@
-// JSON 1 (Questions 1–10)
+
 [
   {
     "Question": "The transfer function of the following Bode plot represents (magnitude rises at +40 dB/dec up to ω = 10 rad/s where it reaches 100 dB, then falls at -60 dB/dec):",
