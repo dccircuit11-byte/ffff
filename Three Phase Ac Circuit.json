@@ -1,0 +1,202 @@
+[
+  {
+    "Question": "For balanced 3-phase supply system, the phasor sum of the line currents is NOT zero if the load is",
+    "A": "Balanced delta connected.",
+    "B": "Unbalanced delta connected.",
+    "C": "Balanced star connected.",
+    "D": "Unbalanced star connected.",
+    "Answer": "Unbalanced star connected.",
+    "Image": "",
+    "Explaination": "For a balanced load the three line currents are equal in magnitude and 120° apart, so their phasor sum is zero. In an unbalanced star-connected load the line currents are unequal, so their phasor sum is not zero (the difference flows through the neutral wire, or the neutral point shifts in a 3-wire system)."
+  },
+  {
+    "Question": "In a 3-phase 400 V, 4-wire system, two incandescent lamps, one having 230 V, 100 W specification and the other 230 V, 200 W are connected between R phase-neutral and Y phase-neutral respectively. If the neutral wire breaks",
+    "A": "100 W lamp will fuse first.",
+    "B": "200 W lamp will fuse first.",
+    "C": "Both the lamps will fuse together.",
+    "D": "Both the lamps will glow.",
+    "Answer": "100 W lamp will fuse first.",
+    "Image": "",
+    "Explaination": "R = V²/P. R(100 W) = 230²/100 = 529 Ω and R(200 W) = 230²/200 = 264.5 Ω. When the neutral breaks, the two lamps are in series across the 400 V line voltage. Voltage across the 100 W lamp = 400 × 529/(529+264.5) ≈ 266.7 V, which is above its 230 V rating, while the 200 W lamp gets about 133.3 V. So the 100 W lamp fuses first."
+  },
+  {
+    "Question": "A balanced 3-phase, 3-wire supply feeds balanced star connected resistors. If one of the resistors is disconnected, then the percentage reduction in load will be",
+    "A": "33.33",
+    "B": "50",
+    "C": "66.67",
+    "D": "75",
+    "Answer": "50",
+    "Image": "",
+    "Explaination": "Let line voltage = V and each resistor = R. Balanced star load: P1 = 3 × (V/√3)²/R = V²/R. After disconnecting one resistor, the other two are in series across the line voltage: P2 = V²/(2R). Reduction = (V²/R − V²/2R)/(V²/R) = 50%."
+  },
+  {
+    "Question": "Three equal impedances are first connected in delta across a 3-phase balanced supply. If the same impedances are connected in star across the same supply",
+    "A": "Phase currents will be 1/3 of the previous value.",
+    "B": "Line currents will be 1/3 of the previous value.",
+    "C": "Power consumed will be 1/3 of the previous value.",
+    "D": "Power consumed will be 3 times the previous value.",
+    "Answer": "Power consumed will be 1/3 of the previous value.",
+    "Image": "",
+    "Explaination": "Delta: Iph = VL/Z, IL = √3·VL/Z, P = 3VL²/Z (for same power-factor angle). Star: Iph = IL = VL/(√3·Z), P = VL²/Z. So power in star is 1/3 of that in delta. (Note: line current also becomes 1/3, so option B is also technically true, but the official key gives C; phase current becomes 1/√3, not 1/3.)"
+  },
+  {
+    "Question": "A 3-phase delta connected system is supplied by a line voltage of 200 V. The value of phase current is 30 A. What is the total power consumed (in kW) by the system, if the current lags the voltage by 30 degrees?",
+    "A": "16.32",
+    "B": "14.45",
+    "C": "15.59",
+    "D": "16.69",
+    "Answer": "15.59",
+    "Image": "",
+    "Explaination": "In delta, VL = Vph = 200 V and Iph = 30 A. Total power P = 3 × Vph × Iph × cosφ = 3 × 200 × 30 × cos30° = 18000 × 0.866 = 15588 W ≈ 15.59 kW."
+  },
+  {
+    "Question": "Determine the reactive power (in kVAR) of a 3-phase delta connected system having a line voltage of 400 V, line current of 40 A and the phase difference between the voltage and current is 45 degrees.",
+    "A": "14.4",
+    "B": "15.8",
+    "C": "18.7",
+    "D": "19.6",
+    "Answer": "19.6",
+    "Image": "",
+    "Explaination": "Q = √3 × VL × IL × sinφ = 1.732 × 400 × 40 × sin45° = 1.732 × 16000 × 0.7071 ≈ 19596 VAR ≈ 19.6 kVAR."
+  },
+  {
+    "Question": "The line current for a balanced delta connected system is 10 A. Calculate the value of phase current (in A).",
+    "A": "10",
+    "B": "17.32",
+    "C": "5.77",
+    "D": "11",
+    "Answer": "5.77",
+    "Image": "",
+    "Explaination": "In a balanced delta connection, IL = √3 × Iph. So Iph = IL/√3 = 10/1.732 = 5.77 A."
+  },
+  {
+    "Question": "Which of the following is NOT correct about a delta connected balanced 3-phase circuit?",
+    "A": "The phase current is less than the line current.",
+    "B": "The phase voltage is equal to the line voltage.",
+    "C": "The system does not contain a neutral point.",
+    "D": "It is a four wire system.",
+    "Answer": "It is a four wire system.",
+    "Image": "",
+    "Explaination": "A delta connection is a 3-wire system with no neutral point. In delta, Vph = VL and Iph = IL/√3 (less than line current). The four-wire system is a star connection with neutral, so statement D is wrong."
+  },
+  {
+    "Question": "What is the CORRECT expression for apparent power of a balanced 3-phase delta connected system?",
+    "A": "√3 × VL × IL × sinφ",
+    "B": "3 × VL × VL",
+    "C": "√3 × VL × IL × cosφ",
+    "D": "√3 × VL × IL",
+    "Answer": "√3 × VL × IL",
+    "Image": "",
+    "Explaination": "Apparent power S = 3·Vph·Iph = 3·VL·(IL/√3) = √3·VL·IL. Option A gives reactive power (Q) and option C gives active power (P)."
+  },
+  {
+    "Question": "What is the reactive power of a 3-phase delta connected system having a line voltage of 200 V and line current of 80 A and the phase difference between the voltage and current is 36.87 degrees?",
+    "A": "13.856 kW",
+    "B": "16.62 KVAR",
+    "C": "22.17 kW",
+    "D": "27.71 KVAR",
+    "Answer": "16.62 KVAR",
+    "Image": "",
+    "Explaination": "Q = √3 × VL × IL × sinφ = 1.732 × 200 × 80 × sin36.87° = 1.732 × 16000 × 0.6 ≈ 16627 VAR ≈ 16.62 kVAR. (Options A and C are in kW, so they cannot be reactive power.)"
+  },
+  {
+    "Question": "For a three phase system, calculate the instantaneous voltage (in V) of phase Y, if the instantaneous voltages of other two phases are +70 V and -50 V respectively.",
+    "A": "20",
+    "B": "–20",
+    "C": "60",
+    "D": "–60",
+    "Answer": "–20",
+    "Image": "",
+    "Explaination": "In a balanced 3-phase system the instantaneous voltages of the three phases always add up to zero: vR + vY + vB = 0. So the third voltage = −(70 + (−50)) = −20 V."
+  },
+  {
+    "Question": "Determine the total power (in kW) consumed by a 3-phase delta connected system supplied by a line voltage of 240 V when the value of phase current is 20 A and the current lags the voltage by 60 degree.",
+    "A": "9.4",
+    "B": "8.6",
+    "C": "8.2",
+    "D": "7.2",
+    "Answer": "7.2",
+    "Image": "",
+    "Explaination": "In delta, Vph = VL = 240 V. P = 3 × Vph × Iph × cosφ = 3 × 240 × 20 × cos60° = 14400 × 0.5 = 7200 W = 7.2 kW."
+  },
+  {
+    "Question": "What is the apparent power of a 3-phase star connected system having phase voltage of 254.05 V and line current of 10 A and the phase difference between the voltage and current is 45° degrees?",
+    "A": "5.4 kW",
+    "B": "5.4 kVA",
+    "C": "7.62 kW",
+    "D": "7.62 kVA",
+    "Answer": "7.62 kVA",
+    "Image": "",
+    "Explaination": "In star, Iph = IL = 10 A. Apparent power S = 3 × Vph × Iph = 3 × 254.05 × 10 = 7621.5 VA ≈ 7.62 kVA. Apparent power is in kVA, so kW options are ruled out."
+  },
+  {
+    "Question": "What will be the total active power (in kW) consumed by a 3-phase delta connected system which is supplied by a line voltage of 230 V, when the value of phase current is 30 A and the current lags the voltage by 45 degrees?",
+    "A": "10.25",
+    "B": "12.26",
+    "C": "14.63",
+    "D": "16.46",
+    "Answer": "14.63",
+    "Image": "",
+    "Explaination": "In delta, Vph = VL = 230 V. P = 3 × Vph × Iph × cosφ = 3 × 230 × 30 × cos45° = 20700 × 0.7071 ≈ 14636 W ≈ 14.63 kW."
+  },
+  {
+    "Question": "For a 3-phase load balanced condition, each phase has the same value of",
+    "A": "Impedance",
+    "B": "Resistance",
+    "C": "Power factor",
+    "D": "All options are correct",
+    "Answer": "All options are correct",
+    "Image": "",
+    "Explaination": "A balanced 3-phase load has identical impedance in every phase, which means the same resistance, same reactance and hence the same power factor in each phase."
+  },
+  {
+    "Question": "For the figure shown below (delta connected load of three equal resistors R1 across a 200 V line voltage), the power consumed in the load is 345 W. What is the value of line current (in A)?",
+    "A": "0.5",
+    "B": "1",
+    "C": "1.5",
+    "D": "2",
+    "Answer": "1",
+    "Image": "https://imgh.in/images/kixryx",
+    "Explaination": "The load is a balanced resistive delta load, so cosφ = 1. P = √3 × VL × IL × cosφ → IL = P/(√3 × VL) = 345/(1.732 × 200) = 345/346.4 ≈ 1 A."
+  },
+  {
+    "Question": "The total number of possible phase sequences for a three phase AC system is",
+    "A": "2",
+    "B": "3",
+    "C": "1",
+    "D": "0",
+    "Answer": "2",
+    "Image": "",
+    "Explaination": "Only two phase sequences are possible: positive sequence (R-Y-B) and negative sequence (R-B-Y)."
+  },
+  {
+    "Question": "The load of three impedances each (6 + j9) Ω is supplied through a line having an impedance of (1 + j2) Ω. The supply voltage is 400 volts 50 Hz. Determine the line current.",
+    "A": "17.7 A",
+    "B": "27.7 A",
+    "C": "47.7 A",
+    "D": "37.7 A",
+    "Answer": "17.7 A",
+    "Image": "",
+    "Explaination": "Taking the balanced load as star connected, each phase has total impedance Z = (1 + j2) + (6 + j9) = 7 + j11 Ω, |Z| = √(7² + 11²) = √170 ≈ 13.04 Ω. Phase voltage = 400/√3 ≈ 230.9 V. Line current = 230.9/13.04 ≈ 17.7 A."
+  },
+  {
+    "Question": "Which of the following conditions is TRUE for a balanced Y-network?",
+    "A": "R1 – R2 = R3 = RY",
+    "B": "R1 = 2R2 = 3R3 = RY",
+    "C": "R1 = R2 + R3",
+    "D": "R1 = R2 = R3 = RY",
+    "Answer": "R1 = R2 = R3 = RY",
+    "Image": "",
+    "Explaination": "A balanced Y (star) network has all three arms equal in resistance: R1 = R2 = R3 = RY."
+  },
+  {
+    "Question": "A 500 W discharge lamp takes a current of 4 A at unity p.f. Find the inductance of a choke required to enable the lamp to work on 250 V, 50 Hz mains.",
+    "A": "1.72 mH",
+    "B": "17.2 mH",
+    "C": "0.172 H",
+    "D": "0.172 mH",
+    "Answer": "0.172 H",
+    "Image": "",
+    "Explaination": "Lamp voltage = P/I = 500/4 = 125 V (unity p.f., purely resistive). The choke is in series and its voltage is 90° out of phase: VL = √(250² − 125²) = 216.5 V. XL = 216.5/4 = 54.13 Ω. L = XL/(2πf) = 54.13/314.16 ≈ 0.172 H."
+  }
+]
