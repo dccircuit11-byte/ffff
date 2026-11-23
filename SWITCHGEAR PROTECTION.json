@@ -1,0 +1,202 @@
+[
+  {
+    "Question": "In power system lightening arresters are used to protect the electrical equipment against:",
+    "A": "Power frequency of over voltages",
+    "B": "Direct strokes of lightning",
+    "C": "Over - current due to lightning stroke",
+    "D": "Over voltage due to indirect lightning strokes.",
+    "Answer": "Over voltage due to indirect lightning strokes.",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Understand Lightning Surge Phenomena: Lightning strikes produce traveling surge waves that propagate along overhead conductors. Direct strokes are primarily intercepted by overhead earth/shield wires, while indirect strokes (induced electrostatic charges from nearby cloud discharges) induce high-voltage traveling surges onto phase conductors.\n2. Function and Placement of Lightning Arrester (Surge Diverter): Lightning arresters are installed close to critical substation equipment (such as transformers) connected between line conductors and earth.\n3. Non-Linear Diverting Operation: Under normal system voltages, the arrester exhibits extremely high resistance (acting as an open circuit). When a steep-fronted overvoltage surge caused by indirect lightning reaches the terminal, the arrester's non-linear resistance drops to a very low value, safely discharging the surge energy to ground before it punctures equipment insulation.\n4. Conclusion: As per the official exam answer key, lightning arresters protect equipment against over voltage due to indirect lightning strokes (Option D)."
+  },
+  {
+    "Question": "The rms voltage that appears across the contact after the circuit breaker is opened is called:",
+    "A": "Recovery voltage",
+    "B": "Arc voltage",
+    "C": "Restriking voltage",
+    "D": "Surge volatge",
+    "Answer": "Restriking voltage",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Definitions of Transient Circuit Breaker Voltages: When contacts part and current is interrupted at current zero, several distinct voltage waveforms appear across the breaker gaps.\n2. Voltage Distinctions:\n   - Arc Voltage: Low in-phase voltage during the period when the electric arc persists between contacts.\n   - Restriking Voltage: High-frequency transient voltage appearing across breaker contacts immediately at and following current zero.\n   - Recovery Voltage: Normal power frequency (50 Hz) RMS voltage that appears across breaker contacts after final arc extinction has successfully taken place.\n3. Evaluation Against Source Key: In this test paper's official answer key, Choice C (Restriking voltage) is officially designated for this question.\n4. Conclusion: As per the provided source answer key, the answer is Restriking voltage (Option C)."
+  },
+  {
+    "Question": "The circuit breaker prefered when the current to be interrupted is low with high voltage arcs is:",
+    "A": "Oil circuit breaker",
+    "B": "Air break circuit breaker",
+    "C": "Minimum oil circuit breaker",
+    "D": "Vacuum circuit breaker",
+    "Answer": "Vacuum circuit breaker",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Challenges of Low Current Arc Interruption: Interrupting low inductive or capacitive currents at high voltages can cause current chopping and severe transient overvoltages across contact gaps.\n2. Dielectric Recovery in High Vacuum: In a vacuum circuit breaker (operating at 10^-5 to 10^-7 torr), the dielectric strength across parting contacts recovers at an extremely rapid rate (thousands of times faster than air or oil) immediately following current zero.\n3. Performance under High Voltage and Low Current Arcing: Because the arc consists solely of vaporized contact metal without gas ionization, the arc is diffused and extinguished smoothly without producing destructive overvoltages.\n4. Conclusion: Vacuum circuit breakers (VCBs) are preferred for low-current, high-voltage arc interruptions (Option D)."
+  },
+  {
+    "Question": "To minimize the current chopping tendency, the SF6 gas is used at:",
+    "A": "High velocity and low pressure",
+    "B": "Low velocity and low pressure",
+    "C": "High velocity and high pressure",
+    "D": "Low velocity and high pressure",
+    "Answer": "High velocity and high pressure",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Cause of Current Chopping: Current chopping occurs when the de-ionizing blast in a circuit breaker forces arc current prematurely to zero ahead of its natural power-frequency current zero.\n2. Role of SF6 Gas Properties: Sulfur hexafluoride (SF6) possesses high electronegativity (electron affinity), meaning it captures free electrons to form heavy, immobile negative ions.\n3. Gas Pressure and Flow Conditions: Operating the SF6 blast at high velocity and high pressure accelerates turbulent thermal heat extraction and ensures uniform arc resistance build-up, preventing abrupt current snap.\n4. Conclusion: As per the source test key, high velocity and high pressure are maintained to minimize current chopping (Option C)."
+  },
+  {
+    "Question": "For a short line fault without switching resistor, the most suitable circuit breaker is:",
+    "A": "Minimum oil circuit breaker",
+    "B": "SF6 circuit breaker",
+    "C": "Air blast circuit breaker",
+    "D": "None of the above",
+    "Answer": "SF6 circuit breaker",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Severity of Short-Line Faults (Kilometric Faults): A short-line fault occurring a few kilometers from substation terminals produces an extremely steep Rate of Rise of Restriking Voltage (RRRV) across breaker contacts.\n2. Limitations of Air Blast Circuit Breakers: Air blast circuit breakers (ABCBs) are sensitive to high RRRV and require opening resistors to clear short-line faults safely.\n3. Superiority of SF6 Medium: SF6 gas has a very short thermal time constant and fast dielectric recovery following current zero, allowing it to withstand steep RRRV transients without switching resistors.\n4. Conclusion: The SF6 circuit breaker is the most suitable circuit breaker for clearing short-line faults (Option B)."
+  },
+  {
+    "Question": "In air blast circuit breaker for ARC extinction:",
+    "A": "An internal source of energy is required",
+    "B": "An external source of energy is required",
+    "C": "No any source of energy is required",
+    "D": "None of these",
+    "Answer": "An external source of energy is required",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Arc Quenching Mechanism in Air Blast Breakers: Unlike oil circuit breakers where arc heat generates hydrogen gas pressure internally, an air blast circuit breaker does not rely on arc energy for extinction.\n2. Compressed Air Supply Requirement: ABCBs require a separate external compressor system, air storage reservoirs, and pneumatic piping to store compressed air at 20 to 30 kg/cm².\n3. Extinction Process: Upon trip initiation, an external blast valve opens, directing high-pressure compressed air across the contact gap to sweep away ionized particles.\n4. Conclusion: An external source of energy (external compressed air supply) is required (Option B)."
+  },
+  {
+    "Question": "The capacitor switching is easily done with:",
+    "A": "Oil CB",
+    "B": "ABCB",
+    "C": "Vaccum CB",
+    "D": "None of these",
+    "Answer": "Vaccum CB",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Challenges of Capacitor Bank Switching: Interrupting capacitive currents leaves the capacitor bank charged at peak system voltage. Half a cycle later, the voltage across contacts reaches 2·V_peak, which can cause restrikes and severe overvoltages.\n2. Restrike-Free Performance of Vacuum Breakers: Vacuum circuit breakers feature fast contact separation and very high dielectric withstand recovery rates.\n3. Prevention of Restrikes: Because the dielectric strength of vacuum recovers faster than the rising 2·V_peak voltage across contacts, restrikes are prevented.\n4. Conclusion: Capacitor switching is easily and safely handled by Vacuum Circuit Breakers (Option C)."
+  },
+  {
+    "Question": "SF6 gas has excellent heat transfer properties because of its:",
+    "A": "High molecular weight",
+    "B": "Low gaseous viscosity",
+    "C": "A combination of (a) and (b)",
+    "D": "None of these",
+    "Answer": "A combination of (a) and (b)",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Thermal Dissipation Characteristics of SF6: Sulfur hexafluoride exhibits high thermal conductivity, particularly at arc temperatures where molecular dissociation occurs.\n2. Physical Factors Contributing to Convective Cooling:\n   - High Molecular Weight: SF6 is five times heavier than air (molecular weight = 146), providing high density and heat capacity.\n   - Low Gaseous Viscosity: Allows high Reynolds number and high gas mobility under convective flow, accelerating arc heat removal.\n3. Combined Evaluation: Both high molecular weight and low gaseous viscosity combine to provide heat transfer capabilities superior to air.\n4. Conclusion: Option C ('A combination of (a) and (b)') is the correct answer."
+  },
+  {
+    "Question": "The primary function of a fuse is to:",
+    "A": "Open the circuit",
+    "B": "Protect the appliance",
+    "C": "Protect the line.",
+    "D": "Prevent excessive currents from flow through the circuit",
+    "Answer": "Prevent excessive currents from flow through the circuit",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Working Principle of an Electric Fuse: A fuse is a sacrificial protective device containing a metallic element with a calibrated melting point.\n2. Current-Limiting and Isolation Action: When current exceeds rated full-load values, I²·R heating melts the fuse link, interrupting the current before fault currents reach peak destructive levels.\n3. Evaluation of Primary Purpose: While opening the circuit and protecting equipment are results of its operation, its fundamental protective duty is to prevent continuous excessive overload and short-circuit currents from flowing through the circuit.\n4. Conclusion: The primary function of a fuse is to prevent excessive currents from flowing through the circuit (Option D)."
+  },
+  {
+    "Question": "The heat produced at the contact point owing to flow of electric current is least affected by:",
+    "A": "Temperature of the surrounding medium",
+    "B": "Contact resistance",
+    "C": "Magnitude of electric current flowing",
+    "D": "Duration of flow of current",
+    "Answer": "Temperature of the surrounding medium",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Joule's Law of Electric Heating: The thermal energy produced at a contact interface is given by H = I² · R_contact · t.\n2. Evaluation of Primary Direct Factors:\n   - Magnitude of electric current (I): Heat is proportional to the square of current (I²).\n   - Contact resistance (R_contact): Heat varies linearly with contact resistance.\n   - Duration of current flow (t): Heat is directly proportional to conduction time.\n3. Comparison with Surrounding Ambient Temperature: Ambient temperature sets baseline steady-state heat dissipation but does not govern the rate of heat generation within the contact joint.\n4. Conclusion: The heat generated at the contact point is least affected by the temperature of the surrounding medium (Option A)."
+  },
+  {
+    "Question": "For magnetic blow out of arc the magnetic field is produced:",
+    "A": "In the load circuit .",
+    "B": "At right angles to the axis of the arc.",
+    "C": "In line with the axis of the arc.",
+    "D": "Any of the above.",
+    "Answer": "At right angles to the axis of the arc.",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Electromagnetic Arc Deflection Principle: A current-carrying electric arc behaves like a flexible gaseous conductor immersed in a magnetic field.\n2. Lorentz Force Formulation: The electromagnetic deflecting force acting on the arc column is F = I · (L × B) = I · L · B · sin(θ).\n3. Maximizing Arc Blowout Force: To maximize magnetic force (sin θ = 1, θ = 90°), the magnetic blowout coil produces a magnetic flux density (B) oriented perpendicular (at right angles) to the longitudinal axis of the arc column.\n4. Arc Extinction Effect: This transverse force deflects and stretches the arc into insulating arc chutes and splitters, cooling and extinguishing it.\nConclusion: The magnetic field is produced at right angles to the axis of the arc (Option B)."
+  },
+  {
+    "Question": "For a high speed circuit breaker the total clearing time is around:",
+    "A": "Few minutes",
+    "B": "Few seconds",
+    "C": "1 to 2 cycles",
+    "D": "5 to 20 cycles",
+    "Answer": "1 to 2 cycles",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Components of Total Fault Clearing Time: Total clearing time is the sum of protective relay operating time and circuit breaker interrupting time.\n2. Operating Speed of Modern High-Speed Switchgear: Modern high-speed circuit breakers (such as SF6 and vacuum breakers on EHV networks) separate contacts and extinguish the arc within 1 to 2 power-frequency cycles (20 ms to 40 ms at 50 Hz).\n3. Comparison with Conventional Breakers: Standard older distribution breakers operate in 3 to 5 cycles, while high-speed transmission breakers target 1 to 2 cycles to preserve system transient stability.\n4. Conclusion: For a high-speed circuit breaker, total clearing time is around 1 to 2 cycles (Option C)."
+  },
+  {
+    "Question": "The arc voltage in a circuit breaker is:",
+    "A": "In the phase with the arc current",
+    "B": "Lagging the arc current by 90°",
+    "C": "Leading the arc current by 90°",
+    "D": "Lagging the arc current by 180°",
+    "Answer": "In the phase with the arc current",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Electrical Nature of the Electric Arc Column: The electric arc consists of a high-temperature plasma stream of ionized gas molecules and electrons.\n2. Phase Angle and Impedance Characteristic: Because the plasma arc behaves predominantly as a non-linear resistive element with negligible internal reactance, the voltage drop across the arc column (V_arc) remains in phase with the arc current (I_arc).\n3. Power Factor of the Arc: The arc column operates at practically unity power factor (cos φ_arc ≈ 1.0).\n4. Conclusion: The arc voltage in a circuit breaker is in phase with the arc current (Option A)."
+  },
+  {
+    "Question": "Main purpose of oil in OCB is to:",
+    "A": "Provide insulation",
+    "B": "Provide cooling of contacts.",
+    "C": "Quenching arc",
+    "D": "None of above",
+    "Answer": "Quenching arc",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Operational Environment in Oil Circuit Breakers (OCB): Breaker contacts are submerged inside a tank filled with mineral insulating oil.\n2. Arc Dissociation Mechanism: When contacts part under oil, the intense heat of the arc vaporizes and decomposes the surrounding oil molecules, generating a gas bubble containing ~70% hydrogen gas.\n3. Arc Quenching Action: Hydrogen has high thermal conductivity and high diffusion rates, rapidly cooling the arc column and de-ionizing the contact gap at current zero.\n4. Conclusion: While oil also provides phase insulation, its primary operational purpose is arc quenching (Option C)."
+  },
+  {
+    "Question": "Air used in air blast circuit breaker must:",
+    "A": "Be ionized",
+    "B": "Be free from moisture",
+    "C": "Have least CO2",
+    "D": "Have oil mist",
+    "Answer": "Be free from moisture",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Impact of Moisture in Compressed Air Systems: Compressed air stored at 20–30 bar undergoes rapid expansion during arc interruption, which causes adiabatic cooling.\n2. Consequences of Condensation: If moisture is present, water droplets condense across internal insulating surfaces, reducing dielectric breakdown strength and causing internal flashovers.\n3. Dehumidification Requirement: Air blast circuit breaker installations incorporate dedicated air-drying plants (desiccant dryers and automatic drains) to ensure the air is dry and moisture-free.\n4. Conclusion: Air used in air blast circuit breakers must be completely free from moisture (Option B)."
+  },
+  {
+    "Question": "Which of the following circuit breakers produce the least are energy?",
+    "A": "Plain oil",
+    "B": "Minimum oil",
+    "C": "Air-blast",
+    "D": "Air break",
+    "Answer": "Air-blast",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Definition of Arc Energy: Arc energy is given by E_arc = ∫ (v_arc · i_arc) dt, depending on arc voltage, arc current, and arcing duration.\n2. Arcing Duration Comparison:\n   - Plain and minimum oil circuit breakers require longer arcing times (several half-cycles) as gas bubble pressure builds.\n   - Air-blast circuit breakers apply high-pressure air blast immediately upon contact parting, extinguishing the arc rapidly.\n3. Arc Energy Reduction: Because arcing duration is minimized by the high-pressure blast, the integrated arc energy produced is lower than in oil or air-break designs.\n4. Conclusion: Air-blast circuit breakers produce the least arc energy among the given choices (Option C)."
+  },
+  {
+    "Question": "An isolator is installed:",
+    "A": "To isolate one portion of the circuit from another",
+    "B": "Usually on both sides of a circuit breaker",
+    "C": "As a substitute for a circuit breaker.",
+    "D": "Both (a) and (b)",
+    "Answer": "Both (a) and (b)",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Definition and Purpose of an Disconnector / Isolator: An isolator is a mechanical switching device designed to open or close a circuit under no-load conditions to provide a visible isolating air gap for maintenance safety.\n2. Substation Arrangement: Isolators are installed on both sides of circuit breakers (bus-side and line-side isolators) so the breaker can be completely de-energized and grounded during maintenance.\n3. Verification of Limitations: An isolator lacks arc-quenching capability and cannot be operated under load or used as a substitute for a circuit breaker.\n4. Conclusion: Because statements (A) and (B) are both correct, Option D ('Both (a) and (b)') is the correct answer."
+  },
+  {
+    "Question": "Threshold characteristics of a plain impedance relay in a complex Z plane is a:",
+    "A": "Circle passing through origin",
+    "B": "Circle with the centre at the origin",
+    "C": "Straight line passing through origin",
+    "D": "Straight line offset from the origin",
+    "Answer": "Circle with the centre at the origin",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Operating Equation of Plain Impedance Relay: The relay operates when measured impedance magnitude is less than its reach setting: |Z_seen| ≤ Z_set, where |Z| = √(R² + X²).\n2. Mathematical Locus in the R-X Complex Plane: Squaring both sides yields: R² + X² = (Z_set)², which is the equation of a circle centered at the origin (0, 0) with radius equal to Z_set.\n3. Directional Characteristic: Because the circle surrounds the origin symmetrically, a plain impedance relay is non-directional, operating for faults in both forward and reverse directions.\n4. Conclusion: The operating threshold characteristic is a circle with its centre at the origin (Option B)."
+  },
+  {
+    "Question": "On transient fault OC and impedance relay:",
+    "A": "Under reaches",
+    "B": "Over reaches",
+    "C": "Reach unaffected",
+    "D": "None of these",
+    "Answer": "Under reaches",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Definition of Relay Reach: Reach refers to the maximum electrical distance along a transmission line within which the protective relay can detect faults and initiate tripping.\n2. Impact of Transient Components (DC Offset and Arc Resistance): During transient fault onset, fault arc resistance (R_arc) is present in series with the fault path, increasing the total measured impedance (|Z_seen| = Z_line + R_arc).\n3. Relay Response: Because the relay perceives a larger impedance than actual line impedance, it perceives the fault as farther away, causing it to under reach (Option A).\n4. Conclusion: As per the official answer key, the relay under reaches during transient faults (Option A)."
+  },
+  {
+    "Question": "An over current relay is said to over reach when it operates at a current:",
+    "A": "Higher than its setting",
+    "B": "Equal to its setting",
+    "C": "Lower than its setting",
+    "D": "2/3rd of its setting",
+    "Answer": "Lower than its setting",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Definition of Over-Reach in Protective Relaying: Over-reach occurs when a protective relay operates for a condition beyond its intended design boundary or setting.\n2. Influence of DC Offset on Current Magnitude: Asymmetrical short-circuit fault currents contain an exponential DC offset component, making the peak and RMS current larger than the steady-state AC value.\n3. Operating Threshold: Due to the added DC offset, the relay operates even when the steady-state AC symmetrical component is lower than its nominal pickup setting.\n4. Conclusion: An overcurrent relay is said to over reach when it operates at an AC current lower than its setting (Option C)."
+  }
+]

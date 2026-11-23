@@ -1,0 +1,272 @@
+[
+  {
+    "Question": "In a SCADA architecture, what is the central host computer server or main controller referred to as?",
+    "A": "Inverter Gate",
+    "B": "Power Distribution Switch",
+    "C": "Master Terminal Unit (MTU)",
+    "D": "Remote Terminal Unit (RTU)",
+    "Answer": "Master Terminal Unit (MTU)",
+    "Image": "1",
+    "Explaination": "The central host computer server that acts as the primary controller in a SCADA network is called the Master Terminal Unit (MTU). It issues commands, gathers process data from field units, and stores system information."
+  },
+  {
+    "Question": "Why are RAID (Redundant Array of Independent Disks) configurations implemented in central SCADA database host servers?",
+    "A": "To improve data reliability, fault tolerance, and system read/write performance",
+    "B": "To eliminate electrical harmonic distortions",
+    "C": "To physically step up transformer voltage",
+    "D": "To calibrate field RTU analog inputs",
+    "Answer": "To improve data reliability, fault tolerance, and system read/write performance",
+    "Image": "1",
+    "Explaination": "SCADA host databases require continuous availability and data integrity. RAID distributes data across multiple hard disks using mirroring (shadowing) and parity striping, ensuring both high operational speed and fault tolerance against drive failure."
+  },
+  {
+    "Question": "Which of the following activities is NOT a primary real-time SCADA operational function?",
+    "A": "Remote transformer tap changer control",
+    "B": "Bus voltage monitoring",
+    "C": "Sending automated routine personal marketing and email newsletters to consumers",
+    "D": "Substation breaker status tracking",
+    "Answer": "Sending automated routine personal marketing and email newsletters to consumers",
+    "Image": "1",
+    "Explaination": "SCADA specializes in real-time engineering supervision, measurement, and physical control of electrical apparatus (such as voltages, currents, and breaker status). Commercial customer communications, marketing campaigns, and billing emails are managed by enterprise billing or customer management software rather than the SCADA core."
+  },
+  {
+    "Question": "Historically, SCADA architectures evolved across three primary generations. Which sequence accurately reflects these generations?",
+    "A": "Monolithic, Distributed, Networked",
+    "B": "Wireless, Relay-based, Manual",
+    "C": "Cloud, Standalone, Closed",
+    "D": "Discrete, Analog, Hybrid",
+    "Answer": "Monolithic, Distributed, Networked",
+    "Image": "1",
+    "Explaination": "SCADA architectures evolved from first-generation Monolithic (isolated standalone mainframe systems), through second-generation Distributed (LAN-connected processing nodes), to third-generation Networked systems utilizing open communication standards and WAN infrastructure."
+  },
+  {
+    "Question": "A complete, complex industrial SCADA hierarchy is typically structured into how many foundational operational levels?",
+    "A": "Two levels",
+    "B": "Seven levels",
+    "C": "Four levels",
+    "D": "One level",
+    "Answer": "Four levels",
+    "Image": "1",
+    "Explaination": "A complex SCADA architecture is structured into four levels: field instrumentation/sensors, communication infrastructure, central control/master units, and human-operator visualization (HMI)."
+  },
+  {
+    "Question": "Which of the following items is NOT an architectural component of an industrial SCADA platform?",
+    "A": "Database server",
+    "B": "Remote Terminal Unit",
+    "C": "Output system",
+    "D": "Sparger controller",
+    "Answer": "Sparger controller",
+    "Image": "1",
+    "Explaination": "While database servers, output devices, and RTUs are standard components of SCADA platforms, a sparger controller is a specialized device used in chemical reaction vessels and is not a general SCADA network component."
+  },
+  {
+    "Question": "In mission-critical SCADA data servers, a RAID 50 configuration represents a nested combination of which disk storage tiers?",
+    "A": "RAID 1 and RAID 0",
+    "B": "RAID 2 and RAID 5",
+    "C": "RAID 5 and RAID 0",
+    "D": "RAID 3 and RAID 1",
+    "Answer": "RAID 5 and RAID 0",
+    "Image": "1",
+    "Explaination": "RAID 50 combines distributed parity (RAID 5) with disk striping (RAID 0), delivering both block-level striping performance and distributed parity fault tolerance for data-intensive SCADA historical archives."
+  },
+  {
+    "Question": "How is hardware storage redundancy primarily achieved within server disk arrays?",
+    "A": "Disk mirroring (shadowing) and parity calculation schemes",
+    "B": "Optical line splitting",
+    "C": "Thermal dissipation fans",
+    "D": "High-frequency RF modulation",
+    "Answer": "Disk mirroring (shadowing) and parity calculation schemes",
+    "Image": "1",
+    "Explaination": "Storage redundancy in RAID architectures is achieved by mirroring (duplicating identical blocks) or computing mathematical parity schemes, allowing the system to reconstruct data if an individual hard disk fails."
+  },
+  {
+    "Question": "Which of the following activities is considered an administrative task rather than a core, real-time SCADA control function?",
+    "A": "Emailing routine monthly billing reports to corporate departments",
+    "B": "Real-time voltage and feeder current measurement",
+    "C": "Real-time transformer load monitoring",
+    "D": "Remote circuit breaker tripping and closing",
+    "Answer": "Emailing routine monthly billing reports to corporate departments",
+    "Image": "1",
+    "Explaination": "Core SCADA systems focus on real-time supervisory data acquisition and equipment control. Sending customer billing statements or routine email blasts is managed by enterprise IT and business accounting applications, not the real-time SCADA core."
+  },
+  {
+    "Question": "Within an electrical substation, which operational functions are executed by SCADA systems?",
+    "A": "Bus voltage control",
+    "B": "Bus fault protection coordination and monitoring",
+    "C": "Bus load balancing",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Within substation automation, SCADA supervises bus voltage regulation, real-time bus load balancing, and fault protection status monitoring across switchgear and transformers."
+  },
+  {
+    "Question": "Before finalizing the procurement and design of a SCADA/PLC automation architecture, what must an engineer primarily evaluate?",
+    "A": "Only the brand logo style",
+    "B": "The personal keyboard typing speed of the technician",
+    "C": "Process control requirements, I/O count, communication protocols, and future expansion capacity",
+    "D": "Only the aesthetic paint color of the cabinet",
+    "Answer": "Process control requirements, I/O count, communication protocols, and future expansion capacity",
+    "Image": "1",
+    "Explaination": "Engineers select automation equipment based on operational requirements, required digital and analog I/O points, network protocol compatibility, scan speed, and future plant scalability."
+  },
+  {
+    "Question": "Which of the following operational advantages is achieved by deploying an industrial SCADA platform?",
+    "A": "Conservation of time, capital, and energy",
+    "B": "Increased plant productivity and operational profitability",
+    "C": "Modular scalability and cost-effective maintenance",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Automating data acquisition and supervisory control via SCADA optimizes workforce deployment, reduces manual errors, saves energy, and enhances long-term operational profitability and system expandability."
+  },
+  {
+    "Question": "In an enterprise SCADA architecture, the Master Terminal Unit (MTU) can be implemented to function as:",
+    "A": "A dedicated web/data server",
+    "B": "A real-time supervisory decision maker",
+    "C": "An automated data logging and analytics engine",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "In modern control centers, the Master Terminal Unit (MTU) acts as a central operational hub: running supervisory algorithms, logging time-series database records, and hosting web servers to serve real-time dashboard data to operators and clients."
+  },
+  {
+    "Question": "In industrial control systems engineering, what is the fundamental architectural difference in orientation between a Distributed Control System (DCS) and a SCADA system?",
+    "A": "DCS is process oriented, whereas SCADA is data acquisition oriented",
+    "B": "DCS is data acquisition oriented, whereas SCADA is process oriented",
+    "C": "DCS is designed solely for domestic consumer appliances",
+    "D": "SCADA operates without any field controllers or RTUs",
+    "Answer": "DCS is process oriented, whereas SCADA is data acquisition oriented",
+    "Image": "1",
+    "Explaination": "A Distributed Control System (DCS) is inherently process-oriented, focusing closely on continuous, closed-loop regulatory control within a localized plant boundary. Conversely, a SCADA system is primarily data acquisition oriented, designed to gather supervisory telemetry and control operations across widely dispersed geographical assets."
+  },
+  {
+    "Question": "Which of the following assemblies constitutes the physical architecture of a traditional SCADA installation?",
+    "A": "Remote Telemetry Unit (RTU)",
+    "B": "Communication system",
+    "C": "Central Master Station",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "A traditional SCADA configuration comprises three core hardware tiers: the Remote Telemetry Units (RTUs) deployed at field locations, the communication transmission network, and the central Master Station."
+  },
+  {
+    "Question": "In a modern open-system SCADA deployment, which core software modules interact across the network?",
+    "A": "Human Machine Interface (HMI)",
+    "B": "SCADA database and communication servers",
+    "C": "SCADA client terminals",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Modern SCADA systems utilize client-server software architectures consisting of SCADA servers for centralized telemetry polling and historical archiving, SCADA client workstations for distributed engineering tasks, and dedicated HMI displays for real-time operator intervention."
+  },
+  {
+    "Question": "Which of the following features are standard functional elements built into a SCADA software package?",
+    "A": "Dynamic graphical displays",
+    "B": "Database tags",
+    "C": "Alarm management and historical trending",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "A complete SCADA platform provides graphical mimic screens, database tag dictionaries, real-time and historical trend charts, and a priority alarm logging engine to notify personnel of out-of-limit process events."
+  },
+  {
+    "Question": "What is considered the central software engine or heartbeat of a SCADA system that handles real-time field data transfer?",
+    "A": "I/O Task (Input/Output Task)",
+    "B": "Text spell checker",
+    "C": "Print spooler",
+    "D": "Audio equalizer",
+    "Answer": "I/O Task (Input/Output Task)",
+    "Image": "1",
+    "Explaination": "The I/O task serves as the critical communications engine within SCADA software. It continuously interfaces with field drivers, collects data packets from RTUs/PLCs, updates tag values in memory, and writes operator commands back to field controllers."
+  },
+  {
+    "Question": "In which of the following industrial engineering sectors is SCADA technology widely deployed?",
+    "A": "Electrical power transmission and smart grid substations",
+    "B": "Municipal water and wastewater treatment facilities",
+    "C": "Chemical plants and food processing industries",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "SCADA systems are deployed across diverse process environments—including power grids, water networks, oil/gas pipelines, chemical plants, and automated transit—to supervise distributed infrastructure in real time."
+  },
+  {
+    "Question": "What does \"Supervisory Control\" specifically mean in a SCADA environment?",
+    "A": "Disconnecting communication whenever a fault happens",
+    "B": "Automated or operator-initiated remote control of field actuators and breakers from a centralized location",
+    "C": "Continuous local manual intervention by field operators at every switch",
+    "D": "Printing daily maintenance schedules on paper",
+    "Answer": "Automated or operator-initiated remote control of field actuators and breakers from a centralized location",
+    "Image": "1",
+    "Explaination": "Supervisory Control allows human operators (or central automated logic) at a central control terminal to issue high-level control commands—such as opening/closing breakers or adjusting transformer tap changers—to remote devices over communication networks."
+  },
+  {
+    "Question": "Why are substation RTU installations equipped with uninterruptible DC battery banks?",
+    "A": "To ensure continuous telemetry, monitoring, and breaker trip capabilities during complete grid blackout conditions",
+    "B": "To supply lighting to the entire city during a fault",
+    "C": "To avoid using AC transformers in the yard",
+    "D": "To reduce the frequency of the power grid",
+    "Answer": "To ensure continuous telemetry, monitoring, and breaker trip capabilities during complete grid blackout conditions",
+    "Image": "1",
+    "Explaination": "During a major power disturbance or black-start condition, grid AC power is lost. Substation battery banks ensure the RTU, protection relays, and communication transceivers remain operational to report fault conditions and execute restoration commands."
+  },
+  {
+    "Question": "What is the function of a \"Watchdog Timer\" in SCADA RTUs and PLCs?",
+    "A": "Counting the total number of mouse clicks on the HMI",
+    "B": "Detecting hardware or software freeze/faults and resetting the controller to a safe operational state",
+    "C": "Displaying the current local time to the user",
+    "D": "Tracking operator working hours",
+    "Answer": "Detecting hardware or software freeze/faults and resetting the controller to a safe operational state",
+    "Image": "1",
+    "Explaination": "A watchdog timer is a hardware timing circuit that must be periodically cleared by the operating software. If software freezes in an infinite loop, the timer expires and trips a hardware reboot or safe-state shutdown."
+  },
+  {
+    "Question": "What is one of the primary operational advantages of deploying SCADA within modern smart grid power systems?",
+    "A": "Decreased power system reliability",
+    "B": "Elimination of computer automation",
+    "C": "Increased manual field labor",
+    "D": "Lower operational costs",
+    "Answer": "Lower operational costs",
+    "Image": "1",
+    "Explaination": "Integrating SCADA into smart electrical networks provides automated real-time supervision and remote switching, which eliminates the need for manual station logging and reduces outage durations, resulting in lower operational costs and higher grid efficiency."
+  },
+  {
+    "Question": "Which of the following computer tools or applications is NOT typically categorized as an internal hardware component of a core SCADA system?",
+    "A": "Geographic Information System (GIS)",
+    "B": "Programmable Logic Controller (PLC)",
+    "C": "Human-Machine Interface (HMI)",
+    "D": "Remote Terminal Unit (RTU)",
+    "Answer": "Geographic Information System (GIS)",
+    "Image": "1",
+    "Explaination": "While HMIs, PLCs, and RTUs form the essential control and telemetry hardware of a SCADA system, a Geographic Information System (GIS) is an enterprise mapping software tool that interfaces with SCADA rather than serving as an internal SCADA control component."
+  },
+  {
+    "Question": "To facilitate remote monitoring and engineering access, modern SCADA systems can securely connect to which of the following?",
+    "A": "Isolated backup battery terminals only",
+    "B": "Analog landline telephones only",
+    "C": "Cloud platforms or secure Internet networks",
+    "D": "Dedicated local USB ports only",
+    "Answer": "Cloud platforms or secure Internet networks",
+    "Image": "1",
+    "Explaination": "Modern SCADA platforms integrate with cloud computing platforms and secure Internet protocols, allowing operators, dispatchers, and engineers to monitor grid telemetry remotely from authorized web clients."
+  },
+  {
+    "Question": "What is the primary operational purpose of a SCADA system?",
+    "A": "Offline photo editing",
+    "B": "Word processing and office typing",
+    "C": "Supervisory monitoring and process control",
+    "D": "Manual filing and paper archiving",
+    "Answer": "Supervisory monitoring and process control",
+    "Image": "1",
+    "Explaination": "A SCADA system provides real-time supervisory monitoring, data collection, and remote operational control over widely distributed industrial systems."
+  },
+  {
+    "Question": "What should an automation engineer evaluate before selecting a SCADA/PLC solution?",
+    "A": "Only the computer keyboard layout",
+    "B": "Only the brand logo",
+    "C": "Process requirements, I/O count, communications, and future expansion capacity",
+    "D": "Only the paint color of the enclosure",
+    "Answer": "Process requirements, I/O count, communications, and future expansion capacity",
+    "Image": "1",
+    "Explaination": "Automation engineers select hardware and software platforms based on operational requirements, required I/O points, network protocol support, and future system expandability."
+  }
+]

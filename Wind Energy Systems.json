@@ -1,0 +1,322 @@
+[
+  {
+    "Question": "What is the primary source of energy that drives wind?",
+    "A": "Geothermal heat from the Earth's core",
+    "B": "Solar radiation heating the Earth's surface unevenly",
+    "C": "Tidal forces from the Moon",
+    "D": "Nuclear reactions in the atmosphere",
+    "Answer": "Solar radiation heating the Earth's surface unevenly",
+    "Image": "1",
+    "Explaination": "Wind is primarily caused by the uneven heating of the Earth's surface by solar radiation, which creates pressure differences that drive air movement."
+  },
+  {
+    "Question": "What is the power available in the wind proportional to?",
+    "A": "Wind speed",
+    "B": "Square of wind speed",
+    "C": "Cube of wind speed",
+    "D": "Fourth power of wind speed",
+    "Answer": "Cube of wind speed",
+    "Image": "1",
+    "Explaination": "The power available in the wind is proportional to the cube of the wind speed (P ∝ v³), meaning small increases in wind speed result in large increases in available power."
+  },
+  {
+    "Question": "What is the Betz Limit in wind energy?",
+    "A": "The maximum theoretical efficiency of a wind turbine, approximately 59.3%",
+    "B": "The maximum wind speed a turbine can withstand",
+    "C": "The minimum wind speed required for power generation",
+    "D": "The maximum height of a wind turbine",
+    "Answer": "The maximum theoretical efficiency of a wind turbine, approximately 59.3%",
+    "Image": "1",
+    "Explaination": "The Betz Limit states that no wind turbine can capture more than 59.3% of the kinetic energy in the wind, based on the conservation of mass and momentum."
+  },
+  {
+    "Question": "What is the typical cut-in wind speed for a modern wind turbine?",
+    "A": "1-2 m/s",
+    "B": "3-5 m/s",
+    "C": "10-15 m/s",
+    "D": "20-25 m/s",
+    "Answer": "3-5 m/s",
+    "Image": "1",
+    "Explaination": "The cut-in wind speed is the minimum wind speed at which a wind turbine starts generating power, typically around 3-5 m/s."
+  },
+  {
+    "Question": "What is the typical cut-out wind speed for a modern wind turbine?",
+    "A": "5-8 m/s",
+    "B": "10-12 m/s",
+    "C": "25-30 m/s",
+    "D": "50-60 m/s",
+    "Answer": "25-30 m/s",
+    "Image": "1",
+    "Explaination": "The cut-out wind speed is the maximum wind speed at which a wind turbine safely shuts down to prevent damage, typically around 25-30 m/s."
+  },
+  {
+    "Question": "What is the typical rated wind speed for a modern wind turbine?",
+    "A": "3-5 m/s",
+    "B": "12-15 m/s",
+    "C": "25-30 m/s",
+    "D": "40-50 m/s",
+    "Answer": "12-15 m/s",
+    "Image": "1",
+    "Explaination": "The rated wind speed is the wind speed at which the turbine reaches its maximum power output, typically around 12-15 m/s."
+  },
+  {
+    "Question": "What is the main advantage of a horizontal-axis wind turbine (HAWT) over a vertical-axis wind turbine (VAWT)?",
+    "A": "Higher efficiency and ability to be scaled to large sizes",
+    "B": "Lower cost",
+    "C": "Ability to operate in all wind directions without yaw control",
+    "D": "Lower maintenance requirements",
+    "Answer": "Higher efficiency and ability to be scaled to large sizes",
+    "Image": "1",
+    "Explaination": "Horizontal-axis wind turbines (HAWTs) generally have higher efficiency and can be scaled to larger sizes compared to vertical-axis wind turbines (VAWTs)."
+  },
+  {
+    "Question": "What is the main advantage of a vertical-axis wind turbine (VAWT) over a horizontal-axis wind turbine (HAWT)?",
+    "A": "Higher efficiency",
+    "B": "Ability to operate in all wind directions without yaw control",
+    "C": "Ability to be scaled to large sizes",
+    "D": "Lower cost",
+    "Answer": "Ability to operate in all wind directions without yaw control",
+    "Image": "1",
+    "Explaination": "Vertical-axis wind turbines (VAWTs) can operate in all wind directions without yaw control, simplifying their design and reducing maintenance."
+  },
+  {
+    "Question": "What is the function of the nacelle in a wind turbine?",
+    "A": "To convert mechanical energy into electrical energy",
+    "B": "To house the gearbox, generator, and control systems",
+    "C": "To capture the wind energy",
+    "D": "To support the tower",
+    "Answer": "To house the gearbox, generator, and control systems",
+    "Image": "1",
+    "Explaination": "The nacelle houses the gearbox, generator, and control systems of a wind turbine, protecting them from the environment."
+  },
+  {
+    "Question": "What is the function of the yaw system in a wind turbine?",
+    "A": "To control the pitch of the blades",
+    "B": "To orient the turbine to face the wind",
+    "C": "To regulate the generator speed",
+    "D": "To brake the rotor",
+    "Answer": "To orient the turbine to face the wind",
+    "Image": "1",
+    "Explaination": "The yaw system orients the wind turbine to face the direction of the wind, maximizing energy capture."
+  },
+  {
+    "Question": "What is the function of the pitch control system in a wind turbine?",
+    "A": "To orient the turbine to face the wind",
+    "B": "To adjust the angle of the blades to control power output",
+    "C": "To regulate the generator speed",
+    "D": "To brake the rotor",
+    "Answer": "To adjust the angle of the blades to control power output",
+    "Image": "1",
+    "Explaination": "The pitch control system adjusts the angle of the blades to control the power output and protect the turbine from overspeed in high winds."
+  },
+  {
+    "Question": "What is the tip speed ratio (TSR) of a wind turbine?",
+    "A": "The ratio of wind speed to rotor speed",
+    "B": "The ratio of the speed of the blade tip to the wind speed",
+    "C": "The ratio of rotor diameter to tower height",
+    "D": "The ratio of generator speed to rotor speed",
+    "Answer": "The ratio of the speed of the blade tip to the wind speed",
+    "Image": "1",
+    "Explaination": "The tip speed ratio (TSR) is the ratio of the speed of the blade tip to the wind speed, a key parameter in wind turbine aerodynamics."
+  },
+  {
+    "Question": "What is the typical optimal tip speed ratio for a modern wind turbine?",
+    "A": "1-2",
+    "B": "4-8",
+    "C": "10-15",
+    "D": "20-30",
+    "Answer": "4-8",
+    "Image": "1",
+    "Explaination": "Modern wind turbines typically have an optimal tip speed ratio of 4-8, balancing aerodynamic efficiency and mechanical loads."
+  },
+  {
+    "Question": "What is the function of the gearbox in a wind turbine?",
+    "A": "To increase the rotational speed of the generator",
+    "B": "To decrease the rotational speed of the generator",
+    "C": "To control the pitch of the blades",
+    "D": "To orient the turbine to face the wind",
+    "Answer": "To increase the rotational speed of the generator",
+    "Image": "1",
+    "Explaination": "The gearbox increases the rotational speed from the low-speed rotor to the high-speed generator, matching the generator's optimal operating speed."
+  },
+  {
+    "Question": "What is a 'direct-drive' wind turbine?",
+    "A": "A turbine without a gearbox, where the rotor is directly connected to the generator",
+    "B": "A turbine with a gearbox",
+    "C": "A turbine that uses a synchronous generator",
+    "D": "A turbine that uses an induction generator",
+    "Answer": "A turbine without a gearbox, where the rotor is directly connected to the generator",
+    "Image": "1",
+    "Explaination": "A direct-drive wind turbine has no gearbox; the rotor is directly connected to a low-speed generator, reducing mechanical complexity and maintenance."
+  },
+  {
+    "Question": "What is the main advantage of a direct-drive wind turbine?",
+    "A": "Lower cost",
+    "B": "Reduced mechanical complexity and maintenance",
+    "C": "Higher efficiency",
+    "D": "Ability to operate in all wind directions",
+    "Answer": "Reduced mechanical complexity and maintenance",
+    "Image": "1",
+    "Explaination": "Direct-drive wind turbines have reduced mechanical complexity and maintenance requirements because they eliminate the gearbox."
+  },
+  {
+    "Question": "What is the main disadvantage of a direct-drive wind turbine?",
+    "A": "Higher mechanical complexity",
+    "B": "Larger and heavier generator",
+    "C": "Lower efficiency",
+    "D": "Inability to operate in all wind directions",
+    "Answer": "Larger and heavier generator",
+    "Image": "1",
+    "Explaination": "Direct-drive wind turbines require larger and heavier generators to produce the same power at low rotational speeds, increasing the nacelle weight and cost."
+  },
+  {
+    "Question": "What is the function of the tower in a wind turbine?",
+    "A": "To support the rotor and nacelle at a height where wind speeds are higher",
+    "B": "To convert mechanical energy into electrical energy",
+    "C": "To capture the wind energy",
+    "D": "To house the gearbox",
+    "Answer": "To support the rotor and nacelle at a height where wind speeds are higher",
+    "Image": "1",
+    "Explaination": "The tower supports the rotor and nacelle at a height where wind speeds are higher and less turbulent, improving energy capture."
+  },
+  {
+    "Question": "What is the typical hub height of a modern utility-scale wind turbine?",
+    "A": "10-20 meters",
+    "B": "50-100 meters",
+    "C": "150-200 meters",
+    "D": "300-400 meters",
+    "Answer": "50-100 meters",
+    "Image": "1",
+    "Explaination": "Modern utility-scale wind turbines typically have a hub height of 50-100 meters to access stronger and more consistent winds."
+  },
+  {
+    "Question": "What is the typical rotor diameter of a modern utility-scale wind turbine?",
+    "A": "10-20 meters",
+    "B": "50-100 meters",
+    "C": "100-150 meters",
+    "D": "200-300 meters",
+    "Answer": "100-150 meters",
+    "Image": "1",
+    "Explaination": "Modern utility-scale wind turbines typically have a rotor diameter of 100-150 meters, capturing more wind energy."
+  },
+  {
+    "Question": "What is the wind power density?",
+    "A": "The power available per unit area of the wind stream",
+    "B": "The power available per unit mass of the wind",
+    "C": "The power available per unit volume of the wind",
+    "D": "The power available per unit length of the wind",
+    "Answer": "The power available per unit area of the wind stream",
+    "Image": "1",
+    "Explaination": "Wind power density is the power available per unit area of the wind stream, proportional to the cube of wind speed and air density."
+  },
+  {
+    "Question": "What is the formula for the power available in the wind?",
+    "A": "P = 1/2 ρ A v²",
+    "B": "P = 1/2 ρ A v³",
+    "C": "P = ρ A v²",
+    "D": "P = ρ A v³",
+    "Answer": "P = 1/2 ρ A v³",
+    "Image": "1",
+    "Explaination": "The power available in the wind is given by P = 1/2 ρ A v³, where ρ is air density, A is the swept area, and v is wind speed."
+  },
+  {
+    "Question": "What is the typical air density used in wind power calculations?",
+    "A": "0.5 kg/m³",
+    "B": "1.225 kg/m³",
+    "C": "2.5 kg/m³",
+    "D": "5.0 kg/m³",
+    "Answer": "1.225 kg/m³",
+    "Image": "1",
+    "Explaination": "The typical air density at sea level and 15°C is about 1.225 kg/m³, used in wind power calculations."
+  },
+  {
+    "Question": "What is a wind farm?",
+    "A": "A single large wind turbine",
+    "B": "A group of wind turbines installed in the same location for power generation",
+    "C": "A factory that manufactures wind turbines",
+    "D": "A type of wind measurement device",
+    "Answer": "A group of wind turbines installed in the same location for power generation",
+    "Image": "1",
+    "Explaination": "A wind farm is a group of wind turbines installed in the same location to generate electricity on a large scale."
+  },
+  {
+    "Question": "What is the typical spacing between wind turbines in a wind farm?",
+    "A": "1-2 rotor diameters",
+    "B": "3-5 rotor diameters",
+    "C": "5-10 rotor diameters",
+    "D": "20-30 rotor diameters",
+    "Answer": "5-10 rotor diameters",
+    "Image": "1",
+    "Explaination": "Wind turbines in a wind farm are typically spaced 5-10 rotor diameters apart to minimize wake interference and maximize energy capture."
+  },
+  {
+    "Question": "What is the main environmental concern associated with wind turbines?",
+    "A": "Air pollution",
+    "B": "Bird and bat mortality",
+    "C": "Water pollution",
+    "D": "Soil contamination",
+    "Answer": "Bird and bat mortality",
+    "Image": "1",
+    "Explaination": "The main environmental concern associated with wind turbines is bird and bat mortality, along with visual and noise impacts."
+  },
+  {
+    "Question": "What is the main advantage of offshore wind farms over onshore wind farms?",
+    "A": "Lower construction cost",
+    "B": "Higher and more consistent wind speeds",
+    "C": "Easier maintenance",
+    "D": "Shorter transmission distances",
+    "Answer": "Higher and more consistent wind speeds",
+    "Image": "1",
+    "Explaination": "Offshore wind farms benefit from higher and more consistent wind speeds, leading to higher energy capture."
+  },
+  {
+    "Question": "What is the main disadvantage of offshore wind farms?",
+    "A": "Lower wind speeds",
+    "B": "Higher construction and maintenance costs",
+    "C": "Higher visual impact",
+    "D": "Lower energy capture",
+    "Answer": "Higher construction and maintenance costs",
+    "Image": "1",
+    "Explaination": "Offshore wind farms have higher construction and maintenance costs due to the challenging marine environment and transmission requirements."
+  },
+  {
+    "Question": "What is the function of the anemometer in a wind turbine?",
+    "A": "To measure wind speed",
+    "B": "To measure wind direction",
+    "C": "To control the pitch of the blades",
+    "D": "To orient the turbine to face the wind",
+    "Answer": "To measure wind speed",
+    "Image": "1",
+    "Explaination": "An anemometer measures wind speed, providing input to the turbine's control system for optimal operation."
+  },
+  {
+    "Question": "What is the function of the wind vane in a wind turbine?",
+    "A": "To measure wind speed",
+    "B": "To measure wind direction",
+    "C": "To control the pitch of the blades",
+    "D": "To orient the turbine to face the wind",
+    "Answer": "To measure wind direction",
+    "Image": "1",
+    "Explaination": "A wind vane measures wind direction, providing input to the yaw system to orient the turbine optimally."
+  },
+  {
+    "Question": "What is the power coefficient (Cp) of a wind turbine?",
+    "A": "The ratio of mechanical power extracted to the power available in the wind",
+    "B": "The ratio of electrical power generated to the mechanical power extracted",
+    "C": "The ratio of wind speed to rotor speed",
+    "D": "The ratio of rotor diameter to tower height",
+    "Answer": "The ratio of mechanical power extracted to the power available in the wind",
+    "Image": "1",
+    "Explaination": "The power coefficient (Cp) is the ratio of mechanical power extracted by the turbine to the power available in the wind, with a theoretical maximum of 0.593 (Betz Limit)."
+  },
+  {
+    "Question": "What is the typical value of the power coefficient (Cp) for a modern wind turbine?",
+    "A": "0.1-0.2",
+    "B": "0.2-0.3",
+    "C": "0.4-0.5",
+    "D": "0.7-0.8",
+    "Answer": "0.4-0.5",
+    "Image": "1",
+    "Explaination": "Modern wind turbines typically achieve a power coefficient (Cp) of 0.4-0.5, which is close to the Betz Limit."
+  }
+]

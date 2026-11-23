@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "What is a smart meter?",
+    "A": "An advanced meter that records electricity consumption in intervals and communicates the information back to the utility",
+    "B": "An analog meter",
+    "C": "A type of SCADA system",
+    "D": "A type of DER",
+    "Answer": "An advanced meter that records electricity consumption in intervals and communicates the information back to the utility",
+    "Image": "1",
+    "Explaination": "A smart meter is an advanced meter that records electricity consumption in intervals and communicates the information back to the utility for monitoring and billing."
+  },
+  {
+    "Question": "What is Advanced Metering Infrastructure (AMI)?",
+    "A": "A system that uses smart meters and communication networks to enable two-way communication between utilities and customers",
+    "B": "A system that uses analog meters",
+    "C": "A system that uses only SCADA",
+    "D": "A system that uses only DERs",
+    "Answer": "A system that uses smart meters and communication networks to enable two-way communication between utilities and customers",
+    "Image": "1",
+    "Explaination": "Advanced Metering Infrastructure (AMI) is a system that uses smart meters and communication networks to enable two-way communication between utilities and customers, supporting demand response and other smart grid functions."
+  },
+  {
+    "Question": "What is the primary benefit of AMI for utilities?",
+    "A": "Improved monitoring and management of energy consumption",
+    "B": "Increased cost of electricity",
+    "C": "Reduced use of renewable energy",
+    "D": "Elimination of all fossil fuel generation",
+    "Answer": "Improved monitoring and management of energy consumption",
+    "Image": "1",
+    "Explaination": "The primary benefit of AMI for utilities is improved monitoring and management of energy consumption, enabling more efficient operations and better customer service."
+  },
+  {
+    "Question": "What is the primary benefit of AMI for customers?",
+    "A": "Better information about their energy usage and the ability to participate in demand response programs",
+    "B": "Increased cost of electricity",
+    "C": "Reduced use of renewable energy",
+    "D": "Elimination of all fossil fuel generation",
+    "Answer": "Better information about their energy usage and the ability to participate in demand response programs",
+    "Image": "1",
+    "Explaination": "The primary benefit of AMI for customers is better information about their energy usage and the ability to participate in demand response programs, leading to potential cost savings."
+  },
+  {
+    "Question": "What is demand response?",
+    "A": "A program that allows customers to reduce or shift their electricity usage in response to price signals or grid conditions",
+    "B": "A program that increases electricity usage",
+    "C": "A program that eliminates all loads",
+    "D": "A program that disconnects all customers",
+    "Answer": "A program that allows customers to reduce or shift their electricity usage in response to price signals or grid conditions",
+    "Image": "1",
+    "Explaination": "Demand response is a program that allows customers to reduce or shift their electricity usage in response to price signals or grid conditions, helping to balance supply and demand."
+  },
+  {
+    "Question": "What is Time-of-Use (TOU) pricing?",
+    "A": "A pricing structure where electricity rates vary based on the time of day",
+    "B": "A fixed electricity rate",
+    "C": "A pricing structure where rates are higher during off-peak hours",
+    "D": "A pricing structure where rates are independent of time",
+    "Answer": "A pricing structure where electricity rates vary based on the time of day",
+    "Image": "1",
+    "Explaination": "Time-of-Use (TOU) pricing is a pricing structure where electricity rates vary based on the time of day, with higher rates during peak hours and lower rates during off-peak hours."
+  },
+  {
+    "Question": "What is Real-Time Pricing (RTP)?",
+    "A": "Electricity prices that change on an hourly or sub-hourly basis reflecting actual market conditions",
+    "B": "A fixed price that does not change",
+    "C": "A price that changes only annually",
+    "D": "A price that is determined by the government",
+    "Answer": "Electricity prices that change on an hourly or sub-hourly basis reflecting actual market conditions",
+    "Image": "1",
+    "Explaination": "Real-Time Pricing (RTP) reflects actual market conditions with prices that change on an hourly or sub-hourly basis, encouraging consumers to respond to price signals."
+  },
+  {
+    "Question": "What is Direct Load Control (DLC) in demand response?",
+    "A": "A program where the utility can remotely control certain customer appliances during peak periods",
+    "B": "A program where customers control their own loads",
+    "C": "A program where loads are permanently disconnected",
+    "D": "A program that increases peak demand",
+    "Answer": "A program where the utility can remotely control certain customer appliances during peak periods",
+    "Image": "1",
+    "Explaination": "Direct Load Control (DLC) is a program where the utility can remotely control certain customer appliances (like air conditioners or water heaters) during peak periods to reduce demand."
+  },
+  {
+    "Question": "What is an aggregator in demand response markets?",
+    "A": "An entity that pools together multiple demand response resources to participate in electricity markets",
+    "B": "A device that increases load",
+    "C": "A type of generator",
+    "D": "A type of transformer",
+    "Answer": "An entity that pools together multiple demand response resources to participate in electricity markets",
+    "Image": "1",
+    "Explaination": "An aggregator pools together multiple demand response resources from different consumers to participate in electricity markets, providing a larger and more valuable resource."
+  },
+  {
+    "Question": "What is the main challenge in implementing demand response programs?",
+    "A": "Consumer participation and engagement",
+    "B": "Lack of electricity",
+    "C": "Excessive generation capacity",
+    "D": "Too many renewable sources",
+    "Answer": "Consumer participation and engagement",
+    "Image": "1",
+    "Explaination": "The main challenge in implementing demand response programs is achieving sufficient consumer participation and engagement, as it requires changes in consumer behavior."
+  },
+  {
+    "Question": "What is the role of smart meters in demand response?",
+    "A": "To enable two-way communication between the utility and the consumer for real-time pricing and load control",
+    "B": "To increase energy consumption",
+    "C": "To measure only voltage",
+    "D": "To eliminate all loads",
+    "Answer": "To enable two-way communication between the utility and the consumer for real-time pricing and load control",
+    "Image": "1",
+    "Explaination": "Smart meters enable two-way communication between the utility and the consumer, supporting real-time pricing, demand response, and load control."
+  },
+  {
+    "Question": "What is the role of AMI in outage management?",
+    "A": "To detect and locate outages more quickly, improving restoration times",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To detect and locate outages more quickly, improving restoration times",
+    "Image": "1",
+    "Explaination": "AMI helps in outage management by detecting and locating outages more quickly, improving restoration times and customer service."
+  },
+  {
+    "Question": "What is the role of AMI in energy theft detection?",
+    "A": "To detect and prevent energy theft by monitoring consumption patterns",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To detect and prevent energy theft by monitoring consumption patterns",
+    "Image": "1",
+    "Explaination": "AMI helps in energy theft detection by monitoring consumption patterns and identifying anomalies that may indicate theft."
+  },
+  {
+    "Question": "What is the role of AMI in integrating renewable energy?",
+    "A": "To help balance the variability of renewable generation by adjusting demand",
+    "B": "To increase the variability of renewable generation",
+    "C": "To eliminate renewable energy sources",
+    "D": "To increase peak demand",
+    "Answer": "To help balance the variability of renewable generation by adjusting demand",
+    "Image": "1",
+    "Explaination": "AMI helps in integrating renewable energy by enabling demand response and load shifting, which can help balance the variability of renewable generation."
+  },
+  {
+    "Question": "What is the future trend in smart metering?",
+    "A": "Increased use of advanced sensors, edge computing, and integration with distributed energy resources",
+    "B": "Decreased use of smart meters",
+    "C": "Increased use of analog meters",
+    "D": "Decreased use of communication networks",
+    "Answer": "Increased use of advanced sensors, edge computing, and integration with distributed energy resources",
+    "Image": "1",
+    "Explaination": "The future trend in smart metering is the increased use of advanced sensors, edge computing, and integration with distributed energy resources (DERs) for more intelligent and efficient grid operations."
+  }
+]

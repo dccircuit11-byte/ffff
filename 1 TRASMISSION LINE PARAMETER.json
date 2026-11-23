@@ -1,0 +1,302 @@
+[
+  {
+    "Question": "In a string of suspension insulator voltage across:",
+    "A": "Disc nearest to cross arm is minimum",
+    "B": "Middle disc is maximum",
+    "C": "Disc nearest to conductor is minimum",
+    "D": "Disc nearest to cross arm is maximum",
+    "Answer": "Disc nearest to cross arm is minimum",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. In a suspension insulator string, there is shunt capacitance between each metallic link/pin and the grounded steel tower cross-arm.\n2. Because of this capacitance to ground, a small charging (leakage) current flows from the conductors through the discs to the earthed tower.\n3. This current accumulates as we move from the bottom (conductor end) to the top (cross-arm end). \n4. The disc nearest to the conductor carries the charging currents of all the discs below it (plus its own), while the disc nearest to the cross-arm carries the least charging current.\n5. Since voltage drop is proportional to current (V = I × Xc), the voltage across the disc nearest to the cross-arm is the minimum, and it gradually increases, becoming maximum at the disc nearest to the live conductor."
+  },
+  {
+    "Question": "When length of transmission line increases, the resistance R of the line:",
+    "A": "Remain same",
+    "B": "Decreases",
+    "C": "Increases",
+    "D": "None of the above",
+    "Answer": "Increases",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The electrical resistance of a conductor is given by the formula: R = ρ × (L / A).\n2. Here, 'ρ' (rho) is the resistivity of the material, 'L' is the length of the conductor, and 'A' is the cross-sectional area.\n3. Assuming the material and the cross-sectional area remain constant, the resistance is directly proportional to the length (R ∝ L).\n4. Therefore, if the length of the transmission line increases, the overall electrical resistance of the line increases proportionally."
+  },
+  {
+    "Question": "When length of transmission line increases, its inductive reactance:",
+    "A": "Increases",
+    "B": "Decreases",
+    "C": "Remains same",
+    "D": "None of the above",
+    "Answer": "Increases",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Inductive reactance is given by the formula: XL = 2 × π × f × L.\n2. The total inductance (L) of a line is the sum of the inductances per unit length (e.g., per km) multiplied by the total length of the line (L_total = L_per_km × Length).\n3. As the physical length of the transmission line increases, the total inductance increases.\n4. Since XL is directly proportional to total inductance, the inductive reactance also increases with the length of the line."
+  },
+  {
+    "Question": "As the length of transmission line increases, its capacitive reactance:",
+    "A": "Increases",
+    "B": "Decreases",
+    "C": "Remains same",
+    "D": "None of the above",
+    "Answer": "Decreases",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Capacitive reactance is given by the formula: XC = 1 / (2 × π × f × C).\n2. The total capacitance (C) of a line is proportional to its length (C_total = C_per_km × Length). Thus, longer lines have higher total capacitance to ground.\n3. Because capacitive reactance (XC) and capacitance (C) are inversely proportional, an increase in total capacitance causes a decrease in capacitive reactance.\n4. Therefore, as the line length increases, the capacitive reactance decreases."
+  },
+  {
+    "Question": "The capacitance of transmission line is neglected in case of:",
+    "A": "Short transmission line",
+    "B": "Medium transmission line",
+    "C": "Long transmission line",
+    "D": "None of the above",
+    "Answer": "Short transmission line",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Transmission lines are classified based on their length and operating voltage: Short (< 80 km, < 20 kV), Medium (80-250 km, 20-100 kV), and Long (> 250 km, > 100 kV).\n2. In short transmission lines, the physical distance is very small, meaning the surface area between the conductors and the ground is minimal.\n3. Consequently, the shunt capacitance formed is extremely small.\n4. The charging current flowing through this small capacitance is negligible compared to the full-load current. Hence, for simplified calculations, the capacitance is completely neglected in short lines."
+  },
+  {
+    "Question": "Skin effect depends upon:",
+    "A": "Nature of material",
+    "B": "Diameter of wire",
+    "C": "Frequency",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. 'Skin effect' is the tendency of alternating current to flow mostly near the outer surface of a conductor, leaving the center relatively unused.\n2. Skin depth (δ) is mathematically expressed as δ = √(1 / (π × f × μ × σ)), where 'f' is frequency, 'μ' is permeability, and 'σ' is conductivity.\n3. From this, we can see it depends on the material's nature (μ and σ), the frequency of the supply (f), and the diameter of the wire (as larger diameters provide more room for the current to crowd towards the surface).\n4. Therefore, all the listed options influence the skin effect."
+  },
+  {
+    "Question": "If supply frequency increases the skin effect is:",
+    "A": "Increased",
+    "B": "Decreased",
+    "C": "Remains same",
+    "D": "None of the above",
+    "Answer": "Increased",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The skin effect is caused by the internal alternating magnetic flux within the conductor, which induces eddy currents that oppose the current flow in the center.\n2. As the supply frequency increases, the rate of change of this internal flux increases, creating stronger eddy currents.\n3. These stronger eddy currents push the main AC current further outwards towards the surface (skin) of the conductor.\n4. Therefore, higher frequency directly results in a more pronounced (increased) skin effect and a higher effective AC resistance."
+  },
+  {
+    "Question": "If spacing between conductor is decreased the inductance of the line:",
+    "A": "Increases",
+    "B": "Decreases",
+    "C": "Remains same",
+    "D": "None of theses",
+    "Answer": "Decreases",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The inductance of a single-phase transmission line is given by the formula: L = 2 × 10^-7 × ln(D / r') H/m, where 'D' is the distance (spacing) between the two conductors and 'r'' is the effective radius.\n2. The formula shows a natural logarithmic relationship with the ratio (D / r').\n3. If the spacing (D) between the conductors is decreased, the value of the fraction (D / r') becomes smaller.\n4. The natural logarithm of a smaller number is also smaller, which means the overall inductance of the line decreases."
+  },
+  {
+    "Question": "If conductor diameter decreases, the inductance of the line:",
+    "A": "Increases",
+    "B": "Decreases",
+    "C": "Remains same",
+    "D": "None of the above",
+    "Answer": "Increases",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The inductance formula is L = 2 × 10^-7 × ln(D / r'), where 'r'' is the effective radius of the conductor (r' = 0.7788 × physical radius 'r').\n2. If the conductor diameter decreases, the physical radius 'r' decreases, and consequently, the effective radius 'r'' also decreases.\n3. A smaller denominator ('r'') in the fraction (D / r') means the overall ratio increases.\n4. Because the natural logarithm of a larger number yields a larger result, the line inductance increases when the conductor diameter decreases."
+  },
+  {
+    "Question": "Which of the two generalized constants of the transmission line are equal?",
+    "A": "B and C",
+    "B": "A and D",
+    "C": "A and B",
+    "D": "B and D",
+    "Answer": "A and D",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. A transmission line is represented as a two-port network using ABCD (or generalized) constants, where VS = A·VR + B·IR and IS = C·VR + D·IR.\n2. For any symmetrical network (like a transmission line where the sending-end and receiving-end characteristics are identical), the constants 'A' and 'D' are equal.\n3. A = D indicates that if the line is reversed, the voltage and current relationships remain the same.\n4. Additionally, for a passive, bilateral network, the reciprocity theorem dictates that AD - BC = 1."
+  },
+  {
+    "Question": "The line constants of transmission line are:",
+    "A": "Lumped",
+    "B": "Non uniformly distributed",
+    "C": "Uniformly distributed",
+    "D": "None of the above",
+    "Answer": "Uniformly distributed",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The primary constants of a transmission line are Resistance (R), Inductance (L), Capacitance (C), and Conductance (G).\n2. Unlike electrical circuits with discrete components (like resistors and capacitors), a transmission line is a continuous physical structure.\n3. These electrical properties (R, L, C, G) are distributed continuously and evenly along the entire length of the line.\n4. Therefore, they are considered 'uniformly distributed' parameters, typically calculated on a per-kilometer basis."
+  },
+  {
+    "Question": "In overhead line we generally use:",
+    "A": "Copper conductor",
+    "B": "ACSR conductor",
+    "C": "All aluminium conductor",
+    "D": "None of the above",
+    "Answer": "ACSR conductor",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. ACSR stands for Aluminium Conductor Steel Reinforced.\n2. Copper is an excellent conductor but is very heavy and highly expensive, making it uneconomical for long spans.\n3. Pure aluminium is lighter and cheaper but has low tensile strength, so it can sag or break under wind/ice.\n4. ACSR solves this by combining the best of both: the central core is made of high-strength steel strands to bear the mechanical tension, while the outer layers are made of highly conductive aluminium strands to carry the current efficiently."
+  },
+  {
+    "Question": "String efficiency for DC system is:",
+    "A": "0%",
+    "B": "50%",
+    "C": "100%",
+    "D": "Can't say",
+    "Answer": "100%",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. String efficiency (η) is defined as the ratio of the total voltage across the entire string to the product of the number of discs and the voltage across the disc nearest to the conductor (η = V_string / (n × V_nearest)).\n2. The uneven voltage distribution in AC is caused by the capacitance between the insulator pins and the earthed tower, which draws charging current.\n3. However, in a Direct Current (DC) system, the frequency (f) is zero.\n4. At zero frequency, capacitive reactance (XC = 1 / 2πfC) becomes infinite. No charging current flows through the shunt capacitances. Thus, the voltage divides equally across all units.\n5. Since voltage across every disc is equal, V_string = n × V_nearest, making the string efficiency exactly 100%."
+  },
+  {
+    "Question": "If the string efficiency is increased, the:",
+    "A": "Voltage across disc nearest to conductor increases",
+    "B": "Voltage distribution becomes more uniform",
+    "C": "Number of discs decreases",
+    "D": "None of the above",
+    "Answer": "Voltage distribution becomes more uniform",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. String efficiency is a measure of how evenly the voltage is distributed across the insulator discs.\n2. A low string efficiency (e.g., 70%) means the disc nearest to the conductor is experiencing a very high voltage compared to the others, risking flashover.\n3. When string efficiency is increased (closer to 100%), it means the voltage stress is being shared more equally among all the discs.\n4. Therefore, an increase in string efficiency directly implies that the voltage distribution across the string has become more uniform."
+  },
+  {
+    "Question": "In a string of suspension insulators, the disc are connected in:",
+    "A": "Parallel",
+    "B": "Series",
+    "C": "Shunt",
+    "D": "None of the above",
+    "Answer": "Series",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. A suspension insulator string consists of multiple individual porcelain or glass discs.\n2. These discs are mechanically linked together end-to-end by metallic ball-and-socket joints or pins.\n3. Electrically, the voltage is applied across the entire top and bottom of the string, and the same charging/leakage current passes through each disc sequentially.\n4. Because there is only one path for the current to flow from the conductor to the tower through the units, they are connected in a 'series' configuration."
+  },
+  {
+    "Question": "In a string of suspension insulators, the charging current is maximum through the disc:",
+    "A": "Nearest to cross arm",
+    "B": "Nearest to conductor",
+    "C": "In the middle of the string",
+    "D": "None of the above",
+    "Answer": "Nearest to conductor",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. In an AC system, each insulator disc forms a capacitor with the earthed tower cross-arm (shunt capacitance).\n2. A charging current flows through these capacitances to the ground.\n3. The disc nearest to the conductor must supply its own charging current PLUS the charging currents of all the discs above it.\n4. As you move up the string towards the cross-arm, the current progressively bleeds off into the tower. Thus, the current accumulates and is at its absolute maximum at the bottom disc (nearest to the live conductor)."
+  },
+  {
+    "Question": "In a 33 KV overhead line there are 3 units in the string of insulators. The voltage across the string is:",
+    "A": "33 KV",
+    "B": "11 KV",
+    "C": "22 KV",
+    "D": "19.05 KV",
+    "Answer": "19.05 KV",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The transmission line voltage (33 kV) is the line-to-line (phase-to-phase) RMS voltage.\n2. However, the suspension insulator string connects one phase conductor to the grounded tower. Therefore, it experiences the phase-to-ground (line-to-neutral) voltage.\n3. The relationship is V_phase = V_line / √3.\n4. V_string = 33 kV / 1.732 ≈ 19.05 kV."
+  },
+  {
+    "Question": "In a 33 KV overhead line there are three units in the string of insulators. If string efficiency is 85.8% then the voltage across the disc nearest to the conductor is:",
+    "A": "11 KV",
+    "B": "7.4 KV",
+    "C": "19.05 KV",
+    "D": "9.8 KV",
+    "Answer": "7.4 KV",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. First, find the phase voltage: V_phase = 33 / √3 ≈ 19.05 kV.\n2. The formula for string efficiency is: η = V_phase / (n × V_nearest), where 'n' is the number of discs (3).\n3. Plug in the values: 0.858 = 19.05 / (3 × V_nearest).\n4. Rearrange to solve for V_nearest: V_nearest = 19.05 / (3 × 0.858).\n5. V_nearest = 19.05 / 2.574 ≈ 7.4 kV."
+  },
+  {
+    "Question": "If the string efficiency is 100% then the voltage across the disc nearest to the conductor is:",
+    "A": "11 KV",
+    "B": "33/1.732 KV",
+    "C": "19.05/3 KV",
+    "D": "22 KV",
+    "Answer": "19.05/3 KV",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. A string efficiency of 100% means the voltage is perfectly uniformly distributed across all discs.\n2. The total phase voltage for a 33 kV system is 33/√3 = 19.05 kV.\n3. Since the voltage is distributed equally among the 'n' discs (which is 3 in this case), the voltage per disc is simply V_phase / n.\n4. Therefore, V_nearest = 19.05 / 3 ≈ 6.35 kV."
+  },
+  {
+    "Question": "The insulator may fail due to:",
+    "A": "Flash over",
+    "B": "Short circuit",
+    "C": "Deposition of dust",
+    "D": "Any of the above",
+    "Answer": "Any of the above",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Insulators can fail through several mechanisms.\n2. Flashover: A high voltage surge (like lightning) can cause an arc to jump across the surface of the insulator in the air.\n3. Short circuit (Puncture): A dielectric breakdown internally through the solid material of the insulator, creating a permanent short circuit.\n4. Deposition of dust: Accumulation of dust, salt, or industrial pollutants creates a conductive path on the surface, leading to tracking and eventual failure.\n5. Thus, any of these factors can cause an insulator to fail."
+  },
+  {
+    "Question": "ACSR conductor having 70 aluminium conductor and 6 steel conductor strands will be specified as:",
+    "A": "70/6",
+    "B": "6/70",
+    "C": "70/76",
+    "D": "6/76",
+    "Answer": "70/6",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The naming convention for ACSR (Aluminium Conductor Steel Reinforced) conductors is straightforward.\n2. It is always denoted as: (Number of Aluminium strands) / (Number of Steel strands).\n3. Given 70 aluminium strands and 6 steel strands, the correct specification is 70/6."
+  },
+  {
+    "Question": "Which type of insulators are used on 132 KV transmission lines?",
+    "A": "Pin type",
+    "B": "Disc type",
+    "C": "Shackle type",
+    "D": "Both A and C",
+    "Answer": "Disc type",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Pin insulators are generally used up to 33 kV. Above this voltage, they become too large, heavy, and costly.\n2. Disc insulators (suspension type) consist of multiple smaller units connected in a string.\n3. For high voltages like 132 kV, a string of disc insulators is used. The number of discs can be easily increased to handle higher voltages without making the structure excessively bulky.\n4. They also provide better mechanical security; if one disc breaks, the whole line doesn't necessarily fall."
+  },
+  {
+    "Question": "What type of insulator will be used if the direction of the transmission line is changed?",
+    "A": "Strain type",
+    "B": "Pin type",
+    "C": "Suspension type",
+    "D": "Shackle type",
+    "Answer": "Strain type",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. When a transmission line goes straight, the mechanical tension is relatively balanced.\n2. However, when the line takes a sharp turn or terminates (dead-end), there is a massive unbalanced mechanical pull (tension) along the length of the line.\n3. Strain insulators are specifically designed to withstand this high tensile stress. They are usually placed horizontally to anchor the line at corners."
+  },
+  {
+    "Question": "Bundled conductors in EHV transmission system provides:",
+    "A": "Increased line reactance",
+    "B": "Reduced line capacitance",
+    "C": "Reduced efficiency of transmission",
+    "D": "Reduced line reactance",
+    "Answer": "Reduced line reactance",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Bundled conductors involve using two or more conductors per phase, separated by small spacers.\n2. This arrangement effectively increases the overall Geometric Mean Radius (GMR) of the phase.\n3. Inductance (L) is inversely proportional to the natural log of GMR (L ∝ ln(1/GMR)). \n4. Therefore, a higher GMR reduces the line inductance (L).\n5. Since inductive reactance is XL = 2πfL, a reduction in inductance leads to a reduction in line reactance, which improves power transfer capability and voltage regulation."
+  },
+  {
+    "Question": "For a 400 KV line the spacing between phase conductor is around:",
+    "A": "8 m",
+    "B": "11 m",
+    "C": "14 m",
+    "D": "17 m",
+    "Answer": "8 m",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The phase-to-phase clearance is determined by the required insulation level, switching surges, and conductor sag.\n2. For a 400 kV transmission line, standard design practices usually dictate a phase spacing of approximately 8 to 9 meters (often taken as 8 m in theoretical textbook problems).\n3. This distance is sufficient to prevent flashovers due to wind sway or switching overvoltages under normal operating conditions."
+  },
+  {
+    "Question": "Which of the following is not a standard transmission voltage?",
+    "A": "132 kv",
+    "B": "222 kv",
+    "C": "400 kv",
+    "D": "765 kv",
+    "Answer": "222 kv",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. In power systems, standard transmission voltages are standardized nationally and internationally to allow for standard equipment manufacturing (transformers, insulators, etc.).\n2. In India, the standard AC transmission voltages are 66 kV, 110 kV, 132 kV, 220 kV, 400 kV, and 765 kV.\n3. 222 kV is not a recognized standard nominal voltage in power systems."
+  },
+  {
+    "Question": "The number of conductors in double circuit transmission line is:",
+    "A": "One earth conductor along with four conductors",
+    "B": "One earth conductor along with six conductors",
+    "C": "One earth conductor along with two conductors",
+    "D": "One earth conductor along with eight conductors",
+    "Answer": "One earth conductor along with six conductors",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. A 'single circuit' of a 3-phase system has 3 phase conductors (R, Y, B).\n2. A 'double circuit' line means there are two separate 3-phase circuits supported on the same tower. (2 circuits × 3 phases = 6 phase conductors).\n3. Additionally, an overhead Earth wire (shield wire) is placed at the top of the tower to protect against lightning.\n4. Therefore, the total setup is 1 earth conductor + 6 phase conductors."
+  },
+  {
+    "Question": "The earth conductor carried in high voltage transmission line is:",
+    "A": "Above the line conductors",
+    "B": "Below the line conductors",
+    "C": "Between the line conductors",
+    "D": "None of these",
+    "Answer": "Above the line conductors",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The purpose of the earth (or ground/shield) wire is to intercept lightning strikes before they hit the phase conductors.\n2. Lightning strikes from the clouds downward towards the ground.\n3. By placing the earth wire at the highest point (above the phase conductors), it acts as a shield, capturing the strike and safely routing the current down the tower structure to the ground."
+  },
+  {
+    "Question": "The L/C ratio for 132 KV and 400 KV lines are typically 160000 and 62500 respectively. The natural 3 phase loading for two lines will be respectively:",
+    "A": "108.9 MW and 2560 MW",
+    "B": "44 MW and 2560 MW",
+    "C": "44 MW and 640 MW",
+    "D": "640 MW and 44 MW",
+    "Answer": "44 MW and 640 MW",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Surge Impedance (Zc) = √(L/C).\n2. For the 132 kV line: Zc = √160000 = 400 Ω.\n   Surge Impedance Loading (SIL) = V^2 / Zc = (132)^2 / 400 = 17424 / 400 = 43.56 MW ≈ 44 MW.\n3. For the 400 kV line: Zc = √62500 = 250 Ω.\n   SIL = (400)^2 / 250 = 160000 / 250 = 640 MW.\n4. The natural loading (SIL) refers to the power delivered when the line is terminated by its surge impedance."
+  },
+  {
+    "Question": "For transmission line which one of the following relations is true?",
+    "A": "AD – BC = 1",
+    "B": "-AD – BC = 1",
+    "C": "AD – BC = -1",
+    "D": "AD – BC = 0",
+    "Answer": "AD – BC = 1",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The ABCD parameters are used to model a two-port transmission network.\n2. For a passive, linear, and bilateral network (which a standard transmission line is), the network must obey the Reciprocity Theorem.\n3. When the ABCD parameters are derived from network equations, the determinant of the transfer matrix must equal 1.\n4. The determinant is (A × D) - (B × C). Hence, the fundamental condition for reciprocity in a transmission line is AD - BC = 1."
+  }
+]

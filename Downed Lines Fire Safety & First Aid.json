@@ -1,0 +1,192 @@
+[
+  {
+    "Question": "What should you do if you see a downed power line?",
+    "A": "Touch it to see if it is live",
+    "B": "Assume it is energized, keep a safe distance, and call the utility emergency number",
+    "C": "Move it out of the way with a wooden stick",
+    "D": "Ignore it if it is not sparking",
+    "Answer": "Assume it is energized, keep a safe distance, and call the utility emergency number",
+    "Image": "1",
+    "Explaination": "Always assume a downed power line is energized. Keep a safe distance (at least 10 feet) and call the utility emergency number immediately."
+  },
+  {
+    "Question": "What is the minimum safe distance you should maintain from a downed power line?",
+    "A": "1 meter",
+    "B": "3 meters (10 feet)",
+    "C": "10 meters",
+    "D": "30 meters",
+    "Answer": "3 meters (10 feet)",
+    "Image": "1",
+    "Explaination": "A minimum safe distance of 3 meters (10 feet) should be maintained from a downed power line to avoid electric shock."
+  },
+  {
+    "Question": "Why is it dangerous to touch a vehicle that is in contact with a downed power line?",
+    "A": "The vehicle may explode",
+    "B": "The vehicle may be energized and touching it can cause electric shock",
+    "C": "The vehicle may move unexpectedly",
+    "D": "The vehicle may catch fire",
+    "Answer": "The vehicle may be energized and touching it can cause electric shock",
+    "Image": "1",
+    "Explaination": "A vehicle in contact with a downed power line may be energized, and touching it can cause electric shock. Stay inside the vehicle and call for help."
+  },
+  {
+    "Question": "What should you do if you are inside a vehicle that is in contact with a downed power line?",
+    "A": "Get out immediately and run",
+    "B": "Stay inside, call for help, and wait for utility personnel to de-energize the line",
+    "C": "Touch the metal parts of the vehicle",
+    "D": "Start the engine and drive away",
+    "Answer": "Stay inside, call for help, and wait for utility personnel to de-energize the line",
+    "Image": "1",
+    "Explaination": "If you are inside a vehicle in contact with a downed power line, stay inside, call for help, and wait for utility personnel to de-energize the line. The vehicle acts as a Faraday cage, protecting you from electric shock."
+  },
+  {
+    "Question": "What is the first step in responding to an electrical fire?",
+    "A": "Use water to extinguish the fire",
+    "B": "Disconnect the power source if safe to do so",
+    "C": "Call the fire department",
+    "D": "Run away",
+    "Answer": "Disconnect the power source if safe to do so",
+    "Image": "1",
+    "Explaination": "The first step in responding to an electrical fire is to disconnect the power source if it is safe to do so, then call the fire department."
+  },
+  {
+    "Question": "Which type of fire extinguisher should be used for electrical fires?",
+    "A": "Water",
+    "B": "Foam",
+    "C": "CO₂ or dry chemical",
+    "D": "Sand",
+    "Answer": "CO₂ or dry chemical",
+    "Image": "1",
+    "Explaination": "CO₂ or dry chemical fire extinguishers should be used for electrical fires, as they do not conduct electricity. Never use water or foam on electrical fires."
+  },
+  {
+    "Question": "What does the acronym PASS stand for in fire extinguisher operation?",
+    "A": "Pull, Aim, Squeeze, Sweep",
+    "B": "Push, Aim, Spray, Stop",
+    "C": "Pull, Aim, Spray, Stop",
+    "D": "Push, Aim, Squeeze, Sweep",
+    "Answer": "Pull, Aim, Squeeze, Sweep",
+    "Image": "1",
+    "Explaination": "PASS stands for Pull the pin, Aim the nozzle at the base of the fire, Squeeze the handle, and Sweep the extinguisher from side to side."
+  },
+  {
+    "Question": "What is the first step in treating an electrical burn victim?",
+    "A": "Apply ice to the burn",
+    "B": "Ensure the power source is disconnected and the scene is safe",
+    "C": "Give the victim water",
+    "D": "Move the victim to a different location",
+    "Answer": "Ensure the power source is disconnected and the scene is safe",
+    "Image": "1",
+    "Explaination": "The first step in treating an electrical burn victim is to ensure the power source is disconnected and the scene is safe, to prevent further injury."
+  },
+  {
+    "Question": "What is the recommended first aid for a person who has been electrocuted and is not breathing?",
+    "A": "Give them water",
+    "B": "Start CPR immediately and call for emergency medical help",
+    "C": "Apply ice to the burn",
+    "D": "Move them to a different location",
+    "Answer": "Start CPR immediately and call for emergency medical help",
+    "Image": "1",
+    "Explaination": "If a person has been electrocuted and is not breathing, start CPR immediately and call for emergency medical help."
+  },
+  {
+    "Question": "What is the purpose of a fire safety plan in a workplace?",
+    "A": "To increase the efficiency of work",
+    "B": "To ensure the safe evacuation of personnel and minimize property damage in the event of a fire",
+    "C": "To reduce the cost of fire insurance",
+    "D": "To measure the temperature of the building",
+    "Answer": "To ensure the safe evacuation of personnel and minimize property damage in the event of a fire",
+    "Image": "1",
+    "Explaination": "A fire safety plan ensures the safe evacuation of personnel and minimizes property damage in the event of a fire by outlining procedures, evacuation routes, and emergency contacts."
+  },
+  {
+    "Question": "What is the recommended frequency for fire drills in a workplace?",
+    "A": "Once a year",
+    "B": "Once every two years",
+    "C": "At least twice a year",
+    "D": "Once every five years",
+    "Answer": "At least twice a year",
+    "Image": "1",
+    "Explaination": "Fire drills should be conducted at least twice a year to ensure that employees are familiar with evacuation procedures and can respond effectively in an emergency."
+  },
+  {
+    "Question": "What is the purpose of a fire alarm system?",
+    "A": "To detect and alert occupants of a fire",
+    "B": "To extinguish the fire",
+    "C": "To increase the temperature of the building",
+    "D": "To measure the voltage of the system",
+    "Answer": "To detect and alert occupants of a fire",
+    "Image": "1",
+    "Explaination": "A fire alarm system detects and alerts occupants of a fire, providing early warning and enabling safe evacuation."
+  },
+  {
+    "Question": "What is the first step in responding to a fire emergency?",
+    "A": "Try to extinguish the fire",
+    "B": "Raise the alarm and evacuate",
+    "C": "Call the fire department",
+    "D": "Collect personal belongings",
+    "Answer": "Raise the alarm and evacuate",
+    "Image": "1",
+    "Explaination": "The first step in responding to a fire emergency is to raise the alarm and evacuate, ensuring the safety of all occupants."
+  },
+  {
+    "Question": "What is the purpose of a fire blanket?",
+    "A": "To keep workers warm",
+    "B": "To smother small fires by cutting off the oxygen supply",
+    "C": "To improve visibility",
+    "D": "To measure the temperature",
+    "Answer": "To smother small fires by cutting off the oxygen supply",
+    "Image": "1",
+    "Explaination": "A fire blanket is used to smother small fires by cutting off the oxygen supply, and it can also be used to wrap a person whose clothes are on fire."
+  },
+  {
+    "Question": "What is the recommended procedure for evacuating a building during a fire?",
+    "A": "Use the elevator",
+    "B": "Use the stairs and follow the evacuation route",
+    "C": "Run in any direction",
+    "D": "Wait for the fire department",
+    "Answer": "Use the stairs and follow the evacuation route",
+    "Image": "1",
+    "Explaination": "During a fire evacuation, use the stairs (never the elevator) and follow the designated evacuation route to exit the building safely."
+  },
+  {
+    "Question": "What is the purpose of a fire extinguisher?",
+    "A": "To detect fires",
+    "B": "To extinguish small fires before they spread",
+    "C": "To increase the temperature of the building",
+    "D": "To measure the voltage of the system",
+    "Answer": "To extinguish small fires before they spread",
+    "Image": "1",
+    "Explaination": "A fire extinguisher is used to extinguish small fires before they spread, providing a first line of defense against fire."
+  },
+  {
+    "Question": "What is the recommended interval for inspecting fire extinguishers?",
+    "A": "Once a year",
+    "B": "Once every two years",
+    "C": "Monthly",
+    "D": "Once every five years",
+    "Answer": "Monthly",
+    "Image": "1",
+    "Explaination": "Fire extinguishers should be inspected monthly to ensure they are in proper working condition and ready for use in an emergency."
+  },
+  {
+    "Question": "What is the purpose of a fire hydrant?",
+    "A": "To detect fires",
+    "B": "To provide a water supply for firefighting",
+    "C": "To increase the temperature of the building",
+    "D": "To measure the voltage of the system",
+    "Answer": "To provide a water supply for firefighting",
+    "Image": "1",
+    "Explaination": "A fire hydrant provides a water supply for firefighting, allowing firefighters to connect hoses and extinguish fires."
+  },
+  {
+    "Question": "What is the recommended first aid for a minor electrical burn?",
+    "A": "Apply ice to the burn",
+    "B": "Cool the burn with running water and cover it with a sterile bandage",
+    "C": "Give the victim water",
+    "D": "Move the victim to a different location",
+    "Answer": "Cool the burn with running water and cover it with a sterile bandage",
+    "Image": "1",
+    "Explaination": "For a minor electrical burn, cool the burn with running water for at least 10 minutes and cover it with a sterile bandage to prevent infection."
+  }
+]

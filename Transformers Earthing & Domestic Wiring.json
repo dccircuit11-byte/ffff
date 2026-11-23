@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "What is the primary function of a transformer in an electrical power system?",
+    "A": "To convert AC power into DC power",
+    "B": "To transfer electrical energy between two or more circuits through electromagnetic induction, typically changing voltage levels",
+    "C": "To convert electrical energy into mechanical energy",
+    "D": "To store electrical energy in a magnetic field",
+    "Answer": "To transfer electrical energy between two or more circuits through electromagnetic induction, typically changing voltage levels",
+    "Image": "1",
+    "Explaination": "A transformer transfers electrical energy between circuits through electromagnetic induction, stepping up or stepping down voltage levels while keeping frequency constant."
+  },
+  {
+    "Question": "Which type of transformer is used to step up the voltage at the generating station?",
+    "A": "Step-down transformer",
+    "B": "Step-up transformer",
+    "C": "Isolation transformer",
+    "D": "Auto-transformer",
+    "Answer": "Step-up transformer",
+    "Image": "1",
+    "Explaination": "A step-up transformer increases the voltage from the generator level to the transmission level, reducing current and transmission losses."
+  },
+  {
+    "Question": "What is the function of earthing in an electrical installation?",
+    "A": "To increase the voltage of the system",
+    "B": "To provide a low-resistance path to the ground for fault currents, protecting people and equipment",
+    "C": "To reduce the power factor",
+    "D": "To increase the current in the circuit",
+    "Answer": "To provide a low-resistance path to the ground for fault currents, protecting people and equipment",
+    "Image": "1",
+    "Explaination": "Earthing provides a low-resistance path to the ground for fault currents, protecting people from electric shock and equipment from damage."
+  },
+  {
+    "Question": "What is the recommended maximum earth resistance for a domestic earthing system?",
+    "A": "1 ohm",
+    "B": "5 ohms",
+    "C": "10 ohms",
+    "D": "100 ohms",
+    "Answer": "5 ohms",
+    "Image": "1",
+    "Explaination": "The recommended maximum earth resistance for a domestic earthing system is typically 5 ohms or less to ensure effective fault current flow."
+  },
+  {
+    "Question": "Which type of earthing is commonly used in domestic wiring?",
+    "A": "Plate earthing",
+    "B": "Pipe earthing",
+    "C": "Rod earthing",
+    "D": "Strip earthing",
+    "Answer": "Pipe earthing",
+    "Image": "1",
+    "Explaination": "Pipe earthing is commonly used in domestic wiring due to its simplicity, low cost, and effectiveness in providing a low-resistance ground path."
+  },
+  {
+    "Question": "What is the standard voltage for domestic single-phase supply in India?",
+    "A": "110 V",
+    "B": "230 V",
+    "C": "415 V",
+    "D": "11 kV",
+    "Answer": "230 V",
+    "Image": "1",
+    "Explaination": "The standard voltage for domestic single-phase supply in India is 230 V at 50 Hz."
+  },
+  {
+    "Question": "What is the standard voltage for domestic three-phase supply in India?",
+    "A": "230 V",
+    "B": "415 V",
+    "C": "11 kV",
+    "D": "33 kV",
+    "Answer": "415 V",
+    "Image": "1",
+    "Explaination": "The standard voltage for domestic three-phase supply in India is 415 V at 50 Hz."
+  },
+  {
+    "Question": "What is the standard frequency of the AC supply in India?",
+    "A": "50 Hz",
+    "B": "60 Hz",
+    "C": "400 Hz",
+    "D": "25 Hz",
+    "Answer": "50 Hz",
+    "Image": "1",
+    "Explaination": "The standard frequency of the AC supply in India is 50 Hz."
+  },
+  {
+    "Question": "What is the function of a Miniature Circuit Breaker (MCB) in domestic wiring?",
+    "A": "To step up the voltage",
+    "B": "To protect the circuit from overload and short-circuit currents",
+    "C": "To convert AC to DC",
+    "D": "To measure the energy consumption",
+    "Answer": "To protect the circuit from overload and short-circuit currents",
+    "Image": "1",
+    "Explaination": "An MCB protects the circuit from overload and short-circuit currents by automatically tripping and interrupting the circuit."
+  },
+  {
+    "Question": "What is the function of an Earth Leakage Circuit Breaker (ELCB) in domestic wiring?",
+    "A": "To protect against overload",
+    "B": "To protect against electric shock due to earth leakage current",
+    "C": "To step up the voltage",
+    "D": "To measure the energy consumption",
+    "Answer": "To protect against electric shock due to earth leakage current",
+    "Image": "1",
+    "Explaination": "An ELCB (or RCCB) protects against electric shock by detecting earth leakage current and quickly disconnecting the supply."
+  },
+  {
+    "Question": "What is the recommended height for mounting a switchboard in a domestic installation?",
+    "A": "0.5 meters above the floor",
+    "B": "1.2 meters above the floor",
+    "C": "2.5 meters above the floor",
+    "D": "3.0 meters above the floor",
+    "Answer": "1.2 meters above the floor",
+    "Image": "1",
+    "Explaination": "The recommended height for mounting a switchboard in a domestic installation is typically 1.2 meters above the floor for ease of operation."
+  },
+  {
+    "Question": "What is the recommended height for mounting a ceiling fan in a domestic installation?",
+    "A": "1.5 meters above the floor",
+    "B": "2.0 meters above the floor",
+    "C": "2.5 meters above the floor",
+    "D": "3.0 meters above the floor",
+    "Answer": "2.5 meters above the floor",
+    "Image": "1",
+    "Explaination": "The recommended height for mounting a ceiling fan is typically 2.5 meters above the floor to ensure proper air circulation and safety."
+  },
+  {
+    "Question": "What is the purpose of a distribution board in a domestic installation?",
+    "A": "To step up the voltage",
+    "B": "To distribute electrical power to different circuits and provide protection through MCBs",
+    "C": "To convert AC to DC",
+    "D": "To measure the energy consumption",
+    "Answer": "To distribute electrical power to different circuits and provide protection through MCBs",
+    "Image": "1",
+    "Explaination": "A distribution board distributes electrical power to different circuits and provides protection through MCBs for each circuit."
+  },
+  {
+    "Question": "What is the purpose of a lightening arrester in a substation?",
+    "A": "To step up the voltage",
+    "B": "To protect the equipment from overvoltage surges caused by lightning",
+    "C": "To convert AC to DC",
+    "D": "To measure the energy consumption",
+    "Answer": "To protect the equipment from overvoltage surges caused by lightning",
+    "Image": "1",
+    "Explaination": "A lightning arrester protects the equipment from overvoltage surges caused by lightning by diverting the surge current to the ground."
+  },
+  {
+    "Question": "What is the function of a transformer breather?",
+    "A": "To filter the insulating oil",
+    "B": "To absorb moisture from the air entering the transformer tank during oil expansion and contraction",
+    "C": "To cool the transformer windings",
+    "D": "To measure the oil temperature",
+    "Answer": "To absorb moisture from the air entering the transformer tank during oil expansion and contraction",
+    "Image": "1",
+    "Explaination": "The transformer breather contains silica gel that absorbs moisture from the air entering the transformer tank during oil expansion and contraction, preventing moisture contamination."
+  }
+]

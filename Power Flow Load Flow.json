@@ -1,0 +1,432 @@
+[
+  {
+    "Question": "What is the primary purpose of a load flow (power flow) study in a power system?",
+    "A": "To determine the magnitude and phase angle of voltages at each bus and the real and reactive power flow in each line",
+    "B": "To calculate the transient stability limit of generators",
+    "C": "To design the insulation coordination of transformers",
+    "D": "To measure the earth resistance of substations",
+    "Answer": "To determine the magnitude and phase angle of voltages at each bus and the real and reactive power flow in each line",
+    "Image": "1",
+    "Explaination": "Load flow analysis is used to determine the steady-state operating conditions of a power system, including bus voltages, angles, and line power flows."
+  },
+  {
+    "Question": "In a load flow study, which type of bus is known as the 'Swing Bus' or 'Slack Bus'?",
+    "A": "The bus where both voltage magnitude and phase angle are specified",
+    "B": "The bus where both real power (P) and reactive power (Q) are specified",
+    "C": "The bus where voltage magnitude and real power (P) are specified",
+    "D": "The bus where voltage magnitude and phase angle are specified, and it supplies the losses",
+    "Answer": "The bus where voltage magnitude and phase angle are specified, and it supplies the losses",
+    "Image": "1",
+    "Explaination": "The slack bus (or swing bus) is a reference bus where the voltage magnitude and angle are specified, and it balances the system by supplying the difference between generation and load plus losses."
+  },
+  {
+    "Question": "Which bus is also called the voltage-controlled bus in a power system?",
+    "A": "Slack bus",
+    "B": "PQ bus",
+    "C": "PV bus",
+    "D": "Reference bus",
+    "Answer": "PV bus",
+    "Image": "1",
+    "Explaination": "A PV bus is a voltage-controlled bus where the voltage magnitude and active power are specified, and the reactive power is calculated."
+  },
+  {
+    "Question": "In a load flow study, what is specified at a PQ bus (load bus)?",
+    "A": "Voltage magnitude and phase angle",
+    "B": "Real power (P) and reactive power (Q)",
+    "C": "Voltage magnitude and real power (P)",
+    "D": "Only voltage magnitude",
+    "Answer": "Real power (P) and reactive power (Q)",
+    "Image": "1",
+    "Explaination": "At a PQ bus (load bus), the real power (P) and reactive power (Q) are specified, and the voltage magnitude and angle are calculated."
+  },
+  {
+    "Question": "Which of the following is a major advantage of using the Newton-Raphson method for load flow analysis?",
+    "A": "It has quadratic convergence characteristics",
+    "B": "It requires no initial guess",
+    "C": "It is the simplest method for hand calculations",
+    "D": "It does not require the formation of a Jacobian matrix",
+    "Answer": "It has quadratic convergence characteristics",
+    "Image": "1",
+    "Explaination": "The Newton-Raphson method has a quadratic convergence characteristic, meaning it converges very fast (in a few iterations) when the initial guess is close to the solution."
+  },
+  {
+    "Question": "What is the main disadvantage of the Gauss-Seidel method for load flow analysis?",
+    "A": "It has poor convergence characteristics and may take many iterations",
+    "B": "It cannot handle PV buses",
+    "C": "It requires more memory than Newton-Raphson",
+    "D": "It is only applicable to DC systems",
+    "Answer": "It has poor convergence characteristics and may take many iterations",
+    "Image": "1",
+    "Explaination": "The Gauss-Seidel method has linear convergence and may require many iterations, especially for large systems, making it slower than Newton-Raphson."
+  },
+  {
+    "Question": "What does the Y-bus matrix in a power system represent?",
+    "A": "The admittance of the transmission network",
+    "B": "The impedance of the generators",
+    "C": "The power flow in the lines",
+    "D": "The voltage magnitudes at the buses",
+    "Answer": "The admittance of the transmission network",
+    "Image": "1",
+    "Explaination": "The Y-bus (admittance matrix) represents the nodal admittance of the power system network, used in load flow and fault studies."
+  },
+  {
+    "Question": "In a Y-bus matrix, what is the diagonal element Yii called?",
+    "A": "Transfer admittance",
+    "B": "Driving point admittance",
+    "C": "Mutual admittance",
+    "D": "Leakage admittance",
+    "Answer": "Driving point admittance",
+    "Image": "1",
+    "Explaination": "The diagonal elements of the Y-bus matrix are called driving point admittances (self-admittances), and off-diagonal elements are transfer admittances (mutual admittances)."
+  },
+  {
+    "Question": "What is the typical value of the diagonal element in a Y-bus matrix?",
+    "A": "The sum of all admittances connected to the bus",
+    "B": "The negative of the admittance connected between two buses",
+    "C": "Zero",
+    "D": "Always equal to 1 p.u.",
+    "Answer": "The sum of all admittances connected to the bus",
+    "Image": "1",
+    "Explaination": "Each diagonal element Yii is the sum of all admittances connected to that bus, including the shunt admittances to the reference node."
+  },
+  {
+    "Question": "What is the off-diagonal element Yij in a Y-bus matrix?",
+    "A": "The sum of all admittances connected to bus i",
+    "B": "The negative of the admittance connected between bus i and bus j",
+    "C": "Always zero",
+    "D": "Always positive",
+    "Answer": "The negative of the admittance connected between bus i and bus j",
+    "Image": "1",
+    "Explaination": "Off-diagonal elements Yij are the negative of the admittance connected between bus i and bus j."
+  },
+  {
+    "Question": "What is the Jacobian matrix used for in the Newton-Raphson load flow method?",
+    "A": "To store the bus voltages",
+    "B": "To relate the changes in real and reactive power to changes in voltage magnitude and angle",
+    "C": "To calculate the line losses",
+    "D": "To determine the fault current",
+    "Answer": "To relate the changes in real and reactive power to changes in voltage magnitude and angle",
+    "Image": "1",
+    "Explaination": "The Jacobian matrix in the Newton-Raphson method relates the incremental changes in real and reactive power to the incremental changes in voltage magnitude and angle."
+  },
+  {
+    "Question": "What is the size of the Jacobian matrix for a power system with n buses?",
+    "A": "n × n",
+    "B": "2n × 2n",
+    "C": "(2n-2) × (2n-2)",
+    "D": "(n-1) × (n-1)",
+    "Answer": "(2n-2) × (2n-2)",
+    "Image": "1",
+    "Explaination": "For a system with n buses, the Jacobian matrix in the Newton-Raphson method is of size (2n-2) × (2n-2), excluding the slack bus."
+  },
+  {
+    "Question": "What is the Fast Decoupled Load Flow (FDLF) method based on?",
+    "A": "The strong coupling between real power and voltage angle, and between reactive power and voltage magnitude",
+    "B": "The weak coupling between real power and voltage angle",
+    "C": "The assumption that all buses are PV buses",
+    "D": "The assumption that the system is DC",
+    "Answer": "The strong coupling between real power and voltage angle, and between reactive power and voltage magnitude",
+    "Image": "1",
+    "Explaination": "The FDLF method exploits the strong coupling between real power and voltage angle (P-δ) and between reactive power and voltage magnitude (Q-V) to simplify the load flow equations."
+  },
+  {
+    "Question": "What is the main advantage of the Fast Decoupled Load Flow (FDLF) method?",
+    "A": "It requires less memory and has faster convergence for large systems",
+    "B": "It is more accurate than Newton-Raphson",
+    "C": "It can handle all types of buses",
+    "D": "It does not require an initial guess",
+    "Answer": "It requires less memory and has faster convergence for large systems",
+    "Image": "1",
+    "Explaination": "FDLF requires less memory and has faster convergence for large systems because the Jacobian matrix is constant and decoupled."
+  },
+  {
+    "Question": "What is the Gauss-Seidel method's convergence characteristic?",
+    "A": "Quadratic",
+    "B": "Linear",
+    "C": "Cubic",
+    "D": "Exponential",
+    "Answer": "Linear",
+    "Image": "1",
+    "Explaination": "The Gauss-Seidel method has linear convergence, meaning the error decreases by a constant factor in each iteration."
+  },
+  {
+    "Question": "What is the Newton-Raphson method's convergence characteristic?",
+    "A": "Linear",
+    "B": "Quadratic",
+    "C": "Cubic",
+    "D": "Logarithmic",
+    "Answer": "Quadratic",
+    "Image": "1",
+    "Explaination": "The Newton-Raphson method has quadratic convergence, meaning the number of correct digits roughly doubles in each iteration."
+  },
+  {
+    "Question": "In a load flow study, what is the slack bus responsible for?",
+    "A": "Supplying the difference between generation and load plus losses",
+    "B": "Controlling the voltage magnitude only",
+    "C": "Controlling the reactive power only",
+    "D": "Controlling the frequency only",
+    "Answer": "Supplying the difference between generation and load plus losses",
+    "Image": "1",
+    "Explaination": "The slack bus supplies the difference between generation and load plus losses, balancing the system."
+  },
+  {
+    "Question": "What is the purpose of the acceleration factor in the Gauss-Seidel method?",
+    "A": "To speed up convergence",
+    "B": "To slow down convergence",
+    "C": "To increase the number of iterations",
+    "D": "To reduce the accuracy",
+    "Answer": "To speed up convergence",
+    "Image": "1",
+    "Explaination": "The acceleration factor (typically between 1.0 and 2.0) is used in the Gauss-Seidel method to speed up convergence."
+  },
+  {
+    "Question": "What is the typical value of the acceleration factor in the Gauss-Seidel method?",
+    "A": "0.5",
+    "B": "1.0",
+    "C": "1.6 to 1.8",
+    "D": "2.5",
+    "Answer": "1.6 to 1.8",
+    "Image": "1",
+    "Explaination": "The acceleration factor in the Gauss-Seidel method is typically between 1.6 and 1.8 to speed up convergence."
+  },
+  {
+    "Question": "What is the main assumption in the DC load flow method?",
+    "A": "Resistance is negligible and voltage magnitudes are 1.0 p.u.",
+    "B": "Reactance is negligible",
+    "C": "All buses are PV buses",
+    "D": "The system is unbalanced",
+    "Answer": "Resistance is negligible and voltage magnitudes are 1.0 p.u.",
+    "Image": "1",
+    "Explaination": "The DC load flow method assumes that resistance is negligible (X >> R) and voltage magnitudes are 1.0 p.u., making the equations linear."
+  },
+  {
+    "Question": "What is the line loss formula in a power system?",
+    "A": "P_loss = I²R",
+    "B": "P_loss = V²/R",
+    "C": "P_loss = I²/X",
+    "D": "P_loss = V²X",
+    "Answer": "P_loss = I²R",
+    "Image": "1",
+    "Explaination": "The line loss in a power system is given by P_loss = I²R, where I is the current and R is the line resistance."
+  },
+  {
+    "Question": "What is the purpose of a load flow study in power system planning?",
+    "A": "To determine the best location and size of new generation and transmission facilities",
+    "B": "To calculate the fault current",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To determine the best location and size of new generation and transmission facilities",
+    "Image": "1",
+    "Explaination": "Load flow studies help in power system planning by determining the best location and size of new generation and transmission facilities to meet future demand."
+  },
+  {
+    "Question": "What is the purpose of a load flow study in power system operation?",
+    "A": "To determine the economic dispatch of generation",
+    "B": "To calculate the fault current",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To determine the economic dispatch of generation",
+    "Image": "1",
+    "Explaination": "Load flow studies help in power system operation by determining the economic dispatch of generation and ensuring that the system operates within limits."
+  },
+  {
+    "Question": "What is the bus admittance matrix (Y-bus) used for in load flow analysis?",
+    "A": "To represent the network equations in terms of bus voltages and currents",
+    "B": "To calculate the fault current",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To represent the network equations in terms of bus voltages and currents",
+    "Image": "1",
+    "Explaination": "The Y-bus matrix represents the network equations in terms of bus voltages and currents, forming the basis of load flow analysis."
+  },
+  {
+    "Question": "What is the relationship between the Y-bus matrix and the Z-bus matrix?",
+    "A": "Z-bus is the inverse of the Y-bus matrix",
+    "B": "Y-bus is the inverse of the Z-bus matrix",
+    "C": "They are identical",
+    "D": "They are unrelated",
+    "Answer": "Z-bus is the inverse of the Y-bus matrix",
+    "Image": "1",
+    "Explaination": "The Z-bus (impedance matrix) is the inverse of the Y-bus (admittance matrix), i.e., Z-bus = [Y-bus]⁻¹."
+  },
+  {
+    "Question": "What is the purpose of the Z-bus matrix in fault analysis?",
+    "A": "To calculate the fault current",
+    "B": "To calculate the load flow",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To calculate the fault current",
+    "Image": "1",
+    "Explaination": "The Z-bus matrix is used in fault analysis to calculate the fault current at any bus using the formula If = Vf / Zii, where Zii is the diagonal element of the Z-bus matrix."
+  },
+  {
+    "Question": "What is the typical number of iterations required for the Newton-Raphson load flow method to converge?",
+    "A": "1-2",
+    "B": "3-5",
+    "C": "10-20",
+    "D": "50-100",
+    "Answer": "3-5",
+    "Image": "1",
+    "Explaination": "The Newton-Raphson method typically converges in 3-5 iterations for most power systems due to its quadratic convergence."
+  },
+  {
+    "Question": "What is the typical number of iterations required for the Gauss-Seidel load flow method to converge?",
+    "A": "1-2",
+    "B": "3-5",
+    "C": "10-50 or more",
+    "D": "100-200",
+    "Answer": "10-50 or more",
+    "Image": "1",
+    "Explaination": "The Gauss-Seidel method typically requires 10-50 or more iterations to converge, depending on the system size and initial guess."
+  },
+  {
+    "Question": "What is the main disadvantage of the Newton-Raphson method?",
+    "A": "It requires more memory and computational effort per iteration",
+    "B": "It has poor convergence characteristics",
+    "C": "It cannot handle PV buses",
+    "D": "It is only applicable to DC systems",
+    "Answer": "It requires more memory and computational effort per iteration",
+    "Image": "1",
+    "Explaination": "The Newton-Raphson method requires more memory and computational effort per iteration due to the formation and inversion of the Jacobian matrix."
+  },
+  {
+    "Question": "What is the purpose of a load flow study in determining the voltage profile of a power system?",
+    "A": "To ensure that bus voltages are within acceptable limits",
+    "B": "To calculate the fault current",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To ensure that bus voltages are within acceptable limits",
+    "Image": "1",
+    "Explaination": "Load flow studies help determine the voltage profile of a power system to ensure that bus voltages are within acceptable limits (typically ±5% of nominal)."
+  },
+  {
+    "Question": "What is the purpose of a load flow study in determining the line loading of a power system?",
+    "A": "To ensure that line flows are within thermal limits",
+    "B": "To calculate the fault current",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To ensure that line flows are within thermal limits",
+    "Image": "1",
+    "Explaination": "Load flow studies help determine the line loading of a power system to ensure that line flows are within thermal limits and to identify overloaded lines."
+  },
+  {
+    "Question": "What is the purpose of a load flow study in determining the reactive power compensation requirements?",
+    "A": "To determine the optimal location and size of reactive power compensation devices",
+    "B": "To calculate the fault current",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To determine the optimal location and size of reactive power compensation devices",
+    "Image": "1",
+    "Explaination": "Load flow studies help determine the optimal location and size of reactive power compensation devices (such as capacitors and SVCs) to maintain voltage within limits."
+  },
+  {
+    "Question": "What is the purpose of a load flow study in determining the economic operation of a power system?",
+    "A": "To determine the most economic generation dispatch",
+    "B": "To calculate the fault current",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To determine the most economic generation dispatch",
+    "Image": "1",
+    "Explaination": "Load flow studies help determine the most economic generation dispatch by minimizing the total generation cost while satisfying the load demand and system constraints."
+  },
+  {
+    "Question": "What is the bus classification in a load flow study?",
+    "A": "Slack bus, PV bus, and PQ bus",
+    "B": "Generator bus and load bus",
+    "C": "Transmission bus and distribution bus",
+    "D": "AC bus and DC bus",
+    "Answer": "Slack bus, PV bus, and PQ bus",
+    "Image": "1",
+    "Explaination": "In a load flow study, buses are classified into three types: slack bus (reference bus), PV bus (voltage-controlled bus), and PQ bus (load bus)."
+  },
+  {
+    "Question": "What is the specified quantity at a slack bus?",
+    "A": "Voltage magnitude and phase angle",
+    "B": "Real power and reactive power",
+    "C": "Voltage magnitude and real power",
+    "D": "Only voltage magnitude",
+    "Answer": "Voltage magnitude and phase angle",
+    "Image": "1",
+    "Explaination": "At a slack bus, the voltage magnitude and phase angle are specified (typically |V| = 1.0 p.u. and δ = 0°)."
+  },
+  {
+    "Question": "What is the specified quantity at a PV bus?",
+    "A": "Voltage magnitude and real power",
+    "B": "Real power and reactive power",
+    "C": "Voltage magnitude and phase angle",
+    "D": "Only reactive power",
+    "Answer": "Voltage magnitude and real power",
+    "Image": "1",
+    "Explaination": "At a PV bus, the voltage magnitude and real power are specified, and the reactive power is calculated."
+  },
+  {
+    "Question": "What is the specified quantity at a PQ bus?",
+    "A": "Real power and reactive power",
+    "B": "Voltage magnitude and real power",
+    "C": "Voltage magnitude and phase angle",
+    "D": "Only voltage magnitude",
+    "Answer": "Real power and reactive power",
+    "Image": "1",
+    "Explaination": "At a PQ bus, the real power and reactive power are specified, and the voltage magnitude and angle are calculated."
+  },
+  {
+    "Question": "What is the purpose of the load flow solution in a power system?",
+    "A": "To determine the steady-state operating conditions of the system",
+    "B": "To determine the transient stability limit",
+    "C": "To determine the fault current",
+    "D": "To determine the protection scheme",
+    "Answer": "To determine the steady-state operating conditions of the system",
+    "Image": "1",
+    "Explaination": "The load flow solution determines the steady-state operating conditions of the system, including bus voltages, angles, and line power flows."
+  },
+  {
+    "Question": "What is the main advantage of the Gauss-Seidel method?",
+    "A": "It requires less memory and is simple to implement",
+    "B": "It has quadratic convergence",
+    "C": "It is faster than Newton-Raphson",
+    "D": "It does not require an initial guess",
+    "Answer": "It requires less memory and is simple to implement",
+    "Image": "1",
+    "Explaination": "The Gauss-Seidel method requires less memory and is simple to implement, making it suitable for small systems."
+  },
+  {
+    "Question": "What is the main disadvantage of the Gauss-Seidel method?",
+    "A": "It has poor convergence characteristics and may take many iterations",
+    "B": "It requires more memory than Newton-Raphson",
+    "C": "It cannot handle PV buses",
+    "D": "It is only applicable to DC systems",
+    "Answer": "It has poor convergence characteristics and may take many iterations",
+    "Image": "1",
+    "Explaination": "The Gauss-Seidel method has poor convergence characteristics and may require many iterations, especially for large systems."
+  },
+  {
+    "Question": "What is the purpose of the Newton-Raphson method in load flow analysis?",
+    "A": "To solve the non-linear load flow equations using an iterative approach",
+    "B": "To calculate the fault current",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To solve the non-linear load flow equations using an iterative approach",
+    "Image": "1",
+    "Explaination": "The Newton-Raphson method solves the non-linear load flow equations using an iterative approach based on Taylor series expansion and the Jacobian matrix."
+  },
+  {
+    "Question": "What is the purpose of the Fast Decoupled Load Flow (FDLF) method?",
+    "A": "To simplify the load flow equations by decoupling the real and reactive power equations",
+    "B": "To calculate the fault current",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To simplify the load flow equations by decoupling the real and reactive power equations",
+    "Image": "1",
+    "Explaination": "The FDLF method simplifies the load flow equations by decoupling the real and reactive power equations, leading to faster convergence and reduced memory requirements."
+  },
+  {
+    "Question": "What is the purpose of the DC load flow method?",
+    "A": "To provide a linear approximation of the load flow problem for quick analysis",
+    "B": "To calculate the fault current",
+    "C": "To design the protection scheme",
+    "D": "To measure the earth resistance",
+    "Answer": "To provide a linear approximation of the load flow problem for quick analysis",
+    "Image": "1",
+    "Explaination": "The DC load flow method provides a linear approximation of the load flow problem by neglecting resistance and assuming voltage magnitudes of 1.0 p.u., making it suitable for quick analysis."
+  }
+]

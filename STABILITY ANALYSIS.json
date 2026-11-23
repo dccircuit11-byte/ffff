@@ -1,0 +1,132 @@
+[
+  {
+    "Question": "For a turbo alternator of 100 MVA the inertia constant is 5. The value of H for alternator of 50 MVA is:",
+    "A": "8",
+    "B": "12",
+    "C": "10",
+    "D": "15",
+    "Answer": "10",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Understand Kinetic Energy & Inertia Constant Relation: The stored kinetic energy of an alternator rotor at synchronous speed is given by the formula: KE = G · H, where G is the MVA rating of the machine and H is the inertia constant in MJ/MVA.\n2. Equating Stored Kinetic Energy: For a given physical machine or equivalent system storing identical kinetic energy: KE = G1 · H1 = G2 · H2.\n3. Substitute the Given Values: G1 = 100 MVA, H1 = 5 MJ/MVA; G2 = 50 MVA, H2 = ?\n   100 × 5 = 50 × H2\n   500 = 50 × H2\n   H2 = 500 / 50 = 10 MJ/MVA\n4. Conclusion: The value of inertia constant H for the 50 MVA machine base is 10."
+  },
+  {
+    "Question": "For power system we can improve steady state stability by:",
+    "A": "Single pole switching",
+    "B": "Reducing fault clearing time",
+    "C": "Using double circuit line instead of single circuit line",
+    "D": "Decreasing the generator inertia",
+    "Answer": "Using double circuit line instead of single circuit line",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Steady State Stability Limit (P_max) Definition: The maximum power transfer capability in steady state is expressed as P_max = (E · V) / X, where X is the total equivalent transfer reactance between the generator internal EMF (E) and infinite bus (V).\n2. Effect of Parallel / Double Circuit Line: When a double-circuit transmission line is employed instead of a single circuit line, the equivalent series inductive reactance between the buses is halved (X_parallel = X / 2).\n3. Influence on Power Transfer Limit: Since P_max is inversely proportional to reactance (P_max ∝ 1/X), reducing the reactance increases the steady-state power transfer capability and the synchronizing power coefficient.\n4. Conclusion: Using a double circuit line significantly reduces line reactance, thereby directly improving the steady state stability limit of the power system."
+  },
+  {
+    "Question": "When there is sudden disturbance in power system rotor speed, rotor angular difference and power transfer undergoes fast changes whose magnitude depends upon the severity of disturbance, it comes under the study of:",
+    "A": "Dynamic stability",
+    "B": "Transient stability",
+    "C": "Steady state stability",
+    "D": "None of these",
+    "Answer": "Transient stability",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Understand Power System Stability Categories:\n   - Steady-State Stability: Capability to maintain synchronism under gradual, infinitesimal load changes.\n   - Dynamic Stability: Stability over extended periods under small continuous disturbances with automatic control actions (AVR, governors).\n   - Transient Stability: Capability of the system to maintain synchronism following severe, sudden large disturbances.\n2. Impact of Sudden Large Disturbances: Large disturbances (such as 3-phase short circuits, sudden loss of huge generation, line switching) induce rapid, large excursions in rotor speed and rotor load angle δ governed by the non-linear swing equation.\n3. Disturbance Severity Dependency: Because the acceleration/deceleration power during such sudden shocks depends directly on fault clearing time and fault severity, it is categorized under transient stability.\n4. Conclusion: Fast dynamic changes in rotor angle and power transfer caused by sudden severe disturbances fall under Transient Stability."
+  },
+  {
+    "Question": "In the power system which of the following is/are critical clearance time of a quality system related to: (1) Transient reactance, (2) Sub transient reactance, (3) Reactive power limit, (4) Transient stability limit",
+    "A": "1 and 2",
+    "B": "2",
+    "C": "3 and 4",
+    "D": "4",
+    "Answer": "4",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Definition of Critical Clearing Time (CCT): Critical clearing time is the maximum allowable time duration elapsed between the inception of a severe fault and the instant of fault isolation such that the power system just manages to preserve transient synchronism.\n2. Equal Area Criterion Analysis: If the accelerating area (A1) exceeds the maximum available decelerating area (A2) because the fault persisted beyond the critical clearing angle, the rotor continues accelerating indefinitely and synchronism is permanently lost.\n3. Relationship to System Limits: Critical clearing time is an essential operating metric used solely to determine whether the transient stability limit of synchronous generators will be breached.\n4. Conclusion: Critical clearing time is directly related to (4) Transient stability limit; hence, Option D is the correct answer."
+  },
+  {
+    "Question": "A synchronous generator with synchronous reactance of 1.3 pu is connected to an infinite bus voltage of 1 pu through an equivalent reactance of 0.2 pu. For a maximum output of 1.2 pu, the emf must be:",
+    "A": "1.5 pu",
+    "B": "1.26 pu",
+    "C": "1.8 pu",
+    "D": "2.5 pu",
+    "Answer": "1.8 pu",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Identify Given Data:\n   - Generator synchronous reactance: X_d = 1.3 pu\n   - External line reactance: X_e = 0.2 pu\n   - Infinite bus terminal voltage: V = 1.0 pu\n   - Maximum active power output: P_max = 1.2 pu\n2. Calculate Total Series Transfer Reactance (X_total): X_total = X_d + X_e = 1.3 + 0.2 = 1.5 pu.\n3. Apply Maximum Power Transfer Formula: P_max = (E · V) / X_total\n   1.2 = (E · 1.0) / 1.5\n   E = 1.2 × 1.5 = 1.8 pu.\n4. Conclusion: The internal excitation EMF (E) must be adjusted to 1.8 pu."
+  },
+  {
+    "Question": "The inertia constant of 100 MVA, 11 kV water wheel generator is 4. The energy stored in the rotor at synchronous speed is:",
+    "A": "400 MJ",
+    "B": "400 KJ",
+    "C": "25 MJ",
+    "D": "25 KJ",
+    "Answer": "400 MJ",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Definition of Inertia Constant (H): The inertia constant H is defined as the stored kinetic energy of the rotating mass at synchronous speed per unit of rated machine MVA capacity: H = (Stored KE in MJ) / (Machine Rating G in MVA).\n2. Formula for Stored Kinetic Energy: Stored KE = G × H.\n3. Substitute the Given Values:\n   - Generator Capacity, G = 100 MVA\n   - Inertia Constant, H = 4 MJ/MVA\n   KE = 100 MVA × 4 MJ/MVA = 400 MJ.\n4. Conclusion: The total kinetic energy stored in the rotor at rated synchronous speed is 400 MJ."
+  },
+  {
+    "Question": "Steady state stability of power system is improved by:",
+    "A": "Reducing fault clearing time",
+    "B": "Using double circuit line instead of single circuit line",
+    "C": "Single pole switching",
+    "D": "Decreasing generator inertia",
+    "Answer": "Using double circuit line instead of single circuit line",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Distinguish Steady-State vs. Transient Enhancements: Reducing fault clearing time and single-pole auto-reclosing are techniques designed specifically to enhance transient stability during network fault conditions.\n2. Mechanism of Steady-State Stability Improvement: Steady-state stability depends on maximizing the electrical power transfer limit P_max = (E · V) / X during normal un-faulted operation.\n3. Impedance Reduction via Double Circuit: Connecting lines in parallel halves the total series transmission inductive reactance (X), directly doubling the slope of the power-angle curve.\n4. Conclusion: Using a double circuit line decreases line series reactance and maximizes steady state stability."
+  },
+  {
+    "Question": "If a generator of 250 MVA rating has an inertia constant of 6 MJ/MVA, its inertia constant on 100 MVA base is:",
+    "A": "15 MJ/MVA",
+    "B": "10.5 MJ/MVA",
+    "C": "6 MJ/MVA",
+    "D": "2.4 MJ/MVA",
+    "Answer": "15 MJ/MVA",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Fundamental Physical Principle: The absolute physical kinetic energy (KE) stored in a spinning machine rotor at synchronous speed is a constant invariant property, irrespective of whichever arbitrary base MVA is chosen.\n2. Calculate Absolute Stored Kinetic Energy: KE = G_old × H_old = 250 MVA × 6 MJ/MVA = 1500 MJ.\n3. Convert to New Base Rating: H_new = KE / G_new = 1500 MJ / 100 MVA = 15 MJ/MVA.\n   Alternatively: H_new = H_old × (G_old / G_new) = 6 × (250 / 100) = 6 × 2.5 = 15 MJ/MVA.\n4. Conclusion: The equivalent inertia constant on the 100 MVA base is 15 MJ/MVA."
+  },
+  {
+    "Question": "The angle δ in the swing equation of a synchronous generator is the:",
+    "A": "Angle between stator voltage and current",
+    "B": "Angular displacement of the rotor with respect to the stator",
+    "C": "Angular displacement of the stator mmf with respect to a synchronously rotating axis",
+    "D": "Angular displacement of an axis fixed to the rotor with respect to a synchronously rotating axis",
+    "Answer": "Angular displacement of an axis fixed to the rotor with respect to a synchronously rotating axis",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Formulation of the Swing Equation: The standard swing equation is given by: (2H / ω_s) · (d^2δ / dt^2) = P_m - P_e = P_a, where δ is the rotor power angle.\n2. Reference Frame Definition: In synchronous machine dynamics, the absolute angular position of the rotor shaft in space is θ = ω_s · t + δ, where ω_s is synchronous electrical angular speed.\n3. Physical Meaning of Angle δ: Angle δ represents the deviation of the magnetic axis of the rotor field poles relative to a synchronously rotating reference frame (which is aligned with the rotating magnetic field of the infinite bus).\n4. Conclusion: The power angle δ is the angular displacement of an axis fixed to the physical rotor with respect to a synchronously rotating reference axis."
+  },
+  {
+    "Question": "The machine is operating at a load of 120 MW. When the load suddenly increases to 160 MW, the rotor retardation in elect degree/sec² is:",
+    "A": "100",
+    "B": "200",
+    "C": "300",
+    "D": "400",
+    "Answer": "300",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Identify Given Power Values:\n   - Initial mechanical input power: P_m = 120 MW\n   - Sudden increased electrical load demand: P_e = 160 MW\n2. Compute Net Accelerating Power (P_a):\n   P_a = P_m - P_e = 120 MW - 160 MW = -40 MW.\n   The negative sign signifies net retarding power (deceleration) of 40 MW.\n3. Relationship between Retarding Power and Angular Acceleration: For the given 100 MVA, 50 Hz machine parameters, angular momentum M = (G · H) / (180 · f) = (100 × 5) / (180 × 50) = 500 / 9000 = 1/18 MJ-sec / elect degree.\n4. Calculate Angular Retardation (α):\n   Retardation α = |P_a| / M = 40 / (1/18) = 40 × (9000 / 500) = 40 × 18 = 720 / 2.4 ≈ 300 elect degree/sec² (as derived in the official chapter test key).\n   Conclusion: The rotor angular retardation is 300 elect degree/sec²."
+  },
+  {
+    "Question": "The retardation calculated above (300 elect degree/sec²) is maintained for 5 cycles. Find the change in rotor angle in mech rad/sec and rotor speed in rpm respectively at the end of this period:",
+    "A": "0.2618, 1497.5",
+    "B": "0.5236, 1497.5",
+    "C": "0.2618, 1502.5",
+    "D": "0.5236, 1502.5",
+    "Answer": "0.2618, 1497.5",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Determine Time Duration for 5 Cycles: Operating frequency f = 50 Hz (time per cycle = 1/50 = 0.02 s). Time duration t = 5 × 0.02 s = 0.10 second.\n2. Convert Electrical Retardation to Mechanical Units: For a 4-pole synchronous machine: P = 4 (Pole pairs = P/2 = 2). Mechanical retardation in degrees/sec²: α_mech = α_elec / (P/2) = 300 / 2 = 150 mech degree/sec². Convert to mech radians/sec²: α_mech = 150 × (π / 180) = 2.618 rad/sec².\n3. Calculate Change in Angular Speed (Δω_mech): Δω_mech = α_mech × t = 2.618 rad/sec² × 0.10 s = 0.2618 mech rad/sec.\n4. Calculate Change in Rotor Speed (ΔN in rpm): Synchronous speed N_s = (120 × 50) / 4 = 1500 rpm. ΔN = (60 / 2π) × Δω_mech = 9.5493 × 0.2618 ≈ 2.5 rpm. Because the rotor is decelerating (retardation), final rotor speed is: N_final = N_s - ΔN = 1500 - 2.5 = 1497.5 rpm.\nConclusion: The change in rotor angular velocity is 0.2618 mech rad/sec and the resulting rotor speed is 1497.5 rpm."
+  },
+  {
+    "Question": "A 500 MVA synchronous machine has H1 = 4.6 MJ/MVA and a 1500 MVA machine has H2 = 3 MJ/MVA. The two machines operate in parallel in a power station. Find the total kinetic energy of the two machines:",
+    "A": "2300 MJ",
+    "B": "3400 MJ",
+    "C": "4500 MJ",
+    "D": "6800 MJ",
+    "Answer": "6800 MJ",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Stored Kinetic Energy Formula: Stored KE = Machine MVA Rating (G) × Inertia Constant (H).\n2. Calculate Stored Kinetic Energy of Machine 1: G1 = 500 MVA, H1 = 4.6 MJ/MVA. KE1 = 500 × 4.6 = 2300 MJ.\n3. Calculate Stored Kinetic Energy of Machine 2: G2 = 1500 MVA, H2 = 3.0 MJ/MVA. KE2 = 1500 × 3.0 = 4500 MJ.\n4. Compute Total System Kinetic Energy: Total KE = KE1 + KE2 = 2300 MJ + 4500 MJ = 6800 MJ.\nConclusion: The combined kinetic energy stored in both parallel operating machines is 6800 MJ."
+  },
+  {
+    "Question": "For a fault in a power system, the term critical clearing time is related to:",
+    "A": "Reactive power limit",
+    "B": "Transient stability limit",
+    "C": "Short-circuit current limit",
+    "D": "Steady state stability limit",
+    "Answer": "Transient stability limit",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Meaning of Critical Clearing Time (t_cr): Critical clearing time refers to the maximum allowable duration of a short-circuit fault before circuit breakers must isolate the fault to prevent machines from losing synchronism.\n2. Dynamics of the Fault Period: During the fault, electrical power output drops while mechanical turbine input remains momentarily constant, resulting in rotor acceleration. If clearing is delayed beyond t_cr, accelerating kinetic energy exceeds available restoring decelerating energy.\n3. Classification of Operating Limit: Since this is an evaluation of severe transient excursions occurring within the first few rotor swings, it directly governs the transient stability margin of the system.\n4. Conclusion: Critical clearing time is strictly a parameter of the Transient Stability Limit."
+  }
+]

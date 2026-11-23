@@ -1,0 +1,112 @@
+[
+  {
+    "Question": "During a short-circuit test on a circuit breaker, the time to reach peak restriking voltage is 50 µsec and the peak restriking voltage is 150 kV. What is the average Rate of Rise of Restriking Voltage (RRRV)?",
+    "A": "2.5 kV/µsec",
+    "B": "3.0 kV/µsec",
+    "C": "5.0 kV/µsec",
+    "D": "50 kV/µsec",
+    "Answer": "3.0 kV/µsec",
+    "Image": "1",
+    "Explaination": "RRRV = Peak Restriking Voltage / Time to reach peak = 150 kV / 50 µsec = 3.0 kV/µsec."
+  },
+  {
+    "Question": "What is the approximate order of contact resistance in a closed power circuit breaker?",
+    "A": "1.25 µΩ",
+    "B": "1.25 Ω",
+    "C": "125 Ω",
+    "D": "12.5 kΩ",
+    "Answer": "1.25 µΩ",
+    "Image": "1",
+    "Explaination": "The contact resistance of a closed power circuit breaker is very low, typically in the order of micro-ohms (e.g., 1.25 µΩ) to minimize power loss."
+  },
+  {
+    "Question": "Inside a circuit breaker arc chamber, the process of ionization is facilitated by:",
+    "A": "High arc temperature",
+    "B": "Increasing electric field strength",
+    "C": "Both high temperature and increasing field strength",
+    "D": "Low ambient humidity only",
+    "Answer": "Both high temperature and increasing field strength",
+    "Image": "1",
+    "Explaination": "Ionization in the arc chamber is facilitated by both high arc temperature (thermal ionization) and increasing electric field strength (field ionization)."
+  },
+  {
+    "Question": "An isolator (disconnect switch) is designed to operate under which condition?",
+    "A": "No-load condition only",
+    "B": "Half-load condition",
+    "C": "Full rated load",
+    "D": "Severe fault condition",
+    "Answer": "No-load condition only",
+    "Image": "1",
+    "Explaination": "An isolator is designed to operate under no-load conditions only; it provides a visible air gap for safety but cannot interrupt load or fault currents."
+  },
+  {
+    "Question": "What is the function of an arc chute in an Air Circuit Breaker (ACB)?",
+    "A": "To divide the electric arc into smaller segments, cool it down, and extinguish it rapidly",
+    "B": "To trap smoke inside the switchboard",
+    "C": "To lock the breaker in the open position",
+    "D": "To provide mechanical damping for the closing springs",
+    "Answer": "To divide the electric arc into smaller segments, cool it down, and extinguish it rapidly",
+    "Image": "1",
+    "Explaination": "The arc chute divides the electric arc into smaller segments, cools it down, and extinguishes it rapidly by splitting and cooling the arc."
+  },
+  {
+    "Question": "What is the interrupting medium used in a vacuum circuit breaker (VCB)?",
+    "A": "High-pressure compressed air",
+    "B": "Sulfur hexafluoride (SF₆) gas",
+    "C": "High vacuum (pressure of 10⁻⁴ to 10⁻⁷ Torr)",
+    "D": "De-ionized mineral oil",
+    "Answer": "High vacuum (pressure of 10⁻⁴ to 10⁻⁷ Torr)",
+    "Image": "1",
+    "Explaination": "A vacuum circuit breaker uses a high vacuum (pressure of 10⁻⁴ to 10⁻⁷ Torr) as the interrupting medium, which provides excellent dielectric strength and arc quenching."
+  },
+  {
+    "Question": "What gas is widely used in modern Extra High Voltage (EHV) circuit breakers for arc quenching and dielectric insulation?",
+    "A": "Carbon dioxide (CO₂)",
+    "B": "Sulfur Hexafluoride (SF₆)",
+    "C": "Pure nitrogen",
+    "D": "Hydrogen gas",
+    "Answer": "Sulfur Hexafluoride (SF₆)",
+    "Image": "1",
+    "Explaination": "Sulfur Hexafluoride (SF₆) gas is widely used in EHV circuit breakers for its excellent arc quenching and dielectric insulation properties."
+  },
+  {
+    "Question": "Why is sulfur hexafluoride (SF₆) gas monitored carefully for leakage inside substation switchgear rooms?",
+    "A": "It is highly flammable and burns with an open flame",
+    "B": "It is heavier than air and can pool in basements/pits, posing an asphyxiation hazard, and is a potent greenhouse gas",
+    "C": "It reacts with copper to form explosive compounds",
+    "D": "It corrodes steel conduits on contact",
+    "Answer": "It is heavier than air and can pool in basements/pits, posing an asphyxiation hazard, and is a potent greenhouse gas",
+    "Image": "1",
+    "Explaination": "SF₆ is heavier than air and can pool in basements/pits, posing an asphyxiation hazard, and is a potent greenhouse gas, so leakage must be monitored carefully."
+  },
+  {
+    "Question": "What is the primary function of an isolator switch (disconnect switch) in high-voltage substations?",
+    "A": "To break heavy short-circuit fault currents",
+    "B": "To provide a visible, physical air gap isolation after the circuit breaker has interrupted load current",
+    "C": "To automatically reclose following lightning strikes",
+    "D": "To step down system frequency",
+    "Answer": "To provide a visible, physical air gap isolation after the circuit breaker has interrupted load current",
+    "Image": "1",
+    "Explaination": "The primary function of an isolator switch is to provide a visible, physical air gap isolation after the circuit breaker has interrupted the load current."
+  },
+  {
+    "Question": "What is the operational interlock rule between a Circuit Breaker and its associated Isolator switch?",
+    "A": "Isolator must be opened before the circuit breaker is opened",
+    "B": "Circuit breaker must always be opened FIRST before opening the isolator; when closing, the isolator must be closed FIRST before the circuit breaker is closed",
+    "C": "Both must be operated simultaneously",
+    "D": "There are no interlocking requirements",
+    "Answer": "Circuit breaker must always be opened FIRST before opening the isolator; when closing, the isolator must be closed FIRST before the circuit breaker is closed",
+    "Image": "1",
+    "Explaination": "The interlock rule ensures that the circuit breaker is opened first (to interrupt current) before the isolator is opened, and the isolator is closed first before the circuit breaker is closed."
+  },
+  {
+    "Question": "What is the function of portable maintenance grounding clusters (earthing leads) applied to de-energized lines?",
+    "A": "To improve power factor",
+    "B": "To provide a low-resistance short-circuit path to ground, draining induced voltages and tripping upstream breakers if the line is accidentally re-energized",
+    "C": "To measure transmission line resistance",
+    "D": "To test the insulator strings",
+    "Answer": "To provide a low-resistance short-circuit path to ground, draining induced voltages and tripping upstream breakers if the line is accidentally re-energized",
+    "Image": "1",
+    "Explaination": "Portable maintenance grounding clusters provide a low-resistance short-circuit path to ground, draining induced voltages and tripping upstream breakers if the line is accidentally re-energized."
+  }
+]

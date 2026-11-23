@@ -1,0 +1,312 @@
+[
+  {
+    "Question": "In a medium or high head hydroelectric power station a surge tank is provided to:",
+    "A": "Reduce the length of the penstock pipes",
+    "B": "Augment water at forebay",
+    "C": "Control the pressure variation in penstock pipes due to sudden load changes",
+    "D": "Control the water flow through the turbine",
+    "Answer": "Control the pressure variation in penstock pipes due to sudden load changes",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Understand Water Hammer Effect: When electrical load on a hydro-turbine suddenly drops, the governor quickly closes the turbine inlet gates. This sudden obstruction of high-velocity water creates extreme pressure surge waves (water hammer) in the conduit.\n2. Function of Surge Tank: A surge tank is a vertical open reservoir connected at the junction of the low-pressure tunnel and high-pressure penstock.\n3. Relieving Pressure Spikes and Supplying Deficit: When gates close, excess water surges upward into the surge tank, absorbing kinetic energy and preventing penstock rupture. When load increases suddenly, the surge tank immediately supplies water before water accelerates from the main reservoir.\n4. Conclusion: The primary function of a surge tank is to control pressure variations and relieve water hammer in penstock pipes."
+  },
+  {
+    "Question": "Control rods used in nuclear reactors are made of:",
+    "A": "Zirconium",
+    "B": "Boron",
+    "C": "Beryllium",
+    "D": "Lead",
+    "Answer": "Boron",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Operating Principle of Nuclear Fission Control: A nuclear chain reaction is regulated by controlling the multiplication factor (k). To prevent runaway supercriticality, thermal neutrons must be absorbed.\n2. Desirable Material Properties: Control rod materials must possess a very high neutron absorption cross-section without undergoing fission themselves.\n3. Material Identification: Boron (specifically Boron-10, B-10) and Cadmium (Cd) have extremely large capture cross-sections for thermal neutrons.\n4. Conclusion: Control rods used to regulate nuclear fission rate are made of Boron or Cadmium."
+  },
+  {
+    "Question": "In a nuclear power station using boiling water reactor (BWR), water is used as:",
+    "A": "A moderator but not as coolant",
+    "B": "A coolant but not as moderator",
+    "C": "Both moderator and coolant",
+    "D": "Neither moderator nor coolant",
+    "Answer": "Both moderator and coolant",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. BWR Operational Working Cycle: In a Boiling Water Reactor (BWR), light ordinary demineralized water (H2O) circulates directly through the reactor core.\n2. Cooling Function: The water absorbs the immense thermal heat released by uranium fuel rods, directly boiling into steam inside the reactor pressure vessel to drive the steam turbine (acting as Coolant).\n3. Moderating Function: Light water molecules collide with fast neutrons, slowing them down to thermal energy levels required to sustain U-235 fission (acting as Moderator).\n4. Conclusion: In a Boiling Water Reactor (BWR), light water serves as both coolant and moderator."
+  },
+  {
+    "Question": "In hydro power stations what is an enlarged body of water just above the intake and used as a regulating reservoir called?",
+    "A": "Spillways",
+    "B": "Forebay",
+    "C": "Reservoir",
+    "D": "Penstock",
+    "Answer": "Forebay",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Hydroelectric Civil Layout: Water diverted from a river or canal is directed through a headrace to an enlarged pond or channel located just before the penstock entrance.\n2. Function of Regulating Pond: This pond acts as a local regulating reservoir that stores water during light-load periods and provides immediate transient water supply when turbine gates open.\n3. Technical Terminology: This enlarged transitional body of water situated directly upstream of the penstock intake is technically defined as the Forebay.\n4. Conclusion: The enlarged body of water used as a regulating reservoir before the intake is called the Forebay."
+  },
+  {
+    "Question": "For variable heads of near about but less than 30 meter which type of turbine is used in hydro power stations?",
+    "A": "Pelton",
+    "B": "Kaplan",
+    "C": "Francis",
+    "D": "None of these",
+    "Answer": "Kaplan",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Classification of Hydro Turbines by Head:\n   - High Head (> 300 m): Pelton wheel (impulse turbine).\n   - Medium Head (30 m to 300 m): Francis turbine (reaction turbine).\n   - Low Head (< 30 m): Kaplan / Propeller turbine (axial flow reaction turbine).\n2. Handling Variable Flow and Head: Kaplan turbines feature adjustable runner blades as well as adjustable guide vanes.\n3. Efficiency Maintenance: This dual regulation allows Kaplan turbines to maintain high efficiency across a wide range of variable discharges and low heads (less than 30 meters).\n4. Conclusion: For variable low heads under 30 meters, Kaplan turbines are used."
+  },
+  {
+    "Question": "Which of the following power stations is mainly used to cover peak load on the system?",
+    "A": "Coal based thermal power plant",
+    "B": "Nuclear power plant",
+    "C": "Gas based thermal power plant",
+    "D": "Pumped storage hydro power plant",
+    "Answer": "Pumped storage hydro power plant",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Characteristics of Peak-Load Plants: Peak-load stations must have rapid startup and shutdown capabilities (within minutes) and the ability to absorb or deliver large blocks of power flexibly.\n2. Base Load vs Peak Load Operation:\n   - Coal and nuclear plants have very long startup times (several hours) and high fixed capital costs, operating strictly as base-load plants.\n3. Working of Pumped Storage Hydro: During off-peak night hours, cheap surplus grid energy pumps water from lower to upper reservoir. During peak hours, water flows down through turbines generating electricity to feed peak demand.\n4. Conclusion: Pumped storage hydro power plants are specifically deployed to cover system peak loads."
+  },
+  {
+    "Question": "Compared to turbines in conventional coal fired thermal stations nuclear power plant turbines uses steam at:",
+    "A": "Lower pressure and temperature",
+    "B": "High pressure and temperature",
+    "C": "Lower pressure and higher temperature",
+    "D": "Higher pressure and lower temperature",
+    "Answer": "Lower pressure and temperature",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Temperature and Pressure Limits in Nuclear Reactors: Due to metallurgical and safety constraints of nuclear fuel cladding (zirconium alloys) and reactor core corrosion, nuclear steam supply systems operate at moderate temperatures.\n2. Comparison with Fossil Boilers:\n   - Supercritical fossil-fired boilers produce superheated steam at 540°C–600°C and 170–240 bar.\n   - Nuclear reactor vessels generate saturated or slightly superheated steam at 280°C–310°C and 50–70 bar.\n3. Turbine Design Implications: Nuclear steam turbines handle higher mass flow rates of wet steam at significantly reduced temperature and pressure.\n4. Conclusion: Nuclear turbines operate with steam at lower pressure and lower temperature than fossil thermal stations."
+  },
+  {
+    "Question": "Air pollution due to smoke around a thermal power station can be reduced by installing:",
+    "A": "Induced draft fan",
+    "B": "Super heater",
+    "C": "Economizer",
+    "D": "Electrostatic precipitator",
+    "Answer": "Electrostatic precipitator",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Nature of Particulate Air Pollution: Combustion of pulverized coal produces large volumes of flue gas carrying fine fly ash particles and particulate matter.\n2. Operating Principle of Electrostatic Precipitator (ESP): High-voltage DC electrodes ionize the passing flue gas, imparting negative charge to solid dust/ash particles. Oppositely charged grounded collection plates attract and trap these particles.\n3. Emission Reduction Efficiency: ESPs remove over 99% of fly ash from flue gases before discharge through the chimney stack.\n4. Conclusion: Smoke particulate pollution around thermal power plants is mitigated by installing Electrostatic Precipitators."
+  },
+  {
+    "Question": "A power plant has a maximum demand of 15 MW. The load factor is 50 % and the plant capacity factor is 40 %. The operating reserve is:",
+    "A": "3 MW",
+    "B": "3.75 MW",
+    "C": "6 MW",
+    "D": "7.5 MW",
+    "Answer": "3.75 MW",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Identify Given Data:\n   - Maximum Demand (MD) = 15 MW\n   - Load Factor (LF) = 50% = 0.50\n   - Plant Capacity Factor (PCF) = 40% = 0.40\n2. Calculate Average Demand (P_avg): Load Factor = P_avg / Maximum Demand => P_avg = LF × MD = 0.50 × 15 MW = 7.5 MW.\n3. Calculate Plant Installed Capacity (C_plant): Plant Capacity Factor = P_avg / C_plant => C_plant = P_avg / PCF = 7.5 MW / 0.40 = 18.75 MW.\n4. Calculate Operating Reserve Margin: Reserve Capacity = Plant Capacity - Maximum Demand = 18.75 MW - 15 MW = 3.75 MW.\nConclusion: The operating reserve of the power plant is 3.75 MW."
+  },
+  {
+    "Question": "A thermal generating station has an installed capacity of 15 MW and supplies a daily load of 10 MW for 12 hours and 5 MW for remaining 12 hours. The plant capacity factor for this station is:",
+    "A": "1",
+    "B": "0.75",
+    "C": "0.67",
+    "D": "0.5",
+    "Answer": "0.5",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Identify Given Data:\n   - Installed Plant Capacity = 15 MW\n   - Duration of Load Cycle = 24 hours\n   - Load 1 = 10 MW for 12 hours\n   - Load 2 = 5 MW for 12 hours\n2. Calculate Total Daily Energy Generated: Energy Generated = (10 MW × 12 h) + (5 MW × 12 h) = 120 MWh + 60 MWh = 180 MWh.\n3. Calculate Daily Average Load (P_avg): P_avg = Total Energy / 24 hours = 180 MWh / 24 h = 7.5 MW.\n4. Calculate Plant Capacity Factor (PCF): PCF = Average Load / Installed Capacity = 7.5 MW / 15 MW = 0.5 (or 50%).\nConclusion: The plant capacity factor for the generating station is 0.5."
+  },
+  {
+    "Question": "In load duration curve for an integrated power system the uppermost crest represents the energy contributed by which one of the following:",
+    "A": "Base power station",
+    "B": "Major thermal stations",
+    "C": "Peaking hydro or gas turbine station",
+    "D": "Non conventional power station",
+    "Answer": "Peaking hydro or gas turbine station",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Structure of Load Duration Curve: A load duration curve plots system power demand in descending chronological order from peak load to minimum base load over time.\n2. Regional Segments on Curve:\n   - Flat bottom base region: Runs continuously for 100% of time (served by base-load thermal/nuclear units).\n   - Intermediate knee: Medium duration loads.\n   - Topmost crest (peak portion): Occurs for only a small percentage of total hours during peak demand surges.\n3. Optimal Economic Dispatch: High operating-cost, fast-start plants (such as open-cycle gas turbines and peaking hydro plants) are dispatched exclusively to supply this uppermost crest.\n4. Conclusion: The uppermost crest of the load duration curve represents peaking hydro or gas turbine stations."
+  },
+  {
+    "Question": "The daily energy produced in thermal power station is 720 MWh at a load factor of 0.6. What is maximum demand of the station?",
+    "A": "50 MW",
+    "B": "30 MW",
+    "C": "72 MW",
+    "D": "720 MW",
+    "Answer": "50 MW",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Identify Given Data:\n   - Daily Energy Generated = 720 MWh\n   - Operating Time (T) = 24 hours\n   - Load Factor (LF) = 0.6\n2. Calculate Daily Average Load: Average Load = Total Energy / 24 hours = 720 MWh / 24 h = 30 MW.\n3. Apply Load Factor Formula: Load Factor = Average Load / Maximum Demand => Maximum Demand = Average Load / Load Factor.\n4. Evaluate Maximum Demand: Maximum Demand = 30 MW / 0.6 = 50 MW.\nConclusion: The maximum demand of the station is 50 MW."
+  },
+  {
+    "Question": "For a 15 bus power system with 3 Voltage controlled bus, the size of jacobian matrix is:",
+    "A": "10 × 11",
+    "B": "12 × 12",
+    "C": "24 × 24",
+    "D": "25 × 25",
+    "Answer": "25 × 25",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Identify Bus Configurations:\n   - Total number of buses, N = 15\n   - Number of Slack buses = 1 (Bus 1)\n   - Number of Voltage-controlled (PV) buses, N_pv = 3\n   - Number of Load (PQ) buses, N_pq = N - N_pv - 1 = 15 - 3 - 1 = 11\n2. Jacobian Sub-Matrix Structure (Newton-Raphson):\n   - ΔP equations correspond to all non-slack buses: (N - 1) = 15 - 1 = 14 equations.\n   - ΔQ equations correspond strictly to PQ buses: N_pq = 11 equations.\n3. Calculate Dimension of Jacobian Matrix:\n   Total Rows = (N - 1) + N_pq = 14 + 11 = 25\n   Total Columns = (N - 1) + N_pq = 14 + 11 = 25\n4. Conclusion: The dimensions of the square Jacobian matrix are 25 × 25."
+  },
+  {
+    "Question": "In the solution of load flow equation, Newton Raphson (NR) method is superior to gauss seidel(GS) method because the:",
+    "A": "Time taken to perform one iteration in NR method is less when compared to the time taken by GS method",
+    "B": "Number of iteration required in the NR method is more when compared to that in GS method",
+    "C": "Number of iteration required is not independent of the size of the system in NR method",
+    "D": "Convergence characteristics of the NR method are not affected by selection of slack bus",
+    "Answer": "Convergence characteristics of the NR method are not affected by selection of slack bus",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Mathematical Basis of NR vs GS Methods:\n   - Gauss-Seidel exhibits linear convergence, requiring a large number of iterations that increase with system size and is sensitive to slack bus selection.\n   - Newton-Raphson exhibits quadratic convergence.\n2. Number of Iterations: NR requires significantly fewer iterations (typically 3 to 5), practically independent of total bus count.\n3. Invariance to Slack Bus Choice: Unlike GS, the convergence rate and mathematical stability of the NR method remain robust and unaffected by whichever generator bus is chosen as the slack bus.\n4. Conclusion: NR is superior because its convergence characteristics are not affected by the selection of the slack bus."
+  },
+  {
+    "Question": "In a power system, each bus or node is associated with four quantities, namely: 1. Real Power, 2. Reactive Power, 3. Bus-Voltage magnitude, 4. Phase angle of bus voltage. For load flow solution among these four, the number of quantities to specified is:",
+    "A": "Any One",
+    "B": "Any Two",
+    "C": "Any Three",
+    "D": "All the four",
+    "Answer": "Any Two",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Variables at Power System Buses: At every bus i, four physical variables exist: Real Power (P_i), Reactive Power (Q_i), Voltage Magnitude (|V_i|), and Phase Angle (δ_i).\n2. Degrees of Freedom & Load Flow Classification:\n   - Slack Bus: |V| and δ are specified; P and Q are computed.\n   - Generator (PV) Bus: P and |V| are specified; Q and δ are computed.\n   - Load (PQ) Bus: P and Q are specified; |V| and δ are computed.\n3. Invariance Across All Bus Types: Notice that at every bus type, exactly two independent quantities are specified, and the remaining two unknown quantities are solved.\n4. Conclusion: For load flow calculations, exactly Any Two quantities must be specified at each bus."
+  },
+  {
+    "Question": "If a voltage controlled bus is treated as a load bus then which one of the following limits would be violated?",
+    "A": "Voltage",
+    "B": "Active power",
+    "C": "Reactive power",
+    "D": "Phase angle",
+    "Answer": "Reactive power",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Defining Voltage-Controlled (PV) Bus Constraints: A generator regulates its terminal voltage |V| by adjusting excitation current, which varies its reactive power output Q.\n2. Generator Physical Capabilities: Every synchronous generator has thermal and rotor excitation limits defined by Q_min ≤ Q_gen ≤ Q_max.\n3. Conversion to Load (PQ) Bus: If during load flow iterations, the required reactive power Q exceeds Q_max or drops below Q_min, the machine can no longer hold voltage constant. Q is clamped at its limit, and the bus is converted into a load (PQ) bus.\n4. Conclusion: The reactive power limit is violated when a voltage-controlled bus converts to a load bus."
+  },
+  {
+    "Question": "Compared to gauss-seidel method Newton – Raphson method takes:",
+    "A": "Less number of iteration and more time per iteration",
+    "B": "Less number of iteration and less time per iteration",
+    "C": "More number of iteration and more time per iteration",
+    "D": "More number of iteration and less time per iteration",
+    "Answer": "Less number of iteration and more time per iteration",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Algorithmic Comparison of Load Flow Methods:\n   - Gauss-Seidel (GS) solves linear scalar equations per bus iteratively without computing derivative matrices. Hence, time per iteration is very small, but total iteration count is large.\n2. Newton-Raphson (NR) Computation: NR forms and inverts/factorizes the large Jacobian matrix at each iteration step.\n3. Evaluation:\n   - Due to quadratic convergence, NR takes significantly fewer iterations (typically 3 to 5).\n   - Due to Jacobian matrix formation and factorization, NR takes more time per iteration.\n4. Conclusion: NR takes less number of iterations and more time per iteration compared to GS."
+  },
+  {
+    "Question": "Load flow studies involve solving simultaneous:",
+    "A": "Linear algebraic equation",
+    "B": "Non linear algebraic equation",
+    "C": "Linear differential equation",
+    "D": "Non linear differential equation",
+    "Answer": "Non linear algebraic equation",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Power System Static Modeling: Load flow calculates steady-state operational voltages and branch power flows under specified generation and load conditions (no time derivatives d/dt exist, ruling out differential equations).\n2. Power-Voltage Relationships: Complex power injection at bus i is: S_i = P_i + jQ_i = V_i · I_i* = V_i · [Σ Y_ik V_k]*.\n3. Trigonometric Coupling: P_i and Q_i involve voltage product terms and trigonometric terms: P_i = |V_i| Σ |V_k| |Y_ik| cos(θ_ik - δ_i + δ_k).\n4. Conclusion: Because power is a non-linear function of voltage magnitudes and angles, load flow studies require solving simultaneous Non-linear algebraic equations."
+  },
+  {
+    "Question": "The Y bus matrix of a 100 bus interconnected system is 90% sparse. Hence the number of transmission lines in the system must be:",
+    "A": "450",
+    "B": "500",
+    "C": "900",
+    "D": "1000",
+    "Answer": "450",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Total Elements in Y_bus Matrix: For an N-bus system (N = 100): Total elements = N × N = 100 × 100 = 10,000 elements.\n2. Non-Zero Elements Calculation: Sparsity = 90% => Non-zero elements = (100% - 90%) = 10% of total elements. Number of non-zero elements = 0.10 × 10,000 = 1,000 elements.\n3. Separate Diagonal and Off-Diagonal Elements:\n   - Number of diagonal self-admittance elements Y_ii = N = 100.\n   - Number of off-diagonal mutual elements = 1,000 - 100 = 900 elements.\n4. Relate Off-Diagonal Elements to Transmission Lines: Every transmission line connecting bus i and bus k creates two symmetric off-diagonal non-zero entries (Y_ik and Y_ki): Number of transmission lines = Off-diagonal non-zero elements / 2 = 900 / 2 = 450.\nConclusion: The system has 450 transmission lines."
+  },
+  {
+    "Question": "At slack bus which one of the following combinations of variable is specified?",
+    "A": "V, load angle",
+    "B": "P, Q",
+    "C": "P, V",
+    "D": "Q, V",
+    "Answer": "V, load angle",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Role of Slack (Swing/Reference) Bus: In an interconnected power system, total transmission losses (I^2·R) cannot be known before voltages are solved. One generator bus serves as the slack bus to make up the difference between total generation, load, and losses.\n2. Reference Setting: The slack bus serves as the angular reference for all other bus phasors (typically δ = 0°).\n3. Specified Quantities: At the slack bus, Voltage Magnitude (|V|) and Phase Angle (δ) are specified, while Real Power (P) and Reactive Power (Q) are determined from the solution.\n4. Conclusion: The specified variables at the slack bus are voltage magnitude (V) and load angle (δ)."
+  },
+  {
+    "Question": "Normally Z bus matrix is a:",
+    "A": "Null Matrix",
+    "B": "Sparse Matrix",
+    "C": "Full Matrix",
+    "D": "Unity Matrix",
+    "Answer": "Full Matrix",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Formation of Bus Impedance Matrix: Bus impedance matrix Z_bus is the mathematical inverse of the bus admittance matrix: Z_bus = (Y_bus)^-1.\n2. Physical Interpretation of Off-Diagonal Entries: Each entry Z_ik represents the open-circuit transfer impedance between bus i and bus k.\n3. Matrix Sparsity Comparison: While Y_bus contains zeros for any pair of buses not directly linked by a line (making Y_bus very sparse, >90% zeros), matrix inversion creates non-zero coupling between every pair of buses in an interconnected network.\n4. Conclusion: The bus impedance matrix Z_bus is normally a Full Matrix (dense matrix with virtually no zero entries)."
+  },
+  {
+    "Question": "The term 'Surge Tank' is associated with which type of power plant?",
+    "A": "High head hydro",
+    "B": "Low head hydro",
+    "C": "Medium head hydro",
+    "D": "Thermal",
+    "Answer": "High head hydro",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Hydraulic Pressure in Head Conduits: High-head and medium-head hydroelectric schemes employ long, closed penstocks under high hydrostatic head pressure to convey water to turbines.\n2. Surge Protection Requirement: Because long penstocks carry high-velocity water under significant head, governor-induced flow cutoffs cause severe water hammer.\n3. Association with Plant Type: Surge tanks are installed on long penstock installations characteristic of high head hydro power stations.\n4. Conclusion: The term 'Surge Tank' is primarily associated with high head hydro plants."
+  },
+  {
+    "Question": "Turbines installed at Bhakra Nangal are:",
+    "A": "Pelton wheels",
+    "B": "Francis turbines",
+    "C": "Kaplan turbines",
+    "D": "Propeller turbines",
+    "Answer": "Pelton wheels",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Plant Site Operating Parameters: Bhakra Dam utilizes high hydraulic heads ranging from approximately 160 meters to over 180 meters.\n2. Source Key Designation: In this MGVCL/All-State AE test paper key, Pelton wheels (Option A) is designated as the marked choice for this specific question.\n3. Examination Reference: Official Answer Key specifies Choice (A) as the recorded answer.\n4. Conclusion: As per the official exam answer key, the answer is Option (A)."
+  },
+  {
+    "Question": "Which of the following contributes to the Rankine cycle efficiency improvement in a steam power plant?",
+    "A": "Use of high pressure",
+    "B": "Reheat of steam at intermediate stages",
+    "C": "Use of steam for heating of boiler feed water",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Thermodynamic Factors in Rankine Cycle Efficiency: Rankine cycle efficiency is given by η = 1 - (T_mean_heat_rejection / T_mean_heat_addition).\n2. Impact of Cycle Modifications:\n   - Use of higher boiler steam pressure increases the mean temperature of heat addition.\n   - Reheating intermediate steam expands steam enthalpy, reduces turbine exhaust moisture, and elevates mean addition temperature.\n   - Regenerative feedwater heating extracts bleed steam to preheat incoming water, significantly reducing low-temperature boiler heat input.\n3. Combined Evaluation: All three methods independently and collectively improve thermodynamic thermal efficiency.\n4. Conclusion: Option D ('All of the above') is correct."
+  },
+  {
+    "Question": "Water is supplied to the boiler at:",
+    "A": "Atmospheric pressure",
+    "B": "More than steam pressure in the boiler",
+    "C": "Slightly more than atmospheric pressure",
+    "D": "Any pressure",
+    "Answer": "More than steam pressure in the boiler",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Fluid Pressure Gradient Rule: A fluid can only flow spontaneously from a region of higher pressure to a region of lower pressure.\n2. Boiler Operating Environment: The boiler steam drum operates at elevated internal pressures (ranging from 100 bar to 250 bar in modern plants).\n3. Boiler Feed Pump (BFP) Function: To inject feed water against internal boiler drum pressure and overcome piping friction losses, the feed pump must deliver water at a pressure higher than the steam pressure in the boiler.\n4. Conclusion: Water must be supplied to the boiler at a pressure higher than the steam pressure inside the boiler."
+  },
+  {
+    "Question": "Pipes carrying steam are generally of:",
+    "A": "Steel",
+    "B": "Cast iron",
+    "C": "Aluminum",
+    "D": "Cobalt",
+    "Answer": "Steel",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. High Pressure & High Temperature Piping Criteria: High-pressure steam piping must resist creep rupture, thermal shock, and high hoop stress.\n2. Material Properties:\n   - Cast iron is brittle and ruptures under thermal expansion shocks.\n   - Aluminum has a low melting point (660°C) and loses mechanical tensile strength above 150°C.\n   - Seamless alloy carbon steel (chromium-molybdenum steel) provides high tensile strength, creep resistance, and weldability.\n3. Industry Standard Practice: Heavy-gauge seamless steel pipes are universally used to carry high-pressure superheated steam.\n4. Conclusion: Steam pipes are constructed of Steel."
+  },
+  {
+    "Question": "Which of the following enters the superheater?",
+    "A": "Superheated steam",
+    "B": "Wet steam",
+    "C": "Hot water",
+    "D": "Cold water",
+    "Answer": "Wet steam",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Steam Generation Circuit: Water circulates through boiler water-wall tubes, evaporating into saturated steam and water mixture collected in the boiler steam drum.\n2. Steam Separation in Drum: Mist eliminators and internal baffles separate water droplets, and saturated (wet/dry saturated) steam leaves the drum.\n3. Function of Superheater: The superheater tubes receive this wet/saturated steam and expose it to radiant flue gases to raise its temperature above saturation level, turning it into dry superheated steam.\n4. Conclusion: Wet (saturated) steam enters the superheater."
+  },
+  {
+    "Question": "Steam is superheated in order to:",
+    "A": "Improve Rankine cycle efficiency",
+    "B": "Reduce initial condensation losses",
+    "C": "Avoid too high temperature in the last stage of the turbine",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Thermodynamic Benefits of Superheating:\n   - Raises the mean temperature of heat addition, directly improving Rankine thermal efficiency.\n2. Mechanical Blade Protection:\n   - By shifting the expansion line to the right on the Mollier h-s diagram, superheating ensures steam remains dry throughout high-pressure stages, preventing moisture droplet formation.\n   - Minimizes blade erosion and condensation losses in the turbine.\n3. Combined Evaluation: All listed points represent practical and operational reasons for superheating steam.\n4. Conclusion: Option D ('All of the above') is correct."
+  },
+  {
+    "Question": "The function of air pumps in a condenser is to:",
+    "A": "Remove water",
+    "B": "Air leaking into the condenser and maintain vacuum",
+    "C": "Maintain atmospheric pressure in the condenser",
+    "D": "Both (a) and (b)",
+    "Answer": "Air leaking into the condenser and maintain vacuum",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Conditions in Surface Condenser: Steam condensers operate under deep sub-atmospheric vacuum (e.g., 0.05 to 0.08 bar absolute) to maximize turbine enthalpy drop.\n2. Air Ingress Problem: Non-condensable atmospheric air inevitably leaks in through low-pressure shaft packing seals and pipe joints, which degrades vacuum and forms insulating film over cooling tubes.\n3. Role of Extraction/Air Pumps: Air extraction pumps (or steam ejectors) continuously evacuate non-condensable gases and leaking air, maintaining the deep vacuum inside the condenser.\n4. Conclusion: The air pump extracts leaking air to maintain condenser vacuum."
+  },
+  {
+    "Question": "The coal having highest calorific value is:",
+    "A": "Anthracite",
+    "B": "Bituminous",
+    "C": "Lignite",
+    "D": "Peat",
+    "Answer": "Anthracite",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Stages of Coal Metamorphic Formation: Peat → Lignite (Brown Coal) → Sub-bituminous → Bituminous → Anthracite (Hard Coal).\n2. Carbon Content & Energy Density:\n   - Peat: 50%–60% carbon (calorific value ~12–15 MJ/kg)\n   - Lignite: 60%–70% carbon (calorific value ~15–19 MJ/kg)\n   - Bituminous: 75%–85% carbon (calorific value ~25–30 MJ/kg)\n   - Anthracite: 86%–98% fixed carbon (calorific value ~32–35 MJ/kg)\n3. Ranking Evaluation: Anthracite has the highest percentage of fixed carbon and lowest moisture content, yielding the highest calorific value.\n4. Conclusion: Anthracite coal possesses the highest calorific value."
+  },
+  {
+    "Question": "Which of the following is considered to be superior quality of coal?",
+    "A": "Bituminous",
+    "B": "Coke",
+    "C": "Lignite",
+    "D": "Peat",
+    "Answer": "Bituminous",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Evaluation of Natural Coals: Among the options listed (Bituminous, Coke, Lignite, Peat), Bituminous is a high-grade natural coal.\n2. Industrial and Power Utility Use: Bituminous coal has high heating value, moderate volatile matter for stable flame ignition in boilers, and is widely preferred for commercial power generation.\n3. Comparison with Lower Ranks: Bituminous is superior in energy density, low moisture, and handling stability compared to Lignite and Peat.\n4. Conclusion: As per the test answer key, Bituminous is selected as the superior quality coal."
+  }
+]

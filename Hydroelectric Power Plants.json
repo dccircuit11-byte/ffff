@@ -1,0 +1,272 @@
+[
+  {
+    "Question": "What is the primary source of energy in a hydroelectric power plant?",
+    "A": "Kinetic energy of water",
+    "B": "Potential energy of stored water",
+    "C": "Thermal energy of steam",
+    "D": "Chemical energy of fuel",
+    "Answer": "Potential energy of stored water",
+    "Image": "1",
+    "Explaination": "Hydroelectric power plants primarily utilize the potential energy of water stored at a height, which is converted into kinetic energy and then into electrical energy."
+  },
+  {
+    "Question": "Which of the following is a major component of a hydroelectric power plant?",
+    "A": "Boiler",
+    "B": "Dam and reservoir",
+    "C": "Steam turbine",
+    "D": "Condenser",
+    "Answer": "Dam and reservoir",
+    "Image": "1",
+    "Explaination": "The dam and reservoir are major components of a hydroelectric power plant, used to store water and create the necessary head for power generation."
+  },
+  {
+    "Question": "What is the function of a surge tank in a hydroelectric power plant?",
+    "A": "To store water for irrigation",
+    "B": "To protect the penstock from excessive pressure surges",
+    "C": "To generate electricity",
+    "D": "To cool the generator",
+    "Answer": "To protect the penstock from excessive pressure surges",
+    "Image": "1",
+    "Explaination": "A surge tank protects the penstock from excessive pressure surges caused by sudden changes in water flow due to load variations."
+  },
+  {
+    "Question": "What is a penstock in a hydroelectric power plant?",
+    "A": "A type of turbine",
+    "B": "A large pipe that carries water from the reservoir to the turbine",
+    "C": "A type of generator",
+    "D": "A device for measuring water flow",
+    "Answer": "A large pipe that carries water from the reservoir to the turbine",
+    "Image": "1",
+    "Explaination": "A penstock is a large pipe that carries water from the reservoir (or dam) to the turbine, converting potential energy into kinetic energy."
+  },
+  {
+    "Question": "Which type of turbine is used in high-head hydroelectric power plants?",
+    "A": "Kaplan turbine",
+    "B": "Francis turbine",
+    "C": "Pelton wheel",
+    "D": "Propeller turbine",
+    "Answer": "Pelton wheel",
+    "Image": "1",
+    "Explaination": "Pelton wheels are impulse turbines used in high-head hydroelectric power plants, where water is directed as a high-speed jet onto the turbine buckets."
+  },
+  {
+    "Question": "Which type of turbine is used in low-head hydroelectric power plants?",
+    "A": "Kaplan turbine",
+    "B": "Francis turbine",
+    "C": "Pelton wheel",
+    "D": "Turgo turbine",
+    "Answer": "Kaplan turbine",
+    "Image": "1",
+    "Explaination": "Kaplan turbines are propeller-type reaction turbines used in low-head, high-flow hydroelectric power plants."
+  },
+  {
+    "Question": "Which type of turbine is used in medium-head hydroelectric power plants?",
+    "A": "Kaplan turbine",
+    "B": "Francis turbine",
+    "C": "Pelton wheel",
+    "D": "Cross-flow turbine",
+    "Answer": "Francis turbine",
+    "Image": "1",
+    "Explaination": "Francis turbines are reaction turbines used in medium-head hydroelectric power plants, suitable for a wide range of heads and flows."
+  },
+  {
+    "Question": "What is the function of a draft tube in a reaction turbine?",
+    "A": "To increase the head of water",
+    "B": "To recover the kinetic energy of water leaving the turbine runner",
+    "C": "To filter debris from water",
+    "D": "To measure water flow",
+    "Answer": "To recover the kinetic energy of water leaving the turbine runner",
+    "Image": "1",
+    "Explaination": "A draft tube recovers the kinetic energy of water leaving the turbine runner, increasing the overall efficiency of the reaction turbine."
+  },
+  {
+    "Question": "What is a 'run-of-river' hydroelectric power plant?",
+    "A": "A plant that stores water in a large reservoir",
+    "B": "A plant that uses the natural flow of a river without significant storage",
+    "C": "A plant that uses pumped storage",
+    "D": "A plant that uses tidal energy",
+    "Answer": "A plant that uses the natural flow of a river without significant storage",
+    "Image": "1",
+    "Explaination": "A run-of-river hydroelectric plant uses the natural flow of a river without significant storage, relying on the river's continuous flow for power generation."
+  },
+  {
+    "Question": "What is a 'pumped storage' hydroelectric power plant?",
+    "A": "A plant that uses the natural flow of a river",
+    "B": "A plant that pumps water to an upper reservoir during off-peak hours and generates power during peak hours",
+    "C": "A plant that uses tidal energy",
+    "D": "A plant that uses geothermal energy",
+    "Answer": "A plant that pumps water to an upper reservoir during off-peak hours and generates power during peak hours",
+    "Image": "1",
+    "Explaination": "A pumped storage hydroelectric plant pumps water to an upper reservoir during off-peak hours (when electricity is cheap) and generates power during peak hours (when electricity is expensive)."
+  },
+  {
+    "Question": "What is the function of a governor in a hydroelectric power plant?",
+    "A": "To regulate the voltage",
+    "B": "To regulate the speed of the turbine by controlling the water flow",
+    "C": "To cool the generator",
+    "D": "To filter debris from water",
+    "Answer": "To regulate the speed of the turbine by controlling the water flow",
+    "Image": "1",
+    "Explaination": "A governor regulates the speed of the turbine by controlling the water flow through the penstock, maintaining the frequency of the generated electricity."
+  },
+  {
+    "Question": "What is the function of a spillway in a dam?",
+    "A": "To generate electricity",
+    "B": "To release excess water from the reservoir during floods",
+    "C": "To store water for irrigation",
+    "D": "To filter debris from water",
+    "Answer": "To release excess water from the reservoir during floods",
+    "Image": "1",
+    "Explaination": "A spillway releases excess water from the reservoir during floods, preventing damage to the dam and ensuring safe operation."
+  },
+  {
+    "Question": "What is the typical efficiency of a modern hydroelectric power plant?",
+    "A": "10-20%",
+    "B": "30-40%",
+    "C": "85-90%",
+    "D": "100%",
+    "Answer": "85-90%",
+    "Image": "1",
+    "Explaination": "Modern hydroelectric power plants typically have an efficiency of 85-90%, making them one of the most efficient energy conversion systems."
+  },
+  {
+    "Question": "What is the major advantage of hydroelectric power plants over thermal power plants?",
+    "A": "Lower initial cost",
+    "B": "No fuel cost and lower operating cost",
+    "C": "Faster construction time",
+    "D": "No environmental impact",
+    "Answer": "No fuel cost and lower operating cost",
+    "Image": "1",
+    "Explaination": "Hydroelectric power plants have no fuel cost and lower operating costs compared to thermal power plants, making them economically attractive in the long run."
+  },
+  {
+    "Question": "What is a 'tailrace' in a hydroelectric power plant?",
+    "A": "The channel that carries water from the turbine back to the river",
+    "B": "The pipe that carries water to the turbine",
+    "C": "The reservoir that stores water",
+    "D": "The dam that creates the head",
+    "Answer": "The channel that carries water from the turbine back to the river",
+    "Image": "1",
+    "Explaination": "A tailrace is the channel that carries water from the turbine back to the river after it has passed through the turbine."
+  },
+  {
+    "Question": "What is the function of a trash rack in a hydroelectric power plant?",
+    "A": "To generate electricity",
+    "B": "To prevent debris from entering the penstock and damaging the turbine",
+    "C": "To store water for irrigation",
+    "D": "To cool the generator",
+    "Answer": "To prevent debris from entering the penstock and damaging the turbine",
+    "Image": "1",
+    "Explaination": "A trash rack prevents debris (such as branches, leaves, and trash) from entering the penstock and damaging the turbine."
+  },
+  {
+    "Question": "What is the function of a forebay in a hydroelectric power plant?",
+    "A": "To store water immediately before it enters the penstock",
+    "B": "To release excess water during floods",
+    "C": "To generate electricity",
+    "D": "To cool the generator",
+    "Answer": "To store water immediately before it enters the penstock",
+    "Image": "1",
+    "Explaination": "A forebay stores water immediately before it enters the penstock, providing a steady flow and helping to regulate the water supply to the turbine."
+  },
+  {
+    "Question": "What is the function of a turbine in a hydroelectric power plant?",
+    "A": "To convert the kinetic energy of water into mechanical energy",
+    "B": "To convert mechanical energy into electrical energy",
+    "C": "To store water",
+    "D": "To regulate voltage",
+    "Answer": "To convert the kinetic energy of water into mechanical energy",
+    "Image": "1",
+    "Explaination": "The turbine converts the kinetic energy of flowing water into mechanical energy, which is then used to drive the generator."
+  },
+  {
+    "Question": "What is the function of a generator in a hydroelectric power plant?",
+    "A": "To convert the kinetic energy of water into mechanical energy",
+    "B": "To convert mechanical energy into electrical energy",
+    "C": "To store water",
+    "D": "To regulate voltage",
+    "Answer": "To convert mechanical energy into electrical energy",
+    "Image": "1",
+    "Explaination": "The generator converts the mechanical energy from the turbine into electrical energy."
+  },
+  {
+    "Question": "What is the typical head range for a low-head hydroelectric power plant?",
+    "A": "Less than 30 meters",
+    "B": "30 to 300 meters",
+    "C": "Above 300 meters",
+    "D": "Above 1000 meters",
+    "Answer": "Less than 30 meters",
+    "Image": "1",
+    "Explaination": "Low-head hydroelectric power plants typically operate with a head of less than 30 meters."
+  },
+  {
+    "Question": "What is the typical head range for a high-head hydroelectric power plant?",
+    "A": "Less than 30 meters",
+    "B": "30 to 300 meters",
+    "C": "Above 300 meters",
+    "D": "Above 1000 meters",
+    "Answer": "Above 300 meters",
+    "Image": "1",
+    "Explaination": "High-head hydroelectric power plants typically operate with a head above 300 meters."
+  },
+  {
+    "Question": "What is the typical head range for a medium-head hydroelectric power plant?",
+    "A": "Less than 30 meters",
+    "B": "30 to 300 meters",
+    "C": "Above 300 meters",
+    "D": "Above 1000 meters",
+    "Answer": "30 to 300 meters",
+    "Image": "1",
+    "Explaination": "Medium-head hydroelectric power plants typically operate with a head between 30 and 300 meters."
+  },
+  {
+    "Question": "What is the function of a surge tank in a hydroelectric power plant?",
+    "A": "To store water for irrigation",
+    "B": "To protect the penstock from water hammer pressure surges",
+    "C": "To generate electricity",
+    "D": "To cool the generator",
+    "Answer": "To protect the penstock from water hammer pressure surges",
+    "Image": "1",
+    "Explaination": "A surge tank protects the penstock from water hammer pressure surges caused by sudden changes in water flow due to load variations."
+  },
+  {
+    "Question": "What is a 'water hammer' in a hydroelectric power plant?",
+    "A": "A mechanical tool used for construction",
+    "B": "A pressure surge caused by a sudden change in water flow",
+    "C": "A type of turbine",
+    "D": "A device for measuring water flow",
+    "Answer": "A pressure surge caused by a sudden change in water flow",
+    "Image": "1",
+    "Explaination": "Water hammer is a pressure surge caused by a sudden change in water flow, which can damage the penstock and other components."
+  },
+  {
+    "Question": "What is the function of a draft tube in a hydroelectric power plant?",
+    "A": "To increase the head of water",
+    "B": "To recover the kinetic energy of water leaving the turbine runner",
+    "C": "To filter debris from water",
+    "D": "To measure water flow",
+    "Answer": "To recover the kinetic energy of water leaving the turbine runner",
+    "Image": "1",
+    "Explaination": "A draft tube recovers the kinetic energy of water leaving the turbine runner, increasing the overall efficiency of the reaction turbine."
+  },
+  {
+    "Question": "What is the typical efficiency of a hydroelectric power plant?",
+    "A": "10-20%",
+    "B": "30-40%",
+    "C": "85-90%",
+    "D": "100%",
+    "Answer": "85-90%",
+    "Image": "1",
+    "Explaination": "Modern hydroelectric power plants typically have an efficiency of 85-90%, making them one of the most efficient energy conversion systems."
+  },
+  {
+    "Question": "What is the major advantage of hydroelectric power plants over thermal power plants?",
+    "A": "Lower initial cost",
+    "B": "No fuel cost and lower operating cost",
+    "C": "Faster construction time",
+    "D": "No environmental impact",
+    "Answer": "No fuel cost and lower operating cost",
+    "Image": "1",
+    "Explaination": "Hydroelectric power plants have no fuel cost and lower operating costs compared to thermal power plants, making them economically attractive in the long run."
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "Question": "What is the primary function of a reactor in a power system?",
+    "A": "To absorb reactive power and limit fault currents",
+    "B": "To supply active power",
+    "C": "To increase the voltage",
+    "D": "To improve the power factor",
+    "Answer": "To absorb reactive power and limit fault currents",
+    "Image": "1",
+    "Explaination": "A reactor absorbs reactive power and can be used to limit fault currents and control voltage in a power system."
+  },
+  {
+    "Question": "What is the function of a current-limiting reactor?",
+    "A": "To limit the fault current during short circuits",
+    "B": "To increase the voltage during normal operation",
+    "C": "To improve the power factor",
+    "D": "To reduce the transmission losses",
+    "Answer": "To limit the fault current during short circuits",
+    "Image": "1",
+    "Explaination": "A current-limiting reactor is used in series with equipment to reduce the magnitude of fault currents, protecting circuit breakers and other equipment."
+  },
+  {
+    "Question": "What is the function of a shunt reactor in a transmission line?",
+    "A": "To absorb reactive power and limit overvoltages",
+    "B": "To supply reactive power",
+    "C": "To increase the line resistance",
+    "D": "To increase the voltage",
+    "Answer": "To absorb reactive power and limit overvoltages",
+    "Image": "1",
+    "Explaination": "A shunt reactor absorbs reactive power and is used to limit overvoltages, particularly under light-load or no-load conditions."
+  },
+  {
+    "Question": "What is the typical application of a series reactor?",
+    "A": "To limit fault currents and reduce harmonic currents",
+    "B": "To increase the voltage",
+    "C": "To improve the power factor",
+    "D": "To reduce the transmission losses",
+    "Answer": "To limit fault currents and reduce harmonic currents",
+    "Image": "1",
+    "Explaination": "A series reactor is typically used to limit fault currents and reduce harmonic currents in a power system."
+  },
+  {
+    "Question": "What is the function of a smoothing reactor in a HVDC system?",
+    "A": "To smooth the DC current ripple",
+    "B": "To increase the DC voltage",
+    "C": "To convert AC to DC",
+    "D": "To measure the DC current",
+    "Answer": "To smooth the DC current ripple",
+    "Image": "1",
+    "Explaination": "A smoothing reactor is used in HVDC systems to smooth the DC current ripple and reduce harmonics."
+  },
+  {
+    "Question": "What is the function of a neutral grounding reactor?",
+    "A": "To limit the ground fault current",
+    "B": "To increase the ground fault current",
+    "C": "To eliminate the ground fault current",
+    "D": "To measure the ground fault current",
+    "Answer": "To limit the ground fault current",
+    "Image": "1",
+    "Explaination": "A neutral grounding reactor is used to limit the ground fault current in a power system, protecting equipment and personnel."
+  },
+  {
+    "Question": "What is the main advantage of a static VAR compensator (SVC) over a synchronous condenser?",
+    "A": "Faster response and no rotating parts",
+    "B": "Lower cost",
+    "C": "Higher efficiency",
+    "D": "Larger capacity",
+    "Answer": "Faster response and no rotating parts",
+    "Image": "1",
+    "Explaination": "The main advantage of an SVC over a synchronous condenser is its faster response and the absence of rotating parts, resulting in lower maintenance requirements."
+  },
+  {
+    "Question": "What is the main disadvantage of a synchronous condenser?",
+    "A": "Slow response and high maintenance requirements",
+    "B": "Fast response",
+    "C": "Low cost",
+    "D": "High efficiency",
+    "Answer": "Slow response and high maintenance requirements",
+    "Image": "1",
+    "Explaination": "The main disadvantage of a synchronous condenser is its slow response and high maintenance requirements due to the rotating parts."
+  },
+  {
+    "Question": "What is the purpose of a Static Synchronous Series Compensator (SSSC)?",
+    "A": "To inject a controllable voltage in series with the transmission line",
+    "B": "To provide shunt compensation",
+    "C": "To convert AC to DC",
+    "D": "To measure the voltage",
+    "Answer": "To inject a controllable voltage in series with the transmission line",
+    "Image": "1",
+    "Explaination": "An SSSC injects a controllable voltage in series with the transmission line to control power flow and improve stability."
+  },
+  {
+    "Question": "What is the main advantage of an SSSC over a fixed series capacitor?",
+    "A": "It provides variable compensation and can damp oscillations",
+    "B": "It is cheaper",
+    "C": "It has lower losses",
+    "D": "It requires no control system",
+    "Answer": "It provides variable compensation and can damp oscillations",
+    "Image": "1",
+    "Explaination": "The main advantage of an SSSC over a fixed series capacitor is its ability to provide variable compensation and damp power oscillations, improving system stability."
+  },
+  {
+    "Question": "What is the function of an Interline Power Flow Controller (IPFC)?",
+    "A": "To control power flow in multiple transmission lines",
+    "B": "To control power flow in a single transmission line",
+    "C": "To convert AC to DC",
+    "D": "To measure the voltage",
+    "Answer": "To control power flow in multiple transmission lines",
+    "Image": "1",
+    "Explaination": "An IPFC controls power flow in multiple transmission lines by coordinating series converters on different lines."
+  },
+  {
+    "Question": "What is the main advantage of an IPFC over a UPFC?",
+    "A": "It can control power flow in multiple lines simultaneously",
+    "B": "It is cheaper",
+    "C": "It has lower losses",
+    "D": "It requires no control system",
+    "Answer": "It can control power flow in multiple lines simultaneously",
+    "Image": "1",
+    "Explaination": "The main advantage of an IPFC over a UPFC is its ability to control power flow in multiple transmission lines simultaneously."
+  },
+  {
+    "Question": "What is the function of a Thyristor Controlled Phase Shifting Transformer (TCPST)?",
+    "A": "To control the phase angle between the sending and receiving ends of a transmission line",
+    "B": "To control the voltage magnitude",
+    "C": "To convert AC to DC",
+    "D": "To measure the voltage",
+    "Answer": "To control the phase angle between the sending and receiving ends of a transmission line",
+    "Image": "1",
+    "Explaination": "A TCPST controls the phase angle between the sending and receiving ends of a transmission line, thereby controlling the active power flow."
+  },
+  {
+    "Question": "What is the main advantage of a TCPST over a mechanical phase shifting transformer?",
+    "A": "Faster response and no mechanical wear",
+    "B": "Lower cost",
+    "C": "Higher efficiency",
+    "D": "Larger capacity",
+    "Answer": "Faster response and no mechanical wear",
+    "Image": "1",
+    "Explaination": "The main advantage of a TCPST over a mechanical phase shifting transformer is its faster response and the absence of mechanical wear."
+  },
+  {
+    "Question": "What is the function of a Static Synchronous Compensator (STATCOM) in a wind farm?",
+    "A": "To provide dynamic reactive power compensation and voltage regulation",
+    "B": "To convert AC to DC",
+    "C": "To increase the line resistance",
+    "D": "To reduce the frequency",
+    "Answer": "To provide dynamic reactive power compensation and voltage regulation",
+    "Image": "1",
+    "Explaination": "A STATCOM provides dynamic reactive power compensation and voltage regulation in a wind farm, improving grid integration and stability."
+  },
+  {
+    "Question": "What is the main challenge in integrating wind power into the grid?",
+    "A": "The variability and uncertainty of wind power",
+    "B": "The high cost of wind turbines",
+    "C": "The low efficiency of wind turbines",
+    "D": "The lack of wind resources",
+    "Answer": "The variability and uncertainty of wind power",
+    "Image": "1",
+    "Explaination": "The main challenge in integrating wind power into the grid is the variability and uncertainty of wind power, which can affect grid stability and reliability."
+  },
+  {
+    "Question": "How can reactive power compensation help in the integration of wind power?",
+    "A": "By providing voltage support and improving grid stability",
+    "B": "By increasing the wind turbine output",
+    "C": "By reducing the wind turbine cost",
+    "D": "By increasing the wind speed",
+    "Answer": "By providing voltage support and improving grid stability",
+    "Image": "1",
+    "Explaination": "Reactive power compensation helps in the integration of wind power by providing voltage support and improving grid stability, especially during variable wind conditions."
+  },
+  {
+    "Question": "What is the function of a Dynamic Voltage Restorer (DVR)?",
+    "A": "To protect sensitive loads from voltage sags and swells",
+    "B": "To provide shunt compensation",
+    "C": "To convert AC to DC",
+    "D": "To measure the voltage",
+    "Answer": "To protect sensitive loads from voltage sags and swells",
+    "Image": "1",
+    "Explaination": "A DVR protects sensitive loads from voltage sags and swells by injecting a compensating voltage in series with the load."
+  },
+  {
+    "Question": "What is the function of a Unified Power Quality Conditioner (UPQC)?",
+    "A": "To compensate for both voltage and current disturbances in a power system",
+    "B": "To convert AC to DC",
+    "C": "To increase the line resistance",
+    "D": "To reduce the frequency",
+    "Answer": "To compensate for both voltage and current disturbances in a power system",
+    "Image": "1",
+    "Explaination": "A UPQC compensates for both voltage and current disturbances in a power system, improving power quality for sensitive loads."
+  },
+  {
+    "Question": "What is the main advantage of a UPQC over a DVR?",
+    "A": "It compensates for both voltage and current disturbances",
+    "B": "It is cheaper",
+    "C": "It has lower losses",
+    "D": "It requires no control system",
+    "Answer": "It compensates for both voltage and current disturbances",
+    "Image": "1",
+    "Explaination": "The main advantage of a UPQC over a DVR is its ability to compensate for both voltage and current disturbances, providing comprehensive power quality improvement."
+  },
+  {
+    "Question": "What is the function of a Static Transfer Switch (STS)?",
+    "A": "To transfer load between two power sources quickly",
+    "B": "To convert AC to DC",
+    "C": "To increase the line resistance",
+    "D": "To reduce the frequency",
+    "Answer": "To transfer load between two power sources quickly",
+    "Image": "1",
+    "Explaination": "An STS transfers load between two power sources quickly, ensuring continuous power supply to sensitive loads."
+  },
+  {
+    "Question": "What is the purpose of a fault current limiter (FCL)?",
+    "A": "To limit the fault current during short circuits",
+    "B": "To increase the voltage during normal operation",
+    "C": "To improve the power factor",
+    "D": "To reduce the transmission losses",
+    "Answer": "To limit the fault current during short circuits",
+    "Image": "1",
+    "Explaination": "A fault current limiter (FCL) limits the fault current during short circuits, protecting equipment and improving system stability."
+  },
+  {
+    "Question": "What is the main advantage of a superconducting fault current limiter (SFCL)?",
+    "A": "It limits fault current without significant losses during normal operation",
+    "B": "It is cheaper",
+    "C": "It has higher losses",
+    "D": "It requires no control system",
+    "Answer": "It limits fault current without significant losses during normal operation",
+    "Image": "1",
+    "Explaination": "The main advantage of an SFCL is that it limits fault current without significant losses during normal operation, as the superconductor has zero resistance in the normal state."
+  },
+  {
+    "Question": "What is the function of a battery energy storage system (BESS) in reactive power management?",
+    "A": "To provide both active and reactive power support",
+    "B": "To provide only active power",
+    "C": "To provide only reactive power",
+    "D": "To convert AC to DC",
+    "Answer": "To provide both active and reactive power support",
+    "Image": "1",
+    "Explaination": "A BESS can provide both active and reactive power support, improving grid stability and power quality."
+  },
+  {
+    "Question": "What is the main advantage of a BESS over a traditional synchronous condenser?",
+    "A": "Faster response and no rotating parts",
+    "B": "Lower cost",
+    "C": "Higher efficiency",
+    "D": "Larger capacity",
+    "Answer": "Faster response and no rotating parts",
+    "Image": "1",
+    "Explaination": "The main advantage of a BESS over a traditional synchronous condenser is its faster response and the absence of rotating parts, resulting in lower maintenance requirements."
+  },
+  {
+    "Question": "What is the future trend in reactive power management?",
+    "A": "Increased use of power electronics-based devices and energy storage systems",
+    "B": "Decreased use of power electronics",
+    "C": "Increased use of mechanical switches",
+    "D": "Decreased use of energy storage",
+    "Answer": "Increased use of power electronics-based devices and energy storage systems",
+    "Image": "1",
+    "Explaination": "The future trend in reactive power management is the increased use of power electronics-based devices (like STATCOM, UPFC) and energy storage systems for fast and flexible reactive power compensation."
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "Question": "What is the primary purpose of communication protocols in a SCADA system?",
+    "A": "To provide a standard set of rules for data exchange between devices",
+    "B": "To generate alarms",
+    "C": "To store historical data",
+    "D": "To provide a graphical interface",
+    "Answer": "To provide a standard set of rules for data exchange between devices",
+    "Image": "1",
+    "Explaination": "Communication protocols provide a standard set of rules for data exchange between devices in a SCADA system, ensuring reliable and interoperable communication."
+  },
+  {
+    "Question": "Which of the following is a widely used industrial communication protocol in SCADA systems?",
+    "A": "Modbus",
+    "B": "HTTP",
+    "C": "FTP",
+    "D": "SMTP",
+    "Answer": "Modbus",
+    "Image": "1",
+    "Explaination": "Modbus is a widely used industrial communication protocol in SCADA systems, known for its simplicity and robustness."
+  },
+  {
+    "Question": "What is the DNP3 protocol primarily used for in SCADA systems?",
+    "A": "Communication between SCADA masters and RTUs in electric utility systems",
+    "B": "Communication between web servers",
+    "C": "Communication between PLCs and HMIs",
+    "D": "Communication between email clients",
+    "Answer": "Communication between SCADA masters and RTUs in electric utility systems",
+    "Image": "1",
+    "Explaination": "DNP3 (Distributed Network Protocol) is primarily used for communication between SCADA masters and RTUs in electric utility systems, supporting time-stamped data and event reporting."
+  },
+  {
+    "Question": "What is the IEC 61850 standard primarily used for?",
+    "A": "Substation automation and communication",
+    "B": "Industrial process control",
+    "C": "Building automation",
+    "D": "Home automation",
+    "Answer": "Substation automation and communication",
+    "Image": "1",
+    "Explaination": "IEC 61850 is an international standard for substation automation and communication, defining protocols and data models for intelligent electronic devices (IEDs)."
+  },
+  {
+    "Question": "What is the primary security concern in SCADA communication?",
+    "A": "Unauthorized access and cyber-attacks",
+    "B": "High communication speed",
+    "C": "Low data storage capacity",
+    "D": "Incompatible hardware",
+    "Answer": "Unauthorized access and cyber-attacks",
+    "Image": "1",
+    "Explaination": "The primary security concern in SCADA communication is unauthorized access and cyber-attacks, which can disrupt critical infrastructure operations."
+  },
+  {
+    "Question": "What is a 'firewall' in the context of SCADA security?",
+    "A": "A network security device that monitors and controls incoming and outgoing network traffic",
+    "B": "A physical barrier around the control room",
+    "C": "A type of communication protocol",
+    "D": "A type of alarm",
+    "Answer": "A network security device that monitors and controls incoming and outgoing network traffic",
+    "Image": "1",
+    "Explaination": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic, protecting the SCADA system from unauthorized access."
+  },
+  {
+    "Question": "What is a 'DMZ' in SCADA network architecture?",
+    "A": "A demilitarized zone that separates the SCADA network from the corporate network",
+    "B": "A type of communication protocol",
+    "C": "A type of alarm",
+    "D": "A type of sensor",
+    "Answer": "A demilitarized zone that separates the SCADA network from the corporate network",
+    "Image": "1",
+    "Explaination": "A DMZ (Demilitarized Zone) is a buffer zone that separates the SCADA network from the corporate network, providing an additional layer of security."
+  },
+  {
+    "Question": "What is 'encryption' in SCADA communication?",
+    "A": "The process of encoding data to prevent unauthorized access",
+    "B": "The process of compressing data",
+    "C": "The process of storing data",
+    "D": "The process of displaying data",
+    "Answer": "The process of encoding data to prevent unauthorized access",
+    "Image": "1",
+    "Explaination": "Encryption is the process of encoding data to prevent unauthorized access during transmission, ensuring the confidentiality and integrity of SCADA communications."
+  },
+  {
+    "Question": "What is 'authentication' in SCADA security?",
+    "A": "The process of verifying the identity of a user or device",
+    "B": "The process of encoding data",
+    "C": "The process of compressing data",
+    "D": "The process of displaying data",
+    "Answer": "The process of verifying the identity of a user or device",
+    "Image": "1",
+    "Explaination": "Authentication is the process of verifying the identity of a user or device, ensuring that only authorized entities can access the SCADA system."
+  },
+  {
+    "Question": "What is 'role-based access control' (RBAC) in SCADA security?",
+    "A": "A method of restricting access based on the roles of individual users",
+    "B": "A method of encrypting data",
+    "C": "A method of compressing data",
+    "D": "A method of displaying data",
+    "Answer": "A method of restricting access based on the roles of individual users",
+    "Image": "1",
+    "Explaination": "Role-based access control (RBAC) restricts access based on the roles of individual users, ensuring that users only have access to the functions necessary for their job."
+  },
+  {
+    "Question": "What is a 'VPN' in SCADA communication?",
+    "A": "A virtual private network that provides secure communication over an untrusted network",
+    "B": "A type of communication protocol",
+    "C": "A type of alarm",
+    "D": "A type of sensor",
+    "Answer": "A virtual private network that provides secure communication over an untrusted network",
+    "Image": "1",
+    "Explaination": "A VPN (Virtual Private Network) provides secure communication over an untrusted network by encrypting the data and establishing a secure tunnel."
+  },
+  {
+    "Question": "What is 'intrusion detection' in SCADA security?",
+    "A": "The process of monitoring network traffic for suspicious activity",
+    "B": "The process of encrypting data",
+    "C": "The process of compressing data",
+    "D": "The process of displaying data",
+    "Answer": "The process of monitoring network traffic for suspicious activity",
+    "Image": "1",
+    "Explaination": "Intrusion detection is the process of monitoring network traffic for suspicious activity, helping to identify and respond to security threats."
+  },
+  {
+    "Question": "What is the Purdue Model in SCADA security?",
+    "A": "A reference model for industrial control system security that defines hierarchical levels of network segmentation",
+    "B": "A type of communication protocol",
+    "C": "A type of alarm",
+    "D": "A type of sensor",
+    "Answer": "A reference model for industrial control system security that defines hierarchical levels of network segmentation",
+    "Image": "1",
+    "Explaination": "The Purdue Model is a reference model for industrial control system security that defines hierarchical levels of network segmentation, from the physical process to the enterprise network."
+  },
+  {
+    "Question": "What is 'security patching' in SCADA systems?",
+    "A": "The process of applying software updates to fix security vulnerabilities",
+    "B": "The process of encrypting data",
+    "C": "The process of compressing data",
+    "D": "The process of displaying data",
+    "Answer": "The process of applying software updates to fix security vulnerabilities",
+    "Image": "1",
+    "Explaination": "Security patching is the process of applying software updates to fix security vulnerabilities, reducing the risk of cyber-attacks on SCADA systems."
+  },
+  {
+    "Question": "What is 'network segmentation' in SCADA security?",
+    "A": "The process of dividing a network into smaller, isolated segments to limit the spread of cyber-attacks",
+    "B": "The process of encrypting data",
+    "C": "The process of compressing data",
+    "D": "The process of displaying data",
+    "Answer": "The process of dividing a network into smaller, isolated segments to limit the spread of cyber-attacks",
+    "Image": "1",
+    "Explaination": "Network segmentation divides a network into smaller, isolated segments to limit the spread of cyber-attacks and protect critical SCADA components."
+  },
+  {
+    "Question": "What is a 'honeypot' in SCADA security?",
+    "A": "A decoy system designed to attract and detect cyber-attacks",
+    "B": "A type of communication protocol",
+    "C": "A type of alarm",
+    "D": "A type of sensor",
+    "Answer": "A decoy system designed to attract and detect cyber-attacks",
+    "Image": "1",
+    "Explaination": "A honeypot is a decoy system designed to attract and detect cyber-attacks, providing valuable information about attack methods and attackers."
+  },
+  {
+    "Question": "What is the NIST Cybersecurity Framework?",
+    "A": "A voluntary framework of standards and best practices for managing cybersecurity risk",
+    "B": "A type of communication protocol",
+    "C": "A type of alarm",
+    "D": "A type of sensor",
+    "Answer": "A voluntary framework of standards and best practices for managing cybersecurity risk",
+    "Image": "1",
+    "Explaination": "The NIST Cybersecurity Framework is a voluntary framework of standards and best practices for managing cybersecurity risk, widely adopted in SCADA and industrial control systems."
+  }
+]

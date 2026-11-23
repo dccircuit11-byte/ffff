@@ -1,0 +1,252 @@
+[
+  {
+    "Question": "What is the primary source of geothermal energy?",
+    "A": "Solar radiation absorbed by the Earth's surface",
+    "B": "Heat generated and stored in the Earth's core and mantle",
+    "C": "Tidal forces from the Moon",
+    "D": "Nuclear reactions in the atmosphere",
+    "Answer": "Heat generated and stored in the Earth's core and mantle",
+    "Image": "1",
+    "Explaination": "Geothermal energy originates from the heat generated and stored in the Earth's core and mantle, which is continuously produced by radioactive decay and residual heat from the planet's formation."
+  },
+  {
+    "Question": "What is a geothermal reservoir?",
+    "A": "A natural underground cavity filled with magma",
+    "B": "A subsurface zone of hot water and steam that can be extracted for energy",
+    "C": "A surface lake heated by the sun",
+    "D": "A type of solar collector",
+    "Answer": "A subsurface zone of hot water and steam that can be extracted for energy",
+    "Image": "1",
+    "Explaination": "A geothermal reservoir is a subsurface zone of hot water and steam that can be extracted through wells and used for power generation or direct heating."
+  },
+  {
+    "Question": "Which type of geothermal power plant uses steam directly from the ground to drive a turbine?",
+    "A": "Binary cycle plant",
+    "B": "Flash steam plant",
+    "C": "Dry steam plant",
+    "D": "Combined cycle plant",
+    "Answer": "Dry steam plant",
+    "Image": "1",
+    "Explaination": "A dry steam plant uses steam directly from the geothermal reservoir to drive a turbine, without any intermediate heat exchanger."
+  },
+  {
+    "Question": "Which type of geothermal power plant is the most common and uses high-pressure hot water that is flashed into steam?",
+    "A": "Dry steam plant",
+    "B": "Flash steam plant",
+    "C": "Binary cycle plant",
+    "D": "Hybrid plant",
+    "Answer": "Flash steam plant",
+    "Image": "1",
+    "Explaination": "Flash steam plants are the most common type of geothermal power plant; they use high-pressure hot water from the reservoir, which is flashed into steam as pressure is reduced, to drive a turbine."
+  },
+  {
+    "Question": "Which type of geothermal power plant uses a secondary working fluid with a lower boiling point to generate electricity?",
+    "A": "Dry steam plant",
+    "B": "Flash steam plant",
+    "C": "Binary cycle plant",
+    "D": "Combined cycle plant",
+    "Answer": "Binary cycle plant",
+    "Image": "1",
+    "Explaination": "A binary cycle plant uses a secondary working fluid (such as isobutane or pentane) with a lower boiling point to generate electricity from moderate-temperature geothermal resources."
+  },
+  {
+    "Question": "What is the typical temperature range of geothermal resources suitable for binary cycle plants?",
+    "A": "Above 300°C",
+    "B": "150-300°C",
+    "C": "70-150°C",
+    "D": "Below 50°C",
+    "Answer": "70-150°C",
+    "Image": "1",
+    "Explaination": "Binary cycle plants are suitable for moderate-temperature geothermal resources in the range of 70-150°C, where flash steam plants are not economically viable."
+  },
+  {
+    "Question": "What is the typical temperature range of geothermal resources suitable for flash steam plants?",
+    "A": "Above 180°C",
+    "B": "70-150°C",
+    "C": "50-70°C",
+    "D": "Below 50°C",
+    "Answer": "Above 180°C",
+    "Image": "1",
+    "Explaination": "Flash steam plants are suitable for high-temperature geothermal resources above 180°C, which can be flashed into steam for power generation."
+  },
+  {
+    "Question": "What is the typical temperature range of geothermal resources suitable for dry steam plants?",
+    "A": "Above 235°C",
+    "B": "70-150°C",
+    "C": "50-70°C",
+    "D": "Below 50°C",
+    "Answer": "Above 235°C",
+    "Image": "1",
+    "Explaination": "Dry steam plants require very high-temperature geothermal resources above 235°C, where steam is directly available from the reservoir."
+  },
+  {
+    "Question": "What is the function of a cooling tower in a geothermal power plant?",
+    "A": "To cool the geothermal fluid before reinjection",
+    "B": "To condense the exhaust steam from the turbine",
+    "C": "To heat the working fluid",
+    "D": "To filter debris from the geothermal fluid",
+    "Answer": "To condense the exhaust steam from the turbine",
+    "Image": "1",
+    "Explaination": "A cooling tower in a geothermal power plant condenses the exhaust steam from the turbine back into water, which is then reinjected into the reservoir."
+  },
+  {
+    "Question": "Why is the geothermal fluid typically reinjected into the reservoir after use?",
+    "A": "To dispose of waste",
+    "B": "To maintain reservoir pressure and sustainability",
+    "C": "To increase the temperature of the reservoir",
+    "D": "To reduce the cost of operation",
+    "Answer": "To maintain reservoir pressure and sustainability",
+    "Image": "1",
+    "Explaination": "Geothermal fluid is typically reinjected into the reservoir to maintain reservoir pressure and ensure the sustainability of the geothermal resource."
+  },
+  {
+    "Question": "What is the typical efficiency of a geothermal power plant?",
+    "A": "5-10%",
+    "B": "10-20%",
+    "C": "20-30%",
+    "D": "40-50%",
+    "Answer": "10-20%",
+    "Image": "1",
+    "Explaination": "Geothermal power plants typically have a thermal efficiency of 10-20%, which is lower than fossil fuel plants due to the lower temperature of geothermal resources."
+  },
+  {
+    "Question": "What is a 'geothermal heat pump' (GHP)?",
+    "A": "A device that uses the stable temperature of the ground for heating and cooling buildings",
+    "B": "A device that pumps geothermal fluid from the ground",
+    "C": "A device that converts geothermal energy into electricity",
+    "D": "A device that measures geothermal temperature",
+    "Answer": "A device that uses the stable temperature of the ground for heating and cooling buildings",
+    "Image": "1",
+    "Explaination": "A geothermal heat pump (GHP) uses the stable temperature of the ground to provide heating and cooling for buildings, leveraging the Earth's constant subsurface temperature."
+  },
+  {
+    "Question": "What is the typical depth of a geothermal well?",
+    "A": "10-50 meters",
+    "B": "100-500 meters",
+    "C": "1-5 kilometers",
+    "D": "10-20 kilometers",
+    "Answer": "1-5 kilometers",
+    "Image": "1",
+    "Explaination": "Geothermal wells are typically drilled to depths of 1-5 kilometers to access high-temperature geothermal resources."
+  },
+  {
+    "Question": "What is the main environmental concern associated with geothermal power plants?",
+    "A": "Air pollution",
+    "B": "Land subsidence and induced seismicity",
+    "C": "Water pollution",
+    "D": "Noise pollution",
+    "Answer": "Land subsidence and induced seismicity",
+    "Image": "1",
+    "Explaination": "The main environmental concerns associated with geothermal power plants include land subsidence and induced seismicity due to fluid extraction and reinjection."
+  },
+  {
+    "Question": "What is a 'geyser' in the context of geothermal energy?",
+    "A": "A type of geothermal power plant",
+    "B": "A natural hot spring that intermittently erupts hot water and steam",
+    "C": "A device for measuring geothermal temperature",
+    "D": "A type of geothermal well",
+    "Answer": "A natural hot spring that intermittently erupts hot water and steam",
+    "Image": "1",
+    "Explaination": "A geyser is a natural hot spring that intermittently erupts hot water and steam, indicating the presence of geothermal activity."
+  },
+  {
+    "Question": "What is the 'hot dry rock' (HDR) geothermal technology?",
+    "A": "A technology that uses dry steam from the reservoir",
+    "B": "A technology that involves drilling into hot, dry rock and circulating water to extract heat",
+    "C": "A technology that uses solar energy to heat rocks",
+    "D": "A technology that uses magma directly",
+    "Answer": "A technology that involves drilling into hot, dry rock and circulating water to extract heat",
+    "Image": "1",
+    "Explaination": "Hot dry rock (HDR) technology involves drilling into hot, dry rock formations and circulating water to extract heat, which can then be used for power generation."
+  },
+  {
+    "Question": "Which country is the largest producer of geothermal electricity in the world?",
+    "A": "Iceland",
+    "B": "United States",
+    "C": "Philippines",
+    "D": "New Zealand",
+    "Answer": "United States",
+    "Image": "1",
+    "Explaination": "The United States is the largest producer of geothermal electricity in the world, with significant capacity in California and Nevada."
+  },
+  {
+    "Question": "Which country meets the largest share of its electricity demand from geothermal energy?",
+    "A": "United States",
+    "B": "Iceland",
+    "C": "India",
+    "D": "China",
+    "Answer": "Iceland",
+    "Image": "1",
+    "Explaination": "Iceland meets about 25-30% of its electricity demand and about 90% of its heating demand from geothermal energy, the highest share in the world."
+  },
+  {
+    "Question": "What is the typical capacity factor of a geothermal power plant?",
+    "A": "10-20%",
+    "B": "30-40%",
+    "C": "70-90%",
+    "D": "100%",
+    "Answer": "70-90%",
+    "Image": "1",
+    "Explaination": "Geothermal power plants have a high capacity factor of 70-90%, as they can operate continuously and are not dependent on weather conditions."
+  },
+  {
+    "Question": "What is a 'binary cycle' in a geothermal power plant?",
+    "A": "A cycle that uses two different working fluids to generate electricity",
+    "B": "A cycle that uses two turbines",
+    "C": "A cycle that uses two generators",
+    "D": "A cycle that uses two cooling towers",
+    "Answer": "A cycle that uses two different working fluids to generate electricity",
+    "Image": "1",
+    "Explaination": "A binary cycle uses two different working fluids: geothermal water and a secondary fluid with a lower boiling point, to generate electricity."
+  },
+  {
+    "Question": "What is the function of a heat exchanger in a binary cycle geothermal plant?",
+    "A": "To transfer heat from the geothermal fluid to the secondary working fluid",
+    "B": "To cool the geothermal fluid",
+    "C": "To condense the steam",
+    "D": "To filter debris from the geothermal fluid",
+    "Answer": "To transfer heat from the geothermal fluid to the secondary working fluid",
+    "Image": "1",
+    "Explaination": "A heat exchanger transfers heat from the geothermal fluid to the secondary working fluid in a binary cycle plant, without mixing the two fluids."
+  },
+  {
+    "Question": "What is the main advantage of a binary cycle geothermal plant over a flash steam plant?",
+    "A": "Higher efficiency",
+    "B": "Ability to use lower-temperature resources and lower emissions",
+    "C": "Lower cost",
+    "D": "Simpler design",
+    "Answer": "Ability to use lower-temperature resources and lower emissions",
+    "Image": "1",
+    "Explaination": "Binary cycle plants can use lower-temperature geothermal resources and produce lower emissions, as the geothermal fluid is not exposed to the atmosphere."
+  },
+  {
+    "Question": "What is the main disadvantage of a binary cycle geothermal plant?",
+    "A": "Higher emissions",
+    "B": "Higher cost and complexity",
+    "C": "Requires very high-temperature resources",
+    "D": "Lower efficiency",
+    "Answer": "Higher cost and complexity",
+    "Image": "1",
+    "Explaination": "Binary cycle plants have higher capital costs and are more complex than flash steam plants, due to the additional heat exchanger and secondary working fluid system."
+  },
+  {
+    "Question": "What is a 'geothermal gradient'?",
+    "A": "The rate of increase of temperature with depth in the Earth's crust",
+    "B": "The rate of decrease of temperature with depth",
+    "C": "The rate of increase of pressure with depth",
+    "D": "The rate of decrease of pressure with depth",
+    "Answer": "The rate of increase of temperature with depth in the Earth's crust",
+    "Image": "1",
+    "Explaination": "The geothermal gradient is the rate of increase of temperature with depth in the Earth's crust, typically about 25-30°C per kilometer."
+  },
+  {
+    "Question": "What is the typical geothermal gradient in the Earth's crust?",
+    "A": "5°C per km",
+    "B": "25-30°C per km",
+    "C": "50-60°C per km",
+    "D": "100°C per km",
+    "Answer": "25-30°C per km",
+    "Image": "1",
+    "Explaination": "The typical geothermal gradient in the Earth's crust is about 25-30°C per kilometer of depth."
+  }
+]

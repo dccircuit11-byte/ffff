@@ -1,0 +1,142 @@
+[
+  {
+    "Question": "What is the primary cause of electric shock in humans?",
+    "A": "High voltage only",
+    "B": "Current flowing through the human body",
+    "C": "Static electricity",
+    "D": "Magnetic fields",
+    "Answer": "Current flowing through the human body",
+    "Image": "1",
+    "Explaination": "Electric shock is primarily caused by current flowing through the human body, which disrupts normal bodily functions and can cause injury or death."
+  },
+  {
+    "Question": "What is the typical resistance of the human body (dry skin) that determines the severity of electric shock?",
+    "A": "1 ohm",
+    "B": "100 ohms",
+    "C": "1,000 to 100,000 ohms",
+    "D": "1 megaohm",
+    "Answer": "1,000 to 100,000 ohms",
+    "Image": "1",
+    "Explaination": "The resistance of dry human skin is typically between 1,000 and 100,000 ohms, which determines the current that will flow through the body for a given voltage."
+  },
+  {
+    "Question": "What is the threshold current that can cause ventricular fibrillation in humans?",
+    "A": "1 mA",
+    "B": "10 mA",
+    "C": "50-100 mA",
+    "D": "1 A",
+    "Answer": "50-100 mA",
+    "Image": "1",
+    "Explaination": "A current of 50-100 mA (0.05-0.1 A) flowing through the human body for a sufficient duration can cause ventricular fibrillation, which is often fatal."
+  },
+  {
+    "Question": "What is the 'let-go' current threshold for an average adult?",
+    "A": "1-2 mA",
+    "B": "10-15 mA",
+    "C": "50-100 mA",
+    "D": "1 A",
+    "Answer": "10-15 mA",
+    "Image": "1",
+    "Explaination": "The let-go current threshold is typically 10-15 mA for an average adult; above this level, the person cannot release the conductor due to muscle contraction."
+  },
+  {
+    "Question": "What is arc flash?",
+    "A": "A type of electrical shock",
+    "B": "A sudden, explosive release of energy caused by an electric arc between conductors or between a conductor and ground",
+    "C": "A static electricity discharge",
+    "D": "A type of lightning strike",
+    "Answer": "A sudden, explosive release of energy caused by an electric arc between conductors or between a conductor and ground",
+    "Image": "1",
+    "Explaination": "Arc flash is a sudden, explosive release of energy caused by an electric arc between conductors or between a conductor and ground, generating intense heat, light, and pressure."
+  },
+  {
+    "Question": "What is the typical temperature of an electric arc during an arc flash?",
+    "A": "100°C",
+    "B": "500°C",
+    "C": "1,000°C",
+    "D": "Up to 20,000°C",
+    "Answer": "Up to 20,000°C",
+    "Image": "1",
+    "Explaination": "An electric arc during an arc flash can reach temperatures of up to 20,000°C, which is hotter than the surface of the sun and can cause severe burns."
+  },
+  {
+    "Question": "What are the primary hazards associated with arc flash?",
+    "A": "Electric shock only",
+    "B": "Thermal burns, blast pressure, shrapnel, and intense light (UV/IR)",
+    "C": "Noise pollution only",
+    "D": "Magnetic field exposure only",
+    "Answer": "Thermal burns, blast pressure, shrapnel, and intense light (UV/IR)",
+    "Image": "1",
+    "Explaination": "Arc flash hazards include thermal burns from the intense heat, blast pressure from the rapid expansion of air, shrapnel from molten metal, and intense light (UV/IR) that can damage eyesight."
+  },
+  {
+    "Question": "What is the primary purpose of an arc flash hazard analysis?",
+    "A": "To determine the cost of electrical equipment",
+    "B": "To determine the incident energy level and establish safe working distances and PPE requirements",
+    "C": "To measure the voltage of the system",
+    "D": "To calculate the power factor",
+    "Answer": "To determine the incident energy level and establish safe working distances and PPE requirements",
+    "Image": "1",
+    "Explaination": "An arc flash hazard analysis determines the incident energy level at various working distances, establishes arc flash boundaries, and specifies the required PPE."
+  },
+  {
+    "Question": "What is the 'arc flash boundary'?",
+    "A": "The physical boundary of the electrical equipment",
+    "B": "The distance at which a person without appropriate PPE could receive a second-degree burn from an arc flash",
+    "C": "The distance at which the equipment can be safely touched",
+    "D": "The distance between two conductors",
+    "Answer": "The distance at which a person without appropriate PPE could receive a second-degree burn from an arc flash",
+    "Image": "1",
+    "Explaination": "The arc flash boundary is the distance at which a person without appropriate PPE could receive a second-degree burn from an arc flash, typically defined as 1.2 cal/cm²."
+  },
+  {
+    "Question": "What is 'incident energy' in arc flash analysis?",
+    "A": "The total energy of the electrical system",
+    "B": "The energy per unit area (cal/cm²) that a person would be exposed to during an arc flash at a given distance",
+    "C": "The energy stored in the capacitor",
+    "D": "The energy consumed by the load",
+    "Answer": "The energy per unit area (cal/cm²) that a person would be exposed to during an arc flash at a given distance",
+    "Image": "1",
+    "Explaination": "Incident energy is the energy per unit area (cal/cm²) that a person would be exposed to during an arc flash at a specific working distance."
+  },
+  {
+    "Question": "What is the recommended first aid for a person who has suffered an electric shock?",
+    "A": "Give the person water",
+    "B": "Immediately disconnect the power source and call for emergency medical help",
+    "C": "Move the person to a different location",
+    "D": "Apply ice to the burn",
+    "Answer": "Immediately disconnect the power source and call for emergency medical help",
+    "Image": "1",
+    "Explaination": "The first step in treating an electric shock victim is to immediately disconnect the power source and call for emergency medical help, without touching the person if they are still in contact with the electrical source."
+  },
+  {
+    "Question": "What is the minimum safe distance for unqualified personnel from an exposed energized electrical conductor?",
+    "A": "1 foot",
+    "B": "10 feet",
+    "C": "20 feet",
+    "D": "30 feet",
+    "Answer": "10 feet",
+    "Image": "1",
+    "Explaination": "The minimum safe distance for unqualified personnel from exposed energized electrical conductors is typically 10 feet (3 meters) for voltages up to 50 kV, as per OSHA standards."
+  },
+  {
+    "Question": "What is the purpose of grounding (earthing) in relation to electric shock prevention?",
+    "A": "To increase the voltage of the system",
+    "B": "To provide a low-resistance path for fault current, ensuring that protective devices operate quickly and limiting the voltage exposure to personnel",
+    "C": "To reduce the power factor",
+    "D": "To increase the current in the circuit",
+    "Answer": "To provide a low-resistance path for fault current, ensuring that protective devices operate quickly and limiting the voltage exposure to personnel",
+    "Image": "1",
+    "Explaination": "Grounding provides a low-resistance path for fault current, ensuring that protective devices operate quickly and limiting the voltage exposure to personnel during a fault."
+  },
+  {
+    "Question": "What is the main cause of arc flash incidents?",
+    "A": "Human error during maintenance work on energized equipment",
+    "B": "Lightning strikes",
+    "C": "High ambient temperature",
+    "D": "Overloading of transformers",
+    "Answer": "Human error during maintenance work on energized equipment",
+    "Image": "1",
+    "Explaination": "The main cause of arc flash incidents is human error during maintenance work on energized equipment, such as accidental contact with energized parts, dropping tools, or using incorrect procedures."
+  }
+]

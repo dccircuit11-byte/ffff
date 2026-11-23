@@ -1,0 +1,252 @@
+[
+  {
+    "Question": "What is the primary purpose of system earthing?",
+    "A": "To protect equipment from mechanical damage",
+    "B": "To provide a reference point for the system voltage and limit overvoltages during faults",
+    "C": "To improve the power factor of the system",
+    "D": "To increase the transmission efficiency",
+    "Answer": "To provide a reference point for the system voltage and limit overvoltages during faults",
+    "Image": "1",
+    "Explaination": "System earthing provides a reference point for the system voltage and limits overvoltages during faults, ensuring the stability and safety of the power system."
+  },
+  {
+    "Question": "What is the purpose of equipment earthing?",
+    "A": "To protect personnel from electric shock by grounding non-current-carrying metal parts",
+    "B": "To provide a reference point for the system voltage",
+    "C": "To improve the power factor",
+    "D": "To increase the transmission efficiency",
+    "Answer": "To protect personnel from electric shock by grounding non-current-carrying metal parts",
+    "Image": "1",
+    "Explaination": "Equipment earthing protects personnel from electric shock by grounding non-current-carrying metal parts of electrical equipment."
+  },
+  {
+    "Question": "What is the main advantage of solid earthing?",
+    "A": "It limits the fault current",
+    "B": "It provides the lowest resistance path for fault current and is the most economical",
+    "C": "It eliminates the need for circuit breakers",
+    "D": "It increases the voltage of the system",
+    "Answer": "It provides the lowest resistance path for fault current and is the most economical",
+    "Image": "1",
+    "Explaination": "Solid earthing provides the lowest resistance path for fault current and is the most economical method of neutral earthing."
+  },
+  {
+    "Question": "What is the main disadvantage of solid earthing?",
+    "A": "It causes high fault currents and severe voltage dips",
+    "B": "It is expensive",
+    "C": "It requires high maintenance",
+    "D": "It cannot be used in low-voltage systems",
+    "Answer": "It causes high fault currents and severe voltage dips",
+    "Image": "1",
+    "Explaination": "The main disadvantage of solid earthing is that it causes high fault currents and severe voltage dips, which can affect the stability of the power system."
+  },
+  {
+    "Question": "What is the purpose of resistance earthing?",
+    "A": "To limit the fault current and reduce the severity of voltage dips",
+    "B": "To provide the lowest resistance path for fault current",
+    "C": "To eliminate the need for circuit breakers",
+    "D": "To increase the voltage of the system",
+    "Answer": "To limit the fault current and reduce the severity of voltage dips",
+    "Image": "1",
+    "Explaination": "Resistance earthing is used to limit the fault current and reduce the severity of voltage dips during faults."
+  },
+  {
+    "Question": "What is the purpose of reactance earthing?",
+    "A": "To limit the fault current and improve the transient stability",
+    "B": "To provide the lowest resistance path for fault current",
+    "C": "To eliminate the need for circuit breakers",
+    "D": "To increase the voltage of the system",
+    "Answer": "To limit the fault current and improve the transient stability",
+    "Image": "1",
+    "Explaination": "Reactance earthing limits the fault current and improves the transient stability of the power system."
+  },
+  {
+    "Question": "What is the purpose of resonant earthing (Peterson coil)?",
+    "A": "To suppress arcing grounds by neutralizing the capacitive earth current",
+    "B": "To provide the lowest resistance path for fault current",
+    "C": "To eliminate the need for circuit breakers",
+    "D": "To increase the voltage of the system",
+    "Answer": "To suppress arcing grounds by neutralizing the capacitive earth current",
+    "Image": "1",
+    "Explaination": "Resonant earthing (Peterson coil) suppresses arcing grounds by neutralizing the capacitive earth current, improving system stability."
+  },
+  {
+    "Question": "What is the main advantage of resonant earthing?",
+    "A": "It eliminates arcing grounds and allows continued operation during a single line-to-ground fault",
+    "B": "It provides the lowest resistance path for fault current",
+    "C": "It is the most economical method",
+    "D": "It increases the voltage of the system",
+    "Answer": "It eliminates arcing grounds and allows continued operation during a single line-to-ground fault",
+    "Image": "1",
+    "Explaination": "Resonant earthing eliminates arcing grounds and allows continued operation during a single line-to-ground fault, improving system reliability."
+  },
+  {
+    "Question": "What is the main disadvantage of resonant earthing?",
+    "A": "It is expensive and complex to implement",
+    "B": "It causes high fault currents",
+    "C": "It requires high maintenance",
+    "D": "It cannot be used in high-voltage systems",
+    "Answer": "It is expensive and complex to implement",
+    "Image": "1",
+    "Explaination": "The main disadvantage of resonant earthing is that it is expensive and complex to implement, requiring careful tuning of the Peterson coil."
+  },
+  {
+    "Question": "What is the purpose of a grounding transformer?",
+    "A": "To provide a neutral point for earthing in an ungrounded system",
+    "B": "To step up the voltage",
+    "C": "To convert AC to DC",
+    "D": "To measure the voltage",
+    "Answer": "To provide a neutral point for earthing in an ungrounded system",
+    "Image": "1",
+    "Explaination": "A grounding transformer provides a neutral point for earthing in an ungrounded system, allowing the system to be grounded without a direct connection to the neutral."
+  },
+  {
+    "Question": "What is the difference between a grounding transformer and a power transformer?",
+    "A": "A grounding transformer is designed to provide a neutral point for earthing, while a power transformer is designed for power transfer",
+    "B": "A grounding transformer is larger than a power transformer",
+    "C": "A grounding transformer is used only in DC systems",
+    "D": "There is no difference between them",
+    "Answer": "A grounding transformer is designed to provide a neutral point for earthing, while a power transformer is designed for power transfer",
+    "Image": "1",
+    "Explaination": "A grounding transformer is designed to provide a neutral point for earthing, while a power transformer is designed for power transfer."
+  },
+  {
+    "Question": "What is a zig-zag grounding transformer?",
+    "A": "A transformer with a zig-zag winding that provides a low-impedance path for zero-sequence currents",
+    "B": "A transformer with a delta winding",
+    "C": "A transformer with a star winding",
+    "D": "A transformer with a single winding",
+    "Answer": "A transformer with a zig-zag winding that provides a low-impedance path for zero-sequence currents",
+    "Image": "1",
+    "Explaination": "A zig-zag grounding transformer has a zig-zag winding that provides a low-impedance path for zero-sequence currents, allowing effective earthing."
+  },
+  {
+    "Question": "What is the purpose of an earth fault relay?",
+    "A": "To detect earth faults and trip the circuit breaker",
+    "B": "To measure the earth resistance",
+    "C": "To improve the power factor",
+    "D": "To increase the voltage",
+    "Answer": "To detect earth faults and trip the circuit breaker",
+    "Image": "1",
+    "Explaination": "An earth fault relay detects earth faults and trips the circuit breaker to isolate the fault and protect the system."
+  },
+  {
+    "Question": "What is the purpose of a core balance current transformer (CBCT) in earth fault protection?",
+    "A": "To detect the zero-sequence current flowing through the earth path",
+    "B": "To measure the line voltage",
+    "C": "To improve the power factor",
+    "D": "To increase the voltage",
+    "Answer": "To detect the zero-sequence current flowing through the earth path",
+    "Image": "1",
+    "Explaination": "A core balance current transformer (CBCT) detects the zero-sequence current flowing through the earth path, enabling earth fault protection."
+  },
+  {
+    "Question": "What is the typical setting of an earth fault relay?",
+    "A": "10-20% of the rated current",
+    "B": "50-100% of the rated current",
+    "C": "100-200% of the rated current",
+    "D": "200-300% of the rated current",
+    "Answer": "10-20% of the rated current",
+    "Image": "1",
+    "Explaination": "The typical setting of an earth fault relay is 10-20% of the rated current, ensuring sensitive detection of earth faults."
+  },
+  {
+    "Question": "What is the purpose of a residual current device (RCD)?",
+    "A": "To protect against electric shock by detecting earth leakage current",
+    "B": "To protect against overload",
+    "C": "To improve the power factor",
+    "D": "To increase the voltage",
+    "Answer": "To protect against electric shock by detecting earth leakage current",
+    "Image": "1",
+    "Explaination": "An RCD protects against electric shock by detecting earth leakage current and quickly disconnecting the supply."
+  },
+  {
+    "Question": "What is the typical tripping current of an RCD used in domestic installations?",
+    "A": "30 mA",
+    "B": "100 mA",
+    "C": "300 mA",
+    "D": "1 A",
+    "Answer": "30 mA",
+    "Image": "1",
+    "Explaination": "The typical tripping current of an RCD used in domestic installations is 30 mA, providing protection against electric shock."
+  },
+  {
+    "Question": "What is the purpose of an earth leakage circuit breaker (ELCB)?",
+    "A": "To protect against electric shock by detecting earth leakage current",
+    "B": "To protect against overload",
+    "C": "To improve the power factor",
+    "D": "To increase the voltage",
+    "Answer": "To protect against electric shock by detecting earth leakage current",
+    "Image": "1",
+    "Explaination": "An ELCB protects against electric shock by detecting earth leakage current and disconnecting the supply."
+  },
+  {
+    "Question": "What is the difference between an ELCB and an RCD?",
+    "A": "An ELCB detects voltage differences, while an RCD detects current differences",
+    "B": "An ELCB is more sensitive than an RCD",
+    "C": "An ELCB is used only in DC systems",
+    "D": "There is no difference between them",
+    "Answer": "An ELCB detects voltage differences, while an RCD detects current differences",
+    "Image": "1",
+    "Explaination": "An ELCB (Earth Leakage Circuit Breaker) detects voltage differences, while an RCD (Residual Current Device) detects current differences to provide protection."
+  },
+  {
+    "Question": "What is the purpose of a ground fault circuit interrupter (GFCI)?",
+    "A": "To protect against electric shock by detecting earth leakage current",
+    "B": "To protect against overload",
+    "C": "To improve the power factor",
+    "D": "To increase the voltage",
+    "Answer": "To protect against electric shock by detecting earth leakage current",
+    "Image": "1",
+    "Explaination": "A GFCI protects against electric shock by detecting earth leakage current and quickly disconnecting the supply."
+  },
+  {
+    "Question": "What is the typical tripping current of a GFCI used in residential installations?",
+    "A": "5 mA",
+    "B": "30 mA",
+    "C": "100 mA",
+    "D": "300 mA",
+    "Answer": "5 mA",
+    "Image": "1",
+    "Explaination": "The typical tripping current of a GFCI used in residential installations is 5 mA, providing sensitive protection against electric shock."
+  },
+  {
+    "Question": "What is the purpose of a ground rod in a lightning protection system?",
+    "A": "To provide a low-resistance path to the earth for lightning currents",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To provide a low-resistance path to the earth for lightning currents",
+    "Image": "1",
+    "Explaination": "A ground rod in a lightning protection system provides a low-resistance path to the earth for lightning currents, protecting the structure and equipment."
+  },
+  {
+    "Question": "What is the typical resistance value for a lightning protection ground rod?",
+    "A": "Less than 10 ohms",
+    "B": "10-50 ohms",
+    "C": "50-100 ohms",
+    "D": "Over 100 ohms",
+    "Answer": "Less than 10 ohms",
+    "Image": "1",
+    "Explaination": "The typical resistance value for a lightning protection ground rod is less than 10 ohms to ensure effective dissipation of lightning currents."
+  },
+  {
+    "Question": "What is the purpose of a surge arrester in an earthing system?",
+    "A": "To protect equipment from overvoltage surges by diverting them to the earth",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To protect equipment from overvoltage surges by diverting them to the earth",
+    "Image": "1",
+    "Explaination": "A surge arrester protects equipment from overvoltage surges by diverting them to the earth, preventing damage to the system."
+  },
+  {
+    "Question": "What is the difference between a surge arrester and a lightning arrester?",
+    "A": "A surge arrester is used for both lightning and switching surges, while a lightning arrester is used only for lightning surges",
+    "B": "A surge arrester is larger than a lightning arrester",
+    "C": "A surge arrester is used only in DC systems",
+    "D": "There is no difference between them",
+    "Answer": "A surge arrester is used for both lightning and switching surges, while a lightning arrester is used only for lightning surges",
+    "Image": "1",
+    "Explaination": "A surge arrester is used for both lightning and switching surges, while a lightning arrester is used only for lightning surges."
+  }
+]

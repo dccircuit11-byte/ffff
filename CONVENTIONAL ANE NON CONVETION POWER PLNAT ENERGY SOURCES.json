@@ -1,0 +1,432 @@
+[
+  {
+    "Question": "Thermal power plants operate on which fundamental thermodynamic vapor power cycle?",
+    "A": "Carnot cycle",
+    "B": "Rankine cycle",
+    "C": "Otto cycle",
+    "D": "Brayton cycle",
+    "Answer": "Rankine cycle",
+    "Image": "1",
+    "Explaination": "Thermal power plants operate on the Rankine cycle, which is the fundamental thermodynamic vapor power cycle used in steam power plants."
+  },
+  {
+    "Question": "What is the primary function of a boiler in a thermal power station?",
+    "A": "To condense exhaust steam into water",
+    "B": "To convert feed water into high-pressure, high-temperature steam by burning fuel",
+    "C": "To step up generated AC voltage",
+    "D": "To remove ash from flue gases electrostatically",
+    "Answer": "To convert feed water into high-pressure, high-temperature steam by burning fuel",
+    "Image": "1",
+    "Explaination": "The boiler converts feed water into high-pressure, high-temperature steam by burning fuel, which is then used to drive the steam turbine."
+  },
+  {
+    "Question": "What is the function of an Economizer in a thermal power plant?",
+    "A": "To heat the air supplied to the furnace",
+    "B": "To preheat the boiler feedwater using residual heat from exhaust flue gases",
+    "C": "To reheat steam between turbine stages",
+    "D": "To cool the generator stator windings",
+    "Answer": "To preheat the boiler feedwater using residual heat from exhaust flue gases",
+    "Image": "1",
+    "Explaination": "The economizer preheats the boiler feedwater using residual heat from exhaust flue gases, improving the overall thermal efficiency of the plant."
+  },
+  {
+    "Question": "Where is an Air Preheater physically installed in the flue gas path of a steam boiler?",
+    "A": "Inside the furnace combustion chamber",
+    "B": "Between the economizer and the chimney",
+    "C": "Inside the steam condenser hotwell",
+    "D": "After the cooling tower",
+    "Answer": "Between the economizer and the chimney",
+    "Image": "1",
+    "Explaination": "The air preheater is installed between the economizer and the chimney in the flue gas path, where it heats the combustion air using residual flue gas heat."
+  },
+  {
+    "Question": "Why is steam superheated above its boiling point before entering the steam turbine?",
+    "A": "To prevent moisture condensation and erosion of turbine blades in the final stages",
+    "B": "To decrease turbine inlet velocity",
+    "C": "To increase flue gas moisture content",
+    "D": "To allow using low-temperature copper piping",
+    "Answer": "To prevent moisture condensation and erosion of turbine blades in the final stages",
+    "Image": "1",
+    "Explaination": "Superheating steam above its boiling point prevents moisture condensation and erosion of turbine blades in the final stages, improving turbine efficiency and longevity."
+  },
+  {
+    "Question": "What is the typical steam temperature and pressure delivered by modern high-capacity boilers?",
+    "A": "100 °C and 1.0 MPa",
+    "B": "250 °C and 5.0 MPa",
+    "C": "550 °C and 16.5 MPa",
+    "D": "1000 °C and 50.0 MPa",
+    "Answer": "550 °C and 16.5 MPa",
+    "Image": "1",
+    "Explaination": "Modern high-capacity boilers typically deliver steam at around 550 °C and 16.5 MPa for high-efficiency power generation."
+  },
+  {
+    "Question": "What pressure condition is maintained inside the steam condenser of a modern steam turbine?",
+    "A": "Near-vacuum pressure (around 5 kPa)",
+    "B": "Atmospheric pressure (101.3 kPa)",
+    "C": "2.5 MPa",
+    "D": "16.5 MPa",
+    "Answer": "Near-vacuum pressure (around 5 kPa)",
+    "Image": "1",
+    "Explaination": "The steam condenser maintains a near-vacuum pressure (around 5 kPa) to maximize the pressure drop across the turbine and improve efficiency."
+  },
+  {
+    "Question": "The largest individual loss of thermal energy in a steam power station occurs in the:",
+    "A": "Flue gas chimney stack",
+    "B": "Boiler radiation and ash leakage",
+    "C": "Condenser (heat rejected to cooling water)",
+    "D": "Generator bearings",
+    "Answer": "Condenser (heat rejected to cooling water)",
+    "Image": "1",
+    "Explaination": "The largest individual loss of thermal energy in a steam power station occurs in the condenser, where heat is rejected to cooling water (typically about 54% of heat input)."
+  },
+  {
+    "Question": "What is the role of a Reheater in a multi-stage steam turbine setup?",
+    "A": "To reheat exhaust steam bled from the high-pressure turbine before it enters intermediate/low-pressure stages",
+    "B": "To heat cooling tower water",
+    "C": "To melt frozen coal on conveyor belts",
+    "D": "To evaporate makeup water sludge",
+    "Answer": "To reheat exhaust steam bled from the high-pressure turbine before it enters intermediate/low-pressure stages",
+    "Image": "1",
+    "Explaination": "The reheater reheats exhaust steam bled from the high-pressure turbine before it enters the intermediate/low-pressure stages, improving efficiency and reducing moisture."
+  },
+  {
+    "Question": "What is the typical overall thermal efficiency of modern coal-fired power stations?",
+    "A": "10% to 15%",
+    "B": "29% to 40%",
+    "C": "75% to 85%",
+    "D": "95% to 98%",
+    "Answer": "29% to 40%",
+    "Image": "1",
+    "Explaination": "Modern coal-fired power stations typically have an overall thermal efficiency of 29% to 40%, depending on the technology and operating conditions."
+  },
+  {
+    "Question": "Which device removes tramp iron particles from raw coal in the coal handling plant?",
+    "A": "Cyclone separator",
+    "B": "Magnetic separator",
+    "C": "Electrostatic precipitator",
+    "D": "Rotary drum filter",
+    "Answer": "Magnetic separator",
+    "Image": "1",
+    "Explaination": "A magnetic separator removes tramp iron particles from raw coal in the coal handling plant to protect crushers and other equipment."
+  },
+  {
+    "Question": "What is the main advantage of pulverizing coal before feeding it into the boiler furnace?",
+    "A": "It eliminates the need for an ash handling plant",
+    "B": "It accelerates combustion, burns low-grade coal easily, and is free from clinker troubles",
+    "C": "It eliminates all fly ash formation",
+    "D": "It eliminates the need for primary air fans",
+    "Answer": "It accelerates combustion, burns low-grade coal easily, and is free from clinker troubles",
+    "Image": "1",
+    "Explaination": "Pulverizing coal accelerates combustion, allows the burning of low-grade coal, and is free from clinker troubles, improving boiler efficiency."
+  },
+  {
+    "Question": "What fan supplies large quantities of combustion air into the boiler furnace?",
+    "A": "Forced Draught (FD) Fan",
+    "B": "Induced Draught (ID) Fan",
+    "C": "Gas Recirculation Fan",
+    "D": "Turbine cooling fan",
+    "Answer": "Forced Draught (FD) Fan",
+    "Image": "1",
+    "Explaination": "The Forced Draught (FD) fan supplies large quantities of combustion air into the boiler furnace to support the combustion process."
+  },
+  {
+    "Question": "The Induced Draught (ID) Fan is situated:",
+    "A": "At the coal mill pulverizer inlet",
+    "B": "Between the dust collector / air preheater and the chimney stack",
+    "C": "Below the condenser hotwell",
+    "D": "Inside the generator casing",
+    "Answer": "Between the dust collector / air preheater and the chimney stack",
+    "Image": "1",
+    "Explaination": "The Induced Draught (ID) fan is located between the dust collector/air preheater and the chimney stack, drawing flue gases through the system."
+  },
+  {
+    "Question": "Why are dissolved gases like oxygen (O₂) and carbon dioxide (CO₂) removed from boiler feedwater in the deaerator?",
+    "A": "To prevent internal corrosion of boiler tubes and drum",
+    "B": "To increase water density",
+    "C": "To lower boiling point",
+    "D": "To improve coal burner ignition",
+    "Answer": "To prevent internal corrosion of boiler tubes and drum",
+    "Image": "1",
+    "Explaination": "Dissolved gases like oxygen and carbon dioxide are removed in the deaerator to prevent internal corrosion of boiler tubes and drum."
+  },
+  {
+    "Question": "What cooling mechanism chills warm water in power plant cooling towers?",
+    "A": "Mechanical refrigeration compressors",
+    "B": "Evaporative cooling by exposing water droplets to ascending air",
+    "C": "Dry ice sublimation",
+    "D": "Expansion through valves",
+    "Answer": "Evaporative cooling by exposing water droplets to ascending air",
+    "Image": "1",
+    "Explaination": "Cooling towers use evaporative cooling by exposing water droplets to ascending air, which absorbs heat through evaporation."
+  },
+  {
+    "Question": "In an Impulse Steam Turbine:",
+    "A": "Steam expands partially in fixed nozzles and partially over moving blades",
+    "B": "Steam expands completely in stationary nozzles, attaining high velocity before impinging on moving blades",
+    "C": "Pressure drops steadily across all rotating wheels",
+    "D": "Water droplets propel the runner",
+    "Answer": "Steam expands completely in stationary nozzles, attaining high velocity before impinging on moving blades",
+    "Image": "1",
+    "Explaination": "In an impulse turbine, steam expands completely in stationary nozzles, attaining high velocity before impinging on moving blades, where pressure remains constant."
+  },
+  {
+    "Question": "In a Reaction Steam Turbine:",
+    "A": "Expansion occurs both in fixed blades/nozzles and moving rotor blades",
+    "B": "Pressure remains constant across moving blades",
+    "C": "Steam enters without pressure",
+    "D": "Velocity remains zero throughout",
+    "Answer": "Expansion occurs both in fixed blades/nozzles and moving rotor blades",
+    "Image": "1",
+    "Explaination": "In a reaction turbine, expansion occurs both in fixed blades/nozzles and moving rotor blades, causing a pressure drop across the moving blades."
+  },
+  {
+    "Question": "What is an Exciter in a thermal power plant?",
+    "A": "An auxiliary steam turbine driving feed pumps",
+    "B": "A DC generator or rectifier mounted on the main shaft to supply DC power to the alternator rotor field",
+    "C": "An electronic frequency controller",
+    "D": "An emergency coal hopper vibrator",
+    "Answer": "A DC generator or rectifier mounted on the main shaft to supply DC power to the alternator rotor field",
+    "Image": "1",
+    "Explaination": "An exciter is a DC generator or rectifier mounted on the main shaft to supply DC power to the alternator rotor field, enabling voltage regulation."
+  },
+  {
+    "Question": "What is the primary function of the Boiler Drum?",
+    "A": "To burn pulverized coal",
+    "B": "To maintain a head for water-steam circulation and separate saturated steam from water",
+    "C": "To collect fly ash under electrostatic precipitators",
+    "D": "To condense exhaust steam",
+    "Answer": "To maintain a head for water-steam circulation and separate saturated steam from water",
+    "Image": "1",
+    "Explaination": "The boiler drum maintains a hydraulic head for natural circulation of the steam-water mixture and separates saturated steam from water."
+  },
+  {
+    "Question": "Why are thermal power plants generally operated as base load stations?",
+    "A": "They can be started and stopped within 30 seconds",
+    "B": "They produce steady power in large megawatt blocks and take several hours to start up from cold",
+    "C": "They consume zero water",
+    "D": "They produce zero emissions",
+    "Answer": "They produce steady power in large megawatt blocks and take several hours to start up from cold",
+    "Image": "1",
+    "Explaination": "Thermal power plants are generally operated as base load stations because they produce steady power in large megawatt blocks and take several hours to start up from cold."
+  },
+  {
+    "Question": "Which automatic system controls fuel and air flow to regulate boiler steam pressure under varying loads?",
+    "A": "Hagan automatic combustion control system",
+    "B": "Ward-Leonard speed drive",
+    "C": "Betz governing mechanism",
+    "D": "Pelton needle deflector",
+    "Answer": "Hagan automatic combustion control system",
+    "Image": "1",
+    "Explaination": "The Hagan automatic combustion control system controls fuel and air flow to regulate boiler steam pressure under varying loads."
+  },
+  {
+    "Question": "What is an advantage of a thermal power plant compared to a hydroelectric power plant?",
+    "A": "Zero carbon footprint",
+    "B": "Initial construction cost is lower and installation is not restricted to mountainous terrain",
+    "C": "Requires no cooling water",
+    "D": "Infinite operational life",
+    "Answer": "Initial construction cost is lower and installation is not restricted to mountainous terrain",
+    "Image": "1",
+    "Explaination": "An advantage of thermal power plants is that their initial construction cost is lower, and installation is not restricted to mountainous terrain like hydroelectric plants."
+  },
+  {
+    "Question": "What constitutes the \"Feedwater and Steam Cycle\" working fluid in a steam power station?",
+    "A": "Liquid sodium",
+    "B": "Purified demineralized water and steam",
+    "C": "Ammonia-water mixture",
+    "D": "Mineral insulating oil",
+    "Answer": "Purified demineralized water and steam",
+    "Image": "1",
+    "Explaination": "The working fluid in the feedwater and steam cycle is purified demineralized water and steam, which circulates through the boiler, turbine, condenser, and feed pumps."
+  },
+  {
+    "Question": "What is the function of the Chimney (Stack) in a thermal station?",
+    "A": "To supply air to the coal bunker",
+    "B": "To discharge flue gases at an altitude that ensures natural draught and dilutes ground-level emissions",
+    "C": "To store boiler feedwater",
+    "D": "To condense exhaust steam",
+    "Answer": "To discharge flue gases at an altitude that ensures natural draught and dilutes ground-level emissions",
+    "Image": "1",
+    "Explaination": "The chimney discharges flue gases at an altitude that ensures natural draught and dilutes ground-level emissions, reducing environmental impact."
+  },
+  {
+    "Question": "Which type of coal is generally preferred for running thermal power stations over decades to reduce pollution problems?",
+    "A": "Anthracite or peat only",
+    "B": "Bituminous or lignite with high calorific value",
+    "C": "Raw charcoal",
+    "D": "Wood pellets",
+    "Answer": "Bituminous or lignite with high calorific value",
+    "Image": "1",
+    "Explaination": "Bituminous or lignite coal with high calorific value is generally preferred for thermal power stations to reduce pollution and improve efficiency."
+  },
+  {
+    "Question": "Approximately what percentage of the total power generated in India is dependent on thermal power plants?",
+    "A": "Nearly 20%",
+    "B": "Nearly 40%",
+    "C": "Nearly 60%",
+    "D": "Nearly 90%",
+    "Answer": "Nearly 60%",
+    "Image": "1",
+    "Explaination": "Approximately 60% of the total power generated in India is dependent on thermal power plants, making them the dominant source of electricity."
+  },
+  {
+    "Question": "What is the capacity of the Ramagundam thermal power plant in Telangana, recognized as one of India's largest?",
+    "A": "1000 MW",
+    "B": "1320 MW",
+    "C": "2000 MW",
+    "D": "2600 MW",
+    "Answer": "2600 MW",
+    "Image": "1",
+    "Explaination": "The Ramagundam thermal power plant in Telangana has a capacity of 2600 MW, making it one of India's largest thermal power plants."
+  },
+  {
+    "Question": "What is the primary function of the coal handling plant in a coal-fired power station?",
+    "A": "To separate carbon dioxide from air",
+    "B": "To feed coal to the boiler unit through delivery, unloading, preparation, transfer, storage, and furnace feeding",
+    "C": "To condense exhaust steam",
+    "D": "To generate DC excitation",
+    "Answer": "To feed coal to the boiler unit through delivery, unloading, preparation, transfer, storage, and furnace feeding",
+    "Image": "1",
+    "Explaination": "The coal handling plant feeds coal to the boiler unit through delivery, unloading, preparation, transfer, storage, and furnace feeding."
+  },
+  {
+    "Question": "Which equipment is used to unload coal received by railway wagons at the thermal power plant?",
+    "A": "Electrostatic precipitators",
+    "B": "Car shakes, rotary car dampers, cranes, grab buckets, and coal accelerators",
+    "C": "Hagan automatic controllers",
+    "D": "Pelton nozzles",
+    "Answer": "Car shakes, rotary car dampers, cranes, grab buckets, and coal accelerators",
+    "Image": "1",
+    "Explaination": "Coal received by railway wagons is unloaded using equipment such as car shakes, rotary car dampers, cranes, grab buckets, and coal accelerators."
+  },
+  {
+    "Question": "How is raw run-of-mine coal prepared into uniform sizes before feeding to boilers?",
+    "A": "By chemical leaching",
+    "B": "By crushers, sizers, magnetic separators, and breakers",
+    "C": "By washing with condenser hotwell water",
+    "D": "By heating inside deaerators",
+    "Answer": "By crushers, sizers, magnetic separators, and breakers",
+    "Image": "1",
+    "Explaination": "Raw run-of-mine coal is prepared into uniform sizes using crushers, sizers, magnetic separators, and breakers before feeding to boilers."
+  },
+  {
+    "Question": "What is the function of the Boiler Drum in a thermal power station?",
+    "A": "To store pulverized coal dust",
+    "B": "To maintain a hydraulic head for natural circulation of the steam-water mixture and separate saturated steam for the turbine",
+    "C": "To cool condenser water",
+    "D": "To scrub sulfur dioxide from stack gases",
+    "Answer": "To maintain a hydraulic head for natural circulation of the steam-water mixture and separate saturated steam for the turbine",
+    "Image": "1",
+    "Explaination": "The boiler drum maintains a hydraulic head for natural circulation of the steam-water mixture and separates saturated steam for the turbine."
+  },
+  {
+    "Question": "In a multi-stage steam turbine setup, what is the role of the Medium-Pressure (MP) turbine?",
+    "A": "It condenses exhaust steam into water",
+    "B": "It expands steam further after the high-pressure turbine and reheater",
+    "C": "It supplies pure oxygen to the furnace",
+    "D": "It drives the coal pulverizer mill",
+    "Answer": "It expands steam further after the high-pressure turbine and reheater",
+    "Image": "1",
+    "Explaination": "The Medium-Pressure (MP) turbine expands steam further after the high-pressure turbine and reheater, contributing to power generation."
+  },
+  {
+    "Question": "What is the construction layout of the Low-Pressure (LP) Turbine in a modern steam plant?",
+    "A": "A single small wheel",
+    "B": "Two identical sections that remove the remaining available energy from the steam",
+    "C": "A water-wheel impulse runner",
+    "D": "A reciprocating piston engine",
+    "Answer": "Two identical sections that remove the remaining available energy from the steam",
+    "Image": "1",
+    "Explaination": "The Low-Pressure (LP) turbine typically consists of two identical sections that remove the remaining available energy from the steam."
+  },
+  {
+    "Question": "What temperature increase does cooling water typically experience as it flows through condenser pipes?",
+    "A": "0.5 °C to 1 °C",
+    "B": "5 °C to 10 °C",
+    "C": "25 °C to 30 °C",
+    "D": "50 °C to 60 °C",
+    "Answer": "5 °C to 10 °C",
+    "Image": "1",
+    "Explaination": "Cooling water typically experiences a temperature increase of 5 °C to 10 °C as it flows through condenser pipes."
+  },
+  {
+    "Question": "What is the typical temperature range of condensed steam leaving the condenser?",
+    "A": "0 °C to 10 °C",
+    "B": "27 °C to 33 °C",
+    "C": "70 °C to 80 °C",
+    "D": "100 °C to 110 °C",
+    "Answer": "27 °C to 33 °C",
+    "Image": "1",
+    "Explaination": "Condensed steam leaving the condenser typically has a temperature range of 27 °C to 33 °C."
+  },
+  {
+    "Question": "How is heavy fuel oil prepared before being injected into the boiler furnace?",
+    "A": "Chilled to freezing temperature",
+    "B": "Preheated and injected as an atomized jet to improve surface contact with surrounding combustion air",
+    "C": "Mixed with wet clay",
+    "D": "Dissolved in cooling tower water",
+    "Answer": "Preheated and injected as an atomized jet to improve surface contact with surrounding combustion air",
+    "Image": "1",
+    "Explaination": "Heavy fuel oil is preheated and injected as an atomized jet to improve surface contact with surrounding combustion air, ensuring efficient combustion."
+  },
+  {
+    "Question": "What thermodynamic effect enables cooling towers to drop the temperature of circulating water by 5.8 °C?",
+    "A": "Evaporating roughly 1% of the water body into the air stream",
+    "B": "Passing through Freon compressors",
+    "C": "Chemical reactions with limestone",
+    "D": "Adding liquid nitrogen",
+    "Answer": "Evaporating roughly 1% of the water body into the air stream",
+    "Image": "1",
+    "Explaination": "Cooling towers drop the temperature of circulating water by evaporating roughly 1% of the water body into the air stream, absorbing latent heat."
+  },
+  {
+    "Question": "What are the typical operating steam parameters for modern high-efficiency utility boilers?",
+    "A": "100 °C and 1.0 MPa",
+    "B": "300 °C and 5.0 MPa",
+    "C": "550 °C and 16.5 MPa",
+    "D": "800 °C and 50.0 MPa",
+    "Answer": "550 °C and 16.5 MPa",
+    "Image": "1",
+    "Explaination": "Modern high-efficiency utility boilers typically operate at around 550 °C and 16.5 MPa for optimal efficiency."
+  },
+  {
+    "Question": "What is the capacity of an exciter relative to the main alternator rating in a thermal station?",
+    "A": "0.01% to 0.05%",
+    "B": "0.5% to 3% of the alternator capacity",
+    "C": "10% to 15%",
+    "D": "50%",
+    "Answer": "0.5% to 3% of the alternator capacity",
+    "Image": "1",
+    "Explaination": "The exciter capacity is typically 0.5% to 3% of the main alternator rating, sufficient to supply the DC field current."
+  },
+  {
+    "Question": "What is the expected average lifespan of a reinforced concrete chimney in a thermal power plant?",
+    "A": "5 years",
+    "B": "15 years",
+    "C": "50 years",
+    "D": "150 years",
+    "Answer": "50 years",
+    "Image": "1",
+    "Explaination": "The expected average lifespan of a reinforced concrete chimney in a thermal power plant is about 50 years."
+  },
+  {
+    "Question": "What is the typical percentage of heat lost to the condenser in a thermal plant steam cycle?",
+    "A": "5.0%",
+    "B": "16.0%",
+    "C": "54.0%",
+    "D": "95.0%",
+    "Answer": "54.0%",
+    "Image": "1",
+    "Explaination": "The condenser typically rejects about 54% of the heat input to the cooling water, which is the largest individual loss in a thermal power plant."
+  },
+  {
+    "Question": "What are the total typical boiler house losses in a thermal station?",
+    "A": "2.0%",
+    "B": "16.0%",
+    "C": "30.0%",
+    "D": "50.0%",
+    "Answer": "16.0%",
+    "Image": "1",
+    "Explaination": "Total typical boiler house losses in a thermal station are about 16.0%, including losses in the boiler, economizer, air preheater, and chimney."
+  }
+]

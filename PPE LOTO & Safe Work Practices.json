@@ -1,0 +1,142 @@
+[
+  {
+    "Question": "What does PPE stand for in electrical safety?",
+    "A": "Personal Protective Equipment",
+    "B": "Power Protection Equipment",
+    "C": "Primary Protective Enclosure",
+    "D": "Public Power Enterprise",
+    "Answer": "Personal Protective Equipment",
+    "Image": "1",
+    "Explaination": "PPE stands for Personal Protective Equipment, which includes clothing and equipment worn to minimize exposure to hazards that cause serious workplace injuries and illnesses."
+  },
+  {
+    "Question": "What is the purpose of wearing arc-rated clothing?",
+    "A": "To keep the worker warm",
+    "B": "To protect against thermal hazards from arc flash and electric arc",
+    "C": "To improve visibility",
+    "D": "To provide insulation from electric shock",
+    "Answer": "To protect against thermal hazards from arc flash and electric arc",
+    "Image": "1",
+    "Explaination": "Arc-rated clothing is designed to protect against thermal hazards from arc flash and electric arc by resisting ignition and providing thermal insulation."
+  },
+  {
+    "Question": "What does LOTO stand for in electrical safety?",
+    "A": "Lockout/Tagout",
+    "B": "Lockout/Tag-in",
+    "C": "Loadout/Tagout",
+    "D": "Lockout/Testout",
+    "Answer": "Lockout/Tagout",
+    "Image": "1",
+    "Explaination": "LOTO stands for Lockout/Tagout, a safety procedure used to ensure that dangerous machines are properly shut off and not able to be started up again prior to the completion of maintenance or repair work."
+  },
+  {
+    "Question": "What is the primary purpose of a Lockout/Tagout (LOTO) procedure?",
+    "A": "To increase the efficiency of maintenance work",
+    "B": "To control hazardous energy and prevent accidental startup of equipment during maintenance",
+    "C": "To reduce the cost of electrical equipment",
+    "D": "To measure the voltage of the system",
+    "Answer": "To control hazardous energy and prevent accidental startup of equipment during maintenance",
+    "Image": "1",
+    "Explaination": "LOTO is used to control hazardous energy and prevent accidental startup of equipment during maintenance, protecting workers from injury."
+  },
+  {
+    "Question": "Who is authorized to remove a Lockout/Tagout device?",
+    "A": "Any worker on the site",
+    "B": "Only the person who applied the lock and tag, or their supervisor in emergency situations",
+    "C": "The safety officer only",
+    "D": "The maintenance manager only",
+    "Answer": "Only the person who applied the lock and tag, or their supervisor in emergency situations",
+    "Image": "1",
+    "Explaination": "Only the person who applied the lock and tag (or their supervisor in emergency situations) is authorized to remove a LOTO device, ensuring that the equipment is not re-energized while someone is still working on it."
+  },
+  {
+    "Question": "What is the minimum PPE required for working on energized electrical equipment?",
+    "A": "Safety glasses only",
+    "B": "Insulated gloves, arc-rated clothing, and a face shield",
+    "C": "A hard hat only",
+    "D": "No PPE is required",
+    "Answer": "Insulated gloves, arc-rated clothing, and a face shield",
+    "Image": "1",
+    "Explaination": "The minimum PPE for working on energized electrical equipment typically includes insulated gloves, arc-rated clothing, and a face shield to protect against electric shock and arc flash hazards."
+  },
+  {
+    "Question": "What is the purpose of a voltage-rated glove in electrical work?",
+    "A": "To keep hands warm",
+    "B": "To provide insulation against electric shock when working on energized equipment",
+    "C": "To improve grip on tools",
+    "D": "To protect against cuts and abrasions",
+    "Answer": "To provide insulation against electric shock when working on energized equipment",
+    "Image": "1",
+    "Explaination": "Voltage-rated gloves are designed to provide insulation against electric shock when working on energized equipment, and they must be tested regularly to ensure their integrity."
+  },
+  {
+    "Question": "What is the purpose of a safety observer during electrical work?",
+    "A": "To perform the electrical work",
+    "B": "To monitor the work area and assist in case of an emergency",
+    "C": "To operate the circuit breaker",
+    "D": "To measure the voltage",
+    "Answer": "To monitor the work area and assist in case of an emergency",
+    "Image": "1",
+    "Explaination": "A safety observer monitors the work area, ensures that safety procedures are followed, and assists in case of an emergency, providing an extra layer of protection for the workers."
+  },
+  {
+    "Question": "What is the first step in the LOTO procedure?",
+    "A": "Apply the lock and tag",
+    "B": "Notify all affected employees",
+    "C": "Test the equipment for voltage",
+    "D": "Shut down the equipment",
+    "Answer": "Notify all affected employees",
+    "Image": "1",
+    "Explaination": "The first step in the LOTO procedure is to notify all affected employees that the equipment will be shut down and locked out, ensuring that everyone is aware of the maintenance work."
+  },
+  {
+    "Question": "What is the purpose of a 'tryout' step in the LOTO procedure?",
+    "A": "To verify that the equipment is properly locked out and de-energized",
+    "B": "To test the equipment's performance",
+    "C": "To measure the voltage of the system",
+    "D": "To check the equipment's temperature",
+    "Answer": "To verify that the equipment is properly locked out and de-energized",
+    "Image": "1",
+    "Explaination": "The tryout step verifies that the equipment is properly locked out and de-energized, ensuring that it is safe to work on."
+  },
+  {
+    "Question": "What is the purpose of an arc flash suit?",
+    "A": "To keep the worker warm",
+    "B": "To provide full-body protection against arc flash hazards",
+    "C": "To improve visibility",
+    "D": "To protect against electric shock",
+    "Answer": "To provide full-body protection against arc flash hazards",
+    "Image": "1",
+    "Explaination": "An arc flash suit provides full-body protection against arc flash hazards, including thermal burns, blast pressure, and shrapnel."
+  },
+  {
+    "Question": "What is the purpose of a safety tag in LOTO?",
+    "A": "To identify the equipment",
+    "B": "To provide information about the lockout, including the name of the person who applied it and the reason for the lockout",
+    "C": "To measure the voltage",
+    "D": "To test the equipment",
+    "Answer": "To provide information about the lockout, including the name of the person who applied it and the reason for the lockout",
+    "Image": "1",
+    "Explaination": "A safety tag in LOTO provides information about the lockout, including the name of the person who applied it, the date, and the reason for the lockout, ensuring that everyone is aware of the situation."
+  },
+  {
+    "Question": "What is the purpose of a 'grounding mat' in electrical work?",
+    "A": "To provide a safe working surface and protect against electric shock",
+    "B": "To keep the worker warm",
+    "C": "To improve visibility",
+    "D": "To measure the voltage",
+    "Answer": "To provide a safe working surface and protect against electric shock",
+    "Image": "1",
+    "Explaination": "A grounding mat provides a safe working surface and protects against electric shock by providing a low-resistance path to the ground."
+  },
+  {
+    "Question": "What is the recommended procedure for working on de-energized electrical equipment?",
+    "A": "Test for voltage, lock out, and tag out",
+    "B": "Lock out, tag out, test for voltage, and ground",
+    "C": "Ground, lock out, tag out, and test for voltage",
+    "D": "Tag out, test for voltage, and lock out",
+    "Answer": "Lock out, tag out, test for voltage, and ground",
+    "Image": "1",
+    "Explaination": "The recommended procedure for working on de-energized electrical equipment is to lock out, tag out, test for voltage, and ground, ensuring that the equipment is safe to work on."
+  }
+]

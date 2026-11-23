@@ -1,0 +1,262 @@
+[
+  {
+    "Question": "Reactive power compensation in transmission lines can be achieved by:",
+    "A": "Synchronous condenser",
+    "B": "Transformer tap changer",
+    "C": "Series resistor",
+    "D": "Circuit breaker",
+    "Answer": "Synchronous condenser",
+    "Image": "1",
+    "Explaination": "Reactive power compensation in transmission lines can be achieved using a synchronous condenser, which is a synchronous motor running without mechanical load and can supply or absorb reactive power."
+  },
+  {
+    "Question": "The primary effect of an uncompensated transmission line on power delivery to the load is:",
+    "A": "Reduced transmission efficiency and stability",
+    "B": "Improved voltage regulation and efficiency",
+    "C": "Enhanced power factor",
+    "D": "Increased line power delivery capacity",
+    "Answer": "Reduced transmission efficiency and stability",
+    "Image": "1",
+    "Explaination": "An uncompensated transmission line has reduced transmission efficiency and stability due to the voltage drop and reactive power losses along the line."
+  },
+  {
+    "Question": "The main purpose of controlling reactive power in electrical power transmission lines is:",
+    "A": "To increase the speed of downstream motors",
+    "B": "To eliminate transmission line conductor resistance",
+    "C": "To regulate voltage and maintain system stability",
+    "D": "To convert AC transmission directly into DC",
+    "Answer": "To regulate voltage and maintain system stability",
+    "Image": "1",
+    "Explaination": "The main purpose of controlling reactive power is to regulate voltage and maintain system stability, ensuring efficient power transfer and reliable operation."
+  },
+  {
+    "Question": "What does the acronym \"SVC\" stand for in FACTS technology?",
+    "A": "Static Voltage Controller",
+    "B": "Stability Voltage Control",
+    "C": "Static VAR Compensator",
+    "D": "Stability Voltage Ampere Reactive Controller",
+    "Answer": "Static VAR Compensator",
+    "Image": "1",
+    "Explaination": "SVC stands for Static VAR Compensator, a FACTS device used for reactive power compensation and voltage regulation."
+  },
+  {
+    "Question": "What does the acronym \"STATCOM\" stand for?",
+    "A": "Static Synchronous Compensator",
+    "B": "Stable Synchronous Compensator",
+    "C": "Static Synchronous Control",
+    "D": "Stability Synchronous Compensator",
+    "Answer": "Static Synchronous Compensator",
+    "Image": "1",
+    "Explaination": "STATCOM stands for Static Synchronous Compensator, a FACTS device that uses a voltage source converter for reactive power compensation."
+  },
+  {
+    "Question": "STATCOM is primarily a ______ regulating device.",
+    "A": "Current",
+    "B": "Power",
+    "C": "Voltage",
+    "D": "Frequency",
+    "Answer": "Voltage",
+    "Image": "1",
+    "Explaination": "STATCOM is primarily a voltage-regulating device that controls the voltage at the point of connection by injecting or absorbing reactive current."
+  },
+  {
+    "Question": "The DC voltage source for a STATCOM's voltage source converter typically comes from:",
+    "A": "An energy-storage capacitor",
+    "B": "A fossil fuel generator",
+    "C": "A piezoelectric crystal",
+    "D": "A permanent magnet DC dynamo",
+    "Answer": "An energy-storage capacitor",
+    "Image": "1",
+    "Explaination": "The DC voltage source for a STATCOM's voltage source converter typically comes from an energy-storage capacitor, which maintains the DC bus voltage."
+  },
+  {
+    "Question": "The interface reactor or coupling transformer between a STATCOM and the AC system serves to:",
+    "A": "Eliminate active power entirely",
+    "B": "Provide a link through which reactive current flows by virtue of voltage phase and magnitude differences",
+    "C": "Step down frequency from 50 Hz to 20 Hz",
+    "D": "Replace line circuit breakers",
+    "Answer": "Provide a link through which reactive current flows by virtue of voltage phase and magnitude differences",
+    "Image": "1",
+    "Explaination": "The interface reactor or coupling transformer provides a link through which reactive current flows by virtue of voltage phase and magnitude differences between the STATCOM and the AC system."
+  },
+  {
+    "Question": "Which of the following is classified as a 1st generation FACTS device?",
+    "A": "Static VAR Compensator (SVC)",
+    "B": "STATCOM",
+    "C": "SSSC",
+    "D": "UPFC",
+    "Answer": "Static VAR Compensator (SVC)",
+    "Image": "1",
+    "Explaination": "The Static VAR Compensator (SVC) is classified as a 1st generation FACTS device, while STATCOM, SSSC, and UPFC are considered 2nd or 3rd generation devices."
+  },
+  {
+    "Question": "Which of the following is considered a 2nd generation FACTS device?",
+    "A": "Static Synchronous Series Compensator (SSSC)",
+    "B": "Static VAR Compensator (SVC)",
+    "C": "Mechanically Switched Capacitor (MSC)",
+    "D": "Saturated Reactor",
+    "Answer": "Static Synchronous Series Compensator (SSSC)",
+    "Image": "1",
+    "Explaination": "The Static Synchronous Series Compensator (SSSC) is considered a 2nd generation FACTS device, offering advanced series compensation capabilities."
+  },
+  {
+    "Question": "Thyristor Controlled Series Capacitor (TCSC) is categorized as which type of compensation device?",
+    "A": "Shunt compensation device",
+    "B": "Series compensation device",
+    "C": "Combined series-shunt compensation device",
+    "D": "Active harmonic filter only",
+    "Answer": "Series compensation device",
+    "Image": "1",
+    "Explaination": "The Thyristor Controlled Series Capacitor (TCSC) is a series compensation device that uses thyristors to control the effective series reactance of the transmission line."
+  },
+  {
+    "Question": "The primary objective of series compensation in high-voltage transmission lines is to:",
+    "A": "Reduce the total net inductive reactance of the line and reduce voltage drop",
+    "B": "Increase line resistance to dampen lightning surges",
+    "C": "Eliminate the need for grounding grids",
+    "D": "Limit short-circuit current to zero",
+    "Answer": "Reduce the total net inductive reactance of the line and reduce voltage drop",
+    "Image": "1",
+    "Explaination": "The primary objective of series compensation is to reduce the total net inductive reactance of the line, thereby reducing voltage drop and increasing power transfer capability."
+  },
+  {
+    "Question": "What is a recognized disadvantage associated with series capacitor compensation?",
+    "A": "Decreased steady-state stability limit",
+    "B": "Increased fault current during short circuits",
+    "C": "Drastic drop in load power factor",
+    "D": "Complete elimination of power transmission",
+    "Answer": "Increased fault current during short circuits",
+    "Image": "1",
+    "Explaination": "A recognized disadvantage of series capacitor compensation is that it can increase fault current during short circuits, as the series capacitors reduce the net line reactance."
+  },
+  {
+    "Question": "The optimal physical location for installing a series capacitor depends on:",
+    "A": "The degree of compensation and the characteristics of the line",
+    "B": "The color of the tower structures",
+    "C": "Only the type of generator excitation system",
+    "D": "Substation battery voltage",
+    "Answer": "The degree of compensation and the characteristics of the line",
+    "Image": "1",
+    "Explaination": "The optimal physical location for installing a series capacitor depends on the degree of compensation and the characteristics of the line, such as line length and load distribution."
+  },
+  {
+    "Question": "Which of the following is a primary area of application for FACTS devices?",
+    "A": "Power transmission capacity enhancement",
+    "B": "Power quality improvement",
+    "C": "Integration and stability of wind power grid connections",
+    "D": "All of these",
+    "Answer": "All of these",
+    "Image": "1",
+    "Explaination": "FACTS devices are used for power transmission capacity enhancement, power quality improvement, and integration and stability of wind power grid connections, among other applications."
+  },
+  {
+    "Question": "What is the fundamental difference in the operating principle between a STATCOM and an SVC?",
+    "A": "SVC acts as an adjustable variable admittance/impedance, whereas STATCOM acts as an adjustable controllable voltage source",
+    "B": "SVC generates active power, while STATCOM absorbs active power",
+    "C": "STATCOM uses thyristors, while SVC uses IGBTs",
+    "D": "SVC can operate without grid connection, while STATCOM cannot",
+    "Answer": "SVC acts as an adjustable variable admittance/impedance, whereas STATCOM acts as an adjustable controllable voltage source",
+    "Image": "1",
+    "Explaination": "The fundamental difference is that an SVC acts as an adjustable variable admittance/impedance, whereas a STATCOM acts as an adjustable controllable voltage source."
+  },
+  {
+    "Question": "How does reactive current output vary with bus voltage during deep undervoltage for a STATCOM versus an SVC?",
+    "A": "STATCOM current decreases quadratically; SVC current remains constant",
+    "B": "STATCOM maintains rated reactive current output (I ∝ V⁰), whereas SVC reactive current decreases linearly with voltage (and MVAR drops as V²)",
+    "C": "Both maintain identical reactive output down to zero volts",
+    "D": "SVC output increases as voltage drops",
+    "Answer": "STATCOM maintains rated reactive current output (I ∝ V⁰), whereas SVC reactive current decreases linearly with voltage (and MVAR drops as V²)",
+    "Image": "1",
+    "Explaination": "During deep undervoltage, a STATCOM maintains rated reactive current output (I ∝ V⁰), while an SVC's reactive current decreases linearly with voltage, and its MVAR output drops as V²."
+  },
+  {
+    "Question": "How do the typical response times of STATCOM and SVC compare?",
+    "A": "STATCOM reacts in 1 to 2 cycles, whereas SVC requires 2 to 3 cycles",
+    "B": "SVC reacts in 1 ms; STATCOM requires 10 seconds",
+    "C": "Both require exactly 10 cycles to switch",
+    "D": "STATCOM is slower due to complex digital control",
+    "Answer": "STATCOM reacts in 1 to 2 cycles, whereas SVC requires 2 to 3 cycles",
+    "Image": "1",
+    "Explaination": "STATCOM typically reacts in 1 to 2 cycles, whereas SVC requires 2 to 3 cycles, making STATCOM faster in dynamic response."
+  },
+  {
+    "Question": "Why does an SVC require dedicated harmonic filters, whereas a modern STATCOM generally does not?",
+    "A": "SVC thyristor phase-angle control generates heavy low-order harmonics, while multilevel/PWM STATCOMs synthesize a near-sinusoidal waveform",
+    "B": "STATCOM operates strictly at DC",
+    "C": "Harmonic filters cannot physically connect to IGBTs",
+    "D": "SVC reactors absorb all system harmonics",
+    "Answer": "SVC thyristor phase-angle control generates heavy low-order harmonics, while multilevel/PWM STATCOMs synthesize a near-sinusoidal waveform",
+    "Image": "1",
+    "Explaination": "An SVC requires dedicated harmonic filters because thyristor phase-angle control generates heavy low-order harmonics, whereas multilevel/PWM STATCOMs synthesize a near-sinusoidal waveform, reducing harmonic generation."
+  },
+  {
+    "Question": "What is meant by the \"grid-forming\" capability of an advanced STATCOM?",
+    "A": "The ability to establish and control system voltage and frequency independently without relying on an existing grid",
+    "B": "The mechanical assembly of transmission line towers",
+    "C": "Ground grid installation inside switchyards",
+    "D": "Disconnecting all generation during faults",
+    "Answer": "The ability to establish and control system voltage and frequency independently without relying on an existing grid",
+    "Image": "1",
+    "Explaination": "The \"grid-forming\" capability of an advanced STATCOM refers to its ability to establish and control system voltage and frequency independently without relying on an existing grid."
+  },
+  {
+    "Question": "How do footprint requirements compare between an SVC and a STATCOM of equivalent MVAR rating?",
+    "A": "STATCOM requires a significantly smaller physical footprint (often 40% to 50% less)",
+    "B": "SVC is 10 times smaller than STATCOM",
+    "C": "Both require identical physical space",
+    "D": "STATCOM cannot be installed indoors",
+    "Answer": "STATCOM requires a significantly smaller physical footprint (often 40% to 50% less)",
+    "Image": "1",
+    "Explaination": "A STATCOM requires a significantly smaller physical footprint (often 40% to 50% less) compared to an SVC of equivalent MVAR rating, due to its compact converter-based design."
+  },
+  {
+    "Question": "Why are total operating semiconductor losses typically lower in an SVC compared to a STATCOM?",
+    "A": "Thyristors have lower conduction and switching losses than high-frequency switching IGBT converters",
+    "B": "SVC contains zero electrical resistance",
+    "C": "STATCOM uses mechanical contactors",
+    "D": "IGBTs convert all reactive power into thermal energy",
+    "Answer": "Thyristors have lower conduction and switching losses than high-frequency switching IGBT converters",
+    "Image": "1",
+    "Explaination": "Total operating semiconductor losses are typically lower in an SVC because thyristors have lower conduction and switching losses than high-frequency switching IGBT converters used in STATCOM."
+  },
+  {
+    "Question": "What is the defining configuration of a Unified Power Flow Controller (UPFC)?",
+    "A": "A back-to-back combination of a shunt converter (STATCOM) and a series converter (SSSC) coupled via a common DC link",
+    "B": "Two series capacitors connected in parallel",
+    "C": "A thyristor-controlled reactor combined with a circuit breaker",
+    "D": "A mechanical tap-changing transformer only",
+    "Answer": "A back-to-back combination of a shunt converter (STATCOM) and a series converter (SSSC) coupled via a common DC link",
+    "Image": "1",
+    "Explaination": "A UPFC is defined by its configuration as a back-to-back combination of a shunt converter (STATCOM) and a series converter (SSSC) coupled via a common DC link, allowing simultaneous control of active and reactive power."
+  },
+  {
+    "Question": "Which FACTS device offers simultaneous and independent control of transmission line active power, reactive power, and terminal voltage?",
+    "A": "UPFC",
+    "B": "SVC",
+    "C": "Fixed capacitor bank",
+    "D": "Shunt reactor",
+    "Answer": "UPFC",
+    "Image": "1",
+    "Explaination": "The Unified Power Flow Controller (UPFC) is the only FACTS device that offers simultaneous and independent control of transmission line active power, reactive power, and terminal voltage."
+  },
+  {
+    "Question": "What is the Surge Impedance (Zc) formula for a lossless transmission line with inductance L and capacitance C?",
+    "A": "Zc = √(L/C)",
+    "B": "Zc = √(L × C)",
+    "C": "Zc = C/L",
+    "D": "Zc = ω√(LC)",
+    "Answer": "Zc = √(L/C)",
+    "Image": "1",
+    "Explaination": "The surge impedance (Zc) for a lossless transmission line is given by Zc = √(L/C), where L is the inductance per unit length and C is the capacitance per unit length."
+  },
+  {
+    "Question": "Surge Impedance Loading (SIL) of a transmission line with line-to-line voltage VL is calculated as:",
+    "A": "SIL = VL²/Zc",
+    "B": "SIL = VL × Zc",
+    "C": "SIL = Zc/VL",
+    "D": "SIL = √3 VL Isc",
+    "Answer": "SIL = VL²/Zc",
+    "Image": "1",
+    "Explaination": "Surge Impedance Loading (SIL) is calculated as SIL = VL²/Zc, where VL is the line-to-line voltage and Zc is the surge impedance of the line."
+  }
+]

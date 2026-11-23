@@ -1,0 +1,242 @@
+[
+  {
+    "Question": "What is the primary purpose of battery testing in a substation?",
+    "A": "To determine the battery's state of health and remaining capacity",
+    "B": "To increase the battery voltage",
+    "C": "To reduce the battery temperature",
+    "D": "To improve the battery efficiency",
+    "Answer": "To determine the battery's state of health and remaining capacity",
+    "Image": "1",
+    "Explaination": "Battery testing is performed to determine the battery's state of health and remaining capacity, ensuring it can perform its intended function during a power failure."
+  },
+  {
+    "Question": "What is the standard capacity test for a stationary lead-acid battery?",
+    "A": "The discharge test",
+    "B": "The charge test",
+    "C": "The impedance test",
+    "D": "The visual inspection",
+    "Answer": "The discharge test",
+    "Image": "1",
+    "Explaination": "The discharge test is the standard capacity test for a stationary lead-acid battery, where the battery is discharged at a constant current or constant power to determine its actual capacity."
+  },
+  {
+    "Question": "According to IEEE 450, what is the recommended interval for performing a capacity test on a vented lead-acid battery?",
+    "A": "Every 6 months",
+    "B": "Every 1-2 years",
+    "C": "Every 5 years",
+    "D": "Every 10 years",
+    "Answer": "Every 1-2 years",
+    "Image": "1",
+    "Explaination": "IEEE 450 recommends performing a capacity test on a vented lead-acid battery every 1-2 years, depending on the battery's criticality and operating conditions."
+  },
+  {
+    "Question": "What is the typical end-of-discharge voltage for a lead-acid battery cell during a capacity test?",
+    "A": "1.75 V per cell",
+    "B": "2.0 V per cell",
+    "C": "2.25 V per cell",
+    "D": "2.5 V per cell",
+    "Answer": "1.75 V per cell",
+    "Image": "1",
+    "Explaination": "The typical end-of-discharge voltage for a lead-acid battery cell during a capacity test is 1.75 V per cell, below which the battery should not be discharged to avoid damage."
+  },
+  {
+    "Question": "What is the purpose of an equalizing charge in a lead-acid battery?",
+    "A": "To restore the battery to full capacity and balance the cells",
+    "B": "To discharge the battery",
+    "C": "To reduce the battery temperature",
+    "D": "To increase the battery voltage",
+    "Answer": "To restore the battery to full capacity and balance the cells",
+    "Image": "1",
+    "Explaination": "An equalizing charge is used to restore the battery to full capacity and balance the cells by overcharging the battery at a controlled voltage for a specific period."
+  },
+  {
+    "Question": "What is the typical float voltage for a lead-acid battery cell?",
+    "A": "1.75 V per cell",
+    "B": "2.0 V per cell",
+    "C": "2.25 V per cell",
+    "D": "2.5 V per cell",
+    "Answer": "2.25 V per cell",
+    "Image": "1",
+    "Explaination": "The typical float voltage for a lead-acid battery cell is 2.25 V per cell, which keeps the battery fully charged without overcharging."
+  },
+  {
+    "Question": "What is the typical equalizing voltage for a lead-acid battery cell?",
+    "A": "2.0 V per cell",
+    "B": "2.25 V per cell",
+    "C": "2.33 V per cell",
+    "D": "2.5 V per cell",
+    "Answer": "2.33 V per cell",
+    "Image": "1",
+    "Explaination": "The typical equalizing voltage for a lead-acid battery cell is 2.33 V per cell, which is higher than the float voltage to restore the battery to full capacity."
+  },
+  {
+    "Question": "What is the purpose of a visual inspection of a lead-acid battery?",
+    "A": "To check for signs of damage, corrosion, or electrolyte leakage",
+    "B": "To measure the battery voltage",
+    "C": "To measure the battery current",
+    "D": "To measure the battery temperature",
+    "Answer": "To check for signs of damage, corrosion, or electrolyte leakage",
+    "Image": "1",
+    "Explaination": "A visual inspection is performed to check for signs of damage, corrosion, or electrolyte leakage, which can indicate battery problems."
+  },
+  {
+    "Question": "What is the purpose of checking the specific gravity of the electrolyte in a lead-acid battery?",
+    "A": "To determine the battery's state of charge",
+    "B": "To measure the battery voltage",
+    "C": "To measure the battery current",
+    "D": "To measure the battery temperature",
+    "Answer": "To determine the battery's state of charge",
+    "Image": "1",
+    "Explaination": "Checking the specific gravity of the electrolyte determines the battery's state of charge, as the specific gravity increases as the battery charges and decreases as it discharges."
+  },
+  {
+    "Question": "What is the typical specific gravity of a fully charged lead-acid battery cell?",
+    "A": "1.100",
+    "B": "1.200",
+    "C": "1.265",
+    "D": "1.400",
+    "Answer": "1.265",
+    "Image": "1",
+    "Explaination": "The typical specific gravity of a fully charged lead-acid battery cell is about 1.265 at 25°C."
+  },
+  {
+    "Question": "What is the typical specific gravity of a fully discharged lead-acid battery cell?",
+    "A": "1.100",
+    "B": "1.200",
+    "C": "1.265",
+    "D": "1.400",
+    "Answer": "1.100",
+    "Image": "1",
+    "Explaination": "The typical specific gravity of a fully discharged lead-acid battery cell is about 1.100 at 25°C."
+  },
+  {
+    "Question": "What is the purpose of a battery impedance test?",
+    "A": "To determine the battery's internal resistance and state of health",
+    "B": "To measure the battery voltage",
+    "C": "To measure the battery current",
+    "D": "To measure the battery temperature",
+    "Answer": "To determine the battery's internal resistance and state of health",
+    "Image": "1",
+    "Explaination": "A battery impedance test determines the battery's internal resistance and state of health, as an increase in internal resistance indicates battery degradation."
+  },
+  {
+    "Question": "What is the typical interval for performing a visual inspection of a lead-acid battery?",
+    "A": "Monthly",
+    "B": "Quarterly",
+    "C": "Annually",
+    "D": "Every 5 years",
+    "Answer": "Monthly",
+    "Image": "1",
+    "Explaination": "A visual inspection of a lead-acid battery should be performed monthly to check for signs of damage, corrosion, or electrolyte leakage."
+  },
+  {
+    "Question": "What is the purpose of a battery capacity test?",
+    "A": "To determine the battery's actual capacity and state of health",
+    "B": "To measure the battery voltage",
+    "C": "To measure the battery current",
+    "D": "To measure the battery temperature",
+    "Answer": "To determine the battery's actual capacity and state of health",
+    "Image": "1",
+    "Explaination": "A battery capacity test determines the battery's actual capacity and state of health by discharging it at a constant rate and measuring the time it takes to reach the end-of-discharge voltage."
+  },
+  {
+    "Question": "What is the typical capacity test duration for a lead-acid battery?",
+    "A": "1 hour",
+    "B": "3 hours",
+    "C": "8 hours",
+    "D": "24 hours",
+    "Answer": "8 hours",
+    "Image": "1",
+    "Explaination": "The typical capacity test duration for a lead-acid battery is 8 hours, which is the standard discharge rate for stationary batteries."
+  },
+  {
+    "Question": "What is the purpose of a battery maintenance program?",
+    "A": "To ensure the battery remains in good condition and can perform its intended function",
+    "B": "To increase the battery voltage",
+    "C": "To reduce the battery temperature",
+    "D": "To improve the battery efficiency",
+    "Answer": "To ensure the battery remains in good condition and can perform its intended function",
+    "Image": "1",
+    "Explaination": "A battery maintenance program ensures the battery remains in good condition and can perform its intended function by regularly inspecting, testing, and maintaining the battery."
+  },
+  {
+    "Question": "What is the purpose of a battery logbook?",
+    "A": "To record all maintenance, testing, and inspection activities performed on the battery",
+    "B": "To measure the battery voltage",
+    "C": "To measure the battery current",
+    "D": "To measure the battery temperature",
+    "Answer": "To record all maintenance, testing, and inspection activities performed on the battery",
+    "Image": "1",
+    "Explaination": "A battery logbook records all maintenance, testing, and inspection activities performed on the battery, providing a history of the battery's condition and performance."
+  },
+  {
+    "Question": "What is the typical electrolyte level in a lead-acid battery cell?",
+    "A": "Just above the top of the plates",
+    "B": "Halfway down the plates",
+    "C": "Below the plates",
+    "D": "At the top of the cell",
+    "Answer": "Just above the top of the plates",
+    "Image": "1",
+    "Explaination": "The typical electrolyte level in a lead-acid battery cell should be just above the top of the plates to ensure the plates are fully covered and can function properly."
+  },
+  {
+    "Question": "What is the purpose of adding distilled water to a lead-acid battery?",
+    "A": "To top up the electrolyte level and replace water lost due to evaporation",
+    "B": "To increase the battery voltage",
+    "C": "To reduce the battery temperature",
+    "D": "To improve the battery efficiency",
+    "Answer": "To top up the electrolyte level and replace water lost due to evaporation",
+    "Image": "1",
+    "Explaination": "Distilled water is added to a lead-acid battery to top up the electrolyte level and replace water lost due to evaporation during charging."
+  },
+  {
+    "Question": "What is the purpose of a battery watering system?",
+    "A": "To automatically maintain the electrolyte level in a lead-acid battery",
+    "B": "To measure the battery voltage",
+    "C": "To measure the battery current",
+    "D": "To measure the battery temperature",
+    "Answer": "To automatically maintain the electrolyte level in a lead-acid battery",
+    "Image": "1",
+    "Explaination": "A battery watering system automatically maintains the electrolyte level in a lead-acid battery, reducing the need for manual watering."
+  },
+  {
+    "Question": "What is the purpose of a battery monitoring system (BMS)?",
+    "A": "To continuously monitor the battery's voltage, current, temperature, and state of health",
+    "B": "To increase the battery voltage",
+    "C": "To reduce the battery temperature",
+    "D": "To improve the battery efficiency",
+    "Answer": "To continuously monitor the battery's voltage, current, temperature, and state of health",
+    "Image": "1",
+    "Explaination": "A battery monitoring system (BMS) continuously monitors the battery's voltage, current, temperature, and state of health, providing early warning of potential failures."
+  },
+  {
+    "Question": "What is the typical accuracy of a battery monitoring system?",
+    "A": "±1%",
+    "B": "±5%",
+    "C": "±10%",
+    "D": "±20%",
+    "Answer": "±1%",
+    "Image": "1",
+    "Explaination": "The typical accuracy of a battery monitoring system is ±1%, ensuring accurate measurement of the battery's parameters."
+  },
+  {
+    "Question": "What is the purpose of a battery discharge test?",
+    "A": "To determine the battery's actual capacity and state of health",
+    "B": "To measure the battery voltage",
+    "C": "To measure the battery current",
+    "D": "To measure the battery temperature",
+    "Answer": "To determine the battery's actual capacity and state of health",
+    "Image": "1",
+    "Explaination": "A battery discharge test determines the battery's actual capacity and state of health by discharging it at a constant rate and measuring the time it takes to reach the end-of-discharge voltage."
+  },
+  {
+    "Question": "What is the typical interval for performing a battery discharge test?",
+    "A": "Every 1-2 years",
+    "B": "Every 6 months",
+    "C": "Every 5 years",
+    "D": "Every 10 years",
+    "Answer": "Every 1-2 years",
+    "Image": "1",
+    "Explaination": "The typical interval for performing a battery discharge test is every 1-2 years, depending on the battery's criticality and operating conditions."
+  }
+]

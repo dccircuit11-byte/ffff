@@ -1,0 +1,162 @@
+[
+  {
+    "Question": "What is a smart grid?",
+    "A": "An electrical grid that uses digital communication and automation to improve efficiency, reliability, and sustainability",
+    "B": "A grid that uses only renewable energy",
+    "C": "A grid that operates without any communication",
+    "D": "A grid that uses only fossil fuels",
+    "Answer": "An electrical grid that uses digital communication and automation to improve efficiency, reliability, and sustainability",
+    "Image": "1",
+    "Explaination": "A smart grid is an electrical grid that uses digital communication and automation technologies to improve efficiency, reliability, and sustainability."
+  },
+  {
+    "Question": "What is the primary goal of a smart grid?",
+    "A": "To improve the efficiency, reliability, and sustainability of the electrical grid",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To improve the efficiency, reliability, and sustainability of the electrical grid",
+    "Image": "1",
+    "Explaination": "The primary goal of a smart grid is to improve the efficiency, reliability, and sustainability of the electrical grid through digital communication and automation."
+  },
+  {
+    "Question": "Which of the following is a key technology used in smart grids?",
+    "A": "Advanced Metering Infrastructure (AMI)",
+    "B": "Supervisory Control and Data Acquisition (SCADA)",
+    "C": "Distributed Energy Resources (DERs)",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Smart grids use a variety of technologies, including Advanced Metering Infrastructure (AMI), SCADA, and Distributed Energy Resources (DERs), among others."
+  },
+  {
+    "Question": "What is Advanced Metering Infrastructure (AMI)?",
+    "A": "A system that uses smart meters and communication networks to enable two-way communication between utilities and customers",
+    "B": "A system that uses analog meters",
+    "C": "A system that uses only SCADA",
+    "D": "A system that uses only DERs",
+    "Answer": "A system that uses smart meters and communication networks to enable two-way communication between utilities and customers",
+    "Image": "1",
+    "Explaination": "Advanced Metering Infrastructure (AMI) is a system that uses smart meters and communication networks to enable two-way communication between utilities and customers, supporting demand response and other smart grid functions."
+  },
+  {
+    "Question": "What is a smart meter?",
+    "A": "An advanced meter that records electricity consumption in intervals and communicates the information back to the utility",
+    "B": "An analog meter",
+    "C": "A type of SCADA system",
+    "D": "A type of DER",
+    "Answer": "An advanced meter that records electricity consumption in intervals and communicates the information back to the utility",
+    "Image": "1",
+    "Explaination": "A smart meter is an advanced meter that records electricity consumption in intervals and communicates the information back to the utility for monitoring and billing."
+  },
+  {
+    "Question": "What are Distributed Energy Resources (DERs)?",
+    "A": "Small-scale energy generation and storage systems located close to the point of use",
+    "B": "Large-scale centralized power plants",
+    "C": "A type of SCADA system",
+    "D": "A type of smart meter",
+    "Answer": "Small-scale energy generation and storage systems located close to the point of use",
+    "Image": "1",
+    "Explaination": "Distributed Energy Resources (DERs) are small-scale energy generation and storage systems (such as solar panels, wind turbines, and batteries) located close to the point of use."
+  },
+  {
+    "Question": "What is demand response in a smart grid?",
+    "A": "A program that allows customers to reduce or shift their electricity usage in response to price signals or grid conditions",
+    "B": "A program that increases electricity usage",
+    "C": "A program that eliminates all loads",
+    "D": "A program that disconnects all customers",
+    "Answer": "A program that allows customers to reduce or shift their electricity usage in response to price signals or grid conditions",
+    "Image": "1",
+    "Explaination": "Demand response in a smart grid allows customers to reduce or shift their electricity usage in response to price signals or grid conditions, helping to balance supply and demand."
+  },
+  {
+    "Question": "What is a microgrid?",
+    "A": "A small, localized grid that can operate independently or in coordination with the main grid",
+    "B": "A large centralized power plant",
+    "C": "A type of SCADA system",
+    "D": "A type of smart meter",
+    "Answer": "A small, localized grid that can operate independently or in coordination with the main grid",
+    "Image": "1",
+    "Explaination": "A microgrid is a small, localized grid that can operate independently (islanded) or in coordination with the main grid, often incorporating DERs and energy storage."
+  },
+  {
+    "Question": "What is the main advantage of a microgrid?",
+    "A": "It can operate independently during a grid outage, improving resilience",
+    "B": "It increases the cost of electricity",
+    "C": "It reduces the use of renewable energy",
+    "D": "It eliminates all fossil fuel generation",
+    "Answer": "It can operate independently during a grid outage, improving resilience",
+    "Image": "1",
+    "Explaination": "The main advantage of a microgrid is its ability to operate independently during a grid outage (islanded mode), improving resilience and reliability."
+  },
+  {
+    "Question": "What is a Wide Area Monitoring System (WAMS)?",
+    "A": "A system that uses phasor measurement units (PMUs) to monitor the power grid over a wide area in real time",
+    "B": "A system that uses analog meters",
+    "C": "A system that uses only SCADA",
+    "D": "A system that uses only DERs",
+    "Answer": "A system that uses phasor measurement units (PMUs) to monitor the power grid over a wide area in real time",
+    "Image": "1",
+    "Explaination": "A Wide Area Monitoring System (WAMS) uses phasor measurement units (PMUs) to monitor the power grid over a wide area in real time, improving situational awareness."
+  },
+  {
+    "Question": "What is a Phasor Measurement Unit (PMU)?",
+    "A": "A device that measures the electrical waves on the power grid to determine the health of the system",
+    "B": "A type of smart meter",
+    "C": "A type of SCADA system",
+    "D": "A type of DER",
+    "Answer": "A device that measures the electrical waves on the power grid to determine the health of the system",
+    "Image": "1",
+    "Explaination": "A Phasor Measurement Unit (PMU) measures the electrical waves on the power grid to determine the health of the system, providing high-speed synchronized measurements."
+  },
+  {
+    "Question": "What is the purpose of a Distribution Automation (DA) system?",
+    "A": "To automate the monitoring and control of distribution equipment to improve reliability and efficiency",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To automate the monitoring and control of distribution equipment to improve reliability and efficiency",
+    "Image": "1",
+    "Explaination": "Distribution Automation (DA) automates the monitoring and control of distribution equipment (such as switches, reclosers, and capacitors) to improve reliability and efficiency."
+  },
+  {
+    "Question": "What is a smart inverter?",
+    "A": "An inverter that can provide grid support functions such as voltage regulation and frequency response",
+    "B": "A type of smart meter",
+    "C": "A type of SCADA system",
+    "D": "A type of DER",
+    "Answer": "An inverter that can provide grid support functions such as voltage regulation and frequency response",
+    "Image": "1",
+    "Explaination": "A smart inverter is an inverter that can provide grid support functions such as voltage regulation, frequency response, and reactive power compensation, improving grid stability."
+  },
+  {
+    "Question": "What is the role of cybersecurity in smart grids?",
+    "A": "To protect the grid from cyber-attacks that could disrupt operations",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To protect the grid from cyber-attacks that could disrupt operations",
+    "Image": "1",
+    "Explaination": "Cybersecurity in smart grids protects the grid from cyber-attacks that could disrupt operations, ensuring the reliability and security of the electricity supply."
+  },
+  {
+    "Question": "What is Vehicle-to-Grid (V2G) technology?",
+    "A": "A technology that allows electric vehicles to feed power back into the grid",
+    "B": "A technology that allows electric vehicles to charge from the grid only",
+    "C": "A technology that uses only fossil fuel vehicles",
+    "D": "A technology that disconnects all electric vehicles from the grid",
+    "Answer": "A technology that allows electric vehicles to feed power back into the grid",
+    "Image": "1",
+    "Explaination": "Vehicle-to-Grid (V2G) technology allows electric vehicles to feed power back into the grid, providing grid support services and improving stability."
+  },
+  {
+    "Question": "What is the main challenge in implementing smart grids?",
+    "A": "High cost of implementation and interoperability of different technologies",
+    "B": "Lack of electricity",
+    "C": "Excessive generation capacity",
+    "D": "Too many renewable sources",
+    "Answer": "High cost of implementation and interoperability of different technologies",
+    "Image": "1",
+    "Explaination": "The main challenge in implementing smart grids is the high cost of implementation and the need for interoperability between different technologies and systems."
+  }
+]

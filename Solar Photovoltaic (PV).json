@@ -1,0 +1,252 @@
+[
+  {
+    "Question": "What is the primary function of a solar photovoltaic (PV) cell?",
+    "A": "To convert solar thermal energy into steam",
+    "B": "To convert sunlight directly into electrical energy using the photovoltaic effect",
+    "C": "To store solar energy in batteries",
+    "D": "To concentrate sunlight onto a boiler",
+    "Answer": "To convert sunlight directly into electrical energy using the photovoltaic effect",
+    "Image": "1",
+    "Explaination": "A solar PV cell converts sunlight directly into electrical energy through the photovoltaic effect, without any intermediate thermal or mechanical process."
+  },
+  {
+    "Question": "Which semiconductor material is most commonly used in commercial solar PV cells?",
+    "A": "Germanium",
+    "B": "Silicon",
+    "C": "Gallium arsenide",
+    "D": "Copper indium gallium selenide (CIGS)",
+    "Answer": "Silicon",
+    "Image": "1",
+    "Explaination": "Silicon is the most commonly used semiconductor material in commercial solar PV cells due to its abundance, stability, and suitable bandgap."
+  },
+  {
+    "Question": "What is the typical efficiency range of commercial monocrystalline silicon solar panels?",
+    "A": "5-10%",
+    "B": "15-22%",
+    "C": "25-30%",
+    "D": "35-40%",
+    "Answer": "15-22%",
+    "Image": "1",
+    "Explaination": "Commercial monocrystalline silicon solar panels typically have an efficiency of 15-22%, which is higher than polycrystalline panels."
+  },
+  {
+    "Question": "Which type of solar PV cell has the highest efficiency under laboratory conditions?",
+    "A": "Monocrystalline silicon",
+    "B": "Polycrystalline silicon",
+    "C": "Thin-film amorphous silicon",
+    "D": "Multi-junction (tandem) solar cells",
+    "Answer": "Multi-junction (tandem) solar cells",
+    "Image": "1",
+    "Explaination": "Multi-junction (tandem) solar cells, which use multiple layers of semiconductor materials to capture different parts of the solar spectrum, have the highest laboratory efficiencies (over 40%)."
+  },
+  {
+    "Question": "What is the standard test condition (STC) for rating solar PV modules?",
+    "A": "1000 W/m² irradiance, 25°C cell temperature, and AM 1.5 spectrum",
+    "B": "800 W/m² irradiance, 20°C cell temperature, and AM 1.0 spectrum",
+    "C": "1200 W/m² irradiance, 30°C cell temperature, and AM 2.0 spectrum",
+    "D": "500 W/m² irradiance, 25°C cell temperature, and AM 1.5 spectrum",
+    "Answer": "1000 W/m² irradiance, 25°C cell temperature, and AM 1.5 spectrum",
+    "Image": "1",
+    "Explaination": "The standard test condition (STC) for rating solar PV modules is 1000 W/m² irradiance, 25°C cell temperature, and AM 1.5 solar spectrum."
+  },
+  {
+    "Question": "What is the effect of increasing temperature on the power output of a solar PV cell?",
+    "A": "Power output increases",
+    "B": "Power output decreases",
+    "C": "Power output remains constant",
+    "D": "Power output becomes zero",
+    "Answer": "Power output decreases",
+    "Image": "1",
+    "Explaination": "The power output of a solar PV cell decreases as temperature increases, due to the negative temperature coefficient of the cell's voltage."
+  },
+  {
+    "Question": "What is the typical temperature coefficient of power for a silicon solar PV module?",
+    "A": "+0.5%/°C",
+    "B": "-0.4% to -0.5%/°C",
+    "C": "+1.0%/°C",
+    "D": "-2.0%/°C",
+    "Answer": "-0.4% to -0.5%/°C",
+    "Image": "1",
+    "Explaination": "The typical temperature coefficient of power for a silicon solar PV module is about -0.4% to -0.5% per °C, meaning power output decreases as temperature rises."
+  },
+  {
+    "Question": "What is the function of a bypass diode in a solar PV module?",
+    "A": "To prevent current from flowing backward through shaded cells",
+    "B": "To increase the voltage output of the module",
+    "C": "To regulate the current output of the module",
+    "D": "To convert DC to AC",
+    "Answer": "To prevent current from flowing backward through shaded cells",
+    "Image": "1",
+    "Explaination": "Bypass diodes prevent current from flowing backward through shaded cells, which can cause hot spots and reduce overall module performance."
+  },
+  {
+    "Question": "What is the function of a blocking diode in a solar PV system?",
+    "A": "To prevent current from flowing from the battery back into the solar panel at night",
+    "B": "To increase the voltage output of the panel",
+    "C": "To regulate the current output of the panel",
+    "D": "To convert DC to AC",
+    "Answer": "To prevent current from flowing from the battery back into the solar panel at night",
+    "Image": "1",
+    "Explaination": "A blocking diode prevents current from flowing from the battery back into the solar panel at night, when the panel is not generating power."
+  },
+  {
+    "Question": "What is the function of an inverter in a solar PV system?",
+    "A": "To convert DC power from the solar panels into AC power for the grid or loads",
+    "B": "To convert AC power into DC power",
+    "C": "To store energy in batteries",
+    "D": "To regulate the voltage of the solar panels",
+    "Answer": "To convert DC power from the solar panels into AC power for the grid or loads",
+    "Image": "1",
+    "Explaination": "An inverter converts the DC power generated by solar panels into AC power suitable for grid connection or local loads."
+  },
+  {
+    "Question": "What is a 'grid-tied' solar PV system?",
+    "A": "A system that is connected to the utility grid and can export excess power to the grid",
+    "B": "A system that operates independently of the grid",
+    "C": "A system that uses batteries for storage",
+    "D": "A system that uses a diesel generator as backup",
+    "Answer": "A system that is connected to the utility grid and can export excess power to the grid",
+    "Image": "1",
+    "Explaination": "A grid-tied solar PV system is connected to the utility grid, allowing excess power to be exported to the grid and grid power to be imported when needed."
+  },
+  {
+    "Question": "What is an 'off-grid' solar PV system?",
+    "A": "A system that is connected to the utility grid",
+    "B": "A system that operates independently of the grid, often using batteries for storage",
+    "C": "A system that uses a diesel generator as backup",
+    "D": "A system that uses wind turbines as backup",
+    "Answer": "A system that operates independently of the grid, often using batteries for storage",
+    "Image": "1",
+    "Explaination": "An off-grid solar PV system operates independently of the utility grid and typically uses batteries to store energy for use during periods without sunlight."
+  },
+  {
+    "Question": "What is the typical lifespan of a solar PV module?",
+    "A": "5-10 years",
+    "B": "15-20 years",
+    "C": "25-30 years",
+    "D": "50-60 years",
+    "Answer": "25-30 years",
+    "Image": "1",
+    "Explaination": "The typical lifespan of a solar PV module is 25-30 years, with a gradual decrease in power output over time (typically 0.5-1% per year)."
+  },
+  {
+    "Question": "What is the fill factor (FF) of a solar PV cell?",
+    "A": "The ratio of the maximum power output to the product of open-circuit voltage and short-circuit current",
+    "B": "The ratio of short-circuit current to open-circuit voltage",
+    "C": "The ratio of maximum power to rated power",
+    "D": "The ratio of open-circuit voltage to rated voltage",
+    "Answer": "The ratio of the maximum power output to the product of open-circuit voltage and short-circuit current",
+    "Image": "1",
+    "Explaination": "The fill factor (FF) is the ratio of the maximum power output (Pmax) to the product of open-circuit voltage (Voc) and short-circuit current (Isc), indicating the quality of the cell."
+  },
+  {
+    "Question": "What is the typical fill factor of a commercial silicon solar PV cell?",
+    "A": "0.1-0.2",
+    "B": "0.3-0.4",
+    "C": "0.7-0.8",
+    "D": "0.9-1.0",
+    "Answer": "0.7-0.8",
+    "Image": "1",
+    "Explaination": "The typical fill factor of a commercial silicon solar PV cell is 0.7-0.8, indicating good cell quality."
+  },
+  {
+    "Question": "What is the maximum power point (MPP) of a solar PV module?",
+    "A": "The point on the I-V curve where the product of current and voltage is maximum",
+    "B": "The point on the I-V curve where the current is maximum",
+    "C": "The point on the I-V curve where the voltage is maximum",
+    "D": "The point on the I-V curve where the power is zero",
+    "Answer": "The point on the I-V curve where the product of current and voltage is maximum",
+    "Image": "1",
+    "Explaination": "The maximum power point (MPP) is the point on the I-V curve where the product of current and voltage (power) is maximum, and the PV system should operate at this point to maximize output."
+  },
+  {
+    "Question": "What is the function of a Maximum Power Point Tracker (MPPT) in a solar PV system?",
+    "A": "To continuously adjust the operating point of the PV array to maximize power output",
+    "B": "To convert DC to AC",
+    "C": "To store energy in batteries",
+    "D": "To regulate the voltage of the solar panels",
+    "Answer": "To continuously adjust the operating point of the PV array to maximize power output",
+    "Image": "1",
+    "Explaination": "An MPPT continuously adjusts the operating point of the PV array to track the maximum power point, maximizing power output under varying conditions."
+  },
+  {
+    "Question": "What is the typical efficiency of a solar PV inverter?",
+    "A": "50-60%",
+    "B": "70-80%",
+    "C": "90-98%",
+    "D": "100%",
+    "Answer": "90-98%",
+    "Image": "1",
+    "Explaination": "Modern solar PV inverters typically have an efficiency of 90-98%, with high-quality inverters achieving over 97%."
+  },
+  {
+    "Question": "What is the main advantage of thin-film solar PV cells over crystalline silicon cells?",
+    "A": "Higher efficiency",
+    "B": "Lower cost and flexibility",
+    "C": "Longer lifespan",
+    "D": "Better performance at high temperatures",
+    "Answer": "Lower cost and flexibility",
+    "Image": "1",
+    "Explaination": "Thin-film solar PV cells have lower manufacturing costs and can be made flexible, though they generally have lower efficiency than crystalline silicon cells."
+  },
+  {
+    "Question": "What is the main disadvantage of thin-film solar PV cells?",
+    "A": "Higher cost",
+    "B": "Lower efficiency and shorter lifespan",
+    "C": "Rigidity",
+    "D": "Poor performance at high temperatures",
+    "Answer": "Lower efficiency and shorter lifespan",
+    "Image": "1",
+    "Explaination": "Thin-film solar PV cells generally have lower efficiency and shorter lifespan compared to crystalline silicon cells."
+  },
+  {
+    "Question": "What is the function of a solar charge controller in an off-grid PV system?",
+    "A": "To regulate the charging of batteries and prevent overcharging",
+    "B": "To convert DC to AC",
+    "C": "To track the maximum power point",
+    "D": "To convert AC to DC",
+    "Answer": "To regulate the charging of batteries and prevent overcharging",
+    "Image": "1",
+    "Explaination": "A solar charge controller regulates the charging of batteries and prevents overcharging, extending battery life."
+  },
+  {
+    "Question": "What is the difference between a PWM and an MPPT charge controller?",
+    "A": "PWM is more efficient than MPPT",
+    "B": "MPPT is more efficient and can extract more power from the PV array",
+    "C": "PWM is more expensive than MPPT",
+    "D": "They are identical in performance",
+    "Answer": "MPPT is more efficient and can extract more power from the PV array",
+    "Image": "1",
+    "Explaination": "An MPPT charge controller is more efficient than a PWM controller, as it can extract more power from the PV array by tracking the maximum power point."
+  },
+  {
+    "Question": "What is the typical annual energy yield of a solar PV system in India?",
+    "A": "500-800 kWh/kWp",
+    "B": "1000-1500 kWh/kWp",
+    "C": "1500-2000 kWh/kWp",
+    "D": "2000-2500 kWh/kWp",
+    "Answer": "1500-2000 kWh/kWp",
+    "Image": "1",
+    "Explaination": "The typical annual energy yield of a solar PV system in India is 1500-2000 kWh/kWp, depending on location, orientation, and system design."
+  },
+  {
+    "Question": "What is the typical tilt angle for a solar PV module in India?",
+    "A": "0° (horizontal)",
+    "B": "15-30°",
+    "C": "45-60°",
+    "D": "90° (vertical)",
+    "Answer": "15-30°",
+    "Image": "1",
+    "Explaination": "The typical tilt angle for a solar PV module in India is 15-30°, depending on the latitude, to maximize solar energy capture."
+  },
+  {
+    "Question": "What is the primary reason for using solar tracking systems?",
+    "A": "To increase the amount of solar energy captured by following the sun's path",
+    "B": "To reduce the cost of the system",
+    "C": "To reduce maintenance requirements",
+    "D": "To increase the lifespan of the panels",
+    "Answer": "To increase the amount of solar energy captured by following the sun's path",
+    "Image": "1",
+    "Explaination": "Solar tracking systems follow the sun's path to maximize the amount of solar energy captured by the panels, increasing energy yield by 20-40%."
+  }
+]

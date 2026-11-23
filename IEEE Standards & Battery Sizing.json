@@ -1,0 +1,182 @@
+[
+  {
+    "Question": "According to IEEE standards (such as IEEE 450 and IEEE 1188), stationary batteries should typically be replaced when their capacity drops below:",
+    "A": "95% of rating",
+    "B": "90% of rating",
+    "C": "60% of rating",
+    "D": "80% of rating",
+    "Answer": "80% of rating",
+    "Image": "1",
+    "Explaination": "IEEE standards recommend replacing stationary batteries when their capacity drops below 80% of the rated capacity, as performance and reliability degrade significantly beyond this point."
+  },
+  {
+    "Question": "What is the standard formula used for sizing a stationary battery charger?",
+    "A": "C = ((AH × RF)/RT + CL) × DM × AD",
+    "B": "C = (AH × RF) + CL",
+    "C": "C = AH × DM × AD",
+    "D": "C = AH/(RT × CL)",
+    "Answer": "C = ((AH × RF)/RT + CL) × DM × AD",
+    "Image": "1",
+    "Explaination": "The standard battery charger sizing formula is C = ((AH × RF)/RT + CL) × DM × AD, where AH is ampere-hour capacity, RF is recharge factor, RT is recharge time, CL is continuous load, DM is design margin, and AD is aging factor."
+  },
+  {
+    "Question": "Which IEEE recommended practice is used for sizing large lead-acid storage batteries for stationary applications?",
+    "A": "IEEE 1106",
+    "B": "IEEE 485",
+    "C": "IEEE 1115",
+    "D": "IEEE 1189",
+    "Answer": "IEEE 485",
+    "Image": "1",
+    "Explaination": "IEEE 485 is the recommended practice for sizing large lead-acid storage batteries for stationary applications."
+  },
+  {
+    "Question": "Which IEEE standard defines the recommended practice for sizing nickel-cadmium (Ni-Cd) batteries in stationary applications?",
+    "A": "IEEE 1115",
+    "B": "IEEE 450",
+    "C": "IEEE 1188",
+    "D": "IEEE 485",
+    "Answer": "IEEE 1115",
+    "Image": "1",
+    "Explaination": "IEEE 1115 defines the recommended practice for sizing nickel-cadmium (Ni-Cd) batteries in stationary applications."
+  },
+  {
+    "Question": "Which IEEE document provides recommended practices for the selection of Valve-Regulated Lead-Acid (VRLA) batteries?",
+    "A": "IEEE 1106",
+    "B": "IEEE 1189",
+    "C": "IEEE 450",
+    "D": "IEEE 519",
+    "Answer": "IEEE 1189",
+    "Image": "1",
+    "Explaination": "IEEE 1189 provides recommended practices for the selection of Valve-Regulated Lead-Acid (VRLA) batteries."
+  },
+  {
+    "Question": "Which IEEE standard governs the maintenance, testing, and replacement of vented lead-acid (VLA) batteries?",
+    "A": "IEEE 1188",
+    "B": "IEEE 1106",
+    "C": "IEEE 450",
+    "D": "IEEE 1115",
+    "Answer": "IEEE 450",
+    "Image": "1",
+    "Explaination": "IEEE 450 governs the maintenance, testing, and replacement of vented lead-acid (VLA) batteries."
+  },
+  {
+    "Question": "The installation, maintenance, testing, and replacement of vented nickel-cadmium batteries is governed by:",
+    "A": "IEEE 1106",
+    "B": "IEEE 485",
+    "C": "IEEE 450",
+    "D": "IEEE 1189",
+    "Answer": "IEEE 1106",
+    "Image": "1",
+    "Explaination": "IEEE 1106 governs the installation, maintenance, testing, and replacement of vented nickel-cadmium batteries."
+  },
+  {
+    "Question": "Which IEEE standard provides recommended practices for the installation and maintenance of Valve-Regulated Lead-Acid (VRLA) batteries?",
+    "A": "IEEE 1188",
+    "B": "IEEE 1189",
+    "C": "IEEE 450",
+    "D": "IEEE 1115",
+    "Answer": "IEEE 1188",
+    "Image": "1",
+    "Explaination": "IEEE 1188 provides recommended practices for the installation and maintenance of Valve-Regulated Lead-Acid (VRLA) batteries."
+  },
+  {
+    "Question": "Which IEEE standard provides recommended practices for the installation and maintenance of nickel-cadmium batteries?",
+    "A": "IEEE 1106",
+    "B": "IEEE 485",
+    "C": "IEEE 1115",
+    "D": "IEEE 1188",
+    "Answer": "IEEE 1115",
+    "Image": "1",
+    "Explaination": "IEEE 1115 provides recommended practices for the installation and maintenance of nickel-cadmium batteries."
+  },
+  {
+    "Question": "Which IEEE standard provides recommended practices for the installation and maintenance of lead-acid batteries?",
+    "A": "IEEE 450",
+    "B": "IEEE 485",
+    "C": "IEEE 1188",
+    "D": "IEEE 1115",
+    "Answer": "IEEE 1188",
+    "Image": "1",
+    "Explaination": "IEEE 1188 provides recommended practices for the installation and maintenance of lead-acid batteries."
+  },
+  {
+    "Question": "Which IEEE standard provides recommended practices for the sizing of lead-acid batteries?",
+    "A": "IEEE 485",
+    "B": "IEEE 450",
+    "C": "IEEE 1188",
+    "D": "IEEE 1115",
+    "Answer": "IEEE 485",
+    "Image": "1",
+    "Explaination": "IEEE 485 provides recommended practices for the sizing of lead-acid batteries."
+  },
+  {
+    "Question": "Which IEEE standard provides recommended practices for the sizing of nickel-cadmium batteries?",
+    "A": "IEEE 1115",
+    "B": "IEEE 485",
+    "C": "IEEE 450",
+    "D": "IEEE 1188",
+    "Answer": "IEEE 1115",
+    "Image": "1",
+    "Explaination": "IEEE 1115 provides recommended practices for the sizing of nickel-cadmium batteries."
+  },
+  {
+    "Question": "Which IEEE standard provides recommended practices for the sizing of Valve-Regulated Lead-Acid (VRLA) batteries?",
+    "A": "IEEE 1189",
+    "B": "IEEE 485",
+    "C": "IEEE 450",
+    "D": "IEEE 1115",
+    "Answer": "IEEE 1189",
+    "Image": "1",
+    "Explaination": "IEEE 1189 provides recommended practices for the sizing of Valve-Regulated Lead-Acid (VRLA) batteries."
+  },
+  {
+    "Question": "What typical Design Margin (DM) is specified in IEEE battery sizing calculations?",
+    "A": "2.00",
+    "B": "1.35 to 1.50",
+    "C": "1.10 to 1.15",
+    "D": "1.00 to 1.05",
+    "Answer": "1.10 to 1.15",
+    "Image": "1",
+    "Explaination": "IEEE battery sizing calculations typically specify a Design Margin (DM) of 1.10 to 1.15 to account for uncertainties in load and battery performance."
+  },
+  {
+    "Question": "Why is an Aging Factor (AF) of 1.25 standard in IEEE stationary battery sizing?",
+    "A": "It provides a safety cushion for overvoltage during equalize charging",
+    "B": "It matches the IEEE threshold requiring battery replacement when capacity drops to 80%",
+    "C": "It represents the derating required for operation at 0°C",
+    "D": "It compensates for high ambient humidity",
+    "Answer": "It matches the IEEE threshold requiring battery replacement when capacity drops to 80%",
+    "Image": "1",
+    "Explaination": "The Aging Factor (AF) of 1.25 is standard because IEEE requires battery replacement when capacity drops to 80% (1/0.8 = 1.25), ensuring the battery can still meet the load demand at end of life."
+  },
+  {
+    "Question": "Which IEEE standard defines recommended maintenance, inspection, and testing practices for vented lead-acid (VLA) batteries?",
+    "A": "IEEE 450",
+    "B": "IEEE 1115",
+    "C": "IEEE 1106",
+    "D": "IEEE 1188",
+    "Answer": "IEEE 450",
+    "Image": "1",
+    "Explaination": "IEEE 450 defines the recommended maintenance, inspection, and testing practices for vented lead-acid (VLA) batteries."
+  },
+  {
+    "Question": "Which IEEE standard governs maintenance, testing, and replacement of stationary Valve-Regulated Lead-Acid (VRLA) batteries?",
+    "A": "IEEE 1188",
+    "B": "IEEE 1116",
+    "C": "IEEE 485",
+    "D": "IEEE 450",
+    "Answer": "IEEE 1188",
+    "Image": "1",
+    "Explaination": "IEEE 1188 governs the maintenance, testing, and replacement of stationary Valve-Regulated Lead-Acid (VRLA) batteries."
+  },
+  {
+    "Question": "Which IEEE standard establishes maintenance and testing practices for stationary vented nickel-cadmium batteries?",
+    "A": "IEEE 1106",
+    "B": "IEEE 485",
+    "C": "IEEE 450",
+    "D": "IEEE 1189",
+    "Answer": "IEEE 1106",
+    "Image": "1",
+    "Explaination": "IEEE 1106 establishes maintenance and testing practices for stationary vented nickel-cadmium batteries."
+  }
+]

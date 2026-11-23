@@ -1,0 +1,162 @@
+[
+  {
+    "Question": "What does HMI stand for in a SCADA system?",
+    "A": "Human Machine Interface",
+    "B": "High Machine Interface",
+    "C": "Human Monitoring Interface",
+    "D": "Hardware Machine Interface",
+    "Answer": "Human Machine Interface",
+    "Image": "1",
+    "Explaination": "HMI stands for Human Machine Interface, which is the graphical user interface that allows operators to interact with the SCADA system."
+  },
+  {
+    "Question": "What is the primary function of an HMI in a SCADA system?",
+    "A": "To provide a graphical interface for operators to monitor and control the process",
+    "B": "To store historical data",
+    "C": "To communicate with field devices",
+    "D": "To generate alarms",
+    "Answer": "To provide a graphical interface for operators to monitor and control the process",
+    "Image": "1",
+    "Explaination": "The primary function of an HMI is to provide a graphical interface for operators to monitor and control the process, displaying real-time data and allowing operator input."
+  },
+  {
+    "Question": "What is a 'tag' in a SCADA system?",
+    "A": "A named data point that represents a field device or process variable",
+    "B": "A physical label on the equipment",
+    "C": "A type of alarm",
+    "D": "A communication protocol",
+    "Answer": "A named data point that represents a field device or process variable",
+    "Image": "1",
+    "Explaination": "A tag is a named data point in the SCADA database that represents a field device or process variable, such as a temperature sensor or a breaker status."
+  },
+  {
+    "Question": "What is the purpose of alarm management in a SCADA system?",
+    "A": "To alert operators to abnormal conditions that require attention",
+    "B": "To store historical data",
+    "C": "To control field devices",
+    "D": "To generate reports",
+    "Answer": "To alert operators to abnormal conditions that require attention",
+    "Image": "1",
+    "Explaination": "Alarm management alerts operators to abnormal conditions that require attention, ensuring timely response to prevent or mitigate process disturbances."
+  },
+  {
+    "Question": "What is the purpose of data logging in a SCADA system?",
+    "A": "To record and store process data for historical analysis and reporting",
+    "B": "To control field devices",
+    "C": "To generate alarms",
+    "D": "To provide a graphical interface",
+    "Answer": "To record and store process data for historical analysis and reporting",
+    "Image": "1",
+    "Explaination": "Data logging records and stores process data for historical analysis, trending, and reporting, enabling operators to review past events and optimize performance."
+  },
+  {
+    "Question": "What is a 'trend' in a SCADA HMI?",
+    "A": "A graphical representation of a tag's value over time",
+    "B": "A type of alarm",
+    "C": "A communication protocol",
+    "D": "A physical label on the equipment",
+    "Answer": "A graphical representation of a tag's value over time",
+    "Image": "1",
+    "Explaination": "A trend is a graphical representation of a tag's value over time, allowing operators to visualize and analyze process behavior."
+  },
+  {
+    "Question": "What is the typical update rate for an HMI display in a SCADA system?",
+    "A": "1 second or faster",
+    "B": "1 minute",
+    "C": "1 hour",
+    "D": "1 day",
+    "Answer": "1 second or faster",
+    "Image": "1",
+    "Explaination": "The typical update rate for an HMI display in a SCADA system is 1 second or faster, ensuring operators have near real-time visibility of the process."
+  },
+  {
+    "Question": "What is an 'alarm priority' in a SCADA system?",
+    "A": "A ranking that indicates the severity or urgency of an alarm",
+    "B": "The time at which an alarm occurs",
+    "C": "The location of the alarm",
+    "D": "The type of alarm",
+    "Answer": "A ranking that indicates the severity or urgency of an alarm",
+    "Image": "1",
+    "Explaination": "Alarm priority is a ranking that indicates the severity or urgency of an alarm, helping operators prioritize their response to multiple alarms."
+  },
+  {
+    "Question": "What is 'alarm shelving' in a SCADA system?",
+    "A": "Temporarily suppressing an alarm to prevent nuisance alarms",
+    "B": "Permanently disabling an alarm",
+    "C": "Changing the priority of an alarm",
+    "D": "Acknowledging an alarm",
+    "Answer": "Temporarily suppressing an alarm to prevent nuisance alarms",
+    "Image": "1",
+    "Explaination": "Alarm shelving temporarily suppresses an alarm to prevent nuisance alarms while maintenance or other activities are performed, without permanently disabling it."
+  },
+  {
+    "Question": "What is 'alarm acknowledgment' in a SCADA system?",
+    "A": "The operator confirms that they have seen and are responding to an alarm",
+    "B": "The operator disables the alarm",
+    "C": "The operator changes the alarm priority",
+    "D": "The operator shelves the alarm",
+    "Answer": "The operator confirms that they have seen and are responding to an alarm",
+    "Image": "1",
+    "Explaination": "Alarm acknowledgment is the operator's confirmation that they have seen and are responding to an alarm, ensuring that alarms are not missed."
+  },
+  {
+    "Question": "What is the purpose of a 'historian' in a SCADA system?",
+    "A": "To store and manage historical process data for analysis and reporting",
+    "B": "To control field devices",
+    "C": "To generate alarms",
+    "D": "To provide a graphical interface",
+    "Answer": "To store and manage historical process data for analysis and reporting",
+    "Image": "1",
+    "Explaination": "A historian stores and manages historical process data for analysis, trending, and reporting, providing valuable insights into past performance."
+  },
+  {
+    "Question": "What is the typical retention period for historical data in a SCADA historian?",
+    "A": "1 day",
+    "B": "1 week",
+    "C": "1 month",
+    "D": "1 year or more",
+    "Answer": "1 year or more",
+    "Image": "1",
+    "Explaination": "The typical retention period for historical data in a SCADA historian is 1 year or more, depending on regulatory requirements and storage capacity."
+  },
+  {
+    "Question": "What is a 'deadband' in SCADA alarm configuration?",
+    "A": "A range around the alarm setpoint within which no alarm is generated, preventing nuisance alarms",
+    "B": "The time delay before an alarm is generated",
+    "C": "The priority of an alarm",
+    "D": "The location of the alarm",
+    "Answer": "A range around the alarm setpoint within which no alarm is generated, preventing nuisance alarms",
+    "Image": "1",
+    "Explaination": "A deadband is a range around the alarm setpoint within which no alarm is generated, preventing nuisance alarms caused by small fluctuations in the process variable."
+  },
+  {
+    "Question": "What is 'alarm filtering' in a SCADA system?",
+    "A": "The process of suppressing alarms based on specific criteria, such as time or location",
+    "B": "The process of prioritizing alarms",
+    "C": "The process of acknowledging alarms",
+    "D": "The process of shelving alarms",
+    "Answer": "The process of suppressing alarms based on specific criteria, such as time or location",
+    "Image": "1",
+    "Explaination": "Alarm filtering suppresses alarms based on specific criteria, such as time, location, or process state, reducing the number of nuisance alarms and helping operators focus on critical events."
+  },
+  {
+    "Question": "What is the purpose of an 'alarm summary' display in a SCADA HMI?",
+    "A": "To provide a list of all active alarms for operator review",
+    "B": "To control field devices",
+    "C": "To store historical data",
+    "D": "To generate reports",
+    "Answer": "To provide a list of all active alarms for operator review",
+    "Image": "1",
+    "Explaination": "An alarm summary display provides a list of all active alarms, allowing operators to review and prioritize their response."
+  },
+  {
+    "Question": "What is 'event logging' in a SCADA system?",
+    "A": "Recording all operator actions and system events for auditing and analysis",
+    "B": "Recording only alarms",
+    "C": "Recording only process data",
+    "D": "Recording only communication errors",
+    "Answer": "Recording all operator actions and system events for auditing and analysis",
+    "Image": "1",
+    "Explaination": "Event logging records all operator actions and system events, providing an audit trail for analysis, troubleshooting, and compliance."
+  }
+]

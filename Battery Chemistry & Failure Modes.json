@@ -1,0 +1,92 @@
+[
+  {
+    "Question": "Which of the following is the most common type of battery used in substation DC systems?",
+    "A": "Lithium-ion",
+    "B": "Lead-acid (VLA or VRLA)",
+    "C": "Nickel-cadmium (Ni-Cd)",
+    "D": "Nickel-metal hydride (NiMH)",
+    "Answer": "Lead-acid (VLA or VRLA)",
+    "Image": "1",
+    "Explaination": "Lead-acid batteries (both Vented Lead-Acid and Valve-Regulated Lead-Acid) are the most common type used in substation DC systems due to their reliability and cost-effectiveness."
+  },
+  {
+    "Question": "What is the chemical reaction that occurs during the discharge of a lead-acid battery?",
+    "A": "Lead and lead dioxide react with sulfuric acid to form lead sulfate and water",
+    "B": "Lead and lead dioxide react with water to form lead sulfate and sulfuric acid",
+    "C": "Lead sulfate reacts with water to form lead and lead dioxide",
+    "D": "Lead sulfate reacts with sulfuric acid to form lead and lead dioxide",
+    "Answer": "Lead and lead dioxide react with sulfuric acid to form lead sulfate and water",
+    "Image": "1",
+    "Explaination": "During discharge, the lead (Pb) at the negative plate and lead dioxide (PbO₂) at the positive plate react with sulfuric acid (H₂SO₄) to form lead sulfate (PbSO₄) and water (H₂O)."
+  },
+  {
+    "Question": "What is the chemical reaction that occurs during the charging of a lead-acid battery?",
+    "A": "Lead sulfate and water are converted back to lead, lead dioxide, and sulfuric acid",
+    "B": "Lead and lead dioxide are converted to lead sulfate",
+    "C": "Lead sulfate is converted to lead and sulfuric acid",
+    "D": "Water is converted to hydrogen and oxygen",
+    "Answer": "Lead sulfate and water are converted back to lead, lead dioxide, and sulfuric acid",
+    "Image": "1",
+    "Explaination": "During charging, the lead sulfate (PbSO₄) and water (H₂O) are converted back to lead (Pb), lead dioxide (PbO₂), and sulfuric acid (H₂SO₄) by the applied charging current."
+  },
+  {
+    "Question": "What is the most common failure mode of a lead-acid battery?",
+    "A": "Sulfation",
+    "B": "Corrosion of the positive plate",
+    "C": "Electrolyte stratification",
+    "D": "Thermal runaway",
+    "Answer": "Sulfation",
+    "Image": "1",
+    "Explaination": "Sulfation is the most common failure mode of lead-acid batteries, where lead sulfate crystals form on the plates and harden, reducing the battery's capacity and performance."
+  },
+  {
+    "Question": "What is 'thermal runaway' in a VRLA battery?",
+    "A": "A condition where the battery overheats and can lead to fire or explosion",
+    "B": "A condition where the battery freezes",
+    "C": "A condition where the battery voltage drops to zero",
+    "D": "A condition where the battery capacity increases",
+    "Answer": "A condition where the battery overheats and can lead to fire or explosion",
+    "Image": "1",
+    "Explaination": "Thermal runaway in a VRLA battery is a condition where the battery overheats due to excessive charging current or high ambient temperature, leading to a runaway reaction that can cause fire or explosion."
+  },
+  {
+    "Question": "What is 'electrolyte stratification' in a lead-acid battery?",
+    "A": "The separation of the electrolyte into layers of different acid concentration",
+    "B": "The freezing of the electrolyte",
+    "C": "The evaporation of the electrolyte",
+    "D": "The contamination of the electrolyte",
+    "Answer": "The separation of the electrolyte into layers of different acid concentration",
+    "Image": "1",
+    "Explaination": "Electrolyte stratification is the separation of the electrolyte into layers of different acid concentration, with the higher concentration at the bottom, which can cause uneven plate corrosion and reduced battery performance."
+  },
+  {
+    "Question": "What is 'grid corrosion' in a lead-acid battery?",
+    "A": "The corrosion of the positive grid, which reduces the battery's capacity and life",
+    "B": "The corrosion of the negative grid",
+    "C": "The corrosion of the electrolyte",
+    "D": "The corrosion of the battery case",
+    "Answer": "The corrosion of the positive grid, which reduces the battery's capacity and life",
+    "Image": "1",
+    "Explaination": "Grid corrosion is the corrosion of the positive grid (the lead alloy frame that holds the active material), which reduces the battery's capacity and life."
+  },
+  {
+    "Question": "What is 'sulfation' in a lead-acid battery?",
+    "A": "The formation of hard lead sulfate crystals on the plates, which reduces the battery's capacity",
+    "B": "The formation of lead dioxide on the plates",
+    "C": "The formation of water in the electrolyte",
+    "D": "The formation of hydrogen gas",
+    "Answer": "The formation of hard lead sulfate crystals on the plates, which reduces the battery's capacity",
+    "Image": "1",
+    "Explaination": "Sulfation is the formation of hard lead sulfate crystals on the plates, which reduces the battery's capacity by blocking the active material and increasing internal resistance."
+  },
+  {
+    "Question": "What is the recommended practice to prevent sulfation in a lead-acid battery?",
+    "A": "Keep the battery fully charged and perform regular equalizing charges",
+    "B": "Discharge the battery deeply",
+    "C": "Store the battery at high temperatures",
+    "D": "Add tap water to the electrolyte",
+    "Answer": "Keep the battery fully charged and perform regular equalizing charges",
+    "Image": "1",
+    "Explaination": "To prevent sulfation, the battery should be kept fully charged and regular equalizing charges should be performed to prevent the formation of hard lead sulfate crystals."
+  }
+]

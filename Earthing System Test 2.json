@@ -1,0 +1,262 @@
+[
+  {
+    "Question": "Solid neutral earthing is typically employed for system voltages:",
+    "A": "Below 33 kV (e.g., low-voltage 415 V and high-voltage transmission above 33 kV)",
+    "B": "Only between 66 kV and 132 kV",
+    "C": "Exclusively for isolated marine generators",
+    "D": "Solid grounding is never permitted",
+    "Answer": "Below 33 kV (e.g., low-voltage 415 V and high-voltage transmission above 33 kV)",
+    "Image": "1",
+    "Explaination": "Solid neutral earthing is typically employed for low-voltage systems (e.g., 415 V) and high-voltage transmission systems above 33 kV."
+  },
+  {
+    "Question": "Resistance neutral grounding is primarily employed on medium-voltage systems (e.g., 3.3 kV to 11 kV) to:",
+    "A": "Limit phase-to-ground fault current and transient overvoltages",
+    "B": "Double the short-circuit current",
+    "C": "Eliminate the need for circuit breakers",
+    "D": "Increase line power losses",
+    "Answer": "Limit phase-to-ground fault current and transient overvoltages",
+    "Image": "1",
+    "Explaination": "Resistance neutral grounding is used on medium-voltage systems to limit phase-to-ground fault current and transient overvoltages."
+  },
+  {
+    "Question": "A Peterson Coil earthing system is also known as:",
+    "A": "Solid earthing",
+    "B": "Arc suppression coil earthing / Resonant grounding",
+    "C": "Resistance earthing",
+    "D": "Unshielded earthing",
+    "Answer": "Arc suppression coil earthing / Resonant grounding",
+    "Image": "1",
+    "Explaination": "A Peterson Coil earthing system is also known as arc suppression coil earthing or resonant grounding, used to suppress arcing grounds."
+  },
+  {
+    "Question": "What is the principal operational advantage of neutral earthing in three-phase power systems?",
+    "A": "Complete elimination of lightning strikes",
+    "B": "Elimination of persistent \"arching grounds\" and stabilization of healthy phase voltages",
+    "C": "Zero fault current under short circuits",
+    "D": "Reducing conductor cross-section by 90%",
+    "Answer": "Elimination of persistent \"arching grounds\" and stabilization of healthy phase voltages",
+    "Image": "1",
+    "Explaination": "Neutral earthing eliminates persistent arcing grounds and stabilizes healthy phase voltages during faults."
+  },
+  {
+    "Question": "Which neutral earthing arrangement allows the use of lightning arresters with the lowest voltage rating?",
+    "A": "Insulated (Ungrounded) neutral",
+    "B": "Solidly earthed neutral",
+    "C": "Resistance earthed neutral",
+    "D": "Reactance earthed neutral",
+    "Answer": "Solidly earthed neutral",
+    "Image": "1",
+    "Explaination": "Solidly earthed neutral allows the use of lightning arresters with the lowest voltage rating because the neutral is at ground potential."
+  },
+  {
+    "Question": "Grounding of system neutrals is generally performed at the:",
+    "A": "Receiving end",
+    "B": "Generating or supply end (substation transformers/generators)",
+    "C": "Mid-point of overhead line spans",
+    "D": "Load terminals only",
+    "Answer": "Generating or supply end (substation transformers/generators)",
+    "Image": "1",
+    "Explaination": "System neutrals are generally grounded at the generating or supply end (substation transformers/generators)."
+  },
+  {
+    "Question": "In an ungrounded star-connected 3-phase system, what is the value of zero-sequence current during normal operation?",
+    "A": "Zero",
+    "B": "Equal to phase current",
+    "C": "Three times phase current",
+    "D": "Infinite",
+    "Answer": "Zero",
+    "Image": "1",
+    "Explaination": "In an ungrounded star-connected 3-phase system, the zero-sequence current is zero during normal operation because there is no path for zero-sequence current to flow."
+  },
+  {
+    "Question": "Earthing a power transformer neutral through an inductive reactance improves its:",
+    "A": "Transient stability",
+    "B": "Dielectric breakdown strength",
+    "C": "Continuous full-load rating",
+    "D": "Core magnetization loss",
+    "Answer": "Transient stability",
+    "Image": "1",
+    "Explaination": "Earthing a power transformer neutral through an inductive reactance improves transient stability by limiting the fault current and reducing the impact of faults."
+  },
+  {
+    "Question": "What does the abbreviation \"TN-C-S\" signify in BS 7671 earthing classifications?",
+    "A": "Separate earth and neutral all the way from supply to load",
+    "B": "Combined neutral and protective earth conductor (PEN) in supply, separated into neutral and earth conductors within consumer premises",
+    "C": "Local earth rod with no neutral connection to earth",
+    "D": "Fully insulated unearthed system",
+    "Answer": "Combined neutral and protective earth conductor (PEN) in supply, separated into neutral and earth conductors within consumer premises",
+    "Image": "1",
+    "Explaination": "TN-C-S signifies that the neutral and protective earth conductor (PEN) are combined in the supply, then separated into neutral and earth conductors within the consumer premises."
+  },
+  {
+    "Question": "What is the defining characteristic of a TN-S earthing system?",
+    "A": "Earth and neutral conductors are maintained completely separate throughout the entire network from supply to load",
+    "B": "Earth is established only through a local electrode with no provider earth",
+    "C": "Neutral is omitted entirely",
+    "D": "The frame is connected directly to line voltage",
+    "Answer": "Earth and neutral conductors are maintained completely separate throughout the entire network from supply to load",
+    "Image": "1",
+    "Explaination": "In a TN-S earthing system, the earth and neutral conductors are maintained completely separate throughout the entire network from supply to load."
+  },
+  {
+    "Question": "What are the key components of a TT earthing arrangement?",
+    "A": "Supply PEN conductor and fuse only",
+    "B": "Local earth electrode at the installation, RCD (Residual Current Device), and overcurrent circuit breakers",
+    "C": "Peterson coil and spark gap",
+    "D": "Delta transformer without earthing",
+    "Answer": "Local earth electrode at the installation, RCD (Residual Current Device), and overcurrent circuit breakers",
+    "Image": "1",
+    "Explaination": "A TT earthing arrangement uses a local earth electrode at the installation, along with an RCD and overcurrent circuit breakers for protection."
+  },
+  {
+    "Question": "What critical hazard arises if the combined neutral/earth (PEN) conductor breaks in a TN-C-S system?",
+    "A": "Frequency drops to zero",
+    "B": "All connected metal appliance casings can become energized at full phase voltage",
+    "C": "Transformer oil overheats immediately",
+    "D": "The circuit breaker locks permanently open",
+    "Answer": "All connected metal appliance casings can become energized at full phase voltage",
+    "Image": "1",
+    "Explaination": "If the PEN conductor breaks in a TN-C-S system, all connected metal appliance casings can become energized at full phase voltage, posing a severe electric shock hazard."
+  },
+  {
+    "Question": "What is \"Step Potential\" in substation earthing design?",
+    "A": "Voltage between a person's two feet separated by 1 meter during a ground fault",
+    "B": "Voltage between a touched metal structure and the earth below",
+    "C": "Voltage across transformer primary bushings",
+    "D": "The turn-on threshold of an earth leakage relay",
+    "Answer": "Voltage between a person's two feet separated by 1 meter during a ground fault",
+    "Image": "1",
+    "Explaination": "Step potential is the voltage difference between a person's two feet, separated by about 1 meter, during a ground fault."
+  },
+  {
+    "Question": "What is \"Touch Potential\" in substation grounding?",
+    "A": "The potential difference between an energized metal frame and the ground surface where a person is standing",
+    "B": "The potential difference between two grounded pipes",
+    "C": "The static voltage on an operator's glove",
+    "D": "The nominal line-to-neutral voltage",
+    "Answer": "The potential difference between an energized metal frame and the ground surface where a person is standing",
+    "Image": "1",
+    "Explaination": "Touch potential is the potential difference between an energized metal frame and the ground surface where a person is standing."
+  },
+  {
+    "Question": "Why is a layer of crushed rock or gravel spread across an outdoor substation yard?",
+    "A": "To create a high-resistivity surface layer that dramatically reduces touch and step shock currents",
+    "B": "To assist in oil drainage in the event of a transformer tank rupture",
+    "C": "To inhibit weed growth and vermin infestation",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Crushed rock or gravel is spread across an outdoor substation yard for all the listed reasons: it creates a high-resistivity surface layer to reduce touch and step shock currents, assists in oil drainage, and inhibits weed growth and vermin."
+  },
+  {
+    "Question": "What wire gauge (SWG) is commonly specified for the earthing lead in domestic pipe earthing installations?",
+    "A": "8 SWG",
+    "B": "20 SWG",
+    "C": "30 SWG",
+    "D": "36 SWG",
+    "Answer": "8 SWG",
+    "Image": "1",
+    "Explaination": "The commonly specified wire gauge for the earthing lead in domestic pipe earthing installations is 8 SWG."
+  },
+  {
+    "Question": "Which method of earthing is generally the most economical in soft, moist soil?",
+    "A": "Driven Rod earthing",
+    "B": "Deep plate earthing",
+    "C": "Strip earthing",
+    "D": "Foundation mesh earthing",
+    "Answer": "Driven Rod earthing",
+    "Image": "1",
+    "Explaination": "Driven rod earthing is generally the most economical method in soft, moist soil because it is simple and requires less excavation."
+  },
+  {
+    "Question": "What is the theoretical potential of the general mass of the Earth?",
+    "A": "Zero Volts",
+    "B": "100 Volts",
+    "C": "Infinite Volts",
+    "D": "Variable between 50 V and 230 V",
+    "Answer": "Zero Volts",
+    "Image": "1",
+    "Explaination": "The theoretical potential of the general mass of the Earth is zero volts, serving as the reference point for all electrical potentials."
+  },
+  {
+    "Question": "The cross-sectional area of an earth continuity conductor should be determined on the basis of:",
+    "A": "Maximum prospective fault current and clearing time",
+    "B": "Conductor insulation color",
+    "C": "Room ambient humidity",
+    "D": "Supply frequency",
+    "Answer": "Maximum prospective fault current and clearing time",
+    "Image": "1",
+    "Explaination": "The cross-sectional area of an earth continuity conductor should be determined based on the maximum prospective fault current and clearing time to ensure it can safely carry fault currents."
+  },
+  {
+    "Question": "What is the purpose of treating the soil around an earth pit with bentonite clay?",
+    "A": "To retain moisture and lower soil resistivity in rocky/dry terrain",
+    "B": "To insulate the electrode from the earth",
+    "C": "To prevent lightning strikes from entering the pit",
+    "D": "To dry out the electrode",
+    "Answer": "To retain moisture and lower soil resistivity in rocky/dry terrain",
+    "Image": "1",
+    "Explaination": "Bentonite clay is used around an earth pit to retain moisture and lower soil resistivity, especially in rocky or dry terrain."
+  },
+  {
+    "Question": "In a three-phase unbalanced system, neutral earthing ensures that:",
+    "A": "Phase-to-neutral voltages across all three phases remain stable and balanced",
+    "B": "System frequency stays at 50 Hz",
+    "C": "Current in all phases becomes zero",
+    "D": "Transformer humming noise stops",
+    "Answer": "Phase-to-neutral voltages across all three phases remain stable and balanced",
+    "Image": "1",
+    "Explaination": "Neutral earthing in a three-phase unbalanced system ensures that phase-to-neutral voltages across all three phases remain stable and balanced."
+  },
+  {
+    "Question": "What distinguishes \"Equipment Earthing\" from \"System Earthing\"?",
+    "A": "Equipment earthing grounds non-current-carrying metal frames for human safety; system earthing grounds current-carrying conductors (like neutral) for circuit protection and stability",
+    "B": "Equipment earthing is for DC only; system earthing is for AC only",
+    "C": "There is no difference between them",
+    "D": "Equipment earthing is prohibited by code",
+    "Answer": "Equipment earthing grounds non-current-carrying metal frames for human safety; system earthing grounds current-carrying conductors (like neutral) for circuit protection and stability",
+    "Image": "1",
+    "Explaination": "Equipment earthing grounds non-current-carrying metal frames for human safety, while system earthing grounds current-carrying conductors (like neutral) for circuit protection and stability."
+  },
+  {
+    "Question": "Which testing technique is standard for measuring the resistance of an installed earth electrode?",
+    "A": "Fall of Potential (3-point test) method",
+    "B": "Wheatstone bridge DC test",
+    "C": "High-potential DC hipot test",
+    "D": "Open-circuit transformer test",
+    "Answer": "Fall of Potential (3-point test) method",
+    "Image": "1",
+    "Explaination": "The Fall of Potential (3-point test) method is the standard technique for measuring the resistance of an installed earth electrode."
+  },
+  {
+    "Question": "What is the purpose of a ground resistance tester?",
+    "A": "To measure the resistance of an earth electrode",
+    "B": "To measure the voltage of the system",
+    "C": "To measure the current in the circuit",
+    "D": "To measure the power factor",
+    "Answer": "To measure the resistance of an earth electrode",
+    "Image": "1",
+    "Explaination": "A ground resistance tester is used to measure the resistance of an earth electrode, ensuring it meets safety standards."
+  },
+  {
+    "Question": "What is the recommended maximum earth resistance for a lightning protection system?",
+    "A": "1 ohm",
+    "B": "5 ohms",
+    "C": "10 ohms",
+    "D": "50 ohms",
+    "Answer": "10 ohms",
+    "Image": "1",
+    "Explaination": "The recommended maximum earth resistance for a lightning protection system is typically 10 ohms or less."
+  },
+  {
+    "Question": "What is the function of a ground rod in an earthing system?",
+    "A": "To provide a low-resistance path to the earth",
+    "B": "To increase the voltage of the system",
+    "C": "To measure the current in the circuit",
+    "D": "To improve the power factor",
+    "Answer": "To provide a low-resistance path to the earth",
+    "Image": "1",
+    "Explaination": "A ground rod provides a low-resistance path to the earth, ensuring that fault currents are safely dissipated."
+  }
+]

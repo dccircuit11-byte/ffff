@@ -1,0 +1,302 @@
+[
+  {
+    "Question": "How does a machine with a higher Short Circuit Ratio (SCR) behave with respect to stability?",
+    "A": "Has lower stability margins",
+    "B": "Has lower synchronous reactance Xd and higher steady-state stability limit",
+    "C": "Melts under normal current",
+    "D": "Requires infinite excitation",
+    "Answer": "Has lower synchronous reactance Xd and higher steady-state stability limit",
+    "Image": "1",
+    "Explaination": "Higher SCR means lower synchronous reactance (Xd), which improves the steady-state stability limit of the machine."
+  },
+  {
+    "Question": "What is the primary purpose of load flow (power flow) studies in a power system?",
+    "A": "To determine the magnitude and phase angle of voltages at each bus and the real and reactive power flow in each line",
+    "B": "To calculate the transient stability limit of generators",
+    "C": "To design the insulation coordination of transformers",
+    "D": "To measure the earth resistance of substations",
+    "Answer": "To determine the magnitude and phase angle of voltages at each bus and the real and reactive power flow in each line",
+    "Image": "1",
+    "Explaination": "Load flow analysis is used to determine the steady-state operating conditions of a power system, including bus voltages, angles, and line power flows."
+  },
+  {
+    "Question": "In a load flow study, which type of bus is known as the 'Swing Bus' or 'Slack Bus'?",
+    "A": "The bus where both voltage magnitude and phase angle are specified",
+    "B": "The bus where both real power (P) and reactive power (Q) are specified",
+    "C": "The bus where voltage magnitude and real power (P) are specified",
+    "D": "The bus where voltage magnitude and phase angle are specified, and it supplies the losses",
+    "Answer": "The bus where voltage magnitude and phase angle are specified, and it supplies the losses",
+    "Image": "1",
+    "Explaination": "The slack bus (or swing bus) is a reference bus where the voltage magnitude and angle are specified, and it balances the system by supplying the difference between generation and load plus losses."
+  },
+  {
+    "Question": "Which bus is also called the voltage-controlled bus in a power system?",
+    "A": "Slack bus",
+    "B": "PQ bus",
+    "C": "PV bus",
+    "D": "Reference bus",
+    "Answer": "PV bus",
+    "Image": "1",
+    "Explaination": "A PV bus is a voltage-controlled bus where the voltage magnitude and active power are specified, and the reactive power is calculated."
+  },
+  {
+    "Question": "Which of the following is a major advantage of using the Newton-Raphson method for load flow analysis?",
+    "A": "It has quadratic convergence characteristics",
+    "B": "It requires no initial guess",
+    "C": "It is the simplest method for hand calculations",
+    "D": "It does not require the formation of a Jacobian matrix",
+    "Answer": "It has quadratic convergence characteristics",
+    "Image": "1",
+    "Explaination": "The Newton-Raphson method has a quadratic convergence characteristic, meaning it converges very fast (in a few iterations) when the initial guess is close to the solution."
+  },
+  {
+    "Question": "What does the Y-bus matrix in a power system represent?",
+    "A": "The admittance of the transmission network",
+    "B": "The impedance of the generators",
+    "C": "The power flow in the lines",
+    "D": "The voltage magnitudes at the buses",
+    "Answer": "The admittance of the transmission network",
+    "Image": "1",
+    "Explaination": "The Y-bus (admittance matrix) represents the nodal admittance of the power system network, used in load flow and fault studies."
+  },
+  {
+    "Question": "In a Y-bus matrix, what is the diagonal element Yii called?",
+    "A": "Transfer admittance",
+    "B": "Driving point admittance",
+    "C": "Mutual admittance",
+    "D": "Leakage admittance",
+    "Answer": "Driving point admittance",
+    "Image": "1",
+    "Explaination": "The diagonal elements of the Y-bus matrix are called driving point admittances (self-admittances), and off-diagonal elements are transfer admittances (mutual admittances)."
+  },
+  {
+    "Question": "What is the typical value of the diagonal element in a Y-bus matrix?",
+    "A": "The sum of all admittances connected to the bus",
+    "B": "The negative of the admittance connected between two buses",
+    "C": "Zero",
+    "D": "Always equal to 1 p.u.",
+    "Answer": "The sum of all admittances connected to the bus",
+    "Image": "1",
+    "Explaination": "Each diagonal element Yii is the sum of all admittances connected to that bus, including the shunt admittances to the reference node."
+  },
+  {
+    "Question": "What type of fault is a single line-to-ground fault?",
+    "A": "Symmetrical fault",
+    "B": "Unsymmetrical fault",
+    "C": "Three-phase fault",
+    "D": "Line-to-line fault",
+    "Answer": "Unsymmetrical fault",
+    "Image": "1",
+    "Explaination": "A single line-to-ground (LG) fault is an unsymmetrical fault where only one phase is connected to the ground."
+  },
+  {
+    "Question": "Which fault is the most severe type of fault in a power system?",
+    "A": "Line-to-ground fault",
+    "B": "Line-to-line fault",
+    "C": "Double line-to-ground fault",
+    "D": "Three-phase symmetrical fault",
+    "Answer": "Three-phase symmetrical fault",
+    "Image": "1",
+    "Explaination": "A three-phase symmetrical fault is the most severe type because it involves all three phases and results in the highest fault current."
+  },
+  {
+    "Question": "What is the purpose of using symmetrical components in fault analysis?",
+    "A": "To simplify the analysis of unsymmetrical faults",
+    "B": "To convert DC to AC",
+    "C": "To increase the stability of the generator",
+    "D": "To reduce the fault current",
+    "Answer": "To simplify the analysis of unsymmetrical faults",
+    "Image": "1",
+    "Explaination": "Symmetrical components transform an unbalanced three-phase system into three balanced systems (positive, negative, and zero sequence), simplifying the analysis of unsymmetrical faults."
+  },
+  {
+    "Question": "In symmetrical component analysis, which sequence component represents the balanced three-phase currents with a phase sequence of a-b-c?",
+    "A": "Positive sequence",
+    "B": "Negative sequence",
+    "C": "Zero sequence",
+    "D": "Homopolar sequence",
+    "Answer": "Positive sequence",
+    "Image": "1",
+    "Explaination": "The positive sequence component consists of three balanced phasors with the same phase sequence (a-b-c) as the original system."
+  },
+  {
+    "Question": "For a three-phase symmetrical fault, what is the relationship between the fault current and the sequence components?",
+    "A": "Only the positive sequence network is used",
+    "B": "Only the negative sequence network is used",
+    "C": "All three sequence networks are connected in series",
+    "D": "All three sequence networks are connected in parallel",
+    "Answer": "Only the positive sequence network is used",
+    "Image": "1",
+    "Explaination": "A symmetrical fault produces only positive sequence currents, so the fault analysis involves only the positive sequence network."
+  },
+  {
+    "Question": "What is the inertia constant H of a synchronous machine defined as?",
+    "A": "The ratio of stored kinetic energy in MJ to the machine rating in MVA",
+    "B": "The ratio of synchronous speed to rated speed",
+    "C": "The ratio of fault MVA to rated MVA",
+    "D": "The ratio of field current to armature current",
+    "Answer": "The ratio of stored kinetic energy in MJ to the machine rating in MVA",
+    "Image": "1",
+    "Explaination": "The inertia constant H = (Stored Kinetic Energy in MJ) / (Machine Rating in MVA), representing the time in seconds a machine can supply rated power from its stored kinetic energy."
+  },
+  {
+    "Question": "What is the unit of the swing equation when expressed in electrical radians?",
+    "A": "M in MJ-s/elec. rad",
+    "B": "M in MJ-s/elec. deg",
+    "C": "M in MJ-s/mech. rad",
+    "D": "M in MJ-s/mech. deg",
+    "Answer": "M in MJ-s/elec. rad",
+    "Image": "1",
+    "Explaination": "When the swing equation is expressed in electrical radians, the inertia coefficient M has units of MJ-s/elec. rad."
+  },
+  {
+    "Question": "What is the critical clearing time (CCT) of a power system?",
+    "A": "The maximum time for which a fault can remain on the system without causing loss of synchronism",
+    "B": "The time required to reach steady-state after fault clearing",
+    "C": "The time taken by circuit breakers to operate",
+    "D": "The time constant of the generator excitation system",
+    "Answer": "The maximum time for which a fault can remain on the system without causing loss of synchronism",
+    "Image": "1",
+    "Explaination": "Critical clearing time (CCT) is the maximum time duration for which a fault can persist before the system becomes transiently unstable."
+  },
+  {
+    "Question": "How does the critical clearing time change if the inertia constant H of the generator is increased?",
+    "A": "The critical clearing time increases",
+    "B": "The critical clearing time decreases",
+    "C": "The critical clearing time remains unchanged",
+    "D": "The critical clearing time becomes zero",
+    "Answer": "The critical clearing time increases",
+    "Image": "1",
+    "Explaination": "A larger inertia constant H means the rotor accelerates more slowly during a fault, increasing the critical clearing time and improving transient stability."
+  },
+  {
+    "Question": "What is the equal area criterion based on?",
+    "A": "The conservation of energy principle applied to the rotor",
+    "B": "The conservation of momentum of the stator",
+    "C": "Kirchhoff's voltage law",
+    "D": "The superposition theorem",
+    "Answer": "The conservation of energy principle applied to the rotor",
+    "Image": "1",
+    "Explaination": "The equal area criterion is derived from the swing equation and represents the energy balance of the rotor: the accelerating energy must be absorbed by the decelerating energy for stability."
+  },
+  {
+    "Question": "What is the effect of increasing the fault clearing time on the transient stability of a power system?",
+    "A": "It increases the transient stability",
+    "B": "It decreases the transient stability",
+    "C": "It has no effect on transient stability",
+    "D": "It increases the steady-state stability",
+    "Answer": "It decreases the transient stability",
+    "Image": "1",
+    "Explaination": "A longer fault clearing time allows the rotor to accelerate more, increasing the accelerating area and making the system less stable."
+  },
+  {
+    "Question": "What is the steady-state stability limit of a synchronous machine?",
+    "A": "The maximum power that can be transferred without loss of synchronism under steady-state conditions",
+    "B": "The maximum power during a fault",
+    "C": "The power at which the machine is rated",
+    "D": "The power at which the machine operates at unity power factor",
+    "Answer": "The maximum power that can be transferred without loss of synchronism under steady-state conditions",
+    "Image": "1",
+    "Explaination": "The steady-state stability limit is the maximum power that can be transmitted over a transmission line or by a machine without losing synchronism under slow, gradual load changes."
+  },
+  {
+    "Question": "For a cylindrical rotor generator, what is the steady-state stability limit?",
+    "A": "Pmax = |E||V| / X",
+    "B": "Pmax = |E||V| / (2X)",
+    "C": "Pmax = |E||V| / (√3 X)",
+    "D": "Pmax = |E||V| / X²",
+    "Answer": "Pmax = |E||V| / X",
+    "Image": "1",
+    "Explaination": "For a cylindrical rotor generator, the maximum power occurs at δ = 90°, giving Pmax = |E||V| / X."
+  },
+  {
+    "Question": "What is the significance of the power-angle curve in power system stability?",
+    "A": "It shows the relationship between electrical power and rotor angle",
+    "B": "It shows the relationship between voltage and current",
+    "C": "It shows the relationship between frequency and time",
+    "D": "It shows the relationship between fault current and fault time",
+    "Answer": "It shows the relationship between electrical power and rotor angle",
+    "Image": "1",
+    "Explaination": "The power-angle curve (P vs. δ) is fundamental to stability analysis as it shows how power transfer varies with the rotor angle."
+  },
+  {
+    "Question": "What is a 'symmetrical fault' in a power system?",
+    "A": "A fault involving all three phases equally",
+    "B": "A fault involving only one phase",
+    "C": "A fault involving two phases",
+    "D": "A fault involving only the neutral",
+    "Answer": "A fault involving all three phases equally",
+    "Image": "1",
+    "Explaination": "A symmetrical fault (three-phase fault) affects all three phases equally, resulting in balanced currents with equal phase displacement."
+  },
+  {
+    "Question": "What is the purpose of a current-limiting reactor in a power system?",
+    "A": "To limit the fault current during short circuits",
+    "B": "To increase the voltage during normal operation",
+    "C": "To improve the power factor",
+    "D": "To reduce the transmission losses",
+    "Answer": "To limit the fault current during short circuits",
+    "Image": "1",
+    "Explaination": "Current-limiting reactors are used in series with equipment to reduce the magnitude of fault currents, protecting circuit breakers and other equipment."
+  },
+  {
+    "Question": "In a power system, what does a 'fault' generally refer to?",
+    "A": "An abnormal condition involving a short circuit or open circuit",
+    "B": "A normal operating condition",
+    "C": "A scheduled maintenance event",
+    "D": "A load flow calculation",
+    "Answer": "An abnormal condition involving a short circuit or open circuit",
+    "Image": "1",
+    "Explaination": "A fault is an abnormal condition in the power system, such as a short circuit (low impedance path) or an open circuit (broken conductor), that disrupts normal operation."
+  },
+  {
+    "Question": "What is the primary use of the per-unit (p.u.) system in power system calculations?",
+    "A": "To simplify calculations by normalizing values to base quantities",
+    "B": "To increase the voltage level",
+    "C": "To reduce the fault current",
+    "D": "To improve the power factor",
+    "Answer": "To simplify calculations by normalizing values to base quantities",
+    "Image": "1",
+    "Explaination": "The per-unit system simplifies calculations by expressing voltages, currents, powers, and impedances as fractions of specified base values, eliminating voltage level differences."
+  },
+  {
+    "Question": "What is the base impedance Zbase in per-unit calculations?",
+    "A": "Zbase = (Vbase)² / Sbase",
+    "B": "Zbase = Vbase / Ibase",
+    "C": "Zbase = Sbase / (Vbase)²",
+    "D": "Zbase = (Ibase)² / Sbase",
+    "Answer": "Zbase = (Vbase)² / Sbase",
+    "Image": "1",
+    "Explaination": "Base impedance is calculated from base voltage and base power as Zbase = (Vbase)² / Sbase."
+  },
+  {
+    "Question": "In the equal area criterion, what does the accelerating area represent?",
+    "A": "The area where mechanical power exceeds electrical power",
+    "B": "The area where electrical power exceeds mechanical power",
+    "C": "The area where voltage exceeds rated voltage",
+    "D": "The area where frequency exceeds rated frequency",
+    "Answer": "The area where mechanical power exceeds electrical power",
+    "Image": "1",
+    "Explaination": "The accelerating area (A1) is the area on the power-angle curve between the initial angle and the clearing angle where Pm > Pe, representing energy stored in the rotor."
+  },
+  {
+    "Question": "What is the decelerating area in the equal area criterion?",
+    "A": "The area where electrical power exceeds mechanical power",
+    "B": "The area where mechanical power exceeds electrical power",
+    "C": "The area where voltage exceeds rated voltage",
+    "D": "The area where frequency exceeds rated frequency",
+    "Answer": "The area where electrical power exceeds mechanical power",
+    "Image": "1",
+    "Explaination": "The decelerating area (A2) is the area on the power-angle curve between the clearing angle and the maximum swing angle where Pe > Pm, representing energy released from the rotor."
+  },
+  {
+    "Question": "What is the effect of a three-phase symmetrical fault at the terminals of a generator on the electrical power output?",
+    "A": "The electrical power output becomes zero",
+    "B": "The electrical power output becomes maximum",
+    "C": "The electrical power output remains constant",
+    "D": "The electrical power output becomes infinite",
+    "Answer": "The electrical power output becomes zero",
+    "Image": "1",
+    "Explaination": "During a three-phase symmetrical fault at the generator terminals, the terminal voltage collapses to zero, so the electrical power output Pe becomes zero."
+  }
+]

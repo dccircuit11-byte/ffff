@@ -1,0 +1,112 @@
+[
+  {
+    "Question": "What is Distribution Automation (DA)?",
+    "A": "The use of sensors, communication, and control systems to automate the monitoring and control of distribution equipment",
+    "B": "The use of analog meters for billing",
+    "C": "The use of only SCADA systems",
+    "D": "The use of only DERs",
+    "Answer": "The use of sensors, communication, and control systems to automate the monitoring and control of distribution equipment",
+    "Image": "1",
+    "Explaination": "Distribution Automation (DA) is the use of sensors, communication, and control systems to automate the monitoring and control of distribution equipment, improving reliability and efficiency."
+  },
+  {
+    "Question": "What is the primary goal of Distribution Automation?",
+    "A": "To improve the reliability, efficiency, and quality of power distribution",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To improve the reliability, efficiency, and quality of power distribution",
+    "Image": "1",
+    "Explaination": "The primary goal of Distribution Automation is to improve the reliability, efficiency, and quality of power distribution through automated monitoring and control."
+  },
+  {
+    "Question": "What are Distributed Energy Resources (DERs)?",
+    "A": "Small-scale energy generation and storage systems located close to the point of use",
+    "B": "Large-scale centralized power plants",
+    "C": "A type of SCADA system",
+    "D": "A type of smart meter",
+    "Answer": "Small-scale energy generation and storage systems located close to the point of use",
+    "Image": "1",
+    "Explaination": "Distributed Energy Resources (DERs) are small-scale energy generation and storage systems (such as solar panels, wind turbines, and batteries) located close to the point of use."
+  },
+  {
+    "Question": "What is the main advantage of DERs?",
+    "A": "They reduce transmission losses and improve grid resilience",
+    "B": "They increase transmission losses",
+    "C": "They reduce the use of renewable energy",
+    "D": "They eliminate all fossil fuel generation",
+    "Answer": "They reduce transmission losses and improve grid resilience",
+    "Image": "1",
+    "Explaination": "The main advantage of DERs is that they reduce transmission losses by generating power close to the point of use, and they improve grid resilience by providing local backup power."
+  },
+  {
+    "Question": "What is a microgrid?",
+    "A": "A small, localized grid that can operate independently or in coordination with the main grid",
+    "B": "A large centralized power plant",
+    "C": "A type of SCADA system",
+    "D": "A type of smart meter",
+    "Answer": "A small, localized grid that can operate independently or in coordination with the main grid",
+    "Image": "1",
+    "Explaination": "A microgrid is a small, localized grid that can operate independently (islanded) or in coordination with the main grid, often incorporating DERs and energy storage."
+  },
+  {
+    "Question": "What is the main advantage of a microgrid?",
+    "A": "It can operate independently during a grid outage, improving resilience",
+    "B": "It increases the cost of electricity",
+    "C": "It reduces the use of renewable energy",
+    "D": "It eliminates all fossil fuel generation",
+    "Answer": "It can operate independently during a grid outage, improving resilience",
+    "Image": "1",
+    "Explaination": "The main advantage of a microgrid is its ability to operate independently during a grid outage (islanded mode), improving resilience and reliability."
+  },
+  {
+    "Question": "What is the role of a microgrid controller?",
+    "A": "To manage the operation of the microgrid, including generation, storage, and load",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To manage the operation of the microgrid, including generation, storage, and load",
+    "Image": "1",
+    "Explaination": "A microgrid controller manages the operation of the microgrid, including generation, storage, and load, ensuring stable and efficient operation in both grid-connected and islanded modes."
+  },
+  {
+    "Question": "What is the role of energy storage in a microgrid?",
+    "A": "To store excess energy and provide backup power during outages",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To store excess energy and provide backup power during outages",
+    "Image": "1",
+    "Explaination": "Energy storage in a microgrid stores excess energy (e.g., from solar or wind) and provides backup power during outages, improving reliability and resilience."
+  },
+  {
+    "Question": "What is the role of a smart inverter in a microgrid?",
+    "A": "To provide grid support functions such as voltage regulation and frequency response",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To provide grid support functions such as voltage regulation and frequency response",
+    "Image": "1",
+    "Explaination": "A smart inverter in a microgrid provides grid support functions such as voltage regulation, frequency response, and reactive power compensation, improving stability."
+  },
+  {
+    "Question": "What is the main challenge in integrating DERs into the distribution grid?",
+    "A": "Managing the variability and uncertainty of DERs and ensuring grid stability",
+    "B": "Lack of electricity",
+    "C": "Excessive generation capacity",
+    "D": "Too many renewable sources",
+    "Answer": "Managing the variability and uncertainty of DERs and ensuring grid stability",
+    "Image": "1",
+    "Explaination": "The main challenge in integrating DERs into the distribution grid is managing their variability and uncertainty, and ensuring grid stability through advanced control and communication systems."
+  },
+  {
+    "Question": "What is the future trend in Distribution Automation and Microgrids?",
+    "A": "Increased use of advanced sensors, edge computing, and integration with DERs",
+    "B": "Decreased use of smart meters",
+    "C": "Increased use of analog meters",
+    "D": "Decreased use of communication networks",
+    "Answer": "Increased use of advanced sensors, edge computing, and integration with DERs",
+    "Image": "1",
+    "Explaination": "The future trend in Distribution Automation and Microgrids is the increased use of advanced sensors, edge computing, and integration with DERs for more intelligent and resilient grid operations."
+  }
+]

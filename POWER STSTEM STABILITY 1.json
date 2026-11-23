@@ -1,0 +1,312 @@
+[
+  {
+    "Question": "How is transient stability defined in a power system?",
+    "A": "The ability to maintain synchronism under small gradual load changes",
+    "B": "The ability of the power system to maintain synchronism when subjected to severe, large disturbances",
+    "C": "The ability to regulate distribution voltage within ±5%",
+    "D": "The capacity to operate generators without DC excitation",
+    "Answer": "The ability of the power system to maintain synchronism when subjected to severe, large disturbances",
+    "Image": "1",
+    "Explaination": "Transient stability is the response to large, sudden disturbances (faults, line outages), usually observed within a few seconds after the event."
+  },
+  {
+    "Question": "What is the basic differential equation governing rotor dynamics in a synchronous machine known as?",
+    "A": "Maxwell's equation",
+    "B": "Swing equation",
+    "C": "Bernoulli's equation",
+    "D": "Riccati equation",
+    "Answer": "Swing equation",
+    "Image": "1",
+    "Explaination": "M d²δ/dt² = Pm - Pe governs the relative motion of the rotor angle and is called the Swing Equation."
+  },
+  {
+    "Question": "Why is the swing equation mathematically classified as non-linear?",
+    "A": "Due to the damping coefficient term",
+    "B": "Because the electrical power output term contains sin δ",
+    "C": "Because moment of inertia changes with time",
+    "D": "Because mechanical input power is always exponential",
+    "Answer": "Because the electrical power output term contains sin δ",
+    "Image": "1",
+    "Explaination": "Pe = Pmax sin δ; the sinusoidal term makes the swing equation a second-order non-linear differential equation."
+  },
+  {
+    "Question": "What physical condition guarantees transient stability on a swing curve (δ vs. t)?",
+    "A": "The rotor angle δ increases continuously to infinity",
+    "B": "The rotor angle δ reaches a maximum value and then decreases (i.e., dδ/dt = 0)",
+    "C": "The rotor angle oscillates with exponentially increasing amplitude",
+    "D": "Rotor speed drops instantly to zero",
+    "Answer": "The rotor angle δ reaches a maximum value and then decreases (i.e., dδ/dt = 0)",
+    "Image": "1",
+    "Explaination": "If δ swings to a peak and starts decreasing (dδ/dt = 0), the system maintains transient synchronism."
+  },
+  {
+    "Question": "For which system configuration is the graphical Equal Area Criterion (EAC) strictly applicable?",
+    "A": "A single machine connected to an infinite bus (SMIB) or a two-machine system",
+    "B": "Highly interconnected multi-machine networks with 100+ buses",
+    "C": "Unbalanced radial distribution networks only",
+    "D": "Standalone DC traction systems",
+    "Answer": "A single machine connected to an infinite bus (SMIB) or a two-machine system",
+    "Image": "1",
+    "Explaination": "EAC is a graphical approach derived for a Single Machine Infinite Bus (SMIB) or an equivalent two-machine system."
+  },
+  {
+    "Question": "What fundamental assumption is made in the classic Equal Area Criterion?",
+    "A": "Mechanical power input Pm remains constant during the transient swing",
+    "B": "Line and machine resistances are neglected",
+    "C": "Voltage behind transient reactance is assumed constant",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Classical EAC assumes constant Pm, zero damping, constant transient voltage, and neglects system resistances."
+  },
+  {
+    "Question": "What is the Critical Clearing Angle (δ_cr)?",
+    "A": "The maximum power angle at which a fault can be cleared such that the decelerating area equals or exceeds the accelerating area",
+    "B": "The rotor angle at steady-state no-load",
+    "C": "The angle where electrical power is zero",
+    "D": "The angle where synchronizing torque becomes infinite",
+    "Answer": "The maximum power angle at which a fault can be cleared such that the decelerating area equals or exceeds the accelerating area",
+    "Image": "1",
+    "Explaination": "δ_cr is the maximum allowable rotor angle to clear the fault before the system loses its ability to decelerate and stay stable."
+  },
+  {
+    "Question": "What happens if a fault is cleared at a time greater than the Critical Clearing Time (CCT)?",
+    "A": "System returns to steady state smoothly",
+    "B": "The system loses synchronism and becomes transiently unstable",
+    "C": "The generator acts as a permanent DC magnet",
+    "D": "Mechanical input power drops to zero",
+    "Answer": "The system loses synchronism and becomes transiently unstable",
+    "Image": "1",
+    "Explaination": "If t > t_cr, the accelerating energy exceeds the maximum available decelerating energy, causing instability."
+  },
+  {
+    "Question": "What is the condition for stability according to the Equal Area Criterion?",
+    "A": "Accelerating Area A₁ > Decelerating Area A₂",
+    "B": "Accelerating Area A₁ ≤ Decelerating Area A₂",
+    "C": "Accelerating Area A₁ = 0",
+    "D": "Decelerating Area A₂ = 0",
+    "Answer": "Accelerating Area A₁ ≤ Decelerating Area A₂",
+    "Image": "1",
+    "Explaination": "The system remains transiently stable if the available decelerating area A₂ is equal to or greater than the accelerating area A₁."
+  },
+  {
+    "Question": "What represents the steady-state stability limit of a cylindrical rotor synchronous generator?",
+    "A": "δ = 0°",
+    "B": "δ = 90° (π/2 radians)",
+    "C": "δ = 180°",
+    "D": "δ = 45°",
+    "Answer": "δ = 90° (π/2 radians)",
+    "Image": "1",
+    "Explaination": "For a non-salient generator, maximum power transfer occurs at δ = 90°, where the synchronizing coefficient dP/dδ = 0."
+  },
+  {
+    "Question": "For a salient-pole synchronous generator, at what power angle does the steady-state stability limit occur?",
+    "A": "Exactly δ = 90°",
+    "B": "At δ < 90° due to reluctance torque",
+    "C": "At δ > 90°",
+    "D": "At δ = 180°",
+    "Answer": "At δ < 90° due to reluctance torque",
+    "Image": "1",
+    "Explaination": "The reluctance torque (sin 2δ term) shifts the peak of the power-angle curve to an angle less than 90°."
+  },
+  {
+    "Question": "Which method improves the transient stability of a power transmission system?",
+    "A": "Using high-speed circuit breakers and auto-reclosing",
+    "B": "Using parallel double-circuit lines instead of single lines",
+    "C": "Installing series capacitor compensation",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Reducing fault clearing time, lowering transfer reactance X (parallel lines, series capacitors) and fast reclosing all enhance stability margins."
+  },
+  {
+    "Question": "How does series capacitor compensation in a transmission line improve system stability?",
+    "A": "By increasing line resistance",
+    "B": "By reducing the net inductive transfer reactance between sending and receiving ends",
+    "C": "By stepping up excitation voltage",
+    "D": "By increasing rotor inertia",
+    "Answer": "By reducing the net inductive transfer reactance between sending and receiving ends",
+    "Image": "1",
+    "Explaination": "Series capacitors counteract line inductive reactance, increasing Pmax = |E||V| / X."
+  },
+  {
+    "Question": "What numerical integration method is widely used for step-by-step solution of the swing equation?",
+    "A": "Modified Euler method or Runge-Kutta 4th Order (RK4)",
+    "B": "Cramer's Rule",
+    "C": "Fast Fourier Transform",
+    "D": "Newton-Raphson load flow",
+    "Answer": "Modified Euler method or Runge-Kutta 4th Order (RK4)",
+    "Image": "1",
+    "Explaination": "Digital time-domain integration solves the non-linear swing equations step by step using Modified Euler or RK4."
+  },
+  {
+    "Question": "What is an operating synchronous motor termed when run without mechanical load to supply leading reactive power?",
+    "A": "Induction generator",
+    "B": "Synchronous condenser",
+    "C": "Reluctance motor",
+    "D": "Shaded pole alternator",
+    "Answer": "Synchronous condenser",
+    "Image": "1",
+    "Explaination": "An over-excited synchronous motor at zero shaft load delivers leading reactive power and acts as a synchronous condenser."
+  },
+  {
+    "Question": "What are damper (Amortisseur) windings primarily used for in synchronous machines?",
+    "A": "To supply field excitation",
+    "B": "To dampen rotor hunting oscillations and provide starting torque in motors",
+    "C": "To insulate the rotor shaft",
+    "D": "To eliminate armature leakage reactance",
+    "Answer": "To dampen rotor hunting oscillations and provide starting torque in motors",
+    "Image": "1",
+    "Explaination": "Damper bars in the pole faces induce induction torque during speed fluctuations (hunting), damping oscillations around synchronous speed."
+  },
+  {
+    "Question": "What is the relationship between inertia constant H and angular momentum M at rated synchronous frequency f?",
+    "A": "M = H / (π f)",
+    "B": "M = GH / (πf) (radians) or M = GH / (180 f) (electrical degrees), where G is the machine MVA rating",
+    "C": "M = H × f",
+    "D": "M = 2H / f²",
+    "Answer": "M = GH / (πf) (radians) or M = GH / (180 f) (electrical degrees), where G is the machine MVA rating",
+    "Image": "1",
+    "Explaination": "M = GH / (πf) (radians) or M = GH / (180 f) (electrical degrees), where G is the machine MVA rating."
+  },
+  {
+    "Question": "What is the unit of the inertia constant H in power systems?",
+    "A": "Mega-Joules per MVA (or seconds)",
+    "B": "Ohms per kilometer",
+    "C": "Siemens",
+    "D": "Radians per second",
+    "Answer": "Mega-Joules per MVA (or seconds)",
+    "Image": "1",
+    "Explaination": "H = Kinetic energy in MJ / Rating in MVA (seconds)."
+  },
+  {
+    "Question": "What happens to electrical power output Pe during a solid three-phase symmetrical fault at generator terminals?",
+    "A": "It doubles",
+    "B": "It drops to zero",
+    "C": "It remains unchanged",
+    "D": "It becomes purely inductive at 1.0 p.u.",
+    "Answer": "It drops to zero",
+    "Image": "1",
+    "Explaination": "With a zero-impedance 3-phase fault at the terminals, terminal voltage is zero; hence Pe = (EV/X) sin δ = 0."
+  },
+  {
+    "Question": "When a solid 3-phase terminal fault occurs (Pe = 0), how does rotor acceleration d²δ/dt² behave?",
+    "A": "Acceleration becomes zero",
+    "B": "Rotor undergoes constant maximum acceleration: d²δ/dt² = Pm/M",
+    "C": "Rotor decelerates rapidly",
+    "D": "Rotor angle freezes",
+    "Answer": "Rotor undergoes constant maximum acceleration: d²δ/dt² = Pm/M",
+    "Image": "1",
+    "Explaination": "With Pe = 0, Pa = Pm; hence d²δ/dt² = Pm/M = constant."
+  },
+  {
+    "Question": "What is the angle δm representing the maximum allowable rotor swing in the classical Equal Area formulation?",
+    "A": "δm = π/2",
+    "B": "δm = π - δs = π - sin⁻¹(Pm / Pmax3)",
+    "C": "δm = 0",
+    "D": "δm = 2π",
+    "Answer": "δm = π - δs = π - sin⁻¹(Pm / Pmax3)",
+    "Image": "1",
+    "Explaination": "The upper boundary of the decelerating area on the post-fault curve is where accelerating power changes sign, at δm = π - δs."
+  },
+  {
+    "Question": "What is the synchronizing power coefficient Psyn defined as?",
+    "A": "Psyn = dP/dδ = Pmax cos δ",
+    "B": "Psyn = P × sin δ",
+    "C": "Psyn = ∫ P dδ",
+    "D": "Psyn = d²P/dδ²",
+    "Answer": "Psyn = dP/dδ = Pmax cos δ",
+    "Image": "1",
+    "Explaination": "The synchronizing power coefficient is the derivative of power with respect to the power angle, Psyn = dP/dδ = Pmax cos δ."
+  },
+  {
+    "Question": "For stable steady-state operation of a synchronous machine, the synchronizing power coefficient must be:",
+    "A": "Negative",
+    "B": "Positive (dP/dδ > 0)",
+    "C": "Zero",
+    "D": "Complex imaginary",
+    "Answer": "Positive (dP/dδ > 0)",
+    "Image": "1",
+    "Explaination": "A positive synchronizing power coefficient ensures that an increase in load angle results in increased power transfer, restoring equilibrium."
+  },
+  {
+    "Question": "In an interconnected multi-machine system, what does a negative damping torque coefficient cause?",
+    "A": "Sub-synchronous resonance",
+    "B": "Spontaneous, growing oscillatory instability (small-signal instability)",
+    "C": "Instantaneous stator short-circuit",
+    "D": "Over-excitation tripping",
+    "Answer": "Spontaneous, growing oscillatory instability (small-signal instability)",
+    "Image": "1",
+    "Explaination": "Negative damping causes oscillations to grow in amplitude over time, leading to small-signal instability."
+  },
+  {
+    "Question": "How is dynamic stability distinguished from steady-state stability?",
+    "A": "Dynamic stability includes the action of automatic control devices (fast AVRs, governors, PSS) over 10 to 30 seconds",
+    "B": "Dynamic stability ignores turbine inertia",
+    "C": "Dynamic stability operates only at DC",
+    "D": "Dynamic stability applies only during lightning strikes",
+    "Answer": "Dynamic stability includes the action of automatic control devices (fast AVRs, governors, PSS) over 10 to 30 seconds",
+    "Image": "1",
+    "Explaination": "Dynamic stability studies the system's response to small disturbances over a longer period, incorporating control systems like AVRs, governors, and PSS."
+  },
+  {
+    "Question": "What is the role of a Power System Stabilizer (PSS) in excitation systems?",
+    "A": "To eliminate neutral ground current",
+    "B": "To introduce an auxiliary modulating signal into the AVR to produce damping torque in phase with rotor speed deviations",
+    "C": "To trip generator field breakers during minor faults",
+    "D": "To step up turbine mechanical power",
+    "Answer": "To introduce an auxiliary modulating signal into the AVR to produce damping torque in phase with rotor speed deviations",
+    "Image": "1",
+    "Explaination": "PSS provides an additional input to the excitation system to dampen power system oscillations by producing a torque in phase with speed deviations."
+  },
+  {
+    "Question": "What is the formula for electrical power transferred between two sources over a line with reactance X and negligible resistance?",
+    "A": "Pe = (|E1||E2| / X) sin δ",
+    "B": "Pe = ((E1 + E2) / X) cos δ",
+    "C": "Pe = I²X sin δ",
+    "D": "Pe = (X / |E1||E2|) sin δ",
+    "Answer": "Pe = (|E1||E2| / X) sin δ",
+    "Image": "1",
+    "Explaination": "The power transfer equation for a lossless line is Pe = (|E1||E2| / X) sin δ, where δ is the angle difference."
+  },
+  {
+    "Question": "In a power-angle curve, what does the peak Pmax physically represent?",
+    "A": "Steady-state power limit of the link",
+    "B": "Rated generator copper loss",
+    "C": "Minimum excitation limit",
+    "D": "Subtransient short-circuit MVA",
+    "Answer": "Steady-state power limit of the link",
+    "Image": "1",
+    "Explaination": "Pmax represents the maximum power that can be transmitted over the link under steady-state conditions before losing synchronism."
+  },
+  {
+    "Question": "What is the effect of clearing a transmission fault with high-speed reclosing?",
+    "A": "Increases post-fault transfer impedance",
+    "B": "Restores full parallel transmission capacity rapidly, maximizing post-fault decelerating area",
+    "C": "Reduces generator inertia constant H",
+    "D": "Trips all turbine valves",
+    "Answer": "Restores full parallel transmission capacity rapidly, maximizing post-fault decelerating area",
+    "Image": "1",
+    "Explaination": "High-speed reclosing quickly restores the transmission line, increasing the decelerating area and improving transient stability."
+  },
+  {
+    "Question": "What causes the phenomenon known as 'Hunting' in synchronous machines?",
+    "A": "Continuous cyclic fluctuations of rotor angle δ around the steady equilibrium position due to sudden load changes",
+    "B": "Searching for ground faults",
+    "C": "Transformer core saturation",
+    "D": "Loss of field excitation",
+    "Answer": "Continuous cyclic fluctuations of rotor angle δ around the steady equilibrium position due to sudden load changes",
+    "Image": "1",
+    "Explaination": "Hunting refers to the oscillation of the rotor angle around its steady-state position due to sudden changes in load or torque."
+  },
+  {
+    "Question": "How is the Short Circuit Ratio (SCR) of a synchronous alternator defined?",
+    "A": "Ratio of field current for rated open-circuit voltage to field current for rated short-circuit armature current",
+    "B": "Direct-axis subtransient reactance divided by negative sequence reactance",
+    "C": "Stator resistance divided by rotor resistance",
+    "D": "Rated MVA divided by short circuit MVA",
+    "Answer": "Ratio of field current for rated open-circuit voltage to field current for rated short-circuit armature current",
+    "Image": "1",
+    "Explaination": "SCR is defined as the ratio of the field current required for rated open-circuit voltage to the field current required for rated short-circuit armature current."
+  }
+]

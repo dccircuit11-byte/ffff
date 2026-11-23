@@ -1,0 +1,222 @@
+[
+  {
+    "Question": "What is the primary function of a ground mat in a substation?",
+    "A": "To provide a low-resistance path for fault currents and ensure safety against step and touch potentials",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To provide a low-resistance path for fault currents and ensure safety against step and touch potentials",
+    "Image": "1",
+    "Explaination": "A ground mat in a substation provides a low-resistance path for fault currents and ensures the safety of personnel against step and touch potentials."
+  },
+  {
+    "Question": "What is the typical material used for a substation ground mat?",
+    "A": "Copper or galvanized steel conductors",
+    "B": "Aluminum only",
+    "C": "Wood",
+    "D": "Plastic",
+    "Answer": "Copper or galvanized steel conductors",
+    "Image": "1",
+    "Explaination": "Substation ground mats are typically made of copper or galvanized steel conductors due to their high conductivity and corrosion resistance."
+  },
+  {
+    "Question": "What is the purpose of a ground grid in a substation?",
+    "A": "To provide a low-resistance path for fault currents and ensure safety against step and touch potentials",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To provide a low-resistance path for fault currents and ensure safety against step and touch potentials",
+    "Image": "1",
+    "Explaination": "A ground grid in a substation provides a low-resistance path for fault currents and ensures the safety of personnel against step and touch potentials."
+  },
+  {
+    "Question": "What is the typical depth of a substation ground grid?",
+    "A": "0.5 to 1.0 meters",
+    "B": "2.0 to 3.0 meters",
+    "C": "5.0 to 6.0 meters",
+    "D": "10.0 to 15.0 meters",
+    "Answer": "0.5 to 1.0 meters",
+    "Image": "1",
+    "Explaination": "The typical depth of a substation ground grid is 0.5 to 1.0 meters below the ground surface."
+  },
+  {
+    "Question": "What is the purpose of a ground well in an earthing system?",
+    "A": "To provide a low-resistance path to the earth by using a deep well filled with conducting material",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To provide a low-resistance path to the earth by using a deep well filled with conducting material",
+    "Image": "1",
+    "Explaination": "A ground well provides a low-resistance path to the earth by using a deep well filled with conducting material, such as bentonite or graphite."
+  },
+  {
+    "Question": "What is the purpose of a ground plate in an earthing system?",
+    "A": "To provide a low-resistance path to the earth by using a large metal plate buried in the ground",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To provide a low-resistance path to the earth by using a large metal plate buried in the ground",
+    "Image": "1",
+    "Explaination": "A ground plate provides a low-resistance path to the earth by using a large metal plate buried in the ground, increasing the contact area with the soil."
+  },
+  {
+    "Question": "What is the typical size of a ground plate used in earthing systems?",
+    "A": "60 cm × 60 cm",
+    "B": "30 cm × 30 cm",
+    "C": "100 cm × 100 cm",
+    "D": "150 cm × 150 cm",
+    "Answer": "60 cm × 60 cm",
+    "Image": "1",
+    "Explaination": "The typical size of a ground plate used in earthing systems is 60 cm × 60 cm, providing a large contact area with the soil."
+  },
+  {
+    "Question": "What is the purpose of a ground pipe in an earthing system?",
+    "A": "To provide a low-resistance path to the earth by using a metal pipe driven into the ground",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To provide a low-resistance path to the earth by using a metal pipe driven into the ground",
+    "Image": "1",
+    "Explaination": "A ground pipe provides a low-resistance path to the earth by using a metal pipe driven into the ground, reaching deeper soil layers with better conductivity."
+  },
+  {
+    "Question": "What is the typical length of a ground pipe used in earthing systems?",
+    "A": "1 to 2 meters",
+    "B": "3 to 5 meters",
+    "C": "10 to 15 meters",
+    "D": "20 to 25 meters",
+    "Answer": "3 to 5 meters",
+    "Image": "1",
+    "Explaination": "The typical length of a ground pipe used in earthing systems is 3 to 5 meters, reaching deeper soil layers with better conductivity."
+  },
+  {
+    "Question": "What is the purpose of a ground rod in an earthing system?",
+    "A": "To provide a low-resistance path to the earth by using a metal rod driven into the ground",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To provide a low-resistance path to the earth by using a metal rod driven into the ground",
+    "Image": "1",
+    "Explaination": "A ground rod provides a low-resistance path to the earth by using a metal rod driven into the ground, reaching deeper soil layers with better conductivity."
+  },
+  {
+    "Question": "What is the typical diameter of a ground rod used in earthing systems?",
+    "A": "5 to 10 mm",
+    "B": "15 to 25 mm",
+    "C": "50 to 60 mm",
+    "D": "100 to 150 mm",
+    "Answer": "15 to 25 mm",
+    "Image": "1",
+    "Explaination": "The typical diameter of a ground rod used in earthing systems is 15 to 25 mm, providing sufficient mechanical strength and conductivity."
+  },
+  {
+    "Question": "What is the purpose of a ground wire in an earthing system?",
+    "A": "To connect the equipment to the earth electrode",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To connect the equipment to the earth electrode",
+    "Image": "1",
+    "Explaination": "A ground wire connects the equipment to the earth electrode, providing a low-resistance path for fault currents to the earth."
+  },
+  {
+    "Question": "What is the typical size of a ground wire used in domestic earthing systems?",
+    "A": "1.5 mm²",
+    "B": "6 mm²",
+    "C": "25 mm²",
+    "D": "100 mm²",
+    "Answer": "6 mm²",
+    "Image": "1",
+    "Explaination": "The typical size of a ground wire used in domestic earthing systems is 6 mm², providing sufficient conductivity for fault currents."
+  },
+  {
+    "Question": "What is the purpose of a ground bus in an earthing system?",
+    "A": "To provide a common connection point for multiple ground wires",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To provide a common connection point for multiple ground wires",
+    "Image": "1",
+    "Explaination": "A ground bus provides a common connection point for multiple ground wires, simplifying the earthing system and ensuring a low-resistance path."
+  },
+  {
+    "Question": "What is the purpose of a ground bar in an earthing system?",
+    "A": "To provide a common connection point for multiple ground wires",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To provide a common connection point for multiple ground wires",
+    "Image": "1",
+    "Explaination": "A ground bar provides a common connection point for multiple ground wires, simplifying the earthing system and ensuring a low-resistance path."
+  },
+  {
+    "Question": "What is the purpose of a ground fault neutralizer?",
+    "A": "To suppress arcing grounds and limit fault currents",
+    "B": "To increase the voltage of the system",
+    "C": "To improve the power factor",
+    "D": "To measure the current",
+    "Answer": "To suppress arcing grounds and limit fault currents",
+    "Image": "1",
+    "Explaination": "A ground fault neutralizer suppresses arcing grounds and limits fault currents, improving system stability and safety."
+  },
+  {
+    "Question": "What is the purpose of a ground fault protection relay?",
+    "A": "To detect ground faults and trip the circuit breaker",
+    "B": "To measure the earth resistance",
+    "C": "To improve the power factor",
+    "D": "To increase the voltage",
+    "Answer": "To detect ground faults and trip the circuit breaker",
+    "Image": "1",
+    "Explaination": "A ground fault protection relay detects ground faults and trips the circuit breaker to isolate the fault and protect the system."
+  },
+  {
+    "Question": "What is the difference between a ground fault and a short circuit?",
+    "A": "A ground fault involves an unintended connection to earth, while a short circuit involves an unintended connection between phases",
+    "B": "A ground fault is more severe than a short circuit",
+    "C": "A ground fault is less severe than a short circuit",
+    "D": "There is no difference between them",
+    "Answer": "A ground fault involves an unintended connection to earth, while a short circuit involves an unintended connection between phases",
+    "Image": "1",
+    "Explaination": "A ground fault involves an unintended connection to earth, while a short circuit involves an unintended connection between phases or between a phase and neutral."
+  },
+  {
+    "Question": "What is the purpose of a ground fault interrupter (GFI)?",
+    "A": "To protect against electric shock by detecting ground faults",
+    "B": "To protect against overload",
+    "C": "To improve the power factor",
+    "D": "To increase the voltage",
+    "Answer": "To protect against electric shock by detecting ground faults",
+    "Image": "1",
+    "Explaination": "A ground fault interrupter (GFI) protects against electric shock by detecting ground faults and quickly disconnecting the supply."
+  },
+  {
+    "Question": "What is the typical tripping current of a GFI used in residential installations?",
+    "A": "5 mA",
+    "B": "30 mA",
+    "C": "100 mA",
+    "D": "300 mA",
+    "Answer": "5 mA",
+    "Image": "1",
+    "Explaination": "The typical tripping current of a GFI used in residential installations is 5 mA, providing sensitive protection against electric shock."
+  },
+  {
+    "Question": "What is the purpose of a ground fault circuit interrupter (GFCI)?",
+    "A": "To protect against electric shock by detecting ground faults",
+    "B": "To protect against overload",
+    "C": "To improve the power factor",
+    "D": "To increase the voltage",
+    "Answer": "To protect against electric shock by detecting ground faults",
+    "Image": "1",
+    "Explaination": "A ground fault circuit interrupter (GFCI) protects against electric shock by detecting ground faults and quickly disconnecting the supply."
+  },
+  {
+    "Question": "What is the purpose of an arc fault circuit interrupter (AFCI)?",
+    "A": "To protect against electrical fires by detecting arc faults",
+    "B": "To protect against overload",
+    "C": "To improve the power factor",
+    "D": "To increase the voltage",
+    "Answer": "To protect against electrical fires by detecting arc faults",
+    "Image": "1",
+    "Explaination": "An arc fault circuit interrupter (AFCI) protects against electrical fires by detecting arc faults and quickly disconnecting the supply."
+  }
+]

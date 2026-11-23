@@ -1,0 +1,202 @@
+[
+  {
+    "Question": "What is substation automation?",
+    "A": "The use of intelligent electronic devices (IEDs), communication networks, and control systems to automate the monitoring and control of substation equipment",
+    "B": "The use of analog meters for billing",
+    "C": "The use of only SCADA systems",
+    "D": "The use of only DERs",
+    "Answer": "The use of intelligent electronic devices (IEDs), communication networks, and control systems to automate the monitoring and control of substation equipment",
+    "Image": "1",
+    "Explaination": "Substation automation is the use of intelligent electronic devices (IEDs), communication networks, and control systems to automate the monitoring and control of substation equipment, improving reliability and efficiency."
+  },
+  {
+    "Question": "What is the primary goal of substation automation?",
+    "A": "To improve the reliability, efficiency, and safety of substation operations",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To improve the reliability, efficiency, and safety of substation operations",
+    "Image": "1",
+    "Explaination": "The primary goal of substation automation is to improve the reliability, efficiency, and safety of substation operations through automated monitoring and control."
+  },
+  {
+    "Question": "What is an Intelligent Electronic Device (IED)?",
+    "A": "A microprocessor-based device that provides protection, control, and monitoring functions in a substation",
+    "B": "An analog meter",
+    "C": "A type of SCADA system",
+    "D": "A type of DER",
+    "Answer": "A microprocessor-based device that provides protection, control, and monitoring functions in a substation",
+    "Image": "1",
+    "Explaination": "An Intelligent Electronic Device (IED) is a microprocessor-based device that provides protection, control, and monitoring functions in a substation, such as protective relays and meters."
+  },
+  {
+    "Question": "What is the IEC 61850 standard?",
+    "A": "An international standard for substation automation and communication",
+    "B": "An international standard for solar panels",
+    "C": "An international standard for wind turbines",
+    "D": "An international standard for batteries",
+    "Answer": "An international standard for substation automation and communication",
+    "Image": "1",
+    "Explaination": "IEC 61850 is an international standard for substation automation and communication, defining protocols and data models for intelligent electronic devices (IEDs)."
+  },
+  {
+    "Question": "What is the main advantage of IEC 61850?",
+    "A": "It enables interoperability between devices from different manufacturers",
+    "B": "It increases the cost of electricity",
+    "C": "It reduces the use of renewable energy",
+    "D": "It eliminates all fossil fuel generation",
+    "Answer": "It enables interoperability between devices from different manufacturers",
+    "Image": "1",
+    "Explaination": "The main advantage of IEC 61850 is that it enables interoperability between devices from different manufacturers, allowing for more flexible and scalable substation automation systems."
+  },
+  {
+    "Question": "What is a Wide Area Monitoring System (WAMS)?",
+    "A": "A system that uses phasor measurement units (PMUs) to monitor the power grid over a wide area in real time",
+    "B": "A system that uses analog meters",
+    "C": "A system that uses only SCADA",
+    "D": "A system that uses only DERs",
+    "Answer": "A system that uses phasor measurement units (PMUs) to monitor the power grid over a wide area in real time",
+    "Image": "1",
+    "Explaination": "A Wide Area Monitoring System (WAMS) uses phasor measurement units (PMUs) to monitor the power grid over a wide area in real time, improving situational awareness."
+  },
+  {
+    "Question": "What is a Phasor Measurement Unit (PMU)?",
+    "A": "A device that measures the electrical waves on the power grid to determine the health of the system",
+    "B": "A type of smart meter",
+    "C": "A type of SCADA system",
+    "D": "A type of DER",
+    "Answer": "A device that measures the electrical waves on the power grid to determine the health of the system",
+    "Image": "1",
+    "Explaination": "A Phasor Measurement Unit (PMU) measures the electrical waves on the power grid to determine the health of the system, providing high-speed synchronized measurements."
+  },
+  {
+    "Question": "What is the main advantage of WAMS?",
+    "A": "It provides real-time wide-area visibility of the power grid, improving situational awareness and stability",
+    "B": "It increases the cost of electricity",
+    "C": "It reduces the use of renewable energy",
+    "D": "It eliminates all fossil fuel generation",
+    "Answer": "It provides real-time wide-area visibility of the power grid, improving situational awareness and stability",
+    "Image": "1",
+    "Explaination": "The main advantage of WAMS is that it provides real-time wide-area visibility of the power grid, improving situational awareness and stability."
+  },
+  {
+    "Question": "What is power quality?",
+    "A": "The set of characteristics of the electrical supply that affect the performance of electrical equipment",
+    "B": "The cost of electricity",
+    "C": "The amount of electricity consumed",
+    "D": "The type of electricity generated",
+    "Answer": "The set of characteristics of the electrical supply that affect the performance of electrical equipment",
+    "Image": "1",
+    "Explaination": "Power quality is the set of characteristics of the electrical supply (such as voltage, frequency, and waveform) that affect the performance of electrical equipment."
+  },
+  {
+    "Question": "What is a voltage sag?",
+    "A": "A temporary reduction in the RMS voltage below 90% of the nominal value",
+    "B": "A temporary increase in the RMS voltage",
+    "C": "A complete loss of voltage",
+    "D": "A change in the frequency of the voltage",
+    "Answer": "A temporary reduction in the RMS voltage below 90% of the nominal value",
+    "Image": "1",
+    "Explaination": "A voltage sag is a temporary reduction in the RMS voltage below 90% of the nominal value, typically lasting from a few cycles to a few seconds."
+  },
+  {
+    "Question": "What is a voltage swell?",
+    "A": "A temporary increase in the RMS voltage above 110% of the nominal value",
+    "B": "A temporary reduction in the RMS voltage",
+    "C": "A complete loss of voltage",
+    "D": "A change in the frequency of the voltage",
+    "Answer": "A temporary increase in the RMS voltage above 110% of the nominal value",
+    "Image": "1",
+    "Explaination": "A voltage swell is a temporary increase in the RMS voltage above 110% of the nominal value, typically lasting from a few cycles to a few seconds."
+  },
+  {
+    "Question": "What is a harmonic in a power system?",
+    "A": "A sinusoidal component of a periodic wave having a frequency that is an integer multiple of the fundamental frequency",
+    "B": "A temporary reduction in voltage",
+    "C": "A complete loss of voltage",
+    "D": "A change in the frequency of the voltage",
+    "Answer": "A sinusoidal component of a periodic wave having a frequency that is an integer multiple of the fundamental frequency",
+    "Image": "1",
+    "Explaination": "A harmonic is a sinusoidal component of a periodic wave having a frequency that is an integer multiple of the fundamental frequency, caused by non-linear loads."
+  },
+  {
+    "Question": "What is the Total Harmonic Distortion (THD)?",
+    "A": "A measure of the harmonic distortion in a waveform, expressed as a percentage of the fundamental",
+    "B": "A measure of the voltage sag",
+    "C": "A measure of the voltage swell",
+    "D": "A measure of the frequency deviation",
+    "Answer": "A measure of the harmonic distortion in a waveform, expressed as a percentage of the fundamental",
+    "Image": "1",
+    "Explaination": "Total Harmonic Distortion (THD) is a measure of the harmonic distortion in a waveform, expressed as a percentage of the fundamental frequency component."
+  },
+  {
+    "Question": "What is a power quality monitor?",
+    "A": "A device that measures and records power quality parameters such as voltage, current, and harmonics",
+    "B": "A device that increases the cost of electricity",
+    "C": "A device that reduces the use of renewable energy",
+    "D": "A device that eliminates all fossil fuel generation",
+    "Answer": "A device that measures and records power quality parameters such as voltage, current, and harmonics",
+    "Image": "1",
+    "Explaination": "A power quality monitor is a device that measures and records power quality parameters such as voltage, current, harmonics, and transients, helping to identify and diagnose power quality issues."
+  },
+  {
+    "Question": "What is a Unified Power Quality Conditioner (UPQC)?",
+    "A": "A device that compensates for both voltage and current disturbances in a power system",
+    "B": "A device that increases the cost of electricity",
+    "C": "A device that reduces the use of renewable energy",
+    "D": "A device that eliminates all fossil fuel generation",
+    "Answer": "A device that compensates for both voltage and current disturbances in a power system",
+    "Image": "1",
+    "Explaination": "A Unified Power Quality Conditioner (UPQC) is a device that compensates for both voltage and current disturbances in a power system, improving power quality for sensitive loads."
+  },
+  {
+    "Question": "What is a Dynamic Voltage Restorer (DVR)?",
+    "A": "A device that protects sensitive loads from voltage sags and swells",
+    "B": "A device that increases the cost of electricity",
+    "C": "A device that reduces the use of renewable energy",
+    "D": "A device that eliminates all fossil fuel generation",
+    "Answer": "A device that protects sensitive loads from voltage sags and swells",
+    "Image": "1",
+    "Explaination": "A Dynamic Voltage Restorer (DVR) is a device that protects sensitive loads from voltage sags and swells by injecting a compensating voltage in series with the load."
+  },
+  {
+    "Question": "What is a Static Transfer Switch (STS)?",
+    "A": "A device that transfers load between two power sources quickly",
+    "B": "A device that increases the cost of electricity",
+    "C": "A device that reduces the use of renewable energy",
+    "D": "A device that eliminates all fossil fuel generation",
+    "Answer": "A device that transfers load between two power sources quickly",
+    "Image": "1",
+    "Explaination": "A Static Transfer Switch (STS) transfers load between two power sources quickly, ensuring continuous power supply to sensitive loads."
+  },
+  {
+    "Question": "What is the role of substation automation in power quality?",
+    "A": "To monitor and control power quality parameters, and to take corrective actions when necessary",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To monitor and control power quality parameters, and to take corrective actions when necessary",
+    "Image": "1",
+    "Explaination": "Substation automation monitors and controls power quality parameters, and takes corrective actions (such as switching capacitor banks or adjusting transformer taps) when necessary to maintain power quality."
+  },
+  {
+    "Question": "What is the role of WAMS in power system stability?",
+    "A": "To provide real-time wide-area visibility and early warning of instability",
+    "B": "To increase the cost of electricity",
+    "C": "To reduce the use of renewable energy",
+    "D": "To eliminate all fossil fuel generation",
+    "Answer": "To provide real-time wide-area visibility and early warning of instability",
+    "Image": "1",
+    "Explaination": "WAMS provides real-time wide-area visibility and early warning of instability, allowing operators to take corrective actions to prevent system collapse."
+  },
+  {
+    "Question": "What is the future trend in substation automation and power quality?",
+    "A": "Increased use of digital substations, edge computing, and advanced analytics",
+    "B": "Decreased use of smart meters",
+    "C": "Increased use of analog meters",
+    "D": "Decreased use of communication networks",
+    "Answer": "Increased use of digital substations, edge computing, and advanced analytics",
+    "Image": "1",
+    "Explaination": "The future trend in substation automation and power quality is the increased use of digital substations, edge computing, and advanced analytics for more intelligent and efficient grid operations."
+  }
+]

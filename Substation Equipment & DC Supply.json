@@ -1,0 +1,142 @@
+[
+  {
+    "Question": "Batteries are used in a substation:",
+    "A": "For emergency lighting",
+    "B": "To supply operating and control circuits",
+    "C": "To supply protective relaying systems",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "In substations, battery banks provide a dependable DC power supply during power outages. They serve multiple critical functions, including powering protective relays, supplying DC control and trip/close circuits for switchgear, and providing emergency lighting to ensure safe operation when AC power fails."
+  },
+  {
+    "Question": "Which equipment is closed after a transmission line is disconnected from the main supply?",
+    "A": "Isolator",
+    "B": "Circuit breaker",
+    "C": "Earth switch",
+    "D": "Relay",
+    "Answer": "Earth switch",
+    "Image": "1",
+    "Explaination": "Once a line is disconnected from the supply using circuit breakers and isolators, trapped charges (residual voltage) remain on the line conductors. Closing the earth switch safely discharges this accumulated charging current to ground before personnel begin maintenance work."
+  },
+  {
+    "Question": "Which of the following is closed first for supplying power after repair or maintenance?",
+    "A": "Earth switch",
+    "B": "Circuit breaker",
+    "C": "Isolator",
+    "D": "Relay",
+    "Answer": "Isolator",
+    "Image": "1",
+    "Explaination": "Isolators are off-load disconnect switches that lack arc-quenching capability. Therefore, after maintenance is completed and the earth switch has been opened, the isolator must always be closed first before closing the circuit breaker to energize the circuit."
+  },
+  {
+    "Question": "Which equipment is used to limit the short-circuit current level in a substation?",
+    "A": "Isolator",
+    "B": "Lightning arrester",
+    "C": "Series reactor",
+    "D": "Coupling capacitor",
+    "Answer": "Series reactor",
+    "Image": "1",
+    "Explaination": "A series reactor introduces inductive reactance into the system line or feeder circuit. Under fault conditions, this added impedance limits the magnitude of the short-circuit current, protecting switchgear and other substation equipment from exceeding their interrupting ratings."
+  },
+  {
+    "Question": "Why are crushed stones provided in an outdoor substation yard?",
+    "A": "To avoid fire accidents by draining oil if a transformer leaks",
+    "B": "To avoid the growth of weeds and plants",
+    "C": "To provide insulation",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Providing a gravel/stone layer across the switchyard serves several safety purposes: it forms an oil-drainage layer beneath transformers to prevent burning oil from spreading during a rupture, prevents weed and plant growth, and creates a high-resistance surface layer that reduces touch and step potential shock hazards."
+  },
+  {
+    "Question": "Which of the following is NOT a substation component?",
+    "A": "Series capacitor",
+    "B": "Shunt reactor",
+    "C": "Voltage transformers",
+    "D": "Exciter",
+    "Answer": "Exciter",
+    "Image": "1",
+    "Explaination": "An exciter provides DC field current to the rotor of a synchronous generator and is located inside a generating power station, not at a transmission or distribution substation. Series capacitors, shunt reactors, and voltage transformers are all standard substation components."
+  },
+  {
+    "Question": "The control system in substations generally operates at:",
+    "A": "110 V",
+    "B": "220 V",
+    "C": "400 V",
+    "D": "Both (A) and (B)",
+    "Answer": "Both (A) and (B)",
+    "Image": "1",
+    "Explaination": "Substation control circuits, protection relays, and trip/close coils are generally designed to operate at standard nominal DC voltages of 110 V or 220 V (as well as 125 V / 250 V systems)."
+  },
+  {
+    "Question": "Carrier current equipment installed in a substation is used for:",
+    "A": "Relaying",
+    "B": "Communication",
+    "C": "Supervisory control",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Power line carrier communication (PLCC) systems utilize high-voltage transmission lines for carrier current signaling. They support pilot protective relaying, voice communications between stations, and SCADA supervisory control data transmission."
+  },
+  {
+    "Question": "Which indicating and metering instruments are installed in substations?",
+    "A": "Ammeters and voltmeters",
+    "B": "Power factor meters",
+    "C": "kWh, kVARh, and kVAh energy meters",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Substation instrumentation panels monitor operational parameters using ammeters and voltmeters for current and voltage, power factor meters for efficiency monitoring, and energy/reactive meters (kWh, kVARh, kVAh) for grid billing and power tracking."
+  },
+  {
+    "Question": "Residual charging current is discharged through which device after a line is disconnected from the main supply?",
+    "A": "Relay",
+    "B": "Isolator",
+    "C": "Earth switch",
+    "D": "Circuit breaker",
+    "Answer": "Earth switch",
+    "Image": "1",
+    "Explaination": "After circuit breakers and isolators disconnect a transmission circuit, electrostatic charge remains stored in the conductor capacitance. Closing the earth switch safely drains this charging current into the station ground grid."
+  },
+  {
+    "Question": "What is the primary function of electrical switchgear in a power facility or substation?",
+    "A": "To provide DC field excitation to generators",
+    "B": "To generate reactive power directly on high-voltage lines",
+    "C": "To transform transmission voltage levels",
+    "D": "To control, protect, and isolate electrical equipment and clear downstream faults",
+    "Answer": "To control, protect, and isolate electrical equipment and clear downstream faults",
+    "Image": "1",
+    "Explaination": "Switchgear combines electrical disconnect switches, relays, controls, fuses, and circuit breakers used to distribute power, de-energize circuits for maintenance, and rapidly clear downstream faults. Because power circuit breakers are far too large to operate manually, automated DC control power is required."
+  },
+  {
+    "Question": "What is the typical battery backup load profile duration designed for Medium Voltage (MV) utility switchgear?",
+    "A": "15 minutes",
+    "B": "8 hours",
+    "C": "1 to 2 hours",
+    "D": "48 hours",
+    "Answer": "8 hours",
+    "Image": "1",
+    "Explaination": "While low-voltage and paralleling switchgear systems often utilize backup durations between 20 minutes and 4 hours, Medium Voltage (MV) utility switchgear installations are conventionally engineered with an 8-hour load profile."
+  },
+  {
+    "Question": "What is the most standard nominal DC control bus voltage utilized in Medium Voltage (MV) switchgear?",
+    "A": "125 Vdc",
+    "B": "480 Vdc",
+    "C": "12 Vdc",
+    "D": "24 Vdc",
+    "Answer": "125 Vdc",
+    "Image": "1",
+    "Explaination": "In medium-voltage switchgear installations (ranging typically from 480 V to 38 kV), the standard DC control bus voltage is 125 Vdc, although 48 Vdc is also commonly encountered."
+  },
+  {
+    "Question": "Which DC control bus voltages are typically found in paralleling switchgear for generator sets?",
+    "A": "250 Vdc and 600 Vdc",
+    "B": "24 Vdc, 48 Vdc, or 125 Vdc",
+    "C": "120 Vac and 240 Vac",
+    "D": "6 Vdc and 12 Vdc",
+    "Answer": "24 Vdc, 48 Vdc, or 125 Vdc",
+    "Image": "1",
+    "Explaination": "Paralleling switchgear for multiple gensets (operating at 120 V to 600 V) typically utilizes a DC control bus of 24 Vdc, 48 Vdc, or 125 Vdc, with backup times ranging from 20 minutes to 4 hours."
+  }
+]

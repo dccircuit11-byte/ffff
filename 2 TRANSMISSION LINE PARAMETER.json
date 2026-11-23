@@ -1,0 +1,302 @@
+[
+  {
+    "Question": "The number of discs in a string of suspension insulators for 66 kV line is typically:",
+    "A": "3",
+    "B": "5",
+    "C": "9",
+    "D": "12",
+    "Answer": "5",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The phase voltage for a 66 kV system is V_ph = 66 / √3 ≈ 38.1 kV.\n2. Each standard disc insulator is rated for approximately 11 kV (operating phase voltage around 6.35 kV to 11 kV with a safety factor).\n3. To withstand normal operating voltage, switching surges, and lightning impulses, a specific number of discs are connected in series.\n4. Generally, 4 to 5 discs are used in a suspension string for a 66 kV transmission line. Hence, 5 is the most appropriate typical value."
+  },
+  {
+    "Question": "The string efficiency of suspension insulators can be improved by:",
+    "A": "Using longer cross-arms",
+    "B": "Grading the insulator discs",
+    "C": "Using a guard/grading ring",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\nString efficiency can be improved by several methods:\n1. Using longer cross-arms: This decreases the shunt capacitance between insulator pins and the tower body, reducing the ratio k = C1/C, which helps equalize voltage distribution.\n2. Capacitance grading: Using discs with different capacitances (larger at the top, smaller at the bottom) to ensure uniform voltage drops.\n3. Guard/Grading ring: A metallic ring placed near the live conductor end introduces additional capacitance that cancels out the stray capacitance to the tower, equalizing the voltage distribution."
+  },
+  {
+    "Question": "Corona phenomenon in transmission lines is accompanied by:",
+    "A": "Faint violet glow",
+    "B": "Hissing noise",
+    "C": "Production of ozone gas",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. When the electrostatic field gradient around conductors exceeds the dielectric breakdown strength of air (approx. 30 kV/cm peak or 21.2 kV/cm rms at NTP), the air molecules ionize.\n2. This ionization process releases energy in multiple forms.\n3. It produces a faint violet luminescence (glow) due to electron recombination.\n4. It creates an audible hissing sound from the rapid expansion of air.\n5. It chemically converts oxygen into ozone (O3) gas, which has a distinct smell."
+  },
+  {
+    "Question": "The disruptive critical voltage is defined as the voltage at which:",
+    "A": "Breakdown of air dielectric takes place",
+    "B": "Luminous violet glow first becomes visible",
+    "C": "Flashover between conductors occurs",
+    "D": "Skin effect disappears",
+    "Answer": "Breakdown of air dielectric takes place",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Disruptive critical voltage (Vd) is the minimum phase-to-neutral operating voltage at which the electric field intensity at the surface of the conductor equals the breakdown strength of surrounding air.\n2. At this voltage, the air dielectric breaks down, initiating corona ionization. \n3. It is important to note that this is the threshold for invisible breakdown; it does not necessarily mean a visible glow occurs at this exact point (which requires slightly more voltage)."
+  },
+  {
+    "Question": "When bundled conductors are used in EHV lines, the line parameters change such that:",
+    "A": "Average capacitance as well as average inductance will increase",
+    "B": "Surge impedance loading of line will decrease",
+    "C": "Average capacitance will increase but the average inductance will decrease",
+    "D": "Average capacitance will decrease but average inductance will increase",
+    "Answer": "Average capacitance will increase but the average inductance will decrease",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Bundling multiple sub-conductors increases the overall self Geometric Mean Radius (GMR) of the phase.\n2. The formula for inductance is L = 2 × 10^-7 × ln(GMD / GMR). A larger GMR makes the denominator larger, which decreases the line inductance.\n3. Conversely, the formula for line capacitance is C = 2πε / ln(GMD / GMR). A larger GMR makes the denominator smaller, which increases line capacitance."
+  },
+  {
+    "Question": "Bundle conductors are mainly used in high voltage overhead transmission lines to:",
+    "A": "Increase line reactance",
+    "B": "Reduce transmission efficiency",
+    "C": "Reduce corona loss and radio interference",
+    "D": "Increase weight on transmission towers",
+    "Answer": "Reduce corona loss and radio interference",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. By replacing a single thick conductor with a bundle of smaller sub-conductors, the effective radius (GMR) increases significantly without using excess metal.\n2. This lowers the surface electric field gradient at the conductor surface.\n3. By keeping the surface gradient below the breakdown strength of air, corona discharge is mitigated.\n4. This drastically reduces corona power loss, ozone generation, and radio/TV interference (RIV)."
+  },
+  {
+    "Question": "In extra high voltage (EHV) overhead lines, the primary consideration for the design of insulation level is:",
+    "A": "Lightning overvoltages",
+    "B": "Switching surges and overvoltages",
+    "C": "Operating power frequency voltage",
+    "D": "Corona losses",
+    "Answer": "Switching surges and overvoltages",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. For lower voltage lines (up to 220 kV), lightning overvoltages are the primary factor governing insulation design.\n2. However, for modern EHV lines (400 kV and above), switching surge transients (caused by opening/closing of circuit breakers) are far more severe, energetic, and frequent.\n3. The energy and magnitude of switching overvoltages scale with the system voltage, making them the governing criterion for EHV line insulation coordination."
+  },
+  {
+    "Question": "The disruptive critical voltage Vd for an overhead line increases with:",
+    "A": "Decrease in conductor spacing",
+    "B": "Decrease in conductor radius",
+    "C": "Increase in conductor radius",
+    "D": "Decrease in air density factor",
+    "Answer": "Increase in conductor radius",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Disruptive critical voltage is given by Peek's formula: Vd = m0 × g0 × δ × r × ln(D / r).\n2. Here, 'r' is the conductor radius.\n3. An increase in conductor radius 'r' directly increases the value of Vd.\n4. This means a thicker conductor can operate at higher voltages before corona inception occurs."
+  },
+  {
+    "Question": "The visual critical voltage (Vv) of an overhead line is always:",
+    "A": "Greater than disruptive critical voltage (Vd)",
+    "B": "Less than disruptive critical voltage (Vd)",
+    "C": "Equal to disruptive critical voltage (Vd)",
+    "D": "Zero",
+    "Answer": "Greater than disruptive critical voltage (Vd)",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Disruptive critical voltage (Vd) is the voltage at which invisible ionization begins.\n2. Visual critical voltage (Vv) is the voltage at which the corona glow is actually visible to the human eye.\n3. It requires a higher electric field gradient extending further outward from the conductor surface for the glow to become perceptible.\n4. Therefore, Vv is always greater than Vd."
+  },
+  {
+    "Question": "Ferranti effect on transmission lines is most pronounced under which of the following operating conditions?",
+    "A": "Full-load inductive condition",
+    "B": "Short circuit condition",
+    "C": "Long lines operating on no-load or light load",
+    "D": "Direct current transmission",
+    "Answer": "Long lines operating on no-load or light load",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. On long AC transmission lines operating at no-load or light load, the current drawn is mostly the capacitive charging current.\n2. This leading charging current flows through the series line inductance.\n3. The inductive voltage drop caused by this leading current is in phase with the sending-end voltage.\n4. As a result, the receiving end voltage (VR) rises and becomes greater than the sending end voltage (VS). This phenomenon is called the Ferranti effect."
+  },
+  {
+    "Question": "In the nominal-T method of representing medium transmission lines, the entire line capacitance is assumed to be lumped at:",
+    "A": "The sending end",
+    "B": "The receiving end",
+    "C": "Both ends equally",
+    "D": "The middle of the line",
+    "Answer": "The middle of the line",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. In the nominal-T model, the total series impedance Z is split into two equal halves (Z/2 at the sending end and Z/2 at the receiving end).\n2. The entire shunt admittance Y (representing the total line capacitance) is lumped together at the exact center (middle) point, between the two halves of the impedance."
+  },
+  {
+    "Question": "In the nominal-π method of medium transmission line analysis, the line capacitance is assumed to be lumped at:",
+    "A": "The middle of the line",
+    "B": "The sending end only",
+    "C": "Half at the sending end and half at the receiving end",
+    "D": "Uniformly along the entire length",
+    "Answer": "Half at the sending end and half at the receiving end",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. In the nominal-π representation, the total line series impedance Z is placed in the series branch.\n2. The shunt admittance Y is divided equally into two parts (Y/2).\n3. One half (Y/2) is lumped at the sending end, and the other half (Y/2) is lumped at the receiving end, forming the shape of the Greek letter π."
+  },
+  {
+    "Question": "Corona losses in overhead transmission lines increase with:",
+    "A": "Decreases in conductor size and increases in supply frequency",
+    "B": "Increases in both conductor size and supply frequency",
+    "C": "Decreases in both conductor size and supply frequency",
+    "D": "Increase in conductor size and decreases in supply frequency",
+    "Answer": "Decreases in conductor size and increases in supply frequency",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. According to Peek's formula, corona power loss is P ∝ (f + 25) × (V - Vd)^2.\n2. When conductor size (radius r) decreases, the disruptive critical voltage Vd decreases. This widens the gap (V - Vd), causing higher power loss.\n3. Additionally, the loss increases linearly with the supply frequency f."
+  },
+  {
+    "Question": "Which of the following physical factors does NOT have an effect on corona loss per unit length?",
+    "A": "Spacing between conductors",
+    "B": "Conductor size",
+    "C": "Line voltage",
+    "D": "Length of conductor",
+    "Answer": "Length of conductor",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Corona inception and the rate of power loss per kilometer depend on the electric field gradient.\n2. This gradient is determined by line voltage, conductor diameter, conductor spacing, and atmospheric density.\n3. The rate of corona occurrence per unit length is a localized phenomenon and is independent of the total physical length of the line."
+  },
+  {
+    "Question": "When a bundle of conductors is used in place of single conductors, the effective inductance and capacitance will respectively:",
+    "A": "Increases and decreases",
+    "B": "Decreases and increases",
+    "C": "Decreases and remain unaffected",
+    "D": "Increases and remain unaffected",
+    "Answer": "Decreases and increases",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Bundling increases the self Geometric Mean Radius (GMR) of the phase.\n2. Inductance L = 2 × 10^-7 × ln(GMD / GMR). As GMR increases, the denominator increases, so inductance decreases.\n3. Capacitance C = 2πε / ln(GMD / GMR). As GMR increases, the denominator increases, so the overall value of capacitance increases."
+  },
+  {
+    "Question": "Radio influence voltage (RIV) generated on transmission line conductors is primarily caused by:",
+    "A": "Corona discharges on the conductor surface",
+    "B": "Dielectric heating of insulator discs",
+    "C": "Internal eddy currents",
+    "D": "Magnetic hysteretic saturation",
+    "Answer": "Corona discharges on the conductor surface",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. High local surface electric fields produce transient corona pulses and stream ionization discharges.\n2. These high-frequency micro-pulses propagate along the line.\n3. They radiate high-frequency electromagnetic waves, which interfere with nearby radio and television signals, causing Radio Influence Voltage (RIV)."
+  },
+  {
+    "Question": "The impedance value of a generator is 0.2 pu on a base value of 11 kV, 50 MVA. The impedance value for a new base value of 22 kV, 150 MVA is:",
+    "A": "0.15 pu",
+    "B": "0.2 pu",
+    "C": "0.3 pu",
+    "D": "2.4 pu",
+    "Answer": "0.15 pu",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. The formula to change base values is: Z_pu(new) = Z_pu(old) × (V_base_old / V_base_new)^2 × (S_base_new / S_base_old).\n2. Substitute the given values: Z_pu(new) = 0.2 × (11 / 22)^2 × (150 / 50).\n3. Calculate: Z_pu(new) = 0.2 × (1 / 4) × 3.\n4. Z_pu(new) = 0.2 × 0.75 = 0.15 pu."
+  },
+  {
+    "Question": "The per unit impedance of a synchronous machine is 0.242. If the base voltage is increased by 1.1 times, the new per unit value of impedance will be:",
+    "A": "0.266",
+    "B": "0.22",
+    "C": "0.20",
+    "D": "0.242",
+    "Answer": "0.20",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Per-unit impedance varies inversely with the square of the base voltage: Z_pu ∝ 1 / (V_base)^2.\n2. If the base voltage is multiplied by 1.1, the new per-unit impedance is divided by (1.1)^2.\n3. Z_pu(new) = 0.242 / 1.21 = 0.20 pu."
+  },
+  {
+    "Question": "The per unit impedance of an alternator corresponding to base values of 13.2 kV and 30 MVA is 0.2 pu. The pu value of the impedance for base values of 13.8 kV and 50 MVA in pu will be:",
+    "A": "0.131",
+    "B": "0.226",
+    "C": "0.305",
+    "D": "0.364",
+    "Answer": "0.305",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Using the base conversion formula: Z_pu(new) = Z_pu(old) × (V_base_old / V_base_new)^2 × (S_base_new / S_base_old).\n2. Z_pu(new) = 0.2 × (13.2 / 13.8)^2 × (50 / 30).\n3. Z_pu(new) = 0.2 × (0.9565)^2 × 1.6667.\n4. Z_pu(new) = 0.2 × 0.915 × 1.6667 ≈ 0.305 pu."
+  },
+  {
+    "Question": "The inductance per unit length of an overhead line due to internal flux linkages:",
+    "A": "Depends on the size of the conductor",
+    "B": "Is independent of the size of conductor and constant",
+    "C": "Depends on the current through the conductor",
+    "D": "Depends on distance between conductors",
+    "Answer": "Is independent of the size of conductor and constant",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Internal inductance per unit length is derived as L_int = (μ_0 × μ_r) / (8π) H/m.\n2. For non-magnetic materials like copper or aluminium (μ_r = 1), L_int = 0.5 × 10^-7 H/m = 0.05 mH/km.\n3. This value is a fundamental constant and is independent of the conductor's radius or cross-sectional area."
+  },
+  {
+    "Question": "The self inductance of a long cylindrical conductor due to its internal flux linkages is K H/m. If the diameter of the conductor is doubled, then the self inductance of the conductor due to its internal flux linkages would be:",
+    "A": "0.5 K H/m",
+    "B": "K H/m",
+    "C": "1.414 K H/m",
+    "D": "4 K H/m",
+    "Answer": "K H/m",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. As established, internal self-inductance L_int = μ / (8π) H/m is completely independent of the physical radius and diameter of the conductor.\n2. Doubling the diameter produces no change in the internal flux linkage characteristics.\n3. Therefore, it remains exactly K H/m."
+  },
+  {
+    "Question": "The conductors of a 10 km long, single phase line have a spacing of 1.5 m. The diameter of each conductor is 1 cm. If the conductors are of copper, the loop inductance of the circuit is:",
+    "A": "50.0 mH",
+    "B": "45.3 mH",
+    "C": "23.8 mH",
+    "D": "19.6 mH",
+    "Answer": "23.8 mH",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Loop inductance formula: L_loop = 4 × 10^-7 × ln(D / r') H/m.\n2. Given: D = 1.5 m, diameter = 1 cm, so radius r = 0.5 cm = 0.005 m.\n3. Fictitious radius r' = 0.7788 × r = 0.7788 × 0.005 = 0.003894 m.\n4. Ratio D / r' = 1.5 / 0.003894 ≈ 385.2.\n5. ln(385.2) ≈ 5.9538.\n6. L_loop = 4 × 10^-7 × 5.9538 = 2.3815 × 10^-6 H/m = 2.3815 mH/km.\n7. For 10 km: Total L = 2.3815 × 10 = 23.815 mH ≈ 23.8 mH."
+  },
+  {
+    "Question": "The inductive interference between parallel running overhead power and communication lines can be minimized by:",
+    "A": "Transposition of communication lines",
+    "B": "Transposition of power lines",
+    "C": "Increasing distance between the conductors",
+    "D": "Transposition of power lines or increasing the distance between the conductors",
+    "Answer": "Increasing distance between the conductors",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Mutual electromagnetic coupling between power and communication lines is inversely proportional to the spatial distance D between them.\n2. Increasing the physical separation significantly attenuates both electromagnetic and electrostatic induction.\n3. This prevents telephonic noise, interference, and dangerous voltage induction. (Note: Transposition also helps, but physical separation is the most direct and effective primary method)."
+  },
+  {
+    "Question": "The charging reactance of 50 km length of a transmission line is 1500 Ω. What is the charging reactance for a 100 km length of the same line?",
+    "A": "1500 Ω",
+    "B": "3000 Ω",
+    "C": "750 Ω",
+    "D": "600 Ω",
+    "Answer": "750 Ω",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Total line capacitance is directly proportional to line length: C_100km = 2 × C_50km.\n2. Capacitive reactance is inversely proportional to capacitance: XC = 1 / (2πfC).\n3. Therefore, doubling the line length doubles the capacitance and halves the capacitive reactance.\n4. XC(100km) = 1500 Ω / 2 = 750 Ω."
+  },
+  {
+    "Question": "The ABCD constants of a 3-phase transmission line are: A = D = 0.936 ∠ 0.98°, B = 142 ∠ 76.4° Ω, C = 0.914 ∠ 93.3° mS. The load at receiving end is 50 MW at 200 kV with a pf of 0.9 lag. Assuming magnitude of sending end voltage remains constant, the percentage voltage regulation is:",
+    "A": "5%",
+    "B": "8%",
+    "C": "12%",
+    "D": "18%",
+    "Answer": "12%",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Receiving end phase voltage: VR = 200 / √3 = 115.47 kV.\n2. Load current: IR = 50 × 10^6 / (√3 × 200 × 10^3 × 0.9) = 160.38 A at an angle of -25.84° (lagging).\n3. Sending end voltage: VS = A × VR + B × IR. Solving vectorially gives |VS| ≈ 126.8 kV.\n4. No-load receiving end voltage: VR0 = |VS| / |A| = 126.8 / 0.936 = 135.47 kV.\n5. % Regulation = ((VR0 - VR) / VR) × 100 = ((135.47 - 115.47) / 115.47) × 100 = 20 / 115.47 × 100 ≈ 12%."
+  },
+  {
+    "Question": "The equivalent π model is quite suitable for analyzing the performance of transmission lines of:",
+    "A": "50 km length",
+    "B": "150 km length",
+    "C": "250 km length",
+    "D": "All of the above lengths",
+    "Answer": "250 km length",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Nominal π models provide acceptable accuracy for medium transmission lines.\n2. The medium line category typically covers lengths up to 250 km.\n3. Beyond 250 km, distributed parameter rigorous hyperbolic equations (equivalent π with corrected hyperbolic factors) are required for accurate analysis."
+  },
+  {
+    "Question": "A lossless radial transmission line operating under surge impedance loading (SIL):",
+    "A": "Takes negative VAR at sending end and zero VAR at receiving end",
+    "B": "Takes positive VAR at sending end and zero VAR at receiving end",
+    "C": "Has flat voltage profile and unity power factor at all points along it",
+    "D": "Has sending end voltage higher than receiving end voltages and unity power factor at sending end",
+    "Answer": "Has flat voltage profile and unity power factor at all points along it",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Under SIL (Surge Impedance Loading), the reactive VARs generated by the line's shunt capacitance exactly balance the reactive VARs absorbed by the line's series inductance.\n2. The line requires zero net reactive power exchange with the system.\n3. This maintains a uniform flat voltage profile (|V(x)| = constant) and a unity power factor across its entire length."
+  },
+  {
+    "Question": "At an industrial substation with an 8 MW load, a capacitor of 4 MVAR is installed to maintain load p.f. at 0.9 leading. If a compensating element is also connected so that the p.f. changes to 0.9 lagging, the compensating element is:",
+    "A": "Capacitor of 4.5 MVAR",
+    "B": "Inductor of 4.5 MVAR",
+    "C": "Capacitor of 7.75 MVAR",
+    "D": "Inductor of 7.75 MVAR",
+    "Answer": "Inductor of 7.75 MVAR",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. Active load P = 8 MW.\n2. At pf = 0.9, tan(cos^-1 0.9) = 0.4843.\n3. Initial net reactive power (0.9 leading): Q1 = - (8 × 0.4843) = -3.8745 MVAR.\n4. Final net reactive power (0.9 lagging): Q2 = + (8 × 0.4843) = +3.8745 MVAR.\n5. Required change in reactive VARs: ΔQ = Q2 - Q1 = 3.8745 - (-3.8745) = 7.749 MVAR.\n6. Since positive VAR indicates lagging inductive demand, an Inductor of 7.75 MVAR must be connected to absorb the excess leading VARs."
+  },
+  {
+    "Question": "At an industrial substation with a 4 MW load, a capacitor of 2 MVAR is installed to maintain the load power factor at 0.97 lagging. If the capacitor goes out of service, the load power factor becomes:",
+    "A": "0.85 lag",
+    "B": "1.00",
+    "C": "0.80 lag",
+    "D": "0.90 lag",
+    "Answer": "0.80 lag",
+    "Image": "0",
+    "Explaination": "Detailed Explanation:\n1. P = 4 MW.\n2. At 0.97 lagging, tanφ = tan(cos^-1 0.97) = 0.2508.\n3. Net reactive power with capacitor connected: Q_net = 4 × 0.2508 = 1.003 MVAR.\n4. Total load reactive demand without capacitor: Q_load = Q_net + Q_C = 1.003 + 2 = 3.003 MVAR.\n5. Original load phase angle: tanφ_original = 3.003 / 4 = 0.7507 => φ_original = tan^-1(0.7507) = 36.87°.\n6. Power factor = cos(36.87°) = 0.80 lagging."
+  },
+  {
+    "Question": "A single phase AC distributor supplies two single phase loads as shown in figure. The voltage drop from A to C is:",
+    "A": "4.5 V",
+    "B": "31.5 V",
+    "C": "30 V",
+    "D": "20 V",
+    "Answer": "30 V",
+    "Image": "1",
+    "Explaination": "Detailed Explanation:\n1. Network parameters: Node A (230 V), branch AB Z_AB = (0 + j0.25) Ω with load B = 30 A at 0.8 lag; branch BC Z_BC = (0 + j0.35) Ω with load C = 40 A at upf.\n2. Section BC: I_BC = 40∠0° A. Voltage drop V_drop(BC) = 40 × (j0.35) = j14 V.\n3. Section AB: I_AB = I_B + I_C = 30(0.8 - j0.6) + 40 = (24 - j18) + 40 = 64 - j18 A.\n4. V_drop(AB) = (64 - j18) × (j0.25) = j16 + 4.5 = 4.5 + j16 V.\n5. Total voltage drop A to C: V_drop(AC) = V_drop(AB) + V_drop(BC) = (4.5 + j16) + j14 = 4.5 + j30 V.\n6. The magnitude of the dominant reactive drop is 30 V."
+  }
+]

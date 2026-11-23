@@ -1,0 +1,262 @@
+[
+  {
+    "Question": "What is the primary purpose of earthing an electrical installation?",
+    "A": "To improve voltage regulation",
+    "B": "To increase the circuit efficiency",
+    "C": "To provide a safe, low-resistance path for leakage and fault currents to earth to prevent shocks",
+    "D": "To reduce electromagnetic interference",
+    "Answer": "To provide a safe, low-resistance path for leakage and fault currents to earth to prevent shocks",
+    "Image": "1",
+    "Explaination": "Earthing provides a safe, low-resistance path for leakage and fault currents to flow to the earth, protecting people from electric shock and equipment from damage."
+  },
+  {
+    "Question": "Earth resistance decreases under which of the following conditions?",
+    "A": "Soil resistivity increases",
+    "B": "Moisture content increases",
+    "C": "Electrode length decreases",
+    "D": "Contact area reduces",
+    "Answer": "Moisture content increases",
+    "Image": "1",
+    "Explaination": "Earth resistance decreases as the moisture content of the soil increases, because water improves the conductivity of the soil."
+  },
+  {
+    "Question": "What is the maximum permissible value of earth resistance for a Large Power Station?",
+    "A": "0.5 Ω",
+    "B": "1.0 Ω",
+    "C": "2.0 Ω",
+    "D": "5.0 Ω",
+    "Answer": "0.5 Ω",
+    "Image": "1",
+    "Explaination": "For a large power station, the maximum permissible earth resistance is typically 0.5 Ω to ensure effective fault current dissipation."
+  },
+  {
+    "Question": "What is the maximum permissible value of earth resistance for a Major Substation?",
+    "A": "0.5 Ω",
+    "B": "1.0 Ω",
+    "C": "2.0 Ω",
+    "D": "5.0 Ω",
+    "Answer": "1.0 Ω",
+    "Image": "1",
+    "Explaination": "For a major substation, the maximum permissible earth resistance is typically 1.0 Ω."
+  },
+  {
+    "Question": "What is the permissible earth resistance for Small Substations?",
+    "A": "0.5 Ω",
+    "B": "1.0 Ω",
+    "C": "2.0 Ω",
+    "D": "8.0 Ω",
+    "Answer": "2.0 Ω",
+    "Image": "1",
+    "Explaination": "For small substations, the permissible earth resistance is typically 2.0 Ω."
+  },
+  {
+    "Question": "What is the standard permissible earth resistance for residential wiring and general installations?",
+    "A": "0.5 Ω",
+    "B": "1.0 Ω",
+    "C": "5.0 Ω to 8.0 Ω",
+    "D": "20 Ω",
+    "Answer": "5.0 Ω to 8.0 Ω",
+    "Image": "1",
+    "Explaination": "For residential wiring and general installations, the standard permissible earth resistance is typically 5.0 Ω to 8.0 Ω."
+  },
+  {
+    "Question": "What is the maximum permissible earth resistance for High Tension (H.T.) transmission lines?",
+    "A": "1.0 Ω",
+    "B": "5.0 Ω",
+    "C": "10.0 Ω",
+    "D": "20.0 Ω",
+    "Answer": "10.0 Ω",
+    "Image": "1",
+    "Explaination": "For high tension transmission lines, the maximum permissible earth resistance is typically 10.0 Ω."
+  },
+  {
+    "Question": "What is the conventional color coding of the earth/ground conductor?",
+    "A": "Green or Green with Yellow stripes",
+    "B": "Black",
+    "C": "Red",
+    "D": "Blue",
+    "Answer": "Green or Green with Yellow stripes",
+    "Image": "1",
+    "Explaination": "The conventional color coding for the earth/ground conductor is green or green with yellow stripes, as per international standards."
+  },
+  {
+    "Question": "Which of the following is commonly used as material for an earth or ground wire?",
+    "A": "Galvanized Steel (G.I.)",
+    "B": "Copper",
+    "C": "Either (a) or (b)",
+    "D": "Lead",
+    "Answer": "Either (a) or (b)",
+    "Image": "1",
+    "Explaination": "Both galvanized steel (G.I.) and copper are commonly used as materials for earth or ground wires, depending on the application and cost considerations."
+  },
+  {
+    "Question": "What is the standard dimension of a Galvanized Iron (G.I.) earth plate used in plate earthing?",
+    "A": "60 cm × 60 cm × 3 mm",
+    "B": "60 cm × 60 cm × 6 mm",
+    "C": "30 cm × 30 cm × 6 mm",
+    "D": "100 cm × 100 cm × 10 mm",
+    "Answer": "60 cm × 60 cm × 6 mm",
+    "Image": "1",
+    "Explaination": "The standard dimension of a G.I. earth plate used in plate earthing is 60 cm × 60 cm × 6 mm."
+  },
+  {
+    "Question": "What amount of charcoal and salt is typically added around a pipe or plate earth electrode?",
+    "A": "2 kg charcoal, 2 kg salt",
+    "B": "10 kg charcoal, 10 kg salt",
+    "C": "25 kg charcoal, 1 kg salt",
+    "D": "50 kg charcoal, 2 kg salt",
+    "Answer": "10 kg charcoal, 10 kg salt",
+    "Image": "1",
+    "Explaination": "Typically, about 10 kg of charcoal and 10 kg of salt are added around a pipe or plate earth electrode to improve soil conductivity and reduce earth resistance."
+  },
+  {
+    "Question": "What is the diameter of the G.I. pipe used for protecting the incoming earth wire leading to the earth pit?",
+    "A": "6 mm",
+    "B": "13 mm or 19 mm",
+    "C": "50 mm",
+    "D": "75 mm",
+    "Answer": "13 mm or 19 mm",
+    "Image": "1",
+    "Explaination": "A G.I. pipe of 13 mm or 19 mm diameter is typically used for protecting the incoming earth wire leading to the earth pit."
+  },
+  {
+    "Question": "Which method of earthing is specifically preferred for transmission line tower footings in rocky soil?",
+    "A": "Strip or wire earthing",
+    "B": "Plate earthing",
+    "C": "Pipe earthing",
+    "D": "Water pipe earthing",
+    "Answer": "Strip or wire earthing",
+    "Image": "1",
+    "Explaination": "Strip or wire earthing is preferred for transmission line tower footings in rocky soil because it is easier to install and provides effective earthing in difficult terrain."
+  },
+  {
+    "Question": "What is the standard cross-sectional dimension of copper strips used in strip earthing?",
+    "A": "25 mm × 4 mm (or 25 mm × 1.6 mm)",
+    "B": "10 mm × 1 mm",
+    "C": "50 mm × 10 mm",
+    "D": "100 mm × 5 mm",
+    "Answer": "25 mm × 4 mm (or 25 mm × 1.6 mm)",
+    "Image": "1",
+    "Explaination": "The standard cross-sectional dimension of copper strips used in strip earthing is typically 25 mm × 4 mm (or 25 mm × 1.6 mm)."
+  },
+  {
+    "Question": "The minimum recommended distance between two adjacent pipe earth electrodes should be:",
+    "A": "0.5 m",
+    "B": "1.0 m",
+    "C": "Twice the length of the electrode (typically at least 5 m)",
+    "D": "20 m",
+    "Answer": "Twice the length of the electrode (typically at least 5 m)",
+    "Image": "1",
+    "Explaination": "The minimum recommended distance between two adjacent pipe earth electrodes should be twice the length of the electrode, typically at least 5 m, to avoid overlapping resistance zones."
+  },
+  {
+    "Question": "After effective earthing, the potential of non-current-carrying metal parts of an electrical machine is:",
+    "A": "Zero potential (same as general earth mass)",
+    "B": "Intermediate potential",
+    "C": "Infinite potential",
+    "D": "Supply phase voltage",
+    "Answer": "Zero potential (same as general earth mass)",
+    "Image": "1",
+    "Explaination": "After effective earthing, the potential of non-current-carrying metal parts of an electrical machine is zero (same as the general earth mass), preventing electric shock."
+  },
+  {
+    "Question": "An earth electrode must provide:",
+    "A": "Very high resistance",
+    "B": "Medium resistance",
+    "C": "Low resistance",
+    "D": "Inductive reactance only",
+    "Answer": "Low resistance",
+    "Image": "1",
+    "Explaination": "An earth electrode must provide low resistance to ensure that fault currents flow easily to the earth, allowing protective devices to operate quickly."
+  },
+  {
+    "Question": "How is the operational condition or health of an earth electrode assessed?",
+    "A": "By measuring frequency",
+    "B": "By measuring earth resistance using an Earth Tester",
+    "C": "By measuring line power",
+    "D": "By measuring supply current",
+    "Answer": "By measuring earth resistance using an Earth Tester",
+    "Image": "1",
+    "Explaination": "The operational condition or health of an earth electrode is assessed by measuring earth resistance using an Earth Tester."
+  },
+  {
+    "Question": "The specific resistance (resistivity) of soil:",
+    "A": "Is universally constant at 100 Ω-m",
+    "B": "Varies widely from soil type to soil type (clay, sand, rock)",
+    "C": "Depends on the appliance load current",
+    "D": "Depends on system frequency",
+    "Answer": "Varies widely from soil type to soil type (clay, sand, rock)",
+    "Image": "1",
+    "Explaination": "The specific resistance (resistivity) of soil varies widely depending on the soil type (clay, sand, rock) and its moisture content."
+  },
+  {
+    "Question": "Induced low voltage appearing on ungrounded metal equipment frames can cause mild electric shocks. How is this prevented?",
+    "A": "Installing a phase fuse",
+    "B": "Providing proper earthing",
+    "C": "Increasing the circuit load",
+    "D": "Using a larger neutral wire",
+    "Answer": "Providing proper earthing",
+    "Image": "1",
+    "Explaination": "Providing proper earthing prevents induced low voltage on ungrounded metal equipment frames by providing a low-resistance path to the earth."
+  },
+  {
+    "Question": "Which method is effective for reducing the total resistance of an earthing installation?",
+    "A": "Increasing the supply voltage",
+    "B": "Connecting multiple earth electrodes in parallel",
+    "C": "Reducing the cross-section of the earth lead",
+    "D": "Using higher-rated fuses",
+    "Answer": "Connecting multiple earth electrodes in parallel",
+    "Image": "1",
+    "Explaination": "Connecting multiple earth electrodes in parallel is effective for reducing the total resistance of an earthing installation."
+  },
+  {
+    "Question": "Why is the neutral wire grounded at the distribution board in domestic wiring systems?",
+    "A": "To prevent electric shocks by establishing a zero-volt potential reference",
+    "B": "To reduce household energy consumption",
+    "C": "To increase phase current",
+    "D": "To eliminate the need for an earth wire",
+    "Answer": "To prevent electric shocks by establishing a zero-volt potential reference",
+    "Image": "1",
+    "Explaination": "The neutral wire is grounded at the distribution board to establish a zero-volt potential reference, preventing electric shocks and ensuring proper operation of protective devices."
+  },
+  {
+    "Question": "In an electrical installation in a high-humidity workshop with metallic flooring, which safety practice is essential?",
+    "A": "Relying solely on the building's structural steel as earth",
+    "B": "Installing a dedicated earth electrode for each major piece of equipment",
+    "C": "Connecting equipment frames to the neutral conductor only",
+    "D": "Relying solely on wooden floor mats",
+    "Answer": "Installing a dedicated earth electrode for each major piece of equipment",
+    "Image": "1",
+    "Explaination": "In a high-humidity workshop with metallic flooring, installing a dedicated earth electrode for each major piece of equipment is essential to ensure safety."
+  },
+  {
+    "Question": "Which of the following MUST NOT be used as a ground electrode?",
+    "A": "A metal underground gas piping system",
+    "B": "Concrete-encased steel foundation electrode (Ufer ground)",
+    "C": "A buried copper ground ring",
+    "D": "Structural metal building frame",
+    "Answer": "A metal underground gas piping system",
+    "Image": "1",
+    "Explaination": "A metal underground gas piping system MUST NOT be used as a ground electrode because it can cause a fire or explosion hazard."
+  },
+  {
+    "Question": "Why is pure aluminium wire generally prohibited for direct burial in the soil as an earth electrode?",
+    "A": "Aluminium has zero electrical conductivity",
+    "B": "Aluminium undergoes rapid electrolytic and galvanic corrosion when buried in moist soil",
+    "C": "Aluminium is excessively brittle",
+    "D": "Aluminium prevents circuit breakers from sensing current",
+    "Answer": "Aluminium undergoes rapid electrolytic and galvanic corrosion when buried in moist soil",
+    "Image": "1",
+    "Explaination": "Pure aluminium wire is generally prohibited for direct burial as an earth electrode because it undergoes rapid electrolytic and galvanic corrosion in moist soil."
+  },
+  {
+    "Question": "What type of neutral grounding connects the neutral point directly to earth through a conductor of negligible impedance?",
+    "A": "Solid grounding",
+    "B": "Resistance grounding",
+    "C": "Reactance grounding",
+    "D": "Resonant grounding",
+    "Answer": "Solid grounding",
+    "Image": "1",
+    "Explaination": "Solid grounding connects the neutral point directly to earth through a conductor of negligible impedance, providing the lowest resistance path."
+  }
+]

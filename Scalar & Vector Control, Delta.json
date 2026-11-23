@@ -1,0 +1,352 @@
+[
+  {
+    "Question": "What fundamental control variable is manipulated in Scalar (V/f) Control of an induction motor?",
+    "A": "Instantaneous rotor flux vector angle",
+    "B": "Magnitude of stator voltage and frequency only",
+    "C": "Core hysteresis loss",
+    "D": "Rotor bar temperature",
+    "Answer": "Magnitude of stator voltage and frequency only",
+    "Image": "1",
+    "Explaination": "Scalar (V/f) control manipulates only the magnitude of stator voltage and frequency, without controlling the phase angle or flux vector."
+  },
+  {
+    "Question": "What is the primary drawback of open-loop scalar V/f control during sudden load torque variations?",
+    "A": "Stator voltage doubles",
+    "B": "Rotor speed fluctuates significantly because torque and flux are coupled",
+    "C": "Direction of rotation reverses automatically",
+    "D": "Inverter switches latch permanently",
+    "Answer": "Rotor speed fluctuates significantly because torque and flux are coupled",
+    "Image": "1",
+    "Explaination": "In open-loop V/f control, there is no torque feedback, so sudden load changes cause significant speed fluctuations because torque and flux are coupled."
+  },
+  {
+    "Question": "Vector Control (Field Oriented Control - FOC) allows an induction motor to be controlled like which machine?",
+    "A": "A shaded-pole motor",
+    "B": "A separately excited DC machine",
+    "C": "A stepper motor",
+    "D": "A variable reluctance generator",
+    "Answer": "A separately excited DC machine",
+    "Image": "1",
+    "Explaination": "FOC decouples flux and torque currents, allowing an induction motor to be controlled like a separately excited DC machine with independent flux and torque control."
+  },
+  {
+    "Question": "In Field Oriented Control, what are the two decoupled orthogonal current components?",
+    "A": "Active and harmonic currents",
+    "B": "Direct axis current (ids - flux) and Quadrature axis current (iqs - torque)",
+    "C": "Neutral and ground currents",
+    "D": "Positive and negative sequence currents",
+    "Answer": "Direct axis current (ids - flux) and Quadrature axis current (iqs - torque)",
+    "Image": "1",
+    "Explaination": "FOC decouples the stator current into the direct-axis component (ids) controlling flux and the quadrature-axis component (iqs) controlling torque."
+  },
+  {
+    "Question": "What coordinate transformation is used to convert stationary three-phase variables (a, b, c) into two-phase stationary variables (α, β)?",
+    "A": "Park Transformation",
+    "B": "Clarke Transformation",
+    "C": "Fourier Transformation",
+    "D": "Laplace Transformation",
+    "Answer": "Clarke Transformation",
+    "Image": "1",
+    "Explaination": "The Clarke transformation converts three-phase stationary variables (a, b, c) into two-phase stationary variables (α, β)."
+  },
+  {
+    "Question": "Which mathematical transformation converts two-phase stationary coordinates (α, β) into rotating reference frame coordinates (d, q)?",
+    "A": "Park Transformation",
+    "B": "Fast Fourier Transform",
+    "C": "Taylor Series Expansion",
+    "D": "Newton-Raphson Iteration",
+    "Answer": "Park Transformation",
+    "Image": "1",
+    "Explaination": "The Park transformation converts two-phase stationary coordinates (α, β) into the rotating d-q reference frame."
+  },
+  {
+    "Question": "How does dynamic speed response compare between Scalar Control and Indirect Field Oriented Control (IFOC)?",
+    "A": "Scalar control is much faster",
+    "B": "Vector control (IFOC) provides faster dynamic response with negligible speed dip during load changes",
+    "C": "Both show identical transient response",
+    "D": "Scalar control eliminates all overshoot",
+    "Answer": "Vector control (IFOC) provides faster dynamic response with negligible speed dip during load changes",
+    "Image": "1",
+    "Explaination": "IFOC provides faster dynamic response and negligible speed dip during load changes compared to scalar control."
+  },
+  {
+    "Question": "What is \"Sensorless Vector Control\" (SVC)?",
+    "A": "Control without inverter switches",
+    "B": "Vector control that estimates rotor speed and flux from voltage and current measurements without a physical shaft encoder",
+    "C": "Scalar control with fixed speed",
+    "D": "Motor control without stator connections",
+    "Answer": "Vector control that estimates rotor speed and flux from voltage and current measurements without a physical shaft encoder",
+    "Image": "1",
+    "Explaination": "SVC estimates rotor speed and flux from voltage and current measurements, eliminating the need for a physical shaft encoder."
+  },
+  {
+    "Question": "Why is Low-Speed Torque Boost required in scalar V/f drives?",
+    "A": "To compensate for stator winding resistance drop (I Rs) at low excitation frequencies",
+    "B": "To reduce motor temperature",
+    "C": "To double base frequency",
+    "D": "To suppress third harmonics",
+    "Answer": "To compensate for stator winding resistance drop (I Rs) at low excitation frequencies",
+    "Image": "1",
+    "Explaination": "At low speeds, the stator resistance drop (I Rs) becomes significant relative to the applied voltage, so torque boost is needed to maintain flux."
+  },
+  {
+    "Question": "What happens to an induction motor if the V/f ratio becomes excessively high at low speeds?",
+    "A": "Motor runs backwards",
+    "B": "Magnetic core saturates, drawing excessive magnetizing current and causing overheating",
+    "C": "Output frequency shifts to DC",
+    "D": "Bearings freeze mechanically",
+    "Answer": "Magnetic core saturates, drawing excessive magnetizing current and causing overheating",
+    "Image": "1",
+    "Explaination": "An excessively high V/f ratio causes magnetic core saturation, excessive magnetizing current, and overheating."
+  },
+  {
+    "Question": "What type of control method is designated as FOCPG in advanced drives like Delta VFD-VE?",
+    "A": "Open-loop scalar V/f",
+    "B": "Field Oriented Vector Control with Pulse Generator (Encoder) feedback",
+    "C": "Variable torque square curve",
+    "D": "Stepping frequency profile",
+    "Answer": "Field Oriented Vector Control with Pulse Generator (Encoder) feedback",
+    "Image": "1",
+    "Explaination": "FOCPG stands for Field Oriented Control with Pulse Generator (encoder) feedback, providing closed-loop vector control."
+  },
+  {
+    "Question": "Which applications strictly demand Vector Control over simple Scalar V/f control?",
+    "A": "Low-performance ventilation exhaust fans",
+    "B": "High-performance elevators, cranes, winders, and machine tool spindles",
+    "C": "Incandescent lighting dimmers",
+    "D": "Resistive heating elements",
+    "Answer": "High-performance elevators, cranes, winders, and machine tool spindles",
+    "Image": "1",
+    "Explaination": "Vector control is required for high-performance applications like elevators, cranes, winders, and machine tool spindles where precise torque and speed control are essential."
+  },
+  {
+    "Question": "What is the basic principle of scalar V/f control?",
+    "A": "Maintaining constant ratio of voltage to frequency to keep air-gap flux constant",
+    "B": "Controlling only the frequency while voltage remains constant",
+    "C": "Varying voltage and frequency independently",
+    "D": "Using only current feedback for control",
+    "Answer": "Maintaining constant ratio of voltage to frequency to keep air-gap flux constant",
+    "Image": "1",
+    "Explaination": "Scalar V/f control maintains a constant voltage-to-frequency ratio to keep the air-gap flux constant below base speed."
+  },
+  {
+    "Question": "What is the speed range of scalar V/f control typically limited to?",
+    "A": "1:10 or better",
+    "B": "1:40 or better",
+    "C": "1:100 or better",
+    "D": "1:1000 or better",
+    "Answer": "1:10 or better",
+    "Image": "1",
+    "Explaination": "Scalar V/f control typically has a speed range of about 1:10, while vector control can achieve 1:100 or better."
+  },
+  {
+    "Question": "What is the purpose of the flux current component (ids) in Field Oriented Control?",
+    "A": "To control the motor torque",
+    "B": "To control the motor flux",
+    "C": "To control the motor speed",
+    "D": "To control the motor position",
+    "Answer": "To control the motor flux",
+    "Image": "1",
+    "Explaination": "In FOC, the direct-axis current (ids) controls the motor flux, analogous to field current in a DC machine."
+  },
+  {
+    "Question": "What is the purpose of the torque current component (iqs) in Field Oriented Control?",
+    "A": "To control the motor flux",
+    "B": "To control the motor torque",
+    "C": "To control the motor voltage",
+    "D": "To control the motor frequency",
+    "Answer": "To control the motor torque",
+    "Image": "1",
+    "Explaination": "In FOC, the quadrature-axis current (iqs) controls the motor torque, analogous to armature current in a DC machine."
+  },
+  {
+    "Question": "What is the main advantage of sensorless vector control over encoder-based vector control?",
+    "A": "Higher accuracy at zero speed",
+    "B": "Lower cost and reduced wiring complexity",
+    "C": "Better performance at very low speeds",
+    "D": "Higher torque capability",
+    "Answer": "Lower cost and reduced wiring complexity",
+    "Image": "1",
+    "Explaination": "Sensorless vector control eliminates the encoder, reducing cost and wiring complexity, though it may have limitations at very low speeds."
+  },
+  {
+    "Question": "At what speed does sensorless vector control typically lose accuracy?",
+    "A": "At high speeds",
+    "B": "At very low speeds (near zero speed)",
+    "C": "At rated speed",
+    "D": "At frequencies above 50 Hz",
+    "Answer": "At very low speeds (near zero speed)",
+    "Image": "1",
+    "Explaination": "Sensorless vector control typically loses accuracy at very low speeds because the back-EMF becomes too small to estimate rotor position accurately."
+  },
+  {
+    "Question": "What is the Delta VFD-VE series primarily designed for?",
+    "A": "Simple fan and pump applications",
+    "B": "High-performance vector control applications",
+    "C": "Single-phase household appliances",
+    "D": "DC motor control",
+    "Answer": "High-performance vector control applications",
+    "Image": "1",
+    "Explaination": "The Delta VFD-VE series is designed for high-performance vector control applications requiring precise speed and torque control."
+  },
+  {
+    "Question": "What type of encoder feedback does Delta VFD-VE support for closed-loop control?",
+    "A": "Resolver only",
+    "B": "Incremental and absolute encoders",
+    "C": "Hall effect sensors only",
+    "D": "Tachogenerator only",
+    "Answer": "Incremental and absolute encoders",
+    "Image": "1",
+    "Explaination": "Delta VFD-VE supports both incremental and absolute encoder feedback for closed-loop vector control."
+  },
+  {
+    "Question": "What is the typical speed control range of vector control with encoder feedback?",
+    "A": "1:10",
+    "B": "1:100",
+    "C": "1:1000 or better",
+    "D": "1:5",
+    "Answer": "1:1000 or better",
+    "Image": "1",
+    "Explaination": "Vector control with encoder feedback can achieve a speed control range of 1:1000 or better, with precise control even at low speeds."
+  },
+  {
+    "Question": "What is the purpose of auto-tuning in vector-controlled VFDs?",
+    "A": "To automatically set motor parameters such as stator resistance, rotor resistance, and inductance",
+    "B": "To automatically set the carrier frequency",
+    "C": "To automatically set the acceleration time",
+    "D": "To automatically set the display language",
+    "Answer": "To automatically set motor parameters such as stator resistance, rotor resistance, and inductance",
+    "Image": "1",
+    "Explaination": "Auto-tuning identifies and sets motor equivalent circuit parameters (Rs, Rr, Ls, Lr, Lm) for accurate vector control."
+  },
+  {
+    "Question": "What happens if motor parameters are incorrect in vector control?",
+    "A": "The motor runs at constant speed",
+    "B": "Poor torque response and instability may occur",
+    "C": "The motor will not start",
+    "D": "The VFD will trip immediately",
+    "Answer": "Poor torque response and instability may occur",
+    "Image": "1",
+    "Explaination": "Incorrect motor parameters cause inaccurate flux estimation, leading to poor torque response and potential instability in vector control."
+  },
+  {
+    "Question": "What is the difference between direct vector control and indirect vector control?",
+    "A": "Direct measures or estimates flux directly; indirect uses slip frequency calculation",
+    "B": "Direct uses encoder; indirect does not",
+    "C": "Direct is for induction motors; indirect is for synchronous motors",
+    "D": "They are identical",
+    "Answer": "Direct measures or estimates flux directly; indirect uses slip frequency calculation",
+    "Image": "1",
+    "Explaination": "Direct vector control directly measures or estimates rotor flux, while indirect vector control calculates the slip frequency to determine the rotor flux position."
+  },
+  {
+    "Question": "What is the purpose of slip compensation in vector control?",
+    "A": "To maintain constant speed regardless of load",
+    "B": "To increase motor slip",
+    "C": "To reduce motor torque",
+    "D": "To change motor direction",
+    "Answer": "To maintain constant speed regardless of load",
+    "Image": "1",
+    "Explaination": "Slip compensation adjusts the output frequency based on estimated load torque to maintain constant actual motor speed."
+  },
+  {
+    "Question": "What is the function of the current regulator in vector control?",
+    "A": "To control the DC bus voltage",
+    "B": "To force the actual motor currents to track the reference currents (ids* and iqs*)",
+    "C": "To control the motor temperature",
+    "D": "To control the output frequency",
+    "Answer": "To force the actual motor currents to track the reference currents (ids* and iqs*)",
+    "Image": "1",
+    "Explaination": "The current regulator ensures that the actual motor currents follow the reference currents generated by the vector control algorithm."
+  },
+  {
+    "Question": "What is the typical PWM switching frequency range for vector-controlled VFDs?",
+    "A": "1-2 kHz",
+    "B": "2-16 kHz",
+    "C": "20-50 kHz",
+    "D": "50-100 kHz",
+    "Answer": "2-16 kHz",
+    "Image": "1",
+    "Explaination": "Vector-controlled VFDs typically use PWM switching frequencies in the range of 2-16 kHz, balancing switching losses and acoustic noise."
+  },
+  {
+    "Question": "What is the effect of increasing the PWM carrier frequency?",
+    "A": "Reduced motor acoustic noise but increased switching losses",
+    "B": "Increased motor noise",
+    "C": "Reduced switching losses",
+    "D": "No effect on performance",
+    "Answer": "Reduced motor acoustic noise but increased switching losses",
+    "Image": "1",
+    "Explaination": "Higher carrier frequency reduces motor acoustic noise but increases switching losses in the inverter."
+  },
+  {
+    "Question": "What is the field weakening region in VFD control?",
+    "A": "Operation below base speed",
+    "B": "Operation above base speed where flux is reduced to allow higher speed",
+    "C": "Operation at zero speed",
+    "D": "Operation during braking",
+    "Answer": "Operation above base speed where flux is reduced to allow higher speed",
+    "Image": "1",
+    "Explaination": "In the field weakening region (above base speed), flux is intentionally reduced to allow the motor to run at higher speeds while keeping voltage at its maximum."
+  },
+  {
+    "Question": "What is the purpose of the flux weakening function in vector control?",
+    "A": "To increase motor torque at high speeds",
+    "B": "To extend the motor speed range beyond base speed",
+    "C": "To reduce motor efficiency",
+    "D": "To increase motor heating",
+    "Answer": "To extend the motor speed range beyond base speed",
+    "Image": "1",
+    "Explaination": "Flux weakening reduces the flux at high speeds, allowing the motor to operate beyond its base speed without exceeding voltage limits."
+  },
+  {
+    "Question": "What is the typical torque boost range in scalar V/f control?",
+    "A": "0-10% of rated voltage",
+    "B": "0-30% of rated voltage",
+    "C": "50-100% of rated voltage",
+    "D": "100-150% of rated voltage",
+    "Answer": "0-30% of rated voltage",
+    "Image": "1",
+    "Explaination": "Torque boost in scalar V/f control is typically adjustable from 0 to about 30% of rated voltage to compensate for low-speed voltage drop."
+  },
+  {
+    "Question": "What is the function of the speed observer in sensorless vector control?",
+    "A": "To measure the actual motor speed",
+    "B": "To estimate the motor speed from voltage and current measurements",
+    "C": "To control the motor torque",
+    "D": "To measure the DC bus voltage",
+    "Answer": "To estimate the motor speed from voltage and current measurements",
+    "Image": "1",
+    "Explaination": "The speed observer uses a motor model and measured voltage/current to estimate the rotor speed without a physical sensor."
+  },
+  {
+    "Question": "What is the main disadvantage of sensorless vector control compared to encoder-based vector control?",
+    "A": "Higher cost",
+    "B": "Poor performance at very low speeds and zero speed",
+    "C": "Requires more wiring",
+    "D": "Cannot be used with induction motors",
+    "Answer": "Poor performance at very low speeds and zero speed",
+    "Image": "1",
+    "Explaination": "Sensorless vector control has difficulty estimating speed accurately at very low speeds because the back-EMF is too small."
+  },
+  {
+    "Question": "What is the Delta VFD-VE's maximum output frequency typically?",
+    "A": "100 Hz",
+    "B": "200 Hz",
+    "C": "400 Hz or higher",
+    "D": "1000 Hz",
+    "Answer": "400 Hz or higher",
+    "Image": "1",
+    "Explaination": "The Delta VFD-VE series can typically output frequencies up to 400 Hz or higher for high-speed applications."
+  },
+  {
+    "Question": "What type of control does Delta VFD-VE use for precise positioning applications?",
+    "A": "V/f control",
+    "B": "Vector control with encoder feedback",
+    "C": "Slip control",
+    "D": "Current control only",
+    "Answer": "Vector control with encoder feedback",
+    "Image": "1",
+    "Explaination": "Delta VFD-VE uses closed-loop vector control with encoder feedback for precise positioning and speed control applications."
+  }
+]

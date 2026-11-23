@@ -1,0 +1,252 @@
+[
+  {
+    "Question": "What is the primary function of a Variable Frequency Drive (VFD)?",
+    "A": "To convert AC to DC only",
+    "B": "To control the speed and torque of AC motors by varying the supply voltage and frequency",
+    "C": "To step up system frequency to megahertz",
+    "D": "To eliminate mechanical bearings",
+    "Answer": "To control the speed and torque of AC motors by varying the supply voltage and frequency",
+    "Image": "1",
+    "Explaination": "A VFD regulates motor speed and torque by varying both the input frequency and the voltage supplied to the motor."
+  },
+  {
+    "Question": "What are the three main power stages of a Variable Frequency Drive?",
+    "A": "Transformer, Commutator, and Slip rings",
+    "B": "Rectifier, DC Bus (Link), and Inverter",
+    "C": "Boiler, Turbine, and Condenser",
+    "D": "Stator, Rotor, and Governor",
+    "Answer": "Rectifier, DC Bus (Link), and Inverter",
+    "Image": "1",
+    "Explaination": "A standard VFD consists of a rectifier section (AC to DC), a DC bus with capacitors/choke for smoothing, and an inverter section (DC to variable AC)."
+  },
+  {
+    "Question": "What minimum number of diodes is required for a standard three-phase bridge rectifier in a 6-pulse VFD?",
+    "A": "2",
+    "B": "4",
+    "C": "6",
+    "D": "12",
+    "Answer": "6",
+    "Image": "1",
+    "Explaination": "A three-phase full-wave bridge rectifier requires a minimum of six diodes to convert three-phase AC into uncontrolled DC."
+  },
+  {
+    "Question": "What is the function of the DC Bus (DC link) section in a VFD?",
+    "A": "To invert DC into high-frequency AC",
+    "B": "To store, smooth, and filter voltage ripples from the rectified DC power",
+    "C": "To modulate PWM pulses",
+    "D": "To provide mechanical damping",
+    "Answer": "To store, smooth, and filter voltage ripples from the rectified DC power",
+    "Image": "1",
+    "Explaination": "The DC link contains capacitors and inductors that filter ripples, store energy, and deliver smooth DC to the inverter."
+  },
+  {
+    "Question": "Which semiconductor switching device is predominantly used in the inverter stage of modern VFDs?",
+    "A": "Mercury arc valve",
+    "B": "Insulated Gate Bipolar Transistor (IGBT)",
+    "C": "Unijunction Transistor (UJT)",
+    "D": "Vacuum pentode",
+    "Answer": "Insulated Gate Bipolar Transistor (IGBT)",
+    "Image": "1",
+    "Explaination": "Modern inverters use high-speed switching devices like IGBTs to synthesize variable-voltage, variable-frequency AC outputs using PWM."
+  },
+  {
+    "Question": "What modulation technique is commonly employed by the inverter to synthesize variable AC output?",
+    "A": "Amplitude Modulation (AM)",
+    "B": "Pulse Width Modulation (PWM) / Space Vector PWM (SVPWM)",
+    "C": "Frequency Shift Keying (FSK)",
+    "D": "Phase Modulation (PM)",
+    "Answer": "Pulse Width Modulation (PWM) / Space Vector PWM (SVPWM)",
+    "Image": "1",
+    "Explaination": "PWM and Space Vector PWM regulate the average output voltage and frequency by modulating the on/off duty cycle of inverter switches."
+  },
+  {
+    "Question": "Why is the ratio of Voltage to Frequency (V/f) maintained constant below the motor's rated base speed?",
+    "A": "To prevent magnetic core saturation and maintain constant air-gap flux and torque",
+    "B": "To increase motor losses",
+    "C": "To double synchronous speed",
+    "D": "To reduce power factor to zero",
+    "Answer": "To prevent magnetic core saturation and maintain constant air-gap flux and torque",
+    "Image": "1",
+    "Explaination": "Maintaining a constant V/f ratio ensures that magnetic flux remains constant, preventing core saturation and retaining full rated torque capability."
+  },
+  {
+    "Question": "What happens to motor speed as the supply frequency from the VFD is reduced?",
+    "A": "Speed increases exponentially",
+    "B": "Synchronous and rotor speed decrease proportionally",
+    "C": "Speed remains unaltered",
+    "D": "Motor locks permanently",
+    "Answer": "Synchronous and rotor speed decrease proportionally",
+    "Image": "1",
+    "Explaination": "Synchronous speed is directly proportional to frequency (Ns = 120f/P); reducing frequency decreases motor speed."
+  },
+  {
+    "Question": "Which VFD feature helps reduce starting thermal and mechanical stress on motor windings and mechanical couplings?",
+    "A": "Dynamic overspeed",
+    "B": "Soft start / acceleration ramp capability",
+    "C": "Direct-on-line connection",
+    "D": "High starting current surge",
+    "Answer": "Soft start / acceleration ramp capability",
+    "Image": "1",
+    "Explaination": "Controlled acceleration ramping (soft start) eliminates severe inrush current and mechanical shock on shafts and belts."
+  },
+  {
+    "Question": "What is an application where VFDs provide the highest energy savings by reducing motor speed?",
+    "A": "Pure electric resistance heaters",
+    "B": "Variable-torque centrifugal pumps and fans",
+    "C": "Electric arc furnaces",
+    "D": "Uninterruptible power supplies",
+    "Answer": "Variable-torque centrifugal pumps and fans",
+    "Image": "1",
+    "Explaination": "Due to affinity laws, power consumption in centrifugal pumps and fans varies with the cube of speed; lowering speed via VFD saves substantial energy."
+  },
+  {
+    "Question": "What is a recognized disadvantage of standard 6-pulse VFD installations?",
+    "A": "Inability to reverse rotation",
+    "B": "Generation of harmonic distortion and high-frequency electrical noise",
+    "C": "Extremely high full-load power factor",
+    "D": "Total absence of control electronics",
+    "Answer": "Generation of harmonic distortion and high-frequency electrical noise",
+    "Image": "1",
+    "Explaination": "Non-linear diode conduction draws non-sinusoidal currents, causing harmonic distortion and electrical noise."
+  },
+  {
+    "Question": "How does a VFD's internal DC link impact the line displacement power factor at full load?",
+    "A": "It degrades the power factor to near 0.1",
+    "B": "It maintains a high power factor (typically 0.88 to 0.95 or near unity)",
+    "C": "It eliminates all active power draw",
+    "D": "It shifts power factor to pure leading zero",
+    "Answer": "It maintains a high power factor (typically 0.88 to 0.95 or near unity)",
+    "Image": "1",
+    "Explaination": "The DC link capacitor acts as an internal reservoir, maintaining a displacement power factor between 0.88 and 0.95 or higher."
+  },
+  {
+    "Question": "What protective functions are standard in microprocessor-based VFD controllers?",
+    "A": "Over-voltage and under-voltage protection",
+    "B": "Over-current and phase loss protection",
+    "C": "Over-temperature detection",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "VFD microprocessors monitor DC bus voltage, output currents, phase balance, and heatsink temperature to protect drive and motor."
+  },
+  {
+    "Question": "What causes potential overheating when a standard induction motor runs at low speed on a VFD for extended periods?",
+    "A": "Excess line voltage",
+    "B": "Reduced airflow from the motor's shaft-mounted cooling fan",
+    "C": "Zero winding resistance",
+    "D": "Over-excitation of stator core",
+    "Answer": "Reduced airflow from the motor's shaft-mounted cooling fan",
+    "Image": "1",
+    "Explaination": "Shaft-driven fans move less air at low speeds, leading to heat buildup unless external forced cooling is provided."
+  },
+  {
+    "Question": "What is an \"Inverter Duty\" rated motor designed to handle when driven by a VFD?",
+    "A": "Voltage spikes (dv/dt) caused by rapid IGBT switching and extra harmonic heating",
+    "B": "Operation on DC power only",
+    "C": "Zero mechanical maintenance",
+    "D": "Single-phase supply only",
+    "Answer": "Voltage spikes (dv/dt) caused by rapid IGBT switching and extra harmonic heating",
+    "Image": "1",
+    "Explaination": "Inverter-duty motors feature enhanced winding insulation to withstand high dv/dt voltage pulses and additional thermal margins."
+  },
+  {
+    "Question": "What circuit component is installed across a DC bus to dissipate regenerative energy during rapid deceleration?",
+    "A": "Step-up transformer",
+    "B": "Dynamic braking resistor and brake chopper unit",
+    "C": "Smoothing choke",
+    "D": "Spark gap",
+    "Answer": "Dynamic braking resistor and brake chopper unit",
+    "Image": "1",
+    "Explaination": "When an overhauling motor regenerates energy, the DC bus voltage rises; a brake chopper routes power to a braking resistor to burn off excess energy."
+  },
+  {
+    "Question": "What is a Regenerative Active Front End (AFE) drive?",
+    "A": "A drive that uses a DC generator",
+    "B": "A VFD that uses an active IGBT converter on the input side to return braking power back to the AC grid",
+    "C": "A passive diode rectifier",
+    "D": "A mechanical friction brake",
+    "Answer": "A VFD that uses an active IGBT converter on the input side to return braking power back to the AC grid",
+    "Image": "1",
+    "Explaination": "An AFE drive replaces passive input diodes with controlled IGBT switches, enabling bidirectional power flow back to the utility."
+  },
+  {
+    "Question": "What is the function of the control circuit in a VFD?",
+    "A": "To rectify three-phase AC",
+    "B": "To process speed references, execute control algorithms, generate gate firing pulses, and manage communications",
+    "C": "To physically brake the rotor shaft",
+    "D": "To step down DC bus voltage to zero",
+    "Answer": "To process speed references, execute control algorithms, generate gate firing pulses, and manage communications",
+    "Image": "1",
+    "Explaination": "The control circuit executes speed/torque control algorithms and sends firing pulses to inverter switches."
+  },
+  {
+    "Question": "What happens to VFD output voltage above base rated frequency (e.g., above 50/60 Hz)?",
+    "A": "Voltage increases linearly without limit",
+    "B": "Voltage remains clamped at rated maximum while frequency increases (Field Weakening region)",
+    "C": "Voltage drops to zero immediately",
+    "D": "Output switches to DC",
+    "Answer": "Voltage remains clamped at rated maximum while frequency increases (Field Weakening region)",
+    "Image": "1",
+    "Explaination": "Above rated base frequency, voltage cannot exceed mains input; operation enters field weakening where torque falls as frequency rises."
+  },
+  {
+    "Question": "What issue occurs if a VFD is installed with excessive cable lengths between drive output terminals and the motor?",
+    "A": "Reflected wave voltage spikes (high dv/dt) that stress motor insulation",
+    "B": "DC link capacitor depletion",
+    "C": "Reversal of rotation",
+    "D": "Input fuse rupture",
+    "Answer": "Reflected wave voltage spikes (high dv/dt) that stress motor insulation",
+    "Image": "1",
+    "Explaination": "Transmission line reflections over long motor leads amplify pulse peaks, generating high dv/dt stresses across end turns."
+  },
+  {
+    "Question": "Which device is used to measure motor shaft speed for closed-loop VFD feedback?",
+    "A": "Tachometer or Optical Pulse Encoder (PG card)",
+    "B": "Galvanometer",
+    "C": "Current transformer",
+    "D": "Megohmmeter",
+    "Answer": "Tachometer or Optical Pulse Encoder (PG card)",
+    "Image": "1",
+    "Explaination": "Pulse encoders (PG cards) track rotor position and rotational speed for closed-loop vector control."
+  },
+  {
+    "Question": "What is the consequence of incorrect grounding and shielding of VFD control wiring?",
+    "A": "Electrical interference, control signal corruption, and false tripping",
+    "B": "Motor phase reversal",
+    "C": "Tripling of input frequency",
+    "D": "Complete demagnetization of rotor",
+    "Answer": "Electrical interference, control signal corruption, and false tripping",
+    "Image": "1",
+    "Explaination": "High-frequency switching noise couples into unshielded analog signals, causing unstable operation and false trips."
+  },
+  {
+    "Question": "What parameter defines the time taken by a VFD to ramp a motor from zero to maximum frequency?",
+    "A": "Deceleration Time",
+    "B": "Acceleration Time",
+    "C": "Baseblock Time",
+    "D": "Carrier Frequency",
+    "Answer": "Acceleration Time",
+    "Image": "1",
+    "Explaination": "Acceleration time sets the ramp rate from rest to maximum operating frequency."
+  },
+  {
+    "Question": "What parameter sets the rate of speed reduction from operating frequency down to stop?",
+    "A": "Deceleration Time",
+    "B": "Slip compensation",
+    "C": "Voltage boost",
+    "D": "S-curve cutoff",
+    "Answer": "Deceleration Time",
+    "Image": "1",
+    "Explaination": "Deceleration time controls the ramp rate during stopping."
+  },
+  {
+    "Question": "What is DC Injection Braking in a VFD?",
+    "A": "Injecting DC into the stator windings to create a stationary magnetic field that halts the rotor",
+    "B": "Charging the DC link from a battery",
+    "C": "Discharging capacitors through input fuses",
+    "D": "Running the motor on DC supply",
+    "Answer": "Injecting DC into the stator windings to create a stationary magnetic field that halts the rotor",
+    "Image": "1",
+    "Explaination": "DC braking applies direct current to the AC stator, creating a stationary magnetic field that brakes the rotor."
+  }
+]

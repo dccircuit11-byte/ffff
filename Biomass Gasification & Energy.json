@@ -1,0 +1,162 @@
+[
+  {
+    "Question": "What is biomass?",
+    "A": "Organic matter derived from living or recently living organisms",
+    "B": "Fossil fuel derived from ancient organisms",
+    "C": "Inorganic material found in soil",
+    "D": "Synthetic material produced in laboratories",
+    "Answer": "Organic matter derived from living or recently living organisms",
+    "Image": "1",
+    "Explaination": "Biomass is organic matter derived from living or recently living organisms, such as plants, agricultural residues, and animal waste, which can be used as a renewable energy source."
+  },
+  {
+    "Question": "What is biomass gasification?",
+    "A": "The process of burning biomass in the presence of excess oxygen",
+    "B": "The thermochemical conversion of biomass into a combustible gas mixture (syngas) in a limited oxygen environment",
+    "C": "The biological decomposition of biomass by bacteria",
+    "D": "The process of compressing biomass into pellets",
+    "Answer": "The thermochemical conversion of biomass into a combustible gas mixture (syngas) in a limited oxygen environment",
+    "Image": "1",
+    "Explaination": "Biomass gasification is the thermochemical conversion of biomass into a combustible gas mixture (syngas) in a limited oxygen environment, producing a fuel that can be used for power generation or heating."
+  },
+  {
+    "Question": "What is the primary combustible component of syngas produced from biomass gasification?",
+    "A": "Carbon dioxide (CO₂)",
+    "B": "Carbon monoxide (CO) and hydrogen (H₂)",
+    "C": "Methane (CH₄) only",
+    "D": "Nitrogen (N₂)",
+    "Answer": "Carbon monoxide (CO) and hydrogen (H₂)",
+    "Image": "1",
+    "Explaination": "The primary combustible components of syngas are carbon monoxide (CO) and hydrogen (H₂), along with some methane (CH₄) and other hydrocarbons."
+  },
+  {
+    "Question": "What is the typical heating value of syngas produced from biomass gasification?",
+    "A": "1-3 MJ/Nm³",
+    "B": "5-15 MJ/Nm³",
+    "C": "20-30 MJ/Nm³",
+    "D": "40-50 MJ/Nm³",
+    "Answer": "5-15 MJ/Nm³",
+    "Image": "1",
+    "Explaination": "The typical heating value of syngas produced from biomass gasification is 5-15 MJ/Nm³, which is lower than natural gas (about 38 MJ/Nm³)."
+  },
+  {
+    "Question": "What is a downdraft gasifier?",
+    "A": "A gasifier where the air and biomass flow in the same downward direction",
+    "B": "A gasifier where the air and biomass flow in opposite directions",
+    "C": "A gasifier where the biomass is fluidized by air",
+    "D": "A gasifier that uses steam as the gasifying agent",
+    "Answer": "A gasifier where the air and biomass flow in the same downward direction",
+    "Image": "1",
+    "Explaination": "In a downdraft gasifier, the air and biomass flow in the same downward direction, producing syngas with low tar content suitable for engine applications."
+  },
+  {
+    "Question": "What is an updraft gasifier?",
+    "A": "A gasifier where the air flows upward through a descending biomass bed",
+    "B": "A gasifier where the air and biomass flow in the same downward direction",
+    "C": "A gasifier where the biomass is fluidized by air",
+    "D": "A gasifier that uses steam as the gasifying agent",
+    "Answer": "A gasifier where the air flows upward through a descending biomass bed",
+    "Image": "1",
+    "Explaination": "In an updraft gasifier, the air flows upward through a descending biomass bed, producing syngas with high tar content that requires additional cleaning for engine applications."
+  },
+  {
+    "Question": "What is a fluidized bed gasifier?",
+    "A": "A gasifier where the biomass is suspended in a bed of hot inert material by an upward flow of air",
+    "B": "A gasifier where the air and biomass flow in the same downward direction",
+    "C": "A gasifier where the air flows upward through a descending biomass bed",
+    "D": "A gasifier that uses steam as the gasifying agent",
+    "Answer": "A gasifier where the biomass is suspended in a bed of hot inert material by an upward flow of air",
+    "Image": "1",
+    "Explaination": "A fluidized bed gasifier suspends the biomass in a bed of hot inert material (such as sand) by an upward flow of air, providing good mixing and heat transfer for efficient gasification."
+  },
+  {
+    "Question": "What is the main advantage of fluidized bed gasifiers over fixed bed gasifiers?",
+    "A": "Higher efficiency and ability to handle a wide range of biomass feedstocks",
+    "B": "Lower cost",
+    "C": "Simpler design",
+    "D": "Lower tar content",
+    "Answer": "Higher efficiency and ability to handle a wide range of biomass feedstocks",
+    "Image": "1",
+    "Explaination": "Fluidized bed gasifiers offer higher efficiency and can handle a wide range of biomass feedstocks, including those with high moisture content and varying particle sizes."
+  },
+  {
+    "Question": "What is the main challenge in using biomass gasification for power generation?",
+    "A": "High cost of biomass",
+    "B": "Tar and particulate matter in the syngas",
+    "C": "Low efficiency",
+    "D": "High greenhouse gas emissions",
+    "Answer": "Tar and particulate matter in the syngas",
+    "Image": "1",
+    "Explaination": "The main challenge in using biomass gasification for power generation is the presence of tar and particulate matter in the syngas, which can foul engines and turbines."
+  },
+  {
+    "Question": "What is the purpose of a cyclone separator in a biomass gasification system?",
+    "A": "To remove particulate matter from the syngas",
+    "B": "To cool the syngas",
+    "C": "To increase the heating value of the syngas",
+    "D": "To remove tar from the syngas",
+    "Answer": "To remove particulate matter from the syngas",
+    "Image": "1",
+    "Explaination": "A cyclone separator removes particulate matter from the syngas by using centrifugal force, improving the quality of the gas for downstream applications."
+  },
+  {
+    "Question": "What is the purpose of a scrubber in a biomass gasification system?",
+    "A": "To remove tar and water-soluble impurities from the syngas",
+    "B": "To cool the syngas",
+    "C": "To increase the heating value of the syngas",
+    "D": "To remove particulate matter from the syngas",
+    "Answer": "To remove tar and water-soluble impurities from the syngas",
+    "Image": "1",
+    "Explaination": "A scrubber removes tar and water-soluble impurities from the syngas by washing it with a liquid (usually water), improving the gas quality."
+  },
+  {
+    "Question": "What is the typical moisture content of biomass suitable for gasification?",
+    "A": "Less than 5%",
+    "B": "10-20%",
+    "C": "30-40%",
+    "D": "50-60%",
+    "Answer": "10-20%",
+    "Image": "1",
+    "Explaination": "Biomass with a moisture content of 10-20% is typically suitable for gasification, as higher moisture content reduces the heating value of the syngas."
+  },
+  {
+    "Question": "What is the typical ash content of biomass suitable for gasification?",
+    "A": "Less than 1%",
+    "B": "1-5%",
+    "C": "10-15%",
+    "D": "20-25%",
+    "Answer": "1-5%",
+    "Image": "1",
+    "Explaination": "Biomass with an ash content of 1-5% is typically suitable for gasification, as higher ash content can cause slagging and fouling in the gasifier."
+  },
+  {
+    "Question": "What is the typical capacity range of biomass gasification power plants?",
+    "A": "1 kW to 100 kW",
+    "B": "100 kW to 10 MW",
+    "C": "10 MW to 100 MW",
+    "D": "100 MW to 1000 MW",
+    "Answer": "100 kW to 10 MW",
+    "Image": "1",
+    "Explaination": "Biomass gasification power plants typically range from 100 kW to 10 MW in capacity, suitable for distributed power generation using local biomass resources."
+  },
+  {
+    "Question": "What is the typical overall efficiency of a biomass gasification power plant?",
+    "A": "5-10%",
+    "B": "15-30%",
+    "C": "40-50%",
+    "D": "60-70%",
+    "Answer": "15-30%",
+    "Image": "1",
+    "Explaination": "The typical overall efficiency of a biomass gasification power plant is 15-30%, depending on the gasification technology and power generation equipment."
+  },
+  {
+    "Question": "What is the levelized cost of energy (LCOE)?",
+    "A": "The average cost of generating one unit of electricity over the lifetime of a power plant",
+    "B": "The initial capital cost of a power plant",
+    "C": "The annual operating cost of a power plant",
+    "D": "The cost of fuel for a power plant",
+    "Answer": "The average cost of generating one unit of electricity over the lifetime of a power plant",
+    "Image": "1",
+    "Explaination": "The levelized cost of energy (LCOE) is the average cost of generating one unit of electricity over the lifetime of a power plant, accounting for capital, operating, and fuel costs."
+  }
+]

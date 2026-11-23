@@ -1,0 +1,262 @@
+[
+  {
+    "Question": "What is the primary purpose of reactive power compensation in a power system?",
+    "A": "To regulate voltage and reduce transmission losses",
+    "B": "To increase the frequency",
+    "C": "To increase the active power generation",
+    "D": "To reduce the line resistance",
+    "Answer": "To regulate voltage and reduce transmission losses",
+    "Image": "1",
+    "Explaination": "Reactive power compensation regulates voltage and reduces transmission losses by supplying reactive power locally, reducing the reactive current flowing through the lines."
+  },
+  {
+    "Question": "What is the effect of reactive power compensation on the power factor of a system?",
+    "A": "It improves the power factor",
+    "B": "It degrades the power factor",
+    "C": "It has no effect on the power factor",
+    "D": "It makes the power factor zero",
+    "Answer": "It improves the power factor",
+    "Image": "1",
+    "Explaination": "Reactive power compensation improves the power factor by supplying reactive power locally, reducing the reactive power drawn from the source."
+  },
+  {
+    "Question": "What is the main advantage of using a synchronous condenser for reactive power compensation?",
+    "A": "It can continuously vary its reactive power output",
+    "B": "It is cheaper than other devices",
+    "C": "It has lower losses",
+    "D": "It requires no maintenance",
+    "Answer": "It can continuously vary its reactive power output",
+    "Image": "1",
+    "Explaination": "A synchronous condenser can continuously vary its reactive power output by adjusting its field excitation, providing smooth and flexible reactive power compensation."
+  },
+  {
+    "Question": "What is the main disadvantage of a synchronous condenser?",
+    "A": "Slow response and high maintenance requirements",
+    "B": "Fast response",
+    "C": "Low cost",
+    "D": "High efficiency",
+    "Answer": "Slow response and high maintenance requirements",
+    "Image": "1",
+    "Explaination": "The main disadvantage of a synchronous condenser is its slow response and high maintenance requirements due to the rotating parts."
+  },
+  {
+    "Question": "What is the main advantage of a Static VAR Compensator (SVC) over a synchronous condenser?",
+    "A": "Faster response and no rotating parts",
+    "B": "Lower cost",
+    "C": "Higher efficiency",
+    "D": "Larger capacity",
+    "Answer": "Faster response and no rotating parts",
+    "Image": "1",
+    "Explaination": "The main advantage of an SVC over a synchronous condenser is its faster response and the absence of rotating parts, resulting in lower maintenance requirements."
+  },
+  {
+    "Question": "What is the main disadvantage of a Static VAR Compensator (SVC)?",
+    "A": "It requires harmonic filters and has lower performance at low voltages",
+    "B": "It has no reactive power control",
+    "C": "It has higher losses than a synchronous condenser",
+    "D": "It cannot be used in transmission systems",
+    "Answer": "It requires harmonic filters and has lower performance at low voltages",
+    "Image": "1",
+    "Explaination": "The main disadvantage of an SVC is that it requires harmonic filters due to thyristor switching and has lower performance at low voltages compared to a STATCOM."
+  },
+  {
+    "Question": "What is the main advantage of a STATCOM over an SVC?",
+    "A": "Better performance at low voltages and smaller footprint",
+    "B": "Lower cost",
+    "C": "Lower losses",
+    "D": "Larger capacity",
+    "Answer": "Better performance at low voltages and smaller footprint",
+    "Image": "1",
+    "Explaination": "A STATCOM has better performance at low voltages and requires a smaller footprint compared to an SVC, making it more suitable for modern power systems."
+  },
+  {
+    "Question": "What is the main disadvantage of a STATCOM?",
+    "A": "Higher cost and higher losses compared to an SVC",
+    "B": "Slower response time",
+    "C": "Larger footprint",
+    "D": "Poor performance at low voltages",
+    "Answer": "Higher cost and higher losses compared to an SVC",
+    "Image": "1",
+    "Explaination": "The main disadvantage of a STATCOM is its higher cost and higher losses compared to an SVC, due to the use of high-frequency switching IGBT converters."
+  },
+  {
+    "Question": "What is the function of a Unified Power Flow Controller (UPFC)?",
+    "A": "To control active and reactive power flow independently in a transmission line",
+    "B": "To convert AC to DC",
+    "C": "To increase the line resistance",
+    "D": "To reduce the frequency",
+    "Answer": "To control active and reactive power flow independently in a transmission line",
+    "Image": "1",
+    "Explaination": "A UPFC controls active and reactive power flow independently in a transmission line, providing flexible and fast control of power flow and voltage."
+  },
+  {
+    "Question": "What is the function of a Thyristor Controlled Series Capacitor (TCSC)?",
+    "A": "To provide variable series compensation by controlling the firing angle of thyristors",
+    "B": "To provide shunt compensation",
+    "C": "To convert AC to DC",
+    "D": "To measure the voltage",
+    "Answer": "To provide variable series compensation by controlling the firing angle of thyristors",
+    "Image": "1",
+    "Explaination": "A TCSC provides variable series compensation by controlling the firing angle of thyristors, allowing continuous adjustment of the effective series reactance."
+  },
+  {
+    "Question": "What is the main advantage of a TCSC over a fixed series capacitor?",
+    "A": "It provides variable compensation and can damp oscillations",
+    "B": "It is cheaper",
+    "C": "It has lower losses",
+    "D": "It requires no control system",
+    "Answer": "It provides variable compensation and can damp oscillations",
+    "Image": "1",
+    "Explaination": "The main advantage of a TCSC over a fixed series capacitor is its ability to provide variable compensation and damp power oscillations, improving system stability."
+  },
+  {
+    "Question": "What is the function of a Static Synchronous Series Compensator (SSSC)?",
+    "A": "To inject a controllable voltage in series with the transmission line",
+    "B": "To provide shunt compensation",
+    "C": "To convert AC to DC",
+    "D": "To measure the voltage",
+    "Answer": "To inject a controllable voltage in series with the transmission line",
+    "Image": "1",
+    "Explaination": "An SSSC injects a controllable voltage in series with the transmission line to control power flow and improve stability."
+  },
+  {
+    "Question": "What is the main advantage of an SSSC over a TCSC?",
+    "A": "It can control both active and reactive power flow",
+    "B": "It is cheaper",
+    "C": "It has lower losses",
+    "D": "It requires no control system",
+    "Answer": "It can control both active and reactive power flow",
+    "Image": "1",
+    "Explaination": "The main advantage of an SSSC over a TCSC is its ability to control both active and reactive power flow by injecting a controllable voltage in series with the line."
+  },
+  {
+    "Question": "What is the function of a Static VAR Compensator (SVC) in a power system?",
+    "A": "To provide dynamic reactive power compensation and voltage regulation",
+    "B": "To convert AC to DC",
+    "C": "To increase the line resistance",
+    "D": "To reduce the frequency",
+    "Answer": "To provide dynamic reactive power compensation and voltage regulation",
+    "Image": "1",
+    "Explaination": "An SVC provides dynamic reactive power compensation and voltage regulation, improving system stability and power quality."
+  },
+  {
+    "Question": "What is the function of a STATCOM in a power system?",
+    "A": "To provide dynamic reactive power compensation and voltage regulation",
+    "B": "To convert AC to DC",
+    "C": "To increase the line resistance",
+    "D": "To reduce the frequency",
+    "Answer": "To provide dynamic reactive power compensation and voltage regulation",
+    "Image": "1",
+    "Explaination": "A STATCOM provides dynamic reactive power compensation and voltage regulation, similar to an SVC but with faster response and better performance at low voltages."
+  },
+  {
+    "Question": "What is the main difference between an SVC and a STATCOM in terms of their reactive power output at low voltages?",
+    "A": "STATCOM can maintain rated reactive current output at low voltages, while SVC output decreases",
+    "B": "SVC can maintain rated reactive current output at low voltages, while STATCOM output decreases",
+    "C": "Both have the same output at low voltages",
+    "D": "Neither can operate at low voltages",
+    "Answer": "STATCOM can maintain rated reactive current output at low voltages, while SVC output decreases",
+    "Image": "1",
+    "Explaination": "A STATCOM can maintain rated reactive current output even at low voltages, while an SVC's reactive current output decreases linearly with voltage."
+  },
+  {
+    "Question": "What is the purpose of a reactor in a power system?",
+    "A": "To absorb reactive power and limit fault currents",
+    "B": "To supply active power",
+    "C": "To increase the voltage",
+    "D": "To improve the power factor",
+    "Answer": "To absorb reactive power and limit fault currents",
+    "Image": "1",
+    "Explaination": "A reactor absorbs reactive power and can be used to limit fault currents and control voltage in a power system."
+  },
+  {
+    "Question": "What is the function of a shunt reactor in a transmission line?",
+    "A": "To absorb reactive power and limit overvoltages",
+    "B": "To supply reactive power",
+    "C": "To increase the line resistance",
+    "D": "To increase the voltage",
+    "Answer": "To absorb reactive power and limit overvoltages",
+    "Image": "1",
+    "Explaination": "A shunt reactor absorbs reactive power and is used to limit overvoltages, particularly under light-load or no-load conditions."
+  },
+  {
+    "Question": "What is the function of a series reactor?",
+    "A": "To limit fault currents and reduce harmonic currents",
+    "B": "To increase the voltage",
+    "C": "To improve the power factor",
+    "D": "To reduce the transmission losses",
+    "Answer": "To limit fault currents and reduce harmonic currents",
+    "Image": "1",
+    "Explaination": "A series reactor is typically used to limit fault currents and reduce harmonic currents in a power system."
+  },
+  {
+    "Question": "What is the function of a smoothing reactor in a HVDC system?",
+    "A": "To smooth the DC current ripple",
+    "B": "To increase the DC voltage",
+    "C": "To convert AC to DC",
+    "D": "To measure the DC current",
+    "Answer": "To smooth the DC current ripple",
+    "Image": "1",
+    "Explaination": "A smoothing reactor is used in HVDC systems to smooth the DC current ripple and reduce harmonics."
+  },
+  {
+    "Question": "What is the function of a neutral grounding reactor?",
+    "A": "To limit the ground fault current",
+    "B": "To increase the ground fault current",
+    "C": "To eliminate the ground fault current",
+    "D": "To measure the ground fault current",
+    "Answer": "To limit the ground fault current",
+    "Image": "1",
+    "Explaination": "A neutral grounding reactor is used to limit the ground fault current in a power system, protecting equipment and personnel."
+  },
+  {
+    "Question": "What is the main advantage of a static VAR compensator (SVC) over a synchronous condenser?",
+    "A": "Faster response and no rotating parts",
+    "B": "Lower cost",
+    "C": "Higher efficiency",
+    "D": "Larger capacity",
+    "Answer": "Faster response and no rotating parts",
+    "Image": "1",
+    "Explaination": "The main advantage of an SVC over a synchronous condenser is its faster response and the absence of rotating parts, resulting in lower maintenance requirements."
+  },
+  {
+    "Question": "What is the main disadvantage of a synchronous condenser?",
+    "A": "Slow response and high maintenance requirements",
+    "B": "Fast response",
+    "C": "Low cost",
+    "D": "High efficiency",
+    "Answer": "Slow response and high maintenance requirements",
+    "Image": "1",
+    "Explaination": "The main disadvantage of a synchronous condenser is its slow response and high maintenance requirements due to the rotating parts."
+  },
+  {
+    "Question": "What is the purpose of a Static Synchronous Series Compensator (SSSC)?",
+    "A": "To inject a controllable voltage in series with the transmission line",
+    "B": "To provide shunt compensation",
+    "C": "To convert AC to DC",
+    "D": "To measure the voltage",
+    "Answer": "To inject a controllable voltage in series with the transmission line",
+    "Image": "1",
+    "Explaination": "An SSSC injects a controllable voltage in series with the transmission line to control power flow and improve stability."
+  },
+  {
+    "Question": "What is the main advantage of an SSSC over a fixed series capacitor?",
+    "A": "It provides variable compensation and can damp oscillations",
+    "B": "It is cheaper",
+    "C": "It has lower losses",
+    "D": "It requires no control system",
+    "Answer": "It provides variable compensation and can damp oscillations",
+    "Image": "1",
+    "Explaination": "The main advantage of an SSSC over a fixed series capacitor is its ability to provide variable compensation and damp power oscillations, improving system stability."
+  },
+  {
+    "Question": "What is the function of an Interline Power Flow Controller (IPFC)?",
+    "A": "To control power flow in multiple transmission lines",
+    "B": "To control power flow in a single transmission line",
+    "C": "To convert AC to DC",
+    "D": "To measure the voltage",
+    "Answer": "To control power flow in multiple transmission lines",
+    "Image": "1",
+    "Explaination": "An IPFC controls power flow in multiple transmission lines by coordinating series converters on different lines."
+  }
+]

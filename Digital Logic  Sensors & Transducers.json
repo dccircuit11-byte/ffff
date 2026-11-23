@@ -1,0 +1,222 @@
+[
+  {
+    "Question": "What is a digital logic gate?",
+    "A": "A physical device that performs a logical operation on one or more binary inputs to produce a single binary output",
+    "B": "A sensor that converts physical quantities into electrical signals",
+    "C": "A type of communication protocol",
+    "D": "A type of actuator",
+    "Answer": "A physical device that performs a logical operation on one or more binary inputs to produce a single binary output",
+    "Image": "1",
+    "Explaination": "A digital logic gate is a physical device that performs a logical operation (such as AND, OR, NOT) on one or more binary inputs to produce a single binary output."
+  },
+  {
+    "Question": "What is the output of an AND gate when both inputs are 1?",
+    "A": "1",
+    "B": "0",
+    "C": "High impedance",
+    "D": "Undefined",
+    "Answer": "1",
+    "Image": "1",
+    "Explaination": "The output of an AND gate is 1 only when both inputs are 1; otherwise, the output is 0."
+  },
+  {
+    "Question": "What is the output of an OR gate when both inputs are 0?",
+    "A": "1",
+    "B": "0",
+    "C": "High impedance",
+    "D": "Undefined",
+    "Answer": "0",
+    "Image": "1",
+    "Explaination": "The output of an OR gate is 0 only when both inputs are 0; otherwise, the output is 1."
+  },
+  {
+    "Question": "What is the output of a NOT gate when the input is 0?",
+    "A": "1",
+    "B": "0",
+    "C": "High impedance",
+    "D": "Undefined",
+    "Answer": "1",
+    "Image": "1",
+    "Explaination": "The output of a NOT gate is the inverse of its input; when the input is 0, the output is 1."
+  },
+  {
+    "Question": "What is the output of a NAND gate when both inputs are 1?",
+    "A": "1",
+    "B": "0",
+    "C": "High impedance",
+    "D": "Undefined",
+    "Answer": "0",
+    "Image": "1",
+    "Explaination": "The output of a NAND gate is the inverse of an AND gate; when both inputs are 1, the output is 0."
+  },
+  {
+    "Question": "What is the output of a NOR gate when both inputs are 0?",
+    "A": "1",
+    "B": "0",
+    "C": "High impedance",
+    "D": "Undefined",
+    "Answer": "1",
+    "Image": "1",
+    "Explaination": "The output of a NOR gate is the inverse of an OR gate; when both inputs are 0, the output is 1."
+  },
+  {
+    "Question": "What is the output of an XOR gate when both inputs are 1?",
+    "A": "1",
+    "B": "0",
+    "C": "High impedance",
+    "D": "Undefined",
+    "Answer": "0",
+    "Image": "1",
+    "Explaination": "The output of an XOR (exclusive OR) gate is 1 when the inputs are different, and 0 when the inputs are the same; when both inputs are 1, the output is 0."
+  },
+  {
+    "Question": "What is the output of an XNOR gate when both inputs are 0?",
+    "A": "1",
+    "B": "0",
+    "C": "High impedance",
+    "D": "Undefined",
+    "Answer": "1",
+    "Image": "1",
+    "Explaination": "The output of an XNOR (exclusive NOR) gate is 1 when the inputs are the same, and 0 when the inputs are different; when both inputs are 0, the output is 1."
+  },
+  {
+    "Question": "What is a sensor?",
+    "A": "A device that detects and responds to a physical stimulus and converts it into an electrical signal",
+    "B": "A device that performs logical operations",
+    "C": "A type of communication protocol",
+    "D": "A type of actuator",
+    "Answer": "A device that detects and responds to a physical stimulus and converts it into an electrical signal",
+    "Image": "1",
+    "Explaination": "A sensor is a device that detects and responds to a physical stimulus (such as temperature, pressure, or light) and converts it into an electrical signal."
+  },
+  {
+    "Question": "What is a transducer?",
+    "A": "A device that converts one form of energy into another",
+    "B": "A device that performs logical operations",
+    "C": "A type of communication protocol",
+    "D": "A type of actuator",
+    "Answer": "A device that converts one form of energy into another",
+    "Image": "1",
+    "Explaination": "A transducer is a device that converts one form of energy into another (e.g., a thermocouple converts thermal energy into electrical energy)."
+  },
+  {
+    "Question": "What is the difference between a sensor and a transducer?",
+    "A": "A sensor detects a physical stimulus, while a transducer converts one form of energy into another",
+    "B": "A sensor converts energy, while a transducer detects a stimulus",
+    "C": "They are the same device",
+    "D": "A sensor is used only in digital systems, while a transducer is used only in analog systems",
+    "Answer": "A sensor detects a physical stimulus, while a transducer converts one form of energy into another",
+    "Image": "1",
+    "Explaination": "A sensor detects a physical stimulus, while a transducer converts one form of energy into another. In practice, the terms are often used interchangeably."
+  },
+  {
+    "Question": "What is a thermocouple?",
+    "A": "A temperature sensor that generates a voltage proportional to the temperature difference between two junctions",
+    "B": "A pressure sensor",
+    "C": "A flow sensor",
+    "D": "A level sensor",
+    "Answer": "A temperature sensor that generates a voltage proportional to the temperature difference between two junctions",
+    "Image": "1",
+    "Explaination": "A thermocouple is a temperature sensor that generates a voltage proportional to the temperature difference between two junctions of dissimilar metals."
+  },
+  {
+    "Question": "What is an RTD (Resistance Temperature Detector)?",
+    "A": "A temperature sensor whose resistance changes with temperature",
+    "B": "A pressure sensor",
+    "C": "A flow sensor",
+    "D": "A level sensor",
+    "Answer": "A temperature sensor whose resistance changes with temperature",
+    "Image": "1",
+    "Explaination": "An RTD (Resistance Temperature Detector) is a temperature sensor whose resistance changes predictably with temperature, typically made of platinum, nickel, or copper."
+  },
+  {
+    "Question": "What is a thermistor?",
+    "A": "A temperature sensor made of semiconductor material whose resistance changes significantly with temperature",
+    "B": "A pressure sensor",
+    "C": "A flow sensor",
+    "D": "A level sensor",
+    "Answer": "A temperature sensor made of semiconductor material whose resistance changes significantly with temperature",
+    "Image": "1",
+    "Explaination": "A thermistor is a temperature sensor made of semiconductor material whose resistance changes significantly (either increasing or decreasing) with temperature."
+  },
+  {
+    "Question": "What is a strain gauge?",
+    "A": "A sensor that measures strain (deformation) by changes in electrical resistance",
+    "B": "A temperature sensor",
+    "C": "A flow sensor",
+    "D": "A level sensor",
+    "Answer": "A sensor that measures strain (deformation) by changes in electrical resistance",
+    "Image": "1",
+    "Explaination": "A strain gauge is a sensor that measures strain (deformation) by changes in electrical resistance, commonly used in pressure and force sensors."
+  },
+  {
+    "Question": "What is an LVDT (Linear Variable Differential Transformer)?",
+    "A": "A sensor that measures linear displacement using a transformer with a movable core",
+    "B": "A temperature sensor",
+    "C": "A flow sensor",
+    "D": "A level sensor",
+    "Answer": "A sensor that measures linear displacement using a transformer with a movable core",
+    "Image": "1",
+    "Explaination": "An LVDT (Linear Variable Differential Transformer) is a sensor that measures linear displacement using a transformer with a movable core, providing highly accurate position measurements."
+  },
+  {
+    "Question": "What is a proximity sensor?",
+    "A": "A sensor that detects the presence of an object without physical contact",
+    "B": "A temperature sensor",
+    "C": "A flow sensor",
+    "D": "A level sensor",
+    "Answer": "A sensor that detects the presence of an object without physical contact",
+    "Image": "1",
+    "Explaination": "A proximity sensor detects the presence of an object without physical contact, using technologies such as inductive, capacitive, or optical sensing."
+  },
+  {
+    "Question": "What is an inductive proximity sensor?",
+    "A": "A sensor that detects metallic objects using an electromagnetic field",
+    "B": "A sensor that detects non-metallic objects",
+    "C": "A sensor that measures temperature",
+    "D": "A sensor that measures flow",
+    "Answer": "A sensor that detects metallic objects using an electromagnetic field",
+    "Image": "1",
+    "Explaination": "An inductive proximity sensor detects metallic objects using an electromagnetic field, with no physical contact required."
+  },
+  {
+    "Question": "What is a capacitive proximity sensor?",
+    "A": "A sensor that detects both metallic and non-metallic objects by changes in capacitance",
+    "B": "A sensor that detects only metallic objects",
+    "C": "A sensor that measures temperature",
+    "D": "A sensor that measures flow",
+    "Answer": "A sensor that detects both metallic and non-metallic objects by changes in capacitance",
+    "Image": "1",
+    "Explaination": "A capacitive proximity sensor detects both metallic and non-metallic objects by changes in capacitance, making it suitable for a wider range of materials."
+  },
+  {
+    "Question": "What is a photoelectric sensor?",
+    "A": "A sensor that detects objects using a light beam",
+    "B": "A sensor that detects objects using an electromagnetic field",
+    "C": "A sensor that measures temperature",
+    "D": "A sensor that measures flow",
+    "Answer": "A sensor that detects objects using a light beam",
+    "Image": "1",
+    "Explaination": "A photoelectric sensor detects objects using a light beam (visible or infrared), with various configurations such as through-beam, retro-reflective, and diffuse."
+  },
+  {
+    "Question": "What is an ultrasonic sensor?",
+    "A": "A sensor that detects objects using high-frequency sound waves",
+    "B": "A sensor that detects objects using an electromagnetic field",
+    "C": "A sensor that measures temperature",
+    "D": "A sensor that measures flow",
+    "Answer": "A sensor that detects objects using high-frequency sound waves",
+    "Image": "1",
+    "Explaination": "An ultrasonic sensor detects objects using high-frequency sound waves, measuring the time it takes for the sound to bounce back from the object."
+  },
+  {
+    "Question": "What is an analog-to-digital converter (ADC)?",
+    "A": "A device that converts an analog signal into a digital signal",
+    "B": "A device that converts a digital signal into an analog signal",
+    "C": "A device that amplifies a signal",
+    "D": "A device that filters a signal",
+    "Answer": "A device that converts an analog signal into a digital signal",
+    "Image": "1",
+    "Explaination": "An analog-to-digital converter (ADC) converts a continuous analog signal into a discrete digital signal, allowing the PLC to process analog inputs."
+  }
+]

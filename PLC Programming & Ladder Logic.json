@@ -1,0 +1,282 @@
+[
+  {
+    "Question": "What is ladder logic in PLC programming?",
+    "A": "A graphical programming language that uses relay-like symbols to represent logic operations",
+    "B": "A text-based programming language",
+    "C": "A type of communication protocol",
+    "D": "A type of sensor",
+    "Answer": "A graphical programming language that uses relay-like symbols to represent logic operations",
+    "Image": "1",
+    "Explaination": "Ladder logic is a graphical programming language that uses relay-like symbols (contacts, coils) to represent logic operations, making it intuitive for electricians and engineers familiar with relay control circuits."
+  },
+  {
+    "Question": "What is a 'rung' in ladder logic?",
+    "A": "A single line of logic in a ladder diagram, representing one control operation",
+    "B": "A type of PLC hardware",
+    "C": "A communication protocol",
+    "D": "A type of sensor",
+    "Answer": "A single line of logic in a ladder diagram, representing one control operation",
+    "Image": "1",
+    "Explaination": "A rung is a single line of logic in a ladder diagram, representing one control operation. The ladder diagram consists of multiple rungs connected between two vertical rails."
+  },
+  {
+    "Question": "What does a normally open (NO) contact symbol represent in ladder logic?",
+    "A": "A contact that is open when the associated tag is OFF and closed when the tag is ON",
+    "B": "A contact that is closed when the associated tag is OFF and open when the tag is ON",
+    "C": "A contact that is always closed",
+    "D": "A contact that is always open",
+    "Answer": "A contact that is open when the associated tag is OFF and closed when the tag is ON",
+    "Image": "1",
+    "Explaination": "A normally open (NO) contact in ladder logic is open when the associated tag is OFF (0) and closed when the tag is ON (1), allowing current to flow when the condition is true."
+  },
+  {
+    "Question": "What does a normally closed (NC) contact symbol represent in ladder logic?",
+    "A": "A contact that is closed when the associated tag is OFF and open when the tag is ON",
+    "B": "A contact that is open when the associated tag is OFF and closed when the tag is ON",
+    "C": "A contact that is always closed",
+    "D": "A contact that is always open",
+    "Answer": "A contact that is closed when the associated tag is OFF and open when the tag is ON",
+    "Image": "1",
+    "Explaination": "A normally closed (NC) contact in ladder logic is closed when the associated tag is OFF (0) and open when the tag is ON (1), allowing current to flow when the condition is false."
+  },
+  {
+    "Question": "What does a coil symbol represent in ladder logic?",
+    "A": "An output that is energized when the logic preceding it is true",
+    "B": "An input that is read by the PLC",
+    "C": "A communication protocol",
+    "D": "A type of sensor",
+    "Answer": "An output that is energized when the logic preceding it is true",
+    "Image": "1",
+    "Explaination": "A coil symbol in ladder logic represents an output that is energized (turned ON) when the logic preceding it is true, and de-energized (turned OFF) when the logic is false."
+  },
+  {
+    "Question": "What is the AND logic function in ladder logic?",
+    "A": "Two normally open contacts in series",
+    "B": "Two normally open contacts in parallel",
+    "C": "Two normally closed contacts in series",
+    "D": "Two normally closed contacts in parallel",
+    "Answer": "Two normally open contacts in series",
+    "Image": "1",
+    "Explaination": "The AND logic function in ladder logic is implemented by placing two normally open contacts in series, so both conditions must be true for the output to be energized."
+  },
+  {
+    "Question": "What is the OR logic function in ladder logic?",
+    "A": "Two normally open contacts in parallel",
+    "B": "Two normally open contacts in series",
+    "C": "Two normally closed contacts in series",
+    "D": "Two normally closed contacts in parallel",
+    "Answer": "Two normally open contacts in parallel",
+    "Image": "1",
+    "Explaination": "The OR logic function in ladder logic is implemented by placing two normally open contacts in parallel, so either condition being true will energize the output."
+  },
+  {
+    "Question": "What is the NOT logic function in ladder logic?",
+    "A": "A normally closed contact",
+    "B": "A normally open contact",
+    "C": "A coil",
+    "D": "A timer",
+    "Answer": "A normally closed contact",
+    "Image": "1",
+    "Explaination": "The NOT logic function in ladder logic is implemented using a normally closed contact, which is true when the associated tag is OFF and false when the tag is ON."
+  },
+  {
+    "Question": "What is a 'latch' in ladder logic?",
+    "A": "A function that keeps an output energized even after the input condition is removed",
+    "B": "A function that turns off an output after a delay",
+    "C": "A function that counts events",
+    "D": "A function that compares values",
+    "Answer": "A function that keeps an output energized even after the input condition is removed",
+    "Image": "1",
+    "Explaination": "A latch in ladder logic keeps an output energized even after the input condition is removed, until a separate unlatch condition is met."
+  },
+  {
+    "Question": "What is an 'unlatch' in ladder logic?",
+    "A": "A function that de-energizes a latched output",
+    "B": "A function that energizes an output",
+    "C": "A function that counts events",
+    "D": "A function that compares values",
+    "Answer": "A function that de-energizes a latched output",
+    "Image": "1",
+    "Explaination": "An unlatch in ladder logic de-energizes a latched output, allowing the output to turn off when the unlatch condition is met."
+  },
+  {
+    "Question": "What is a 'timer' in ladder logic?",
+    "A": "A function that delays the turning on or off of an output",
+    "B": "A function that counts events",
+    "C": "A function that compares values",
+    "D": "A function that latches an output",
+    "Answer": "A function that delays the turning on or off of an output",
+    "Image": "1",
+    "Explaination": "A timer in ladder logic delays the turning on or off of an output, allowing time-based control operations."
+  },
+  {
+    "Question": "What is an 'ON-delay timer' (TON) in ladder logic?",
+    "A": "A timer that delays the turning on of an output after the input condition becomes true",
+    "B": "A timer that delays the turning off of an output",
+    "C": "A timer that counts events",
+    "D": "A timer that compares values",
+    "Answer": "A timer that delays the turning on of an output after the input condition becomes true",
+    "Image": "1",
+    "Explaination": "An ON-delay timer (TON) delays the turning on of an output after the input condition becomes true, for a specified duration."
+  },
+  {
+    "Question": "What is an 'OFF-delay timer' (TOF) in ladder logic?",
+    "A": "A timer that delays the turning off of an output after the input condition becomes false",
+    "B": "A timer that delays the turning on of an output",
+    "C": "A timer that counts events",
+    "D": "A timer that compares values",
+    "Answer": "A timer that delays the turning off of an output after the input condition becomes false",
+    "Image": "1",
+    "Explaination": "An OFF-delay timer (TOF) delays the turning off of an output after the input condition becomes false, for a specified duration."
+  },
+  {
+    "Question": "What is a 'counter' in ladder logic?",
+    "A": "A function that counts events or pulses",
+    "B": "A function that delays the turning on of an output",
+    "C": "A function that compares values",
+    "D": "A function that latches an output",
+    "Answer": "A function that counts events or pulses",
+    "Image": "1",
+    "Explaination": "A counter in ladder logic counts events or pulses, allowing control operations based on the number of occurrences."
+  },
+  {
+    "Question": "What is an 'up-counter' (CTU) in ladder logic?",
+    "A": "A counter that increments its count value on each rising edge of the input",
+    "B": "A counter that decrements its count value",
+    "C": "A counter that resets its count value",
+    "D": "A counter that compares values",
+    "Answer": "A counter that increments its count value on each rising edge of the input",
+    "Image": "1",
+    "Explaination": "An up-counter (CTU) increments its count value on each rising edge of the input, counting up to a preset value."
+  },
+  {
+    "Question": "What is a 'down-counter' (CTD) in ladder logic?",
+    "A": "A counter that decrements its count value on each rising edge of the input",
+    "B": "A counter that increments its count value",
+    "C": "A counter that resets its count value",
+    "D": "A counter that compares values",
+    "Answer": "A counter that decrements its count value on each rising edge of the input",
+    "Image": "1",
+    "Explaination": "A down-counter (CTD) decrements its count value on each rising edge of the input, counting down from a preset value."
+  },
+  {
+    "Question": "What is a 'compare' instruction in ladder logic?",
+    "A": "An instruction that compares two values and sets a bit if the comparison is true",
+    "B": "An instruction that delays the turning on of an output",
+    "C": "An instruction that counts events",
+    "D": "An instruction that latches an output",
+    "Answer": "An instruction that compares two values and sets a bit if the comparison is true",
+    "Image": "1",
+    "Explaination": "A compare instruction in ladder logic compares two values (e.g., equal, greater than, less than) and sets a bit if the comparison is true."
+  },
+  {
+    "Question": "What is a 'move' instruction in ladder logic?",
+    "A": "An instruction that copies a value from one memory location to another",
+    "B": "An instruction that delays the turning on of an output",
+    "C": "An instruction that counts events",
+    "D": "An instruction that compares values",
+    "Answer": "An instruction that copies a value from one memory location to another",
+    "Image": "1",
+    "Explaination": "A move instruction in ladder logic copies a value from one memory location to another, allowing data manipulation and transfer."
+  },
+  {
+    "Question": "What is a 'math' instruction in ladder logic?",
+    "A": "An instruction that performs arithmetic operations on values",
+    "B": "An instruction that delays the turning on of an output",
+    "C": "An instruction that counts events",
+    "D": "An instruction that compares values",
+    "Answer": "An instruction that performs arithmetic operations on values",
+    "Image": "1",
+    "Explaination": "A math instruction in ladder logic performs arithmetic operations (add, subtract, multiply, divide) on values, allowing complex calculations within the PLC program."
+  },
+  {
+    "Question": "What is a 'jump' instruction in ladder logic?",
+    "A": "An instruction that skips over a section of the program",
+    "B": "An instruction that delays the turning on of an output",
+    "C": "An instruction that counts events",
+    "D": "An instruction that compares values",
+    "Answer": "An instruction that skips over a section of the program",
+    "Image": "1",
+    "Explaination": "A jump instruction in ladder logic skips over a section of the program, allowing conditional execution of program segments."
+  },
+  {
+    "Question": "What is a 'subroutine' in ladder logic?",
+    "A": "A separate section of the program that can be called and executed from the main program",
+    "B": "A section of the program that is always executed",
+    "C": "A section of the program that is never executed",
+    "D": "A section of the program that is executed only once",
+    "Answer": "A separate section of the program that can be called and executed from the main program",
+    "Image": "1",
+    "Explaination": "A subroutine is a separate section of the program that can be called and executed from the main program, allowing code reuse and modular programming."
+  },
+  {
+    "Question": "What is a 'PID' instruction in ladder logic?",
+    "A": "An instruction that implements a Proportional-Integral-Derivative control loop",
+    "B": "An instruction that delays the turning on of an output",
+    "C": "An instruction that counts events",
+    "D": "An instruction that compares values",
+    "Answer": "An instruction that implements a Proportional-Integral-Derivative control loop",
+    "Image": "1",
+    "Explaination": "A PID instruction in ladder logic implements a Proportional-Integral-Derivative control loop, used for precise control of process variables such as temperature, pressure, and flow."
+  },
+  {
+    "Question": "What is the 'scan cycle' in PLC programming?",
+    "A": "The sequence of operations the CPU performs repeatedly: read inputs, execute program, update outputs",
+    "B": "The time it takes to load the program",
+    "C": "The time it takes to communicate with the HMI",
+    "D": "The time it takes to store historical data",
+    "Answer": "The sequence of operations the CPU performs repeatedly: read inputs, execute program, update outputs",
+    "Image": "1",
+    "Explaination": "The scan cycle is the sequence of operations the CPU performs repeatedly: read inputs, execute the program logic, and update outputs."
+  },
+  {
+    "Question": "What is 'online editing' in PLC programming?",
+    "A": "The ability to modify the program while the PLC is running",
+    "B": "The ability to modify the program while the PLC is stopped",
+    "C": "The ability to modify the program offline",
+    "D": "The ability to modify the program without a computer",
+    "Answer": "The ability to modify the program while the PLC is running",
+    "Image": "1",
+    "Explaination": "Online editing allows the programmer to modify the program while the PLC is running, minimizing downtime and allowing immediate adjustments."
+  },
+  {
+    "Question": "What is 'offline programming' in PLC programming?",
+    "A": "The ability to modify the program while the PLC is not connected to the process",
+    "B": "The ability to modify the program while the PLC is running",
+    "C": "The ability to modify the program without a computer",
+    "D": "The ability to modify the program without a power supply",
+    "Answer": "The ability to modify the program while the PLC is not connected to the process",
+    "Image": "1",
+    "Explaination": "Offline programming allows the programmer to modify the program while the PLC is not connected to the process, typically using a simulation environment."
+  },
+  {
+    "Question": "What is 'forcing' in PLC programming?",
+    "A": "The ability to manually override an input or output value for testing or troubleshooting",
+    "B": "The ability to modify the program while the PLC is running",
+    "C": "The ability to communicate with the HMI",
+    "D": "The ability to store historical data",
+    "Answer": "The ability to manually override an input or output value for testing or troubleshooting",
+    "Image": "1",
+    "Explaination": "Forcing allows the programmer to manually override an input or output value for testing or troubleshooting, regardless of the actual field device state."
+  },
+  {
+    "Question": "What is a 'watchdog timer' in PLC programming?",
+    "A": "A timer that detects if the CPU is not executing the program properly and resets the PLC",
+    "B": "A timer that controls the scan cycle",
+    "C": "A timer that controls the output modules",
+    "D": "A timer that controls the communication with the HMI",
+    "Answer": "A timer that detects if the CPU is not executing the program properly and resets the PLC",
+    "Image": "1",
+    "Explaination": "A watchdog timer detects if the CPU is not executing the program properly (e.g., due to a software fault or infinite loop) and resets the PLC to a safe state."
+  },
+  {
+    "Question": "What is 'structured text' in PLC programming?",
+    "A": "A text-based programming language that uses high-level constructs like IF-THEN-ELSE and FOR loops",
+    "B": "A graphical programming language",
+    "C": "A type of communication protocol",
+    "D": "A type of sensor",
+    "Answer": "A text-based programming language that uses high-level constructs like IF-THEN-ELSE and FOR loops",
+    "Image": "1",
+    "Explaination": "Structured text is a text-based programming language that uses high-level constructs like IF-THEN-ELSE and FOR loops, suitable for complex mathematical and logical operations."
+  }
+]

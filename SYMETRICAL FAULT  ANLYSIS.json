@@ -1,0 +1,162 @@
+[
+  {
+    "Question": "For alternators, each rated at 5 MVA, 11 KV with 20% reactance are working in parallel. The short circuit level at bus bars is:",
+    "A": "6.25 MVA",
+    "B": "20 MVA",
+    "C": "25 MVA",
+    "D": "100 MVA",
+    "Answer": "25 MVA",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Identify given specifications: Rated Capacity S_base = 5 MVA, Line Voltage V_L = 11 kV, Percentage Reactance %X = 20% = 0.20 pu.\n2. Formula for Short Circuit MVA (Fault Level): Fault Level = Base MVA / X_pu = (Base MVA × 100) / %X.\n3. Calculate Fault Level: Fault Level = 5 MVA / 0.20 = 25 MVA.\n4. Conclusion: The short circuit capacity at the bus bars for the machine section is 25 MVA."
+  },
+  {
+    "Question": "An isolated synchronous generator with transient reactance equal to 0.1 pu on a 100 MVA base is connected to the high voltage bus through a step up transformer of reactance 0.1 pu on a base of 100 MVA. The fault level at the bus is:",
+    "A": "1000 MVA",
+    "B": "500 MVA",
+    "C": "150 MVA",
+    "D": "50 MVA",
+    "Answer": "500 MVA",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Identify system parameters on the common 100 MVA base:\n   - Generator transient reactance, X_g = 0.1 pu\n   - Transformer reactance, X_tr = 0.1 pu\n2. Since the generator and transformer are connected in series up to the HV bus, the total Thevenin equivalent reactance is:\n   X_total = X_g + X_tr = 0.1 + 0.1 = 0.2 pu.\n3. Calculate Fault Level (Short Circuit MVA):\n   Fault Level = Base MVA / X_total = 100 MVA / 0.2 = 500 MVA.\n4. Result: The symmetrical short-circuit level at the high-voltage bus is 500 MVA."
+  },
+  {
+    "Question": "A symmetrical fault occurs on a power system. The percentage reactance of the system on 2500 KVA, 11 KV base is 25%. Fault current is:",
+    "A": "80 A",
+    "B": "525 A",
+    "C": "160 A",
+    "D": "20 A",
+    "Answer": "525 A",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Determine Base Current (I_base):\n   I_base = Base kVA / (√3 × Base kV) = 2500 / (√3 × 11) = 2500 / 19.0526 = 131.216 A.\n2. Determine Fault Current in per-unit (I_f_pu):\n   Given %X = 25% => X_pu = 0.25.\n   I_f_pu = 1 / X_pu = 1 / 0.25 = 4.0 pu (or 100 / %X = 100 / 25 = 4.0 pu).\n3. Calculate Actual Symmetrical Fault Current (I_f):\n   I_f = I_f_pu × I_base = 4.0 × 131.216 A = 524.86 A ≈ 525 A.\n4. Conclusion: The resulting fault current is 525 A."
+  },
+  {
+    "Question": "The rating of circuit breaker are generally decided on the basis of:",
+    "A": "Unsymmetrical fault current",
+    "B": "Symmetrical fault current",
+    "C": "Normal circuit current",
+    "D": "None of the above",
+    "Answer": "Symmetrical fault current",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Electrical standards require circuit breakers to interrupt maximum prospective fault power.\n2. Symmetrical 3-phase short-circuit fault produces the highest thermal and interrupting stress across the system, establishing the Symmetrical Breaking Capacity (MVA = √3 × V_rated × I_symmetrical_breaking).\n3. The peak making current is subsequently calculated directly from the symmetrical RMS breaking current using the formula: I_making = 2.55 × I_breaking_symmetrical.\n4. Therefore, the primary baseline rating of circuit breakers is determined by the symmetrical fault current."
+  },
+  {
+    "Question": "The use of reactors permits the installation of circuit breakers of:",
+    "A": "Lower rating",
+    "B": "Same rating",
+    "C": "Higher rating",
+    "D": "None of the above",
+    "Answer": "Lower rating",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. The fault current level in a power network is inversely proportional to system reactance (I_sc = V_th / X_th).\n2. Current-limiting reactors deliberately insert additional series inductive reactance into the network.\n3. Increased overall reactance reduces short-circuit current and short-circuit MVA capacity (Fault MVA = Base MVA / X_total).\n4. As a result, switchgear and circuit breakers of lower breaking capacity and current rating can be safely used, significantly saving plant installation cost."
+  },
+  {
+    "Question": "When a short circuit occurs in power system:",
+    "A": "The voltage at fault point is zero",
+    "B": "A very large current flows in the system",
+    "C": "It results in overheating of equipment",
+    "D": "All of the above",
+    "Answer": "A very large current flows in the system",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. A short-circuit fault provides a direct low-impedance or zero-impedance conductive path across the system conductors.\n2. According to Ohm's Law (I_fault = V / Z_fault), as impedance drops toward zero, an excessively large fault current (many times rated full-load current) surges through generators, transformers, and lines.\n3. Key paper answer focuses on the primary direct phenomenon: a very large current flows in the system."
+  },
+  {
+    "Question": "Reactors are used at various location in power system to:",
+    "A": "Increases short circuit current",
+    "B": "Avoid short circuit current",
+    "C": "Limit short circuit current",
+    "D": "None of the above",
+    "Answer": "Limit short circuit current",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Power systems continuously add generating units, which reduces equivalent network impedance and increases fault levels.\n2. Reactors possess high inductive reactance with very low resistance.\n3. When inserted at strategic points (generator leads, bus-ties, or feeder lines), they increase the effective short-circuit impedance without consuming appreciable real power.\n4. This limits short-circuit current to safe values within the interrupting ratings of circuit breakers."
+  },
+  {
+    "Question": "Reactor are connected……..……With the system.",
+    "A": "In series",
+    "B": "In parallel",
+    "C": "In series- parallel",
+    "D": "None of the above",
+    "Answer": "In series",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. To restrict excessive fault currents, the current-limiting device must be placed directly in the path of the current flow.\n2. In a series circuit, the total impedance is additive (Z_total = Z_line + Z_reactor).\n3. Hence, current-limiting protective reactors are connected in series with generators, feeders, or bus sections so that fault currents are forced to pass through the reactor."
+  },
+  {
+    "Question": "In a power system with negligible resistance, the fault current at a point is 8.00 pu. The series reactance to be include at the fault point to limit the short circuit current to 5.00 pu is:",
+    "A": "3.000 pu",
+    "B": "0.200 pu",
+    "C": "0.125 pu",
+    "D": "0.075 pu",
+    "Answer": "0.200 pu",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Find the initial Thevenin system reactance (X_th):\n   Initial fault current I_f1 = 1 / X_th = 8.00 pu => X_th = 1 / 8.00 = 0.125 pu.\n2. Find the total reactance required (X_new) to achieve 5.00 pu fault current:\n   New fault current I_f2 = 1 / X_new = 5.00 pu => X_new = 1 / 5.00 = 0.200 pu.\n3. Calculate the additional series reactance (X_ext) to be added:\n   X_ext = X_new - X_th = 0.200 - 0.125 = 0.075 pu.\n4. Examination Note: The official key selects Option B (0.200 pu, representing total required system reactance), while the external reactance added is 0.075 pu (Option D)."
+  },
+  {
+    "Question": "The short circuit KVA is maximum when fault occurs:",
+    "A": "Near the generator",
+    "B": "At the end of transmission line",
+    "C": "In the middle of transmission line",
+    "D": "None of the above",
+    "Answer": "Near the generator",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Formula for short-circuit kVA: SC kVA = Base kVA / X_total, where X_total is the cumulative reactance between source EMF and fault location.\n2. Total reactance is X_total = X_generator + X_line.\n3. When the fault occurs at or near the generator terminals, line reactance is zero (X_line ≈ 0), making X_total minimum.\n4. Since SC kVA is inversely proportional to X_total, minimum reactance yields the absolute maximum short-circuit kVA."
+  },
+  {
+    "Question": "Which portion of transmission system is more prone to faults?",
+    "A": "Alternator",
+    "B": "Transformer",
+    "C": "Underground cable",
+    "D": "Overhead lines",
+    "Answer": "Overhead lines",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Alternators and transformers are housed indoors with heavy dielectric enclosures and controlled environments.\n2. Underground cables are buried beneath the soil, protected from external atmospheric disturbances.\n3. Overhead transmission lines span hundreds of kilometers exposed to open air, direct lightning strikes, high wind clashing, dust contamination, tree branch contact, and tower damage.\n4. Consequently, statistical power data shows that overhead lines account for over 80% to 90% of all power system faults."
+  },
+  {
+    "Question": "Series reactor are used to:",
+    "A": "Improve transmission efficiency",
+    "B": "Improve power factor of power system",
+    "C": "Improve voltage regulation",
+    "D": "Bring down fault level within capacity of switchgear",
+    "Answer": "Bring down fault level within capacity of switchgear",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. As power grids expand with new generating units and interconnecting lines, the effective system Thevenin impedance decreases.\n2. Lower impedance causes prospective short-circuit MVA levels to exceed the breaking capacities of installed circuit breakers.\n3. By placing series reactors at busbars or line terminals, the total fault reactance is intentionally increased.\n4. This brings down the prospective fault level safely within the rupturing and interrupting capacity of existing switchgear."
+  },
+  {
+    "Question": "A 3-phase 50 MVA 10 kV generator has reactance of 0.2 ohm per phase. Hence the per unit value of the reactance on a base 100 MVA, 25 kV will be:",
+    "A": "1.25",
+    "B": "0.625",
+    "C": "0.032",
+    "D": "0.32",
+    "Answer": "0.032",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. Determine the Base Impedance (Z_base) on the new base values (100 MVA, 25 kV):\n   Z_base = (V_base_kV)^2 / S_base_MVA = (25)^2 / 100 = 625 / 100 = 6.25 Ω.\n2. Identify Actual Reactance:\n   X_actual = 0.2 Ω per phase.\n3. Calculate per-unit reactance (X_pu):\n   X_pu = X_actual / Z_base = 0.2 Ω / 6.25 Ω = 0.032 pu.\n4. Conclusion: The new per unit reactance is 0.032 pu."
+  },
+  {
+    "Question": "Three generators rated 100 MVA, 11 kV have an impedance of 0.15 pu each. If in the same plant, these generators are being replaced by a single equivalent generator, the effective impedance of equivalent generator will be:",
+    "A": "0.05 pu",
+    "B": "0.15 pu",
+    "C": "0.25 pu",
+    "D": "0.45 pu",
+    "Answer": "0.05 pu",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. All three generators are identical with Z_1 = Z_2 = Z_3 = 0.15 pu on the common base of 100 MVA, 11 kV.\n2. In a power plant busbar arrangement, parallel operation divides equivalent impedance among units:\n   1 / Z_eq = 1 / Z_1 + 1 / Z_2 + 1 / Z_3 = 3 / 0.15.\n3. Calculate equivalent per-unit impedance:\n   Z_eq = 0.15 / 3 = 0.05 pu (on 100 MVA base).\n4. Result: The single equivalent generator possesses an effective impedance of 0.05 pu."
+  },
+  {
+    "Question": "The per unit impedance of a synchronous machine is 0.242. If the base voltage is increased by 1.1 times, the per unit value will be:",
+    "A": "0.266",
+    "B": "0.242",
+    "C": "0.220",
+    "D": "0.200",
+    "Answer": "0.200",
+    "Image": "0",
+    "Explaination": "Step-by-Step Solution:\n1. State the general formula for per-unit impedance conversion when base values change:\n   Z_pu_new = Z_pu_old × (V_base_old / V_base_new)^2 × (S_base_new / S_base_old).\n2. Substitute given conditions (MVA base constant, V_base_new = 1.1 × V_base_old):\n   Z_pu_new = 0.242 × [ V_base_old / (1.1 × V_base_old) ]^2 = 0.242 × (1 / 1.1)^2.\n3. Carry out mathematical division:\n   Z_pu_new = 0.242 / 1.21 = 0.200 pu.\n4. Conclusion: The revised per-unit impedance is 0.200 pu."
+  },
+  {
+    "Question": "Consider 10 MVA and 110 kV as base value, find the pu impedance of the 200 Ω load referred to 110 kV side and 11 kV side:",
+    "A": "0.66 pu, 0.66 pu",
+    "B": "0.66 pu, 0.33 pu",
+    "C": "0.33 pu, 0.66 pu",
+    "D": "0.33 pu, 0.33 pu",
+    "Answer": "0.66 pu, 0.66 pu",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Fundamental Per-Unit Principle: A primary advantage of the per-unit system in transformer circuits is that the per-unit impedance of an element is identical whether referred to the primary, secondary, or tertiary side, provided voltage bases are selected proportional to transformer turns ratios.\n2. Base voltage at load side (R) is 55 kV (as transformed from 110 kV by 110/55 kV transformer). Base impedance at 55 kV side: Z_base_55 = (55)^2 / 10 = 3025 / 10 = 302.5 Ω.\n3. Calculate pu value of 200 Ω load: Z_pu = 200 Ω / 302.5 Ω = 0.661 pu ≈ 0.66 pu.\n4. Because per-unit values remain invariant across ideal transformer boundaries, Z_pu referred to 110 kV side and 11 kV side are both exactly 0.66 pu."
+  }
+]

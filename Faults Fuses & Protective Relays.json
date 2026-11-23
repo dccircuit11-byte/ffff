@@ -1,0 +1,142 @@
+[
+  {
+    "Question": "What is the most dangerous electrical fault in a power system?",
+    "A": "3-phase symmetrical fault",
+    "B": "Line to line fault",
+    "C": "Line to ground fault",
+    "D": "Double line to ground fault",
+    "Answer": "3-phase symmetrical fault",
+    "Image": "1",
+    "Explaination": "In a 3-phase short circuit fault, all three phases are shorted together, producing the highest fault current levels and maximum mechanical and thermal stresses on system components."
+  },
+  {
+    "Question": "Heavy-current fuses have fuse wires that are ______ in diameter compared to smaller ones:",
+    "A": "Larger",
+    "B": "Smaller",
+    "C": "Same",
+    "D": "Independent of rating",
+    "Answer": "Larger",
+    "Image": "1",
+    "Explaination": "Higher current ratings require a larger cross-sectional area and diameter to carry the continuous current without premature melting."
+  },
+  {
+    "Question": "What is the pickup current of a relay having a 125% current setting connected to a 100/5 A CT?",
+    "A": "1.0 A",
+    "B": "5.0 A",
+    "C": "6.25 A",
+    "D": "10.0 A",
+    "Answer": "6.25 A",
+    "Image": "1",
+    "Explaination": "Pickup Current = CT Secondary Current × Current Setting = 5 A × 1.25 = 6.25 A."
+  },
+  {
+    "Question": "Which device signals the circuit breaker to open in the event of an electrical fault?",
+    "A": "Fuse",
+    "B": "Isolator",
+    "C": "Current Transformer (CT)",
+    "D": "Protective Relay",
+    "Answer": "Protective Relay",
+    "Image": "1",
+    "Explaination": "The protective relay senses abnormal electrical quantities from CTs/PTs and closes its trip contact to energize the circuit breaker's trip coil."
+  },
+  {
+    "Question": "A fuse exhibits which type of time-current operating characteristics?",
+    "A": "Inverse time characteristics",
+    "B": "Definite time characteristics",
+    "C": "Direct proportional time characteristics",
+    "D": "Independent time characteristics",
+    "Answer": "Inverse time characteristics",
+    "Image": "1",
+    "Explaination": "As fault current increases, the heat generated (I²t) melts the fuse element faster, meaning higher currents result in shorter operating times (inverse relationship)."
+  },
+  {
+    "Question": "An electrical fuse performs which function(s) during a fault?",
+    "A": "Fault detection function only",
+    "B": "Current interruption function only",
+    "C": "Both detection and interruption functions",
+    "D": "Mechanical isolation only",
+    "Answer": "Both detection and interruption functions",
+    "Image": "1",
+    "Explaination": "Unlike a circuit breaker which requires an external sensing relay, a fuse detects the overcurrent via element heating and interrupts the circuit by vaporizing its element."
+  },
+  {
+    "Question": "Protective relays can be actuated by variations in which electrical quantity?",
+    "A": "Current/Voltage magnitude",
+    "B": "Frequency",
+    "C": "Phase angle / Direction",
+    "D": "All of these",
+    "Answer": "All of these",
+    "Image": "1",
+    "Explaination": "Protective relays are designed to respond to overcurrent, undervoltage, under/over-frequency, impedance (distance), and reverse power flow (phase angle)."
+  },
+  {
+    "Question": "The plug setting of an electromagnetic overcurrent relay is adjusted by changing the:",
+    "A": "Air gap distance",
+    "B": "Restraining spring tension",
+    "C": "Number of effective coil ampere-turns (tappings)",
+    "D": "Contact travel stop",
+    "Answer": "Number of effective coil ampere-turns (tappings)",
+    "Image": "1",
+    "Explaination": "Changing the plug bridge selects different coil turns, altering the magnetomotive force (MMF) needed to operate the relay armature at a specified pickup current."
+  },
+  {
+    "Question": "A major short-circuit fault left uncleared by protection devices can lead to:",
+    "A": "Excessive light bulb flickering",
+    "B": "Electrical fire and catastrophic explosion",
+    "C": "Minor harmonics",
+    "D": "Generator overspeed only",
+    "Answer": "Electrical fire and catastrophic explosion",
+    "Image": "1",
+    "Explaination": "Unchecked short-circuit currents overheat conductors, melt insulation, ignite surrounding combustible materials, and can cause explosions in oil-filled equipment."
+  },
+  {
+    "Question": "What is the function of the bimetallic strip inside a Miniature Circuit Breaker (MCB)?",
+    "A": "Short-circuit fault protection",
+    "B": "Overload protection via thermal deflection",
+    "C": "Earth leakage sensing",
+    "D": "Arc chute cooling",
+    "Answer": "Overload protection via thermal deflection",
+    "Image": "1",
+    "Explaination": "Sustained moderate overcurrent heats the bimetallic strip, causing differential expansion that bends the strip to release the mechanical latch."
+  },
+  {
+    "Question": "Which mechanism inside an MCB trips the breaker instantaneously during a dead short-circuit?",
+    "A": "Bimetallic strip",
+    "B": "Magnetic solenoid (electromagnetic coil)",
+    "C": "Mercury float switch",
+    "D": "Hydraulic damper",
+    "Answer": "Magnetic solenoid (electromagnetic coil)",
+    "Image": "1",
+    "Explaination": "Severe fault currents generate an electromagnetic field inside the solenoid coil, throwing an iron plunger that trips the latch within milliseconds."
+  },
+  {
+    "Question": "A Differential Relay operates on which fundamental electrical principle?",
+    "A": "Sensing temperature rise",
+    "B": "Vector difference between incoming current and outgoing current entering and leaving the protected zone",
+    "C": "Measuring line voltage phase angle only",
+    "D": "Counting frequency deviations",
+    "Answer": "Vector difference between incoming current and outgoing current entering and leaving the protected zone",
+    "Image": "1",
+    "Explaination": "Under healthy or external through-fault conditions, current entering the protected zone equals current leaving (Iin - Iout = 0). During internal faults, current leaks into the fault, creating a differential current (ΔI > 0) that trips the relay."
+  },
+  {
+    "Question": "What type of protective relay is immune to power swings and is primarily used for transmission line primary protection?",
+    "A": "Distance (Impedance / Mho) relay with carrier communication",
+    "B": "Thermal overload relay",
+    "C": "Bimetallic strip switch",
+    "D": "Reverse power relay",
+    "Answer": "Distance (Impedance / Mho) relay with carrier communication",
+    "Image": "1",
+    "Explaination": "High-speed distance relays measure the ratio of voltage to current (Z = V/I) to determine fault location, and when paired with carrier communication channels, provide instantaneous fault clearance while blocking power-swing trips."
+  },
+  {
+    "Question": "Why are Current Transformers (CT) secondaries NEVER allowed to be open-circuited while primary current is flowing?",
+    "A": "The CT secondary voltage drops to zero and damages the meter",
+    "B": "Loss of secondary demagnetizing flux causes the core flux to rise rapidly, generating lethal high voltages across secondary terminals and overheating the core",
+    "C": "The primary conductor melts immediately",
+    "D": "Breaker trip coils operate in reverse",
+    "Answer": "Loss of secondary demagnetizing flux causes the core flux to rise rapidly, generating lethal high voltages across secondary terminals and overheating the core",
+    "Image": "1",
+    "Explaination": "Under normal operation, secondary current produces a counter-MMF that cancels most of the primary MMF. If the secondary is opened, full primary current acts as magnetizing current, driving the core deep into saturation and inducing dangerous peak voltages (thousands of volts) across the open secondary terminals."
+  }
+]

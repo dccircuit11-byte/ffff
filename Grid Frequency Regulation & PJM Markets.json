@@ -1,0 +1,252 @@
+[
+  {
+    "Question": "What is the standard nominal frequency of the power grid in India and many other countries?",
+    "A": "60 Hz",
+    "B": "50 Hz",
+    "C": "400 Hz",
+    "D": "25 Hz",
+    "Answer": "50 Hz",
+    "Image": "1",
+    "Explaination": "The standard nominal frequency of the power grid in India and many other countries is 50 Hz."
+  },
+  {
+    "Question": "What is the primary purpose of grid frequency regulation?",
+    "A": "To maintain the balance between generation and demand in real time",
+    "B": "To increase the grid frequency continuously",
+    "C": "To reduce the grid voltage",
+    "D": "To increase transmission losses",
+    "Answer": "To maintain the balance between generation and demand in real time",
+    "Image": "1",
+    "Explaination": "Grid frequency regulation maintains the balance between generation and demand in real time to keep the frequency within acceptable limits."
+  },
+  {
+    "Question": "What happens to the grid frequency when generation exceeds demand?",
+    "A": "Frequency increases",
+    "B": "Frequency decreases",
+    "C": "Frequency remains constant",
+    "D": "Frequency drops to zero",
+    "Answer": "Frequency increases",
+    "Image": "1",
+    "Explaination": "When generation exceeds demand, the excess energy causes the grid frequency to increase."
+  },
+  {
+    "Question": "What happens to the grid frequency when demand exceeds generation?",
+    "A": "Frequency decreases",
+    "B": "Frequency increases",
+    "C": "Frequency remains constant",
+    "D": "Frequency doubles",
+    "Answer": "Frequency decreases",
+    "Image": "1",
+    "Explaination": "When demand exceeds generation, the deficit causes the grid frequency to decrease."
+  },
+  {
+    "Question": "What is the role of the Automatic Generation Control (AGC) in frequency regulation?",
+    "A": "To adjust the output of generators to maintain the grid frequency within limits",
+    "B": "To increase the grid frequency",
+    "C": "To reduce the grid voltage",
+    "D": "To increase transmission losses",
+    "Answer": "To adjust the output of generators to maintain the grid frequency within limits",
+    "Image": "1",
+    "Explaination": "AGC adjusts the output of generators in response to frequency deviations to maintain the grid frequency within acceptable limits."
+  },
+  {
+    "Question": "What is the 'droop characteristic' of a generator in frequency regulation?",
+    "A": "The relationship between frequency deviation and the change in generator output",
+    "B": "The relationship between voltage and current",
+    "C": "The relationship between power factor and load",
+    "D": "The relationship between temperature and resistance",
+    "Answer": "The relationship between frequency deviation and the change in generator output",
+    "Image": "1",
+    "Explaination": "The droop characteristic defines how a generator's output changes in response to a frequency deviation, helping to share load changes among generators."
+  },
+  {
+    "Question": "What is the typical droop setting for a generator in a power system?",
+    "A": "1% to 2%",
+    "B": "5% to 10%",
+    "C": "10% to 20%",
+    "D": "20% to 30%",
+    "Answer": "5% to 10%",
+    "Image": "1",
+    "Explaination": "The typical droop setting for a generator is 5% to 10%, meaning a 5% to 10% change in frequency results in a 100% change in generator output."
+  },
+  {
+    "Question": "What is 'primary frequency response' in grid frequency regulation?",
+    "A": "The automatic response of generators to frequency deviations within seconds",
+    "B": "The manual response of operators to frequency deviations",
+    "C": "The response of demand to frequency deviations",
+    "D": "The response of the grid to voltage deviations",
+    "Answer": "The automatic response of generators to frequency deviations within seconds",
+    "Image": "1",
+    "Explaination": "Primary frequency response is the automatic response of generators (through governor control) to frequency deviations within seconds."
+  },
+  {
+    "Question": "What is 'secondary frequency response' in grid frequency regulation?",
+    "A": "The response of AGC to restore frequency to its nominal value over minutes",
+    "B": "The response of governors within seconds",
+    "C": "The response of demand to frequency deviations",
+    "D": "The response of the grid to voltage deviations",
+    "Answer": "The response of AGC to restore frequency to its nominal value over minutes",
+    "Image": "1",
+    "Explaination": "Secondary frequency response is the response of Automatic Generation Control (AGC) to restore frequency to its nominal value over minutes."
+  },
+  {
+    "Question": "What is 'tertiary frequency response' in grid frequency regulation?",
+    "A": "The manual or scheduled response to restore frequency over longer periods",
+    "B": "The automatic response of governors within seconds",
+    "C": "The response of demand to frequency deviations",
+    "D": "The response of the grid to voltage deviations",
+    "Answer": "The manual or scheduled response to restore frequency over longer periods",
+    "Image": "1",
+    "Explaination": "Tertiary frequency response involves manual or scheduled actions to restore frequency over longer periods, often through economic dispatch."
+  },
+  {
+    "Question": "What is the 'Frequency Response Reserve' in a power system?",
+    "A": "The generation capacity reserved to respond to frequency deviations",
+    "B": "The load reserved for future use",
+    "C": "The transmission capacity reserved for emergencies",
+    "D": "The reactive power reserved for voltage control",
+    "Answer": "The generation capacity reserved to respond to frequency deviations",
+    "Image": "1",
+    "Explaination": "Frequency Response Reserve is the generation capacity reserved to respond to frequency deviations and maintain grid stability."
+  },
+  {
+    "Question": "What is PJM in the context of electricity markets?",
+    "A": "A regional transmission organization (RTO) in the United States that operates a wholesale electricity market",
+    "B": "A type of generator",
+    "C": "A type of transformer",
+    "D": "A type of renewable energy source",
+    "Answer": "A regional transmission organization (RTO) in the United States that operates a wholesale electricity market",
+    "Image": "1",
+    "Explaination": "PJM is a regional transmission organization (RTO) in the United States that operates a wholesale electricity market and manages grid frequency regulation."
+  },
+  {
+    "Question": "What is the 'Regulation Market' in PJM?",
+    "A": "A market where participants provide frequency regulation services",
+    "B": "A market for buying and selling generators",
+    "C": "A market for transmission lines",
+    "D": "A market for renewable energy certificates",
+    "Answer": "A market where participants provide frequency regulation services",
+    "Image": "1",
+    "Explaination": "The Regulation Market in PJM is where participants provide frequency regulation services to help maintain grid frequency within acceptable limits."
+  },
+  {
+    "Question": "What is the 'Synchronized Reserve Market' in PJM?",
+    "A": "A market where participants provide reserve capacity that is synchronized to the grid and ready to respond to contingencies",
+    "B": "A market for buying and selling generators",
+    "C": "A market for transmission lines",
+    "D": "A market for renewable energy certificates",
+    "Answer": "A market where participants provide reserve capacity that is synchronized to the grid and ready to respond to contingencies",
+    "Image": "1",
+    "Explaination": "The Synchronized Reserve Market in PJM is where participants provide reserve capacity that is synchronized to the grid and ready to respond to contingencies within a short time frame."
+  },
+  {
+    "Question": "What is the 'Capacity Market' in PJM?",
+    "A": "A market where participants commit to providing capacity to meet future demand",
+    "B": "A market for buying and selling generators",
+    "C": "A market for transmission lines",
+    "D": "A market for renewable energy certificates",
+    "Answer": "A market where participants commit to providing capacity to meet future demand",
+    "Image": "1",
+    "Explaination": "The Capacity Market in PJM is where participants commit to providing capacity to meet future demand, ensuring resource adequacy."
+  },
+  {
+    "Question": "What is 'demand response' in PJM markets?",
+    "A": "A program that allows customers to reduce their electricity usage in response to price signals or grid conditions",
+    "B": "A program that increases electricity usage",
+    "C": "A program that eliminates all loads",
+    "D": "A program that disconnects all customers",
+    "Answer": "A program that allows customers to reduce their electricity usage in response to price signals or grid conditions",
+    "Image": "1",
+    "Explaination": "Demand response in PJM markets allows customers to reduce their electricity usage in response to price signals or grid conditions, helping to balance supply and demand."
+  },
+  {
+    "Question": "What is the role of the 'Independent Market Monitor' (IMM) in PJM?",
+    "A": "To monitor the electricity market for anti-competitive behavior and ensure fair market operation",
+    "B": "To operate the transmission system",
+    "C": "To control the frequency",
+    "D": "To manage demand response",
+    "Answer": "To monitor the electricity market for anti-competitive behavior and ensure fair market operation",
+    "Image": "1",
+    "Explaination": "The Independent Market Monitor (IMM) in PJM monitors the electricity market for anti-competitive behavior and ensures fair market operation."
+  },
+  {
+    "Question": "What is the 'Locational Marginal Price' (LMP) in PJM?",
+    "A": "The price of electricity at a specific location, reflecting the marginal cost of supplying the next unit of electricity",
+    "B": "The price of electricity at the generator only",
+    "C": "The average price of electricity in the entire grid",
+    "D": "The price of transmission lines",
+    "Answer": "The price of electricity at a specific location, reflecting the marginal cost of supplying the next unit of electricity",
+    "Image": "1",
+    "Explaination": "The Locational Marginal Price (LMP) is the price of electricity at a specific location, reflecting the marginal cost of supplying the next unit of electricity, including generation, transmission constraints, and losses."
+  },
+  {
+    "Question": "What is the main challenge in integrating renewable energy sources into frequency regulation?",
+    "A": "The variability and uncertainty of renewable generation",
+    "B": "The high cost of renewable energy",
+    "C": "The low efficiency of renewable energy",
+    "D": "The lack of renewable energy sources",
+    "Answer": "The variability and uncertainty of renewable generation",
+    "Image": "1",
+    "Explaination": "The main challenge in integrating renewable energy sources into frequency regulation is their variability and uncertainty, which makes it difficult to maintain the balance between generation and demand."
+  },
+  {
+    "Question": "What is the role of energy storage in grid frequency regulation?",
+    "A": "To provide fast frequency response and help balance supply and demand",
+    "B": "To increase the grid frequency",
+    "C": "To reduce the grid voltage",
+    "D": "To increase transmission losses",
+    "Answer": "To provide fast frequency response and help balance supply and demand",
+    "Image": "1",
+    "Explaination": "Energy storage systems can provide fast frequency response, helping to balance supply and demand and maintain grid frequency within acceptable limits."
+  },
+  {
+    "Question": "What is 'frequency nadir' in grid frequency regulation?",
+    "A": "The lowest frequency reached after a disturbance before frequency recovery begins",
+    "B": "The highest frequency reached after a disturbance",
+    "C": "The nominal frequency",
+    "D": "The frequency at which the grid collapses",
+    "Answer": "The lowest frequency reached after a disturbance before frequency recovery begins",
+    "Image": "1",
+    "Explaination": "Frequency nadir is the lowest frequency reached after a disturbance before frequency recovery begins, which is a critical parameter for frequency stability."
+  },
+  {
+    "Question": "What is 'Rate of Change of Frequency' (RoCoF) in grid frequency regulation?",
+    "A": "The rate at which the frequency changes after a disturbance",
+    "B": "The rate at which the voltage changes",
+    "C": "The rate at which the current changes",
+    "D": "The rate at which the power changes",
+    "Answer": "The rate at which the frequency changes after a disturbance",
+    "Image": "1",
+    "Explaination": "Rate of Change of Frequency (RoCoF) is the rate at which the frequency changes after a disturbance, which is an important indicator of system inertia."
+  },
+  {
+    "Question": "What is the 'dead band' in frequency regulation?",
+    "A": "The frequency range within which no control action is taken",
+    "B": "The frequency range within which control action is taken",
+    "C": "The frequency range within which the grid collapses",
+    "D": "The frequency range within which the grid frequency is constant",
+    "Answer": "The frequency range within which no control action is taken",
+    "Image": "1",
+    "Explaination": "The dead band is the frequency range within which no control action is taken to avoid unnecessary wear and tear on generators and control systems."
+  },
+  {
+    "Question": "What is 'frequency response service' in electricity markets?",
+    "A": "A service provided to the grid to help maintain frequency within acceptable limits",
+    "B": "A service provided to increase the grid frequency",
+    "C": "A service provided to reduce the grid voltage",
+    "D": "A service provided to increase transmission losses",
+    "Answer": "A service provided to the grid to help maintain frequency within acceptable limits",
+    "Image": "1",
+    "Explaination": "Frequency response service is a service provided to the grid to help maintain frequency within acceptable limits, often through generators, demand response, or energy storage."
+  },
+  {
+    "Question": "What is the future trend in grid frequency regulation?",
+    "A": "Increased use of renewable energy, energy storage, and demand response for frequency regulation",
+    "B": "Decreased use of renewable energy",
+    "C": "Increased use of fossil fuels only",
+    "D": "Decreased use of energy storage",
+    "Answer": "Increased use of renewable energy, energy storage, and demand response for frequency regulation",
+    "Image": "1",
+    "Explaination": "The future trend in grid frequency regulation is the increased use of renewable energy, energy storage, and demand response to provide fast and flexible frequency regulation services."
+  }
+]

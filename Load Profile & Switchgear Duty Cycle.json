@@ -1,0 +1,212 @@
+[
+  {
+    "Question": "What is a load profile in a DC battery system?",
+    "A": "A graph showing the variation of load current with respect to time",
+    "B": "A graph showing the variation of battery voltage with respect to time",
+    "C": "A graph showing the variation of temperature with respect to time",
+    "D": "A graph showing the variation of battery capacity with respect to time",
+    "Answer": "A graph showing the variation of load current with respect to time",
+    "Image": "1",
+    "Explaination": "A load profile is a graph showing the variation of load current with respect to time, which is essential for sizing the battery and charger."
+  },
+  {
+    "Question": "What is the purpose of a load profile study in battery sizing?",
+    "A": "To determine the total energy required by the load over a specific period",
+    "B": "To determine the battery voltage",
+    "C": "To determine the battery temperature",
+    "D": "To determine the battery age",
+    "Answer": "To determine the total energy required by the load over a specific period",
+    "Image": "1",
+    "Explaination": "A load profile study determines the total energy required by the load over a specific period, which is used to size the battery and charger."
+  },
+  {
+    "Question": "What is the 'duty cycle' of a switchgear in a DC battery system?",
+    "A": "The sequence of operations performed by the switchgear during a fault or normal operation",
+    "B": "The voltage rating of the switchgear",
+    "C": "The current rating of the switchgear",
+    "D": "The temperature rating of the switchgear",
+    "Answer": "The sequence of operations performed by the switchgear during a fault or normal operation",
+    "Image": "1",
+    "Explaination": "The duty cycle of a switchgear is the sequence of operations (such as open, close, trip) performed during a fault or normal operation, which determines the battery load."
+  },
+  {
+    "Question": "What is the typical duration of a switchgear duty cycle in a substation?",
+    "A": "1 second",
+    "B": "1 minute",
+    "C": "1 hour",
+    "D": "1 day",
+    "Answer": "1 minute",
+    "Image": "1",
+    "Explaination": "The typical duration of a switchgear duty cycle in a substation is about 1 minute, during which multiple operations may occur."
+  },
+  {
+    "Question": "What is the 'continuous load' in a DC battery system?",
+    "A": "The load that operates continuously, such as relays and indicating lamps",
+    "B": "The load that operates only during a fault",
+    "C": "The load that operates only during maintenance",
+    "D": "The load that operates only during emergency",
+    "Answer": "The load that operates continuously, such as relays and indicating lamps",
+    "Image": "1",
+    "Explaination": "Continuous load is the load that operates continuously, such as relays, indicating lamps, and communication equipment."
+  },
+  {
+    "Question": "What is the 'non-continuous load' in a DC battery system?",
+    "A": "The load that operates only during specific events, such as tripping or closing of circuit breakers",
+    "B": "The load that operates continuously",
+    "C": "The load that operates only during maintenance",
+    "D": "The load that operates only during emergency",
+    "Answer": "The load that operates only during specific events, such as tripping or closing of circuit breakers",
+    "Image": "1",
+    "Explaination": "Non-continuous load is the load that operates only during specific events, such as tripping or closing of circuit breakers, or during emergencies."
+  },
+  {
+    "Question": "What is the 'emergency load' in a DC battery system?",
+    "A": "The load that operates during a power failure, such as emergency lighting",
+    "B": "The load that operates continuously",
+    "C": "The load that operates only during maintenance",
+    "D": "The load that operates only during normal operation",
+    "Answer": "The load that operates during a power failure, such as emergency lighting",
+    "Image": "1",
+    "Explaination": "Emergency load is the load that operates during a power failure, such as emergency lighting, to ensure safe evacuation."
+  },
+  {
+    "Question": "What is the 'peak load' in a DC battery system?",
+    "A": "The maximum load that occurs during a specific period",
+    "B": "The minimum load",
+    "C": "The average load",
+    "D": "The load during off-peak hours",
+    "Answer": "The maximum load that occurs during a specific period",
+    "Image": "1",
+    "Explaination": "Peak load is the maximum load that occurs during a specific period, which is used to determine the battery's maximum discharge rate."
+  },
+  {
+    "Question": "What is the 'average load' in a DC battery system?",
+    "A": "The average load over a specific period",
+    "B": "The maximum load",
+    "C": "The minimum load",
+    "D": "The load during off-peak hours",
+    "Answer": "The average load over a specific period",
+    "Image": "1",
+    "Explaination": "Average load is the average load over a specific period, which is used to determine the battery's energy capacity."
+  },
+  {
+    "Question": "What is the 'load factor' in a DC battery system?",
+    "A": "The ratio of average load to peak load",
+    "B": "The ratio of peak load to average load",
+    "C": "The ratio of continuous load to non-continuous load",
+    "D": "The ratio of emergency load to normal load",
+    "Answer": "The ratio of average load to peak load",
+    "Image": "1",
+    "Explaination": "Load factor is the ratio of average load to peak load, indicating the utilization of the battery capacity."
+  },
+  {
+    "Question": "What is the 'diversity factor' in a DC battery system?",
+    "A": "The ratio of the sum of individual maximum demands to the maximum demand on the battery",
+    "B": "The ratio of average load to peak load",
+    "C": "The ratio of continuous load to non-continuous load",
+    "D": "The ratio of emergency load to normal load",
+    "Answer": "The ratio of the sum of individual maximum demands to the maximum demand on the battery",
+    "Image": "1",
+    "Explaination": "Diversity factor is the ratio of the sum of individual maximum demands to the maximum demand on the battery, always greater than or equal to 1."
+  },
+  {
+    "Question": "What is the 'duty cycle' of a circuit breaker?",
+    "A": "The sequence of operations performed by the circuit breaker during a fault or normal operation",
+    "B": "The voltage rating of the circuit breaker",
+    "C": "The current rating of the circuit breaker",
+    "D": "The temperature rating of the circuit breaker",
+    "Answer": "The sequence of operations performed by the circuit breaker during a fault or normal operation",
+    "Image": "1",
+    "Explaination": "The duty cycle of a circuit breaker is the sequence of operations (such as open, close, trip) performed during a fault or normal operation."
+  },
+  {
+    "Question": "What is the typical duty cycle of a circuit breaker in a substation?",
+    "A": "O-CO-OC",
+    "B": "O-CO",
+    "C": "CO-OC",
+    "D": "O-OC-CO",
+    "Answer": "O-CO-OC",
+    "Image": "1",
+    "Explaination": "The typical duty cycle of a circuit breaker in a substation is O-CO-OC, which means Open, Close-Open, and Open-Close."
+  },
+  {
+    "Question": "What is the 'making current' of a circuit breaker?",
+    "A": "The maximum current that the circuit breaker can make during a closing operation",
+    "B": "The maximum current that the circuit breaker can break during an opening operation",
+    "C": "The continuous current rating of the circuit breaker",
+    "D": "The short-time current rating of the circuit breaker",
+    "Answer": "The maximum current that the circuit breaker can make during a closing operation",
+    "Image": "1",
+    "Explaination": "Making current is the maximum current that the circuit breaker can make during a closing operation, which is typically higher than the breaking current."
+  },
+  {
+    "Question": "What is the 'breaking current' of a circuit breaker?",
+    "A": "The maximum current that the circuit breaker can break during an opening operation",
+    "B": "The maximum current that the circuit breaker can make during a closing operation",
+    "C": "The continuous current rating of the circuit breaker",
+    "D": "The short-time current rating of the circuit breaker",
+    "Answer": "The maximum current that the circuit breaker can break during an opening operation",
+    "Image": "1",
+    "Explaination": "Breaking current is the maximum current that the circuit breaker can break during an opening operation, which is a critical parameter for protection."
+  },
+  {
+    "Question": "What is the 'short-time current' rating of a circuit breaker?",
+    "A": "The maximum current that the circuit breaker can carry for a short duration without damage",
+    "B": "The maximum current that the circuit breaker can break during an opening operation",
+    "C": "The continuous current rating of the circuit breaker",
+    "D": "The maximum current that the circuit breaker can make during a closing operation",
+    "Answer": "The maximum current that the circuit breaker can carry for a short duration without damage",
+    "Image": "1",
+    "Explaination": "Short-time current rating is the maximum current that the circuit breaker can carry for a short duration (typically 1 second or 3 seconds) without damage."
+  },
+  {
+    "Question": "What is the 'continuous current' rating of a circuit breaker?",
+    "A": "The maximum current that the circuit breaker can carry continuously without exceeding its temperature limits",
+    "B": "The maximum current that the circuit breaker can break during an opening operation",
+    "C": "The maximum current that the circuit breaker can make during a closing operation",
+    "D": "The maximum current that the circuit breaker can carry for a short duration without damage",
+    "Answer": "The maximum current that the circuit breaker can carry continuously without exceeding its temperature limits",
+    "Image": "1",
+    "Explaination": "Continuous current rating is the maximum current that the circuit breaker can carry continuously without exceeding its temperature limits."
+  },
+  {
+    "Question": "What is the 'interrupting rating' of a circuit breaker?",
+    "A": "The maximum short-circuit current that the circuit breaker can safely interrupt",
+    "B": "The maximum continuous current that the circuit breaker can carry",
+    "C": "The maximum voltage that the circuit breaker can withstand",
+    "D": "The maximum temperature that the circuit breaker can withstand",
+    "Answer": "The maximum short-circuit current that the circuit breaker can safely interrupt",
+    "Image": "1",
+    "Explaination": "Interrupting rating is the maximum short-circuit current that the circuit breaker can safely interrupt without damage."
+  },
+  {
+    "Question": "What is the 'short-circuit current' in a power system?",
+    "A": "The current that flows during a fault condition",
+    "B": "The current that flows during normal operation",
+    "C": "The current that flows during no-load condition",
+    "D": "The current that flows during full-load condition",
+    "Answer": "The current that flows during a fault condition",
+    "Image": "1",
+    "Explaination": "Short-circuit current is the current that flows during a fault condition, which can be many times the normal operating current."
+  },
+  {
+    "Question": "What is the 'peak withstand current' of a circuit breaker?",
+    "A": "The maximum peak current that the circuit breaker can withstand without damage",
+    "B": "The maximum continuous current that the circuit breaker can carry",
+    "C": "The maximum voltage that the circuit breaker can withstand",
+    "D": "The maximum temperature that the circuit breaker can withstand",
+    "Answer": "The maximum peak current that the circuit breaker can withstand without damage",
+    "Image": "1",
+    "Explaination": "Peak withstand current is the maximum peak current that the circuit breaker can withstand without damage, typically during the first cycle of a short circuit."
+  },
+  {
+    "Question": "What is the 'short-time withstand current' of a circuit breaker?",
+    "A": "The maximum current that the circuit breaker can carry for a short duration without damage",
+    "B": "The maximum continuous current that the circuit breaker can carry",
+    "C": "The maximum voltage that the circuit breaker can withstand",
+    "D": "The maximum temperature that the circuit breaker can withstand",
+    "Answer": "The maximum current that the circuit breaker can carry for a short duration without damage",
+    "Image": "1",
+    "Explaination": "Short-time withstand current is the maximum current that the circuit breaker can carry for a short duration (typically 1 second or 3 seconds) without damage."
+  }
+]

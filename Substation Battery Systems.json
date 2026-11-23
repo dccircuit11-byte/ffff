@@ -1,0 +1,132 @@
+[
+  {
+    "Question": "What is the primary function of a battery system in a substation?",
+    "A": "To supply power to the grid during peak load",
+    "B": "To provide reliable DC power for control circuits, protection relays, and emergency lighting during AC power failure",
+    "C": "To step up the voltage for transmission",
+    "D": "To improve the power factor of the substation",
+    "Answer": "To provide reliable DC power for control circuits, protection relays, and emergency lighting during AC power failure",
+    "Image": "1",
+    "Explaination": "Substation battery systems provide reliable DC power for critical control circuits, protection relays, and emergency lighting during AC power failures, ensuring the safe operation and protection of the substation."
+  },
+  {
+    "Question": "Which type of battery is most commonly used in modern substation battery systems?",
+    "A": "Lead-acid (flooded or VRLA)",
+    "B": "Nickel-cadmium (NiCd)",
+    "C": "Lithium-ion",
+    "D": "Alkaline",
+    "Answer": "Lead-acid (flooded or VRLA)",
+    "Image": "1",
+    "Explaination": "Lead-acid batteries (both flooded and VRLA) are the most commonly used type in substation battery systems due to their reliability, cost-effectiveness, and proven performance."
+  },
+  {
+    "Question": "What is the nominal voltage of a single lead-acid battery cell?",
+    "A": "1.2 V",
+    "B": "2.0 V",
+    "C": "12 V",
+    "D": "24 V",
+    "Answer": "2.0 V",
+    "Image": "1",
+    "Explaination": "A single lead-acid battery cell has a nominal voltage of approximately 2.0 V."
+  },
+  {
+    "Question": "What is the typical DC bus voltage used in a substation battery system?",
+    "A": "12 V",
+    "B": "24 V",
+    "C": "110 V or 220 V",
+    "D": "400 V",
+    "Answer": "110 V or 220 V",
+    "Image": "1",
+    "Explaination": "Substation battery systems typically use a DC bus voltage of 110 V or 220 V to supply control, protection, and communication equipment."
+  },
+  {
+    "Question": "What is a VRLA battery?",
+    "A": "A battery that requires frequent water topping",
+    "B": "A Valve-Regulated Lead-Acid battery that is sealed and maintenance-free",
+    "C": "A battery that uses lithium-ion technology",
+    "D": "A battery that uses nickel-cadmium technology",
+    "Answer": "A Valve-Regulated Lead-Acid battery that is sealed and maintenance-free",
+    "Image": "1",
+    "Explaination": "A VRLA (Valve-Regulated Lead-Acid) battery is a sealed, maintenance-free lead-acid battery with a pressure relief valve to prevent excessive internal pressure."
+  },
+  {
+    "Question": "What is the typical float voltage for a lead-acid battery in a substation?",
+    "A": "1.0 V per cell",
+    "B": "2.25 V per cell",
+    "C": "3.0 V per cell",
+    "D": "5.0 V per cell",
+    "Answer": "2.25 V per cell",
+    "Image": "1",
+    "Explaination": "The typical float voltage for a lead-acid battery in a substation is about 2.25 V per cell, which keeps the battery fully charged without overcharging."
+  },
+  {
+    "Question": "What is the purpose of a battery charger in a substation battery system?",
+    "A": "To discharge the battery",
+    "B": "To maintain the battery at full charge and supply the DC load",
+    "C": "To step up the voltage",
+    "D": "To measure the battery temperature",
+    "Answer": "To maintain the battery at full charge and supply the DC load",
+    "Image": "1",
+    "Explaination": "The battery charger maintains the battery at full charge and supplies the DC load, ensuring that the battery is always ready to provide backup power."
+  },
+  {
+    "Question": "What is the purpose of a battery monitoring system (BMS) in a substation?",
+    "A": "To charge the battery",
+    "B": "To monitor the battery's voltage, current, temperature, and state of health",
+    "C": "To discharge the battery",
+    "D": "To step up the voltage",
+    "Answer": "To monitor the battery's voltage, current, temperature, and state of health",
+    "Image": "1",
+    "Explaination": "A battery monitoring system (BMS) monitors the battery's voltage, current, temperature, and state of health, providing early warning of potential failures and ensuring reliable operation."
+  },
+  {
+    "Question": "What is the typical design life of a lead-acid battery in a substation?",
+    "A": "1-2 years",
+    "B": "3-5 years",
+    "C": "10-20 years",
+    "D": "30-40 years",
+    "Answer": "10-20 years",
+    "Image": "1",
+    "Explaination": "The typical design life of a lead-acid battery in a substation is 10-20 years, depending on the battery type, operating conditions, and maintenance practices."
+  },
+  {
+    "Question": "What is the purpose of a battery fuse or circuit breaker in a substation battery system?",
+    "A": "To increase the voltage",
+    "B": "To protect the battery and DC system from short-circuit currents",
+    "C": "To measure the battery temperature",
+    "D": "To step up the voltage",
+    "Answer": "To protect the battery and DC system from short-circuit currents",
+    "Image": "1",
+    "Explaination": "A battery fuse or circuit breaker protects the battery and DC system from short-circuit currents, preventing damage and ensuring safe operation."
+  },
+  {
+    "Question": "What is the purpose of a battery rack in a substation battery room?",
+    "A": "To store tools",
+    "B": "To securely hold the battery cells and provide ventilation and accessibility",
+    "C": "To increase the voltage",
+    "D": "To measure the battery temperature",
+    "Answer": "To securely hold the battery cells and provide ventilation and accessibility",
+    "Image": "1",
+    "Explaination": "A battery rack securely holds the battery cells and provides ventilation and accessibility for maintenance and inspection."
+  },
+  {
+    "Question": "What is the purpose of ventilation in a substation battery room?",
+    "A": "To keep the room cool",
+    "B": "To remove hydrogen gas generated during battery charging and prevent explosion",
+    "C": "To increase the voltage",
+    "D": "To measure the battery temperature",
+    "Answer": "To remove hydrogen gas generated during battery charging and prevent explosion",
+    "Image": "1",
+    "Explaination": "Ventilation in a battery room removes hydrogen gas generated during battery charging, preventing the risk of explosion and ensuring a safe environment."
+  },
+  {
+    "Question": "What is the typical electrolyte used in a lead-acid battery?",
+    "A": "Sulfuric acid and water",
+    "B": "Hydrochloric acid and water",
+    "C": "Sodium chloride and water",
+    "D": "Potassium hydroxide and water",
+    "Answer": "Sulfuric acid and water",
+    "Image": "1",
+    "Explaination": "The typical electrolyte used in a lead-acid battery is a mixture of sulfuric acid and water, which facilitates the electrochemical reactions."
+  }
+]

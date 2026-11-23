@@ -1,0 +1,302 @@
+[
+  {
+    "Question": "A 50 Hz, 4-pole synchronous generator has an inertia constant H = 4 MJ/MVA. What is the angular momentum M in MJ-s/elec. rad?",
+    "A": "0.0255",
+    "B": "0.0127",
+    "C": "0.0510",
+    "D": "0.102",
+    "Answer": "0.0255",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/48592q"
+  },
+  {
+    "Question": "A generator is connected to an infinite bus. The maximum power transfer is 2.0 p.u. If the mechanical input is 1.0 p.u., what is the steady-state power angle?",
+    "A": "30°",
+    "B": "45°",
+    "C": "60°",
+    "D": "90°",
+    "Answer": "30°",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/nihir2"
+  },
+  {
+    "Question": "A synchronous generator has a synchronous reactance of 0.8 p.u. and is connected to an infinite bus at 1.0 p.u. voltage. If the internal voltage is 1.2 p.u., what is the maximum power transfer?",
+    "A": "1.5 p.u.",
+    "B": "1.2 p.u.",
+    "C": "0.96 p.u.",
+    "D": "2.0 p.u.",
+    "Answer": "1.5 p.u.",
+    "Image": "",
+    "Explaination": "Pmax = (E × V) / X = (1.2 × 1.0) / 0.8 = 1.5 p.u."
+  },
+  {
+    "Question": "A 100 MVA, 11 kV generator has a reactance of 0.2 p.u. What is the short circuit MVA for a three-phase fault at the terminals?",
+    "A": "500 MVA",
+    "B": "100 MVA",
+    "C": "200 MVA",
+    "D": "50 MVA",
+    "Answer": "500 MVA",
+    "Image": "",
+    "Explaination": "Fault MVA = Base MVA / X = 100 / 0.2 = 500 MVA."
+  },
+  {
+    "Question": "A generator with H = 5 MJ/MVA is operating at 1.0 p.u. power. If the input mechanical power suddenly increases to 1.5 p.u., what is the accelerating power?",
+    "A": "0.5 p.u.",
+    "B": "1.5 p.u.",
+    "C": "1.0 p.u.",
+    "D": "0.0 p.u.",
+    "Answer": "0.5 p.u.",
+    "Image": "",
+    "Explaination": "Accelerating power Pa = Pm - Pe = 1.5 - 1.0 = 0.5 p.u."
+  },
+  {
+    "Question": "A 4-pole, 50 Hz generator has a moment of inertia J = 5000 kg-m². What is the stored kinetic energy at synchronous speed?",
+    "A": "246.74 MJ",
+    "B": "123.37 MJ",
+    "C": "493.48 MJ",
+    "D": "61.68 MJ",
+    "Answer": "246.74 MJ",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/a9qmz7"
+  },
+  {
+    "Question": "In a power system, base voltage is 33 kV and base power is 100 MVA. What is the base impedance?",
+    "A": "10.89 Ω",
+    "B": "21.78 Ω",
+    "C": "5.45 Ω",
+    "D": "43.56 Ω",
+    "Answer": "10.89 Ω",
+    "Image": "",
+    "Explaination": "Zbase = (Vbase)² / Sbase = (33 kV)² / 100 MVA = 1089 / 100 = 10.89 Ω."
+  },
+  {
+    "Question": "A generator is delivering 0.8 p.u. power at δ = 45°. If Pmax = 1.5 p.u., what is the synchronizing power coefficient?",
+    "A": "1.06 p.u.",
+    "B": "0.8 p.u.",
+    "C": "1.5 p.u.",
+    "D": "0.75 p.u.",
+    "Answer": "1.06 p.u.",
+    "Image": "",
+    "Explaination": "Psyn = Pmax cos δ = 1.5 × cos 45° = 1.5 × 0.707 = 1.06 p.u."
+  },
+  {
+    "Question": "A 50 MVA, 11 kV generator has a reactance of 0.15 p.u. What is the actual reactance in ohms?",
+    "A": "0.363 Ω",
+    "B": "0.726 Ω",
+    "C": "1.452 Ω",
+    "D": "0.1815 Ω",
+    "Answer": "0.363 Ω",
+    "Image": "",
+    "Explaination": "Zbase = (11 kV)² / 50 MVA = 121 / 50 = 2.42 Ω. Xactual = 0.15 × 2.42 = 0.363 Ω."
+  },
+  {
+    "Question": "A generator has M = 0.02 p.u.-s²/elec. rad. If the accelerating power is 0.3 p.u., what is the rotor acceleration?",
+    "A": "15 rad/s²",
+    "B": "6 rad/s²",
+    "C": "30 rad/s²",
+    "D": "0.6 rad/s²",
+    "Answer": "15 rad/s²",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/jdvhg4"
+  },
+  {
+    "Question": "A 3-phase, 50 Hz, 6-pole induction motor runs at 940 RPM. What is the slip?",
+    "A": "6%",
+    "B": "4%",
+    "C": "5%",
+    "D": "3%",
+    "Answer": "6%",
+    "Image": "",
+    "Explaination": "Ns = 120f/P = 120 × 50 / 6 = 1000 RPM. Slip s = (1000 - 940) / 1000 = 0.06 = 6%."
+  },
+  {
+    "Question": "A 100 MVA generator has H = 6 MJ/MVA. What is the total kinetic energy stored in the rotor at rated speed?",
+    "A": "600 MJ",
+    "B": "100 MJ",
+    "C": "60 MJ",
+    "D": "6 MJ",
+    "Answer": "600 MJ",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/flnt47"
+  },
+  {
+    "Question": "A generator is connected to an infinite bus through a line of reactance 0.4 p.u. The internal voltage is 1.1 p.u. and the bus voltage is 1.0 p.u. What is the maximum power transfer?",
+    "A": "2.75 p.u.",
+    "B": "1.1 p.u.",
+    "C": "2.2 p.u.",
+    "D": "0.44 p.u.",
+    "Answer": "2.75 p.u.",
+    "Image": "",
+    "Explaination": "Pmax = (E × V) / X = (1.1 × 1.0) / 0.4 = 2.75 p.u."
+  },
+  {
+    "Question": "A 100 MVA, 11 kV generator has a subtransient reactance of 0.1 p.u. What is the fault current in amperes for a three-phase fault at the terminals?",
+    "A": "52,486 A",
+    "B": "26,243 A",
+    "C": "13,121 A",
+    "D": "5,248 A",
+    "Answer": "52,486 A",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/ka7rtk"
+  },
+  {
+    "Question": "In a power system, base MVA is 50 and base kV is 11. What is the base current?",
+    "A": "2624.3 A",
+    "B": "5248.6 A",
+    "C": "1312.1 A",
+    "D": "10497.2 A",
+    "Answer": "2624.3 A",
+    "Image": "",
+    "Explaination": "Ibase = Sbase / (√3 × Vbase) = 50 × 10^6 / (√3 × 11 × 10^3) = 2624.3 A."
+  },
+  {
+    "Question": "A generator has an inertia constant H = 3 MJ/MVA. What is the value of M in MJ-s/elec. rad for a 60 Hz system?",
+    "A": "0.00796",
+    "B": "0.0159",
+    "C": "0.0318",
+    "D": "0.0636",
+    "Answer": "0.00796",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/2gmgpa"
+  },
+  {
+    "Question": "A 3-phase, 50 Hz, 4-pole generator has a rotor inertia of 3000 kg-m². What is the inertia constant H for a 10 MVA rating?",
+    "A": "14.8 MJ/MVA",
+    "B": "7.4 MJ/MVA",
+    "C": "29.6 MJ/MVA",
+    "D": "3.7 MJ/MVA",
+    "Answer": "14.8 MJ/MVA",
+    "Image": "",
+    "Explaination": "ω = 2πf = 314.16 rad/s. KE = 0.5 × 3000 × (314.16)² = 148.04 MJ. H = 148.04 / 10 = 14.8 MJ/MVA."
+  },
+  {
+    "Question": "A generator is operating at δ = 60° with Pmax = 2.0 p.u. What is the synchronizing power coefficient?",
+    "A": "1.0 p.u.",
+    "B": "1.732 p.u.",
+    "C": "2.0 p.u.",
+    "D": "0.5 p.u.",
+    "Answer": "1.0 p.u.",
+    "Image": "",
+    "Explaination": "Psyn = Pmax cos δ = 2.0 × cos 60° = 2.0 × 0.5 = 1.0 p.u."
+  },
+  {
+    "Question": "A 50 MVA, 11 kV generator has a reactance of 0.2 p.u. What is the fault MVA for a three-phase fault at the terminals?",
+    "A": "250 MVA",
+    "B": "50 MVA",
+    "C": "100 MVA",
+    "D": "500 MVA",
+    "Answer": "250 MVA",
+    "Image": "",
+    "Explaination": "Fault MVA = Base MVA / X = 50 / 0.2 = 250 MVA."
+  },
+  {
+    "Question": "In a power system, a 100 MVA, 11 kV generator has a reactance of 0.15 p.u. What is the reactance on a 200 MVA, 11 kV base?",
+    "A": "0.30 p.u.",
+    "B": "0.15 p.u.",
+    "C": "0.075 p.u.",
+    "D": "0.60 p.u.",
+    "Answer": "0.30 p.u.",
+    "Image": "",
+    "Explaination": "Xnew = Xold × (Snew / Sold) = 0.15 × (200 / 100) = 0.30 p.u."
+  },
+  {
+    "Question": "A generator is connected to a bus through a reactance of 0.25 p.u. If E = 1.0 p.u. and V = 1.0 p.u., what is the maximum power transfer?",
+    "A": "4.0 p.u.",
+    "B": "2.0 p.u.",
+    "C": "1.0 p.u.",
+    "D": "0.5 p.u.",
+    "Answer": "4.0 p.u.",
+    "Image": "",
+    "Explaination": "Pmax = (E × V) / X = (1.0 × 1.0) / 0.25 = 4.0 p.u."
+  },
+  {
+    "Question": "A 100 MVA generator has an inertia constant H = 4 MJ/MVA. If the generator is delivering 0.8 p.u. power and the input is 1.0 p.u., what is the acceleration?",
+    "A": "0.05 rad/s²",
+    "B": "0.02 rad/s²",
+    "C": "0.10 rad/s²",
+    "D": "0.20 rad/s²",
+    "Answer": "0.05 rad/s²",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/uctsdg"
+  },
+  {
+    "Question": "A 3-phase, 50 Hz, 4-pole induction motor runs at 1440 RPM. What is the slip?",
+    "A": "4%",
+    "B": "2%",
+    "C": "6%",
+    "D": "8%",
+    "Answer": "4%",
+    "Image": "",
+    "Explaination": "Ns = 120f/P = 120 × 50 / 4 = 1500 RPM. Slip s = (1500 - 1440) / 1500 = 0.04 = 4%."
+  },
+  {
+    "Question": "A generator has an inertia constant H = 5 MJ/MVA. What is the stored kinetic energy for a 50 MVA machine?",
+    "A": "250 MJ",
+    "B": "50 MJ",
+    "C": "10 MJ",
+    "D": "500 MJ",
+    "Answer": "250 MJ",
+    "Image": "",
+    "Explaination": "KE = H × MVA = 5 × 50 = 250 MJ."
+  },
+  {
+    "Question": "In a power system, base voltage is 11 kV and base power is 50 MVA. What is the base impedance?",
+    "A": "2.42 Ω",
+    "B": "1.21 Ω",
+    "C": "4.84 Ω",
+    "D": "0.605 Ω",
+    "Answer": "2.42 Ω",
+    "Image": "",
+    "Explaination": "Zbase = (Vbase)² / Sbase = (11 kV)² / 50 MVA = 121 / 50 = 2.42 Ω."
+  },
+  {
+    "Question": "A generator is operating at δ = 30° with Pmax = 3.0 p.u. What is the synchronizing power coefficient?",
+    "A": "2.598 p.u.",
+    "B": "1.5 p.u.",
+    "C": "3.0 p.u.",
+    "D": "1.0 p.u.",
+    "Answer": "2.598 p.u.",
+    "Image": "",
+    "Explaination": "Psyn = Pmax cos δ = 3.0 × cos 30° = 3.0 × 0.866 = 2.598 p.u."
+  },
+  {
+    "Question": "A 100 MVA, 11 kV generator has a reactance of 0.25 p.u. What is the fault current in p.u. for a three-phase fault at the terminals?",
+    "A": "4.0 p.u.",
+    "B": "0.25 p.u.",
+    "C": "1.0 p.u.",
+    "D": "25 p.u.",
+    "Answer": "4.0 p.u.",
+    "Image": "",
+    "Explaination": "Ifault (p.u.) = 1 / X = 1 / 0.25 = 4.0 p.u."
+  },
+  {
+    "Question": "A generator has M = 0.01 p.u.-s²/elec. rad. If the accelerating power is 0.5 p.u., what is the rotor acceleration?",
+    "A": "50 rad/s²",
+    "B": "5 rad/s²",
+    "C": "0.5 rad/s²",
+    "D": "100 rad/s²",
+    "Answer": "50 rad/s²",
+    "Image": "",
+    "Explaination": "d²δ/dt² = Pa / M = 0.5 / 0.01 = 50 rad/s²."
+  },
+  {
+    "Question": "A 2-pole, 50 Hz generator has a moment of inertia J = 8000 kg-m². What is the stored kinetic energy?",
+    "A": "394.78 MJ",
+    "B": "197.39 MJ",
+    "C": "789.56 MJ",
+    "D": "98.69 MJ",
+    "Answer": "394.78 MJ",
+    "Image": "",
+    "Explaination": "ω = 2π × 50 = 314.16 rad/s. KE = 0.5 × 8000 × (314.16)² = 394.78 MJ."
+  },
+  {
+    "Question": "In a short circuit study, the base voltage is 66 kV and base power is 100 MVA. What is the base impedance?",
+    "A": "43.56 Ω",
+    "B": "21.78 Ω",
+    "C": "10.89 Ω",
+    "D": "87.12 Ω",
+    "Answer": "43.56 Ω",
+    "Image": "",
+    "Explaination": "Zbase = (Vbase)² / Sbase = (66 kV)² / 100 MVA = 4356 / 100 = 43.56 Ω."
+  }
+]
