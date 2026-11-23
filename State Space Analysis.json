@@ -1,0 +1,242 @@
+[
+  {
+    "Question": "The state space representation of a second order system is x1' = -x1 + u, x2' = x1 - 2x2 + u. Consider the statements: \n1. The system is completely state controllable. \n2. If x1 is the output, the system is completely output controllable. \n3. If x2 is the output, the system is completely output controllable. Of these statements,",
+    "A": "1, 2 and 3 are correct",
+    "B": "1 and 2 are correct",
+    "C": "2 and 3 are correct",
+    "D": "1 and 3 are correct",
+    "Answer": "2 and 3 are correct",
+    "Image": "",
+    "Explaination": "A = [[-1,0],[1,-2]], B = [1;1]. AB = [-1;-1], so Qc = [[1,-1],[1,-1]] has determinant 0, hence the system is NOT state controllable (statement 1 false). Output controllability: for x1 output, C = [1 0], CB = 1 ≠ 0 (rank 1 = number of outputs) so output controllable. For x2 output, C = [0 1], CB = 1 ≠ 0, so output controllable. Hence statements 2 and 3 are correct."
+  },
+  {
+    "Question": "The system matrix of a continuous time system is  The system is stable for all values of x and y satisfying,",
+    "A": "x < 1/2, y < 1/2",
+    "B": "x > 1/2, y > 0",
+    "C": "x < 0, y < 2",
+    "D": "x < 0, y < 1/2",
+    "Answer": "x < 0, y < 1/2",
+    "Image": "https://imgh.in/images/ctdqv1",
+    "Explaination": "The matrix is block triangular, so one eigenvalue is s = x and the other two come from the 2x2 block: (y - s)(-2 - s) + 1 = 0 => s^2 + (2 - y)s + (1 - 2y) = 0. For stability: x < 0, (2 - y) > 0 => y < 2, and (1 - 2y) > 0 => y < 1/2. Combined: x < 0 and y < 1/2."
+  },
+  {
+    "Question": "The state equation of a system is .The poles of this system are located at",
+    "A": "-1, -9",
+    "B": "-1, -20",
+    "C": "-4, -5",
+    "D": "-9, -20",
+    "Answer": "-4, -5",
+    "Image": "https://imgh.in/images/c4vhtp",
+    "Explaination": "Poles are the roots of |sI - A| = 0. |sI - A| = s(s + 9) + 20 = s^2 + 9s + 20 = (s + 4)(s + 5). So the poles are at s = -4 and s = -5."
+  },
+  {
+    "Question": "For the systems described by X' = AX, match List-I (Matrix A) with List-II (Positions of eigenvalues).",
+    "A": "A-2, B-1, C-3, D-4",
+    "B": "A-2, B-1, C-4, D-3",
+    "C": "A-1, B-2, C-4, D-3",
+    "D": "A-1, B-2, C-3, D-4",
+    "Answer": "A-2, B-1, C-4, D-3",
+    "Image": "https://imgh.in/images/o0di6s",
+    "Explaination": "A: upper triangular, eigenvalues -1, -2 (both LHP) -> 2. B: trace = -5, det = 4 - 4 = 0, so eigenvalues 0 and -5 (one at origin) -> 1. C: s^2 + 1 = 0, eigenvalues ±j (imaginary axis) -> 4. D: lower triangular, eigenvalues 1, 4 (both RHP) -> 3."
+  },
+  {
+    "Question": "Consider the single-loop feedback structure illustrating the return difference (loop gain = -Aβ). The return difference for A is,",
+    "A": "1 - Aβ",
+    "B": "1 + Aβ",
+    "C": "Aβ / (1 + Aβ)",
+    "D": "Aβ / (1 - Aβ)",
+    "Answer": "1 + Aβ",
+    "Image": "https://imgh.in/images/sj487e",
+    "Explaination": "Return difference F = 1 - (loop gain). From the signal flow graph the loop gain is -Aβ (negative feedback), so F = 1 - (-Aβ) = 1 + Aβ."
+  },
+  {
+    "Question": "The system represented by the state-variable mode  is",
+    "A": "Oscillatory",
+    "B": "Critically damped",
+    "C": "Over damped",
+    "D": "Under damped",
+    "Answer": "Critically damped",
+    "Image": "https://imgh.in/images/iaog17",
+    "Explaination": "|sI - A| = s(s + 2) + 1 = s^2 + 2s + 1 = (s + 1)^2. Comparing with s^2 + 2ξωn s + ωn^2: ωn = 1, 2ξωn = 2 => ξ = 1. Equal real roots at s = -1, so the system is critically damped."
+  },
+  {
+    "Question": "Consider",
+    "A": "Controllable but not observable",
+    "B": "Uncontrollable and observable",
+    "C": "Both controllable and observable",
+    "D": "Neither controllable nor observable",
+    "Answer": "Both controllable and observable",
+    "Image": "https://imgh.in/images/s1bu3n",
+    "Explaination": "AB = [3;1], so Qc = [B AB] = [[1,3],[1,1]], |Qc| = 1 - 3 = -2 ≠ 0 -> controllable. CA = [1 1]A = [1 3], so Qo = [[1,1],[1,3]], |Qo| = 3 - 1 = 2 ≠ 0 -> observable. Hence both controllable and observable."
+  },
+  {
+    "Question": "....",
+    "A": "2 and 0.5",
+    "B": "2 and 1",
+    "C": "1 and 2",
+    "D": "0.5 and 2",
+    "Answer": "2 and 0.5",
+    "Image": "https://imgh.in/images/9k540f",
+    "Explaination": "|sI - A| = (s + 2)s + 4 = s^2 + 2s + 4. Comparing with s^2 + 2ξωn s + ωn^2: ωn^2 = 4 => ωn = 2 rad/s; 2ξωn = 2 => ξ = 2/(2×2) = 0.5."
+  },
+  {
+    "Question": "The system model described by the state equations",
+    "A": "Observable but not controllable",
+    "B": "Controllable and observable",
+    "C": "Neither controllable nor observable",
+    "D": "Controllable but not observable",
+    "Answer": "Controllable and observable",
+    "Image": "https://imgh.in/images/azgcvo",
+    "Explaination": "A = [[-3,-1],[2,0]], B = [1;0], C = [1 0]. AB = [-3;2], Qc = [[1,-3],[0,2]], |Qc| = 2 ≠ 0 -> controllable. CA = [-3 -1], Qo = [[1,0],[-3,-1]], |Qo| = -1 ≠ 0 -> observable."
+  },
+  {
+    "Question": "This system is",
+    "A": "Observable for all values of b",
+    "B": "Observable for all non-zero values of b",
+    "C": "Unobservable for all values of b",
+    "D": "Unobservable for all non-zero values of b",
+    "Answer": "Observable for all non-zero values of b",
+    "Image": "https://imgh.in/images/6ae4jv",
+    "Explaination": "C = [b 0], CA = [b 2b]. Qo = [[b,0],[b,2b]], |Qo| = 2b^2. The determinant is non-zero only when b ≠ 0, so the system is observable for all non-zero values of b."
+  },
+  {
+    "Question": "A linear time invariant system is described by the state variable model The system is",
+    "A": "Uncontrollable and completely observable",
+    "B": "Completely controllable and observable",
+    "C": "Completely controllable and unobservable",
+    "D": "Uncontrollable and unobservable",
+    "Answer": "Uncontrollable and completely observable",
+    "Image": "https://imgh.in/images/t9d11z",
+    "Explaination": "A = diag(-1, 2), B = [0;1], C = [1 2]. AB = [0;2], Qc = [[0,0],[1,2]], |Qc| = 0 -> uncontrollable (the x1 mode is not affected by u). CA = [-1 4], Qo = [[1,2],[-1,4]], |Qo| = 4 + 2 = 6 ≠ 0 -> observable."
+  },
+  {
+    "Question": "The system is",
+    "A": "Controllable and observable",
+    "B": "Observable but uncontrollable",
+    "C": "Controllable but unobservable",
+    "D": "None of the above",
+    "Answer": "Controllable and observable",
+    "Image": "https://imgh.in/images/3w8165",
+    "Explaination": "Pole-zero cancellation in the transfer function occurs exactly when the system is uncontrollable and/or unobservable. If there is no pole-zero cancellation, the state model is a minimal realization, i.e. it is both controllable and observable."
+  },
+  {
+    "Question": "The system",
+    "A": "Stable and controllable",
+    "B": "Stable but uncontrollable",
+    "C": "Unstable but controllable",
+    "D": "Unstable and uncontrollable",
+    "Answer": "Unstable but controllable",
+    "Image": "https://imgh.in/images/1vhz8q",
+    "Explaination": "A is upper triangular, so eigenvalues are -1 and +2. One eigenvalue is in the RHP -> unstable. AB = [2;2], Qc = [[0,2],[1,2]], |Qc| = -2 ≠ 0 -> controllable. So the system is unstable but controllable."
+  },
+  {
+    "Question": "The system ",
+    "A": "https://imgh.in/images/5g67l3",
+    "B": "https://imgh.in/images/z8nqzj",
+    "C": "https://imgh.in/images/lw6hz2",
+    "D": "https://imgh.in/images/7vo6vz",
+    "Answer": "https://imgh.in/images/z8nqzj",
+    "Image": "https://imgh.in/images/id0010",
+    "Explaination": "φ(t) = L^-1[(sI - A)^-1]. sI - A = [[s-1,0],[-1,s-1]], so (sI - A)^-1 = [[1/(s-1), 0],[1/(s-1)^2, 1/(s-1)]]. Taking inverse Laplace: φ(t) = [[e^t, 0],[t e^t, e^t]]. Check: φ(0) = I."
+  },
+  {
+    "Question": "Which one of the following variables cannot be taken as a state variable?",
+    "A": "Current passing through an inductor",
+    "B": "Voltage across a capacitor",
+    "C": "Current passing through a resistor",
+    "D": "Output of the integrator",
+    "Answer": "Current passing through a resistor",
+    "Image": "",
+    "Explaination": "State variables are associated with energy-storing elements: inductor current, capacitor voltage and integrator output. A resistor does not store energy, so the current through a resistor cannot be chosen as an independent state variable."
+  },
+  {
+    "Question": "Which of the following is NOT true?",
+    "A": "State model of the system is unique",
+    "B": "In transfer function model initial conditions are taken as zero",
+    "C": "Transfer function is applicable only for linear time invariant systems",
+    "D": "In state model initial conditions are taken into consideration",
+    "Answer": "State model of the system is unique",
+    "Image": "",
+    "Explaination": "The state model of a system is NOT unique (different choices of state variables / similarity transformations give different models of the same system), whereas the transfer function is unique. The other statements are true."
+  },
+  {
+    "Question": "The state model of a system ",
+    "A": "1/(s^2 + 2s + 3)",
+    "B": "2/(s^2 + 2s + 3)",
+    "C": "3/(s^2 + 2s + 3)",
+    "D": "1/(s^2 + 3s + 2)",
+    "Answer": "1/(s^2 + 3s + 2)",
+    "Image": "https://imgh.in/images/a833hv",
+    "Explaination": "T(s) = C(sI - A)^-1 B. |sI - A| = s(s + 3) + 2 = s^2 + 3s + 2. (sI - A)^-1 = 1/(s^2+3s+2) [[s+3, 1],[-2, s]]. C(sI-A)^-1 B = (first row)·B = 1/(s^2+3s+2). Hence T(s) = 1/(s^2 + 3s + 2)."
+  },
+  {
+    "Question": "For the nth order system, the state equations are of the order of",
+    "A": "n°",
+    "B": "n",
+    "C": "n^(1/4)",
+    "D": "n^(1/2)",
+    "Answer": "n",
+    "Image": "",
+    "Explaination": "An nth order system is described by n first-order differential equations, one for each state variable. So the number of state equations is n."
+  },
+  {
+    "Question": "The transfer function of the system described by the state-space equations",
+    "A": "https://imgh.in/images/t7jhjg",
+    "B": "https://imgh.in/images/gh7460",
+    "C": "https://imgh.in/images/sizskd",
+    "D": "https://imgh.in/images/so9ymr",
+    "Answer": "https://imgh.in/images/t7jhjg",
+    "Image": "https://imgh.in/images/w86cm3",
+    "Explaination": "sI - A = [[s+4, 1],[3, s+1]], |sI - A| = (s+4)(s+1) - 3 = s^2 + 5s + 1. (sI - A)^-1 = 1/(s^2+5s+1) [[s+1, -1],[-3, s+4]]. C(sI-A)^-1 B = [(s+1) - 1]/(s^2+5s+1) = s/(s^2 + 5s + 1)."
+  },
+  {
+    "Question": "..",
+    "A": "-2 and +2",
+    "B": "-2j and +2j",
+    "C": "-2 and -2",
+    "D": "+2 and +2",
+    "Answer": "-2 and +2",
+    "Image": "https://imgh.in/images/x06bg2",
+    "Explaination": "|sI - A| = |[[s, 2],[2, s]]| = s^2 - 4 = 0 => s = ±2. So poles are at -2 and +2."
+  },
+  {
+    "Question": "The system matrix ..",
+    "A": "s^2 + 5s + 3 = 0",
+    "B": "s^2 - 3s - 5 = 0",
+    "C": "s^2 + 3s + 5 = 0",
+    "D": "s^2 + s + 2 = 0",
+    "Answer": "s^2 + 5s + 3 = 0",
+    "Image": "https://imgh.in/images/4wyagi",
+    "Explaination": "Characteristic equation: |sI - A| = |[[s, -1],[3, s+5]]| = s(s + 5) + 3 = s^2 + 5s + 3 = 0."
+  },
+  {
+    "Question": "The system is",
+    "A": "Both controllable and observable",
+    "B": "Neither controllable nor observable",
+    "C": "Observable but not controllable",
+    "D": "Controllable but not observable",
+    "Answer": "Controllable but not observable",
+    "Image": "https://imgh.in/images/r7ihav",
+    "Explaination": "AB = [4;-2], Qc = [[1,4],[0,-2]], |Qc| = -2 ≠ 0 -> controllable. CA = [1 1]A = [2 2], Qo = [[1,1],[2,2]], |Qo| = 0 -> not observable. So the system is controllable but not observable."
+  },
+  {
+    "Question": "the system is",
+    "A": "s/((s-4)(s-2))",
+    "B": "1/((s-4)(s-2))",
+    "C": "1/(s-4)",
+    "D": "1/(s-2)",
+    "Answer": "1/(s-2)",
+    "Image": "https://imgh.in/images/pn6dmv",
+    "Explaination": "(sI - A)^-1 = 1/((s-4)(s-2)) [[s-2, 0],[-2, s-4]]. (sI - A)^-1 B = 1/((s-4)(s-2)) [s-2; -2]. Multiply by C = [1 1]: (s - 2 - 2)/((s-4)(s-2)) = (s-4)/((s-4)(s-2)) = 1/(s-2). The pole at s = 4 cancels (unobservable mode)."
+  },
+  {
+    "Question": "A linear system is described by ",
+    "A": "https://imgh.in/images/nesmpo",
+    "B": "https://imgh.in/images/aj46ee",
+    "C": "https://imgh.in/images/74tm4a",
+    "D": "https://imgh.in/images/zh79aa",
+    "Answer": "[[cos t, sin t],[-sin t, cos t]]",
+    "Image": "https://imgh.in/images/m901tp",
+    "Explaination": "https://imgh.in/images/njt3cr"
+  }
+]

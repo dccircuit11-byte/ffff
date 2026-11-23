@@ -1,0 +1,103 @@
+// JSON 2 (Questions 11–20)
+[
+  {
+    "Question": "Consider the following statements: In root-locus plot, the breakaway points 1. Need not always be on the real axis alone 2. Must lie on the root loci 3. Must lie between 0 and -1. Which of these statements are correct?",
+    "A": "1, 2 and 3",
+    "B": "1 and 2",
+    "C": "1 and 3",
+    "D": "2 and 3",
+    "Answer": "1 and 2",
+    "Image": "",
+    "Explaination": "Breakaway points can be complex, and they always lie on the root locus (where branches meet and leave). There is no rule that they must be between 0 and -1. So statements 1 and 2 are correct."
+  },
+  {
+    "Question": "The intersection of asymptotes of root-loci of a system with open-loop transfer function G(s)H(s) = K / [s(s+1)(s+3)] is",
+    "A": "1.44",
+    "B": "1.33",
+    "C": "-1.44",
+    "D": "-1.33",
+    "Answer": "-1.33",
+    "Image": "",
+    "Explaination": "Centroid = (Σ poles - Σ zeros)/(P - Z) = (0 - 1 - 3)/3 = -4/3 = -1.33."
+  },
+  {
+    "Question": "An open loop transfer function is given by G(s)H(s) = K(s+1) / [s(s+4)(s²+2s+2)]. It has",
+    "A": "One zero at infinity",
+    "B": "Two zeros at infinity",
+    "C": "Three zeros at infinity",
+    "D": "Four zeros at infinity",
+    "Answer": "Three zeros at infinity",
+    "Image": "",
+    "Explaination": "Poles P = 4 (0, -4, -1±j), finite zeros Z = 1 (at -1). Number of zeros at infinity = P - Z = 3."
+  },
+  {
+    "Question": "The instrument used for plotting the root locus is called",
+    "A": "Slide rule",
+    "B": "Spirule",
+    "C": "Synchro",
+    "D": "Selsyn",
+    "Answer": "Spirule",
+    "Image": "",
+    "Explaination": "The Spirule is the mechanical instrument (a protractor-like device) used for plotting root loci by measuring angles and magnitudes."
+  },
+  {
+    "Question": "A control system has G(s)H(s) = K(s+1) / [s(s+3)(s+4)]. Root locus of the system can lie on the real axis",
+    "A": "Between s = -1 and s = -3",
+    "B": "Between s = 0 and s = -4",
+    "C": "Between s = -3 and s = -4",
+    "D": "Towards left of s = -4",
+    "Answer": "Between s = -3 and s = -4",
+    "Image": "",
+    "Explaination": "Poles at 0, -3, -4; zero at -1. Real-axis locus exists where the number of poles+zeros to the right is odd: between 0 and -1 (1), between -3 and -4 (3). Between -1 and -3 (2) and left of -4 (4) there is no locus. Among the options: between -3 and -4."
+  },
+  {
+    "Question": "Which one of the following application software's is used to obtain an accurate root locus plot?",
+    "A": "LISP",
+    "B": "MATLAB",
+    "C": "dBase",
+    "D": "Oracle",
+    "Answer": "MATLAB",
+    "Image": "",
+    "Explaination": "MATLAB (Control System Toolbox, command rlocus) is used for accurate root locus plotting."
+  },
+  {
+    "Question": "Which one of the following is not a property of root loci?",
+    "A": "The root locus is symmetrical about jω axis",
+    "B": "They start from the open loop poles and terminate at the open loop zeros",
+    "C": "The breakaway points are determined from dK/ds = 0",
+    "D": "Segments of the real axis are root locus if and only if the total number of real poles and zeros to their right is odd",
+    "Answer": "The root locus is symmetrical about jω axis",
+    "Image": "",
+    "Explaination": "Root locus is symmetrical about the real axis (because complex roots occur in conjugate pairs), not about the jω axis. The other three statements are valid properties."
+  },
+  {
+    "Question": "For a given unity feedback system with G(s) = K(s+3) / [s(s+1)(s+2)(s+5)], what is the real axis intercept for root locus asymptotes?",
+    "A": "2/3",
+    "B": "1/4",
+    "C": "-5/3",
+    "D": "-3/2",
+    "Answer": "-5/3",
+    "Image": "",
+    "Explaination": "Centroid = (Σ poles - Σ zeros)/(P - Z) = [(0 - 1 - 2 - 5) - (-3)]/(4 - 1) = (-8 + 3)/3 = -5/3."
+  },
+  {
+    "Question": "Which one of the following open-loop transfer functions has root locus parallel to the imaginary axis?",
+    "A": "K/(s+1)",
+    "B": "K(s+1)/(s+2)²",
+    "C": "K/(s+2)²",
+    "D": "K(s+2)/(s+1)",
+    "Answer": "K/(s+2)²",
+    "Image": "",
+    "Explaination": "For K/(s+2)²: characteristic equation s² + 4s + 4 + K = 0 → s = -2 ± j√K. The roots stay on the vertical line Re(s) = -2, i.e. parallel to the imaginary axis (asymptotes at ±90°, centroid -2)."
+  },
+  {
+    "Question": "What is the number of root-locus segments (branches) which approaches infinity?",
+    "A": "The number of poles",
+    "B": "The number of zeros",
+    "C": "The difference between the number of poles and the number of zeros",
+    "D": "The sum of the number of poles and the number of zeros",
+    "Answer": "The difference between the number of poles and the number of zeros",
+    "Image": "",
+    "Explaination": "N = P - Z branches go to infinity along asymptotes, while Z branches end on the finite zeros."
+  }
+]

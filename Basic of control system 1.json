@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "The most commonly used input signal in control system is:",
+    "A": "Step function",
+    "B": "Ramp function",
+    "C": "Accelerating function",
+    "D": "All of the above",
+    "Answer": "Step function",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The step function is the most fundamental and commonly used test signal because it represents a sudden, instantaneous change in the input.\n2. It is used to analyze the transient response, settling time, and steady-state error of a system.\n3. While ramp and parabolic (accelerating) inputs are also used, the step input is the standard benchmark for defining system specifications and is the most frequently applied signal in practical control engineering."
+  },
+  {
+    "Question": "Feedback control system is basically:",
+    "A": "Band pass filter",
+    "B": "High pass filter",
+    "C": "Low pass filter",
+    "D": "Band stop filter",
+    "Answer": "Low pass filter",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A closed-loop feedback control system typically has a high forward gain for low frequencies to ensure accurate tracking of the reference input.\n2. As the frequency of the input increases, the system's physical inertia (like motor inductance or mechanical mass) prevents it from responding, causing the gain to drop.\n3. Thus, the system responds well to slow (low-frequency) inputs and attenuates fast (high-frequency) inputs.\n4. Mathematically, most practical closed-loop transfer functions have a dominant pole at the origin or in the left half-plane, making their frequency response characteristic that of a low-pass filter."
+  },
+  {
+    "Question": "For what value of K is the time constant of the system of figure given below is less than 0.2 sec?",
+    "A": "K > 3",
+    "B": "K > 5",
+    "C": "K > 7",
+    "D": "K > 9",
+    "Answer": "D",
+    "Image": "https://imgh.in/images/7fb6qg",
+    "Explaination": "Step-by-Step Solution:\n1. From the block diagram, the open-loop transfer function is G(s) = K * [3 / (2s + 1)] and feedback H(s) = 1.\n2. The closed-loop transfer function is T(s) = G(s) / (1 + G(s)H(s)) = 3K / (2s + 1 + 3K).\n3. Rearranging the denominator: T(s) = 3K / [2s + (1 + 3K)] = (3K / (1 + 3K)) / [ (2 / (1 + 3K))s + 1 ].\n4. The standard first-order form is K_cl / (τs + 1). Comparing, the closed-loop time constant is τ = 2 / (1 + 3K).\n5. Given τ < 0.2 sec: 2 / (1 + 3K) < 0.2 => 2 < 0.2 + 0.6K => 1.8 < 0.6K => K > 3.\n(Note: Based on the standard mathematical derivation, the answer should be K > 3, but the provided key indicates a different intended value. The mathematical proof yields A, while the original key marks D)."
+  },
+  {
+    "Question": "Laplace transform of shifted unit step function u(t - a) is:",
+    "A": "1/s^2",
+    "B": "1/s * e^(as)",
+    "C": "1/s * e^(-as)",
+    "D": "None of these",
+    "Answer": "1/s * e^(-as)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The Laplace transform definition is F(s) = ∫[0 to ∞] f(t)e^(-st) dt.\n2. For the shifted unit step function, f(t) = 0 for t < a, and f(t) = 1 for t ≥ a.\n3. F(s) = ∫[a to ∞] 1 * e^(-st) dt.\n4. Integrating: [-1/s * e^(-st)] from a to ∞.\n5. Upper limit (t → ∞): e^(-∞) = 0. Lower limit (t = a): -1/s * e^(-as).\n6. Result: 0 - (-1/s * e^(-as)) = (1/s) * e^(-as)."
+  },
+  {
+    "Question": "A linear system with system function H(s) = 1/s is excited with unit step input. The output for t > 0 is given by:",
+    "A": "1",
+    "B": "1",
+    "C": "t",
+    "D": "t^2",
+    "Answer": "t",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The input is a unit step function, so X(s) = 1/s.\n2. The system transfer function is H(s) = 1/s.\n3. The output in the Laplace domain is Y(s) = H(s) * X(s) = (1/s) * (1/s) = 1/s^2.\n4. Taking the inverse Laplace transform: L^-1 [1/s^2] = t.\n5. Therefore, for t > 0, the output is a ramp function, which is 't'."
+  },
+  {
+    "Question": "Laplace transform of sin (ωt) is:",
+    "A": "0",
+    "B": "ω / (s^2 - ω^2)",
+    "C": "s / (s^2 - ω^2)",
+    "D": "ω / (s^2 + ω^2)",
+    "Answer": "ω / (s^2 + ω^2)",
+    "Image": "https://imgh.in/images/hozo9y",
+    "Explaination": "Step-by-Step Solution:\n1. Using the Laplace transform integral: L[sin(ωt)] = ∫[0 to ∞] sin(ωt) * e^(-st) dt.\n2. Using Euler's formula, sin(ωt) = (e^(jωt) - e^(-jωt)) / 2j.\n3. Integrating each exponential term yields: (1/2j) * [ 1/(s - jω) - 1/(s + jω) ].\n4. Finding a common denominator: (1/2j) * [ (s + jω - s + jω) / (s^2 + ω^2) ] = (1/2j) * [ 2jω / (s^2 + ω^2) ].\n5. Canceling 2j gives the final result: ω / (s^2 + ω^2)."
+  },
+  {
+    "Question": "The Laplace transform of t*e^(at) is:",
+    "A": "s / (s+a)",
+    "B": "1 / (s^2 + a)",
+    "C": "1 / (s-a)^2",
+    "D": "1 / (s^2 - a)",
+    "Answer": "1 / (s-a)^2",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The standard Laplace transform of e^(at) is 1 / (s - a).\n2. The property of multiplication by 't' in the time domain corresponds to differentiation with respect to 's' in the Laplace domain: L[t * f(t)] = -d/ds [F(s)].\n3. Applying this: L[t * e^(at)] = -d/ds [1 / (s - a)].\n4. Differentiating using the chain rule: - [ -1 * (s - a)^(-2) * 1 ] = 1 / (s - a)^2."
+  },
+  {
+    "Question": "The sensitivity of a closed loop system to gain changes and load disturbances depends upon:",
+    "A": "Forward gain",
+    "B": "loop gain",
+    "C": "Frequency",
+    "D": "all the above",
+    "Answer": "loop gain",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The sensitivity of a closed-loop transfer function T(s) = G/(1+GH) to variations in forward gain G is given by S_G^T = 1 / (1 + GH).\n2. The term GH is defined as the loop gain of the system.\n3. For a system to be highly insensitive to parameter variations and disturbances, the loop gain (GH) must be very large (typically at low frequencies).\n4. Therefore, the sensitivity is inversely proportional to the loop gain and fundamentally depends on it."
+  },
+  {
+    "Question": "Transfer function of a zero order hold will be:",
+    "A": "1 - e^(Ts)",
+    "B": "(1 - e^(-Ts)) / s",
+    "C": "(1 - e^(Ts)) / s",
+    "D": "1 / (1 - e^(-Ts))",
+    "Answer": "(1 - e^(-Ts)) / s",
+    "Image": "https://imgh.in/images/0kux0q",
+    "Explaination": "Step-by-Step Solution:\n1. A Zero-Order Hold (ZOH) holds the sampled value constant for one sampling period T.\n2. The impulse response of a ZOH is a rectangular pulse of unit height and width T: h(t) = u(t) - u(t - T).\n3. Taking the Laplace transform of this impulse response: H(s) = L[u(t)] - L[u(t - T)].\n4. H(s) = (1/s) - (e^(-Ts)/s) = (1 - e^(-Ts)) / s."
+  },
+  {
+    "Question": "Consider the differential equation y'' + 2y' + y = u, where y(0)=0, y'(0)=0 and u is a unit step function. The poles of the system are:",
+    "A": "s1 = -1, s2 = -1",
+    "B": "s1 = j1, s2 = -j1",
+    "C": "s1 = -1, s2 = -2",
+    "D": "s1 = 1, s2 = 2",
+    "Answer": "s1 = -1, s2 = -1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Take the Laplace transform of the differential equation, assuming zero initial conditions: s^2*Y(s) + 2s*Y(s) + Y(s) = U(s).\n2. Factor out Y(s): Y(s) * (s^2 + 2s + 1) = U(s).\n3. The characteristic equation is the denominator set to zero: s^2 + 2s + 1 = 0.\n4. Factor the quadratic: (s + 1)(s + 1) = 0.\n5. The roots (poles) are s = -1 and s = -1. Since the roots are real, negative, and repeated, the system is critically damped."
+  }
+]

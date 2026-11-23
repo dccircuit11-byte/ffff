@@ -1,0 +1,66 @@
+// JSON 2 (Questions 11–20)
+[
+  {
+    "Question": "The open loop transfer function of a system G(s)H(s) = K / [(1+s)(1+2s)(1+3s)]. The phase crossover frequency ωpc is",
+    "A": "√2 rad/sec", "B": "1 rad/sec", "C": "Zero", "D": "√3 rad/sec",
+    "Answer": "1 rad/sec", "Image": "",
+    "Explaination": "Phase = -[tan⁻¹ω + tan⁻¹2ω + tan⁻¹3ω] = -180°. At ω = 1: 45° + 63.43° + 71.57° = 180°. So ωpc = 1 rad/s."
+  },
+  {
+    "Question": "The open loop transfer function of a unity feedback control system is G(s) = 1 / [s(1+sT1)(1+sT2)]. The phase crossover frequency and the gain margin are, respectively",
+    "A": "https://imgh.in/images/ljzsr4", "B": "https://imgh.in/images/a87md4", "C": "https://imgh.in/images/3rb11f", "D": "https://imgh.in/images/swwqmk",
+    "Answer": "https://imgh.in/images/ljzsr4", "Image": "",
+    "Explaination": "Phase = -90° - tan⁻¹ωT1 - tan⁻¹ωT2 = -180° → ω²T1T2 = 1 → ωpc = 1/√(T1T2). At this ω: |G| = T1T2/(T1+T2). GM = 1/|G| = (T1+T2)/(T1T2)."
+  },
+  {
+    "Question": "The Nyquist plot of G(s)H(s) = 10 / [s²(1+0.5s)(1+s)]",
+    "A": "Will start (ω = ∞) in the first quadrant and will terminate (ω = 0) in the second quadrant",
+    "B": "Will start (ω = ∞) in the fourth quadrant and will terminate (ω = 0) in the second quadrant",
+    "C": "Will start (ω = ∞) in the second quadrant and will terminate (ω = 0) in the third quadrant",
+    "D": "Will start (ω = ∞) in the first quadrant and will terminate (ω = 0) in the fourth quadrant",
+    "Answer": "Will start (ω = ∞) in the first quadrant and will terminate (ω = 0) in the second quadrant", "Image": "",
+    "Explaination": "At ω → 0: phase = -180° - (small) ≡ just inside the second quadrant, magnitude → ∞. At ω → ∞: phase → -180° - 90° - 90° = -360° approached from just above → first quadrant, magnitude → 0. So the plot starts (ω = ∞) in the first quadrant and ends (ω = 0) in the second quadrant."
+  },
+  {
+    "Question": "Consider the following techniques: 1. Bode plot 2. Nyquist plot 3. Nichols chart 4. Routh-Hurwitz criterion. Which of these techniques are used to determine relative stability of a closed loop linear system?",
+    "A": "1 and 2", "B": "1 and 4", "C": "1, 2 and 3", "D": "2, 3 and 4",
+    "Answer": "1, 2 and 3", "Image": "",
+    "Explaination": "Relative stability (gain margin and phase margin) is found from Bode plot, Nyquist plot and Nichols chart. Routh-Hurwitz only tells absolute stability."
+  },
+  {
+    "Question": "The Nyquist plot shown (full plot with loops in both the upper and lower half planes, starting at +1.0 on the real axis for ω = 0 and ending at the origin for ω = ∞) matches with the transfer function",
+    "A": "1/(s+1)³", "B": "1/(s+1)²", "C": "1/(s²+2s+2)", "D": "1/(s+1)",
+    "Answer": "1/(s+1)²", "Image": "https://imgh.in/images/ofjn2w",
+    "Explaination": "The plot starts at +1 (DC gain 1) at ω = 0 and ends at the origin tangent to the negative real axis (phase → -180°), with symmetrical loops for negative frequencies. That matches 1/(s+1)² (as per the book key). 1/(s+1) ends at -90° and 1/(s+1)³ ends at -270°."
+  },
+  {
+    "Question": "The forward path transfer function of a unity feedback system is G(s) = 1/(1+s)². What is the phase margin for this system?",
+    "A": "-π rad", "B": "0 rad", "C": "π/2 rad", "D": "π rad",
+    "Answer": "π rad", "Image": "",
+    "Explaination": "Gain crossover: |G| = 1/(1+ω²) = 1 → ω = 0. Phase at ω = 0 is 0°, so PM = 180° + 0° = 180° = π rad."
+  },
+  {
+    "Question": "If the gain of the loop system is doubled, the gain margin of the system is",
+    "A": "Not affected", "B": "Doubled", "C": "Halved", "D": "One fourth of original value",
+    "Answer": "Halved", "Image": "",
+    "Explaination": "GM = 1/|G(jωpc)|. Doubling the gain doubles |G(jωpc)|, so GM becomes half of its original value (reduces by 6 dB)."
+  },
+  {
+    "Question": "For a stable closed loop system, the gain at phase crossover frequency should always be",
+    "A": "< 20 dB", "B": "> 6 dB", "C": "< 6 dB", "D": "< 0 dB",
+    "Answer": "< 0 dB", "Image": "",
+    "Explaination": "For stability the magnitude of G(jω) at the phase crossover frequency must be less than 1, i.e. below 0 dB (positive gain margin). NOTE: the book's key lists B (> 6 dB), but the correct answer is D (< 0 dB)."
+  },
+  {
+    "Question": "For the minimum phase system to be stable:",
+    "A": "Phase margin should be negative and gain margin should be positive", "B": "Phase margin should be positive and gain margin should be negative", "C": "Both phase margin and gain margin should be positive", "D": "Both phase margin and gain margin should be negative",
+    "Answer": "Both phase margin and gain margin should be positive", "Image": "",
+    "Explaination": "A stable minimum-phase system needs positive gain margin (in dB) and positive phase margin."
+  },
+  {
+    "Question": "Consider the unity feedback system with G(s) = 2 / [s(s+1)(2s+1)]. What is the gain margin of the system?",
+    "A": "3/4", "B": "4/3", "C": "1/2", "D": "3/5",
+    "Answer": "3/4", "Image": "",
+    "Explaination": "Characteristic equation: 2s³ + 3s² + s + 2 = 0. For G = K'/[s(s+1)(2s+1)] marginal stability needs 3 × 1 = 2K' → K' = 1.5. Gain margin = 1.5/2 = 3/4 (less than 1 → the system is actually unstable)."
+  }
+]

@@ -1,0 +1,123 @@
+// JSON 2 (Questions 11–22)
+[
+  {
+    "Question": "Consider the following statements associated with phase and gain margins: 1. They are a measure of closeness of the polar plot to the (-1, j0) point. 2. For a non-minimum system phase to be stable it must have positive phase and gain margins. 3. For a minimum phase system to be stable, both the margins must be positive. Which of the above statements is/are correct?",
+    "A": "2 and 3",
+    "B": "1 and 3",
+    "C": "1 and 2",
+    "D": "1 alone",
+    "Answer": "1 and 3",
+    "Image": "https://imgh.in/images/x4f4y6",
+    "Explaination": "Gain and phase margins measure how close the polar/Nyquist plot passes to (-1, j0) (statement 1 true). For a minimum-phase system stability requires both margins positive (statement 3 true). For non-minimum phase systems the margin signs alone do not decide stability (the Nyquist criterion must be used), so statement 2 is not correct."
+  },
+  {
+    "Question": "Consider the following statements regarding the frequency response of a system as shown (magnitude: initial slope -20 dB/dec, then flat between ω1 and ω3, then -20 dB/dec; the extension of the initial -20 dB/dec line cuts 0 dB at ω2). 1. The type of the system is one. 2. ω2 = Static error coefficient (numerically). 3. ω2 = (ω1 + ω3)/2. Select the correct answer using the codes",
+    "A": "1, 2 and 3",
+    "B": "1 and 2",
+    "C": "2 and 3",
+    "D": "1 and 3",
+    "Answer": "1 and 2",
+    "Image": "",
+    "Explaination": "Initial slope -20 dB/dec → type 1 (statement 1 true). For a type 1 system the extended initial line crosses 0 dB at ω = Kv, the velocity error constant (statement 2 true). There is no relation making ω2 the arithmetic mean of ω1 and ω3 (statement 3 false)."
+  },
+  {
+    "Question": "In the Bode plot of a unity feedback control system, the value of phase angle of G(jω) is -90° at the gain crossover frequency of the Bode plot. The phase margin of the system is",
+    "A": "-180°",
+    "B": "+180°",
+    "C": "-90°",
+    "D": "+90°",
+    "Answer": "+90°",
+    "Image": "",
+    "Explaination": "Phase margin = 180° + ∠G(jωgc) = 180° - 90° = +90°."
+  },
+  {
+    "Question": "The transfer function G(s) = 10/(3s+1) has corner frequency at",
+    "A": "3 rad/sec",
+    "B": "0.33 rad/sec",
+    "C": "1 rad/sec",
+    "D": "30 rad/sec",
+    "Answer": "0.33 rad/sec",
+    "Image": "",
+    "Explaination": "Write in standard form 10/(1 + 3s): corner frequency ωc = 1/T = 1/3 = 0.33 rad/s."
+  },
+  {
+    "Question": "For the Bode plot of the system G(s) = 10/(0.66s² + 2.33s + 1), the corner frequencies are",
+    "A": "0.66 and 0.33",
+    "B": "0.22 and 2.00",
+    "C": "0.30 and 2.33",
+    "D": "0.50 and 3.0",
+    "Answer": "0.50 and 3.0",
+    "Image": "",
+    "Explaination": "Factorise: 0.66s² + 2.33s + 1 = (1 + 2s)(1 + 0.33s) (check: 2 × 0.33 = 0.66; 2 + 0.33 = 2.33). Corner frequencies: 1/2 = 0.5 rad/s and 1/0.33 ≈ 3.0 rad/s."
+  },
+  {
+    "Question": "The transfer function of a system is 10/(s+1). At frequency of 0.1 rad/sec, the straight line Bode plot will have a magnitude of:",
+    "A": "10 dB",
+    "B": "20 dB",
+    "C": "0 dB",
+    "D": "40 dB",
+    "Answer": "20 dB",
+    "Image": "",
+    "Explaination": "Below the corner frequency (1 rad/s) the straight-line magnitude is flat at the DC gain: 20 log₁₀(10) = 20 dB."
+  },
+  {
+    "Question": "The critical value of gain for a system is 40. The system is operating at a gain of 20. The gain margin of the system is",
+    "A": "2 dB",
+    "B": "3 dB",
+    "C": "6 dB",
+    "D": "4 dB",
+    "Answer": "6 dB",
+    "Image": "",
+    "Explaination": "GM = critical gain / operating gain = 40/20 = 2 → 20 log₁₀(2) ≈ 6 dB."
+  },
+  {
+    "Question": "The Bode plot of the transfer function G(s) = s is 1. Constant magnitude. 2. 20 dB/decade. 3. Constant phase shift angle. 4. Constant phase shift of π/2. Which of these are correct?",
+    "A": "1 and 3",
+    "B": "1 and 4",
+    "C": "2 and 3",
+    "D": "2 and 4",
+    "Answer": "2 and 4",
+    "Image": "",
+    "Explaination": "|G(jω)| = ω → magnitude rises at +20 dB/decade (not constant). ∠G(jω) = +90° = π/2 at all frequencies. So statements 2 and 4 are correct."
+  },
+  {
+    "Question": "The initial slope of the Bode plot gives an indication of",
+    "A": "Nature of the system time response",
+    "B": "System stability",
+    "C": "Gain margin",
+    "D": "Type of the system",
+    "Answer": "Type of the system",
+    "Image": "",
+    "Explaination": "The initial (low frequency) slope is -20N dB/dec, where N is the number of poles at the origin = type of the system."
+  },
+  {
+    "Question": "The transfer function of the system whose Bode plot is shown will be",
+    "A": "10s / [(s+1)(s+10)]",
+    "B": "20s / [(s+1)(s+10)]",
+    "C": "10 / [(s+1)²(s+10)]",
+    "D": "20 / [(s+1)(s+10)²]",
+    "Answer": "20s / [(s+1)(s+10)]",
+    "Image": "https://imgh.in/images/mre5l6",
+    "Explaination": "Initial slope +20 dB/dec → one zero at origin (s). Corner at 1 → pole (1+s), corner at 10 → pole (1+0.1s). G = K's/[(1+s)(1+0.1s)]. In the flat region (1 to 10) |G| ≈ K' = 6 dB ≈ 2. So G = 2s/[(1+s)(1+0.1s)] = 20s/[(s+1)(s+10)]."
+  },
+  {
+    "Question": "The frequency, at which the magnitude plot in a Bode plot crosses zero dB line, is termed as",
+    "A": "Natural frequency",
+    "B": "Corner frequency",
+    "C": "Phase crossover frequency",
+    "D": "Gain crossover frequency",
+    "Answer": "Gain crossover frequency",
+    "Image": "",
+    "Explaination": "The frequency where |G(jω)| = 1 (0 dB) is the gain crossover frequency. (Phase crossover is where the phase is -180°.)"
+  },
+  {
+    "Question": "The best method for determining the stability and transient response of a control system is",
+    "A": "Bode Plot",
+    "B": "Nyquist plot",
+    "C": "Root locus",
+    "D": "Routh-Hurwitz",
+    "Answer": "Root locus",
+    "Image": "",
+    "Explaination": "Root locus shows the closed-loop pole locations for varying gain, which give both stability and transient response (damping, settling, overshoot) directly. Bode and Nyquist plots mainly give stability/relative stability, and Routh-Hurwitz only absolute stability. NOTE: the book's key lists B (Nyquist plot), but root locus (C) fits the question better."
+  }
+]

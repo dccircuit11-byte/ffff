@@ -1,0 +1,63 @@
+// JSON 4 (Questions 31–40)
+[
+  {
+    "Question": "The gain margin in dBs of a unity feedback control system whose open-loop transfer function G(s)H(s) = 1/[s(s+1)] is",
+    "A": "0", "B": "1", "C": "-1", "D": "∞",
+    "Answer": "∞", "Image": "",
+    "Explaination": "Phase = -90° - tan⁻¹ω, which reaches -180° only as ω → ∞ where |G| → 0. So the phase crossover is at infinity with zero gain → GM = ∞."
+  },
+  {
+    "Question": "Which one of the following statements is correct?",
+    "A": "Phase margin is always positive for stable feedback system", "B": "Phase margin is always negative for stable feedback system", "C": "Phase margin can be negative or positive for stable feedback system", "D": "None of the above",
+    "Answer": "Phase margin is always positive for stable feedback system", "Image": "",
+    "Explaination": "For a (minimum-phase) stable feedback system, the phase margin must be positive. A negative phase margin indicates instability."
+  },
+  {
+    "Question": "For the transfer function M(s) = s + 2, the polar plot for 0 ≤ ω ≤ ∞ is ",
+    "A": "https://imgh.in/images/gzbg5f", "B": "https://imgh.in/images/bg1qx4", "C": "https://imgh.in/images/6bj4m0", "D": "https://imgh.in/images/a7ki4s",
+    "Answer": "https://imgh.in/images/gzbg5f", "Image": "",
+    "Explaination": "M(jω) = 2 + jω: the real part stays constant at 2 and the imaginary part increases with ω from 0 to ∞. So the plot is a vertical line starting at +2 and going upward (plot A)."
+  },
+  {
+    "Question": "The open-loop transfer function of a system is T(s) = K/(s+1)³. The phase crossover takes place at ωc = √3. For the gain crossover also to occur at ωc, the value of K should be",
+    "A": "10", "B": "8", "C": "18", "D": "1",
+    "Answer": "8", "Image": "",
+    "Explaination": "|T(j√3)| = K/(1+3)^(3/2) = K/8. Gain crossover at ωc needs |T| = 1 → K = 8. (Check phase: -3 tan⁻¹√3 = -180°.)"
+  },
+  {
+    "Question": "As observed from the polar plot shown (plot starts at ω = 0 far below the real axis, crosses the negative real axis to the left of the point -1 + j0, loops around and reaches the origin at ω = +∞):",
+    "A": "GM is (+) ve, PM is (+) ve", "B": "GM is (-) ve, PM is (-) ve", "C": "GM is (-) ve, PM is (+) ve", "D": "GM is (+) ve, PM is (-) ve",
+    "Answer": "GM is (-) ve, PM is (-) ve", "Image": "",
+    "Explaination": "The plot crosses the negative real axis at a point beyond -1 (magnitude > 1 at phase crossover) → GM negative. The gain crossover then occurs at a phase beyond -180°, so PM is also negative. The system is unstable."
+  },
+  {
+    "Question": "The open loop transfer function of a control system is G(s)H(s) = 10(s+1)/[s(s-1)]. Which of the following is the gain margin of the system?",
+    "A": "+20 dB", "B": "-20 dB", "C": "-10 dB", "D": "+10 dB",
+    "Answer": "-20 dB", "Image": "",
+    "Explaination": "Phase = tan⁻¹ω - 90° - (180° - tan⁻¹ω) = 2tan⁻¹ω - 270° = -180° → tan⁻¹ω = 45° → ωpc = 1. |G(j1)| = 10√2/(1 × √2) = 10 → GM = 1/10 → -20 dB."
+  },
+  {
+    "Question": "A unity feedback system has an open loop transfer function G(s) = (s+2)/[(s+1)(s-1)]. The number of encirclements of the point (-1, j0) in Nyquist plot and its closed loop system is",
+    "A": "One counter clockwise encirclement, stable", "B": "One clockwise encirclement, unstable", "C": "Two counter clockwise encirclements, unstable", "D": "No encirclements, unstable",
+    "Answer": "One counter clockwise encirclement, stable", "Image": "",
+    "Explaination": "Open loop pole at s = +1 → P = 1. Closed loop characteristic equation: (s+1)(s-1) + (s+2) = s² + s + 1 = 0 → stable (Z = 0). N = P - Z... encirclement count (CCW) = P - Z = 1. So one counter-clockwise encirclement and a stable closed loop."
+  },
+  {
+    "Question": "The phase angle at ω = infinity for the transfer function G(jω) = 90(1 + j0.5ω) / [jω(1 + jω)(1 + j2ω)] is",
+    "A": "90°", "B": "-180°", "C": "270°", "D": "-90°",
+    "Answer": "-180°", "Image": "",
+    "Explaination": "Phase at ω → ∞ = (+90° from the zero) - (90° from jω) - 90° - 90° = 90° - 270° = -180°."
+  },
+  {
+    "Question": "A system with gain margin close to unity or a phase margin close to zero is",
+    "A": "Conditionally stable", "B": "Relatively stable", "C": "Highly stable", "D": "Highly oscillatory",
+    "Answer": "Highly oscillatory", "Image": "",
+    "Explaination": "With GM ≈ 1 or PM ≈ 0° the system is close to the critical point (-1, j0) and its transient response is highly oscillatory."
+  },
+  {
+    "Question": "If the Nyquist plot of the loop transfer function G(s)H(s) of a closed loop system encloses the (-1, j0) point, the gain margin of the system is",
+    "A": "Infinite", "B": "Less than zero", "C": "Greater than zero", "D": "Zero",
+    "Answer": "Less than zero", "Image": "",
+    "Explaination": "Enclosing the (-1, j0) point means |G| > 1 at the phase crossover frequency, so the gain margin (in dB) is negative, i.e. less than zero (unstable closed loop)."
+  }
+]

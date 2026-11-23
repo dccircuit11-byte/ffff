@@ -1,0 +1,103 @@
+// JSON 3 (Questions 21–30)
+[
+  {
+    "Question": "Which one of the following statements is correct for root loci?",
+    "A": "The root loci are asymmetrical with respect to the real axis",
+    "B": "The root loci are symmetrical with respect to the real axis",
+    "C": "The root locus lies in a section of the real axis to the left of which an even number of poles and zeros of open loop system are present",
+    "D": "The root locus lies in a section of the real axis to the right of which an even number of poles and zeros of open loop system are present",
+    "Answer": "The root loci are symmetrical with respect to the real axis",
+    "Image": "",
+    "Explaination": "Complex roots occur in conjugate pairs, so the root locus is always symmetrical about the real axis. A real-axis section belongs to the locus when an ODD number of poles and zeros lie to its right."
+  },
+  {
+    "Question": "Consider the equation s² + 2s + 2 + K(s+2) = 0. Where do the roots of this equation break on the root loci part?",
+    "A": "-3.414",
+    "B": "-2.414",
+    "C": "-1.414",
+    "D": "-0.414",
+    "Answer": "-3.414",
+    "Image": "",
+    "Explaination": "Here G(s)H(s) = K(s+2)/(s²+2s+2). K = -(s²+2s+2)/(s+2). dK/ds = 0 → (2s+2)(s+2) - (s²+2s+2) = s² + 4s + 2 = 0 → s = -2 ± √2 = -0.586 or -3.414. The valid break (real-axis) point on the locus is at -3.414 (left of the zero at -2)."
+  },
+  {
+    "Question": "If the gain of the system is reduced to zero value, the roots of the system in the s-plane",
+    "A": "Coincide with zeros",
+    "B": "Move away from the zeros",
+    "C": "Move away from the poles",
+    "D": "Coincide with the poles",
+    "Answer": "Coincide with the poles",
+    "Image": "",
+    "Explaination": "At K = 0 the root loci start at the open loop poles, so the closed-loop roots coincide with the open-loop poles."
+  },
+  {
+    "Question": "The addition of open loop zero pulls the root-loci towards",
+    "A": "The left and therefore system becomes more stable",
+    "B": "The right and therefore system becomes unstable",
+    "C": "Imaginary axis and therefore system becomes marginally stable",
+    "D": "The left and therefore system becomes unstable",
+    "Answer": "The left and therefore system becomes more stable",
+    "Image": "",
+    "Explaination": "Adding an open-loop zero attracts the root loci towards the left half of the s-plane, increasing relative stability and speed of response."
+  },
+  {
+    "Question": "Where are the K = ± ∞ points on the root loci of the characteristic equation of the closed loop control system located at?",
+    "A": "Poles of G(s)H(s)",
+    "B": "Zeroes of G(s)H(s)",
+    "C": "Both zeroes and poles of G(s)H(s)",
+    "D": "Neither at zeroes nor at poles of G(s)H(s)",
+    "Answer": "Zeroes of G(s)H(s)",
+    "Image": "",
+    "Explaination": "As K → ∞, the closed-loop roots approach the open loop zeros of G(s)H(s) (or go to infinity if there are fewer zeros than poles)."
+  },
+  {
+    "Question": "Where are the K = 0 points on the root loci of the characteristic equation of the closed loop control system located at?",
+    "A": "Zero's of G(s)H(s)",
+    "B": "Poles of G(s)H(s)",
+    "C": "Both zeros and poles of G(s)H(s)",
+    "D": "Neither at zero's nor at poles of G(s)H(s)",
+    "Answer": "Poles of G(s)H(s)",
+    "Image": "",
+    "Explaination": "At K = 0 the characteristic equation 1 + K G(s)H(s) = 0 reduces to the poles of G(s)H(s), so the loci start at the open loop poles."
+  },
+  {
+    "Question": "The number of individual loci in a root locus plot is equal to:",
+    "A": "The number of open loop poles",
+    "B": "The number of open loop zeroes",
+    "C": "The difference of the number of open loop poles and the number of open loop zeroes",
+    "D": "The number of open loop poles or zeroes whichever is greater",
+    "Answer": "The number of open loop poles or zeroes whichever is greater",
+    "Image": "",
+    "Explaination": "Number of branches = order of the characteristic equation = max(P, Z). Usually P ≥ Z so it equals the number of poles."
+  },
+  {
+    "Question": "Consider the transfer function K G(s)H(s) = K / (s³ + 4s² + s - 6). Plot of the system passes through s = 0. The value of K at this point will be:",
+    "A": "10",
+    "B": "0",
+    "C": "6",
+    "D": "8",
+    "Answer": "6",
+    "Image": "",
+    "Explaination": "Characteristic equation: s³ + 4s² + s - 6 + K = 0. At s = 0: -6 + K = 0 → K = 6."
+  },
+  {
+    "Question": "When the number of poles is equal to the number of zeros, how many branches of root locus tend towards infinity?",
+    "A": "1",
+    "B": "2",
+    "C": "0",
+    "D": "Equal to number of zeros",
+    "Answer": "0",
+    "Image": "",
+    "Explaination": "Branches going to infinity = P - Z = 0. All branches end on finite zeros."
+  },
+  {
+    "Question": "The number of branches of the root loci of the equation s(s+4)(s+5) + K(s+2) = 0 when K varies from -∞ to ∞ is",
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "5",
+    "Answer": "3",
+    "Image": "",
+    "Explaination": "The equation is of order 3 (G(s)H(s) = K(s+2)/[s(s+4)(s+5)], P = 3, Z = 1). Number of branches = max(P, Z) = 3."
+  }
+]

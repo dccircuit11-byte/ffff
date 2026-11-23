@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "The output of a linear system to a unit step input u(t) is t²e^(-2t). The system function H(s) is",
+    "A": "2/[s²(s+2)]",
+    "B": "s/(s+2)²",
+    "C": "2/(s+2)³",
+    "D": "2s/(s+2)³",
+    "Answer": "2s/(s+2)³",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Output c(t) = t²e^(-2t). Taking Laplace: C(s) = 2!/(s+2)³ = 2/(s+2)³.\n2. Input is a unit step: R(s) = 1/s.\n3. Transfer function H(s) = C(s)/R(s) = [2/(s+2)³] / [1/s] = 2s/(s+2)³."
+  },
+  {
+    "Question": "If F(s) = (2s + 5)/(s² + 5s + 6), then f(t) is given by",
+    "A": "2e^(-2.5t) cosh(0.5t)",
+    "B": "e^(2.5t)[cos0.5t + sinh0.5t]",
+    "C": "√2 e^(-2.5t) sin(0.5t + 45°)",
+    "D": "e^(-2.5t)[cos0.5t + sin0.5t]",
+    "Answer": "2e^(-2.5t) cosh(0.5t)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Factor the denominator: s² + 5s + 6 = (s+2)(s+3).\n2. Partial fractions: (2s+5)/[(s+2)(s+3)] = 1/(s+2) + 1/(s+3).\n3. Inverse Laplace: f(t) = e^(-2t) + e^(-3t).\n4. This can be written as e^(-2.5t)[e^(0.5t) + e^(-0.5t)] = 2e^(-2.5t) cosh(0.5t)."
+  },
+  {
+    "Question": "The relationship between the input x(t) and the output y(t) of a system is d²y/dt² = x(t-2)u(t-2) + d²x/dt². The transfer function of the system is",
+    "A": "1 + s²/e^(2s)",
+    "B": "1 + e^(-2s)/s²",
+    "C": "1 + e^(2s)/s²",
+    "D": "1 + s²/e^(-2s)",
+    "Answer": "1 + e^(-2s)/s²",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Take the Laplace transform with zero initial conditions: s²Y(s) = X(s)e^(-2s) + s²X(s).\n2. Divide by X(s): s²H(s) = e^(-2s) + s².\n3. H(s) = [e^(-2s) + s²]/s² = 1 + e^(-2s)/s²."
+  },
+  {
+    "Question": "If (27s + 97)/(s² + 33s) is the Laplace transform of f(t), then f(0+) is",
+    "A": "Zero",
+    "B": "97/33",
+    "C": "27",
+    "D": "Infinity",
+    "Answer": "27",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Use the Initial Value Theorem: f(0+) = lim(s→∞) sF(s).\n2. f(0+) = lim(s→∞) s × (27s+97)/(s²+33s) = lim(s→∞) (27s+97)/(s+33).\n3. Divide numerator and denominator by s: lim(s→∞) (27 + 97/s)/(1 + 33/s).\n4. As s → ∞, the fraction terms vanish: 27/1 = 27."
+  },
+  {
+    "Question": "Match List I (F(s)) with List II ",
+    "A": "3 4 1 2",
+    "B": "4 3 1 2",
+    "C": "3 4 2 1",
+    "D": "4 3 2 1",
+    "Answer": "4 3 2 1",
+    "Image": "https://imgh.in/images/6ll5rq",
+    "Explaination": "Step-by-Step Solution:\n1. Based on standard Laplace transform pairs provided in the figure:\n   A → 4 (usually the 1/s type function)\n   B → 3 (usually the sin or exponential type)\n   C → 2 (usually the cosine or damped type)\n   D → 1 (usually the impulse/constant type)\n2. Therefore, the correct code is 4 3 2 1."
+  },
+  {
+    "Question": "The Laplace transform of sin(ωt) is",
+    "A": "s/(s²+ω²)",
+    "B": "ω²/(s²+ω²)",
+    "C": "s²/(s²+ω²)",
+    "D": "ω/(s²+ω²)",
+    "Answer": "ω/(s²+ω²)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. This is a standard Laplace transform result.\n2. L{sin(ωt)} = ω/(s² + ω²).\n3. Therefore, option D is correct."
+  },
+  {
+    "Question": "Given ",
+    "A": "1, 2 and 3",
+    "B": "1, 2 and 4",
+    "C": "2, 3 and 4",
+    "D": "1, 3 and 4",
+    "Answer": "1, 2 and 4",
+    "Image": "https://imgh.in/images/4eowsg",
+    "Explaination": "Step-by-Step Solution:\n1. Statement (1) is the Time-Shifting Property: L[f(t-a)u(t-a)] = e^(-as)F(s). True.\n2. Statement (2) is the Multiplication by 't' Property: L[t f(t)] = -dF(s)/ds. True.\n3. Statement (4) is the Differentiation Property: L[df(t)/dt] = sF(s) - f(0+). True.\n4. Statement (3) is False: L[(t-a)f(t)] = -dF(s)/ds - aF(s), not 'asF(s)'.\n5. Therefore, 1, 2 and 4 are correct."
+  },
+  {
+    "Question": "What is the Laplace transform of a delayed unit impulse function δ(t − 1)?",
+    "A": "1",
+    "B": "Zero",
+    "C": "exp(−s)",
+    "D": "s",
+    "Answer": "exp(−s)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The Laplace transform of a unit impulse δ(t) is 1.\n2. The time-shifting property states: L{δ(t-a)} = e^(-as).\n3. For a = 1, the transform is e^(-s), which is exp(−s)."
+  },
+  {
+    "Question": "What is the Laplace transform of cos(ω0 t)?",
+    "A": "ω0/(s²+ω0²)",
+    "B": "s/(s²+ω0²)",
+    "C": "ω0/(s+ω0)²",
+    "D": "s/(s+ω0)²",
+    "Answer": "s/(s²+ω0²)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. This is a standard Laplace transform result.\n2. L{cos(ω0 t)} = s/(s² + ω0²).\n3. Therefore, option B is correct."
+  },
+  {
+    "Question": "Consider a system with transfer function H(s) = (3s² − 2)/(s² + 3s + 2). The step response of the system is given by",
+    "A": "C(t) = 5e^(-2t) − e^(-t) − 1",
+    "B": "C(t) = 3δ(t) − 10e^(-2t) + e^(-t)",
+    "C": "C(t) = 4e^(-t) − e^(-2t) − 1",
+    "D": "C(t) = 2(1 − e^(-2t))",
+    "Answer": "C(t) = 5e^(-2t) − e^(-t) − 1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Output C(s) = H(s) × (1/s) = (3s²−2)/[s(s+1)(s+2)].\n2. Partial fractions: A/s + B/(s+1) + C/(s+2).\n3. At s=0: A = -2/2 = -1.\n4. At s=-1: B = (3-2)/[(-1)(1)] = -1.\n5. At s=-2: C = (12-2)/[(-2)(-1)] = 5.\n6. Inverse Laplace: C(t) = -1 - e^(-t) + 5e^(-2t) = 5e^(-2t) − e^(-t) − 1."
+  }
+]

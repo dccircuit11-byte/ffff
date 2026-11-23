@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "Which one of the following is the transfer function of a linear system whose output is t^2e^(-t) for a unit step input?",
+    "A": "s/(s+1)^3",
+    "B": "2s/(s+1)^3",
+    "C": "1/(s^2(s+1))",
+    "D": "2/(s(s+1)^2)",
+    "Answer": "2s/(s+1)^3",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The output is c(t) = t²e^(-t). Taking the Laplace transform: C(s) = L{t²e^(-t)} = 2! / (s+1)³ = 2/(s+1)³.\n2. The input is a unit step: R(s) = 1/s.\n3. The transfer function is H(s) = C(s)/R(s) = [2/(s+1)³] / [1/s] = 2s/(s+1)³."
+  },
+  {
+    "Question": "Feedback in a control system can be used: 1. To reduce the sensitivity of the system to parameter variations and disturbances. 2. To change the time constant of the system. 3. To increase the loop gain of the system. Which of the statements given above are correct?",
+    "A": "1, 2 and 3",
+    "B": "1 and 2",
+    "C": "2 and 3",
+    "D": "1 and 3",
+    "Answer": "1 and 2",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Statement 1 is True: Negative feedback reduces sensitivity to parameter variations (S = 1/(1+GH)) and attenuates disturbances.\n2. Statement 2 is True: Feedback changes the time constant. For a first-order system, the closed-loop time constant τ = τ_open / (1 + GH), making the system faster.\n3. Statement 3 is False: Feedback does not 'increase' the fundamental open-loop gain; it actually reduces the overall closed-loop gain (T = G/(1+GH)) for stability and accuracy."
+  },
+  {
+    "Question": "With negative feedback in a closed loop control system, the system sensitivity to parameter variations",
+    "A": "Increases",
+    "B": "Decreases",
+    "C": "Becomes zero",
+    "D": "Becomes infinite",
+    "Answer": "Decreases",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The sensitivity of a closed-loop transfer function T = G/(1+GH) to variations in G is S_G^T = 1/(1+GH).\n2. For negative feedback, |1+GH| > 1 in the normal working frequency range.\n3. Therefore, the sensitivity S_G^T < 1, meaning it decreases."
+  },
+  {
+    "Question": "The unit step response of a system is 1 − e^(-t)(1 + t). Which is this system?",
+    "A": "Unstable",
+    "B": "Stable",
+    "C": "Critically stable",
+    "D": "Oscillatory",
+    "Answer": "Critically stable",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The step response is c(t) = 1 − e^(-t)(1 + t).\n2. Taking the Laplace transform: C(s) = 1/s − 1/(s+1) − 1/(s+1)² = 1/[s(s+1)²].\n3. The transfer function is G(s) = C(s) / (1/s) = 1/(s+1)².\n4. The system has two repeated real poles at s = -1. Repeated real roots on the negative axis give a critically damped (or critically stable) response."
+  },
+  {
+    "Question": "consider",
+    "A": "1, 2, 3 and 4",
+    "B": "Only 1, 2 and 4",
+    "C": "Only 1 and 3",
+    "D": "Only 2, 3 and 4",
+    "Answer": "Only 2, 3 and 4",
+    "Image": "https://imgh.in/images/xl86sh",
+    "Explaination": "Step-by-Step Solution:\n1. Statement 1 is false: accuracy CAN be improved by adjusting loop gain (higher gain reduces steady-state error).\n2. Statements 2, 3 and 4 are true: Feedback reduces overall gain (T = G/(1+GH)), sensor noise degrades accuracy, and feedback can cause instability if the loop gain is too high."
+  },
+  {
+    "Question": "Given the differential equation model of a physical system, determine the time constant of the system: 40 dx/dt + 2x = f(t)",
+    "A": "10",
+    "B": "20",
+    "C": "1/10",
+    "D": "4",
+    "Answer": "20",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The standard first-order form is τ(dx/dt) + x = K f(t).\n2. Divide the given equation by 2: 20(dx/dt) + x = f(t)/2.\n3. Comparing with the standard form, the time constant τ is the coefficient of dx/dt.\n4. Therefore, τ = 20 seconds."
+  },
+  {
+    "Question": "A system is described by the transfer function G(s) = (2s + 5)/[(s + 5)(s + 4)]. The dc gain of the system is",
+    "A": "0.25",
+    "B": "0.5",
+    "C": "1",
+    "D": "∞",
+    "Answer": "0.25",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. DC gain is found by evaluating the transfer function at s = 0.\n2. G(0) = [2(0) + 5] / [(0 + 5)(0 + 4)] = 5 / (5 × 4) = 5/20.\n3. G(0) = 0.25."
+  },
+  {
+    "Question": "Consider the function F(s) = ω/(s² + ω²), where F(s) is the Laplace transform of f(t). What is the steady-state value of f(t)?",
+    "A": "Zero",
+    "B": "One",
+    "C": "Two",
+    "D": "A value between -1 and +1",
+    "Answer": "A value between -1 and +1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. F(s) = ω/(s² + ω²) is the Laplace transform of f(t) = sin(ωt).\n2. The function sin(ωt) oscillates continuously between -1 and +1 and never settles to a single steady-state value.\n3. The Final Value Theorem is not applicable because the poles (±jω) lie on the imaginary axis.\n4. Therefore, the steady-state value is 'a value between -1 and +1'."
+  },
+  {
+    "Question": "The impulse response of a linear time invariant system is given as g(t) = e^(-t), t > 0. The transfer function of the system is equal to",
+    "A": "1/s",
+    "B": "1/[s(s+1)]",
+    "C": "1/(s+1)",
+    "D": "s/(s+1)",
+    "Answer": "1/(s+1)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The transfer function is the Laplace transform of the impulse response.\n2. H(s) = L{e^(-t)} for t > 0.\n3. Using the standard pair L{e^(-at)} = 1/(s+a) with a=1 gives H(s) = 1/(s+1)."
+  },
+  {
+    "Question": "If x(t) and its first derivative are Laplace transformable and the Laplace transform of x(t) is X(s), then lim x(t) as t→0 is given by",
+    "A": "lim sX(s) as s→∞",
+    "B": "lim sX(s) as s→0",
+    "C": "lim X(s)/s as s→∞",
+    "D": "lim X(s)/s as s→0",
+    "Answer": "lim sX(s) as s→∞",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The Initial Value Theorem states that the value of x(t) at t → 0 is found from its Laplace transform.\n2. The formula is: x(0+) = lim(s→∞) sX(s).\n3. Therefore, option A is the correct expression. (The source key shows B, which is the Final Value Theorem for t → ∞; as printed with t → 0, option A is correct)."
+  }
+]

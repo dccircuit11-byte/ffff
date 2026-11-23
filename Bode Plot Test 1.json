@@ -1,0 +1,103 @@
+// JSON 1 (Questions 1–10)
+[
+  {
+    "Question": "The transfer function of the following Bode plot represents (magnitude rises at +40 dB/dec up to ω = 10 rad/s where it reaches 100 dB, then falls at -60 dB/dec):",
+    "A": "100s²/(0.1+0.1s)³",
+    "B": "1000s²/(1+0.1s)³",
+    "C": "100s²/(1+0.1s)⁵",
+    "D": "1000s²/(1+0.1s)⁵",
+    "Answer": "1000s²/(1+0.1s)⁵",
+    "Image": "https://imgh.in/images/ku6imq",
+    "Explaination": "Initial slope +40 dB/dec → two zeros at the origin (s²). After the corner at ω = 10 the slope is -60 dB/dec, a change of -100 dB/dec → 5 poles at ω = 10, i.e. (1+0.1s)⁵. At ω = 10 the asymptotic magnitude is K·10² = 100 dB = 10⁵ → K = 1000. So G(s) = 1000s²/(1+0.1s)⁵."
+  },
+  {
+    "Question": "A system has 12 poles and 2 zeros. Its high frequency asymptote in its magnitude plot has a slope of",
+    "A": "-200 dB/Dec",
+    "B": "-240 dB/Dec",
+    "C": "-280 dB/Dec",
+    "D": "320 dB/Dec",
+    "Answer": "-200 dB/Dec",
+    "Image": "",
+    "Explaination": "High frequency slope = -20 (P - Z) dB/dec = -20 × (12 - 2) = -200 dB/dec."
+  },
+  {
+    "Question": "The gain-phase plots of open-loop transfer function of four different systems are shown. The correct sequence of the increasing order of stability of these four systems will be",
+    "A": "D, C, B, A",
+    "B": "A, B, C, D",
+    "C": "B, C, A, D",
+    "D": "A, D, B, C",
+    "Answer": "A, B, C, D",
+    "Image": "https://imgh.in/images/sm3vqt",
+    "Explaination": "Stability improves as the gain-phase curve crosses the 0 dB line farther from the -180° point on the positive-margin side. A crosses 0 dB beyond -180° (unstable), B passes through the critical point (marginal), C crosses at about -135° (stable, PM ≈ 45°) and D at about -45° (most stable, PM ≈ 135°). Increasing order of stability: A, B, C, D."
+  },
+  {
+    "Question": "Consider the gain-phase plot shown The gain margin and phase margin are",
+    "A": "-2 dB, 40°",
+    "B": "2 dB, 40°",
+    "C": "2 dB, 140°",
+    "D": "-2 dB, 140°",
+    "Answer": "2 dB, 40°",
+    "Image": "https://imgh.in/images/frppmo",
+    "Explaination": "Gain margin: at the phase crossover (-180°) the gain is -2 dB → GM = +2 dB. Phase margin: at the gain crossover (0 dB) the phase is -140° → PM = 180° - 140° = 40°."
+  },
+  {
+    "Question": "The magnitude plot for a minimum phase system is shown in the figure . The phase plot for this function",
+    "A": "Can't be uniquely determined",
+    "B": "Will be monotonically increasing from 0° to 180°",
+    "C": "Will be monotonically decreasing from 180° to 0",
+    "D": "Will be monotonically decreasing from 180° to -90°",
+    "Answer": "Will be monotonically decreasing from 180° to -90°",
+    "Image": "https://imgh.in/images/1fgmv4",
+    "Explaination": "+12 dB/oct = +40 dB/dec at low frequency → two zeros at the origin → phase starts at +180°. The high frequency slope is -6 dB/oct = -20 dB/dec → net (poles - zeros) = 1 → final phase -90°. For a minimum phase system the phase follows the slope, so it decreases monotonically from 180° to -90°."
+  },
+  {
+    "Question": "The magnitude plot for a transfer function is shown in the figure . What is the steady-state error corresponding to a unit step input?",
+    "A": "1/101",
+    "B": "1/100",
+    "C": "1/41",
+    "D": "1/40",
+    "Answer": "1/101",
+    "Image": "https://imgh.in/images/4084rf",
+    "Explaination": "Flat low-frequency magnitude means a type 0 system with Kp = 10^(40/20) = 100. For a unit step, ess = 1/(1 + Kp) = 1/101."
+  },
+  {
+    "Question": "The log-magnitude Bode plot of a non-minimum phase system is shown in the figure. Its transfer function is given by",
+    "A": "G(s) = (s-10)/(s+100)",
+    "B": "G(s) = (s+10)/(s-100)",
+    "C": "G(s) = (s-10)/(s-100)",
+    "D": "G(s) = (s+10)/(s+100)",
+    "Answer": "G(s) = (s+10)/(s+100)",
+    "Image": "https://imgh.in/images/sk0jgk",
+    "Explaination": "As per the book key: D. The magnitude plot shows a zero corner at 10 rad/s and a pole corner at 100 rad/s, which fits |s ± 10|/|s ± 100| for all four options. NOTE: the magnitude plot cannot show the sign of zeros/poles; option D as keyed is actually a minimum phase function, which does not match the 'non-minimum phase' wording of the question."
+  },
+  {
+    "Question": "The phase angle for the transfer function G(s) = 1/(1+sT)³ at the corner frequency is",
+    "A": "-45°",
+    "B": "-90°",
+    "C": "-135°",
+    "D": "-270°",
+    "Answer": "-135°",
+    "Image": "",
+    "Explaination": "At the corner frequency ω = 1/T each factor (1 + jωT) has phase +45°. So the phase of G = -3 × 45° = -135°."
+  },
+  {
+    "Question": "The magnitude plot of a transfer function is shown in the figure. The transfer function is",
+    "A": "4(1+s/2) / [s(1+s/10)]",
+    "B": "4s(1+s/2) / (1+s/10)",
+    "C": "4s(1+2s) / [s(1+10s)]",
+    "D": "4s(1+2s) / (1+10s)",
+    "Answer": "4(1+s/2) / [s(1+s/10)]",
+    "Image": "https://imgh.in/images/x7dtpt",
+    "Explaination": "Initial slope -20 dB/dec → one pole at the origin (type 1). At ω = 2 the slope changes by +20 dB/dec → a zero at 2 → (1 + s/2). At ω = 10 the slope changes by -20 dB/dec → a pole at 10 → (1 + s/10). At ω = 2 the magnitude is 6 dB ≈ 2 → K/2 = 2 → K = 4. So G(s) = 4(1 + s/2) / [s(1 + s/10)]."
+  },
+  {
+    "Question": "An open loop transfer function of a unity feedback control system has two finite zeros, two poles at origin and two pairs of complex conjugate poles. The slope of high frequency asymptote in Bode magnitude plot will be",
+    "A": "+40 dB/decade",
+    "B": "0 dB/decade",
+    "C": "-40 dB/decade",
+    "D": "-80 dB/decade",
+    "Answer": "-80 dB/decade",
+    "Image": "",
+    "Explaination": "Total poles = 2 (origin) + 4 (two complex pairs) = 6; zeros = 2. High frequency slope = -20 (6 - 2) = -80 dB/decade."
+  }
+]

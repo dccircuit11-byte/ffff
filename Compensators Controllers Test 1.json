@@ -1,0 +1,103 @@
+// JSON 1 (Questions 1–10)
+[
+  {
+    "Question": "In the derivative error compensation,",
+    "A": "Damping decreases and settling time decreases",
+    "B": "Damping increases and settling time increases",
+    "C": "Damping decreases and settling time increases",
+    "D": "Damping increases and settling time decreases",
+    "Answer": "Damping increases and settling time decreases",
+    "Image": "",
+    "Explaination": "Derivative (error rate) compensation adds a zero to the system, which increases the damping factor ξ. Higher damping reduces the peak overshoot and decreases the settling time, improving the transient response."
+  },
+  {
+    "Question": "Match List-I (Transfer function) with List-II (Controller).",
+    "A": "A-3, B-4, C-2, D-1",
+    "B": "A-4, B-3, C-2, D-1",
+    "C": "A-3, B-2, C-4, D-1",
+    "D": "A-4, B-1, C-2, D-3",
+    "Answer": "A-3, B-4, C-2, D-1",
+    "Image": "https://imgh.in/images/q09ftl",
+    "Explaination": "A: (K1/K3)s + K2/K3 = Kd s + Kp -> PD. B: (K1/K4)s + K2/K4 + K3/(K4 s) = Kd s + Kp + Ki/s -> PID. C: K1/K3 + K2/(K3 s) = Kp + Ki/s -> PI. D: constant gain K1/K2 -> P controller."
+  },
+  {
+    "Question": "The maximum phase shift that can be provided by a lead compensator with transfer function Gc(s) = (1 + 6s)/(1 + 2s) is",
+    "A": "15°",
+    "B": "30°",
+    "C": "45°",
+    "D": "60°",
+    "Answer": "30°",
+    "Image": "",
+    "Explaination": "Zero corner = 1/6, pole corner = 1/2, so the ratio a = 6/2 = 3. Maximum phase lead: sin φm = (a - 1)/(a + 1) = (3 - 1)/(3 + 1) = 0.5, hence φm = 30°."
+  },
+  {
+    "Question": "The transfer function of a compensating network is of the form (1 + αTs)/(1 + Ts). If this is a phase-lag network, then the value of α should be",
+    "A": "Exactly equal to 0",
+    "B": "Between 0 and 1",
+    "C": "Exactly equal to 1",
+    "D": "Greater than 1",
+    "Answer": "Between 0 and 1",
+    "Image": "",
+    "Explaination": "The pole is at 1/T and the zero is at 1/(αT). For a lag network the pole must be closer to the origin than the zero: 1/T < 1/(αT), which gives α < 1. Also α > 0, so α lies between 0 and 1."
+  },
+  {
+    "Question": "Match List-I with List-II. List-I.",
+    "A": "A-1, B-2, C-3, D-4",
+    "B": "A-2, B-3, C-1, D-4",
+    "C": "A-4, B-3, C-1, D-2",
+    "D": "A-1, B-2, C-4, D-3",
+    "Answer": "A-1, B-2, C-4, D-3",
+    "Image": "https://imgh.in/images/s9ddrg",
+    "Explaination": "Derivative control improves the overshoot response; integral control gives less steady-state error; rate feedback control adds more damping; proportional control (increasing gain) makes the system less stable."
+  },
+  {
+    "Question": "For the given phase-lead network .the maximum possible phase lead is,",
+    "A": "sin⁻¹(1/3)",
+    "B": "30°",
+    "C": "45°",
+    "D": "60°",
+    "Answer": "30°",
+    "Image": "https://imgh.in/images/khr3k2",
+    "Explaination": "For a lead network α = R2/(R1 + R2) = 0.5/(1 + 0.5) = 1/3. φm = sin⁻¹[(1 - α)/(1 + α)] = sin⁻¹[(2/3)/(4/3)] = sin⁻¹(0.5) = 30°."
+  },
+  {
+    "Question": "When phase-lag compensation is used in a system, the gain crossover frequency, bandwidth and undamped natural frequency are respectively,",
+    "A": "Increased, increased, increased",
+    "B": "Increased, increased, decreased",
+    "C": "Increased, decreased, decreased",
+    "D": "Decreased, decreased, decreased",
+    "Answer": "Decreased, decreased, decreased",
+    "Image": "",
+    "Explaination": "A lag compensator is a low-pass type network. It attenuates high frequencies, so the gain crossover frequency decreases, the bandwidth decreases and the natural (undamped) frequency decreases. The response becomes slower."
+  },
+  {
+    "Question": "Match List-I with List-II. List-I:",
+    "A": "A-2, B-5, C-1, D-3",
+    "B": "A-3, B-1, C-2, D-5",
+    "C": "A-1, B-2, C-3, D-4",
+    "D": "A-5, B-2, C-4, D-1",
+    "Answer": "A-5, B-2, C-4, D-1",
+    "Image": "https://imgh.in/images/hm8kji",
+    "Explaination": "Lag compensation acts like a PI controller; lead compensation acts like a PD controller; stability in the continuous domain means poles in the left half of the s-plane; instability (in the discrete z-domain) corresponds to poles outside the unit circle."
+  },
+  {
+    "Question": "A lag compensator is basically a",
+    "A": "High pass filter",
+    "B": "Band pass filter",
+    "C": "Low pass filter",
+    "D": "Band elimination filter",
+    "Answer": "Low pass filter",
+    "Image": "",
+    "Explaination": "The lag compensator (1 + τs)/(1 + βτs) with β > 1 has unity gain at low frequency and gain 1/β at high frequency, so it passes low frequencies and attenuates high frequencies - it is a low pass filter."
+  },
+  {
+    "Question": "Consider the following statements: 1. The derivative control improves the overshoot of a given system. 2. The derivative control reduces steady-state error. 3. Integral control reduces steady-state error. 4. Integral control does not affect stability of the system. 5. Integral control improves the overshoot of the system. Of these statements,",
+    "A": "1 and 3 are correct",
+    "B": "1, 2 and 5 are correct",
+    "C": "2, 4 and 5 are correct",
+    "D": "1, 3 and 5 are correct",
+    "Answer": "1 and 3 are correct",
+    "Image": "",
+    "Explaination": "Derivative control reduces overshoot (1 true) but does not reduce steady-state error (2 false). Integral control reduces steady-state error (3 true) but increases the type/order of the system, reducing stability (4 false) and increasing overshoot (5 false). So only 1 and 3 are correct."
+  }
+]

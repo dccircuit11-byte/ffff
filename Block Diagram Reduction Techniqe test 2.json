@@ -1,0 +1,132 @@
+[
+  {
+    "Question": "The closed-loop transfer function C(s)/R(s) of the system represented by the signal flow graph shown in figure is ",
+    "A": "G1G2G3G4/(1 + G1 + G2)",
+    "B": "G1G2G3G4/(1 + G3 + G4)",
+    "C": "G1G2G3G4/[(1 + G1 + G2)(1 + G3 + G4)]",
+    "D": "G1G2G3G4/[(1 + G1G2)(1 + G3G4)]",
+    "Answer": "G1G2G3G4/[(1 + G1 + G2)(1 + G3 + G4)]",
+    "Image": "https://imgh.in/images/2sywfi",
+    "Explaination": "Step-by-Step Solution:\n1. Forward path: The main signal path passes through G1, G2, G3, and G4. Forward gain = G1G2G3G4.\n2. The graph consists of two separate sections that do not touch each other.\n3. Section 1 contains loops with gains -G1 and -G2. Its determinant is (1 + G1 + G2).\n4. Section 2 contains loops with gains -G3 and -G4. Its determinant is (1 + G3 + G4).\n5. Since the sections do not touch, the overall determinant Δ = (1 + G1 + G2)(1 + G3 + G4).\n6. Transfer function = Forward Path / Δ."
+  },
+  {
+    "Question": "For the signal-flow graph shown in the figure, which one of the following expressions is equal to the transfer function Y(s)/X1(s) with X2(s) = 0?  [Figure: nodes X1, X2 inputs, G1, G2 branches to Y with −1 feedback branches]",
+    "A": "G1/[1 + G1(1 + G1)]",
+    "B": "G2/[1 + G1(1 + G2)]",
+    "C": "G1/(1 + G1G2)",
+    "D": "G2/(1 + G1G2)",
+    "Answer": "G2/[1 + G1(1 + G2)]",
+    "Image": "https://imgh.in/images/3fuv1q",
+    "Explaination": "Step-by-Step Solution:\n1. Set X2 = 0. The forward path from X1 to Y passes through G2, giving a forward gain of G2.\n2. Analyze the feedback loops: There is a loop involving G1 and the -1 feedback, creating a loop of -G1. There is also an inner loop involving G1 and G2, giving -G1G2.\n3. Combining the effects of these loops for the denominator: Δ = 1 - (-G1 - G1G2) = 1 + G1 + G1G2 = 1 + G1(1 + G2).\n4. Transfer function = G2 / [1 + G1(1 + G2)]."
+  },
+  {
+    "Question": "Consider the following statements with regards to the signal flow graph: \n1. The number of loops are 3. \n2. The number of loops are 2. \n3. The number of forward paths are 3. \n4. C/R ratio = 40/81. \n5. C/R ratio = 28/81. \nWhich of these statements are correct?  ",
+    "A": "1, 3, 4 and 5",
+    "B": "1, 3 and 4",
+    "C": "2, 3 and 4",
+    "D": "3, 4 and 5",
+    "Answer": "1, 3 and 4",
+    "Image": "https://imgh.in/images/5z975n",
+    "Explaination": "Step-by-Step Solution:\n1. Count the forward paths: There are 3 distinct paths (from the parallel branches combining). Statement 3 is correct.\n2. Count the loops: There are 3 individual feedback loops with gains -40, -16, and -24. Statement 1 is correct, statement 2 is false.\n3. Calculate the determinant: Since all 3 loops touch, Δ = 1 - (-40 - 16 - 24) = 1 + 80 = 81.\n4. Calculate the gain: The sum of the forward paths is 40. So C/R = 40/81. Statement 4 is correct, statement 5 is false.\n5. Conclusion: Statements 1, 3, and 4 are correct."
+  },
+  {
+    "Question": "The characteristic polynomial of a system can be defined as",
+    "A": "Denominator polynomial of given transfer function.",
+    "B": "Numerator polynomial of given transfer function.",
+    "C": "Numerator polynomial of a closed-loop transfer function.",
+    "D": "Denominator polynomial of a closed-loop transfer function.",
+    "Answer": "Denominator polynomial of a closed-loop transfer function.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The characteristic polynomial determines the stability and natural response of a closed-loop system.\n2. For a closed-loop transfer function T(s) = N(s) / D(s), the characteristic equation is D(s) = 0.\n3. Therefore, the characteristic polynomial is defined as the denominator polynomial of the closed-loop transfer function (which is equivalent to 1 + G(s)H(s))."
+  },
+  {
+    "Question": "Match list I (Block Diagram) with list II (Transformed Block Diagram) and select the correct answer using the codes. ",
+    "A": "3 4 2 1",
+    "B": "4 3 1 2",
+    "C": "3 4 1 2",
+    "D": "4 3 2 1",
+    "Answer": "3 4 1 2",
+    "Image": "https://imgh.in/images/3l3y9i",
+    "Explaination": "Step-by-Step Solution:\n1. Apply standard block diagram reduction rules.\n2. Moving a take-off point before a block G requires multiplying the signal by G (A matches 3).\n3. Moving a summing point after a block G requires multiplying the other input by 1/G (B matches 4).\n4. Moving a take-off point after a block G requires multiplying by 1/G (C matches 1).\n5. Moving a summing point before a block G requires multiplying by G (D matches 2).\n6. The correct sequence is 3, 4, 1, 2."
+  },
+  {
+    "Question": "Match List-I (Original Diagram) with List-II (Equivalent Diagram) and select the correct answer using the code below.  ",
+    "A": "3 1 4 2",
+    "B": "2 4 1 3",
+    "C": "3 4 1 2",
+    "D": "2 1 4 3",
+    "Answer": "3 1 4 2",
+    "Image": "https://imgh.in/images/vyrutb",
+    "Explaination": "Step-by-Step Solution:\n1. This question relies on standard rules for shifting summing points and take-off points across transfer function blocks.\n2. By carefully applying the rules (e.g., moving a summing point ahead of a block multiplies the other input by G; moving it behind divides by G), we can match the diagrams.\n3. The correct matches, based on the equivalent transformations, yield the sequence A→3, B→1, C→4, D→2."
+  },
+  {
+    "Question": "By performing cascading and/or summing/differencing operations using transfer function blocks G1(s) and G2(s), one cannot realize a transfer function of the form _____.",
+    "A": "G1(s)G2(s)",
+    "B": "G1(s)/G2(s)",
+    "C": "G1(s)[1/G1(s) + G2(s)]",
+    "D": "G1(s)[1/G1(s) − G2(s)]",
+    "Answer": "G1(s)/G2(s)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Cascading blocks (connecting in series) multiplies their transfer functions, realizing G1G2.\n2. Summing or differencing parallel blocks realizes forms like G1 ± G2. Options C and D simplify to 1 + G1G2 and 1 - G1G2, which are realizable using feedback and parallel connections.\n3. Realizing a division G1/G2 requires a block with the inverse transfer function 1/G2, which is generally not possible using only basic forward blocks and standard summing junctions without feedback."
+  },
+  {
+    "Question": "For the block diagram shown in figure, the transfer function C(s)/R(s) is _________  ",
+    "A": "G1G2 − G2 − 1",
+    "B": "G1G2 + G2 + 1",
+    "C": "G1G2/(1 − G1G2)",
+    "D": "G1G2/(1 + G1G2)",
+    "Answer": "G1G2 − G2 − 1",
+    "Image": "https://imgh.in/images/q6gdlo",
+    "Explaination": "Step-by-Step Solution:\n1. Analyze the summing junctions:\n   - First summer output = G1R - R = (G1 - 1)R.\n   - This passes through G2: G2(G1 - 1)R.\n   - Second summer subtracts R (feedforward): C = G2(G1 - 1)R - R.\n2. Expand the equation: C = (G1G2 - G2 - 1)R.\n3. Transfer function C/R = G1G2 - G2 - 1."
+  },
+  {
+    "Question": "The determinant of graph Δ for the SFG shown below is ",
+    "A": "1 - bc - fg - befg - cigj",
+    "B": "1 - bc - fg - cigj + befg",
+    "C": "1 + bc + fg + cigj - befg",
+    "D": "1 + bc + fg + bcfg - cigj",
+    "Answer": "1 + bc + fg + bcfg - cigj",
+    "Image": "https://imgh.in/images/bbrhao",
+    "Explaination": "Step-by-Step Solution:\n1. Identify the individual loops: The loops have gains -bc, -fg, and a third loop with gain cigj (which contributes negatively to the sum of loops).\n2. Identify non-touching loop pairs: The loop 'bc' and the loop 'fg' do not touch each other. Their product is (-bc)(-fg) = +bcfg.\n3. Apply Mason's determinant formula: Δ = 1 - (sum of individual loops) + (sum of products of non-touching pairs).\n4. Δ = 1 - (-bc - fg - cigj) + (bcfg) = 1 + bc + fg + bcfg - cigj."
+  },
+  {
+    "Question": "The overall transfer function for the signal flow graph shown is  ",
+    "A": "G1G2/(1 - G1G2H1 + G2H2)",
+    "B": "G1G2/(1 + G1G2H1 + G2H2)",
+    "C": "G1G2/(1 - G1G2H1 - G2H2)",
+    "D": "G1G2/(1 + G1G2H1 + G2H2)",
+    "Answer": "G1G2/(1 - G1G2H1 + G2H2)",
+    "Image": "https://imgh.in/images/hntn7h",
+    "Explaination": "Step-by-Step Solution:\n1. Forward path gain = G1G2.\n2. Identify the loops:\n   - Loop 1 is formed by G1, G2, and H1. Based on the signal direction, it is a positive feedback loop, so its gain is +G1G2H1.\n   - Loop 2 is formed by G2 and H2. It is a negative feedback loop, so its gain is -G2H2.\n3. Denominator (Δ) = 1 - (Sum of individual loops) = 1 - (+G1G2H1 - G2H2) = 1 - G1G2H1 + G2H2.\n4. Transfer function = G1G2 / (1 - G1G2H1 + G2H2)."
+  },
+  {
+    "Question": "For the block diagram shown, C(s)/R(s) is ",
+    "A": "(s² + 1)/s",
+    "B": "(s² + s + 1)/s²",
+    "C": "(s² + s + 1)/s",
+    "D": "1/(s² + s + 1)",
+    "Answer": "(s² + s + 1)/s²",
+    "Image": "https://imgh.in/images/97dzz6",
+    "Explaination": "Step-by-Step Solution:\n1. Identify the forward and parallel paths:\n   - The top path goes through two integrators (1/s * 1/s = 1/s²).\n   - There is a parallel path that bypasses the first integrator, adding 1/s.\n   - There is a direct feedforward path that bypasses both, adding 1.\n2. Summing these parallel paths gives the overall transfer function: C/R = 1/s² + 1/s + 1.\n3. Find a common denominator (s²): C/R = (1 + s + s²) / s² = (s² + s + 1) / s²."
+  },
+  {
+    "Question": "For the block diagram as shown in figure, the overall transfer function C/R is  [Figure: R→summer→G1→summer→G2→C; H1 feeds back from output to the first summer, H2 feeds back around G2 as positive feedback]",
+    "A": "G1G2H1/(1 − G1H1 − G2H2)",
+    "B": "G1G2/(1 − G1H1 + G2H2)",
+    "C": "G1G2H2/(1 + G1H1 + G2H2)",
+    "D": "G1G2/(1 + G1H1 − G2H2)",
+    "Answer": "G1G2/(1 + G1H1 − G2H2)",
+    "Image": "https://imgh.in/images/ft6qh3",
+    "Explaination": "Step-by-Step Solution:\n1. Forward path gain = G1G2.\n2. Identify the loops:\n   - The feedback H1 creates a negative loop around G1 and G2, contributing +G1H1 to the denominator.\n   - The positive feedback H2 around G2 creates a loop contributing -G2H2 to the denominator.\n3. Denominator (Δ) = 1 - (Sum of loops) = 1 - (-G1H1 + G2H2) = 1 + G1H1 - G2H2.\n4. Transfer function = G1G2 / (1 + G1H1 - G2H2)."
+  },
+  {
+    "Question": "The number of forward paths and the number of non-touching loop pairs for the signal flow graph given in the figure are, respectively,",
+    "A": "1, 3",
+    "B": "3, 2",
+    "C": "3, 1",
+    "D": "2, 4",
+    "Answer": "3, 1",
+    "Image": "https://imgh.in/images/9h0ij0",
+    "Explaination": "Step-by-Step Solution:\n1. Trace the paths from input R to output C without repeating nodes: There are 3 distinct forward paths.\n2. Identify the loops and check for non-touching pairs: By analyzing the graph, only one pair of loops does not share any common nodes (they are non-touching).\n3. Conclusion: There are 3 forward paths and 1 non-touching loop pair."
+  }
+]

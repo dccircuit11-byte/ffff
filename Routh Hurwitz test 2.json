@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "First column elements of the Routh's tabulation are 3, 5, -3/4, 1/2, 2. It means that there",
+    "A": "Is one root in the left half of s-plane",
+    "B": "Are two roots in the left half of s-plane",
+    "C": "Are two roots in the right half of s-plane",
+    "D": "Is one root in the right half of s-plane",
+    "Answer": "Are two roots in the right half of s-plane",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The first column is: 3, 5, -3/4, 1/2, 2.\n2. Count the sign changes: 3 → 5 (no change), 5 → -3/4 (one change), -3/4 → 1/2 (two changes), 1/2 → 2 (no change).\n3. Number of sign changes = 2.\n4. The number of sign changes in the first column equals the number of roots in the right half of the s-plane.\n5. Therefore, there are two roots in the right half of the s-plane."
+  },
+  {
+    "Question": "Which one of the following characteristic equations can result in stable operation of the feedback system?",
+    "A": "s^3 + 4s^2 + s - 6 = 0",
+    "B": "s^3 - s^2 + 5s - 6 = 0",
+    "C": "s^3 + 4s^2 + 10s + 11 = 0",
+    "D": "s^4 + s^3 + 2s^2 + 4s + 6 = 0",
+    "Answer": "s^3 + 4s^2 + 10s + 11 = 0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Check for necessary conditions: all coefficients must be present and have the same sign. Options A and B have negative coefficients (-6 and -6), so they are unstable.\n2. Check Option C: s³ + 4s² + 10s + 11 = 0. Routh array: s³: 1, 10. s²: 4, 11. s¹: (40 - 11)/4 = 29/4 > 0. s⁰: 11 > 0. All first-column elements are positive → stable.\n3. Check Option D: s⁴ + s³ + 2s² + 4s + 6 = 0. Routh array: s⁴: 1, 2, 6. s³: 1, 4. s²: (1×2 - 1×4)/1 = -2, 6. s¹: ((-2)×4 - 1×6)/(-2) = (-8 - 6)/(-2) = 7. s⁰: 6. First column: 1, 1, -2, 7, 6 has sign changes → unstable.\n4. Therefore, only option C results in a stable system."
+  },
+  {
+    "Question": "Consider the following statements: Routh-Hurwitz criterion gives \n1. Absolute stability \n2. The number of roots lying on the right half of the s-plane \n3. The gain margin and phase margin. \nWhich of these statements are correct?",
+    "A": "1, 2 and 3",
+    "B": "1 and 2",
+    "C": "2 and 3",
+    "D": "1 and 3",
+    "Answer": "1 and 2",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The Routh-Hurwitz criterion is an algebraic method to determine the absolute stability of a system by checking if all roots of the characteristic equation lie in the left half-plane.\n2. It also tells us the number of roots in the right half-plane (number of sign changes in the first column). So statements 1 and 2 are correct.\n3. Gain margin and phase margin are determined from frequency response methods (Bode plots, Nyquist plots), not from the Routh-Hurwitz criterion. So statement 3 is false.\n4. Conclusion: Statements 1 and 2 are correct."
+  },
+  {
+    "Question": "The open-loop transfer function of a unity feedback control system is  The system is stable if",
+    "A": "0 < K < (a+b)/(ab)",
+    "B": "0 < K < ab/(a+b)",
+    "C": "0 < K < ab(a+b)",
+    "D": "0 < K < a/b(a+b)",
+    "Answer": "0 < K < ab(a+b)",
+    "Image": "https://imgh.in/images/ibw6z6",
+    "Explaination": "Step-by-Step Solution:\n1. Based on the options, the open-loop transfer function is G(s) = K/[s(s+a)(s+b)].\n2. The characteristic equation is 1 + G(s) = 0 → s(s+a)(s+b) + K = 0 → s³ + (a+b)s² + ab s + K = 0.\n3. Form the Routh array: s³: 1, ab. s²: (a+b), K. s¹: [(a+b)ab - K]/(a+b). s⁰: K.\n4. For stability: K > 0 and [(a+b)ab - K]/(a+b) > 0 → K < ab(a+b).\n5. Therefore, the system is stable for 0 < K < ab(a+b)."
+  },
+  {
+    "Question": "The Routh-Hurwitz criterion cannot be applied when the characteristic equation of the system contains any coefficients which is",
+    "A": "Negative real and exponential function of s",
+    "B": "Negative real, both exponential sinusoidal function of s",
+    "C": "Both exponential and sinusoid functions of s",
+    "D": "Complex, both exponential and sinusoidal functions of s",
+    "Answer": "Complex, both exponential and sinusoidal functions of s",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The Routh-Hurwitz criterion is an algebraic test that applies only to polynomials in 's' with real coefficients.\n2. If the characteristic equation contains coefficients that are complex numbers, or if it contains transcendental functions of 's' (such as exponential terms e^(-Ts) or sinusoidal terms sin(s)), the method cannot be directly applied.\n3. Therefore, the criterion fails when the coefficients are complex or involve exponential and sinusoidal functions of s."
+  },
+  {
+    "Question": "The given characteristic polynomial s^4 + s^3 + 2s^2 + 2s + 3 = 0 has",
+    "A": "Zero root in RHS of s-plane",
+    "B": "One root in RHS of s-plane",
+    "C": "Two roots in RHS of s-plane",
+    "D": "Three roots in RHS of s-plane",
+    "Answer": "Two roots in RHS of s-plane",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array for s⁴ + s³ + 2s² + 2s + 3 = 0.\n2. Row s⁴: 1, 2, 3. Row s³: 1, 2. Row s²: (1×2 - 1×2)/1 = 0, 3. Row s¹: (0×2 - 1×3)/0. Since we have a zero in the first column, we replace it with a small positive number ε. s¹: (ε×2 - 1×3)/ε = (2ε - 3)/ε ≈ -3/ε (negative for small ε). Row s⁰: 3.\n3. First column: 1, 1, +ε, -3/ε, 3. Sign changes: 1→1 (0), 1→+ε (0), +ε→-3/ε (one), -3/ε→3 (two).\n4. Number of sign changes = 2, so there are two roots in the RHS of the s-plane."
+  },
+  {
+    "Question": "An open loop system has a transfer function 1/(s^3 + 1.5s^2 + s - 1). It is converted to a closed loop system by providing a negative feedback having transfer function 20(s+1). The open loop and closed loop systems are, respectively",
+    "A": "Stable and stable",
+    "B": "Stable and unstable",
+    "C": "Unstable and stable",
+    "D": "Unstable and unstable",
+    "Answer": "Unstable and stable",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Open-loop transfer function G(s) = 1/(s³ + 1.5s² + s - 1). The denominator has a negative coefficient (-1), which violates the necessary condition for stability. So the open-loop system is unstable.\n2. Closed-loop characteristic equation: 1 + G(s)H(s) = 0 → 1 + 20(s+1)/(s³ + 1.5s² + s - 1) = 0.\n3. Multiply by the denominator: s³ + 1.5s² + s - 1 + 20(s+1) = s³ + 1.5s² + 21s + 19 = 0.\n4. Routh array: s³: 1, 21. s²: 1.5, 19. s¹: (1.5×21 - 1×19)/1.5 = (31.5 - 19)/1.5 = 12.5/1.5 = 8.33 > 0. s⁰: 19 > 0.\n5. All first-column elements are positive, so the closed-loop system is stable.\n6. Therefore, open-loop is unstable and closed-loop is stable."
+  },
+  {
+    "Question": "The system having characteristic equation s^4 + 2s^3 + 3s^2 + 2s + K = 0 is to be used as an oscillator. What are the values of K and the frequency of oscillation ω?",
+    "A": "K = 1 and ω = 1 r/s",
+    "B": "K = 1 and ω = 2 r/s",
+    "C": "K = 2 and ω = 1 r/s",
+    "D": "K = 2 and ω = 2 r/s",
+    "Answer": "K = 2 and ω = 1 r/s",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array for s⁴ + 2s³ + 3s² + 2s + K = 0.\n2. Row s⁴: 1, 3, K. Row s³: 2, 2. Row s²: (2×3 - 1×2)/2 = 4/2 = 2, K. Row s¹: (2×2 - 2×K)/2 = (4 - 2K)/2 = 2 - K. Row s⁰: K.\n3. For the system to act as an oscillator, it must be marginally stable, meaning the s¹ row must be zero: 2 - K = 0 → K = 2.\n4. The auxiliary equation is formed from the s² row: 2s² + K = 2s² + 2 = 0 → s² = -1 → s = ±j1.\n5. The frequency of oscillation is ω = 1 rad/s.\n6. Therefore, K = 2 and ω = 1 r/s."
+  },
+  {
+    "Question": "The characteristic polynomial of a system is q(s) = 2s^5 + s^4 + 4s^3 + 2s^2 + 2s + 1. Which one of the following is correct? The system is",
+    "A": "Stable",
+    "B": "Marginally stable",
+    "C": "Unstable",
+    "D": "Oscillatory",
+    "Answer": "Unstable",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array for 2s⁵ + s⁴ + 4s³ + 2s² + 2s + 1 = 0.\n2. Row s⁵: 2, 4, 2. Row s⁴: 1, 2, 1. Row s³: (1×4 - 2×2)/1 = 0, (1×2 - 2×1)/1 = 0. A row of zeros appears.\n3. Form the auxiliary equation from the s⁴ row: A(s) = s⁴ + 2s² + 1 = (s² + 1)² = 0. This has repeated roots at s = ±j1.\n4. Since the roots lie on the imaginary axis and are repeated (multiplicity 2), the system's response will grow unbounded (t sin t).\n5. Therefore, the system is unstable."
+  },
+  {
+    "Question": "The open-loop transfer function of a unity feedback control system is given by G(s) = K e^(-Ts), where K and T are variables and are greater than zero. The stability of the closed-loop system depends on",
+    "A": "K only",
+    "B": "Both K and T",
+    "C": "T only",
+    "D": "Neither K nor T",
+    "Answer": "K only",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The characteristic equation is 1 + G(s) = 0 → 1 + K e^(-Ts) = 0.\n2. Solve for s: e^(Ts) = -K. Taking the natural log: Ts = ln(K) + j(2n+1)π.\n3. So, s = [ln(K) + j(2n+1)π] / T.\n4. The real part of s is ln(K)/T. For stability, the real part must be negative, which requires ln(K) < 0 → K < 1.\n5. The value of T only scales the location of the root; it does not affect the sign of the real part (since T > 0).\n6. Therefore, stability depends only on K."
+  }
+]

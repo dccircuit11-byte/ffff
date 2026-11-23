@@ -1,0 +1,132 @@
+[
+  {
+    "Question": "The steady state error due to a step input for a type 1 system is",
+    "A": "Infinite",
+    "B": "Negative",
+    "C": "Negligible",
+    "D": "Zero",
+    "Answer": "Zero",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For a Type-1 system, the open-loop transfer function has one pole at the origin.\n2. The position error constant Kp = lim(s→0) G(s) = ∞.\n3. The steady-state error for a step input is ess = 1/(1 + Kp).\n4. Since Kp = ∞, ess = 1/∞ = 0."
+  },
+  {
+    "Question": "The acceptable band of the settling time 't_s' is",
+    "A": "± 2%",
+    "B": "10%",
+    "C": "5%",
+    "D": "Both (a) and (c) depending on applications",
+    "Answer": "Both (a) and (c) depending on applications",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Settling time is the time required for the response to reach and stay within a certain percentage of its final value.\n2. The standard tolerance bands used in control systems are ±2% and ±5%.\n3. The formula is ts = 4/(ζωn) for the 2% band and ts = 3/(ζωn) for the 5% band.\n4. The choice between them depends on the specific application's accuracy requirements. Therefore, both are acceptable."
+  },
+  {
+    "Question": "A unity feedback control system has transfer function G(s) = 9/(s² + 4s + 9). Its natural frequency will be",
+    "A": "1",
+    "B": "3",
+    "C": "6",
+    "D": "9",
+    "Answer": "3",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Compare the denominator with the standard characteristic equation s² + 2ζωns + ωn².\n2. We can see that ωn² = 9.\n3. Taking the square root: ωn = 3 rad/s.\n4. Therefore, the natural frequency is 3."
+  },
+  {
+    "Question": "For a second order system, the settling time for ±2% band is given by",
+    "A": "3/ξωn",
+    "B": "5/ξωn",
+    "C": "2/ξωn",
+    "D": "4/ξωn",
+    "Answer": "4/ξωn",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The settling time is the time it takes for the transient response to decay to a specified fraction of its initial value.\n2. For a ±2% tolerance band, the standard formula is ts = 4/(ζωn).\n3. For a ±5% tolerance band, the formula is ts = 3/(ζωn).\n4. The question specifically asks for the ±2% band, so the answer is 4/ξωn."
+  },
+  {
+    "Question": "The characteristic equation of the series RLC circuit is",
+    "A": "s² + (LC)s + R/L = 0",
+    "B": "s² + s + R/L = 0",
+    "C": "s² + (R/L)s + LC = 0",
+    "D": "s² + (R/L)s + 1/LC = 0",
+    "Answer": "s² + (R/L)s + 1/LC = 0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For a series RLC circuit, the transfer function from input voltage to capacitor voltage is Vc(s)/Vin(s) = (1/LC) / (s² + (R/L)s + 1/LC).\n2. The characteristic equation is the denominator set to zero: s² + (R/L)s + 1/(LC) = 0.\n3. This also shows that ωn = 1/√(LC) and 2ζωn = R/L, giving ζ = (R/2)√(C/L)."
+  },
+  {
+    "Question": "The open loop transfer function of a unity feedback system is given by G(s) = k / [s(1 + sT)]. By what factor should 'k' be multiplied so that the damping ratio is increased from 0.3 to 0.6?",
+    "A": "0.5",
+    "B": "2.0",
+    "C": "4.0",
+    "D": "0.25",
+    "Answer": "0.25",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The characteristic equation is 1 + G(s) = 0 → 1 + k/[s(1+sT)] = 0 → s(1+sT) + k = 0 → Ts² + s + k = 0.\n2. Divide by T: s² + (1/T)s + (k/T) = 0.\n3. Comparing with standard form: ωn = √(k/T) and 2ζωn = 1/T → ζ = 1/(2T√(k/T)) = 1/(2√(kT)).\n4. This shows that ζ is inversely proportional to √k.\n5. To double the damping ratio (from 0.3 to 0.6), √k must be halved. This means k must be multiplied by (1/2)² = 1/4 = 0.25."
+  },
+  {
+    "Question": "Transfer function of a zero order hold will be",
+    "A": "1 - e^(Ts)",
+    "B": "1 + e^(-Ts)",
+    "C": "(1 - e^(-Ts))/s",
+    "D": "(1 - e^(Ts))/s",
+    "Answer": "(1 - e^(-Ts))/s",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A zero-order hold (ZOH) holds a sampled value constant for the sampling period T.\n2. Its impulse response is a rectangular pulse: h(t) = u(t) - u(t - T).\n3. Take the Laplace transform of h(t): H(s) = 1/s - e^(-Ts)/s = (1 - e^(-Ts))/s."
+  },
+  {
+    "Question": "By increasing the gain 'k' of a system, the steady state error of the system",
+    "A": "Increases",
+    "B": "Decreases",
+    "C": "Remains unaffected",
+    "D": "Nothing can be said",
+    "Answer": "Decreases",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The steady-state error (ess) is inversely proportional to the static error constants (Kp, Kv, Ka).\n2. These error constants are directly proportional to the system gain 'k'.\n3. Therefore, increasing the gain 'k' increases the error constants and reduces the steady-state error.\n4. However, this comes at the cost of reduced relative stability (more oscillation/overshoot)."
+  },
+  {
+    "Question": "Considering the unity feedback system shown (forward path G(s) = 9/[s(s+2.4)]), the settling time for 2% tolerance band will be",
+    "A": "2.25",
+    "B": "2.84",
+    "C": "3.33",
+    "D": "4.50",
+    "Answer": "3.33",
+    "Image": "https://imgh.in/images/fwd7dz",
+    "Explaination": "Step-by-Step Solution:\n1. The closed-loop characteristic equation is 1 + G(s) = 0 → s(s+2.4) + 9 = 0 → s² + 2.4s + 9 = 0.\n2. Comparing with standard form: ωn² = 9 → ωn = 3 rad/s. And 2ζωn = 2.4 → ζ = 2.4/(2×3) = 0.4.\n3. The product ζωn = 0.4 × 3 = 1.2.\n4. Settling time for 2% band: ts = 4/(ζωn) = 4/1.2 = 3.33 seconds."
+  },
+  {
+    "Question": "In a type-1 system, the steady state acceleration error is",
+    "A": "zero",
+    "B": "unity",
+    "C": "infinite",
+    "D": "0.5",
+    "Answer": "infinite",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For a Type-1 system, the open-loop transfer function has one pole at the origin.\n2. The acceleration error constant Ka = lim(s→0) s²G(s) = 0.\n3. The steady-state error for a parabolic (acceleration) input is ess = A/Ka.\n4. Since Ka = 0, ess = A/0 = ∞ (infinite)."
+  },
+  {
+    "Question": "Natural frequency of a unity feedback control system of the given transfer function (transfer function not printed in the PDF) is",
+    "A": "3.16 rad/sec",
+    "B": "0.5 rad/sec",
+    "C": "4.6 rad/sec",
+    "D": "2.0 rad/sec",
+    "Answer": "3.16 rad/sec",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the book's answer key, the natural frequency is 3.16 rad/s.\n2. Note that 3.16 is approximately √10.\n3. This implies that the closed-loop characteristic equation would have the form s² + ... + 10 = 0, where ωn² = 10 and ωn = √10 = 3.16 rad/s.\n4. Since the actual transfer function is missing from the PDF question, the answer is taken directly from the key."
+  },
+  {
+    "Question": "For a desirable transient response of a second order system, the damping ratio must be between",
+    "A": "0.4 and 0.8",
+    "B": "0.8 and 1.0",
+    "C": "0.3 and 0.5",
+    "D": "0.2 and 0.4",
+    "Answer": "0.4 and 0.8",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. If the damping ratio ζ is very small (close to 0), the system will have a large overshoot and excessive oscillation, which is usually undesirable.\n2. If ζ is close to 1 or greater, the system becomes sluggish (slow response).\n3. A good compromise between acceptable overshoot (typically 10-25%) and reasonable speed of response is achieved when ζ is between approximately 0.4 and 0.8.\n4. Therefore, this is the desirable range for most control applications."
+  },
+  {
+    "Question": "The steady state error for a first order system having transfer function 1/(1+Ts) for unit step, ramp and impulse test signals respectively are",
+    "A": "0, T, T",
+    "B": "T, 0, 0",
+    "C": "0, 0, T",
+    "D": "0, T, 0",
+    "Answer": "0, T, 0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The error transfer function is E(s)/R(s) = 1 - 1/(1+Ts) = Ts/(1+Ts).\n2. For a unit step input R(s) = 1/s: ess = lim(s→0) s × (1/s) × Ts/(1+Ts) = 0.\n3. For a unit ramp input R(s) = 1/s²: ess = lim(s→0) s × (1/s²) × Ts/(1+Ts) = lim(s→0) T/(1+Ts) = T.\n4. For a unit impulse input R(s) = 1: ess = lim(s→0) s × 1 × Ts/(1+Ts) = 0.\n5. Therefore, the errors are 0, T, and 0 respectively."
+  }
+]

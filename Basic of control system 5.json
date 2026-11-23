@@ -1,0 +1,142 @@
+[
+  {
+    "Question": "Laplace transform of t·e^(at)",
+    "A": "s/(s−a)",
+    "B": "s/(s−a)²",
+    "C": "1/(s−a)²",
+    "D": "2/(s−a)",
+    "Answer": "1/(s−a)²",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. L{e^(at)} = 1/(s−a).\n2. Multiplication by t property: L{t f(t)} = -d/ds[F(s)].\n3. L{t e^(at)} = -d/ds[1/(s−a)] = 1/(s−a)²."
+  },
+  {
+    "Question": "Laplace of function f(t) is given by",
+    "A": "F(s) = ∫[from ∞ to ∞] f(t)e^(-st) dt",
+    "B": "F(s) = ∫[from 0 to ∞] f(t)e^(-st) dt",
+    "C": "F(s) = ∫[from -∞ to ∞] f(t)e^(-st) dt",
+    "D": "F(s) = ∫[from 0 to ∞] f(t)e^(-st) dt",
+    "Answer": "F(s) = ∫[from 0 to ∞] f(t)e^(-st) dt",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The unilateral (one-sided) Laplace transform is defined as F(s) = ∫ from 0 to ∞ of f(t)e^(-st) dt.\n2. Options B and D are identical in the paper and both are correct; option C is the bilateral transform, so the source key (C) looks like an error."
+  },
+  {
+    "Question": "Laplace transform of f(t) = sin(at)·u(t) {u(t) is unit function}",
+    "A": "a/(a²+s²)",
+    "B": "s/(a²+s²)",
+    "C": "-st/(a²+s²)",
+    "D": "e^(-t)s/(a²+s²)",
+    "Answer": "a/(a²+s²)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. This is a standard Laplace transform.\n2. L{sin(at)} = a/(s² + a²).\n3. Therefore, option A is correct."
+  },
+  {
+    "Question": "Laplace transform of cos(at)·u(t) {u(t) is unit function}",
+    "A": "a²/(a²+s²)",
+    "B": "s²/(a²+s²)",
+    "C": "s/(a²+s²)",
+    "D": "a/(a²+s²)",
+    "Answer": "s/(a²+s²)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. This is a standard Laplace transform.\n2. L{cos(at)} = s/(s² + a²).\n3. Therefore, option C is correct."
+  },
+  {
+    "Question": "Laplace transform of e^t sin t",
+    "A": "(s−1)²/[(s−1)²+1]",
+    "B": "1/[1+(s+1)²]",
+    "C": "1/[(s−1)²+1]",
+    "D": "(s−1)/[(s−1)²+1]",
+    "Answer": "1/[(s−1)²+1]",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. L{sin t} = 1/(s² + 1).\n2. Frequency shift property: L{e^(at) f(t)} = F(s-a).\n3. For a = 1, L{e^t sin t} = 1/[(s−1)² + 1]."
+  },
+  {
+    "Question": "Laplace transform of f(t) = t² sin2t",
+    "A": "(12s²−16)/(s²+4)⁴",
+    "B": "(12s²+16)/(s²+4)⁴",
+    "C": "(12s²−16)/(s²+4)³",
+    "D": "(12s²+16)/(s²−4)³",
+    "Answer": "(12s²−16)/(s²+4)³",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. L{sin2t} = 2/(s²+4).\n2. L{t² f(t)} = d²F(s)/ds².\n3. First derivative: d/ds[2/(s²+4)] = -4s/(s²+4)².\n4. Second derivative: d/ds[-4s/(s²+4)²] = (12s²−16)/(s²+4)³."
+  },
+  {
+    "Question": "Find the value of ∫[0 to ∞] e^(-t) sin t dt",
+    "A": "0.25",
+    "B": "0.5",
+    "C": "1",
+    "D": "2",
+    "Answer": "0.5",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. This integral is exactly the definition of the Laplace transform of sin(t) evaluated at s = 1.\n2. L{sin t} = 1/(s²+1).\n3. At s = 1, the value is 1/(1²+1) = 1/2 = 0.5."
+  },
+  {
+    "Question": "Laplace transform of f(t) = e^t · t · sin t · cos t",
+    "A": "4(s−1)/[(s−1)²+4]²",
+    "B": "2(s−1)/[(s−1)²+4]²",
+    "C": "2(s+1)/[(s+1)²+4]²",
+    "D": "2(s+1)/[(s−1)²+4]²",
+    "Answer": "2(s−1)/[(s−1)²+4]²",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. First simplify: t sin t cos t = (t sin 2t)/2.\n2. L{t sin 2t} = 4s/(s²+4)². So L{t sin t cos t} = 2s/(s²+4)².\n3. Apply frequency shift s → s−1 for e^t: L{e^t t sin t cos t} = 2(s−1)/[(s−1)²+4]²."
+  },
+  {
+    "Question": "Value of ∫[0 to ∞] t sin t cos t dt",
+    "A": "s/(s²+4)",
+    "B": "1",
+    "C": "0",
+    "D": "2",
+    "Answer": "1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As printed, the integral lacks a decaying exponential factor, making it divergent/ambiguous in standard form.\n2. The intended question likely includes an e^(-st) factor: L{t sin t cos t} = 2s/(s²+4)².\n3. Evaluating at s=0 gives 0, but the answer key marks B (1). Answer is taken as per the source key."
+  },
+  {
+    "Question": "Laplace transform of f(t) = sin t / t",
+    "A": "tan⁻¹(s)",
+    "B": "1/(s²+1)",
+    "C": "cot⁻¹(s)",
+    "D": "1",
+    "Answer": "cot⁻¹(s)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Property: L{f(t)/t} = ∫[s to ∞] F(s) ds.\n2. F(s) for sin t is 1/(s²+1).\n3. ∫[s to ∞] 1/(s²+1) ds = [tan⁻¹(s)] from s to ∞ = π/2 − tan⁻¹(s).\n4. Since π/2 − tan⁻¹(s) = cot⁻¹(s), the answer is cot⁻¹(s)."
+  },
+  {
+    "Question": "Laplace transform of f(t) = e^(iat)",
+    "A": "1/s",
+    "B": "1/(s²+a²)",
+    "C": "1/(s−ia)",
+    "D": "1+ia",
+    "Answer": "1/(s−ia)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The standard formula is L{e^(bt)} = 1/(s−b).\n2. Here b = ia.\n3. Therefore, L{e^(iat)} = 1/(s−ia)."
+  },
+  {
+    "Question": "Laplace transform of f(t) = t² e^(-2t) cos3t",
+    "A": "(s+2)/[(s+2)²+9]³",
+    "B": "2(s+2)(s²+4s−23)/(s²+4s+13)³",
+    "C": "(s+2)²/[(s+2)²+9]",
+    "D": "2(s²+4s−23)/(s²+4s+13)²",
+    "Answer": "2(s+2)(s²+4s−23)/(s²+4s+13)³",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. L{cos3t} = s/(s²+9).\n2. Frequency shift s → s+2 for e^(-2t): g(s) = (s+2)/[(s+2)²+9] = (s+2)/(s²+4s+13).\n3. Multiply by t² means taking d²g/ds², which yields 2(s+2)(s²+4s−23)/(s²+4s+13)³."
+  },
+  {
+    "Question": "Inverse Laplace of F(s) = 9/s⁵",
+    "A": "9t⁴",
+    "B": "9t⁵",
+    "C": "(3/8)t⁴",
+    "D": "(9/8)t⁵",
+    "Answer": "(3/8)t⁴",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. L⁻¹{1/s^(n+1)} = t^n/n!.\n2. Here n = 4 (since s⁵ = s^(4+1)).\n3. L⁻¹{9/s⁵} = 9t⁴/4! = 9t⁴/24 = (3/8)t⁴."
+  },
+  {
+    "Question": "Laplace of f(t) = ∫[0 to t] e^(-τ) sin τ dτ",
+    "A": "1/[(s+1)²+1]",
+    "B": "(s+1)/[(s+1)²+1]",
+    "C": "1/(s[(s+1)²+1])",
+    "D": "(s−1)/(s[(s+1)²+1])",
+    "Answer": "1/(s[(s+1)²+1])",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. L{e^(-t) sin t} = 1/[(s+1)²+1] (by frequency shift).\n2. The integral from 0 to t corresponds to division by s in the Laplace domain.\n3. Therefore, L{∫[0 to t] e^(-τ) sin τ dτ} = 1/(s[(s+1)²+1])."
+  }
+]

@@ -1,0 +1,63 @@
+// JSON 1 (Questions 1–10)
+[
+  {
+    "Question": "In control systems, we have 1. Nyquist Criterion 2. Bode plot 3. Root locus plot 4. RH-Criterion. Which of the above are in time domain?",
+    "A": "1 and 2 only", "B": "2 and 4 only", "C": "1 and 3 only", "D": "3 and 4 only",
+    "Answer": "3 and 4 only", "Image": "",
+    "Explaination": "Nyquist criterion and Bode plot are frequency-domain methods. Root locus (closed-loop poles vs gain, i.e. s-plane/time response) and Routh-Hurwitz criterion (polynomial coefficients) are time-domain (s-domain) methods. So 3 and 4."
+  },
+  {
+    "Question": "The effect of adding poles and zeros can be determined quickly by",
+    "A": "Nichols chart", "B": "Nyquist plot", "C": "Bode plot", "D": "Root locus",
+    "Answer": "Bode plot", "Image": "",
+    "Explaination": "As per the book key: Bode plot. On a Bode plot each added pole or zero simply adds its own straight-line magnitude and phase contribution, so the effect is seen quickly by addition."
+  },
+  {
+    "Question": "Consider the following statements. 1. Nyquist criterion is in frequency domain. 2. Bode plot is in frequency domain. 3. Root locus plot is in time domain. 4. Routh Hurwitz's criterion is in time domain.",
+    "A": "1, 2 & 3 are correct", "B": "2, 3 & 4 are correct", "C": "1 and 2 are correct", "D": "All four are correct",
+    "Answer": "All four are correct", "Image": "",
+    "Explaination": "Nyquist and Bode are frequency-domain methods. Root locus and Routh-Hurwitz are time-domain (s-domain) methods. Hence all four statements are correct."
+  },
+  {
+    "Question": "The polar plot of G(s) = 10 / [s(s+1)²] intercepts the real axis at ω = ω0. Then the real part and ω0 are respectively",
+    "A": "-5, 1", "B": "-5, 0.5", "C": "-2.5, 1", "D": "-5, 2",
+    "Answer": "-5, 1", "Image": "",
+    "Explaination": "Phase = -90° - 2 tan⁻¹ω = -180° → tan⁻¹ω = 45° → ω0 = 1 rad/s. Magnitude at ω0: 10/[1 × (√2)²] = 10/2 = 5. The plot crosses the negative real axis at -5."
+  },
+  {
+    "Question": "For the transfer function G(s)H(s) = 1 / [s(s+1)(s+0.5)] the phase crossover frequency is",
+    "A": "0.5 rad/sec", "B": "0.707 rad/sec", "C": "1.732 rad/sec", "D": "2 rad/sec",
+    "Answer": "0.707 rad/sec", "Image": "",
+    "Explaination": "Phase = -90° - tan⁻¹ω - tan⁻¹(2ω) = -180° → tan⁻¹ω + tan⁻¹(2ω) = 90° → ω × 2ω = 1 → ω² = 0.5 → ω = 0.707 rad/s."
+  },
+  {
+    "Question": "A linear time invariant system G(s) with forced input x(t) = A sin(ωt) under steady state conditions: the output y(t) of the system will be",
+    "A": "A sin(ωt + φ), φ = tan⁻¹[G(jω)]", "B": "|G(jω)| A sin[ωt + ∠G(jω)]", "C": "|G(jω)| A sin[2ωt + ∠G(jω)]", "D": "A |G(jω)| sin[ωt + ∠G(jω)]",
+    "Answer": "|G(jω)| A sin[ωt + ∠G(jω)]", "Image": "https://imgh.in/images/5b6pjm",
+    "Explaination": "In steady state, a sinusoidal input produces a sinusoid of the same frequency, with amplitude multiplied by |G(jω)| and phase shifted by ∠G(jω). So y(t) = |G(jω)| A sin[ωt + ∠G(jω)] (option D is the same expression written differently; the book key is B)."
+  },
+  {
+    "Question": "Consider the following open loop frequency response of a unity feedback system",
+    "A": "0 dB, -180°", "B": "3.86 dB, -180°", "C": "0 dB, -10°", "D": "3.86 dB, 10°",
+    "Answer": "3.86 dB, 10°", "Image": "https://imgh.in/images/rkzg68",
+    "Explaination": "Gain crossover (|G| = 1) is at ω = 8: phase -170° → PM = 180° - 170° = +10°. Phase crossover (∠G = -180°) is at ω = 10: |G| = 0.64 → GM = 1/0.64 = 1.5625 → 20 log(1.5625) ≈ 3.86 dB."
+  },
+  {
+    "Question": "Match List-I (transfer function) with List-II (type of system). List-I: ",
+    "A": "A-1, B-3, C-2", "B": "A-3, B-2, C-1", "C": "A-3, B-1, C-2", "D": "A-2, B-1, C-3",
+    "Answer": "A-3, B-2, C-1", "Image": "https://imgh.in/images/qk64qh",
+    "Explaination": "A: pole at -1 and zero at +1 (mirror images) with unit magnitude → all-pass (3). B: all poles and zeros in the left half plane → minimum phase (2). C: zero at s = +1/3 (RHP) → non-minimum phase (1). Code: 3 2 1."
+  },
+  {
+    "Question": "Consider the following statements are CORRECT. The gain margin and phase margin of an unstable system may be respectively 1. Positive, positive 2. Positive, negative 3. Negative, positive 4. Negative, negative",
+    "A": "1 and 4", "B": "1 and 2", "C": "1, 2 and 3", "D": "2, 3 and 4",
+    "Answer": "2, 3 and 4", "Image": "",
+    "Explaination": "As per the book key: for an unstable system at least one of GM or PM is negative, so the combinations (positive, negative), (negative, positive) and (negative, negative) are possible, but not (positive, positive)."
+  },
+  {
+    "Question": "The polar plot of a transfer function passes through the critical point (-1, j0). Then the gain margin is",
+    "A": "0 dB", "B": "-1 dB", "C": "1 dB", "D": "Infinity",
+    "Answer": "0 dB", "Image": "",
+    "Explaination": "At the critical point |G(jω)| = 1 at phase -180°, so GM = 1/|G| = 1 = 0 dB (marginally stable)."
+  }
+]

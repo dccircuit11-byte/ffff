@@ -1,0 +1,103 @@
+// JSON 3 (Questions 21–30)
+[
+  {
+    "Question": "Which one of the following compensations is adopted for improving the transient response of a negative unity feedback system?",
+    "A": "Phase lead compensation",
+    "B": "Phase lag compensation",
+    "C": "Gain compensation",
+    "D": "Both phase lag compensation and gain compensation",
+    "Answer": "Phase lead compensation",
+    "Image": "",
+    "Explaination": "Phase lead compensation increases bandwidth and damping and reduces rise time, settling time and overshoot, so it improves the transient response. Phase lag compensation mainly improves steady-state accuracy."
+  },
+  {
+    "Question": "Match List-I with List-II. ",
+    "A": "A-4, B-3, C-1, D-2",
+    "B": "A-2, B-1, C-3, D-4",
+    "C": "A-2, B-3, C-1, D-4",
+    "D": "A-4, B-1, C-3, D-2",
+    "Answer": "A-2, B-1, C-3, D-4",
+    "Image": "https://imgh.in/images/zcedu1",
+    "Explaination": "e^(-as) represents a pure transport delay. (1 - s)/(1 + s) has unit magnitude at all frequencies, so it is an all-pass filter. (1 + as)/(1 + bs) with a < b has its pole nearer to the origin than its zero, so it is a lag network. K/(s(1 + as)) is the transfer function of a servomotor."
+  },
+  {
+    "Question": "The transfer function of a phase-lead compensator is given by G(s) = (1 + aTs)/(1 + Ts), where T > 0, a > 1. What is the maximum phase shift provided by this compensator?",
+    "A": "tan⁻¹((a + 1)/(a - 1))",
+    "B": "tan⁻¹((a - 1)/(a + 1))",
+    "C": "cos⁻¹((a - 1)/(a + 1))",
+    "D": "sin⁻¹((a - 1)/(a + 1))",
+    "Answer": "sin⁻¹((a - 1)/(a + 1))",
+    "Image": "",
+    "Explaination": "Zero at 1/(aT) and pole at 1/T with a > 1 (lead network). The maximum phase lead occurs at ωm = 1/(T√a) and equals φm = sin⁻¹[(a - 1)/(a + 1)]."
+  },
+  {
+    "Question": "Consider the following statements regarding a phase-lead compensator: 1. It increases the bandwidth of the system. 2. It helps in reducing the steady state error due to ramp input. 3. It reduces the overshoot due to step input. Which of the above statements is/are correct?",
+    "A": "1 and 2",
+    "B": "1 and 3",
+    "C": "2 and 3",
+    "D": "1 alone",
+    "Answer": "1 and 3",
+    "Image": "",
+    "Explaination": "A lead compensator increases bandwidth and damping, so it reduces the peak overshoot for a step input. It does not significantly reduce the steady-state error (it does not raise the system type), so statement 2 is wrong."
+  },
+  {
+    "Question": "Match List-I (Compensation) with List-II (Characteristics).",
+    "A": "A-3, B-1, C-4, D-2",
+    "B": "A-2, B-4, C-1, D-3",
+    "C": "A-3, B-4, C-1, D-2",
+    "D": "A-2, B-1, C-4, D-3",
+    "Answer": "A-2, B-1, C-4, D-3",
+    "Image": "https://imgh.in/images/d9b64c",
+    "Explaination": "Lag compensation attenuates high frequencies (attenuation). Lead compensation increases bandwidth. A lag-lead compensator is a second-order network (two poles and two zeros). Rate (derivative) feedback increases the damping factor."
+  },
+  {
+    "Question": "With regard to the filtering property, the lead compensator and the lag compensator are, respectively",
+    "A": "Low pass and high pass filters",
+    "B": "High pass and low pass filters",
+    "C": "Both high pass filters",
+    "D": "Both low pass filters",
+    "Answer": "High pass and low pass filters",
+    "Image": "",
+    "Explaination": "A lead compensator has gain that rises with frequency (20 dB/dec between the zero and pole), so it acts as a high pass filter. A lag compensator has gain that falls from 0 dB to 1/β at high frequency, so it acts as a low pass filter."
+  },
+  {
+    "Question": "What is the effect of phase-lag compensation on the performance of a servo system?",
+    "A": "For a given relative stability, the velocity constant is increased",
+    "B": "For a given relative stability, the velocity constant is decreased",
+    "C": "The bandwidth of the system is increased",
+    "D": "The time response is made faster",
+    "Answer": "For a given relative stability, the velocity constant is increased",
+    "Image": "",
+    "Explaination": "A lag compensator lets the low-frequency gain be raised (by factor β) without disturbing the stability margins, so for a given relative stability the velocity error constant Kv increases and the steady-state error reduces. Bandwidth decreases and the response becomes slower, so C and D are wrong."
+  },
+  {
+    "Question": "Which one of the following is an advantage of a PD controller in terms of damping (ξ) and natural frequency (ωn)?",
+    "A": "ξ remains fixed but ωn increases",
+    "B": "ξ remains fixed but ωn decreases",
+    "C": "ωn remains fixed but ξ increases",
+    "D": "ωn remains fixed but ξ decreases",
+    "Answer": "ωn remains fixed but ξ increases",
+    "Image": "",
+    "Explaination": "A PD controller adds the term Kd·s to the characteristic equation, which appears only in the s-term (2ξωn s). The s^2 and constant terms are unchanged, so ωn stays fixed while the damping ratio ξ increases."
+  },
+  {
+    "Question": "Which one of the following is a disadvantage of a proportional controller?",
+    "A": "It destabilizes the system",
+    "B": "It produce offset",
+    "C": "It makes response faster",
+    "D": "It has very simple implementation",
+    "Answer": "It destabilizes the system",
+    "Image": "",
+    "Explaination": "As per the source answer key, the answer is (A): increasing the proportional gain reduces relative stability and can destabilize the system. Note: many textbooks regard 'it produces offset (steady-state error)' as the classic disadvantage of a P controller, so option B is also commonly accepted."
+  },
+  {
+    "Question": "A process is controlled by a PID controller. The sensor has high measurement noise. How can this effect be reduced?",
+    "A": "By use of bandwidth limited derivative term",
+    "B": "By use of proportional and derivative terms in the forward path",
+    "C": "By use of high proportional band",
+    "D": "By use of low integral gain",
+    "Answer": "By use of high proportional band",
+    "Image": "",
+    "Explaination": "As per the source answer key, the answer is (C). Proportional band = 100/Kp, so a high proportional band means a low proportional gain, which reduces the amplification of sensor noise. Note: limiting the bandwidth of the derivative term (option A) is also a common practical remedy for noise."
+  }
+]

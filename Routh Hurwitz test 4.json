@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "The loop transfer function of a system is K / [s(s+1)(s+5)]. The loop gain K is adjusted for inducing sustained oscillations. What is the value of K for this objective?",
+    "A": "15",
+    "B": "25",
+    "C": "30",
+    "D": "45",
+    "Answer": "30",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The characteristic equation is 1 + K/[s(s+1)(s+5)] = 0 → s(s+1)(s+5) + K = 0 → s³ + 6s² + 5s + K = 0.\n2. Form the Routh array: s³: 1, 5. s²: 6, K. s¹: (30 - K)/6. s⁰: K.\n3. For sustained oscillations (marginal stability), the s¹ row must be zero: (30 - K)/6 = 0 → K = 30.\n4. The auxiliary equation is 6s² + 30 = 0 → s = ±j√5, so oscillation frequency is √5 rad/s."
+  },
+  {
+    "Question": "The number of roots of the equation 2s^4 + s^3 + 3s^2 + 5s + 7 = 0 which lie in the right half of s plane is",
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3",
+    "Answer": "2",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array for 2s⁴ + s³ + 3s² + 5s + 7 = 0.\n2. Row s⁴: 2, 3, 7. Row s³: 1, 5. Row s²: (1×3 - 2×5)/1 = -7, 7. Row s¹: ((-7)×5 - 1×7)/(-7) = (-35 - 7)/(-7) = 6. Row s⁰: 7.\n3. First column: 2, 1, -7, 6, 7.\n4. Sign changes: 2→1 (no change), 1→-7 (one change), -7→6 (two changes), 6→7 (no change).\n5. Number of sign changes = 2, so there are 2 roots in the RHP."
+  },
+  {
+    "Question": "The effects of feedback on stability and sensitivity are",
+    "A": "Negative feedback improves stability and system response is less sensitive to external inputs and parameter variations",
+    "B": "Feedback does not affect stability but system response is insensitive to disturbances and parameter variations",
+    "C": "Feedback does not affect stability and system response is sensitive to disturbances and parameter variations",
+    "D": "Negative feedback affects stability and system response is more sensitive to disturbances and parameter variations",
+    "Answer": "Negative feedback improves stability and system response is less sensitive to external inputs and parameter variations",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Negative feedback reduces the sensitivity of the system to parameter variations (S = 1/(1+GH) < 1) and attenuates disturbances.\n2. It also generally improves stability and reduces the effects of nonlinearities.\n3. Therefore, negative feedback improves stability and makes the system less sensitive to external inputs and parameter variations."
+  },
+  {
+    "Question": "The feedback system with characteristic equation s^4 + 20Ks^3 + 5s^2 + 10s + 15 = 0 is",
+    "A": "Stable for all values of K",
+    "B": "Stable for positive values of K",
+    "C": "Stable for 7.0 < K < ∞",
+    "D": "Unstable for any value of K",
+    "Answer": "Unstable for any value of K",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array: s⁴: 1, 5, 15. s³: 20K, 10. s²: [(100K - 10)/(20K)], 15. s¹: ...\n2. For the s² row to be positive, we need (10K - 1)/(2K) > 0, which requires K > 0.1.\n3. The condition for the s¹ row to be positive leads to a quadratic inequality with a negative discriminant, meaning it has no real solution.\n4. Therefore, the system is unstable for any value of K."
+  },
+  {
+    "Question": "The oscillation frequency of the system with characteristic equation s^6 + 2s^5 + 3s^4 + 4s^3 + 3s^2 + 2s + 1 = 0 is",
+    "A": "+1 radian/sec",
+    "B": "-1 radian/sec",
+    "C": "j1 radian/sec",
+    "D": "-j1 radian/sec",
+    "Answer": "+1 radian/sec",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array: s⁶: 1, 3, 3, 1. s⁵: 2, 4, 2. s⁴: 1, 2, 1. s³: 0, 0 (row of zeros).\n2. Auxiliary equation from the s⁴ row: s⁴ + 2s² + 1 = (s² + 1)² = 0.\n3. Roots: s = ±j1. The frequency of oscillation is 1 rad/s."
+  },
+  {
+    "Question": "A system described by the transfer function G(s) = 1/(s^3 + αs^2 + βs + 3) is stable. The constraints on α and β are",
+    "A": "α > 0 and αβ < 3",
+    "B": "α > 0 and αβ > 3",
+    "C": "α < 0 and αβ > 3",
+    "D": "α < 0 and αβ < 3",
+    "Answer": "α > 0 and αβ > 3",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The characteristic equation is s³ + αs² + βs + 3 = 0.\n2. Form the Routh array: s³: 1, β. s²: α, 3. s¹: (αβ - 3)/α. s⁰: 3.\n3. For stability: α > 0 and (αβ - 3)/α > 0 → αβ - 3 > 0 → αβ > 3.\n4. Therefore, the constraints are α > 0 and αβ > 3."
+  },
+  {
+    "Question": "The characteristic equation of a given system is s^3 + 25s^2 + 10s + 50 = 0. What are the numbers of the roots in the right half s-plane and on the imaginary axis respectively?",
+    "A": "1, 1",
+    "B": "1, 2",
+    "C": "0, 0",
+    "D": "2, 1",
+    "Answer": "0, 0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array: s³: 1, 10. s²: 25, 50. s¹: (250 - 50)/25 = 8. s⁰: 50.\n2. First column: 1, 25, 8, 50. All positive.\n3. No sign changes → no roots in the RHP.\n4. No rows of zeros → no roots on the imaginary axis.\n5. Therefore, the numbers are 0 and 0."
+  },
+  {
+    "Question": "The first two rows of Routh's tabulation of a third order equation are: s^3: 2, 2; s^2: 4, 4. This means there are",
+    "A": "Two roots at s = ±j and one root in right half of s-plane",
+    "B": "Two roots at s = ±j2 and one root in left half of s-plane",
+    "C": "Two roots at s = ±j2 and one root in right half of the s-plane",
+    "D": "Two roots at s = ±j and one root in left half of s-plane",
+    "Answer": "Two roots at s = ±j and one root in left half of s-plane",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The s³ row is 2, 2 and the s² row is 4, 4.\n2. The s¹ row would be (4×2 - 2×4)/4 = 0. A row of zeros appears.\n3. The auxiliary equation from the s² row is 4s² + 4 = 0 → s² = -1 → s = ±j.\n4. The derivative of the auxiliary equation is 8s. So the s¹ row becomes 8, 0. The s⁰ row becomes 4.\n5. First column: 2, 4, 8, 4 (no sign changes). So no roots in the RHP.\n6. The third root is in the left half-plane. Therefore, the roots are ±j and one root in the LHP."
+  },
+  {
+    "Question": "The open-loop transfer function of a unity feedback control system is G(s) = K(s+2) / [(s+1)(s-7)] for K > 6. The stability characteristics of the open-loop and closed-loop configurations of the system are respectively",
+    "A": "Stable and stable",
+    "B": "Unstable and stable",
+    "C": "Stable and unstable",
+    "D": "Unstable and unstable",
+    "Answer": "Unstable and stable",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Open-loop: G(s) = K(s+2)/[(s+1)(s-7)]. The pole at s = +7 is in the RHP, so the open-loop system is unstable.\n2. Closed-loop characteristic equation: 1 + G(s) = 0 → (s+1)(s-7) + K(s+2) = 0.\n3. Expand: s² - 6s - 7 + Ks + 2K = s² + (K - 6)s + (2K - 7) = 0.\n4. For K > 6: K - 6 > 0 and 2K - 7 > 0. All coefficients are positive, so the closed-loop system is stable.\n5. Therefore, the open-loop is unstable and the closed-loop is stable."
+  },
+  {
+    "Question": "Consider the characteristic polynomial of a feedback system q(s) = s^4 + s^3 + s^2 + s + k.",
+    "A": "The system is stable for all K > 0",
+    "B": "The system is unstable for K > 0",
+    "C": "K = 8 results in marginal stability",
+    "D": "None of the above is correct",
+    "Answer": "The system is unstable for K > 0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array: s⁴: 1, 1, k. s³: 1, 1. s²: (1×1 - 1×1)/1 = 0, k.\n2. A zero appears in the first column. Replace it with a small positive ε. s² row: ε, k. s¹: (ε×1 - 1×k)/ε = (ε - k)/ε ≈ -k/ε (negative for k > 0). s⁰: k.\n3. First column: 1, 1, ε, -k/ε, k. Sign changes: 1→1 (0), 1→ε (0), ε→-k/ε (one), -k/ε→k (two).\n4. Two sign changes → 2 RHP roots. The system is unstable for all K > 0."
+  },
+  {
+    "Question": "The value of k at which the root locus crosses the imaginary axis, makes the system",
+    "A": "Stable",
+    "B": "Underdamped",
+    "C": "Marginally stable",
+    "D": "Unstable",
+    "Answer": "Marginally stable",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The root locus crosses the imaginary axis at the point where the closed-loop poles are purely imaginary.\n2. A system with purely imaginary poles exhibits sustained oscillations with constant amplitude.\n3. This is the exact definition of marginal stability.\n4. Therefore, at the crossing point, the system is marginally stable."
+  },
+  {
+    "Question": "The transfer function has its zero in the right half of the s-plane. The function",
+    "A": "Is positive real",
+    "B": "Will give stable impulse response",
+    "C": "Is in minimum phase",
+    "D": "Is in non-minimum phase",
+    "Answer": "Is in non-minimum phase",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A minimum phase system has all its poles and zeros in the left half of the s-plane.\n2. If a zero is in the right half of the s-plane, the system is classified as a non-minimum phase system.\n3. Non-minimum phase systems exhibit additional phase lag compared to minimum phase systems with the same magnitude response.\n4. Therefore, the function is in non-minimum phase."
+  },
+  {
+    "Question": "The characteristic equation of a feedback control system is 2s^4 + s^3 + 3s^2 + 5s + 10 = 0. The number of roots in the right half s-plane are",
+    "A": "3",
+    "B": "2",
+    "C": "1",
+    "D": "0",
+    "Answer": "2",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array: s⁴: 2, 3, 10. s³: 1, 5. s²: -7, 10. s¹: (45/7) ≈ 6.43. s⁰: 10.\n2. First column: 2, 1, -7, 6.43, 10.\n3. Sign changes: 2→1 (0), 1→-7 (one), -7→6.43 (two), 6.43→10 (0).\n4. Two sign changes → 2 roots in the RHP."
+  },
+  {
+    "Question": "The characteristic equation of a control system is s^4 + 2s^3 + 6s^2 + 8s + 8 = 0. Which of the following is the symmetric root pair of the system?",
+    "A": "± j1",
+    "B": "± j√2",
+    "C": "± j2",
+    "D": "± j3",
+    "Answer": "± j2",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array: s⁴: 1, 6, 8. s³: 2, 8. s²: (12 - 8)/2 = 2, 8. s¹: (2×8 - 2×8)/2 = 0 (row of zeros).\n2. Auxiliary equation from the s² row: 2s² + 8 = 0 → s² = -4 → s = ±j2.\n3. The symmetric root pair is ±j2."
+  },
+  {
+    "Question": "The number of roots of the characteristic equation s^4 + 4s^3 + s^2 + 8s + 1 = 0 which lie on the right side of the s-plane is",
+    "A": "1",
+    "B": "2",
+    "C": "0",
+    "D": "3",
+    "Answer": "2",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array: s⁴: 1, 1, 1. s³: 4, 8. s²: (4 - 8)/4 = -1, 1. s¹: ((-1)×8 - 4×1)/(-1) = (-8 - 4)/(-1) = 12. s⁰: 1.\n2. First column: 1, 4, -1, 12, 1.\n3. Sign changes: 1→4 (0), 4→-1 (one), -1→12 (two), 12→1 (0).\n4. Two sign changes → 2 roots in the RHP."
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "Question": "By adding a zero to the system transfer function, the improvement to transient response is called as:",
+    "A": "Phase lead compensation",
+    "B": "Phase lag compensation",
+    "C": "Phase lag and phase lead compensation",
+    "D": "Phase lead and phase lag compensation",
+    "Answer": "Phase lead compensation",
+    "Image": "",
+    "Explaination": "Adding a zero (as in PD / lead compensation) adds phase lead, increases damping and bandwidth and improves the transient response. This is called phase lead compensation."
+  },
+  {
+    "Question": "The network having transfer function G(s) = (1 + s/4)/(1 + s/25) will provide maximum phase lead at a frequency of",
+    "A": "4 rad/sec",
+    "B": "25 rad/sec",
+    "C": "10 rad/sec",
+    "D": "100 rad/sec",
+    "Answer": "10 rad/sec",
+    "Image": "",
+    "Explaination": "Zero corner frequency = 4 rad/s, pole corner frequency = 25 rad/s. Maximum phase lead occurs at the geometric mean: ωm = √(4 × 25) = 10 rad/s."
+  },
+  {
+    "Question": "Two compensators have transfer functions G1(s) = 5(s + 10)/(s + 50) and G2(s) = (s + 50)/(5(s + 10)) respectively.",
+    "A": "Both are lag",
+    "B": "Both are lead",
+    "C": "G1 is lead and G2 is lag",
+    "D": "G1 is lag and G2 is lead",
+    "Answer": "G1 is lead and G2 is lag",
+    "Image": "",
+    "Explaination": "G1: zero at -10 and pole at -50, so the zero is nearer to the origin than the pole -> lead. G2: zero at -50 and pole at -10, so the pole is nearer to the origin than the zero -> lag."
+  },
+  {
+    "Question": "Which one of the following is the transfer function of the PI-controller?",
+    "A": "G(s) = (k1 s + k2)/k3",
+    "B": "G(s) = (k1 s^2 + k2 s + k3)/(k4 s)",
+    "C": "G(s) = (k1 s + k2)/(k3 s)",
+    "D": "G(s) = k1 s/(k2 s)",
+    "Answer": "G(s) = (k1 s + k2)/(k3 s)",
+    "Image": "",
+    "Explaination": "PI controller: G(s) = Kp + Ki/s = (Kp s + Ki)/s, i.e. a form (k1 s + k2)/(k3 s). Option A is PD, option B is PID and option D is a pure gain."
+  },
+  {
+    "Question": "The transfer function of a controller is Gc(s) = (1 + 3s)/(1 + s). The maximum phase control provided by this controller is",
+    "A": "30° lead",
+    "B": "30° lag",
+    "C": "45° lead",
+    "D": "45° lag",
+    "Answer": "30° lead",
+    "Image": "",
+    "Explaination": "Zero at 1/3, pole at 1 (pole farther from origin) -> lead network with ratio a = 3. sin φm = (a - 1)/(a + 1) = 2/4 = 0.5 => φm = 30° lead."
+  },
+  {
+    "Question": "In order to improve the system response transient behavior, the type of controller used is",
+    "A": "Phase lead controller",
+    "B": "Phase lag controller",
+    "C": "PI controller",
+    "D": "P controller",
+    "Answer": "Phase lead controller",
+    "Image": "",
+    "Explaination": "A phase lead controller (like PD) increases damping and bandwidth and reduces rise and settling time, improving the transient behaviour. Lag/PI controllers improve steady-state accuracy."
+  },
+  {
+    "Question": "The polar plot for a transfer function with pure transportation lag is ______.",
+    "A": "A circle with the center at (-1, 0) and radius = 1 in the anti-clockwise direction",
+    "B": "A semicircle with center at (-1, 0) and radius = 1 in the clockwise direction",
+    "C": "A semicircle with origin as the center and radius = 1 in the anti-clockwise direction",
+    "D": "A circle with origin as the center and radius = 1 in the clockwise direction",
+    "Answer": "A circle with origin as the center and radius = 1 in the clockwise direction",
+    "Image": "",
+    "Explaination": "For a pure transport lag G(s) = e^(-sT), G(jω) = e^(-jωT) has magnitude 1 for all ω and phase = -ωT, which keeps decreasing. The locus is therefore a unit circle centred at the origin, traced in the clockwise direction."
+  },
+  {
+    "Question": "Which of the electrical circuits represents the lag compensator network?",
+    "A": "https://imgh.in/images/qebjs3",
+    "B": "https://imgh.in/images/g730sv",
+    "C": "https://imgh.in/images/8hblua",
+    "D": "https://imgh.in/images/03tbm3",
+    "Answer": "https://imgh.in/images/qebjs3",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/qebjs3"
+  },
+  {
+    "Question": "What does the given circuit represent (series resistor R, shunt capacitor C, input Vin, output Vout)?",
+    "A": "First order high pass filter",
+    "B": "First order low pass filter",
+    "C": "Second order high pass filter",
+    "D": "Second order low pass filter",
+    "Answer": "First order low pass filter",
+    "Image": "",
+    "Explaination": "Vout/Vin = (1/sC)/(R + 1/sC) = 1/(1 + sRC). It has a single pole at 1/RC and passes low frequencies while attenuating high frequencies, so it is a first order low pass filter."
+  },
+  {
+    "Question": "Derivative error compensation is employed in a feedback control system to",
+    "A": "Increase the effective damping in the system",
+    "B": "Decrease the effective damping in the system",
+    "C": "Improve the steady state response of the system",
+    "D": "None of the above",
+    "Answer": "Increase the effective damping in the system",
+    "Image": "",
+    "Explaination": "Derivative error compensation adds a term proportional to the rate of change of error, which increases the effective damping, reducing overshoot and improving the transient response."
+  },
+  {
+    "Question": "The maximum phase shift that can be provided by a lead compensator with transfer function G(s) = (1 + 6s)/(1 + 2s) is",
+    "A": "15°",
+    "B": "45°",
+    "C": "30°",
+    "D": "60°",
+    "Answer": "30°",
+    "Image": "",
+    "Explaination": "Ratio a = 6/2 = 3. sin φm = (a - 1)/(a + 1) = 2/4 = 0.5, so φm = 30°."
+  },
+  {
+    "Question": "The effect of a phase lead compensator on rise time and bandwidth is",
+    "A": "Both increase",
+    "B": "Both decrease",
+    "C": "Rise time increases and bandwidth decreases",
+    "D": "Rise time decreases and bandwidth increases",
+    "Answer": "Rise time decreases and bandwidth increases",
+    "Image": "",
+    "Explaination": "A lead compensator increases the bandwidth and gain crossover frequency, which makes the response faster, so the rise time decreases."
+  },
+  {
+    "Question": "Which of the following compensators is used to increase the speed of the response?",
+    "A": "Lead compensator",
+    "B": "Lag compensator",
+    "C": "Lead lag compensator",
+    "D": "None of the above",
+    "Answer": "Lead compensator",
+    "Image": "",
+    "Explaination": "A lead compensator increases the bandwidth and damping, reducing rise time and settling time, hence it increases the speed of response. A lag compensator reduces bandwidth and slows the response."
+  },
+  {
+    "Question": "The plot given (magnitude |G(jω)| versus log ω, starting at about 20 dB, dipping to about -40 dB in the mid-frequency range and returning to 20 dB at high frequency) is of",
+    "A": "Lead compensator",
+    "B": "Lag compensator",
+    "C": "PID controller",
+    "D": "Lead-lag compensator",
+    "Answer": "Lead-lag compensator",
+    "Image": "https://imgh.in/images/6sg65d",
+    "Explaination": "The magnitude falls in the low/mid frequency region (lag section) and rises again at higher frequency (lead section), giving a band-stop (notch) shaped response with the same gain at both ends. This is the response of a combined lag and lead (lag-lead) compensator, given as 'lead-lag compensator' in the options."
+  }
+]

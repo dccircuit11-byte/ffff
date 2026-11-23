@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "With regard to the filtering property, the lead compensator and the lag compensator are, respectively",
+    "A": "Low pass and high pass filters",
+    "B": "High pass and low pass filters",
+    "C": "Both high pass filters",
+    "D": "Both low pass filters",
+    "Answer": "High pass and low pass filters",
+    "Image": "",
+    "Explaination": "A lead compensator has gain that rises with frequency (20 dB/dec between the zero and pole), so it acts as a high pass filter. A lag compensator has gain that falls from 0 dB to 1/β at high frequency, so it acts as a low pass filter."
+  },
+  {
+    "Question": "What is the effect of phase-lag compensation on the performance of a servo system?",
+    "A": "For a given relative stability, the velocity constant is increased",
+    "B": "For a given relative stability, the velocity constant is decreased",
+    "C": "The bandwidth of the system is increased",
+    "D": "The time response is made faster",
+    "Answer": "For a given relative stability, the velocity constant is increased",
+    "Image": "",
+    "Explaination": "A lag compensator lets the low-frequency gain be raised (by factor β) without disturbing the stability margins, so for a given relative stability the velocity error constant Kv increases and the steady-state error reduces. Bandwidth decreases and the response becomes slower, so C and D are wrong."
+  },
+  {
+    "Question": "Which one of the following is an advantage of a PD controller in terms of damping (ξ) and natural frequency (ωn)?",
+    "A": "ξ remains fixed but ωn increases",
+    "B": "ξ remains fixed but ωn decreases",
+    "C": "ωn remains fixed but ξ increases",
+    "D": "ωn remains fixed but ξ decreases",
+    "Answer": "ωn remains fixed but ξ increases",
+    "Image": "",
+    "Explaination": "A PD controller adds the term Kd·s to the characteristic equation, which appears only in the s-term (2ξωn s). The s^2 and constant terms are unchanged, so ωn stays fixed while the damping ratio ξ increases."
+  },
+  {
+    "Question": "Which one of the following is a disadvantage of a proportional controller?",
+    "A": "It destabilizes the system",
+    "B": "It produce offset",
+    "C": "It makes response faster",
+    "D": "It has very simple implementation",
+    "Answer": "It destabilizes the system",
+    "Image": "",
+    "Explaination": "As per the source answer key, the answer is (A): increasing the proportional gain reduces relative stability and can destabilize the system. Note: many textbooks regard 'it produces offset (steady-state error)' as the classic disadvantage of a P controller, so option B is also commonly accepted."
+  },
+  {
+    "Question": "A process is controlled by a PID controller. The sensor has high measurement noise. How can this effect be reduced?",
+    "A": "By use of bandwidth limited derivative term",
+    "B": "By use of proportional and derivative terms in the forward path",
+    "C": "By use of high proportional band",
+    "D": "By use of low integral gain",
+    "Answer": "By use of high proportional band",
+    "Image": "",
+    "Explaination": "As per the source answer key, the answer is (C). Proportional band = 100/Kp, so a high proportional band means a low proportional gain, which reduces the amplification of sensor noise. Note: limiting the bandwidth of the derivative term (option A) is also a common practical remedy for noise."
+  },
+  {
+    "Question": "Consider the following statements for a PI compensator for a control system: 1. It is equivalent to adding a zero at origin. 2. It reduces overshoot. 3. It improves order of the system by 1. 4. It improves steady-state error of the system. Which of the statements given above are correct?",
+    "A": "1, 2, 3 and 4",
+    "B": "1, 2 and 3 only",
+    "C": "2, 3 and 4 only",
+    "D": "1 and 4 only",
+    "Answer": "2, 3 and 4 only",
+    "Image": "",
+    "Explaination": "As per the source answer key, the answer is (C). A PI compensator (Kp s + Ki)/s adds a pole at the origin (not a zero), so statement 1 is false. It raises the system type/order by 1 (statement 3) and reduces the steady-state error (statement 4). Statement 2 is taken as correct in the key (a PI compensator with its zero placed properly gives less overshoot than pure integral control)."
+  },
+  {
+    "Question": "A controller transfer function is given by Gc(s) = (2s + 1)/(0.2s + 1). What is its nature and parameter?",
+    "A": "Lag controller, α = 10",
+    "B": "Lag controller, α = 2",
+    "C": "Lead controller, β = 0.1",
+    "D": "Lead controller, β = 0.2",
+    "Answer": "Lead controller, β = 0.1",
+    "Image": "",
+    "Explaination": "Zero at s = -1/2 and pole at s = -1/0.2 = -5. The pole is farther from the origin than the zero, so it is a lead controller. Writing it as (1 + τs)/(1 + βτs) with τ = 2: βτ = 0.2 => β = 0.1."
+  },
+  {
+    "Question": "How can the bandwidth of a control system be increased?",
+    "A": "By the use of phase lead network",
+    "B": "By the use of phase lag network",
+    "C": "By the use of both phase-lag and phase-lead network",
+    "D": "By the use of cascaded amplifiers in the system",
+    "Answer": "By the use of phase lead network",
+    "Image": "",
+    "Explaination": "A phase lead network adds phase lead and raises the gain crossover frequency, which increases the bandwidth (and speeds up the response). A lag network reduces the bandwidth."
+  },
+  {
+    "Question": "The transfer function of a controller is given as Kp + Kd s, where Kp and Kd are constants. What type of controller is this?",
+    "A": "Proportional",
+    "B": "Proportional plus integral",
+    "C": "Proportional plus derivative",
+    "D": "Integral plus derivative",
+    "Answer": "Proportional plus derivative",
+    "Image": "",
+    "Explaination": "Kp is the proportional term and Kd·s is the derivative term, so Kp + Kd s is a PD controller."
+  },
+  {
+    "Question": "The transfer function of a controller is given as Kp + Kd s + Ki/s, where Kp, Kd and Ki are constants. What type of controller is this?",
+    "A": "Proportional",
+    "B": "Proportional plus derivative",
+    "C": "Proportional plus integral",
+    "D": "Proportional plus integral plus derivative",
+    "Answer": "Proportional plus integral plus derivative",
+    "Image": "",
+    "Explaination": "The expression has a proportional term (Kp), a derivative term (Kd s) and an integral term (Ki/s), so it is a PID controller."
+  }
+]

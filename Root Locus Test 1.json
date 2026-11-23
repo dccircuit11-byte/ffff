@@ -1,0 +1,103 @@
+// JSON 1 (Questions 1–10)
+[
+  {
+    "Question": "Root loci start from",
+    "A": "Poles and end on zeros",
+    "B": "Zeros and end on poles",
+    "C": "Zeros and end on infinity",
+    "D": "Poles and end on infinity",
+    "Answer": "Poles and end on zeros",
+    "Image": "",
+    "Explaination": "Root locus branches start (K = 0) at the open loop poles and end (K = ∞) at the open loop zeros. If poles exceed zeros, the extra branches end at zeros located at infinity."
+  },
+  {
+    "Question": "Match List-I (roots of characteristic equation) with List-II (stability) using the codes for A, B, C. List-I: A. (-2+j), (-2-j), (2j), (-2j); B. -j, j, -1, 1; C. (-1+j), (-1-j). List-II: 1. Marginally stable; 2. Unstable; 3. Stable.",
+    "A": "A-1, B-2, C-3",
+    "B": "A-1, B-3, C-2",
+    "C": "A-3, B-1, C-2",
+    "D": "A-2, B-1, C-3",
+    "Answer": "A-1, B-2, C-3",
+    "Image": "",
+    "Explaination": "A: roots -2±j (LHP) and simple roots ±2j on the imaginary axis → marginally stable (1). B: contains the root +1 in the RHP → unstable (2). C: both roots have negative real part → stable (3). So the code is 1 2 3. NOTE: the book's key lists C (3 1 2), which does not match the printed roots."
+  },
+  {
+    "Question": "The pole zero plot of an open loop transfer function system is shown in the figure (poles at -2+j and -2-j, a zero at -1). If the steady state gain is 2, the transfer function G(s) will be given by",
+    "A": "2(s+1)/(s²+4s+5)",
+    "B": "5(s+1)/(s²+4s+5)",
+    "C": "10(s+1)/(s²+4s+5)",
+    "D": "10(s+1)/(s+2)²",
+    "Answer": "10(s+1)/(s²+4s+5)",
+    "Image": "https://imgh.in/images/dtr6w6",
+    "Explaination": "G(s) = K(s+1)/[(s+2-j)(s+2+j)] = K(s+1)/(s²+4s+5). Steady-state (DC) gain G(0) = K/5 = 2 → K = 10. So G(s) = 10(s+1)/(s²+4s+5)."
+  },
+  {
+    "Question": "In the root locus for open-loop transfer function G(s)H(s) = K(s+6)/[(s+3)(s+5)], the break away and break in points are located respectively at",
+    "A": "-2 and -1",
+    "B": "-2.47 and -3.77",
+    "C": "-4.27 and -7.73",
+    "D": "-7.73 and -4.27",
+    "Answer": "-4.27 and -7.73",
+    "Image": "",
+    "Explaination": "K = -(s+3)(s+5)/(s+6). dK/ds = 0 → (2s+8)(s+6) - (s²+8s+15) = 0 → s² + 12s + 33 = 0 → s = -6 ± √3 = -4.27, -7.73. The real axis locus exists between -3 and -5 (breakaway at -4.27) and to the left of -6 (break-in at -7.73)."
+  },
+  {
+    "Question": "The loop transfer function of a feedback control system is GH(s) = K / [s(s+2)(s²+2s+2)]. The number of asymptotes of its root loci is",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "Answer": "4",
+    "Image": "",
+    "Explaination": "Number of asymptotes = P - Z = 4 - 0 = 4 (poles at 0, -2, -1±j)."
+  },
+  {
+    "Question": "An open-loop transfer function is given by  Its root-loci will be as ",
+    "A": "https://imgh.in/images/lgo3gr",
+    "B": "https://imgh.in/images/e7h84g",
+    "C": "https://imgh.in/images/56os4u",
+    "D": "https://imgh.in/images/s61les",
+    "Answer": "Plot B (real axis only; 0 → -3 and -5 → -∞)",
+    "Image": "https://imgh.in/images/c76zaf",
+    "Explaination": "Real axis locus exists where the number of poles+zeros to the right is odd: between 0 and -3 (1) and left of -5 (3). Break points: K = -s(s+5)/(s+3); dK/ds = 0 → s² + 6s + 15 = 0 has complex roots, so there are no real breakaway/break-in points. Hence one branch goes from 0 to the zero at -3 and the other goes from -5 to -∞ along the real axis."
+  },
+  {
+    "Question": "Which of the following are the features of the breakaway point in the root-locus of a closed-loop control system with characteristic equation 1 + K G1(s)H1(s) = 0? 1. It need not always occur only on the real axis. 2. At this point G1(s)H1(s) = 0. 3. At this point dK/ds = 0.",
+    "A": "1, 2 and 3",
+    "B": "1 and 2",
+    "C": "2 and 3",
+    "D": "1 and 3",
+    "Answer": "1 and 3",
+    "Image": "",
+    "Explaination": "Breakaway points satisfy dK/ds = 0 and may be complex (so not necessarily on the real axis). At a breakaway point G1H1 = -1/K, which is not zero. So statements 1 and 3 are correct."
+  },
+  {
+    "Question": "The value of K for which the unity feedback system G(s) = K / [s(s+2)(s+4)] crosses the imaginary axis is",
+    "A": "2",
+    "B": "4",
+    "C": "6",
+    "D": "48",
+    "Answer": "48",
+    "Image": "",
+    "Explaination": "Characteristic equation: s³ + 6s² + 8s + K = 0. Routh s^1 row: (48 - K)/6 = 0 → K = 48 (crossing at ω = √8 rad/s from 6s² + 48 = 0)."
+  },
+  {
+    "Question": "Which of the following effects are correct in respect of addition of a pole to the system loop transfer function? 1. The root locus is pulled to the right. 2. The system response becomes slower. 3. The steady-state error increases. Of these statements",
+    "A": "1 and 2 are correct",
+    "B": "1, 2 and 3 are correct",
+    "C": "2 and 3 are correct",
+    "D": "1 and 3 are correct",
+    "Answer": "1 and 2 are correct",
+    "Image": "",
+    "Explaination": "Adding a pole pulls the root locus towards the right half plane (reduced relative stability) and makes the response slower. Statement 3 is not generally correct, hence 1 and 2 (as per the book key)."
+  },
+  {
+    "Question": "Consider the loop transfer function G(s) = K(s+6)/[(s+3)(s+5)]. In the root-locus diagram, the centroid will be located at",
+    "A": "-4",
+    "B": "-1",
+    "C": "-2",
+    "D": "-3",
+    "Answer": "-2",
+    "Image": "",
+    "Explaination": "Centroid = (Σ poles - Σ zeros)/(P - Z) = [(-3 - 5) - (-6)]/(2 - 1) = -2."
+  }
+]

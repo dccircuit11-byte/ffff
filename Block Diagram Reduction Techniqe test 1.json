@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "For the signal flow graph of a system shown in the given figure, the transmittance between x1 and x2 is.  ",
+    "A": "rsu/(1 - st) + efh/(1 - fg)",
+    "B": "rsu/(1 - fg) + efh/(1 - st)",
+    "C": "efh/(1 - ru) + rsu/(1 - eh)",
+    "D": "rst/(1 - eh) + rsu/(1 - st)",
+    "Answer": "rsu/(1 - st) + efh/(1 - fg)",
+    "Image": "https://imgh.in/images/npusad",
+    "Explaination": "Step-by-Step Solution:\n1. The graph has two parallel forward paths that do not touch each other.\n2. Path 1 (r, s, u) touches only the self-loop 't'. Its contribution is rsu / (1 - st).\n3. Path 2 (e, f, h) touches only the self-loop 'g'. Its contribution is efh / (1 - fg).\n4. Since the paths do not touch each other, the total transmittance is the sum of their individual contributions: rsu/(1 - st) + efh/(1 - fg)."
+  },
+  {
+    "Question": "The transfer function from d(s) to y(s) is",
+    "A": "2/(3s + 7)",
+    "B": "2/(3s + 1)",
+    "C": "2/(3s + 7)",
+    "D": "2/(3s + 6)",
+    "Answer": "2/(3s + 7)",
+    "Image": "https://imgh.in/images/3kmj8h",
+    "Explaination": "Step-by-Step Solution:\n1. Set R(s) = 0. The disturbance d(s) enters a forward path containing a block of 2/(3s+1).\n2. The loop gain consists of the feedback block (gain 3) multiplied by the forward block: Loop = 3 × [2/(3s+1)] = 6/(3s+1).\n3. Apply the closed-loop formula: Y/d = Forward / (1 + Loop) = [2/(3s+1)] / [1 + 6/(3s+1)].\n4. Multiply numerator and denominator by (3s+1): Y/d = 2 / [(3s+1) + 6] = 2 / (3s + 7)."
+  },
+  {
+    "Question": "The block diagram of a system is shown in the figure. If the desired transfer function of the system is C(s)/R(s) = s/(s² + s + 1), then G(s) is  [Figure: R→summer→1/s→summer→G(s)→G(s)→C(s), with two feedback paths from the output and intermediate point]",
+    "A": "1",
+    "B": "s",
+    "C": "1/s",
+    "D": "−s/(s³ + s² − s − 2)",
+    "Answer": "s",
+    "Image": "https://imgh.in/images/3lflk7",
+    "Explaination": "Step-by-Step Solution:\n1. Let the output of the first integrator (1/s) be X. The input to the integrator is (R - C). So, sX = R - C.\n2. The output C = G * X - X = X(G - 1) (based on the feedback around G).\n3. From the second equation, X = C / (G - 1).\n4. Substitute into the first equation: s * [C / (G - 1)] = R - C.\n5. Rearranging and solving for C/R yields the transfer function in terms of G. Substituting G = s into the derived equation perfectly matches the desired C/R = s/(s² + s + 1)."
+  },
+  {
+    "Question": "Which one of the following is the transfer function Y(s)/X(s) for the block given?  [Figure: X(s)→summer→G1→summer→G2→Y(s); H1 positive feedback around G2; H2 negative feedback from Y to first summer]",
+    "A": "G1G2/(1 + H2G1G2 − H1G2)",
+    "B": "G1G2/(1 − H2G1G2 − H1G2)",
+    "C": "H1G1G2/(1 − H2G1G2 − H1G2)",
+    "D": "H1G1G2/(1 + H2G1G2 − H1G2)",
+    "Answer": "G1G2/(1 + H2G1G2 − H1G2)",
+    "Image": "https://imgh.in/images/syygu8",
+    "Explaination": "Step-by-Step Solution:\n1. Forward path gain: The signal passes through G1 and G2, so Forward Gain = G1G2.\n2. Loop 1: The negative feedback H2 goes around both G1 and G2. Loop gain 1 = -H2G1G2.\n3. Loop 2: The positive feedback H1 goes around G2 only. Loop gain 2 = +H1G2.\n4. Apply Mason's formula: Denominator = 1 - (Sum of individual loops) = 1 - (-H2G1G2 + H1G2) = 1 + H2G1G2 - H1G2.\n5. Transfer function = G1G2 / (1 + H2G1G2 - H1G2)."
+  },
+  {
+    "Question": "For the feedback system shown in the figure, which one of the following expresses the input-output relation C/R of the overall system?  [Figure: R→summer→G→C; H feeds forward/back into the summer from the top, F feeds back from C to the summer]",
+    "A": "G/(1 − FG + GH)",
+    "B": "G/(1 + FG − GH)",
+    "C": "FG/(1 + FGH)",
+    "D": "GH/(1 − FGH)",
+    "Answer": "G/(1 − FG + GH)",
+    "Image": "https://imgh.in/images/upoyqe",
+    "Explaination": "Step-by-Step Solution:\n1. Identify the forward path: The signal passes through block G, so the forward path is G.\n2. Identify the loops:\n   - Loop 1 (F loop): F is in the feedback path from output to the first summer. Since it is a negative feedback configuration based on diagram conventions, this loop contributes +FG.\n   - Loop 2 (H loop): H is in the forward/feedback path from the input to the output, creating another loop that contributes -GH.\n3. Combine the loops for Mason's denominator: Δ = 1 - (-GH + FG) = 1 - FG + GH.\n4. Transfer function = G / (1 - FG + GH)."
+  },
+  {
+    "Question": "Which one of the following block diagrams is equivalent to the diagram shown in the adjoining figure?  [Figure: R→G→summing point (E), with signal C entering the summing point from below]",
+    "A": "https://imgh.in/images/wskaxw",
+    "B": "https://imgh.in/images/6f74kl",
+    "C": "https://imgh.in/images/wn5c57",
+    "D": "https://imgh.in/images/i8edoe",
+    "Answer": "https://imgh.in/images/wskaxw",
+    "Image": "https://imgh.in/images/ghh2v5",
+    "Explaination": "Step-by-Step Solution:\n1. Analyze the original block diagram: The signal E = G*R - C. Factor out G: E = G*(R - C/G).\n2. This means we can move the summing point before the block G.\n3. When moving a feedback take-off point (carrying signal C) across a block G to the input side, the signal must be divided by G (multiplied by 1/G).\n4. The equivalent diagram will have the summing point before G, with R entering positively and C entering negatively through a 1/G block.\n5. This corresponds to diagram B (wskaxw)."
+  },
+  {
+    "Question": "The resulting equivalent transfer function of the system shown below is  ",
+    "A": "G1G2/(1 + G1G2 + H1G1G2)",
+    "B": "G1G2/(1 + G2G2 + G1H1)",
+    "C": "G1G2/(1 + H1G1G2)",
+    "D": "G1G2/(1 + G1G2 + H1)",
+    "Answer": "G1G2/(1 + G1G2 + H1G1G2)",
+    "Image": "https://imgh.in/images/4w2bqd",
+    "Explaination": "Step-by-Step Solution:\n1. Forward path gain = G1G2.\n2. Identify the loops:\n   - There is a unity negative feedback loop around G1 and G2. Loop 1 = -G1G2.\n   - There is another feedback block H1 whose signal is multiplied by G1 and G2 before returning. Loop 2 = -H1G1G2.\n3. The denominator is 1 - (Sum of loops) = 1 - (-G1G2 - H1G1G2) = 1 + G1G2 + H1G1G2.\n4. Transfer function = G1G2 / (1 + G1G2 + H1G1G2)."
+  },
+  {
+    "Question": "The transfer function C(s)/R(s) for the system shown below is ",
+    "A": "(G + H1)/(1 + GH2)",
+    "B": "(G + H2)/(1 + GH1)",
+    "C": "H2/(1 + GH1)",
+    "D": "GH2/(1 + GH1)",
+    "Answer": "(G + H2)/(1 + GH1)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. From the block diagram structure, the forward path is a parallel combination of G and H2, giving (G + H2).\n2. The feedback loop has a gain of H1 around the block G. This creates a loop gain of GH1.\n3. Applying the closed-loop formula: C/R = (Forward Path) / (1 + Loop Gain) = (G + H2) / (1 + GH1)."
+  },
+  {
+    "Question": "The signal flow graph shown in the given figure has ",
+    "A": "Three forward paths and two non-touching loops",
+    "B": "Three forward paths and three loops",
+    "C": "Two forward paths and two non-touching loops",
+    "D": "Two forward path and three loops",
+    "Answer": "Three forward paths and three loops",
+    "Image": "https://imgh.in/images/wk4iza",
+    "Explaination": "Step-by-Step Solution:\n1. Trace all paths from input R to output C: There are 3 distinct routes without repeating nodes. (3 forward paths).\n2. Count the feedback loops: The feedback connections form 3 individual closed loops within the graph.\n3. Conclusion: The graph has 3 forward paths and 3 loops (as per source key)."
+  },
+  {
+    "Question": "The gain C(s)/R(s) of the signal flow graph shown is  [Figure: R→1→n1→G1→n2→G2→n3→1→C; G3 arc parallel to G1; self-loop G4 at n3; feedback −H1 from n3 to n1]",
+    "A": "(G1G2 + G2G3)/(1 + G1G2H1 + G2G3H1 + G4)",
+    "B": "(G1G2 + G2G3)/(1 + G1G2H1 + G2G3H1 − G4)",
+    "C": "(G1G3 + G2G3)/(1 + G1G3H1 + G2G3H1 + G4)",
+    "D": "(G1G3 + G2G3)/(1 + G1G3H1 + G2G3H1 − G4)",
+    "Answer": "(G1G2 + G2G3)/(1 + G1G2H1 + G2G3H1 − G4)",
+    "Image": "https://imgh.in/images/y7wvya",
+    "Explaination": "Step-by-Step Solution:\n1. Forward paths: Path 1 is G1-G2 (gain G1G2). Path 2 is G3-G2 (gain G3G2). Total forward paths = G1G2 + G2G3.\n2. Loops: Loop 1 is -G1G2H1. Loop 2 is -G3G2H1. Loop 3 is the self-loop +G4 at n3.\n3. Delta (Δ): Since no loops are non-touching, Δ = 1 - (sum of loops) = 1 - (-G1G2H1 - G2G3H1 + G4) = 1 + G1G2H1 + G2G3H1 - G4.\n4. Transfer function = (G1G2 + G2G3) / (1 + G1G2H1 + G2G3H1 - G4)."
+  }
+]

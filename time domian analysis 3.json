@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "A step is applied to a system with the transfer function G(s) = e^(-s)/(1 + 0.5s). The output response will be  [Options are response graphs: (A) damped oscillation, (B) first-order rise starting at t = 0, (C) fast rise then slow approach, (D) first-order rise that starts after a delay]",
+    "A": "https://imgh.in/images/4wdcfi",
+    "B": "https://imgh.in/images/4kz3e3",
+    "C": "https://imgh.in/images/aa9szg",
+    "D": "https://imgh.in/images/vs7a04",
+    "Answer": "https://imgh.in/images/vs7a04",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The transfer function has two parts: e^(-s) and 1/(1 + 0.5s).\n2. The term 1/(1 + 0.5s) represents a first-order system with a time constant τ = 0.5s. Its step response is an exponential rise starting at t = 0.\n3. The term e^(-s) is a time delay of 1 second. In the time domain, this shifts the entire response by 1 second.\n4. Therefore, the output response will be a first-order rise that starts after a delay of 1 second.\n5. This corresponds to the graph in Option D (vs7a04)."
+  },
+  {
+    "Question": "The open loop transfer function G(s) of a unity feedback control system is 1/[s(s + 1)]. The system is subjected to an input r(t) = sin t. The steady-state error will be",
+    "A": "Zero",
+    "B": "1",
+    "C": "√2 sin(t − π/4)",
+    "D": "none",
+    "Answer": "none",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The error transfer function is E(s)/R(s) = 1/(1 + G(s)).\n2. G(s) = 1/[s(s+1)]. So, 1 + G(s) = 1 + 1/[s(s+1)] = (s² + s + 1)/[s(s+1)].\n3. Therefore, E(s)/R(s) = s(s+1)/(s² + s + 1).\n4. For a sinusoidal input sin(t), we use the frequency response by substituting s = j1.\n5. E(j1) = j1(j1+1)/[(j1)² + j1 + 1] = (-1 + j)/j = 1 + 1/j = 1 - j = √2 ∠-45°.\n6. The steady-state error is e_ss(t) = √2 sin(t - 45°). This does not match any of the options exactly (Option C has the wrong sign)."
+  },
+  {
+    "Question": "A second order system has the damping ratio ξ and undamped natural frequency of oscillations ωn. The settling time at 2% tolerance band of the system is",
+    "A": "2/(ξωn)",
+    "B": "3/(ξωn)",
+    "C": "4/(ξωn)",
+    "D": "ξωn",
+    "Answer": "4/(ξωn)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The settling time (ts) is the time required for the response to reach and stay within a certain percentage (tolerance band) of its final value.\n2. For a 2% tolerance band, the standard formula is ts = 4/(ζωn).\n3. For a 5% tolerance band, the formula is ts = 3/(ζωn).\n4. Since the question specifies a 2% tolerance band, the correct formula is 4/(ζωn)."
+  },
+  {
+    "Question": "Which one of the following is the steady state error for a step input applied to a unity feedback system with the open loop transfer function G(s) = 10/(s² + 14s + 50)?",
+    "A": "ess = 0",
+    "B": "ess = 0.83",
+    "C": "ess = 1",
+    "D": "ess = ∞",
+    "Answer": "ess = 0.83",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The open-loop transfer function G(s) has no poles at the origin (s=0), so it is a type-0 system.\n2. For a type-0 system, the position error constant Kp = lim(s→0) G(s).\n3. Kp = G(0) = 10/(0² + 14(0) + 50) = 10/50 = 0.2.\n4. For a unit step input, the steady-state error is ess = 1/(1 + Kp).\n5. ess = 1/(1 + 0.2) = 1/1.2 = 0.833 ≈ 0.83."
+  },
+  {
+    "Question": "Match List-I (Pole-Zero plot of linear control system) with List-II (Responses of the system). List-I: ",
+    "A": "4 3 1 2",
+    "B": "4 3 2 1",
+    "C": "3 4 2 1",
+    "D": "3 4 1 2",
+    "Answer": "4 3 2 1",
+    "Image": "https://imgh.in/images/0i5wa0",
+    "Explaination": "Step-by-Step Solution:\n1. A real pole on the negative real axis gives a decaying exponential response (4).\n2. Poles on the imaginary axis (jω) give a sustained oscillation (3).\n3. Complex poles in the right half-plane (RHP) give a growing (divergent) oscillation (2).\n4. Complex poles in the left half-plane (LHP) give a decaying oscillation (1).\n5. Matching: A→4, B→3, C→2, D→1. The correct code is 4 3 2 1."
+  },
+  {
+    "Question": "Consider the unity feedback system with G(s) = K/[s(s + a)]. The sensitivity of the steady state error to a change in parameter K and parameter 'a' with ramp inputs are respectively",
+    "A": "1, −1",
+    "B": "−1, 1",
+    "C": "1, 0",
+    "D": "0, 1",
+    "Answer": "−1, 1",
+    "Image": "https://imgh.in/images/0pk921",
+    "Explaination": "Step-by-Step Solution:\n1. For a type-1 system, the velocity error constant Kv = lim(s→0) sG(s) = lim(s→0) s × K/[s(s+a)] = K/a.\n2. The steady-state error for a ramp input is ess = 1/Kv = a/K.\n3. Sensitivity of ess with respect to K: S_K = (K/ess) × (∂ess/∂K). Since ess = a/K, ∂ess/∂K = -a/K². So, S_K = (K / (a/K)) × (-a/K²) = (K²/a) × (-a/K²) = -1.\n4. Sensitivity of ess with respect to 'a': S_a = (a/ess) × (∂ess/∂a). Since ess = a/K, ∂ess/∂a = 1/K. So, S_a = (a / (a/K)) × (1/K) = K × (1/K) = 1.\n5. The sensitivities are -1 and 1 respectively."
+  },
+  {
+    "Question": "Assuming unit ramp input, match List-I (System Type) with List-II (steady state error). ",
+    "A": "2 4 3 3",
+    "B": "1 2 4 4",
+    "C": "2 1 4 3",
+    "D": "1 2 4 3",
+    "Answer": "2 4 3 3",
+    "Image": "https://imgh.in/images/f17fdy",
+    "Explaination": "Step-by-Step Solution:\n1. Type-0 system: Kv = 0, so steady-state error for a ramp input is infinite (2).\n2. Type-1 system: Kv is finite, so steady-state error is 1/K (4).\n3. Type-2 system: Kv = ∞, so steady-state error is zero (3).\n4. Type-3 system: Kv = ∞, so steady-state error is zero (3).\n5. Matching the system types to their respective errors: A→2, B→4, C→3, D→3. The correct code is 2 4 3 3."
+  },
+  {
+    "Question": "What is the unit step response of a unity feedback control system having forward path transfer function G(s) = 80/[s(s + 18)]?",
+    "A": "Over damped",
+    "B": "Critical damped",
+    "C": "Under damped",
+    "D": "Undamped Oscillatory",
+    "Answer": "Over damped",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The closed-loop transfer function is T(s) = G(s)/(1+G(s)) = 80/[s(s+18) + 80] = 80/(s² + 18s + 80).\n2. The characteristic equation is s² + 18s + 80 = 0.\n3. Factorizing: (s + 8)(s + 10) = 0. The roots are s = -8 and s = -10.\n4. Since the roots are real, distinct, and negative, the system is overdamped (ζ > 1).\n5. The response will be a sum of two decaying exponentials without any oscillation."
+  },
+  {
+    "Question": "What is the steady state error for a unity feedback control system having G(s) = 1/[s(s + 1)] due to unit ramp input?",
+    "A": "1",
+    "B": "0.5",
+    "C": "0.25",
+    "D": "√0.5",
+    "Answer": "1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The open-loop transfer function G(s) = 1/[s(s+1)] has one pole at the origin, so it is a type-1 system.\n2. The velocity error constant Kv = lim(s→0) sG(s) = lim(s→0) s × 1/[s(s+1)] = lim(s→0) 1/(s+1) = 1/1 = 1.\n3. For a unit ramp input, the steady-state error is ess = 1/Kv.\n4. ess = 1/1 = 1."
+  },
+  {
+    "Question": "Given a unity feedback system with G(s) = k/[s(s + 4)], what is the value of k for a damping ratio of 0.5?",
+    "A": "1",
+    "B": "16",
+    "C": "4",
+    "D": "2",
+    "Answer": "16",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The closed-loop transfer function is T(s) = k/[s² + 4s + k].\n2. The characteristic equation is s² + 4s + k = 0.\n3. Compare with the standard form s² + 2ζωns + ωn² = 0.\n4. We get ωn² = k, so ωn = √k. And 2ζωn = 4.\n5. Given ζ = 0.5, substitute into the equation: 2(0.5)ωn = 4 => ωn = 4.\n6. Since k = ωn², k = 4² = 16."
+  }
+]

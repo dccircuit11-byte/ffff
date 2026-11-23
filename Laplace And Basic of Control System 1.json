@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "The sensitivity S_G^M of a system with the transfer function, M = G / (1 + GH) is given by:",
+    "A": "1 / (1 + GH)",
+    "B": "(1 + GH) / H",
+    "C": "(1 + G) / H",
+    "D": "H",
+    "Answer": "1 / (1 + GH)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The definition of sensitivity of a closed-loop transfer function M with respect to forward gain G is S_G^M = (∂M/M) / (∂G/G) = (∂M/∂G) * (G/M).\n2. Taking the partial derivative of M = G/(1+GH) with respect to G: ∂M/∂G = [(1+GH)(1) - G(H)] / (1+GH)^2 = 1 / (1+GH)^2.\n3. Multiply by G/M: S_G^M = [1 / (1+GH)^2] * [G / (G/(1+GH))] = [1 / (1+GH)^2] * (1+GH).\n4. Simplify: S_G^M = 1 / (1+GH)."
+  },
+  {
+    "Question": "If the initial conditions for a system are inherently zero, what does it physically mean?",
+    "A": "The system is at rest but stores energy",
+    "B": "The system is working but does not store energy",
+    "C": "The system is at rest or no energy is stored in any of its parts",
+    "D": "The system is working with zero reference input",
+    "Answer": "The system is at rest or no energy is stored in any of its parts",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In control systems, 'initial conditions' refer to the state of the system (capacitor voltages, inductor currents, masses in motion) at time t=0.\n2. If initial conditions are zero, it means there is no stored energy in any reactive element (no charge on capacitors, no current in inductors, no velocity in masses).\n3. Physically, this implies the system is completely at rest and inactive before the input is applied.\n4. Therefore, the system is at rest, and no energy is stored in any of its parts."
+  },
+  {
+    "Question": "Closed loop control system, what is the store energy sensitivity of the gain of the overall system (M) to the variation in G?",
+    "A": "1 / (1 + GH)",
+    "B": "1 / G",
+    "C": "1 + GH",
+    "D": "None of these",
+    "Answer": "1 / (1 + GH)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The overall closed-loop transfer function is M = G / (1 + GH).\n2. The sensitivity of M with respect to G is defined as S_G^M = (∂M/∂G) * (G/M).\n3. Calculate the partial derivative: ∂M/∂G = 1 / (1 + GH)^2.\n4. Substitute into the formula: S_G^M = [1 / (1+GH)^2] * [G / (G/(1+GH))].\n5. Simplify: S_G^M = 1 / (1 + GH). This shows that high loop gain GH reduces the sensitivity to parameter variations."
+  },
+  {
+    "Question": "Consider the following statements: 1. The effect of feedback is to reduce the system error. 2. Feedback increases the gain of the system in one frequency range but decreases in another. 3. Feedback can cause a system that is originally stable to become unstable. Which of these statements are correct?",
+    "A": "1, 2 and 3",
+    "B": "1 and 2",
+    "C": "2 and 3",
+    "D": "1 and 3",
+    "Answer": "1, 2 and 3",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Statement 1 is True: Negative feedback reduces the error signal by comparing the output with the reference and correcting the difference.\n2. Statement 2 is True: Feedback can shape frequency response. For example, in a feedback amplifier, negative feedback can increase bandwidth (gain at high frequencies) while decreasing the overall mid-band gain.\n3. Statement 3 is True: Introducing high loop gain in a closed-loop system can shift poles into the right-half s-plane, causing a previously stable open-loop system to become unstable. All three statements are correct."
+  },
+  {
+    "Question": "Which one of the following is the transfer function of a linear system whose output is t^2 * e^(-t) for a unit step input?",
+    "A": "s / (s+1)^3",
+    "B": "2s / (s+1)^3",
+    "C": "1 / (s^2(s+1))",
+    "D": "2 / (s(s+1)^2)",
+    "Answer": "2s / (s+1)^3",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The input is a unit step, so X(s) = 1/s.\n2. The output is y(t) = t^2 * e^(-t). Using the property L[t^n * e^(at)] = n! / (s-a)^(n+1), with n=2, a=-1: Y(s) = 2! / (s+1)^3 = 2 / (s+1)^3.\n3. The transfer function H(s) = Y(s) / X(s) = [2 / (s+1)^3] / [1/s].\n4. H(s) = 2s / (s+1)^3."
+  },
+  {
+    "Question": "Consider the following statements: Feedback in control system can be used 1. To reduce the sensitivity of the system to parameter variations and disturbances. 2. To change time constant of the system. 3. To increase loop gain of the system. Which of the statements given above are correct?",
+    "A": "1, 2, and 3",
+    "B": "1 and 2",
+    "C": "2 and 3",
+    "D": "1 and 3",
+    "Answer": "1 and 2",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Statement 1 is True: Negative feedback reduces sensitivity to parameter variations (S_G^T = 1/(1+GH)) and attenuates disturbances.\n2. Statement 2 is True: Feedback reduces the time constant. For a first-order system, closed-loop τ = τ_open / (1 + GH), making the system faster.\n3. Statement 3 is False: Feedback does not 'increase' the fundamental open-loop gain; it actually reduces the overall closed-loop gain (T = G/(1+GH)) for stability and accuracy. (Loop gain is an internal property, but the statement as a purpose of feedback is incorrect)."
+  },
+  {
+    "Question": "With negative feedback in a closed loop control system, the system sensitivity to parameter variations:",
+    "A": "Increases",
+    "B": "Decreases",
+    "C": "Becomes zero",
+    "D": "Becomes infinite",
+    "Answer": "Decreases",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The sensitivity of the closed-loop transfer function T = G/(1+GH) to variations in G is S_G^T = 1/(1+GH).\n2. For negative feedback, the loop gain GH is positive and usually much greater than 1.\n3. Therefore, the denominator (1+GH) is large, making the sensitivity S_G^T much smaller than 1.\n4. This means that negative feedback desensitizes the system to parameter variations, making it robust."
+  },
+  {
+    "Question": "The unit step response of a system is 1 - e^(-1)(1+t). Which is this system?",
+    "A": "Unstable",
+    "B": "Stable",
+    "C": "Critically stable",
+    "D": "Oscillatory",
+    "Answer": "Stable",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The unit step response is given as c(t) = 1 - e^(-t)(1 + t).\n2. Find the transfer function by taking the Laplace transform: C(s) = 1/s - [1/(s+1) + 1/(s+1)^2].\n3. Find the steady-state value by applying the Final Value Theorem: lim(t→∞) c(t) = 1 - 0 = 1.\n4. The pole of the system is at s = -1, which lies in the left half of the s-plane.\n5. Since all poles are strictly in the left half-plane and the response settles to a finite value, the system is stable (specifically, critically damped)."
+  },
+  {
+    "Question": "Consider the following statements with respect to feedback control systems: 1. Accuracy cannot be obtained by adjusting loop gain. 2. Feedback decreases overall gain. 3. Introduction of noise due to sensor reduces overall accuracy. 4. Introduction of feedback may lead to the possibility of instability of closed loop system. Which of the system above given are correct?",
+    "A": "1, 2, and 4",
+    "B": "Only 1, 2 and 4",
+    "C": "Only 1 and 3",
+    "D": "Only 2, 3 and 4",
+    "Answer": "Only 2, 3 and 4",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Statement 1 is False: Accuracy IS obtained by adjusting the loop gain (specifically, high loop gain reduces steady-state error).\n2. Statement 2 is True: Negative feedback reduces the overall gain of the system (T = G/(1+GH)).\n3. Statement 3 is True: Noise introduced by the sensor adds directly to the feedback signal and propagates to the output, degrading accuracy.\n4. Statement 4 is True: Excessive loop gain can push closed-loop poles into the right half-plane, causing instability."
+  },
+  {
+    "Question": "Given the differential equation model of physical system, determine the time constant of the system: 40(dx/dt) + 2x = f(t)",
+    "A": "10",
+    "B": "20",
+    "C": "1/10",
+    "D": "4",
+    "Answer": "20",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The standard first-order differential equation form is τ(dx/dt) + x = K*f(t).\n2. The given equation is 40(dx/dt) + 2x = f(t).\n3. Divide the entire equation by 2 to get it into standard form: 20(dx/dt) + x = 0.5*f(t).\n4. Comparing with the standard form, the time constant τ is the coefficient of the derivative term.\n5. Therefore, τ = 20."
+  }
+]

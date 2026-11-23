@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "Consider the unity feedback system with G(s) = K / [(s^2 + 2s + 2)(s + 2)]. The system is marginally stable. What is the radian frequency of oscillation?",
+    "A": "√2",
+    "B": "√3",
+    "C": "√5",
+    "D": "√6",
+    "Answer": "√6",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The characteristic equation is 1 + G(s) = 0 → (s² + 2s + 2)(s + 2) + K = 0.\n2. Expand: s³ + 2s² + 2s² + 4s + 2s + 4 + K = s³ + 4s² + 6s + (4 + K) = 0.\n3. Form the Routh array: s³: 1, 6. s²: 4, (4+K). s¹: (24 - 4 - K)/4 = (20 - K)/4. s⁰: 4 + K.\n4. For marginal stability, the s¹ row must be zero: (20 - K)/4 = 0 → K = 20.\n5. The auxiliary equation is from the s² row: 4s² + (4 + K) = 4s² + 24 = 0 → s² = -6 → s = ±j√6.\n6. The frequency of oscillation is ω = √6 rad/s."
+  },
+  {
+    "Question": "The closed loop transfer function of a control system is K / [s(s+1)(s+5) + K]. What is the frequency of the sustained oscillations for the marginally stable condition?",
+    "A": "√5 rad/s",
+    "B": "√6 rad/s",
+    "C": "5 rad/s",
+    "D": "6 rad/s",
+    "Answer": "√5 rad/s",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The characteristic equation is s(s+1)(s+5) + K = 0 → s³ + 6s² + 5s + K = 0.\n2. Form the Routh array: s³: 1, 5. s²: 6, K. s¹: (30 - K)/6. s⁰: K.\n3. For marginal stability (sustained oscillations), the s¹ row must be zero: (30 - K)/6 = 0 → K = 30.\n4. The auxiliary equation is from the s² row: 6s² + K = 6s² + 30 = 0 → s² = -5 → s = ±j√5.\n5. The frequency of oscillation is ω = √5 rad/s."
+  },
+  {
+    "Question": "How many roots with positive real parts does the equation s^3 + s^2 - s + 1 = 0 have?",
+    "A": "Zero",
+    "B": "One",
+    "C": "Two",
+    "D": "Three",
+    "Answer": "Two",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array for s³ + s² - s + 1 = 0.\n2. Row s³: 1, -1. Row s²: 1, 1. Row s¹: (1×(-1) - 1×1)/1 = -2. Row s⁰: 1.\n3. First column: 1, 1, -2, 1.\n4. Sign changes: 1→1 (no change), 1→-2 (one change), -2→1 (two changes).\n5. Number of sign changes = 2, so there are two roots with positive real parts."
+  },
+  {
+    "Question": "The characteristic equation of a control system is given as s^4 + 8s^3 + 24s^2 + 32s + K = 0. What is the range of values of 'K' for this system to be stable?",
+    "A": "0 ≤ K < 80",
+    "B": "0 ≤ K < 100",
+    "C": "0 ≤ K < 300",
+    "D": "0 ≤ K < 600",
+    "Answer": "0 ≤ K < 80",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array for s⁴ + 8s³ + 24s² + 32s + K = 0.\n2. Row s⁴: 1, 24, K. Row s³: 8, 32. Row s²: (8×24 - 1×32)/8 = (192 - 32)/8 = 160/8 = 20, K. Row s¹: (20×32 - 8×K)/20 = (640 - 8K)/20 = 32 - 0.4K. Row s⁰: K.\n3. For stability: 32 - 0.4K > 0 → K < 80, and K > 0.\n4. So the range is 0 < K < 80 (or 0 ≤ K < 80 for marginal inclusion)."
+  },
+  {
+    "Question": "The characteristic equation of the closed-loop system shown is ",
+    "A": "s^2 + 11s + 10 = 0",
+    "B": "s^2 + 11s + 130 = 0",
+    "C": "s^2 + 10s + 120 = 0",
+    "D": "s^2 + 10s + 12 = 0",
+    "Answer": "s^2 + 11s + 130 = 0",
+    "Image": "https://imgh.in/images/877oj0",
+    "Explaination": "Step-by-Step Solution:\n1. From the figure, the forward path is G(s) = 12/(s+1) and the feedback path is H(s) = 10/(s+10).\n2. The characteristic equation is 1 + G(s)H(s) = 0.\n3. G(s)H(s) = [12/(s+1)] × [10/(s+10)] = 120/[(s+1)(s+10)].\n4. Equation: 1 + 120/[(s+1)(s+10)] = 0 → (s+1)(s+10) + 120 = 0.\n5. Expand: s² + 11s + 10 + 120 = s² + 11s + 130 = 0."
+  },
+  {
+    "Question": "The range of K for stability of a unity feedback system whose open-loop transfer function is G(s) = K / [s(s+1)(s+2)] is",
+    "A": "0 < K < 3",
+    "B": "0 < K < 6",
+    "C": "K > 6",
+    "D": "0 > K > 3",
+    "Answer": "0 < K < 6",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The characteristic equation is 1 + G(s) = 0 → s(s+1)(s+2) + K = 0 → s³ + 3s² + 2s + K = 0.\n2. Form the Routh array: s³: 1, 2. s²: 3, K. s¹: (6 - K)/3. s⁰: K.\n3. For stability: (6 - K)/3 > 0 → K < 6, and K > 0.\n4. So the range is 0 < K < 6."
+  },
+  {
+    "Question": "A feedback system with characteristic equation s^4 + 20Ks^3 + 5s^2 + 10s + 15 = 0 is",
+    "A": "Stable for all values of K",
+    "B": "Stable only for K > 0",
+    "C": "Stable for ∞ > K > 70",
+    "D": "Unstable for all values of K",
+    "Answer": "Unstable for all values of K",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Form the Routh array for s⁴ + 20Ks³ + 5s² + 10s + 15 = 0.\n2. Row s⁴: 1, 5, 15. Row s³: 20K, 10. Row s²: [(20K×5) - 1×10]/(20K) = (100K - 10)/(20K) = (10K - 1)/(2K), 15. Row s¹: ... (complex expression).\n3. For the s² row to be positive, we need (10K - 1)/(2K) > 0. This requires K > 0.1 (since K > 0 from the s³ row).\n4. However, the condition for the s¹ row to be positive leads to a quadratic inequality that has no real solution (discriminant is negative).\n5. Therefore, the system is unstable for all values of K."
+  },
+  {
+    "Question": "The system having the characteristic equation s^3 + 4s^2 + s - 6 + K = 0 will be stable for",
+    "A": "K > 6",
+    "B": "0 < K < 6",
+    "C": "6 < K < 10",
+    "D": "0 < K < 10",
+    "Answer": "6 < K < 10",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Rewrite the equation as s³ + 4s² + s + (K - 6) = 0.\n2. Form the Routh array: s³: 1, 1. s²: 4, (K - 6). s¹: (4 - (K - 6))/4 = (10 - K)/4. s⁰: K - 6.\n3. For stability: (10 - K)/4 > 0 → K < 10, and K - 6 > 0 → K > 6.\n4. Therefore, the system is stable for 6 < K < 10."
+  },
+  {
+    "Question": "The open loop transfer function of an amplifier with resistive negative feedback has two poles in the left half s-plane. Then the amplifier:",
+    "A": "Will always be unstable at high frequencies",
+    "B": "Will be stable at all frequencies",
+    "C": "May become unstable depending upon its feedback factor",
+    "D": "Will oscillate at low frequencies",
+    "Answer": "Will be stable at all frequencies",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A system with two poles in the left half-plane has a maximum phase shift of -180° only as frequency approaches infinity (it never actually reaches -180° at any finite frequency).\n2. The Nyquist plot will not enclose the -1+j0 point for any real (resistive) feedback factor.\n3. Therefore, the closed-loop system is stable for all values of the feedback factor at all frequencies."
+  },
+  {
+    "Question": "For a 3rd order system G(s)H(s) = K / (s^3 + 6s^2 + 11s + 6), what is the phase crossover frequency?",
+    "A": "√6",
+    "B": "√11",
+    "C": "±√11",
+    "D": "±√6",
+    "Answer": "√11",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Substitute s = jω into the denominator: (jω)³ + 6(jω)² + 11(jω) + 6 = -jω³ - 6ω² + j11ω + 6 = (6 - 6ω²) + j(11ω - ω³).\n2. The phase crossover frequency is where the imaginary part is zero (phase = -180°).\n3. Set imaginary part = 0: 11ω - ω³ = 0 → ω(11 - ω²) = 0 → ω = √11 rad/s (for positive frequency)."
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "A 2nd order system exhibits 100% overshoot. Its damping coefficient is",
+    "A": "Equal to 0",
+    "B": "Equal to 1",
+    "C": "Less than 1",
+    "D": "Greater than 1",
+    "Answer": "Equal to 0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The formula for percentage overshoot is: %OS = e^(−πζ/√(1−ζ²)) × 100.\n2. We are given %OS = 100. So, 100 = e^(−πζ/√(1−ζ²)) × 100.\n3. Dividing by 100 gives: 1 = e^(−πζ/√(1−ζ²)).\n4. For the exponential to equal 1, the exponent must be zero.\n5. This means −πζ/√(1−ζ²) = 0, which is only possible when ζ = 0.\n6. A damping coefficient of zero means the system is undamped and will exhibit sustained oscillation."
+  },
+  {
+    "Question": "For a 2nd order system, 2 d²y/dt² + 4 dy/dt + 8y = 8x, the damping ratio is.",
+    "A": "0.1",
+    "B": "0.25",
+    "C": "0.333",
+    "D": "0.5",
+    "Answer": "0.5",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The standard form of a second-order differential equation is: (d²y/dt²) + 2ζωn(dy/dt) + ωn²y = Kx.\n2. The given equation is: 2(d²y/dt²) + 4(dy/dt) + 8y = 8x.\n3. Divide the entire equation by 2 to normalize the coefficient of the highest derivative: (d²y/dt²) + 2(dy/dt) + 4y = 4x.\n4. Comparing coefficients: ωn² = 4, so ωn = 2. And 2ζωn = 2.\n5. Substitute ωn = 2 into 2ζωn = 2: 2ζ(2) = 2 => 4ζ = 2 => ζ = 0.5."
+  },
+  {
+    "Question": "In the type-1 system, the velocity error is",
+    "A": "Inversely proportional to bandwidth of system",
+    "B": "Directly proportional to gain constant",
+    "C": "Inversely proportional to gain constant",
+    "D": "Independent of gain constant",
+    "Answer": "Inversely proportional to gain constant",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For a type-1 system, the open-loop transfer function has one pole at the origin: G(s) = K / [s(s+a)...].\n2. The velocity error constant is defined as Kv = lim(s→0) sG(s).\n3. For a type-1 system, Kv equals the gain constant K (or a related constant).\n4. The steady-state error for a unit ramp input is ess = 1/Kv.\n5. Therefore, the velocity error is inversely proportional to the velocity error constant (gain constant)."
+  },
+  {
+    "Question": "Match list-I and list-II and select the correct answer",
+    "A": "2 3 1 4",
+    "B": "1 2 3 4",
+    "C": "4 3 2 1",
+    "D": "3 2 4 1",
+    "Answer": "2 3 1 4",
+    "Image": "https://imgh.in/images/ctts8k",
+    "Explaination": "Step-by-Step Solution:\n1. Imaginary roots on the jω-axis result in a sustained oscillation (2).\n2. Complex roots in the right half-plane (RHP) result in a growing (divergent) oscillation (3).\n3. A single negative real root results in a decaying exponential response (1).\n4. A single root at the origin results in a constant (step) response (4).\n5. Matching the items in List-I to List-II: A→2, B→3, C→1, D→4. Therefore, the code is 2 3 1 4."
+  },
+  {
+    "Question": "The feedback control system shown in the given figure represents a, ",
+    "A": "Type-0 system",
+    "B": "Type-1 system",
+    "C": "Type-2 system",
+    "D": "Type-3 system",
+    "Answer": "Type-3 system",
+    "Image": "https://imgh.in/images/p2epdy",
+    "Explaination": "Step-by-Step Solution:\n1. The open-loop transfer function G(s)H(s) is given by: G(s)H(s) = (s+2)(2s+3) / [s³(s+1)³(s+3)].\n2. The 'type' of a system is determined by the number of poles at the origin (s = 0).\n3. Looking at the denominator, we have s³, which means there are 3 poles at the origin.\n4. Therefore, the system is type-3. (Note: The source key shows A, but the mathematical derivation from the provided figure confirms it is Type-3)."
+  },
+  {
+    "Question": "A unity feedback system has a forward path transfer function equal to 42.25/[s(s + 6.5)]. The unit step response of this system starting from rest, will have its maximum value at time equal to",
+    "A": "0 sec",
+    "B": "0.56 sec",
+    "C": "5.6 sec",
+    "D": "infinity",
+    "Answer": "0.56 sec",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Compare the given transfer function G(s) = 42.25/[s(s + 6.5)] with the standard form ωn²/[s(s + 2ζωn)].\n2. We get ωn² = 42.25, so ωn = 6.5 rad/s. Also, 2ζωn = 6.5.\n3. Substitute ωn: 2ζ(6.5) = 6.5 => ζ = 0.5.\n4. The time at which the maximum value occurs is the peak time (tp), given by tp = π / (ωn√(1−ζ²)).\n5. Calculate: tp = π / (6.5 × √(1−0.25)) = π / (6.5 × √0.75) = π / (6.5 × 0.866) = π / 5.629 ≈ 0.558 sec ≈ 0.56 sec."
+  },
+  {
+    "Question": "Match the open-loop transfer functions of unity feedback systems in List-I with the steady-state errors produced for a unit ramp input in List-II. List-I:",
+    "A": "1 2 3 4",
+    "B": "4 3 2 1",
+    "C": "1 3 2 4",
+    "D": "4 2 3 1",
+    "Answer": "4 2 3 1",
+    "Image": "https://imgh.in/images/7b2wef",
+    "Explaination": "Step-by-Step Solution:\n1. Item A is a type-0 system (no pole at origin). For a ramp input, the steady-state error is infinite (4).\n2. Item B is a type-1 system with Kv = 30/6 = 5. ess = 1/Kv = 1/5 = 0.2 (2).\n3. Item C is a type-1 system with Kv = 30/9 = 3.33. ess = 1/Kv = 1/3.33 = 0.3 (3).\n4. Item D is a type-2 system (s² in denominator). For a ramp input, the steady-state error is zero (1).\n5. Matching: A→4, B→2, C→3, D→1. The correct code is 4 2 3 1."
+  },
+  {
+    "Question": "A plant has the transfer function G(s) = 1/(s² + 0.2s + 1). For a step input it is required that the response settles to within 2% of its final value. The settling time is",
+    "A": "20 sec.",
+    "B": "40 sec.",
+    "C": "35 sec.",
+    "D": "45 sec.",
+    "Answer": "40 sec.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Compare the denominator s² + 0.2s + 1 with the standard characteristic equation s² + 2ζωns + ωn².\n2. We get ωn² = 1, so ωn = 1 rad/s. Also, 2ζωn = 0.2.\n3. Substitute ωn: 2ζ(1) = 0.2 => ζ = 0.1.\n4. The settling time for a 2% tolerance band is given by ts = 4 / (ζωn).\n5. Calculate: ts = 4 / (0.1 × 1) = 40 seconds."
+  },
+  {
+    "Question": "Assuming the transient response of a second-order system to be c(t) = 1 − [e^(−4t)/√(1−ξ²)] sin(ωn√(1−ξ²) t + θ), the settling time for the 5% criterion will be",
+    "A": "1/4 sec",
+    "B": "3/4 sec",
+    "C": "5/4 sec",
+    "D": "4 sec",
+    "Answer": "3/4 sec",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The standard form of the transient response is: c(t) = 1 − [e^(−ζωnt)/√(1−ζ²)] sin(ωdt + θ).\n2. Compare this with the given equation: c(t) = 1 − [e^(−4t)/√(1−ξ²)] sin(ωn√(1−ξ²) t + θ).\n3. We can see that the exponential decay factor is ζωn = 4.\n4. The settling time for a 5% criterion is given by ts = 3 / (ζωn).\n5. Calculate: ts = 3 / 4 = 0.75 sec (or 3/4 sec)."
+  },
+  {
+    "Question": "Consider the systems with the following open loop transfer functions: \n1. 36/[s(s + 3.6)]  \n2. 100/[s(s + 5)]  \n3. 6.25/[s(s + 4)]. \nThe correct sequence of these systems in increasing order of the time taken for the unit-step response to settle is",
+    "A": "1, 2, 3",
+    "B": "3, 1, 2",
+    "C": "2, 3, 1",
+    "D": "3, 2, 1",
+    "Answer": "2, 3, 1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For a unity feedback system G(s) = ωn²/[s(s + 2ζωn)], the settling time is ts = 4/(ζωn) (for 2% band). Note that ζωn is half the coefficient of 's' in the denominator.\n2. System 1: 2ζωn = 3.6, so ζωn = 1.8. ts = 4/1.8 = 2.22 sec.\n3. System 2: 2ζωn = 5, so ζωn = 2.5. ts = 4/2.5 = 1.6 sec.\n4. System 3: 2ζωn = 4, so ζωn = 2.0. ts = 4/2.0 = 2.0 sec.\n5. Arranging in increasing order of settling time: 1.6 (System 2) < 2.0 (System 3) < 2.22 (System 1). The correct sequence is 2, 3, 1."
+  }
+]

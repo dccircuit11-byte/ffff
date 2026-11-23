@@ -1,0 +1,63 @@
+// JSON 3 (Questions 21–30)
+[
+  {
+    "Question": "For a stable system, what are the restrictions on the gain margin and phase margin?",
+    "A": "Both gain margin and phase margin are negative", "B": "Gain margin is negative and phase margin is positive", "C": "Gain margin is positive and phase margin is negative", "D": "Both gain margin and phase margin are positive",
+    "Answer": "Both gain margin and phase margin are positive", "Image": "",
+    "Explaination": "A stable system must have both positive gain margin (GM > 1 or > 0 dB) and positive phase margin."
+  },
+  {
+    "Question": "Which one of the following statements is correct for gain margin and phase margin of two closed loop systems having loop function G(s)H(s) and e^(-s) G(s)H(s)?",
+    "A": "Both gain and phase margin of the two systems will be identical", "B": "Both gain and phase margin of G(s)H(s) will be more", "C": "Gain margins of the two systems are the same but phase margin of G(s)H(s) will be more", "D": "Phase margins of the two systems are the same but gain margin of G(s)H(s) will be more",
+    "Answer": "Gain margins of the two systems are the same but phase margin of G(s)H(s) will be more", "Image": "",
+    "Explaination": "As per the book key: the delay e^(-s) has magnitude 1 (so the magnitude plot and gain crossover are unchanged) and only adds phase lag -ω rad. The extra lag reduces the phase margin of the delayed system, so G(s)H(s) has more phase margin. (Strictly the phase crossover frequency also shifts, so GM also changes in general; the book treats it as the same.)"
+  },
+  {
+    "Question": "Which one of the following polar plots corresponds to G(jω) = 1/[(jω)²(1+jωT)]? (A) ω = 0 near the positive real side with a loop ending at the origin; (B) ω = 0 at the lower left, curve rising to the origin from above; (C) ω = 0 at far left on the negative real axis, curve moving right and up and ending at the origin (ω = ∞) in the second quadrant; (D) ω = 0 at far left, curve crossing over the imaginary axis into the first quadrant and ending at the origin.",
+    "A": "https://imgh.in/images/e9cm5n", "B": "https://imgh.in/images/u4bl79", "C": "https://imgh.in/images/jopmg1", "D": "https://imgh.in/images/60kskl",
+    "Answer": "https://imgh.in/images/jopmg1", "Image": "",
+    "Explaination": "https://imgh.in/images/jopmg1"
+  },
+  {
+    "Question": "A system with gain margin close to unity or a phase margin close to zero is",
+    "A": "Relatively stable", "B": "Oscillatory", "C": "Stable", "D": "Highly stable",
+    "Answer": "Oscillatory", "Image": "",
+    "Explaination": "As per the book key: when GM ≈ 1 (0 dB) or PM ≈ 0° the Nyquist plot is very close to the (-1, j0) point, so the system is on the verge of instability and its response is highly oscillatory."
+  },
+  {
+    "Question": "The gain-phase plot of a linear control system is shown in the figure . What are the gain margin and the phase margin of the system?",
+    "A": "GM > 0 dB and PM > 0 degree", "B": "GM > 0 dB and PM < 0 degree", "C": "GM < 0 dB and PM > 0 degree", "D": "GM < 0 dB and PM < 0 degree",
+    "Answer": "GM < 0 dB and PM < 0 degree", "Image": "https://imgh.in/images/2sxava",
+    "Explaination": "At phase crossover (-180°) the gain is above 0 dB → GM is negative (in dB). The 0 dB crossing occurs at a phase more negative than -180° → PM is negative. Hence GM < 0 dB and PM < 0°."
+  },
+  {
+    "Question": "What is the gain margin of a system when the magnitude of the polar plot at phase crossover is 'a'?",
+    "A": "1/a", "B": "-a", "C": "Zero", "D": "a",
+    "Answer": "1/a", "Image": "",
+    "Explaination": "Gain margin GM = 1/|G(jωpc)| = 1/a (or -20 log a in dB)."
+  },
+  {
+    "Question": "The Nyquist plot of the loop transfer function G(s)H(s) of a closed loop control system passes through the point (-1, j0) in the G(s)H(s) plane. The phase margin of the system is",
+    "A": "0°", "B": "45°", "C": "90°", "D": "180°",
+    "Answer": "0°", "Image": "",
+    "Explaination": "Passing through (-1, j0) means |G| = 1 at phase -180°, so PM = 180° + (-180°) = 0° (marginally stable)."
+  },
+  {
+    "Question": "What are the gain and phase angle of a system having the transfer function G(s) = s + 1 at a frequency of 1 rad/sec?",
+    "A": "0.41 and 0°", "B": "1.41 and 45°", "C": "0.30 and -45°", "D": "0.50 and 3.0",
+    "Answer": "1.41 and 45°", "Image": "",
+    "Explaination": "G(j1) = 1 + j1 → magnitude = √2 = 1.41; phase = tan⁻¹(1) = 45°."
+  },
+  {
+    "Question": "If the gain margin of a system in decibels is negative the system is:",
+    "A": "Stable", "B": "Marginally stable", "C": "Unstable", "D": "None",
+    "Answer": "Unstable", "Image": "",
+    "Explaination": "A negative GM in dB means |G(jωpc)| > 1, so the Nyquist plot encloses the critical point → the (minimum phase) closed loop is unstable."
+  },
+  {
+    "Question": "System is said to be marginally stable, if",
+    "A": "Gain crossover frequency > Phase crossover frequency", "B": "Gain crossover frequency = Phase crossover frequency", "C": "Gain crossover frequency < Phase crossover frequency", "D": "Gain crossover frequency ≠ Phase crossover frequency",
+    "Answer": "Gain crossover frequency = Phase crossover frequency", "Image": "",
+    "Explaination": "Marginal stability means |G| = 1 and ∠G = -180° at the same frequency, i.e. ωgc = ωpc (GM = 0 dB, PM = 0°). ωgc < ωpc is stable and ωgc > ωpc is unstable."
+  }
+]

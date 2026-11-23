@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "The block diagram of a closed-loop control system is given in the figure. What is the type of this system? (Forward path: 2/(s²+2s+2); feedback path: 1/s.)",
+    "A": "Zero",
+    "B": "One",
+    "C": "Two",
+    "D": "Three",
+    "Answer": "One",
+    "Image": "https://imgh.in/images/96dn55",
+    "Explaination": "Step-by-Step Solution:\n1. The type of a system is determined by the number of poles at the origin (s=0) in the open-loop transfer function G(s)H(s).\n2. From the figure, G(s) = 2/(s²+2s+2) and H(s) = 1/s.\n3. The open-loop transfer function is G(s)H(s) = 2 / [s(s²+2s+2)].\n4. The denominator has a factor of 's', which means there is exactly one pole at the origin.\n5. Therefore, it is a Type-1 system."
+  },
+  {
+    "Question": "The type of system, which is used for determination of static error constants, is determined from the number of",
+    "A": "Zeros at origin for open loop transfer function",
+    "B": "Poles at origin for open loop transfer function",
+    "C": "Zeros at origin for closed loop transfer function",
+    "D": "Poles at origin for closed loop transfer function",
+    "Answer": "Poles at origin for open loop transfer function",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The 'Type' of a control system is defined strictly by the number of integrators (poles at s=0) in the forward path (open-loop transfer function).\n2. This determines the value of the static error constants (Kp, Kv, Ka) and, consequently, the steady-state error for standard test inputs.\n3. Zeros do not define the system type. Closed-loop poles define stability, not type.\n4. Therefore, the system type is determined by the poles at the origin for the open-loop transfer function."
+  },
+  {
+    "Question": "The D.C. gain and steady state error for a step input for G(s) = (s+1)/(s²+s+1) are",
+    "A": "1 and 1",
+    "B": "0 and 1",
+    "C": "1 and 0",
+    "D": "0 and 0",
+    "Answer": "1 and 0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. D.C. gain is evaluated at s = 0: G(0) = (0+1)/(0+0+1) = 1/1 = 1.\n2. Assuming G(s) is the overall closed-loop transfer function, the steady-state output for a unit step input is c(∞) = lim(s→0) s × (1/s) × G(s) = G(0) = 1.\n3. The steady-state error is ess = r(∞) − c(∞) = 1 − 1 = 0.\n4. Therefore, the DC gain is 1 and the steady-state error is 0."
+  },
+  {
+    "Question": "A second order system is described by the equation d²x/dt² + 5 dx/dt + 7x = 7y. The frequency and damping ratio respectively are:",
+    "A": "1 rad/sec and 5",
+    "B": "5 rad/sec and 7",
+    "C": "1 rad/sec and √7",
+    "D": "√7 rad/sec and 0.94",
+    "Answer": "√7 rad/sec and 0.94",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The characteristic equation is obtained by substituting x = e^(st): s² + 5s + 7 = 0.\n2. Compare with the standard form s² + 2ζωns + ωn² = 0.\n3. We get ωn² = 7, so the natural frequency ωn = √7 rad/s.\n4. And 2ζωn = 5, so ζ = 5/(2√7) ≈ 5/5.29 ≈ 0.945 ≈ 0.94.\n5. Therefore, ωn = √7 rad/sec and ζ = 0.94."
+  },
+  {
+    "Question": "The transfer function of the system G(s) = 100 / (s² + 10s + 100) will settle in approximately:",
+    "A": "2 sec",
+    "B": "1 sec",
+    "C": "0.8 sec",
+    "D": "1.5 sec",
+    "Answer": "0.8 sec",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Compare the denominator with s² + 2ζωns + ωn²: ωn² = 100 → ωn = 10 rad/s. And 2ζωn = 10 → ζ = 0.5.\n2. The product ζωn = 0.5 × 10 = 5.\n3. The settling time for a 2% tolerance band is ts = 4/(ζωn) = 4/5 = 0.8 seconds.\n4. (For a 5% band, ts = 3/5 = 0.6 s, but 0.8 s is the standard 2% value matching option C)."
+  },
+  {
+    "Question": "Which one of the following transfer functions has the greatest overshoot?",
+    "A": "https://imgh.in/images/40iz98",
+    "B": "https://imgh.in/images/eg9oqs",
+    "C": "https://imgh.in/images/cmjywi",
+    "D": "https://imgh.in/images/quuqu7",
+    "Answer": "https://imgh.in/images/quuqu7",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The percentage overshoot depends only on the damping ratio ζ; smaller ζ means larger overshoot.\n2. In all given transfer functions, the middle term (coefficient of 's') is 2. So 2ζωn = 2, giving ζ = 1/ωn.\n3. The natural frequencies are ωn = 3, 4, 5, 6 respectively.\n4. Therefore, the damping ratios are ζ = 0.333, 0.25, 0.2, 0.167.\n5. The smallest damping ratio (0.167) corresponds to the largest overshoot. This is option D."
+  },
+  {
+    "Question": "The second-order system defined by 25/(s² + 5s + 25) is given a step input. The time taken for the output to settle within ±2% is",
+    "A": "1.2 s",
+    "B": "2 s",
+    "C": "1.6 s",
+    "D": "0.4 s",
+    "Answer": "1.6 s",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Compare with s² + 2ζωns + ωn²: ωn² = 25 → ωn = 5 rad/s. And 2ζωn = 5 → ζ = 0.5.\n2. The product ζωn = 0.5 × 5 = 2.5.\n3. Settling time for ±2% band is ts = 4/(ζωn) = 4/2.5 = 1.6 seconds."
+  },
+  {
+    "Question": "A second order control system is defined by the differential equation  The damping ratio and natural frequency for this system are respectively",
+    "A": "0.50 and 4 rad/sec",
+    "B": "0.25 and 4 rad/sec",
+    "C": "0.25 and 2 rad/sec",
+    "D": "0.50 and 2 rad/sec",
+    "Answer": "0.50 and 2 rad/sec",
+    "Image": "https://imgh.in/images/fy0kgo",
+    "Explaination": "Step-by-Step Solution:\n1. As per the book's key, the answer is 0.50 and 2 rad/s.\n2. Assuming the standard form equation was 4(d²x/dt²) + 8(dx/dt) + 16x = ... (the printed image seems to have a typo).\n3. Dividing by 4 gives: x'' + 2x' + 4x = ...\n4. Comparing with standard form: ωn² = 4 → ωn = 2 rad/s. And 2ζωn = 2 → ζ = 2/(2×2) = 0.5.\n5. Therefore, ζ = 0.50 and ωn = 2 rad/sec."
+  },
+  {
+    "Question": "A control system is defined by  The response of the system at t → ∞ is",
+    "A": "x = 6",
+    "B": "x = 2",
+    "C": "x = 2.4",
+    "D": "x = -2",
+    "Answer": "x = 2.4",
+    "Image": "https://imgh.in/images/a2uht6",
+    "Explaination": "Step-by-Step Solution:\n1. As per the book's key, the answer is 2.4.\n2. At steady state (t → ∞), all derivatives (dx/dt, d²x/dt²) become zero.\n3. Assuming the missing forcing function in the printed question was 12(1 - e^(-2t)), at t → ∞ this becomes 12(1 - 0) = 12.\n4. The equation would become 5x = 12 → x = 12/5 = 2.4.\n5. The '12' appears to be missing in the printed question, but 2.4 is the intended answer."
+  },
+  {
+    "Question": "The closed loop transfer function of a control system is H(s) = 1/(s+1). For input r(t) = sin t, the steady state value of c(t) is",
+    "A": "1",
+    "B": "https://imgh.in/images/kum0lc",
+    "C": "https://imgh.in/images/wlag6y",
+    "D": "https://imgh.in/images/3gmfwu",
+    "Answer": "https://imgh.in/images/3gmfwu",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For a sinusoidal input r(t) = sin(ωt) with ω = 1 rad/s, the steady-state output is determined by the frequency response H(jω) at ω = 1.\n2. H(j1) = 1/(j1 + 1) = 1/(1 + j).\n3. Magnitude = 1/√(1² + 1²) = 1/√2. Phase = -arctan(1/1) = -45° = -π/4 rad.\n4. Therefore, the steady-state output is c(t) = (1/√2) sin(t - π/4). This corresponds to the image in option D."
+  }
+]

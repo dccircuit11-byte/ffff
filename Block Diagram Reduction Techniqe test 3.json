@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "From the signal flow graph shown in the figure, the value of x6 is  ",
+    "A": "de(ax1 + bx2 + cx3)",
+    "B": "(a+b+c)(x1+x2+x3)(d+e)",
+    "C": "(ax1 + bx2 + cx3)(d+e)",
+    "D": "abcde(x1+x2+x3)",
+    "Answer": "de(ax1 + bx2 + cx3)",
+    "Image": "https://imgh.in/images/g5a8v7",
+    "Explaination": "Step-by-Step Solution:\n1. Identify the signal paths: Inputs x1, x2, and x3 flow through branches a, b, and c respectively, and all merge at node X4.\n2. Therefore, the signal at X4 is the sum of these parallel paths: x4 = ax1 + bx2 + cx3.\n3. From X4, the signal passes through branch 'd' to X5: x5 = d * x4.\n4. From X5, the signal passes through branch 'e' to X6: x6 = e * x5.\n5. Substitute the equations: x6 = e * (d * (ax1 + bx2 + cx3)) = de(ax1 + bx2 + cx3)."
+  },
+  {
+    "Question": "From the figure shown below, the transfer function of the signal flow graph is  ",
+    "A": "T12/(1 - T22)",
+    "B": "T22/(1 - T12)",
+    "C": "T12/(1 + T22)",
+    "D": "T22/(1 + T12)",
+    "Answer": "T12/(1 - T22)",
+    "Image": "https://imgh.in/images/nsvzto",
+    "Explaination": "Step-by-Step Solution:\n1. Identify the forward path from input to output: The forward path gain is T12.\n2. Identify the loops: There is a single self-loop at a node with loop gain T22.\n3. Apply Mason's Gain Formula: T = (Forward Path Gain) / (1 - Sum of individual loop gains).\n4. Determine Delta (Δ): Δ = 1 - (T22).\n5. Substitute into Mason's formula: Transfer Function = T12 / (1 - T22)."
+  },
+  {
+    "Question": "The signal flow graph of a system is shown in the given figure. The number of forward paths and the number of pairs of non-touching loops are respectively.  ",
+    "A": "3, 1",
+    "B": "3, 2",
+    "C": "4, 2",
+    "D": "2, 4",
+    "Answer": "3, 1",
+    "Image": "https://imgh.in/images/57syv3",
+    "Explaination": "Step-by-Step Solution:\n1. Count the forward paths (paths from input to output without repeating any node): The paths are 3-6-7, 8-7, and 9. So, there are 3 forward paths.\n2. Identify the loops: There is a loop between X2 and X3, and a self-loop at X4.\n3. Check for non-touching loops (loops that share no nodes): The loop at X2-X3 does not touch the self-loop at X4. Therefore, there is exactly 1 pair of non-touching loops.\n4. Conclusion: 3 forward paths, 1 pair of non-touching loops."
+  },
+  {
+    "Question": "Consider a control system with forward block G and feedback block H. For a slight variation in G, the ratio of open loop sensitivity to closed loop sensitivity will be given by",
+    "A": "1/(1 + GH)",
+    "B": "1 + GH",
+    "C": "1/(1 − GH)",
+    "D": "1 − GH",
+    "Answer": "1 + GH",
+    "Image": "https://imgh.in/images/daum8h",
+    "Explaination": "Step-by-Step Solution:\n1. Open-loop sensitivity: The output is C = G*R, so sensitivity of C to G is 1.\n2. Closed-loop transfer function: T = G/(1 + GH). The sensitivity of T to G is S_G^T = 1/(1 + GH).\n3. The question asks for the ratio of open-loop sensitivity to closed-loop sensitivity: Ratio = 1 / [1/(1 + GH)] = 1 + GH.\n(Note: The source key shows A, which is the inverse ratio; as worded, B is mathematically correct)."
+  },
+  {
+    "Question": "The transfer function T(s) of the system shown in the figure is given by  ",
+    "A": "T(s) = G1(s)G2(s)/(1 − G2(s))",
+    "B": "T(s) = G1(s)/(1 − G1(s)G2(s))",
+    "C": "T(s) = G2(s)/(1 + G1(s)G2(s))",
+    "D": "T(s) = G2(s)/(1 + G1(s)G2(s))",
+    "Answer": "T(s) = G1(s)G2(s)/(1 − G2(s))",
+    "Image": "https://imgh.in/images/37feen",
+    "Explaination": "Step-by-Step Solution:\n1. Identify the forward path: The signal goes through G1 and then G2, so the forward path gain = G1G2.\n2. Identify the feedback loop: There is a unity positive feedback (gain = 1) around G2.\n3. Loop gain = G2 * 1 = G2. Since the feedback is positive, it adds in the denominator.\n4. Apply the formula: T = Forward Gain / (1 - Loop Gain) = G1G2 / (1 - G2)."
+  },
+  {
+    "Question": "C(s)/R(s) for the system shown in the following block diagram is. ",
+    "A": "G1G2/(1 + G1[G2 + H1])",
+    "B": "G1G2/(1 + G2[G1 + H1])",
+    "C": "G1G2/(1 + G2[G2 + H1])",
+    "D": "None of the above",
+    "Answer": "G1G2/(1 + G2[G1 + H1])",
+    "Image": "https://imgh.in/images/9yizfr",
+    "Explaination": "Step-by-Step Solution:\n1. Reduce the inner loop: G2 has a negative feedback H1, so inner transfer function = G2 / (1 + G2H1).\n2. Cascade with G1: The forward path is G1 * [G2 / (1 + G2H1)] = G1G2 / (1 + G2H1).\n3. Apply the outer unity negative feedback: T = [G1G2 / (1 + G2H1)] / [1 + G1G2 / (1 + G2H1)].\n4. Multiply numerator and denominator by (1 + G2H1): T = G1G2 / (1 + G2H1 + G1G2).\n5. Rearrange the denominator: T = G1G2 / (1 + G2[G1 + H1])."
+  },
+  {
+    "Question": "The signal flow graph of a system is shown in the given figure. The number of forward paths and the individual loops will be respectively.  ",
+    "A": "5 and 2",
+    "B": "5 and 3",
+    "C": "6 and 2",
+    "D": "6 and 3",
+    "Answer": "6 and 3",
+    "Image": "https://imgh.in/images/kl6aii",
+    "Explaination": "Step-by-Step Solution:\n1. Forward paths: Tracing all distinct routes from input R to output C without repeating any node yields 6 forward paths.\n2. Individual loops: The feedback arrangements in the graph form 3 closed loops (e.g., G4·H1-type, G5·H2-type, and a cross loop through G8/G9).\n3. Conclusion: The graph has 6 forward paths and 3 individual loops (as per source key)."
+  },
+  {
+    "Question": "The closed-loop system shown in the figure is subjected to a disturbance N(s). The transfer function C(s)/N(s) is. ",
+    "A": "G1G2/(1 + G2[G2 + H])",
+    "B": "G1/(1 + G1H)",
+    "C": "G2/(1 + G2H)",
+    "D": "G2/(1 + G1G2 + H)",
+    "Answer": "G2/(1 + G1G2 + H)",
+    "Image": "https://imgh.in/images/l0p0lj",
+    "Explaination": "Step-by-Step Solution:\n1. Set the reference input R(s) = 0 to find the transfer function from disturbance N(s) to output C(s).\n2. The disturbance enters the system after G1 and before G2. The forward path from N to C is G2.\n3. The loop gain consists of G1, G2, and the feedback block H. The loop gain is G1G2H.\n4. Apply the formula: C/N = Forward Path / (1 + Loop Gain) = G2 / (1 + G1G2H).\n(Note: Option D is the closest standard representation, though the printed option appears to have a typographical error missing the multiplication sign with H)."
+  },
+  {
+    "Question": "The transfer function of the system shown in the given figure is: ",
+    "A": "O/R = ABC/(1 + ABC)",
+    "B": "O/R = (A + B + C)/(1 + AB + AC)",
+    "C": "O/R = (AB + AC)/ABC",
+    "D": "O/R = (AB + AC)/(1 + AB + AC)",
+    "Answer": "O/R = (AB + AC)/(1 + AB + AC)",
+    "Image": "https://imgh.in/images/lf6kca",
+    "Explaination": "Step-by-Step Solution:\n1. Identify the parallel paths: Block A is in series with blocks B and C in parallel. The equivalent forward path gain is A(B + C) = AB + AC.\n2. Identify the feedback: There is a unity negative feedback loop around the entire forward path.\n3. Apply the closed-loop formula: T = Forward Gain / (1 + Forward Gain * Feedback) = (AB + AC) / (1 + (AB + AC)*1).\n4. Result: O/R = (AB + AC) / (1 + AB + AC)."
+  },
+  {
+    "Question": "A signal flow graph is shown in the following figure. Consider the following statements regarding the signal flow graph: 1. There are three forward paths. 2. There are three individual loops. 3. There are three non-touching loops. ",
+    "A": "1, 2 and 3 are correct",
+    "B": "1 and 2 are correct",
+    "C": "2 and 3 are correct",
+    "D": "1 and 3 are correct",
+    "Answer": "1 and 3 are correct",
+    "Image": "https://imgh.in/images/cs4j4h",
+    "Explaination": "Step-by-Step Solution:\n1. Forward paths: Tracing from input to output gives 3 distinct paths (via b3-b6-b7, via b8-b7, and via b9). So, statement 1 is True.\n2. Individual loops: Careful counting reveals 4 individual loops (b3b2, b6b4, b8b4b2, and a self-loop). So, statement 2 is False.\n3. Non-touching loops: The self-loop at X5 does not touch the other loops, creating 3 pairs of non-touching loops. So, statement 3 is True.\n4. Conclusion: Statements 1 and 3 are correct."
+  }
+]

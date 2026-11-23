@@ -1,0 +1,103 @@
+// JSON 2 (Questions 11–20)
+[
+  {
+    "Question": "Which one of the following is a phase-lead compensation network?",
+    "A": "https://imgh.in/images/exkcs8",
+    "B": "https://imgh.in/images/8w5r48",
+    "C": "https://imgh.in/images/8ljiqn",
+    "D": "https://imgh.in/images/ierbf9",
+    "Answer": "Series resistor R1 with a capacitor in parallel to it, and a shunt resistor R2",
+    "Image": "",
+    "Explaination": "A phase-lead network has a capacitor connected in parallel with the series resistor R1, with a shunt resistor R2. Its transfer function is α(1 + sτ)/(1 + αsτ) with α < 1, which provides phase lead. A network with the capacitor in the shunt arm (in series with R2) is a lag network."
+  },
+  {
+    "Question": "The phase-lead network function Gc(s) = (s + 1/T)/(s + 1/(aT)), where a < 1, would provide maximum phase-lead at a frequency of",
+    "A": "1/T",
+    "B": "1/(aT)",
+    "C": "1/(T√a)",
+    "D": "1/(a√T)",
+    "Answer": "1/(T√a)",
+    "Image": "",
+    "Explaination": "The maximum phase lead occurs at the geometric mean of the zero and pole corner frequencies: ωm = √[(1/T)(1/(aT))] = 1/(T√a)."
+  },
+  {
+    "Question": "If the transfer function of a phase lead compensator is (s + a)/(s + b) and that of a lag compensator is (s + p)/(s + q), then which one of the following sets of conditions must be satisfied?",
+    "A": "a > b and p > q",
+    "B": "a > b and p < q",
+    "C": "a < b and p < q",
+    "D": "a < b and p > q",
+    "Answer": "a < b and p > q",
+    "Image": "",
+    "Explaination": "For a lead network the zero is nearer to the origin than the pole, so a < b. For a lag network the pole is nearer to the origin than the zero, so q < p, i.e. p > q."
+  },
+  {
+    "Question": "The compensator Gc(s) = 5(1 + 0.3s)/(1 + 0.1s) would provide a maximum phase shift of",
+    "A": "20°",
+    "B": "30°",
+    "C": "45°",
+    "D": "60°",
+    "Answer": "30°",
+    "Image": "",
+    "Explaination": "Zero at 1/0.3, pole at 1/0.1, so the ratio a = 0.3/0.1 = 3. sin φm = (a - 1)/(a + 1) = 2/4 = 0.5, so φm = 30° (the gain 5 does not affect the phase)."
+  },
+  {
+    "Question": "The transfer function G(s) of a PID controller is",
+    "A": "K(1 + 1/(Ti s) + Td s)",
+    "B": "K(1 + Ts s + Td s)",
+    "C": "K(1 + 1/(Ti s) + 1/(Td s))",
+    "D": "K(1 + Ti s + 1/(Td s))",
+    "Answer": "K(1 + 1/(Ti s) + Td s)",
+    "Image": "",
+    "Explaination": "PID controller output p(t) = Kp[e(t) + (1/Ti)∫e dt + Td de/dt]. Taking the Laplace transform: G(s) = Kp(1 + 1/(Ti s) + Td s)."
+  },
+  {
+    "Question": "The industrial controller having the best steady-state accuracy is",
+    "A": "A derivative controller",
+    "B": "An integral controller",
+    "C": "A rate feedback controller",
+    "D": "A proportional controller",
+    "Answer": "An integral controller",
+    "Image": "",
+    "Explaination": "An integral controller increases the system type by one and drives the steady-state error towards zero, giving the best steady-state accuracy. Derivative and rate feedback control improve transient response only, and proportional control leaves an offset."
+  },
+  {
+    "Question": "For the given network (R1 in parallel with C1 in the series arm, R2 in the shunt arm), the maximum phase lead φm of V0 with respect to Vi is",
+    "A": "sin⁻¹(R1/(2R2))",
+    "B": "sin⁻¹(R1/(R1 + 2R2))",
+    "C": "sin⁻¹(R1/(R1 + 3R2))",
+    "D": "sin⁻¹(R1/(2R2C1))",
+    "Answer": "sin⁻¹(R1/(R1 + 2R2))",
+    "Image": "https://imgh.in/images/a8fbwz",
+    "Explaination": "α = R2/(R1 + R2). φm = sin⁻¹[(1 - α)/(1 + α)] = sin⁻¹[(R1/(R1+R2)) / ((R1+2R2)/(R1+R2))] = sin⁻¹[R1/(R1 + 2R2)]."
+  },
+  {
+    "Question": "Consider the following statements. A Proportional plus derivative controller: 1. has high sensitivity  2. increases the stability of the system  3. improves the steady-state accuracy. Which of these statements are correct?",
+    "A": "1, 2 and 3",
+    "B": "1 and 2",
+    "C": "2 and 3",
+    "D": "1 and 3",
+    "Answer": "1 and 2",
+    "Image": "",
+    "Explaination": "A PD controller adds a zero, which increases damping and stability, and it responds to the rate of change of error, so it is highly sensitive (and amplifies noise). It does not improve steady-state accuracy (it does not increase system type), so statement 3 is wrong."
+  },
+  {
+    "Question": "Open loop transfer function of a system having one zero with a positive real value is called",
+    "A": "Zero phase function",
+    "B": "Negative phase function",
+    "C": "Positive phase function",
+    "D": "Non-minimum phase function",
+    "Answer": "Non-minimum phase function",
+    "Image": "",
+    "Explaination": "A transfer function with any pole or zero in the right half of the s-plane is a non-minimum phase function. A zero with a positive real value lies in the RHP, so the function is non-minimum phase."
+  },
+  {
+    "Question": "The transfer function of a phase lead network is,",
+    "A": "(1 + sT)/(1 + sβT); β > 1",
+    "B": "α(1 + sT)/(1 + sαT); α < 1",
+    "C": "β(1 + sT)/(1 + sβT + T); β < 1",
+    "D": "(1 + sT)/(α(1 + αsT)); α > 1",
+    "Answer": "α(1 + sT)/(1 + sαT); α < 1",
+    "Image": "",
+    "Explaination": "The standard phase lead network is Gc(s) = α(1 + sT)/(1 + αsT) with 0 < α < 1, so that the zero (1/T) is nearer to the origin than the pole (1/(αT)). Option A (β > 1) is the lag network."
+  }
+]

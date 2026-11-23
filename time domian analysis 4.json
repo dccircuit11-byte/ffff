@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "Match List I (system G(s)) with List II (Nature of Response). List I :- ",
+    "A": "A-3, B-1, C-2, D-4",
+    "B": "A-2, B-4, C-3, D-1",
+    "C": "A-3, B-4, C-2, D-1",
+    "D": "A-2, B-1, C-3, D-4",
+    "Answer": "A-3, B-4, C-2, D-1",
+    "Image": "https://imgh.in/images/gh1xx4",
+    "Explaination": "Step-by-Step Solution:\n1. Compare each transfer function's denominator with the standard form s² + 2ζωns + ωn².\n2. Item A: ωn = 20, 2ζωn = 12 → ζ = 0.3 (Underdamped, 3).\n3. Item B: ωn = 20, 2ζωn = 90 → ζ = 2.25 (Overdamped, 4).\n4. Item C: ωn = 15, 2ζωn = 30 → ζ = 1 (Critically damped, 2).\n5. Item D: No 's' term → ζ = 0 (Undamped, 1).\n6. Matching: A-3, B-4, C-2, D-1."
+  },
+  {
+    "Question": "An underdamped second order system with negative damping will have the two roots",
+    "A": "On the negative real axis as real roots",
+    "B": "On the left hand side of complex plane as complex roots",
+    "C": "On the right hand side of complex plane as complex conjugates",
+    "D": "On the positive real axis as real roots",
+    "Answer": "On the right hand side of complex plane as complex conjugates",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The roots of a second-order system are s = -ζωn ± jωn√(1-ζ²).\n2. For an underdamped system, 0 < ζ < 1, the roots are complex conjugates.\n3. 'Negative damping' means ζ is negative (ζ < 0).\n4. Therefore, -ζωn becomes positive, meaning the real part of the roots is positive.\n5. This places the complex conjugate roots in the right half of the s-plane, resulting in a growing (unstable) oscillatory response."
+  },
+  {
+    "Question": "Which one of the following expresses the time at which the second peak in the step response occurs for a second order system?",
+    "A": "https://imgh.in/images/6vfjj6",
+    "B": "https://imgh.in/images/bzic0a",
+    "C": "https://imgh.in/images/3l95jv",
+    "D": "https://imgh.in/images/dn09gp",
+    "Answer": "https://imgh.in/images/3l95jv",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The peaks (extrema) of the step response occur at intervals of half the damped natural period: t = nπ/ωd, where ωd = ωn√(1-ζ²).\n2. n=1 gives the first peak (overshoot).\n3. n=2 gives the first undershoot (minimum).\n4. n=3 gives the second peak.\n5. Therefore, the time for the second peak is t = 3π / (ωn√(1-ζ²)). This corresponds to the image in option C."
+  },
+  {
+    "Question": "What is the value of K for a unity feedback system with G(s) = K / [s(1+s)] to have a peak overshoot of 50%?",
+    "A": "0.53",
+    "B": "5.3",
+    "C": "0.6",
+    "D": "0.047",
+    "Answer": "5.3",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The closed-loop characteristic equation is s² + s + K = 0.\n2. Comparing with s² + 2ζωns + ωn²: ωn² = K and 2ζωn = 1, so ζ = 1/(2√K).\n3. The peak overshoot formula is Mp = exp(-πζ/√(1-ζ²)).\n4. Given Mp = 0.5 (50%): 0.5 = exp(-πζ/√(1-ζ²)).\n5. Taking natural log: ln(0.5) = -0.693 = -πζ/√(1-ζ²). Solving this gives ζ ≈ 0.215.\n6. Now, ζ = 1/(2√K) = 0.215 → √K = 1/(2×0.215) = 2.32 → K = (2.32)² ≈ 5.4.\n7. The nearest option is 5.3."
+  },
+  {
+    "Question": "How can the steady-state error in a system be reduced?",
+    "A": "By decreasing the type of system",
+    "B": "By increasing system gain",
+    "C": "By decreasing the static error constant",
+    "D": "By increasing the input",
+    "Answer": "By increasing system gain",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Steady-state error (ess) is inversely proportional to the static error constants (Kp, Kv, Ka).\n2. These error constants are directly proportional to the system gain (K).\n3. Therefore, increasing the system gain increases the error constants, which in turn reduces the steady-state error.\n4. Decreasing the type of system or decreasing the error constants would increase the error."
+  },
+  {
+    "Question": "For the unity feedback system with G(s) = 10 / [s²(s+4)], what is the steady state error resulting from an input 10t?",
+    "A": "10",
+    "B": "4",
+    "C": "zero",
+    "D": "1",
+    "Answer": "zero",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The open-loop transfer function G(s) has two poles at the origin (s²), so it is a Type-2 system.\n2. The input is a ramp: r(t) = 10t, so R(s) = 10/s².\n3. For a Type-2 system, the velocity error constant Kv = lim(s→0) sG(s) = ∞.\n4. The steady-state error for a ramp input is ess = A/Kv, where A is the ramp magnitude (10).\n5. Since Kv = ∞, ess = 10/∞ = 0."
+  },
+  {
+    "Question": "A second order system has the transfer function 16 / (s² + 4s + 16). What is the time for the first overshoot?",
+    "A": "2π/3 s",
+    "B": "π/3 s",
+    "C": "π/(2√3) s",
+    "D": "π/(4√3) s",
+    "Answer": "π/(2√3) s",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Compare the denominator with s² + 2ζωns + ωn²: ωn² = 16 → ωn = 4 rad/s. And 2ζωn = 4 → ζ = 0.5.\n2. The damped natural frequency ωd = ωn√(1-ζ²) = 4 × √(1-0.25) = 4 × √0.75 = 4 × (√3/2) = 2√3 rad/s.\n3. The time for the first overshoot is the peak time tp = π/ωd.\n4. tp = π / (2√3) seconds."
+  },
+  {
+    "Question": "The transfer function of a linear invariant system is given as 1/(s+1). What is the steady-state value of the unit impulse response?",
+    "A": "Zero",
+    "B": "One",
+    "C": "Two",
+    "D": "Infinite",
+    "Answer": "Zero",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The impulse response is the inverse Laplace transform of the transfer function: c(t) = L⁻¹[1/(s+1)] = e^(-t).\n2. The steady-state value is the value as t → ∞.\n3. As t → ∞, e^(-t) → 0.\n4. Alternatively, using the Final Value Theorem on the impulse response: lim(s→0) s × [1/(s+1)] = 0."
+  },
+  {
+    "Question": "Consider F(s) = 5 / [s(s² + 3s + 1)], where F(s) is the Laplace transform of f(t). The initial value of f(t) is",
+    "A": "5",
+    "B": "5/2",
+    "C": "5/3",
+    "D": "0",
+    "Answer": "0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Apply the Initial Value Theorem: f(0+) = lim(s→∞) sF(s).\n2. sF(s) = 5 / (s² + 3s + 1).\n3. As s → ∞, the denominator grows much faster than the numerator, so the limit is 0.\n4. Therefore, the initial value is 0."
+  },
+  {
+    "Question": "What is the steady-state value of the unit step response of the closed loop control system shown in the figure? (Forward path: gain 10 followed by 1/(s+1); feedback path: 1/s; negative feedback.)",
+    "A": "-0.5",
+    "B": "0",
+    "C": "2",
+    "D": "∞",
+    "Answer": "0",
+    "Image": "https://imgh.in/images/e89mw8",
+    "Explaination": "Step-by-Step Solution:\n1. Find the closed-loop transfer function T(s) = G/(1+GH).\n2. G(s) = 10/(s+1) and H(s) = 1/s.\n3. T(s) = [10/(s+1)] / [1 + (10/(s+1))(1/s)] = [10/(s+1)] / [(s(s+1) + 10)/(s(s+1))] = 10s / (s² + s + 10).\n4. For a unit step input, C(s) = T(s) × (1/s) = 10 / (s² + s + 10).\n5. Apply the Final Value Theorem: c(∞) = lim(s→0) s × C(s) = lim(s→0) 10s / (s² + s + 10) = 0.\n6. The integrator in the feedback path blocks the DC gain, so the steady-state value is 0."
+  }
+]
