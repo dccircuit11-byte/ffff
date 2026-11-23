@@ -1,4 +1,4 @@
-// JSON 2 (Questions 11–22)
+
 [
   {
     "Question": "Consider the following statements associated with phase and gain margins: 1. They are a measure of closeness of the polar plot to the (-1, j0) point. 2. For a non-minimum system phase to be stable it must have positive phase and gain margins. 3. For a minimum phase system to be stable, both the margins must be positive. Which of the above statements is/are correct?",
