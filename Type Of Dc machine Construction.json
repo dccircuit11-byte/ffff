@@ -1,0 +1,182 @@
+[
+  {
+    "Question": "How are the field winding and armature winding connected in a separately excited DC generator?",
+    "A": "In series",
+    "B": "In parallel",
+    "C": "The field winding is supplied from a separate DC source, independent of the armature",
+    "D": "The field winding is short-circuited",
+    "Answer": "The field winding is supplied from a separate DC source, independent of the armature",
+    "Image": "1",
+    "Explaination": "In a separately excited DC generator, the field winding is supplied from an independent external DC source, not from the armature itself."
+  },
+  {
+    "Question": "How are the field winding and armature winding connected in a shunt DC generator?",
+    "A": "In series",
+    "B": "In parallel (across the armature terminals)",
+    "C": "The field winding is supplied from a separate DC source",
+    "D": "The field winding is short-circuited",
+    "Answer": "In parallel (across the armature terminals)",
+    "Image": "1",
+    "Explaination": "In a shunt DC generator, the field winding is connected in parallel with the armature, so it receives the full terminal voltage."
+  },
+  {
+    "Question": "How are the field winding and armature winding connected in a series DC generator?",
+    "A": "In series",
+    "B": "In parallel",
+    "C": "The field winding is supplied from a separate DC source",
+    "D": "The field winding is short-circuited",
+    "Answer": "In series",
+    "Image": "1",
+    "Explaination": "In a series DC generator, the field winding is connected in series with the armature, so the full load current flows through the field winding."
+  },
+  {
+    "Question": "How are the field winding and armature winding connected in a compound DC generator?",
+    "A": "The field winding has both series and shunt components",
+    "B": "The field winding is connected only in series",
+    "C": "The field winding is connected only in parallel",
+    "D": "The field winding is supplied from a separate DC source",
+    "Answer": "The field winding has both series and shunt components",
+    "Image": "1",
+    "Explaination": "A compound DC generator has both a series field winding and a shunt field winding, connected in various configurations (cumulative or differential) to optimize performance."
+  },
+  {
+    "Question": "What is the shape of the magnetization curve (E vs. If) of a DC generator?",
+    "A": "Linear",
+    "B": "Exponential",
+    "C": "S-shaped (non-linear due to saturation)",
+    "D": "Parabolic",
+    "Answer": "S-shaped (non-linear due to saturation)",
+    "Image": "1",
+    "Explaination": "The magnetization curve of a DC generator is non-linear (S-shaped) due to magnetic saturation of the core at higher field currents."
+  },
+  {
+    "Question": "What is the 'critical field resistance' of a shunt DC generator?",
+    "A": "The maximum field resistance at which the generator can build up voltage",
+    "B": "The minimum field resistance at which the generator can build up voltage",
+    "C": "The field resistance at which the generator output is maximum",
+    "D": "The field resistance at which the generator output is zero",
+    "Answer": "The maximum field resistance at which the generator can build up voltage",
+    "Image": "1",
+    "Explaination": "The critical field resistance is the maximum field resistance at which a shunt generator can build up its voltage. Above this resistance, the generator fails to build up voltage."
+  },
+  {
+    "Question": "What is the condition for voltage build-up in a shunt DC generator?",
+    "A": "The field resistance must be less than the critical field resistance",
+    "B": "The field resistance must be greater than the critical field resistance",
+    "C": "The field resistance must be equal to the critical field resistance",
+    "D": "The field resistance must be zero",
+    "Answer": "The field resistance must be less than the critical field resistance",
+    "Image": "1",
+    "Explaination": "For a shunt DC generator to build up voltage, the field resistance must be less than the critical field resistance, and there must be residual magnetism in the poles."
+  },
+  {
+    "Question": "Why does a shunt DC generator fail to build up voltage if the field resistance is too high?",
+    "A": "The field current is too small to generate sufficient flux to induce voltage",
+    "B": "The armature current is too high",
+    "C": "The speed is too high",
+    "D": "The residual magnetism is too strong",
+    "Answer": "The field current is too small to generate sufficient flux to induce voltage",
+    "Image": "1",
+    "Explaination": "If the field resistance is too high (above the critical field resistance), the field current is too small to generate sufficient flux to induce voltage, and the generator fails to build up voltage."
+  },
+  {
+    "Question": "What is the characteristic of a series DC generator?",
+    "A": "The terminal voltage increases with load current (up to saturation) due to the series field",
+    "B": "The terminal voltage decreases with load current",
+    "C": "The terminal voltage remains constant",
+    "D": "The terminal voltage is zero",
+    "Answer": "The terminal voltage increases with load current (up to saturation) due to the series field",
+    "Image": "1",
+    "Explaination": "In a series DC generator, the field winding is in series with the armature, so the field flux increases with load current, causing the terminal voltage to increase with load (up to saturation)."
+  },
+  {
+    "Question": "What is the characteristic of a shunt DC generator?",
+    "A": "The terminal voltage decreases slightly with load current due to armature reaction and armature resistance drop",
+    "B": "The terminal voltage increases with load current",
+    "C": "The terminal voltage remains constant",
+    "D": "The terminal voltage is zero",
+    "Answer": "The terminal voltage decreases slightly with load current due to armature reaction and armature resistance drop",
+    "Image": "1",
+    "Explaination": "In a shunt DC generator, the terminal voltage decreases slightly with load current due to the voltage drop across the armature resistance and the demagnetizing effect of armature reaction."
+  },
+  {
+    "Question": "What is the characteristic of a cumulative compound DC generator?",
+    "A": "The terminal voltage remains relatively constant or increases slightly with load current due to the cumulative effect of the series field",
+    "B": "The terminal voltage decreases significantly with load current",
+    "C": "The terminal voltage increases exponentially with load current",
+    "D": "The terminal voltage is zero",
+    "Answer": "The terminal voltage remains relatively constant or increases slightly with load current due to the cumulative effect of the series field",
+    "Image": "1",
+    "Explaination": "In a cumulative compound DC generator, the series field aids the shunt field, so the terminal voltage remains relatively constant (or increases slightly) with load current, making it suitable for constant-voltage applications."
+  },
+  {
+    "Question": "What is the characteristic of a differential compound DC generator?",
+    "A": "The terminal voltage decreases significantly with load current due to the opposing effect of the series field",
+    "B": "The terminal voltage increases with load current",
+    "C": "The terminal voltage remains constant",
+    "D": "The terminal voltage is zero",
+    "Answer": "The terminal voltage decreases significantly with load current due to the opposing effect of the series field",
+    "Image": "1",
+    "Explaination": "In a differential compound DC generator, the series field opposes the shunt field, causing the terminal voltage to decrease significantly with load current."
+  },
+  {
+    "Question": "What is the application of a series DC generator?",
+    "A": "Constant voltage power supply",
+    "B": "Battery charging and arc welding",
+    "C": "Domestic lighting",
+    "D": "Computer power supply",
+    "Answer": "Battery charging and arc welding",
+    "Image": "1",
+    "Explaination": "Series DC generators are used for applications requiring a rising voltage characteristic, such as battery charging and arc welding."
+  },
+  {
+    "Question": "What is the application of a shunt DC generator?",
+    "A": "Constant voltage power supply for lighting and motors",
+    "B": "Battery charging",
+    "C": "Arc welding",
+    "D": "Electric traction",
+    "Answer": "Constant voltage power supply for lighting and motors",
+    "Image": "1",
+    "Explaination": "Shunt DC generators are used for constant voltage power supply applications, such as lighting and motor loads."
+  },
+  {
+    "Question": "What is the application of a cumulative compound DC generator?",
+    "A": "Constant voltage power supply for heavy loads with long feeders",
+    "B": "Battery charging",
+    "C": "Arc welding",
+    "D": "Electric traction",
+    "Answer": "Constant voltage power supply for heavy loads with long feeders",
+    "Image": "1",
+    "Explaination": "Cumulative compound DC generators are used for constant voltage power supply to heavy loads with long feeders, where the series field compensates for the voltage drop in the feeder."
+  },
+  {
+    "Question": "What is the application of a differential compound DC generator?",
+    "A": "Welding and arc lighting",
+    "B": "Constant voltage power supply",
+    "C": "Battery charging",
+    "D": "Electric traction",
+    "Answer": "Welding and arc lighting",
+    "Image": "1",
+    "Explaination": "Differential compound DC generators are used for welding and arc lighting, where a drooping voltage characteristic is required."
+  },
+  {
+    "Question": "What is the formula for the terminal voltage of a DC generator?",
+    "A": "V = E - IaRa",
+    "B": "V = E + IaRa",
+    "C": "V = E × IaRa",
+    "D": "V = E / IaRa",
+    "Answer": "V = E - IaRa",
+    "Image": "1",
+    "Explaination": "The terminal voltage of a DC generator is given by V = E - IaRa, where E is the generated EMF, Ia is the armature current, and Ra is the armature resistance."
+  },
+  {
+    "Question": "What is the formula for the generated EMF of a DC generator?",
+    "A": "E = (PφNZ)/(60A)",
+    "B": "E = (PφNZ)/(120A)",
+    "C": "E = (PφNZ)/(60)",
+    "D": "E = (PφNZ)/(A)",
+    "Answer": "E = (PφNZ)/(60A)",
+    "Image": "1",
+    "Explaination": "The generated EMF of a DC generator is given by E = (PφNZ)/(60A), where P is the number of poles, φ is the flux per pole, N is the speed in RPM, Z is the number of armature conductors, and A is the number of parallel paths."
+  }
+]

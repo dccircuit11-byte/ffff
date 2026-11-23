@@ -1,0 +1,142 @@
+[
+  {
+    "Question": "What is a synchronous motor?",
+    "A": "An AC motor that runs at synchronous speed, exactly proportional to the supply frequency",
+    "B": "An AC motor that runs below synchronous speed",
+    "C": "A DC motor that runs at constant speed",
+    "D": "An induction motor with a wound rotor",
+    "Answer": "An AC motor that runs at synchronous speed, exactly proportional to the supply frequency",
+    "Image": "1",
+    "Explaination": "A synchronous motor is an AC motor that operates at synchronous speed (Ns = 120f/P), which is exactly proportional to the supply frequency and the number of poles."
+  },
+  {
+    "Question": "How is a synchronous motor started?",
+    "A": "It is not self-starting and requires an external prime mover or damper windings to start",
+    "B": "It is self-starting like an induction motor",
+    "C": "It is started by connecting DC to the stator",
+    "D": "It is started by reducing the supply frequency to zero",
+    "Answer": "It is not self-starting and requires an external prime mover or damper windings to start",
+    "Image": "1",
+    "Explaination": "A synchronous motor is not self-starting because the rotor has inertia and cannot instantly follow the rotating magnetic field. It requires an external prime mover or damper windings (amortisseur windings) to start."
+  },
+  {
+    "Question": "What is the effect of increasing the field excitation on the power factor of a synchronous motor at constant load?",
+    "A": "The power factor can be changed from lagging to leading",
+    "B": "The power factor remains constant",
+    "C": "The power factor always becomes lagging",
+    "D": "The power factor always becomes leading",
+    "Answer": "The power factor can be changed from lagging to leading",
+    "Image": "1",
+    "Explaination": "By varying the field excitation of a synchronous motor, the power factor can be controlled. Under-excitation causes lagging power factor, while over-excitation causes leading power factor."
+  },
+  {
+    "Question": "What is the condition for a synchronous motor to operate at unity power factor?",
+    "A": "Normal excitation",
+    "B": "Under-excitation",
+    "C": "Over-excitation",
+    "D": "Zero excitation",
+    "Answer": "Normal excitation",
+    "Image": "1",
+    "Explaination": "A synchronous motor operates at unity power factor when the field excitation is at its normal value, where the armature current is minimum for a given load."
+  },
+  {
+    "Question": "What is the effect of under-excitation on a synchronous motor?",
+    "A": "The motor operates at a lagging power factor",
+    "B": "The motor operates at a leading power factor",
+    "C": "The motor operates at unity power factor",
+    "D": "The motor operates at zero power factor",
+    "Answer": "The motor operates at a lagging power factor",
+    "Image": "1",
+    "Explaination": "When a synchronous motor is under-excited, it draws magnetizing reactive power from the supply, causing it to operate at a lagging power factor."
+  },
+  {
+    "Question": "What is the effect of over-excitation on a synchronous motor?",
+    "A": "The motor operates at a leading power factor",
+    "B": "The motor operates at a lagging power factor",
+    "C": "The motor operates at unity power factor",
+    "D": "The motor operates at zero power factor",
+    "Answer": "The motor operates at a leading power factor",
+    "Image": "1",
+    "Explaination": "When a synchronous motor is over-excited, it supplies reactive power to the supply, causing it to operate at a leading power factor."
+  },
+  {
+    "Question": "What are the V-curves of a synchronous motor?",
+    "A": "Curves showing the variation of armature current with field current at constant load",
+    "B": "Curves showing the variation of speed with load",
+    "C": "Curves showing the variation of torque with speed",
+    "D": "Curves showing the variation of voltage with current",
+    "Answer": "Curves showing the variation of armature current with field current at constant load",
+    "Image": "1",
+    "Explaination": "The V-curves of a synchronous motor show the variation of armature current with field current at constant load, with the minimum armature current occurring at unity power factor."
+  },
+  {
+    "Question": "What is the application of a synchronous motor?",
+    "A": "Power factor correction and constant speed drives",
+    "B": "Variable speed drives",
+    "C": "Electric traction",
+    "D": "Cranes and hoists",
+    "Answer": "Power factor correction and constant speed drives",
+    "Image": "1",
+    "Explaination": "Synchronous motors are used for power factor correction (as synchronous condensers) and for constant speed drives, such as compressors and pumps."
+  },
+  {
+    "Question": "What is a synchronous condenser?",
+    "A": "An over-excited synchronous motor running without mechanical load to improve power factor",
+    "B": "A DC generator",
+    "C": "An induction motor with a wound rotor",
+    "D": "A type of transformer",
+    "Answer": "An over-excited synchronous motor running without mechanical load to improve power factor",
+    "Image": "1",
+    "Explaination": "A synchronous condenser is an over-excited synchronous motor running without mechanical load, used to supply leading reactive power and improve the power factor of the system."
+  },
+  {
+    "Question": "What is the main advantage of a synchronous motor over an induction motor?",
+    "A": "It can operate at leading power factor and improve system power factor",
+    "B": "It is self-starting",
+    "C": "It is cheaper",
+    "D": "It requires less maintenance",
+    "Answer": "It can operate at leading power factor and improve system power factor",
+    "Image": "1",
+    "Explaination": "The main advantage of a synchronous motor over an induction motor is its ability to operate at a leading power factor (when over-excited), which can be used to improve the overall power factor of the system."
+  },
+  {
+    "Question": "What is the main disadvantage of a synchronous motor?",
+    "A": "It is not self-starting and requires an auxiliary starting method",
+    "B": "It cannot operate at leading power factor",
+    "C": "It has lower efficiency than an induction motor",
+    "D": "It requires more maintenance than an induction motor",
+    "Answer": "It is not self-starting and requires an auxiliary starting method",
+    "Image": "1",
+    "Explaination": "The main disadvantage of a synchronous motor is that it is not self-starting and requires an auxiliary starting method, such as damper windings or an external prime mover."
+  },
+  {
+    "Question": "What is the effect of load on the speed of a synchronous motor?",
+    "A": "Speed remains constant regardless of load",
+    "B": "Speed decreases with load",
+    "C": "Speed increases with load",
+    "D": "Speed becomes zero at full load",
+    "Answer": "Speed remains constant regardless of load",
+    "Image": "1",
+    "Explaination": "A synchronous motor runs at constant synchronous speed regardless of the load, as long as the load does not exceed the pull-out torque."
+  },
+  {
+    "Question": "What is the 'pull-out torque' of a synchronous motor?",
+    "A": "The maximum torque that the motor can develop without losing synchronism",
+    "B": "The minimum torque required to start the motor",
+    "C": "The torque at no load",
+    "D": "The torque at full load",
+    "Answer": "The maximum torque that the motor can develop without losing synchronism",
+    "Image": "1",
+    "Explaination": "The pull-out torque is the maximum torque that a synchronous motor can develop without losing synchronism. If the load torque exceeds this value, the motor will stall."
+  },
+  {
+    "Question": "What is the effect of increasing the load on the power angle of a synchronous motor?",
+    "A": "The power angle increases",
+    "B": "The power angle decreases",
+    "C": "The power angle remains constant",
+    "D": "The power angle becomes zero",
+    "Answer": "The power angle increases",
+    "Image": "1",
+    "Explaination": "As the load on a synchronous motor increases, the power angle (δ) increases to develop the additional torque required to meet the load, up to the pull-out torque limit."
+  }
+]

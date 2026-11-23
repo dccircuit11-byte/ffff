@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "What is the shape of the torque-slip curve of a three-phase induction motor?",
+    "A": "A curve that rises from zero torque at synchronous speed to a maximum (pull-out) torque, and then decreases to zero at standstill",
+    "B": "A straight line",
+    "C": "A parabola",
+    "D": "A constant value",
+    "Answer": "A curve that rises from zero torque at synchronous speed to a maximum (pull-out) torque, and then decreases to zero at standstill",
+    "Image": "1",
+    "Explaination": "The torque-slip curve of an induction motor starts at zero torque at synchronous speed (s=0), rises to a maximum (pull-out or breakdown) torque at a certain slip, and then decreases to the starting torque at standstill (s=1)."
+  },
+  {
+    "Question": "At what slip does the maximum torque of an induction motor occur?",
+    "A": "s = R2/X2",
+    "B": "s = X2/R2",
+    "C": "s = 1",
+    "D": "s = 0",
+    "Answer": "s = R2/X2",
+    "Image": "1",
+    "Explaination": "The maximum torque of an induction motor occurs at a slip given by s = R2/X2, where R2 is the rotor resistance and X2 is the rotor reactance at standstill."
+  },
+  {
+    "Question": "What is the effect of increasing the rotor resistance on the maximum torque of an induction motor?",
+    "A": "The maximum torque remains unchanged, but it occurs at a higher slip",
+    "B": "The maximum torque increases",
+    "C": "The maximum torque decreases",
+    "D": "The maximum torque becomes zero",
+    "Answer": "The maximum torque remains unchanged, but it occurs at a higher slip",
+    "Image": "1",
+    "Explaination": "Increasing the rotor resistance does not change the maximum torque value, but it shifts the maximum torque point to a higher slip, which can be used to increase the starting torque."
+  },
+  {
+    "Question": "What is the 'starting torque' of an induction motor?",
+    "A": "The torque developed at standstill (s=1)",
+    "B": "The torque developed at synchronous speed (s=0)",
+    "C": "The maximum torque developed",
+    "D": "The torque developed at full load",
+    "Answer": "The torque developed at standstill (s=1)",
+    "Image": "1",
+    "Explaination": "The starting torque is the torque developed by the induction motor when it is first energized and the rotor is stationary (slip = 1)."
+  },
+  {
+    "Question": "What is the 'pull-out torque' or 'breakdown torque' of an induction motor?",
+    "A": "The maximum torque that the motor can develop without stalling",
+    "B": "The torque developed at no load",
+    "C": "The torque developed at full load",
+    "D": "The torque developed at standstill",
+    "Answer": "The maximum torque that the motor can develop without stalling",
+    "Image": "1",
+    "Explaination": "The pull-out torque (or breakdown torque) is the maximum torque that the induction motor can develop. If the load torque exceeds this value, the motor will stall."
+  },
+  {
+    "Question": "What is the power flow sequence in an induction motor?",
+    "A": "Stator input → Stator losses → Air-gap power → Rotor losses → Mechanical output",
+    "B": "Rotor input → Rotor losses → Air-gap power → Stator losses → Mechanical output",
+    "C": "Mechanical input → Rotor losses → Air-gap power → Stator losses → Electrical output",
+    "D": "Stator input → Mechanical output → Rotor losses",
+    "Answer": "Stator input → Stator losses → Air-gap power → Rotor losses → Mechanical output",
+    "Image": "1",
+    "Explaination": "The power flow in an induction motor is: stator input power → stator losses (copper and iron) → air-gap power transferred to rotor → rotor losses (copper) → mechanical output power."
+  },
+  {
+    "Question": "What is the relationship between rotor copper loss and air-gap power in an induction motor?",
+    "A": "Rotor copper loss = s × Air-gap power",
+    "B": "Rotor copper loss = Air-gap power / s",
+    "C": "Rotor copper loss = Air-gap power",
+    "D": "Rotor copper loss = s² × Air-gap power",
+    "Answer": "Rotor copper loss = s × Air-gap power",
+    "Image": "1",
+    "Explaination": "The rotor copper loss is given by s × Air-gap power, where s is the slip. This shows that a higher slip results in higher rotor losses."
+  },
+  {
+    "Question": "What is the efficiency of an induction motor in terms of slip?",
+    "A": "Efficiency ≈ 1 - s (approximately, neglecting stator losses)",
+    "B": "Efficiency ≈ s",
+    "C": "Efficiency ≈ 1 + s",
+    "D": "Efficiency ≈ s²",
+    "Answer": "Efficiency ≈ 1 - s (approximately, neglecting stator losses)",
+    "Image": "1",
+    "Explaination": "Neglecting stator losses, the efficiency of an induction motor is approximately (1 - s), meaning that low slip operation results in high efficiency."
+  },
+  {
+    "Question": "What is the no-load test of an induction motor used to determine?",
+    "A": "Core losses, friction, and windage losses",
+    "B": "Copper losses",
+    "C": "Starting torque",
+    "D": "Pull-out torque",
+    "Answer": "Core losses, friction, and windage losses",
+    "Image": "1",
+    "Explaination": "The no-load test is performed by running the induction motor at no load with rated voltage. It determines the constant losses, which include core losses, friction, and windage losses."
+  },
+  {
+    "Question": "What is the blocked rotor test of an induction motor used to determine?",
+    "A": "Copper losses and equivalent circuit parameters",
+    "B": "Core losses",
+    "C": "Friction and windage losses",
+    "D": "Starting torque",
+    "Answer": "Copper losses and equivalent circuit parameters",
+    "Image": "1",
+    "Explaination": "The blocked rotor test is performed by locking the rotor and applying a reduced voltage to circulate rated current. It determines the copper losses and the equivalent circuit parameters (resistance and reactance)."
+  },
+  {
+    "Question": "What is the condition for maximum efficiency of an induction motor?",
+    "A": "Variable losses (copper losses) = Constant losses (core, friction, windage)",
+    "B": "Variable losses > Constant losses",
+    "C": "Variable losses < Constant losses",
+    "D": "Variable losses = 0",
+    "Answer": "Variable losses (copper losses) = Constant losses (core, friction, windage)",
+    "Image": "1",
+    "Explaination": "The maximum efficiency of an induction motor occurs when the variable losses (copper losses) equal the constant losses (core, friction, and windage losses)."
+  },
+  {
+    "Question": "What is the typical value of slip at full load for a standard squirrel cage induction motor?",
+    "A": "1% to 5%",
+    "B": "10% to 20%",
+    "C": "20% to 30%",
+    "D": "30% to 40%",
+    "Answer": "1% to 5%",
+    "Image": "1",
+    "Explaination": "A standard squirrel cage induction motor typically operates at a slip of 1% to 5% at full load, meaning it runs very close to synchronous speed."
+  },
+  {
+    "Question": "What is the effect of increasing the supply voltage on the torque of an induction motor?",
+    "A": "The torque is proportional to the square of the voltage",
+    "B": "The torque is directly proportional to the voltage",
+    "C": "The torque is inversely proportional to the voltage",
+    "D": "The torque is independent of the voltage",
+    "Answer": "The torque is proportional to the square of the voltage",
+    "Image": "1",
+    "Explaination": "The torque developed by an induction motor is proportional to the square of the supply voltage (T ∝ V²). Therefore, a small reduction in voltage causes a significant reduction in torque."
+  },
+  {
+    "Question": "What is the 'Crawling' phenomenon in an induction motor?",
+    "A": "The tendency of the motor to run at a stable speed that is about one-seventh of synchronous speed due to space harmonics",
+    "B": "The tendency of the motor to run at synchronous speed",
+    "C": "The tendency of the motor to run at a very high speed",
+    "D": "The tendency of the motor to overheat",
+    "Answer": "The tendency of the motor to run at a stable speed that is about one-seventh of synchronous speed due to space harmonics",
+    "Image": "1",
+    "Explaination": "Crawling is the tendency of an induction motor to run stably at a speed of about one-seventh of synchronous speed (due to the 7th space harmonic), which can cause erratic operation."
+  },
+  {
+    "Question": "What is 'Cogging' in an induction motor?",
+    "A": "The failure of the motor to start due to the locking of the rotor with the stator magnetic field",
+    "B": "The tendency of the motor to run at synchronous speed",
+    "C": "The tendency of the motor to run at a very high speed",
+    "D": "The tendency of the motor to overheat",
+    "Answer": "The failure of the motor to start due to the locking of the rotor with the stator magnetic field",
+    "Image": "1",
+    "Explaination": "Cogging (or magnetic locking) occurs when the number of stator slots equals or is an integral multiple of the rotor slots, causing the rotor to lock magnetically and fail to start."
+  }
+]

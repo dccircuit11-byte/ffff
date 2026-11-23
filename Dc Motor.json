@@ -1,0 +1,162 @@
+[
+  {
+    "Question": "What is the principle of operation of a DC motor?",
+    "A": "When a current-carrying conductor is placed in a magnetic field, it experiences a force",
+    "B": "When a conductor moves in a magnetic field, an EMF is induced",
+    "C": "When a conductor is heated, it emits electrons",
+    "D": "When a conductor is cooled, it becomes superconducting",
+    "Answer": "When a current-carrying conductor is placed in a magnetic field, it experiences a force",
+    "Image": "1",
+    "Explaination": "A DC motor operates on the principle that when a current-carrying conductor is placed in a magnetic field, it experiences a mechanical force (Lorentz force), causing the rotor to rotate."
+  },
+  {
+    "Question": "What is the back EMF in a DC motor?",
+    "A": "The EMF induced in the armature due to its rotation, opposing the applied voltage",
+    "B": "The EMF applied to the field winding",
+    "C": "The EMF induced in the field winding",
+    "D": "The EMF applied to the armature",
+    "Answer": "The EMF induced in the armature due to its rotation, opposing the applied voltage",
+    "Image": "1",
+    "Explaination": "Back EMF is the EMF induced in the armature conductors as they rotate in the magnetic field. It opposes the applied voltage and regulates the armature current."
+  },
+  {
+    "Question": "What is the formula for the back EMF of a DC motor?",
+    "A": "Eb = V - IaRa",
+    "B": "Eb = V + IaRa",
+    "C": "Eb = V × IaRa",
+    "D": "Eb = V / IaRa",
+    "Answer": "Eb = V - IaRa",
+    "Image": "1",
+    "Explaination": "The back EMF of a DC motor is given by Eb = V - IaRa, where V is the applied voltage, Ia is the armature current, and Ra is the armature resistance."
+  },
+  {
+    "Question": "What happens to the armature current when the load on a DC motor increases?",
+    "A": "Armature current increases",
+    "B": "Armature current decreases",
+    "C": "Armature current remains constant",
+    "D": "Armature current becomes zero",
+    "Answer": "Armature current increases",
+    "Image": "1",
+    "Explaination": "When the load on a DC motor increases, the speed decreases, reducing the back EMF. This causes the armature current to increase, providing the additional torque required to meet the load."
+  },
+  {
+    "Question": "What is the characteristic of a shunt DC motor?",
+    "A": "Approximately constant speed regardless of load",
+    "B": "Speed decreases significantly with load",
+    "C": "Speed increases significantly with load",
+    "D": "Speed is zero at no load",
+    "Answer": "Approximately constant speed regardless of load",
+    "Image": "1",
+    "Explaination": "A shunt DC motor has an approximately constant speed characteristic because the field flux is constant (field winding is in parallel with the armature), and the speed depends mainly on the armature voltage."
+  },
+  {
+    "Question": "What is the characteristic of a series DC motor?",
+    "A": "High starting torque and speed varies significantly with load",
+    "B": "Constant speed regardless of load",
+    "C": "Speed increases with load",
+    "D": "Speed is zero at no load",
+    "Answer": "High starting torque and speed varies significantly with load",
+    "Image": "1",
+    "Explaination": "A series DC motor has a high starting torque (since field flux increases with armature current) and its speed varies significantly with load. It should never be started at no load as it can overspeed."
+  },
+  {
+    "Question": "What is the characteristic of a cumulative compound DC motor?",
+    "A": "High starting torque and relatively constant speed",
+    "B": "Low starting torque and constant speed",
+    "C": "Speed increases with load",
+    "D": "Speed is zero at no load",
+    "Answer": "High starting torque and relatively constant speed",
+    "Image": "1",
+    "Explaination": "A cumulative compound DC motor combines the high starting torque of a series motor with the constant speed characteristic of a shunt motor, making it suitable for loads requiring high starting torque and stable speed."
+  },
+  {
+    "Question": "What is the application of a shunt DC motor?",
+    "A": "Machine tools, lathes, and centrifugal pumps",
+    "B": "Electric traction",
+    "C": "Cranes and hoists",
+    "D": "Arc welding",
+    "Answer": "Machine tools, lathes, and centrifugal pumps",
+    "Image": "1",
+    "Explaination": "Shunt DC motors are used in applications requiring constant speed, such as machine tools, lathes, and centrifugal pumps."
+  },
+  {
+    "Question": "What is the application of a series DC motor?",
+    "A": "Electric traction, cranes, and hoists",
+    "B": "Machine tools",
+    "C": "Centrifugal pumps",
+    "D": "Lathes",
+    "Answer": "Electric traction, cranes, and hoists",
+    "Image": "1",
+    "Explaination": "Series DC motors are used in applications requiring high starting torque, such as electric traction, cranes, and hoists."
+  },
+  {
+    "Question": "What is the application of a cumulative compound DC motor?",
+    "A": "Compressors, conveyors, and elevators",
+    "B": "Electric traction",
+    "C": "Arc welding",
+    "D": "Lathes",
+    "Answer": "Compressors, conveyors, and elevators",
+    "Image": "1",
+    "Explaination": "Cumulative compound DC motors are used in applications requiring high starting torque and relatively constant speed, such as compressors, conveyors, and elevators."
+  },
+  {
+    "Question": "What is the purpose of a DC motor starter?",
+    "A": "To limit the starting current",
+    "B": "To increase the starting current",
+    "C": "To control the speed",
+    "D": "To improve the power factor",
+    "Answer": "To limit the starting current",
+    "Image": "1",
+    "Explaination": "A DC motor starter limits the starting current by adding resistance in series with the armature during starting, protecting the motor from excessive current."
+  },
+  {
+    "Question": "Why is the starting current of a DC motor very high?",
+    "A": "Because the back EMF is zero at starting",
+    "B": "Because the field flux is zero at starting",
+    "C": "Because the armature resistance is zero",
+    "D": "Because the supply voltage is zero",
+    "Answer": "Because the back EMF is zero at starting",
+    "Image": "1",
+    "Explaination": "At starting, the back EMF of a DC motor is zero (since the armature is stationary), so the armature current is limited only by the armature resistance, which is very small, resulting in a very high starting current."
+  },
+  {
+    "Question": "What is a 'three-point starter' in a DC motor?",
+    "A": "A starter that uses a variable resistance in series with the armature and a no-volt release coil",
+    "B": "A starter that uses a variable resistance in series with the field winding",
+    "C": "A starter that uses a capacitor to limit the starting current",
+    "D": "A starter that uses a transformer to reduce the starting voltage",
+    "Answer": "A starter that uses a variable resistance in series with the armature and a no-volt release coil",
+    "Image": "1",
+    "Explaination": "A three-point starter uses a variable resistance in series with the armature to limit the starting current, and includes a no-volt release coil for protection against supply failure."
+  },
+  {
+    "Question": "What is a 'four-point starter' in a DC motor?",
+    "A": "A starter that uses a variable resistance in series with the armature and a no-volt release coil connected separately",
+    "B": "A starter that uses a variable resistance in series with the field winding",
+    "C": "A starter that uses a capacitor to limit the starting current",
+    "D": "A starter that uses a transformer to reduce the starting voltage",
+    "Answer": "A starter that uses a variable resistance in series with the armature and a no-volt release coil connected separately",
+    "Image": "1",
+    "Explaination": "A four-point starter is similar to a three-point starter but has the no-volt release coil connected separately from the field circuit, providing better protection and allowing the field current to be controlled independently."
+  },
+  {
+    "Question": "What is the purpose of a no-volt release coil in a DC motor starter?",
+    "A": "To protect the motor against supply failure and prevent automatic restart",
+    "B": "To increase the starting current",
+    "C": "To control the speed",
+    "D": "To improve the power factor",
+    "Answer": "To protect the motor against supply failure and prevent automatic restart",
+    "Image": "1",
+    "Explaination": "The no-volt release coil (or undervoltage release) protects the motor against supply failure by tripping the starter and preventing automatic restart when the supply is restored."
+  },
+  {
+    "Question": "What is the purpose of an overload release in a DC motor starter?",
+    "A": "To protect the motor against excessive current",
+    "B": "To increase the starting current",
+    "C": "To control the speed",
+    "D": "To improve the power factor",
+    "Answer": "To protect the motor against excessive current",
+    "Image": "1",
+    "Explaination": "The overload release protects the motor against excessive current by tripping the starter when the current exceeds a set threshold, preventing damage to the motor."
+  }
+]

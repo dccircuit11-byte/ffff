@@ -1,0 +1,162 @@
+[
+  {
+    "Question": "What is the principle of operation of a synchronous generator?",
+    "A": "Electromagnetic induction caused by relative motion between a magnetic field and conductors",
+    "B": "Self-induction caused by a changing current",
+    "C": "Mutual induction between two stationary coils",
+    "D": "Thermoelectric effect",
+    "Answer": "Electromagnetic induction caused by relative motion between a magnetic field and conductors",
+    "Image": "1",
+    "Explaination": "A synchronous generator operates on the principle of electromagnetic induction, where relative motion between a magnetic field (rotor) and conductors (stator) induces an EMF."
+  },
+  {
+    "Question": "What is the synchronous speed of a synchronous generator?",
+    "A": "Ns = 120f/P",
+    "B": "Ns = 60f/P",
+    "C": "Ns = P × f / 120",
+    "D": "Ns = P × f / 60",
+    "Answer": "Ns = 120f/P",
+    "Image": "1",
+    "Explaination": "The synchronous speed of a synchronous generator is given by Ns = 120f/P, where f is the frequency of the generated EMF and P is the number of poles."
+  },
+  {
+    "Question": "What is the relationship between the frequency of the generated EMF and the speed of the prime mover?",
+    "A": "f = (P × Ns)/120",
+    "B": "f = (P × Ns)/60",
+    "C": "f = 120 / (P × Ns)",
+    "D": "f = 60 / (P × Ns)",
+    "Answer": "f = (P × Ns)/120",
+    "Image": "1",
+    "Explaination": "The frequency of the generated EMF is directly proportional to the speed of the prime mover and the number of poles, given by f = (P × Ns)/120."
+  },
+  {
+    "Question": "What is the purpose of the exciter in a synchronous generator?",
+    "A": "To supply DC current to the rotor field winding",
+    "B": "To supply AC current to the stator winding",
+    "C": "To cool the generator",
+    "D": "To measure the output voltage",
+    "Answer": "To supply DC current to the rotor field winding",
+    "Image": "1",
+    "Explaination": "The exciter supplies DC current to the rotor field winding to establish the magnetic field required for electromagnetic induction."
+  },
+  {
+    "Question": "What is the effect of increasing the field excitation on the terminal voltage of an isolated synchronous generator?",
+    "A": "Terminal voltage increases",
+    "B": "Terminal voltage decreases",
+    "C": "Terminal voltage remains constant",
+    "D": "Terminal voltage becomes zero",
+    "Answer": "Terminal voltage increases",
+    "Image": "1",
+    "Explaination": "Increasing the field excitation increases the magnetic flux, which increases the generated EMF and the terminal voltage of an isolated synchronous generator."
+  },
+  {
+    "Question": "What is the voltage regulation of a synchronous generator?",
+    "A": "The change in terminal voltage from no load to full load, expressed as a percentage of the rated terminal voltage",
+    "B": "The change in frequency from no load to full load",
+    "C": "The change in power factor from no load to full load",
+    "D": "The change in efficiency from no load to full load",
+    "Answer": "The change in terminal voltage from no load to full load, expressed as a percentage of the rated terminal voltage",
+    "Image": "1",
+    "Explaination": "Voltage regulation is the change in terminal voltage when the load is reduced from full load to no load, with the field excitation and speed remaining constant, expressed as a percentage of the rated terminal voltage."
+  },
+  {
+    "Question": "What is the effect of a lagging power factor load on the voltage regulation of a synchronous generator?",
+    "A": "Positive voltage regulation",
+    "B": "Negative voltage regulation",
+    "C": "Zero voltage regulation",
+    "D": "Infinite voltage regulation",
+    "Answer": "Positive voltage regulation",
+    "Image": "1",
+    "Explaination": "A lagging power factor load causes a demagnetizing armature reaction, which reduces the terminal voltage, resulting in positive voltage regulation."
+  },
+  {
+    "Question": "What is the effect of a leading power factor load on the voltage regulation of a synchronous generator?",
+    "A": "Negative voltage regulation",
+    "B": "Positive voltage regulation",
+    "C": "Zero voltage regulation",
+    "D": "Infinite voltage regulation",
+    "Answer": "Negative voltage regulation",
+    "Image": "1",
+    "Explaination": "A leading power factor load causes a magnetizing armature reaction, which increases the terminal voltage, resulting in negative voltage regulation."
+  },
+  {
+    "Question": "What is the 'short circuit ratio' (SCR) of a synchronous generator?",
+    "A": "The ratio of field current required for rated terminal voltage on open circuit to the field current required for rated armature current on short circuit",
+    "B": "The ratio of short circuit current to rated current",
+    "C": "The ratio of open circuit voltage to rated voltage",
+    "D": "The ratio of field current to armature current",
+    "Answer": "The ratio of field current required for rated terminal voltage on open circuit to the field current required for rated armature current on short circuit",
+    "Image": "1",
+    "Explaination": "The short circuit ratio (SCR) is the ratio of the field current required to produce rated terminal voltage on open circuit to the field current required to produce rated armature current on short circuit."
+  },
+  {
+    "Question": "What is the effect of a higher short circuit ratio (SCR) on the stability of a synchronous generator?",
+    "A": "Higher stability",
+    "B": "Lower stability",
+    "C": "No effect on stability",
+    "D": "Infinite stability",
+    "Answer": "Higher stability",
+    "Image": "1",
+    "Explaination": "A higher SCR means a lower synchronous reactance (Xd), which improves the steady-state stability limit and voltage regulation of the synchronous generator."
+  },
+  {
+    "Question": "What is the purpose of damper windings in a synchronous generator?",
+    "A": "To dampen rotor oscillations and provide starting torque",
+    "B": "To increase the field flux",
+    "C": "To cool the generator",
+    "D": "To measure the output voltage",
+    "Answer": "To dampen rotor oscillations and provide starting torque",
+    "Image": "1",
+    "Explaination": "Damper windings (amortisseur windings) are placed in the pole faces to dampen rotor oscillations during transients and to provide starting torque when the synchronous machine is used as a motor."
+  },
+  {
+    "Question": "What is the 'power angle' (δ) of a synchronous generator?",
+    "A": "The angle between the rotor field pole axis and the stator resultant magnetic field axis",
+    "B": "The angle between the stator voltage and stator current",
+    "C": "The angle between the field current and armature current",
+    "D": "The angle between the rotor speed and synchronous speed",
+    "Answer": "The angle between the rotor field pole axis and the stator resultant magnetic field axis",
+    "Image": "1",
+    "Explaination": "The power angle (δ) is the angle between the rotor field pole axis and the stator resultant magnetic field axis, representing the electrical angle by which the rotor leads the stator field."
+  },
+  {
+    "Question": "What is the maximum power transfer capability of a cylindrical rotor synchronous generator?",
+    "A": "Pmax = (E × V)/X",
+    "B": "Pmax = (E × V)/(2X)",
+    "C": "Pmax = (E × V)/(√3 X)",
+    "D": "Pmax = (E × V)/X²",
+    "Answer": "Pmax = (E × V)/X",
+    "Image": "1",
+    "Explaination": "For a cylindrical rotor synchronous generator, the maximum power transfer occurs at δ = 90°, giving Pmax = (E × V)/X, where E is the internal voltage, V is the terminal voltage, and X is the synchronous reactance."
+  },
+  {
+    "Question": "What is the condition for maximum power transfer in a cylindrical rotor synchronous generator?",
+    "A": "δ = 90°",
+    "B": "δ = 0°",
+    "C": "δ = 180°",
+    "D": "δ = 45°",
+    "Answer": "δ = 90°",
+    "Image": "1",
+    "Explaination": "The maximum power transfer in a cylindrical rotor synchronous generator occurs at a power angle δ = 90°, where sin δ = 1."
+  },
+  {
+    "Question": "What is the 'hunting' phenomenon in a synchronous generator?",
+    "A": "Continuous oscillation of the rotor around its synchronous speed due to load fluctuations",
+    "B": "Excessive heating of the rotor",
+    "C": "Loss of field excitation",
+    "D": "Failure of the prime mover",
+    "Answer": "Continuous oscillation of the rotor around its synchronous speed due to load fluctuations",
+    "Image": "1",
+    "Explaination": "Hunting is the phenomenon where the rotor of a synchronous generator oscillates around its synchronous speed due to sudden load changes or disturbances, which can be dampened by damper windings."
+  },
+  {
+    "Question": "What is the purpose of a synchronous condenser?",
+    "A": "To supply or absorb reactive power for voltage control",
+    "B": "To generate active power",
+    "C": "To convert AC to DC",
+    "D": "To measure the output voltage",
+    "Answer": "To supply or absorb reactive power for voltage control",
+    "Image": "1",
+    "Explaination": "A synchronous condenser is an overexcited synchronous motor running without mechanical load, used to supply or absorb reactive power for voltage control and power factor improvement."
+  }
+]

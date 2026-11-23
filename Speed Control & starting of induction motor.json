@@ -1,0 +1,162 @@
+[
+  {
+    "Question": "What is the most common method of speed control for a squirrel cage induction motor?",
+    "A": "Stator voltage control",
+    "B": "Variable frequency drive (VFD)",
+    "C": "Rotor resistance control",
+    "D": "Pole changing",
+    "Answer": "Variable frequency drive (VFD)",
+    "Image": "1",
+    "Explaination": "A Variable Frequency Drive (VFD) is the most common and efficient method of speed control for squirrel cage induction motors, as it allows smooth speed control over a wide range by varying both voltage and frequency."
+  },
+  {
+    "Question": "What is the synchronous speed of an induction motor given by?",
+    "A": "Ns = (120f)/P",
+    "B": "Ns = (60f)/P",
+    "C": "Ns = (P × f)/120",
+    "D": "Ns = (P × f)/60",
+    "Answer": "Ns = (120f)/P",
+    "Image": "1",
+    "Explaination": "The synchronous speed of an induction motor is given by Ns = (120f)/P, where f is the supply frequency and P is the number of poles."
+  },
+  {
+    "Question": "What is the effect of reducing the supply voltage on the speed of an induction motor?",
+    "A": "Speed increases significantly",
+    "B": "Speed remains constant but torque capability decreases",
+    "C": "Speed decreases proportionally to the voltage",
+    "D": "Speed becomes zero",
+    "Answer": "Speed remains constant but torque capability decreases",
+    "Image": "1",
+    "Explaination": "Reducing the supply voltage reduces the torque capability of the motor (since torque is proportional to V²) but does not significantly change the no-load speed. The motor may stall if the load torque exceeds the reduced motor torque."
+  },
+  {
+    "Question": "What is the effect of increasing the rotor resistance on the speed of a slip-ring induction motor?",
+    "A": "Speed increases",
+    "B": "Speed decreases and slip increases",
+    "C": "Speed remains constant",
+    "D": "Speed becomes zero",
+    "Answer": "Speed decreases and slip increases",
+    "Image": "1",
+    "Explaination": "Increasing the rotor resistance of a slip-ring induction motor decreases the speed and increases the slip, as the motor operates at a higher slip to develop the required torque."
+  },
+  {
+    "Question": "What is the purpose of a star-delta starter in an induction motor?",
+    "A": "To reduce the starting current",
+    "B": "To increase the starting torque",
+    "C": "To control the speed",
+    "D": "To improve the power factor",
+    "Answer": "To reduce the starting current",
+    "Image": "1",
+    "Explaination": "A star-delta starter reduces the starting current by connecting the motor windings in star during starting (reducing the voltage across each winding by a factor of √3) and then switching to delta for normal operation."
+  },
+  {
+    "Question": "What is the starting current of an induction motor compared to its full-load current?",
+    "A": "1 to 2 times",
+    "B": "5 to 8 times",
+    "C": "10 to 15 times",
+    "D": "20 to 30 times",
+    "Answer": "5 to 8 times",
+    "Image": "1",
+    "Explaination": "The starting current of an induction motor is typically 5 to 8 times its full-load current when started directly on line (DOL)."
+  },
+  {
+    "Question": "What is the purpose of a direct-on-line (DOL) starter?",
+    "A": "To start the motor at full voltage",
+    "B": "To reduce the starting current",
+    "C": "To control the speed",
+    "D": "To improve the power factor",
+    "Answer": "To start the motor at full voltage",
+    "Image": "1",
+    "Explaination": "A DOL starter connects the motor directly to the supply, applying full voltage during starting. It is simple and cheap but causes high starting currents."
+  },
+  {
+    "Question": "What is the purpose of an autotransformer starter?",
+    "A": "To reduce the starting current by applying a reduced voltage",
+    "B": "To start the motor at full voltage",
+    "C": "To control the speed",
+    "D": "To improve the power factor",
+    "Answer": "To reduce the starting current by applying a reduced voltage",
+    "Image": "1",
+    "Explaination": "An autotransformer starter reduces the starting current by applying a reduced voltage to the motor during starting, using a tapped autotransformer."
+  },
+  {
+    "Question": "What is the purpose of a rotor resistance starter in a slip-ring induction motor?",
+    "A": "To increase the starting torque and reduce the starting current",
+    "B": "To start the motor at full voltage",
+    "C": "To control the speed",
+    "D": "To improve the power factor",
+    "Answer": "To increase the starting torque and reduce the starting current",
+    "Image": "1",
+    "Explaination": "A rotor resistance starter adds external resistance to the rotor circuit of a slip-ring induction motor, increasing the starting torque and reducing the starting current."
+  },
+  {
+    "Question": "What is the purpose of a soft starter?",
+    "A": "To control the starting voltage and current smoothly",
+    "B": "To start the motor at full voltage",
+    "C": "To control the speed",
+    "D": "To improve the power factor",
+    "Answer": "To control the starting voltage and current smoothly",
+    "Image": "1",
+    "Explaination": "A soft starter uses power electronics (thyristors) to gradually increase the voltage applied to the motor during starting, providing smooth acceleration and reducing starting current."
+  },
+  {
+    "Question": "What is the effect of pole changing on the speed of an induction motor?",
+    "A": "The speed changes inversely with the number of poles",
+    "B": "The speed changes directly with the number of poles",
+    "C": "The speed remains constant",
+    "D": "The speed becomes zero",
+    "Answer": "The speed changes inversely with the number of poles",
+    "Image": "1",
+    "Explaination": "The synchronous speed of an induction motor is inversely proportional to the number of poles (Ns = 120f/P). By changing the number of poles, the speed can be changed in steps."
+  },
+  {
+    "Question": "What is the effect of frequency control on the speed of an induction motor?",
+    "A": "The speed changes directly with the frequency",
+    "B": "The speed changes inversely with the frequency",
+    "C": "The speed remains constant",
+    "D": "The speed becomes zero",
+    "Answer": "The speed changes directly with the frequency",
+    "Image": "1",
+    "Explaination": "The synchronous speed of an induction motor is directly proportional to the supply frequency (Ns = 120f/P). By varying the frequency, the speed can be controlled smoothly."
+  },
+  {
+    "Question": "What is the condition for maintaining constant torque in a VFD-controlled induction motor?",
+    "A": "The V/f ratio must be kept constant",
+    "B": "The V/f ratio must be increased",
+    "C": "The V/f ratio must be decreased",
+    "D": "The V/f ratio must be zero",
+    "Answer": "The V/f ratio must be kept constant",
+    "Image": "1",
+    "Explaination": "To maintain constant torque in a VFD-controlled induction motor, the ratio of voltage to frequency (V/f) must be kept constant to maintain constant air-gap flux."
+  },
+  {
+    "Question": "What is the effect of stator voltage control on the speed of a squirrel cage induction motor?",
+    "A": "Speed can be controlled but with high losses and limited range",
+    "B": "Speed can be controlled smoothly over a wide range",
+    "C": "Speed remains constant",
+    "D": "Speed becomes zero",
+    "Answer": "Speed can be controlled but with high losses and limited range",
+    "Image": "1",
+    "Explaination": "Stator voltage control can reduce the speed of a squirrel cage induction motor, but it is inefficient due to high rotor losses and provides only a limited speed range."
+  },
+  {
+    "Question": "What is the purpose of a 'reduced voltage starter'?",
+    "A": "To reduce the starting current and starting torque",
+    "B": "To increase the starting current",
+    "C": "To control the speed",
+    "D": "To improve the power factor",
+    "Answer": "To reduce the starting current and starting torque",
+    "Image": "1",
+    "Explaination": "A reduced voltage starter reduces the starting current by applying a reduced voltage to the motor during starting, which also reduces the starting torque."
+  },
+  {
+    "Question": "What is the main advantage of a VFD over other speed control methods?",
+    "A": "High efficiency and smooth speed control over a wide range",
+    "B": "Lower cost",
+    "C": "Higher starting current",
+    "D": "Simpler design",
+    "Answer": "High efficiency and smooth speed control over a wide range",
+    "Image": "1",
+    "Explaination": "The main advantage of a VFD is its high efficiency and smooth speed control over a wide range, making it suitable for variable-speed applications."
+  }
+]
