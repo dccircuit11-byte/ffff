@@ -1,0 +1,99 @@
+// JSON 7 (Questions 91–105)
+[
+  {
+    "Question": "A circuit has inductance of 2 H. If the circuit current changes at the rate of 10 A/sec, then self-induced emf is",
+    "A": "5 V", "B": "0.2 V", "C": "20 V", "D": "10 V",
+    "Answer": "20 V", "Image": "",
+    "Explaination": "Self-induced EMF is e = L·(di/dt). With L = 2 H and di/dt = 10 A/s, e = 2 × 10 = 20 V. The induced EMF opposes the change in current (Lenz's law). Hence the magnitude is 20 V."
+  },
+  {
+    "Question": "The B-H curve for _______ will be the straight line passing through the origin.",
+    "A": "Air", "B": "Soft Iron", "C": "Hardened Steel", "D": "Silicon Steel",
+    "Answer": "Air", "Image": "",
+    "Explaination": "For non-magnetic media like air, B = μ0H, so B is directly proportional to H and the B-H graph is a straight line through the origin. Ferromagnetic materials (soft iron, steel, silicon steel) show a non-linear B-H curve due to saturation and hysteresis. Hence the B-H curve for air is a straight line through the origin."
+  },
+  {
+    "Question": "Magnetic lines of force coming from the magnet.",
+    "A": "Intersect at Infinity", "B": "Intersect within the magnet", "C": "Cannot intersect at all", "D": "Cancel at pole faces",
+    "Answer": "Cannot intersect at all", "Image": "",
+    "Explaination": "At any point in space, the magnetic field has a unique direction. If two lines of force intersected, the field at that point would have two directions, which is impossible. Therefore magnetic lines of force can never intersect each other, either inside or outside the magnet."
+  },
+  {
+    "Question": "The main advantages of temporary magnets are that we can",
+    "A": "Change the magnetic flux", "B": "Use any magnetic material", "C": "Decreases the hysteresis loss", "D": "Magnetize without any source",
+    "Answer": "Change the magnetic flux", "Image": "",
+    "Explaination": "Temporary magnets (electromagnets) use soft iron cores with low retentivity, so their magnetism disappears when the current stops. This means we can easily control and change the magnetic flux by varying the exciting current. They cannot be magnetised without a source, and hysteresis loss is not reduced simply by being temporary. Hence the advantage is the ability to change the flux."
+  },
+  {
+    "Question": "The magnetic material used in permanent magnets is",
+    "A": "Iron", "B": "Soft-steel", "C": "Nickel", "D": "Hardened Steel",
+    "Answer": "Hardened Steel", "Image": "",
+    "Explaination": "Permanent magnets need high retentivity (to keep magnetism) and high coercivity (to resist demagnetisation). Hardened steel has a wide hysteresis loop with these properties, whereas soft iron and soft steel have high permeability but low retentivity. Hence hardened steel is used for permanent magnets."
+  },
+  {
+    "Question": "The emf induced in a coil is given by e = −N dΦ/dt. The negative sign of the above expression is due to",
+    "A": "Hans Christian Oersted", "B": "Andre-Marie Ampere", "C": "Michael Faraday", "D": "Emil Lenz",
+    "Answer": "Emil Lenz", "Image": "",
+    "Explaination": "The negative sign in Faraday's law (e = −N dΦ/dt) indicates that the induced EMF opposes the change in flux that produced it. This is Lenz's law, formulated by Emil Lenz. Faraday gave the law of induction, but the minus sign is attributed to Lenz. Hence the correct answer is Emil Lenz."
+  },
+  {
+    "Question": "The mutual inductance between two coils having self-inductances 3 Henry and 12 Henry and coupling coefficient 0.85 is",
+    "A": "12.75 Henry", "B": "5.1 Henry", "C": "0.425 Henry", "D": "1.7 Henry",
+    "Answer": "5.1 Henry", "Image": "",
+    "Explaination": "M = k√(L1·L2) = 0.85 × √(3 × 12) = 0.85 × √36 = 0.85 × 6 = 5.1 H. Hence the mutual inductance is 5.1 Henry."
+  },
+  {
+    "Question": "The unit of reluctance of magnetic circuit is",
+    "A": "AT/m", "B": "Weber/m", "C": "AT/Weber", "D": "Weber/AT",
+    "Answer": "AT/Weber", "Image": "",
+    "Explaination": "Reluctance S = MMF/flux = Fm/φ. MMF is in ampere-turns (AT) and flux in weber (Wb), so reluctance is measured in AT/Wb (ampere-turns per weber). This is analogous to resistance = EMF/current in ohms. Hence the unit is AT/Weber."
+  },
+  {
+    "Question": "The total flux at the end of a long permanent bar magnet is 100×10⁻⁶ Wb. The end of the magnet is withdrawn through a 1000 turn coil in 1/20 seconds. The induced emf in the coil is",
+    "A": "20.0 V", "B": "2.0 V", "C": "0.2 V", "D": "0.02 V",
+    "Answer": "2.0 V", "Image": "",
+    "Explaination": "The flux linkage changes from Nφ to zero as the magnet is withdrawn. Change in flux linkage = Nφ = 1000 × 100×10⁻⁶ = 0.1 Wb-turns. Average EMF e = Δ(Nφ)/Δt = 0.1/(1/20) = 0.1 × 20 = 2 V. Hence the induced EMF is 2.0 V."
+  },
+  {
+    "Question": "A solenoid of inductance 250 mH and resistance 10 Ω is connected to a battery. The time taken for the magnetic energy to reach 1/4th of its maximum value is",
+    "A": "loge(2)", "B": "10⁻³ loge(2)", "C": "25 loge(2)", "D": "(1/40) loge(2)",
+    "Answer": "(1/40) loge(2)", "Image": "",
+    "Explaination": "Time constant τ = L/R = 0.25/10 = 1/40 s. Current rises as i = I(1 − e^(−t/τ)). Magnetic energy W ∝ i². For W to be ¼ of maximum, i must be I/2. So 1 − e^(−t/τ) = ½ → e^(−t/τ) = ½ → t = τ·ln2 = (1/40)·loge(2). Hence the time is (1/40) loge(2)."
+  },
+  {
+    "Question": "An inductor is supplied from a sinusoidal voltage source. The magnetic field energy in the inductor changes from the peak value to the minimum value in 10 msec. The supply frequency is",
+    "A": "50 Hz", "B": "25 Hz", "C": "1 Hz", "D": "100 Hz",
+    "Answer": "25 Hz", "Image": "",
+    "Explaination": "Magnetic energy (∝ i²) varies at twice the supply frequency. The time from peak energy to minimum energy is a quarter of the energy cycle, so T_energy/4 = 10 ms → T_energy = 40 ms. The supply period is T = 2 × T_energy = 80 ms? Wait—carefully: energy varies at 2f, so its period is T/2. Peak to minimum = (T/2)/2 = T/4. Thus T/4 = 10 ms → T = 40 ms → f = 25 Hz. Hence supply frequency is 25 Hz."
+  },
+  {
+    "Question": "The magnetic field energy in an inductor changes from maximum value to minimum value in 5 msec when connected to an ac source. The frequency of the source (in Hz) is",
+    "A": "500", "B": "200", "C": "50", "D": "20",
+    "Answer": "50", "Image": "",
+    "Explaination": "Energy varies at twice the supply frequency, and the time from maximum to minimum energy is T/4 (a quarter of the supply period). Given T/4 = 5 ms → T = 20 ms → f = 1/0.02 = 50 Hz. Hence the source frequency is 50 Hz."
+  },
+  {
+    "Question": "Two coupled coils, connected in series, have an equivalent inductance of 16 mH or 8 mH depending on the connection. The mutual inductance between the coils is",
+    "A": "12 mH", "B": "8√2 mH", "C": "4 mH", "D": "2 mH",
+    "Answer": "2 mH", "Image": "",
+    "Explaination": "For series aiding L_a = L1 + L2 + 2M = 16 mH, and for series opposing L_o = L1 + L2 − 2M = 8 mH. Subtracting: L_a − L_o = 4M → 16 − 8 = 4M → M = 2 mH. Hence the mutual inductance is 2 mH."
+  },
+  {
+    "Question": "Which one of the following is a valid value of the coefficient of coupling between two inductors?",
+    "A": "1.414", "B": "0.9", "C": "1.732", "D": "17.32",
+    "Answer": "0.9", "Image": "",
+    "Explaination": "The coupling coefficient k is defined as k = M/√(L1·L2) and must lie between 0 and 1 (0 ≤ k ≤ 1). Values 1.414, 1.732 and 17.32 are greater than 1 and therefore impossible. Only 0.9 is a valid value of k."
+  },
+  {
+    "Question": "Given two coupled inductors L1 and L2 having their mutual inductance M. The relationship among them must satisfy",
+    "A": "M > L1L2", "B": "M ≤ L1L2", "C": "M = L1L2", "D": "M > (L1 + L2)/2",
+    "Answer": "M ≤ L1L2", "Image": "",
+    "Explaination": "Since k = M/√(L1·L2) ≤ 1, it follows that M ≤ √(L1·L2). Among the printed options, option B (M ≤ L1L2) is the one expressing an upper limit on M. (Strictly, the correct bound is M ≤ √(L1L2).)"
+  },
+  {
+    "Question": "If the length of a bar of magnetic material is increased by 20% and the cross-sectional area is decreased by 20% then the reluctance is",
+    "A": "Increased by 50%", "B": "Decreased by 33%", "C": "Increased by 67%", "D": "Remaining same",
+    "Answer": "Increased by 50%", "Image": "",
+    "Explaination": "Reluctance S = l/(μA). New length = 1.2l and new area = 0.8A, so S_new = (1.2l)/(μ × 0.8A) = 1.5 × l/(μA) = 1.5S. Thus reluctance increases by 50%. Hence the answer is 'Increased by 50%'."
+  }
+]

@@ -1,0 +1,96 @@
+// JSON 9 (Questions 121–135)
+[
+  {
+    "Question": "What is the magneto-motive force (MMF) of a wire with 8 turns carrying three amperes of current?",
+    "A": "2,400 At", "B": "24 At", "C": "240 At", "D": "2.4 At",
+    "Answer": "24 At", "Image": "",
+    "Explaination": "MMF = N·I. Here N = 8 turns and I = 3 A, so MMF = 8 × 3 = 24 At (ampere-turns). Hence the magnetomotive force is 24 At."
+  },
+  {
+    "Question": "What is the magneto-motive force in a 75-turn coil of wire when there are 4 A of current through it?",
+    "A": "300 At", "B": "18.75 At", "C": "187 At", "D": "30 At",
+    "Answer": "300 At", "Image": "",
+    "Explaination": "MMF = N·I = 75 × 4 = 300 At. Hence the magnetomotive force is 300 At."
+  },
+  {
+    "Question": "Which of the following is a vector quantity?",
+    "A": "Relative permeability", "B": "Flux density", "C": "Magnetic field intensity", "D": "Magnetic potential",
+    "Answer": "Magnetic field intensity", "Image": "",
+    "Explaination": "Magnetic field intensity H has both magnitude and direction, so it is a vector. Relative permeability and magnetic potential are scalars. (Flux density B is also a vector, but the official key gives C, magnetic field intensity.) Hence the keyed answer is magnetic field intensity."
+  },
+  {
+    "Question": "The magnetism of a magnet can be destroyed by",
+    "A": "Hammering", "B": "Heating", "C": "By Alternating current", "D": "By all the above methods",
+    "Answer": "By all the above methods", "Image": "",
+    "Explaination": "Magnetism can be destroyed by mechanical shock (hammering), by heating above the Curie temperature (which randomises domains), and by applying a decreasing alternating field (demagnetisation). Since all three methods work, the correct answer is 'By all the above methods'."
+  },
+  {
+    "Question": "One maxwell is equal to",
+    "A": "10⁻⁸ webers", "B": "10⁻⁴ webers", "C": "10⁸ webers", "D": "10⁴ webers",
+    "Answer": "10⁻⁸ webers", "Image": "",
+    "Explaination": "The maxwell (Mx) is the CGS unit of magnetic flux, while the weber (Wb) is the SI unit. The conversion is 1 Wb = 10⁸ maxwell, so 1 maxwell = 10⁻⁸ Wb. Hence one maxwell equals 10⁻⁸ webers."
+  },
+  {
+    "Question": "What will be the magnetic potential difference across the air gap of 2 cm length in the magnetic field of 200 AT/m?",
+    "A": "10 AT", "B": "6 AT", "C": "4 AT", "D": "2 AT",
+    "Answer": "4 AT", "Image": "",
+    "Explaination": "Magnetic potential difference = H·l. Here H = 200 AT/m and l = 2 cm = 0.02 m, so Vm = 200 × 0.02 = 4 AT. Hence the magnetic potential difference across the gap is 4 AT."
+  },
+  {
+    "Question": "A magnetic field exists around",
+    "A": "Moving charges", "B": "Copper", "C": "Iron", "D": "Aluminum",
+    "Answer": "Moving charges", "Image": "",
+    "Explaination": "A magnetic field is produced by moving electric charges (i.e. current), as described by Ampere's law and Biot–Savart law. Stationary charges produce only electric fields. Copper, iron and aluminium are merely materials; they produce a field only when charges move within them. Hence the field exists around moving charges."
+  },
+  {
+    "Question": "Temporary magnets are used in",
+    "A": "Electric-bell", "B": "Generators", "C": "Motors", "D": "All of the above",
+    "Answer": "All of the above", "Image": "",
+    "Explaination": "Temporary magnets (electromagnets) are used wherever the magnetic field must be switched on and off or varied — electric bells use them for the hammer, generators use field windings, and motors use electromagnets for the field or armature. Hence they are used in all the listed devices."
+  },
+  {
+    "Question": "When an iron piece is placed in a magnetic field",
+    "A": "The magnetic lines of force will bend away from their usual paths in order to go away from the piece",
+    "B": "The magnetic lines of force will bend away from their usual paths in order to pass through the piece",
+    "C": "The magnetic field will not be affected",
+    "D": "The iron piece will break",
+    "Answer": "The magnetic lines of force will bend away from their usual paths in order to pass through the piece", "Image": "",
+    "Explaination": "Iron has high permeability (μr in hundreds/thousands), so it offers a low-reluctance path. Magnetic lines of force therefore bend towards and concentrate in the iron piece to pass through it easily, rather than taking their normal path through air. Hence option B is correct."
+  },
+  {
+    "Question": "If the steel disk in a crankshaft position sensor has stopped with the tab in the magnet's air gap, the induced voltage",
+    "A": "Increases", "B": "Decreases", "C": "Is zero", "D": "Will remain constant",
+    "Answer": "Is zero", "Image": "",
+    "Explaination": "Induced voltage is produced only when the magnetic flux linked with the coil changes (e = −N dφ/dt). If the disk has stopped with the tab stationary in the air gap, the flux is constant, so dφ/dt = 0 and the induced voltage is zero. Hence the answer is 'Is zero'."
+  },
+  {
+    "Question": "The magnetism left in the iron after the exciting field has been removed is known as",
+    "A": "Susceptance", "B": "Residual magnetism", "C": "Permeance", "D": "Reluctance",
+    "Answer": "Residual magnetism", "Image": "",
+    "Explaination": "When the magnetising field is reduced to zero, ferromagnetic materials retain some flux density. This remaining magnetism is called residual magnetism (or remanence), and the value of B at H = 0 is the retentivity. Hence the correct term is residual magnetism."
+  },
+  {
+    "Question": "Which of the following is not a unit of flux?",
+    "A": "Maxwell", "B": "Tesla", "C": "Weber", "D": "None of the above",
+    "Answer": "Tesla", "Image": "",
+    "Explaination": "Maxwell (CGS) and weber (SI) are both units of magnetic flux. Tesla (Wb/m²) is the unit of magnetic flux density, not flux. Hence tesla is not a unit of flux, making it the correct choice."
+  },
+  {
+    "Question": "The retentivity (a property) of material is useful for the construction of",
+    "A": "Permanent magnets", "B": "Transformers", "C": "Non-magnetic substances", "D": "Electromagnets",
+    "Answer": "Permanent magnets", "Image": "",
+    "Explaination": "Retentivity is the ability to retain magnetism after the magnetising field is removed. This is precisely the property needed in permanent magnets, which must stay magnetised without an external source. Transformers and electromagnets need low retentivity (soft magnetic materials). Hence retentivity is useful for permanent magnets."
+  },
+  {
+    "Question": "The materials having low retentivity are suitable for making",
+    "A": "Weak magnets", "B": "Temporary magnets", "C": "Permanent magnets", "D": "None of the above",
+    "Answer": "Temporary magnets", "Image": "",
+    "Explaination": "Low retentivity means the material loses its magnetism readily when the magnetising field is removed, which is exactly what temporary magnets (electromagnets) require. Permanent magnets need high retentivity. Hence low-retentivity materials are suitable for temporary magnets. (The official key lists A, but the standard answer is B.)"
+  },
+  {
+    "Question": "A coil of wire is placed in a changing magnetic field. If the number of turns in the coil is decreased, the voltage induced across the coil will",
+    "A": "Decrease", "B": "Increase", "C": "Remain constant", "D": "Be excessive",
+    "Answer": "Decrease", "Image": "",
+    "Explaination": "By Faraday's law, the induced voltage is e = N·dφ/dt. For a given rate of change of flux, e is directly proportional to the number of turns N. Decreasing the number of turns therefore decreases the induced voltage. Hence the answer is 'Decrease'."
+  }
+]

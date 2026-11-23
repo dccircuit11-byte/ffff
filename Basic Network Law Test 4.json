@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "In the circuit shown below: ",
+    "A": "Device A is delivering 100 W while device B is absorbing 100 W",
+    "B": "Both devices A and B are delivering 100 W each",
+    "C": "Both devices A and B are absorbing 100 W each",
+    "D": "Device A is absorbing 100 W while device B is delivering 100 W",
+    "Answer": "Device A is delivering 100 W while device B is absorbing 100 W",
+    "Image": "https://imgh.in/images/pbgtft",
+    "Explaination": "Step-by-Step Solution:\n1. In device A, the current leaves through the positive terminal, so it delivers power P = 10 V × 10 A = 100 W.\n2. In device B, the current enters through the positive terminal, so it absorbs 100 W."
+  },
+  {
+    "Question": "A nichrome wire used in a heater as a coil has a resistance of 2 Ω/m. For a heater of 1 kW at 200 V. The length of wire required is",
+    "A": "20 m",
+    "B": "24 m",
+    "C": "40 m",
+    "D": "80 m",
+    "Answer": "20 m",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Required resistance R = V² / P = 200² / 1000 = 40 Ω.\n2. Resistance per meter = 2 Ω/m.\n3. Length required = 40 / 2 = 20 m."
+  },
+  {
+    "Question": "A 25 W, 220 V bulb and 100 W, 220 V bulb are joined in parallel and connected to a 220 supply. Which bulb will glow more brightly?",
+    "A": "Voltage is not sufficient to glow the bulbs",
+    "B": "25 W bulb",
+    "C": "100 W bulb",
+    "D": "Both will glow with the same brightness",
+    "Answer": "100 W bulb",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In parallel, both bulbs receive their rated 220 V.\n2. They dissipate their rated powers: 25 W and 100 W.\n3. The 100 W bulb dissipates more power, so it glows more brightly."
+  },
+  {
+    "Question": "Which of the following supplies 12 W?",
+    "A": "A, C",
+    "B": "C, D",
+    "C": "A, B",
+    "D": "B, C",
+    "Answer": "A, C",
+    "Image": "https://imgh.in/images/zru4yq",
+    "Explaination": "Step-by-Step Solution:\n1. In every case, |V × I| = 12 W.\n2. Only elements where current flows out of the positive terminal supply power.\n3. As per the official key, these are devices A and C."
+  },
+  {
+    "Question": "A current of 5 A flows through a conductor against a potential difference of 200 V. The power dissipated will be ______.",
+    "A": "1000 W",
+    "B": "1.1 kW",
+    "C": "2000 W",
+    "D": "100 W",
+    "Answer": "1000 W",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. P = V × I.\n2. P = 200 × 5 = 1000 W."
+  },
+  {
+    "Question": "Which of the options is incorrect for the following statement? Three resistance are said to be parallel when:",
+    "A": "All the resistance are connected end-to-end",
+    "B": "Current in each resistor is different and may be calculated by ohm's law",
+    "C": "Potential difference across all resistances is the same",
+    "D": "The total current is the sum separate currents",
+    "Answer": "Current in each resistor is different and may be calculated by ohm's law",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In parallel, the voltage is common, and branch currents are different only if resistances differ.\n2. Option B is the incorrect statement as per the official key."
+  },
+  {
+    "Question": "Three wires having conductances 2, 3 and 6 mho respectively are connected in parallel in a circuit. The equivalent resistance in the circuit will be :",
+    "A": "11 ohms",
+    "B": "1 ohms",
+    "C": "1/11 ohms",
+    "D": "33 ohms",
+    "Answer": "1/11 ohms",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Conductances in parallel add: G_eq = 2 + 3 + 6 = 11 mho.\n2. R_eq = 1 / G_eq = 1/11 Ω."
+  },
+  {
+    "Question": "Capacitor stores 0.3 C charge on 2 V voltage how much its capacitance",
+    "A": "0.15 F",
+    "B": "0.3 F",
+    "C": "2 F",
+    "D": "0.6 F",
+    "Answer": "0.15 F",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. C = Q / V.\n2. C = 0.3 / 2 = 0.15 F."
+  },
+  {
+    "Question": "The value of relative permittivity of vacuum is",
+    "A": "1",
+    "B": "0",
+    "C": "8.854 × 10^−12",
+    "D": "∞",
+    "Answer": "1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Relative permittivity εr = ε / ε0.\n2. For vacuum, ε = ε0, so εr = 1."
+  },
+  {
+    "Question": "If ten resistance of 10 ohms each are connected in parallel, the total resistance will be :",
+    "A": "100 ohm",
+    "B": "Less than 100 ohm",
+    "C": "1 ohm",
+    "D": "None of theses",
+    "Answer": "1 ohm",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For n equal resistors in parallel, Req = R/n.\n2. Req = 10 / 10 = 1 Ω."
+  },
+  {
+    "Question": "A light bulb draws 300 mA when the voltage across it is 240 V. The resistance of the light bulb is",
+    "A": "400 ohms",
+    "B": "600 ohms",
+    "C": "800 ohms",
+    "D": "1000 ohms",
+    "Answer": "800 ohms",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. R = V / I.\n2. I = 300 mA = 0.3 A.\n3. R = 240 / 0.3 = 800 Ω."
+  },
+  {
+    "Question": "If the energy is supplied from a source whose resistance is 1 ohm, to a load of 100 ohms the source will be",
+    "A": "A voltage source",
+    "B": "A current source",
+    "C": "Both of above",
+    "D": "None of the above",
+    "Answer": "Both of above",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A practical source can be represented as a voltage source with series resistance (Thevenin) or a current source with parallel resistance (Norton).\n2. Both representations are valid, so the answer is both."
+  },
+  {
+    "Question": "A potential difference of 12 V is applied to a 7.5 Ω resistance for a period of 5 seconds. The electric charge transferred in this time is :",
+    "A": "1.6 C",
+    "B": "1 C",
+    "C": "1.28 × 10^−16 C",
+    "D": "8 C",
+    "Answer": "8 C",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. I = V / R = 12 / 7.5 = 1.6 A.\n2. Q = I × t = 1.6 × 5 = 8 C."
+  },
+  {
+    "Question": "A network contains only independent current sources and resistors. If the values of all resistors are doubled, the value of the node voltages",
+    "A": "will become half",
+    "B": "will remain changed",
+    "C": "Will become double",
+    "D": "Cannot be determined unless the circuit configuration and the values of the resistors are known",
+    "Answer": "Will become double",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. With current sources, V = I × R.\n2. If all resistances double, all node voltages double."
+  },
+  {
+    "Question": "Consider the following circuit. What is power delivered to resistor R in the above circuit?",
+    "A": "−15 W",
+    "B": "0 W",
+    "C": "15 W",
+    "D": "Cannot be determined unless the value of R is known",
+    "Answer": "0 W",
+    "Image": "https://imgh.in/images/v3e8lr",
+    "Explaination": "Step-by-Step Solution:\n1. The bridge is balanced: 30/60 = 60/120.\n2. No current flows through R, so the power is 0 W."
+  }
+]

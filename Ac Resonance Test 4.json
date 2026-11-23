@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "What is the peak value of the alternating voltage (in V) having an average value of 180 V?",
+    "A": "254.59",
+    "B": "282.57",
+    "C": "333.34",
+    "D": "359.96",
+    "Answer": "282.57",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For a sine wave, Vavg = (2/π) × Vm = 0.637 × Vm.\n2. Vm = Vavg / 0.637 = 180 / 0.637 = 282.57 V."
+  },
+  {
+    "Question": "The capacitive reactance of a circuit is 60 Ohms, when it is supplied with a 50 Hz supply. What will be the value of capacitive reactance (in Ohms) of same circuit, if it is supplied with a 60 Hz supply?",
+    "A": "50",
+    "B": "60",
+    "C": "75",
+    "D": "125",
+    "Answer": "50",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Capacitive reactance is inversely proportional to frequency: XC ∝ 1/f.\n2. XC2 = XC1 × (f1 / f2).\n3. XC2 = 60 × (50 / 60) = 50 Ω."
+  },
+  {
+    "Question": "A 3-phase delta connected system is supplied by a line voltage of 200 V. The value of phase current is 30 A. What is the total power consumed (in W) by the system, if the current lags the voltage by 30 degrees?",
+    "A": "16.32",
+    "B": "14.45",
+    "C": "15.59",
+    "D": "16.69",
+    "Answer": "15.59",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In a delta connection, phase voltage Vph = line voltage VL = 200 V.\n2. Total power P = 3 × Vph × Iph × cos φ.\n3. P = 3 × 200 × 30 × cos(30°) = 18000 × 0.866 = 15,588 W ≈ 15.59 kW (matching option C)."
+  },
+  {
+    "Question": "In a series RLC high Q circuit, the current peaks at a frequency is",
+    "A": "Equal to the resonant frequency.",
+    "B": "greater than the resonant frequency.",
+    "C": "less than the resonant frequency.",
+    "D": "None of these.",
+    "Answer": "Equal to the resonant frequency.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In a series RLC circuit, the current is maximum when the impedance is minimum.\n2. Impedance is minimum (Z = R) at the resonant frequency.\n3. For a high-Q circuit, this peak is very sharp and occurs exactly at the resonant frequency."
+  },
+  {
+    "Question": "What is the resonant frequency of the circuit below? ",
+    "A": "1 rad/s",
+    "B": "2 rad/s",
+    "C": "0.5 rad/s",
+    "D": "0.25 rad/s",
+    "Answer": "0.5 rad/s",
+    "Image": "https://imgh.in/images/vd8iwq",
+    "Explaination": "Step-by-Step Solution:\n1. At resonance, the susceptance is zero: ωC = ωL/(R² + ω²L²) for the R-L branch (the 20 Ω branch is purely resistive).\n2. Given C = 0.2 F, L = 4 H, R = 4 Ω: 0.2 = 4/(16 + 16ω²).\n3. Solving: 16 + 16ω² = 20 => ω² = 0.25 => ω = 0.5 rad/s."
+  },
+  {
+    "Question": "Consider the RLC circuit shown below. At a certain frequency f0 the circuit behaves like a purely resistive circuit. The equivalent resistance of the parallel combination at that particular frequency f0 is (C = 1 µF; R = 1 Ω, L = 2 µH in series branch)",
+    "A": "2.0 Ω",
+    "B": "1.0 Ω",
+    "C": "0.5 Ω",
+    "D": "3.0 Ω",
+    "Answer": "2.0 Ω",
+    "Image": "https://imgh.in/images/u8zugb",
+    "Explaination": "Step-by-Step Solution:\n1. Resonance of a parallel circuit: ω0² = 1/(LC) − R²/L².\n2. ω0² = 1/(2×10⁻⁶ × 1×10⁻⁶) − 1/(4×10⁻¹²) = 5×10¹¹ − 2.5×10¹¹ = 2.5×10¹¹.\n3. Equivalent resistance = (R² + ω0²L²)/R = (1 + 2.5×10¹¹ × 4×10⁻¹²)/1 = 1 + 1 = 2 Ω."
+  },
+  {
+    "Question": "A series RLC circuit has a Q of 100 and an impedance of (100 + j0) Ω at its resonant angular frequency of 10⁷ rad/sec. The values of R in ohm and L in mH are",
+    "A": "100, 1",
+    "B": "10, 1",
+    "C": "100, 10",
+    "D": "10, 10",
+    "Answer": "100, 1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. At resonance, impedance Z = R = 100 Ω.\n2. Q = ω0L/R => L = Q × R / ω0.\n3. L = 100 × 100 / 10⁷ = 10⁴ / 10⁷ = 10⁻³ H = 1 mH.\n4. So R = 100 Ω and L = 1 mH."
+  },
+  {
+    "Question": "A series RLC circuit has a resonance frequency of 1 KHz and a quality factor Q = 100. If each of R, L and C is doubled from its original value, the new Q of the circuit is",
+    "A": "25",
+    "B": "50",
+    "C": "100",
+    "D": "200",
+    "Answer": "50",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Q = (1/R)√(L/C).\n2. Doubling L and C leaves √(L/C) unchanged because √(2L/2C) = √(L/C).\n3. Doubling R doubles the denominator.\n4. Therefore, new Q = 100/2 = 50."
+  },
+  {
+    "Question": "The figure shows an RLC circuit with a sinusoidal current source (R = 10 Ω, L = 10 mH, C = 10 µF). At resonance, the ratio |IL|/|IR|, i.e., the ratio of the magnitudes of the inductor current phasor and the resistor current phasor, is ________.",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": "",
+    "Answer": "0.316",
+    "Image": "https://imgh.in/images/31h68q",
+    "Explaination": "Step-by-Step Solution:\n1. At resonance of the parallel circuit, the voltage V is common to all branches.\n2. |IL| = V / (ω0L) and |IR| = V / R.\n3. Ratio |IL|/|IR| = R / (ω0L) = R√(C/L).\n4. = 10 × √(10×10⁻⁶ / 10×10⁻³) = 10 × √(10⁻³) = 10 × 0.03162 = 0.316."
+  },
+  {
+    "Question": "In the circuit shown V is a sinusoidal voltage source. The current I is in phase with voltage V. The ratio (Amplitude of voltage across the capacitor)/(Amplitude of voltage across the resistor) is _____. (R = 5 Ω, L = 5 H, C = 5 F in series)",
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": "",
+    "Answer": "0.2",
+    "Image": "https://imgh.in/images/j4ppvv",
+    "Explaination": "Step-by-Step Solution:\n1. Current in phase with voltage means the circuit is at resonance.\n2. ω0 = 1/√(LC) = 1/√(5 × 5) = 1/5 = 0.2 rad/s.\n3. VC/VR = XC/R = 1/(ω0CR) = 1/(0.2 × 5 × 5) = 1/5 = 0.2."
+  },
+  {
+    "Question": "An a.c. voltage (v = 100 sin 314 t volts) is applied across a 0.5 H inductor. What is the instantaneous current?",
+    "A": "0.637 sin(314t − 90°) A",
+    "B": "0.707 sin(314t − 90°) A",
+    "C": "0.637 sin(314t + 90°) A",
+    "D": "0.707 sin(314t + 90°) A",
+    "Answer": "0.637 sin(314t − 90°) A",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Inductive reactance XL = ωL = 314 × 0.5 = 157 Ω.\n2. Current amplitude Im = Vm / XL = 100 / 157 = 0.637 A.\n3. In a pure inductor, current lags the voltage by 90°.\n4. i(t) = 0.637 sin(314t − 90°) A."
+  },
+  {
+    "Question": "What is the inductance value in mH of a coil having 10 Ω reactance at 50 Hz?",
+    "A": "10.4 mH",
+    "B": "20.8 mH",
+    "C": "31.8 mH",
+    "D": "40.4 mH",
+    "Answer": "31.8 mH",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. XL = 2πfL, so L = XL / (2πf).\n2. L = 10 / (2π × 50) = 10 / 314.16 = 0.03183 H.\n3. L = 31.83 mH ≈ 31.8 mH."
+  },
+  {
+    "Question": "An inductor of 20 mH offers a reactance of 100 Ω. Determine the supply frequency.",
+    "A": "1000 Hz",
+    "B": "796 Hz",
+    "C": "438 Hz",
+    "D": "500 Hz",
+    "Answer": "796 Hz",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. XL = 2πfL => f = XL / (2πL).\n2. f = 100 / (2π × 0.02) = 100 / 0.12566 = 795.77 Hz.\n3. f ≈ 796 Hz."
+  },
+  {
+    "Question": "Determine the reactance of a 50 µF capacitor in a d.c. supply and also in an a.c. supply of 100 Hz.",
+    "A": "31.8 Ω",
+    "B": "31.8 kΩ",
+    "C": "63 Ω",
+    "D": "63 kΩ",
+    "Answer": "31.8 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. On DC (f = 0): XC = 1/(2π × 0 × C) = ∞ (open circuit).\n2. On 100 Hz AC: XC = 1/(2π × 100 × 50×10⁻⁶) = 1/(0.031416) = 31.83 Ω.\n3. The finite value listed in the options is 31.8 Ω."
+  },
+  {
+    "Question": "The current through an inductor of inductance 0.1 mH is given by iL(t) = 0.1 sin 10⁴t amps. Find vL(t).",
+    "A": "1 cos 10⁴t V",
+    "B": "0.1 cos 10⁴t V",
+    "C": "10 cos 10⁴t V",
+    "D": "0.01 cos 10⁴t V",
+    "Answer": "0.1 cos 10⁴t V",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. vL(t) = L × diL/dt.\n2. L = 0.1 mH = 0.1 × 10⁻³ H = 10⁻⁴ H.\n3. diL/dt = 0.1 × 10⁴ cos(10⁴t) = 1000 cos(10⁴t).\n4. vL = 10⁻⁴ × 1000 cos(10⁴t) = 0.1 cos(10⁴t) V."
+  }
+]

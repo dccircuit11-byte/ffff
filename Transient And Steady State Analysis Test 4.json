@@ -1,0 +1,63 @@
+// JSON 4 (Questions 31–40)
+[
+  {
+    "Question": "In the figure given below, the initial capacitor voltage is zero. The switch is closed at t = 0. The final steady-state voltage across the capacitor will be (20 V, 10 Ω series, 10 µF in parallel with 10 Ω)",
+    "A": "20 V", "B": "10 V", "C": "5 V", "D": "0 V",
+    "Answer": "10 V", "Image": "https://imgh.in/images/xpuyye",
+    "Explaination": "In steady state the capacitor is open, so the final voltage is the voltage across the 10 Ω load: 20 × 10/(10 + 10) = 10 V."
+  },
+  {
+    "Question": "The circuit shown in the figure is in the steady state, when the switch is closed at t = 0. Assuming that the inductance is ideal, the current through the inductor at t = 0+ will be",
+    "A": "0 A", "B": "0.5 A", "C": "1 A", "D": "2 A",
+    "Answer": "0 A", "Image": "https://imgh.in/images/e8fzlu",
+    "Explaination": "As per the official answer key the inductor current at t = 0+ is 0 A (the inductor carries no current before the switch is closed in this arrangement, and an inductor current cannot change instantaneously)."
+  },
+  {
+    "Question": "A voltage v(t) is connected to a capacitance C = 2 F. Find the energy stored in the capacitor for t = 0 to 10 sec. Assume v(t) = e^(−t) sin t.",
+    "A": "3×10⁻¹⁰ J", "B": "6×10⁻¹⁰ J", "C": "9×10⁻¹⁰ J", "D": "12×10⁻¹⁰ J",
+    "Answer": "6×10⁻¹⁰ J", "Image": "",
+    "Explaination": "Energy stored at t = 10 s: E = ½Cv² = ½ × 2 × (e^(−10) sin 10)² = (4.54×10⁻⁵ × 0.544)² ≈ 6.1×10⁻¹⁰ J (the initial energy is zero). (The official key shows '*'.)"
+  },
+  {
+    "Question": "In the above circuit, S was initially open. At time t = 0, S is closed. When the current through the inductor is 6 A, the rate of change of current through the resistor is 6 A/s. The value of the inductor would be (18 V, 1 Ω)",
+    "A": "1 H", "B": "2 H", "C": "3 H", "D": "4 H",
+    "Answer": "2 H", "Image": "https://imgh.in/images/gzsy0f",
+    "Explaination": "When i = 6 A the voltage across L = 18 − 6 × 1 = 12 V. di/dt = 6 A/s, so L = 12/6 = 2 H. (The printed key shows C (3 H); the calculation gives 2 H, option B.)"
+  },
+  {
+    "Question": "In the circuit shown in the above figure, switch K is closed at t = 0. The circuit was initially relaxed. Which one of the following sources of v(t) will produce maximum current at t = 0+?",
+    "A": "Unit step", "B": "Unit impulse", "C": "Unit ramp", "D": "Unit step plus unit ramp",
+    "Answer": "Unit impulse", "Image": "https://imgh.in/images/c10zdx",
+    "Explaination": "In an R-L circuit the current cannot jump for a finite voltage, so a step or ramp gives i(0+) = 0. A unit impulse gives i(0+) = 1/L, which is the largest. (The printed key shows A, but the impulse produces the maximum i(0+); B is the calculated answer.)"
+  },
+  {
+    "Question": "In the circuit shown in the given figure, the values of i(0+) and i(∞) will be respectively (source 3e^(−t) u(t), 1 Ω, 2 F)",
+    "A": "Zero and 1.5 A", "B": "1.5 A and 3 A", "C": "3 A and zero", "D": "3 A and 1.5 A",
+    "Answer": "3 A and zero", "Image": "https://imgh.in/images/n8fduy",
+    "Explaination": "At t = 0+ the uncharged capacitor is a short: i(0+) = 3/1 = 3 A. As t → ∞ the source decays to zero, so i(∞) = 0."
+  },
+  {
+    "Question": "The time constant of the circuit after the switch shown in the figure is opened is",
+    "A": "0.2 s", "B": "5 s", "C": "0.1 s", "D": "Dependent on R and hence cannot be determined unless R is known",
+    "Answer": "0.2 s", "Image": "https://imgh.in/images/eestfq",
+    "Explaination": "After opening, the inductor discharges through the 10 Ω loop: τ = L/R = 2 H/10 Ω = 0.2 s."
+  },
+  {
+    "Question": "In the circuit shown above, the switch is closed at t = 0. The current through the capacitor will decrease exponentially with a time constant",
+    "A": "0.5 s", "B": "1 s", "C": "2 s", "D": "10 s",
+    "Answer": "1 s", "Image": "https://imgh.in/images/k9uok1",
+    "Explaination": "The resistance seen by the 1 F capacitor is the 1 Ω series resistor (the ideal source and shunt do not add resistance). τ = RC = 1 × 1 = 1 s."
+  },
+  {
+    "Question": "The circuit shown above is under steady-state condition with the switch closed. The switch is opened at t = 0. What is the time constant of the circuit?",
+    "A": "0.1 s", "B": "0.2", "C": "5 s", "D": "10s",
+    "Answer": "0.2", "Image": "https://imgh.in/images/2l6jv5",
+    "Explaination": "After the switch opens, the inductor sees a 10 Ω loop. τ = L/R = 2/10 = 0.2 s."
+  },
+  {
+    "Question": "In the circuit shown above, the switch is open for a long time and closed at time t = 0. What is the current through the switch after the switch is closed?",
+    "A": "Zero", "B": "1 A", "C": "2 A", "D": "5 A",
+    "Answer": "Zero", "Image": "https://imgh.in/images/mfm0w3",
+    "Explaination": "With the switch open for a long time, the capacitor is charged to 10 V (via the 2 Ω and the 10 V source), and the node on the left side of the switch is at 20 × 10/20 = 10 V. Both sides of the switch are at 10 V, so no current flows through it: 0 A."
+  }
+]

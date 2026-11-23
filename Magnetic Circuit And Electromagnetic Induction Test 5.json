@@ -1,0 +1,93 @@
+// JSON 5 (Questions 61–75)
+[
+  {
+    "Question": "The relative permeability of paramagnetic material is",
+    "A": "Greater than one", "B": "Less than one", "C": "1", "D": "Infinite",
+    "Answer": "Greater than one", "Image": "",
+    "Explaination": "Paramagnetic materials have a small positive susceptibility, so their relative permeability is slightly greater than 1 (e.g. aluminium ≈ 1.00002). Materials with μr < 1 are diamagnetic, and infinite μr corresponds to ideal ferromagnets. Hence the answer is 'Greater than one'. (The question says 'permittivity' but means permeability.)"
+  },
+  {
+    "Question": "Magnetic reluctance depends upon",
+    "A": "Cross-sectional area", "B": "Length of material", "C": "Material properties", "D": "All of the above",
+    "Answer": "All of the above", "Image": "",
+    "Explaination": "Reluctance is S = l/(μ0·μr·A). It increases with length l, decreases with cross-sectional area A, and depends on the material through μr. Hence reluctance depends on length, area and material properties — all of the above."
+  },
+  {
+    "Question": "Which material is preferred in permanent magnets",
+    "A": "Cast Iron", "B": "Steel", "C": "Pure Iron", "D": "None of these",
+    "Answer": "Steel", "Image": "",
+    "Explaination": "Permanent magnets require high retentivity (to retain magnetism) and high coercivity (to resist demagnetisation). Hardened steel has a broad hysteresis loop with high retentivity and coercivity, unlike soft iron or cast iron which are easily demagnetised. Hence steel is preferred for permanent magnets."
+  },
+  {
+    "Question": "In order to minimize loss due to hysteresis, the magnetic material should have",
+    "A": "High resistivity", "B": "Low hysteresis co-efficient", "C": "The smaller B-H loop area", "D": "High retentivity",
+    "Answer": "The smaller B-H loop area", "Image": "",
+    "Explaination": "Hysteresis loss per cycle equals the area of the B-H loop. A smaller loop area therefore means less energy dissipated per cycle, minimising hysteresis loss. High resistivity reduces eddy current loss (not hysteresis), and high retentivity is undesirable here. Hence the material should have a smaller B-H loop area."
+  },
+  {
+    "Question": "The unit of retentivity is",
+    "A": "Weber", "B": "Weber/sq.m", "C": "Ampere turn/metre", "D": "Ampere turn",
+    "Answer": "Weber/sq.m", "Image": "",
+    "Explaination": "Retentivity is the residual flux density remaining in a material when the magnetising field is reduced to zero. Since it is a flux density, its unit is weber per square metre (Wb/m²), i.e. tesla. Weber is flux and AT/m is field strength. Hence the unit of retentivity is Wb/m²."
+  },
+  {
+    "Question": "An air gap is usually inserted in magnetic circuits to",
+    "A": "Increase M.M.F", "B": "Increase the flux", "C": "Prevent Saturation", "D": "None of the above",
+    "Answer": "Prevent Saturation", "Image": "",
+    "Explaination": "An air gap has high reluctance and linearises the B-H relationship of the magnetic circuit, so the core does not saturate easily and the flux becomes more proportional to the MMF. It does not increase flux (it reduces it) nor increase MMF. Hence the purpose is to prevent saturation."
+  },
+  {
+    "Question": "The magnetising force (H) and magnetic flux density (B) are connected by the relation",
+    "A": "B = μrH/μ0", "B": "B = μ0H", "C": "B = H/μ0μr", "D": "B = μrHμ0/μr",
+    "Answer": "B = μ0H", "Image": "",
+    "Explaination": "In general B = μ0·μr·H. In air or free space μr = 1, so B = μ0H. Among the given options, B = μ0H is the valid relation (for free space) and matches the official key. Options A, C and D are dimensionally incorrect."
+  },
+  {
+    "Question": "The self-inductance of a long cylindrical conductor due to its internal flux linkages is 1 mH/m. If the diameter of the conductor is doubled, then the self-inductance of the conductor due to internal flux linkage would be",
+    "A": "0.5 kH/m", "B": "1 mH/m", "C": "1.414 kH/m", "D": "4 kH/m",
+    "Answer": "1 mH/m", "Image": "",
+    "Explaination": "The internal inductance per unit length of a round conductor is μ/(8π), which depends only on the permeability of the material and not on the conductor diameter. Doubling the diameter therefore does not change the internal inductance per metre. Hence it remains 1 mH/m."
+  },
+  {
+    "Question": "Two coils in differential connection have self-inductance of 2 mH and 4 mH and a mutual inductance of 0.15 mH. The equivalent inductance of the combination is",
+    "A": "5.7 mH", "B": "5.85 mH", "C": "6 mH", "D": "6.15 mH",
+    "Answer": "5.7 mH", "Image": "",
+    "Explaination": "In a differential (series opposing) connection, the mutual flux opposes the self-flux, so L_eq = L1 + L2 − 2M. Here L1 = 2 mH, L2 = 4 mH and M = 0.15 mH, giving L_eq = 2 + 4 − 2(0.15) = 6 − 0.3 = 5.7 mH. Hence the equivalent inductance is 5.7 mH."
+  },
+  {
+    "Question": "Magnetic recording tape is most commonly made from _____.",
+    "A": "Ferric oxide", "B": "The small particle of iron", "C": "Silicon-iron", "D": "Any of the above",
+    "Answer": "Ferric oxide", "Image": "",
+    "Explaination": "Magnetic recording tape uses a coating of fine ferric oxide (Fe₂O₃) particles on a plastic base. Ferric oxide is a hard ferrimagnetic material with good retentivity, allowing the recorded signal to be retained. Pure iron particles and silicon-iron are not used for tape. Hence the answer is ferric oxide."
+  },
+  {
+    "Question": "The materials having low retentivity are suitable for making ______.",
+    "A": "Permanent magnet", "B": "Temporary Magnet", "C": "Any of the above", "D": "None of the above",
+    "Answer": "Temporary Magnet", "Image": "",
+    "Explaination": "Retentivity is the ability to retain magnetism after the magnetising field is removed. Materials with low retentivity lose their magnetism easily, which is exactly what is needed for temporary magnets (electromagnets). Permanent magnets require high retentivity. Hence low-retentivity materials suit temporary magnets."
+  },
+  {
+    "Question": "The relative permeability of a material is 0.95. The material is",
+    "A": "Diamagnetic", "B": "Paramagnetic", "C": "Ferromagnetic", "D": "Ferrimagnetic",
+    "Answer": "Diamagnetic", "Image": "",
+    "Explaination": "Relative permeability μr < 1 indicates that the material is weakly repelled by a magnetic field, which is the characteristic of diamagnetic materials. Paramagnetic and ferromagnetic materials have μr > 1. Since μr = 0.95 < 1, the material is diamagnetic."
+  },
+  {
+    "Question": "A wire bent into a semi-circle in the center and straight at both ends is placed in a uniform magnetic field B pointing out of the page. If the wire carries the current I, the force on each straight section xy and zw is",
+    "A": "IB (Current × Magnetic field)", "B": "IB (Length × Magnetic field)", "C": "BIL", "D": "Zero",
+    "Answer": "BIL", "Image": "",
+    "Explaination": "The force on a straight current-carrying conductor in a uniform magnetic field is F = B·I·L·sinθ. For the straight sections perpendicular to the field, sinθ = 1, so the force is F = B·I·L, where L is the length of each straight section. Hence the force on each straight section is BIL."
+  },
+  {
+    "Question": "The material used for the magnetic circuit where the high value of flux density required is",
+    "A": "Cast iron", "B": "Soft steel", "C": "Ferro Cobalt", "D": "Gray cast iron",
+    "Answer": "Ferro Cobalt", "Image": "",
+    "Explaination": "Ferro-cobalt alloys have the highest saturation flux density (about 2.4 T) among common magnetic materials, so they are used where a very high flux density is required. Cast iron and soft steel saturate at lower flux densities. Hence ferro-cobalt is the correct choice."
+  },
+  {
+    "Question": "The magnitude of AT required to establish a given value of flux in the air gap will be much greater than that required for iron part of a magnetic circuit because",
+    "A": "Air in Gas", "B": "Air is a good conductor of magnetic flux", "C": "Air has the lowest relative permeability", "D": "Iron has the lowest permeability",
+    "Answer": "Air has the lowest relative permeability", "Image": "",
+    "Explaination": "The MMF drop across a section is H·l = (B/μ)·l. Air has μr = 1, far lower than iron (μr in hundreds or thousands), so its reluctance is much higher and it needs a much larger MMF (AT) for the same flux. Hence the reason is that air has the lowest relative permeability."
+  }
+]

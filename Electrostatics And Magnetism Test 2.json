@@ -1,0 +1,162 @@
+[
+  {
+    "Question": "A voltage source υ(t) is connected across a capacitor of 2 F. Find the energy stored in the capacitor from t = 0 to 10 sec, if υ(t) = t²·e^(−2t).",
+    "A": "4.5×10⁻⁴ J",
+    "B": "4.3×10⁻⁶ J",
+    "C": "4.2×10⁻⁴ J",
+    "D": "4.3×10⁻⁴ J",
+    "Answer": "4.3×10⁻⁴ J",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Energy W = ½·C·[v(10)² − v(0)²].\n2. v(10) = 100·e⁻²⁰ ≈ 2.06×10⁻⁷ V, v(0) = 0.\n3. W = ½ × 2 × (2.06×10⁻⁷)² ≈ 4.25×10⁻¹⁴ J.\n4. The digits (4.3) match option D as per the key; the exponent in the printed options appears to be a typo."
+  },
+  {
+    "Question": "The unit of absolute permittivity of a medium is",
+    "A": "Joule/coulomb",
+    "B": "Newton-metre",
+    "C": "Farad/metre",
+    "D": "Farad/coulomb",
+    "Answer": "Farad/metre",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Absolute permittivity ε = ε₀εᵣ.\n2. Its unit is farad per metre (F/m); ε₀ = 8.854×10⁻¹² F/m."
+  },
+  {
+    "Question": "If relative permittivity of mica is 5, its absolute permittivity is",
+    "A": "5ε0",
+    "B": "5/ε0",
+    "C": "ε0/5",
+    "D": "8.854×10⁻¹²",
+    "Answer": "5ε0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Absolute permittivity ε = ε₀ × εᵣ.\n2. Given εᵣ = 5, ε = 5ε₀."
+  },
+  {
+    "Question": "Two similar electric charges of 1 C each are placed 1 m apart in air. Force of repulsion between them would be nearly ______ newton.",
+    "A": "1",
+    "B": "9×10⁹",
+    "C": "4π",
+    "D": "8.854×10⁻¹²",
+    "Answer": "9×10⁹",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Coulomb's law: F = k·Q₁Q₂/r².\n2. F = 9×10⁹ × 1 × 1 / 1² = 9×10⁹ N."
+  },
+  {
+    "Question": "Electric flux emanating from an electric charge of +Q coulomb is",
+    "A": "Q/ε0",
+    "B": "Q/εr",
+    "C": "Q/(ε0·εr)",
+    "D": "Q",
+    "Answer": "Q",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In SI units, the electric (displacement) flux ψ equals the enclosed charge.\n2. ψ = Q coulombs. (Q/ε₀ is the flux of the field E, not of D.)"
+  },
+  {
+    "Question": "The unit of electric intensity is",
+    "A": "Joule/coulomb",
+    "B": "Newton/coulomb",
+    "C": "Volt/metre",
+    "D": "Both (A) and (B)",
+    "Answer": "Both (A) and (B)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electric intensity is measured in N/C or V/m.\n2. Note: J/C is the volt, so option A is not strictly correct; B (N/C) and C (V/m) are the correct units. The official key gives D."
+  },
+  {
+    "Question": "If D is the electric flux density, then value of electric intensity in air is",
+    "A": "D/ε0",
+    "B": "D/(ε0·εr)",
+    "C": "dV/dt",
+    "D": "Q/(εA)",
+    "Answer": "D/ε0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In air (εᵣ = 1), D = ε₀·E.\n2. Therefore, E = D/ε₀."
+  },
+  {
+    "Question": "For any medium, electric flux density D is related to electric intensity E by the equation",
+    "A": "D = ε0E",
+    "B": "D = ε0εr·E",
+    "C": "D = E/(ε0εr)",
+    "D": "D = ε0E/εr",
+    "Answer": "D = ε0εr·E",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In any medium, D = ε·E.\n2. And ε = ε₀εᵣ, so D = ε₀εᵣ·E."
+  },
+  {
+    "Question": "Inside a conducting sphere, _____ remains constant",
+    "A": "Electric flux",
+    "B": "Electric intensity",
+    "C": "Charge",
+    "D": "Potential",
+    "Answer": "Potential",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Inside a conductor, the electric field E = 0.\n2. Since E = −dV/dx = 0, the potential is constant everywhere inside."
+  },
+  {
+    "Question": "The SI unit of electric intensity is",
+    "A": "N/m",
+    "B": "V/m",
+    "C": "N/C",
+    "D": "Either (B) or (C)",
+    "Answer": "Either (B) or (C)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electric intensity E = F/q, measured in N/C.\n2. It is also equal to V/m. So both B and C are correct."
+  },
+  {
+    "Question": "According to Gauss’s theorem, the surface integral of the normal component of electric flux density D over a closed surface containing charge Q is",
+    "A": "Q",
+    "B": "Q/ε0",
+    "C": "ε0·Q",
+    "D": "Q²/ε0",
+    "Answer": "Q",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Gauss's law in terms of D: ∮D·dS = Q_enclosed.\n2. The surface integral of D equals the enclosed charge Q."
+  },
+  {
+    "Question": "Which of the following is zero inside a charged conducting sphere?",
+    "A": "Potential",
+    "B": "Electric intensity",
+    "C": "Both (A) and (B)",
+    "D": "Both (B) and (C)",
+    "Answer": "Electric intensity",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Inside a charged conductor, the electric intensity E = 0.\n2. The potential is constant (equal to the surface potential), not zero.\n3. Therefore, only (B) is correct. The official key lists C, which seems to be an error."
+  },
+  {
+    "Question": "In practice, earth is chosen as a place of zero electric potential because it",
+    "A": "Is non-conducting",
+    "B": "Is easily available",
+    "C": "Keeps losing and gaining electric charge every day",
+    "D": "Has almost constant potential.",
+    "Answer": "Has almost constant potential.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The earth is so large that its potential stays practically constant when charge is added or removed.\n2. Therefore, it is a convenient reference for zero potential."
+  },
+  {
+    "Question": "The conductors of a two-wire transmission line (4 km long) are spaced 45 cm between centre. If each conductor has a diameter of 1.5 cm, calculate the capacitance of the line.",
+    "A": "0.0272 μF",
+    "B": "0.0372 μF",
+    "C": "0.0227 μF",
+    "D": "0.0271 μF",
+    "Answer": "0.0272 μF",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Capacitance of two-wire line: C = π·ε₀·l / ln(d/r).\n2. d = 45 cm, r = 0.75 cm. ln(45/0.75) = ln(60) = 4.094.\n3. C = π × 8.854×10⁻¹² × 4000 / 4.094 ≈ 2.72×10⁻⁸ F = 0.0272 μF."
+  },
+  {
+    "Question": "The radius of the copper core of a single-core rubber-insulated cable is 2.25 mm. Calculate the radius of the lead sheath which covers the rubber insulation and the cable capacitance per metre. A voltage of 10 kV may be applied between the core and the lead sheath with a safety factor of 3. The rubber insulation has a relative permittivity of 4 and breakdown field strength of 18×10⁶ V/m.",
+    "A": "2×10⁻⁹ F",
+    "B": "3×10⁻⁹ F",
+    "C": "3×10⁻⁷ F",
+    "D": "2×10⁻⁷ F",
+    "Answer": "3×10⁻⁹ F",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Safe maximum stress = 18×10⁶ / 3 = 6×10⁶ V/m.\n2. E_max = V/[r·ln(R/r)]. So ln(R/r) = 10⁴/(6×10⁶ × 2.25×10⁻³) = 0.7407.\n3. R/r = e^0.7407 = 2.1, so R ≈ 4.72 mm.\n4. Capacitance per metre: C = 2πε₀εᵣ/ln(R/r) = 2π × 8.854×10⁻¹² × 4 / 0.7407 ≈ 3.0×10⁻¹⁰ F/m.\n5. The digits (3.0) match option B as per the key; the printed exponent appears off by one power."
+  },
+  {
+    "Question": "The force between two charges is 120 N. If the distance between the charges is doubled, the force will be",
+    "A": "60 N",
+    "B": "30 N",
+    "C": "40 N",
+    "D": "15 N",
+    "Answer": "30 N",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Coulomb's law: F ∝ 1/r².\n2. Doubling r reduces F to 1/4: 120/4 = 30 N."
+  }
+]

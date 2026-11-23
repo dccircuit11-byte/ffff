@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "In a RLC circuit inductance is 20 mH and capacitance is 200 micro Farad. Find the resonance frequency of the circuit.",
+    "A": "1000 rad/sec",
+    "B": "50 rad/sec",
+    "C": "250 rad/sec",
+    "D": "500 rad/sec",
+    "Answer": "500 rad/sec",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The resonant angular frequency is given by ω0 = 1/√(LC).\n2. Given L = 20 mH = 0.02 H and C = 200 µF = 200 × 10⁻⁶ F.\n3. LC = 0.02 × 200 × 10⁻⁶ = 4 × 10⁻⁶.\n4. √(LC) = √(4 × 10⁻⁶) = 2 × 10⁻³.\n5. ω0 = 1 / (2 × 10⁻³) = 500 rad/s."
+  },
+  {
+    "Question": "A series or parallel RLC circuit is said to be over damped if :",
+    "A": "ξ > ωn",
+    "B": "2ξ = ωn",
+    "C": "ξ < ωn",
+    "D": "ξ = ωn",
+    "Answer": "ξ > ωn",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. An overdamped response occurs when the system has two distinct real roots.\n2. This happens when the damping is greater than the critical value.\n3. In the notation used by the key, this condition is written as ξ > ωn."
+  },
+  {
+    "Question": "Which one of the following condition is true about parallel RLC circuit?",
+    "A": "IR = V/R, IC = V/Xc, IL = V/XL",
+    "B": "IR = V/XL, IC = V/R, IL = V/Xc",
+    "C": "VR = IR, VL = I·XL, VC = I·Xc",
+    "D": "IR = V/Xc, Ic = V/R, IL = V/XL",
+    "Answer": "IR = V/R, IC = V/Xc, IL = V/XL",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In a parallel RLC circuit, the voltage V across all branches is the same.\n2. By Ohm's law, the current through each branch is V divided by that branch's impedance: IR = V/R, IC = V/XC, and IL = V/XL."
+  },
+  {
+    "Question": "In the given parallel tuned circuit . at parallel resonance the impedance of the circuit is",
+    "A": "L/(CR)",
+    "B": "CR/R",
+    "C": "R/(CR)",
+    "D": "LCR",
+    "Answer": "L/(CR)",
+    "Image": "https://imgh.in/images/x3g7t2",
+    "Explaination": "Step-by-Step Solution:\n1. At parallel resonance, the reactive currents cancel out.\n2. The dynamic impedance of a practical parallel tuned circuit is given by the formula Zd = L/(CR)."
+  },
+  {
+    "Question": "The voltage across the various elements are marked, as shown in the figure given below (R: 3 V, L: 14 V, C: 10 V). The input voltage is",
+    "A": "27 V",
+    "B": "24 V",
+    "C": "10 V",
+    "D": "5 V",
+    "Answer": "5 V",
+    "Image": "https://imgh.in/images/zwxabp",
+    "Explaination": "Step-by-Step Solution:\n1. In a series RLC circuit, the voltages are phasors. The input voltage is V = √(VR² + (VL - VC)²).\n2. Given VR = 3 V, VL = 14 V, VC = 10 V.\n3. V = √(3² + (14 - 10)²) = √(9 + 4²) = √(9 + 16) = √25 = 5 V."
+  },
+  {
+    "Question": "The transfer function of an RLC circuit is given by H(s) = 10⁶/(s² + 20s + 10⁶). The Quality factor (Q-factor) of this circuit is",
+    "A": "25",
+    "B": "50",
+    "C": "100",
+    "D": "5000",
+    "Answer": "50",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Compare the denominator with the standard form s² + (ω0/Q)s + ω0².\n2. We get ω0² = 10⁶ => ω0 = 1000 rad/s.\n3. And ω0/Q = 20.\n4. Therefore, Q = ω0 / 20 = 1000 / 20 = 50."
+  },
+  {
+    "Question": "In the circuit shown in the figure given below (5 V DC source, 1 Ω, 2 H, 1 F, v = 10 sin t), instantaneous current i(t) under steady state is given by",
+    "A": "Zero",
+    "B": "5",
+    "C": "7.07 sin t",
+    "D": "7.07 sin(t − 45°)",
+    "Answer": "7.07 sin(t − 45°)",
+    "Image": "https://imgh.in/images/nqw6ts",
+    "Explaination": "Step-by-Step Solution:\n1. The series capacitor blocks the 5 V DC source, so only the AC source drives current in steady state.\n2. For the AC source, ω = 1 rad/s.\n3. Impedance Z = R + j(ωL - 1/ωC) = 1 + j(2 - 1) = 1 + j1 Ω.\n4. |Z| = √2 Ω and phase = 45°.\n5. Current amplitude = 10/√2 = 7.07 A. The current lags by 45°: i(t) = 7.07 sin(t - 45°) A."
+  },
+  {
+    "Question": "A 10 µF and a 20 µF capacitor are in series. The combination is supplied at 150 V from a sinusoidal voltage source. The voltage across the 20 µF capacitor is then",
+    "A": "75 V",
+    "B": "125 V",
+    "C": "100 V",
+    "D": "50 V",
+    "Answer": "50 V",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In series, the charge is the same, so voltage divides inversely with capacitance.\n2. V20 = V_total × C10 / (C10 + C20).\n3. V20 = 150 × 10 / (10 + 20) = 150 × 10 / 30 = 50 V."
+  },
+  {
+    "Question": "For balanced 3-phase supply system, the phasor sum of the line currents is NOT zero if the load is",
+    "A": "Balanced delta connected",
+    "B": "Unbalanced delta connected",
+    "C": "Balanced star connected",
+    "D": "Unbalanced star connected.",
+    "Answer": "Unbalanced star connected.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In a balanced 3-phase system, the line currents sum to zero.\n2. For a delta connection, KCL forces the sum of line currents to be zero even if the load is unbalanced.\n3. For an unbalanced star load with a neutral connection, the neutral carries the unbalanced current, so the phasor sum of the line currents is not zero."
+  },
+  {
+    "Question": "The phase difference between the following voltage and current waves, v = 311 sin(100πt + 30°) Volts, i = 17 sin(100πt − 20°) Amps is",
+    "A": "20°",
+    "B": "50°",
+    "C": "10°",
+    "D": "30°",
+    "Answer": "50°",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The phase of voltage is +30° and the phase of current is -20°.\n2. Phase difference = 30° - (-20°) = 30° + 20° = 50°."
+  },
+  {
+    "Question": "In an R-L series circuit R = 20 Ω, L = 0.056 H and the supply frequency is f = 50 Hz. The magnitude impedance of the circuit is",
+    "A": "26.64 Ω",
+    "B": "20.0 Ω",
+    "C": "37.6 Ω",
+    "D": "20.056 Ω",
+    "Answer": "26.64 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Calculate inductive reactance XL = 2πfL = 2 × π × 50 × 0.056 = 17.59 Ω.\n2. Impedance magnitude |Z| = √(R² + XL²).\n3. |Z| = √(20² + 17.59²) = √(400 + 309.4) = √709.4 = 26.64 Ω."
+  },
+  {
+    "Question": "Two coupled inductors L1 = 0.2 H and L2 = 0.8 H, have coefficient of coupling K = 0.8. The mutual inductance M is",
+    "A": "0.16 H",
+    "B": "0.02 H",
+    "C": "0.32 H",
+    "D": "0.24 H",
+    "Answer": "0.32 H",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Mutual inductance formula: M = K√(L1 × L2).\n2. M = 0.8 × √(0.2 × 0.8) = 0.8 × √0.16.\n3. M = 0.8 × 0.4 = 0.32 H."
+  },
+  {
+    "Question": "The purpose of providing a choke in the tube light is",
+    "A": "To eliminate the corona effects",
+    "B": "To avoid ratio interference",
+    "C": "To improve power factor",
+    "D": "To limit current to appropriate value",
+    "Answer": "To limit current to appropriate value",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A tube light requires a high voltage to start the discharge and then a lower, limited current to operate.\n2. The choke (inductor) provides a high voltage kick when the starter opens and then acts as a ballast to limit the current to the appropriate value."
+  },
+  {
+    "Question": "The voltage wave v = Vm sin(ωt − 15°) volts is applied across an ac circuit. If the current leads the voltage by 10° and the maximum value of current is Im, then the equation of current is.",
+    "A": "i = Im sin(ωt + 5°) amps",
+    "B": "i = Im sin(ωt − 25°) amps",
+    "C": "i = Im sin(ωt + 25°) amps",
+    "D": "i = Im sin(ωt − 5°) amps",
+    "Answer": "i = Im sin(ωt − 5°) amps",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Voltage phase angle = -15°.\n2. Current leads the voltage by 10°, so current phase = -15° + 10° = -5°.\n3. The equation is i = Im sin(ωt - 5°) A."
+  },
+  {
+    "Question": "The average value of current (Iav) of a sinusoidal wave of peak value of (Im) is",
+    "A": "Iav = Im/2",
+    "B": "Iav = (π/2) Im",
+    "C": "Iav = (2/π) Im",
+    "D": "Iav = Im/√2",
+    "Answer": "Iav = (2/π) Im",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The average value of a sine wave over a half cycle is Iavg = (2/π) × Im.\n2. Numerically, 2/π ≈ 0.637."
+  }
+]

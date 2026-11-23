@@ -1,0 +1,93 @@
+// JSON 6 (Questions 76–90)
+[
+  {
+    "Question": "The unit for permeability is",
+    "A": "Wb/Atm", "B": "At/m", "C": "Wb", "D": "At/Wb",
+    "Answer": "Wb/Atm", "Image": "",
+    "Explaination": "Permeability μ = B/H. B is in Wb/m² and H in AT/m, so μ has units of (Wb/m²)/(AT/m) = Wb/(AT·m), commonly written Wb/Atm (weber per ampere-turn-metre). At/m is field strength, Wb is flux, and At/Wb is reluctance. Hence the unit of permeability is Wb/Atm."
+  },
+  {
+    "Question": "A bar of iron 1 cm² in cross-section has 10⁻⁴ Wb of magnetic flux in it. If μr = 2000, what is the magnetic field intensity in the bar?",
+    "A": "796 × 10³ AT/m", "B": "398 AT/m", "C": "398 × 10⁻⁴ AT/m", "D": "398 × 10⁴ AT/m",
+    "Answer": "398 AT/m", "Image": "",
+    "Explaination": "Flux density B = φ/A = 10⁻⁴ Wb/(1×10⁻⁴ m²) = 1 T. Then H = B/(μ0·μr) = 1/(4π×10⁻⁷ × 2000) = 1/(2.513×10⁻³) ≈ 398 AT/m. Hence the magnetic field intensity in the bar is 398 AT/m."
+  },
+  {
+    "Question": "If the coefficient of coupling between two coils is increased, mutual inductance between the coils",
+    "A": "Changes depend on current only", "B": "Increased", "C": "Decreased", "D": "Remain unchanged",
+    "Answer": "Increased", "Image": "",
+    "Explaination": "Mutual inductance is M = k√(L1·L2), where k is the coupling coefficient. For fixed self-inductances, M is directly proportional to k. Therefore, if the coupling coefficient increases, the mutual inductance increases. Hence the correct answer is 'Increased'."
+  },
+  {
+    "Question": "The B-H curve is used to find the MMF of this section of the magnetic circuit. The section is :",
+    "A": "Vacuum", "B": "Iron part", "C": "Air gap", "D": "Both iron part and air gap",
+    "Answer": "Iron part", "Image": "",
+    "Explaination": "For ferromagnetic iron, the relationship between B and H is non-linear and depends on saturation, so the B-H curve (magnetisation curve) is needed to find H for a given B and hence the MMF. For air or vacuum, B = μ0H directly, so no curve is needed. Hence the B-H curve is used for the iron part."
+  },
+  {
+    "Question": "The voltage across a 5 H inductor is v(t) = 30t² for t > 0 (and 0 for t < 0). Find the energy stored at t = 5 s. Assume zero initial current.",
+    "A": "312.5 kJ", "B": "0.625 kJ", "C": "3.125 kJ", "D": "156.25 kJ",
+    "Answer": "156.25 kJ", "Image": "",
+    "Explaination": "Current is i = (1/L)∫v dt = (1/5)∫30t² dt = (1/5)(10t³) = 2t³ A. At t = 5 s, i = 2 × 125 = 250 A. Energy W = ½Li² = ½ × 5 × 250² = 2.5 × 62500 = 156,250 J = 156.25 kJ. Hence the stored energy is 156.25 kJ."
+  },
+  {
+    "Question": "The energy stored in the magnetic field of a solenoid 30 cm long and 3 cm diameter with 1,000 turns of wire carrying current of 10 A is",
+    "A": "1.15 J", "B": "0.015 J", "C": "0.15 J", "D": "0.5 J",
+    "Answer": "0.15 J", "Image": "",
+    "Explaination": "First find L = μ0·N²·A/l. Diameter 3 cm → r = 0.015 m, A = π × 0.015² = 7.069×10⁻⁴ m². With N = 1000 (N² = 10⁶), l = 0.3 m: L = (4π×10⁻⁷ × 10⁶ × 7.069×10⁻⁴)/0.3 ≈ 2.96×10⁻³ H. Energy W = ½LI² = ½ × 2.96×10⁻³ × 100 ≈ 0.148 J ≈ 0.15 J. Hence the stored energy is about 0.15 J."
+  },
+  {
+    "Question": "Point out the WRONG statement. The magnetizing force at the center of a circular coil varies",
+    "A": "Inversely as its radius", "B": "Directly as the number of its turns", "C": "Directly as the current", "D": "Directly as its radius",
+    "Answer": "Directly as its radius", "Image": "",
+    "Explaination": "At the centre of a circular coil, H = NI/(2r). So H is directly proportional to N and I, and inversely proportional to the radius r. The statement 'varies directly as its radius' is therefore wrong. (This answer is not in the official key; D is the correct choice.)"
+  },
+  {
+    "Question": "A 2 cm long coil has 10 turns and carries a current of 750 mA. The magnetising force of the coil is",
+    "A": "375 AT/m", "B": "225 AT/m", "C": "675 AT/m", "D": "450 AT/m",
+    "Answer": "375 AT/m", "Image": "",
+    "Explaination": "Magnetising force H = N·I/l. Here N = 10, I = 750 mA = 0.75 A and l = 2 cm = 0.02 m. So H = (10 × 0.75)/0.02 = 7.5/0.02 = 375 AT/m. Hence the magnetising force is 375 AT/m."
+  },
+  {
+    "Question": "The mutual inductance between two unity coupled coils of 9 H and 4 H will be",
+    "A": "36 H", "B": "2.2 H", "C": "6 H", "D": "13 H",
+    "Answer": "6 H", "Image": "",
+    "Explaination": "For unity coupling k = 1, so M = k√(L1·L2) = 1 × √(9 × 4) = √36 = 6 H. Hence the mutual inductance is 6 H."
+  },
+  {
+    "Question": "A magnet is kept in the medium of air surrounded by an iron ring. The magnetic lines of force from the magnet will be",
+    "A": "Very small in the ring", "B": "Crowded in the ring", "C": "Passing out of the ring", "D": "Evenly distributed within the ring",
+    "Answer": "Crowded in the ring", "Image": "",
+    "Explaination": "Iron has much higher permeability than air, so it offers a low-reluctance path. Magnetic lines of force therefore concentrate (crowd) in the iron ring rather than spreading through the surrounding air. Hence the lines will be crowded in the ring."
+  },
+  {
+    "Question": "The magnetic field energy in an inductor changes from the maximum value to the minimum value in 5 msec when connected to an A.C. source. The frequency of the source is",
+    "A": "500 Hz", "B": "20 Hz", "C": "50 Hz", "D": "200 Hz",
+    "Answer": "50 Hz", "Image": "",
+    "Explaination": "Magnetic energy is proportional to i², so it varies at twice the supply frequency. Max to min takes a quarter of the energy cycle, i.e. T/4 = 5 ms, giving T = 20 ms. Therefore f = 1/T = 1/0.02 = 50 Hz. Hence the source frequency is 50 Hz."
+  },
+  {
+    "Question": "The magnetic potential difference in a magnetic circuit is given by",
+    "A": "BIH", "B": "HJL", "C": "BL", "D": "Hl",
+    "Answer": "Hl", "Image": "",
+    "Explaination": "Magnetic potential difference (MMF drop) across a section equals the magnetising force H multiplied by the length l of that section: Vm = H·l. This is analogous to voltage drop V = E·l. Hence the correct expression is Hl."
+  },
+  {
+    "Question": "Consider a constant uniform magnetic field. A conductor moves across this field at a constant velocity. The emf induced in the conductor is termed as",
+    "A": "Self-Induced EMF", "B": "Induced EMF", "C": "Statically Induced EMF", "D": "Dynamically Induced EMF",
+    "Answer": "Dynamically Induced EMF", "Image": "",
+    "Explaination": "When EMF is induced by the physical motion of a conductor in a stationary magnetic field, it is called dynamically induced EMF (e = B·l·v). Statically induced EMF arises from a changing field with a stationary conductor (transformer action). Hence the correct term is dynamically induced EMF."
+  },
+  {
+    "Question": "A magnetic circuit carries a flux Φi in the iron part and a flux Φg in the air gap. Then leakage coefficient is",
+    "A": "Φi − Φg", "B": "Φi/Φg", "C": "Φg/Φi", "D": "Φi × Φg",
+    "Answer": "Φi/Φg", "Image": "",
+    "Explaination": "Leakage coefficient is defined as the ratio of total flux produced in the iron (Φi) to the useful flux crossing the air gap (Φg): λ = Φi/Φg. Because some flux leaks, Φi > Φg and λ > 1. Hence the correct expression is Φi/Φg."
+  },
+  {
+    "Question": "The flux through each turn of a 100-turn coil is (t³ − 2t) mWb, where t is in seconds. Find the magnitude of the induced emf at t = 2 s.",
+    "A": "1 V", "B": "0.8 V", "C": "0.4 V", "D": "0.2 V",
+    "Answer": "1 V", "Image": "",
+    "Explaination": "By Faraday's law, e = N·dφ/dt. Here φ = (t³ − 2t) mWb, so dφ/dt = (3t² − 2) mWb/s = (3t² − 2)×10⁻³ Wb/s. At t = 2 s, dφ/dt = (12 − 2)×10⁻³ = 10×10⁻³ Wb/s. Then e = 100 × 10×10⁻³ = 1 V. Hence the induced EMF is 1 V."
+  }
+]

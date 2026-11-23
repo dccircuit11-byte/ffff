@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "If 2.2 m long conductor has a cross sectional area of 0.025 m² and resistance of 5 ohms, find its resistivity :",
+    "A": "0.072 ohm m",
+    "B": "0.057 ohm m",
+    "C": "0.58 ohm m",
+    "D": "0.67 ohm m",
+    "Answer": "0.057 ohm m",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The formula for resistivity is ρ = R × A / l.\n2. ρ = 5 Ω × 0.025 m² / 2.2 m.\n3. ρ = 0.125 / 2.2 ≈ 0.0568 Ω·m.\n4. Rounding off, we get 0.057 ohm m."
+  },
+  {
+    "Question": "What is the difference between an atom and an ion?",
+    "A": "Ions have always larger mass than the atoms of the same element",
+    "B": "Ions are neutral particles while atoms always carry a positive charge",
+    "C": "Ions are always charged particles while the atoms are neutral as a whole",
+    "D": "Ions can only exist in liquid solutions",
+    "Answer": "Ions are always charged particles while the atoms are neutral as a whole",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. An atom is electrically neutral because it has an equal number of protons (positive) and electrons (negative).\n2. An ion is formed when an atom gains or loses electrons, giving it a net positive or negative charge.\n3. Therefore, ions are charged while atoms are neutral."
+  },
+  {
+    "Question": "A charge exists on a conductor. The best way to remove this charge is to ______.",
+    "A": "Isolate the conductor from other charges",
+    "B": "Ground the conductor",
+    "C": "Create Vacuum around the conductor",
+    "D": "None of these",
+    "Answer": "Ground the conductor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Grounding means connecting the conductor to the Earth, which acts as an infinite charge reservoir.\n2. Any excess charge on the conductor will flow to the Earth, neutralizing the conductor.\n3. This is the standard safety method used in electrical systems."
+  },
+  {
+    "Question": "Permittivity of vacuum is",
+    "A": "9×10⁹ F/m",
+    "B": "8.854×10⁻¹² F/m",
+    "C": "4π×10⁻⁷ F/m",
+    "D": "8.987×10⁻⁹ F/m",
+    "Answer": "8.854×10⁻¹² F/m",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The permittivity of free space (vacuum) is denoted by ε₀.\n2. Its standard value is approximately 8.854 × 10⁻¹² F/m (farads per meter).\n3. Note: 4π × 10⁻⁷ H/m is the permeability of free space (μ₀), not permittivity."
+  },
+  {
+    "Question": "In any electric circuit the flow of electron constitutes :",
+    "A": "magnetic charge",
+    "B": "an electric current",
+    "C": "an electric charge",
+    "D": "an electro motive force",
+    "Answer": "an electric current",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electric current is defined as the rate of flow of electric charge.\n2. In solid conductors, the moving charges are electrons.\n3. Therefore, the flow of electrons constitutes an electric current."
+  },
+  {
+    "Question": "If a voltage changes instantly the current through a resistor connected across it –",
+    "A": "Does not change",
+    "B": "Changes after some time",
+    "C": "Changes instantly",
+    "D": "None of the other options",
+    "Answer": "Changes instantly",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ohm's law states V = IR, so I = V/R.\n2. A resistor has no energy-storing property (no inductance or capacitance in the ideal case).\n3. Therefore, any instantaneous change in voltage results in an instantaneous change in current."
+  },
+  {
+    "Question": "Point form of Ohm's law is represented by the relation –",
+    "A": "J = σ/E",
+    "B": "J = σE",
+    "C": "J = E/σ",
+    "D": "J = σ²E",
+    "Answer": "J = σE",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The point form of Ohm's law relates current density (J) to the electric field (E).\n2. The relationship is J = σE, where σ is the conductivity of the material.\n3. This means current density is directly proportional to the electric field."
+  },
+  {
+    "Question": "One Joule per coulomb is called –",
+    "A": "volt",
+    "B": "ampere",
+    "C": "farad",
+    "D": "gauss",
+    "Answer": "volt",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Voltage (potential difference) is defined as the work done per unit charge.\n2. V = W / Q.\n3. The unit of work is the Joule (J) and the unit of charge is the Coulomb (C).\n4. Therefore, 1 Volt = 1 Joule / 1 Coulomb."
+  },
+  {
+    "Question": "Potential difference is :",
+    "A": "Scalar Quantity",
+    "B": "Vector Quantity",
+    "C": "Both Scalar Quantity and Vector Quantity",
+    "D": "None of these",
+    "Answer": "Scalar Quantity",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Potential difference (voltage) has magnitude and a sign (+ or -), but no direction in space.\n2. It follows the rules of scalar addition (e.g., algebraic sum around a closed loop is zero).\n3. Therefore, it is classified as a scalar quantity."
+  },
+  {
+    "Question": "The device which does not have frequency dependent properties on its own is",
+    "A": "Inductor",
+    "B": "Capacitor",
+    "C": "Resistor",
+    "D": "All the above",
+    "Answer": "Resistor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The reactance of an inductor (XL = 2πfL) depends on frequency.\n2. The reactance of a capacitor (XC = 1/(2πfC)) depends on frequency.\n3. An ideal resistor has resistance R independent of frequency.\n4. Therefore, the resistor is the device without frequency-dependent properties."
+  },
+  {
+    "Question": "Potential difference has the unit of",
+    "A": "Charge",
+    "B": "Power",
+    "C": "Energy",
+    "D": "None",
+    "Answer": "None",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The unit of potential difference is the Volt (V).\n2. The Volt is equivalent to Joules per Coulomb (J/C).\n3. Charge (Coulomb), Power (Watt), and Energy (Joule) are different quantities.\n4. Therefore, potential difference does not have the unit of any of the listed options."
+  },
+  {
+    "Question": "Ratio of the voltage and electric current in a closed circuit :",
+    "A": "remains constant",
+    "B": "varies",
+    "C": "increases",
+    "D": "decreases",
+    "Answer": "remains constant",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. According to Ohm's law, V = IR.\n2. Rearranging gives V/I = R.\n3. For a given circuit at constant temperature, R is constant.\n4. Therefore, the ratio V/I remains constant."
+  },
+  {
+    "Question": "Current always flow in direction :",
+    "A": "Opposite to that of electron",
+    "B": "Direction same as of electron",
+    "C": "Independent of electron flow",
+    "D": "None of these",
+    "Answer": "Opposite to that of electron",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. By convention, conventional current is defined as the flow of positive charge.\n2. Electrons carry a negative charge and physically move from the negative terminal to the positive terminal.\n3. Therefore, conventional current flows in the direction opposite to the flow of electrons."
+  },
+  {
+    "Question": "The electron relaxation time of metal A is 2.7×10⁻⁴ s and that of B is 1.35×10⁻⁴ s. The relation of resistivity of B to resistivity of A will be :",
+    "A": "4",
+    "B": "2.0",
+    "C": "0.5",
+    "D": "0.025",
+    "Answer": "2.0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Resistivity is given by the Drude model: ρ = m / (n e² τ), where τ is the relaxation time.\n2. This shows that ρ is inversely proportional to τ (ρ ∝ 1/τ).\n3. Therefore, ρ_B / ρ_A = τ_A / τ_B.\n4. ρ_B / ρ_A = (2.7 × 10⁻⁴) / (1.35 × 10⁻⁴) = 2.0."
+  },
+  {
+    "Question": "One mega ohm equals to :",
+    "A": "10⁶ ohm",
+    "B": "10⁻⁶ ohm",
+    "C": "10³ ohm",
+    "D": "10⁸ ohm",
+    "Answer": "10⁶ ohm",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The prefix 'mega' (M) represents a factor of one million.\n2. One million is equal to 10⁶.\n3. Therefore, 1 Mega-ohm (MΩ) = 10⁶ ohms."
+  }
+]

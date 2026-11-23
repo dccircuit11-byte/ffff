@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "For the circuit shown below, voltage V1 will be",
+    "A": "2.64 V",
+    "B": "3.64 V",
+    "C": "6.0 V",
+    "D": "9.1 V",
+    "Answer": "6.0 V",
+    "Image": "https://imgh.in/images/138k9w",
+    "Explaination": "Step-by-Step Solution:\n1. Node V1: (10 − V1)/1 = (V1 − V2)/2.\n2. Node V2: (V1 − V2)/2 = V2/2 + 5.\n3. Solving gives V2 = -2 V and V1 = 6 V."
+  },
+  {
+    "Question": "The value of current I flowing in the 1 Ω resistor in the circuit shown in the figure below will be",
+    "A": "10 A",
+    "B": "6 A",
+    "C": "5 A",
+    "D": "Zero",
+    "Answer": "5 A",
+    "Image": "https://imgh.in/images/4e640q",
+    "Explaination": "Step-by-Step Solution:\n1. The 5 V source is directly across the 1 Ω resistor.\n2. I = 5 / 1 = 5 A."
+  },
+  {
+    "Question": "In the figure shown below, if we connect a source of 2 V, with internal resistance of 1 Ω at AA' with positive terminal at A, then current through R is",
+    "A": "2 A",
+    "B": "1.66 A",
+    "C": "1 A",
+    "D": "0.625 A",
+    "Answer": "0.625 A",
+    "Image": "https://imgh.in/images/9s4nyp",
+    "Explaination": "Step-by-Step Solution:\n1. Replace the network with its Thevenin equivalent.\n2. Connect the source and apply KVL.\n3. The current through R = 2 Ω is 0.625 A."
+  },
+  {
+    "Question": "The equivalent resistance between terminals X and Y of the network shown is",
+    "A": "8 Ω",
+    "B": "100/3 Ω",
+    "C": "40/3 Ω",
+    "D": "20/9 Ω",
+    "Answer": "40/3 Ω",
+    "Image": "https://imgh.in/images/3gbw9p",
+    "Explaination": "Step-by-Step Solution:\n1. The bridge is balanced (5/15 = 10/30), so no current flows through R.\n2. Req = (5 + 15) ∥ (10 + 30) = 20 ∥ 40 = 40/3 Ω."
+  },
+  {
+    "Question": "A voltmeter when connected across a dc supply, reads 124 V. When a series combination of the voltmeter and unknown resistance X is connected across the supply, the meter reads 4 V. If the resistance of the voltmeter is 50 kΩ, the value of X is",
+    "A": "1550 kΩ",
+    "B": "1600 kΩ",
+    "C": "1.6 kΩ",
+    "D": "1.5 MΩ",
+    "Answer": "1.5 MΩ",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. I = 4 V / 50 kΩ = 80 µA.\n2. V_X = 124 − 4 = 120 V.\n3. X = 120 / 80 µA = 1.5 MΩ."
+  },
+  {
+    "Question": "Two 2000 Ω, 2 watt resistors are connected in parallel. Their combined resistance value and wattage rating are",
+    "A": "1000 Ω, 2 watt",
+    "B": "1000 Ω, 4 watt",
+    "C": "2000 Ω, 4 watt",
+    "D": "2000 Ω, 2 watt",
+    "Answer": "1000 Ω, 4 watt",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Parallel R = 2000 / 2 = 1000 Ω.\n2. Each can dissipate 2 W, so total = 4 W."
+  },
+  {
+    "Question": "For the circuit shown in figure, when Vs = 0, I = 3 A. When Vs = 200 V what will be the value of I?",
+    "A": "−4 A",
+    "B": "−1 A",
+    "C": "1 A",
+    "D": "7 A",
+    "Answer": "−1 A",
+    "Image": "https://imgh.in/images/d84dgk",
+    "Explaination": "Step-by-Step Solution:\n1. Superposition: With Vs = 0, I = 3 A.\n2. With Vs = 200 V, the top node = −120 V, so I = −120/30 = −4 A.\n3. Total I = 3 + (−4) = −1 A."
+  },
+  {
+    "Question": "The current I in the circuit shown in the figure is",
+    "A": "−3.67 A",
+    "B": "−1 A",
+    "C": "4 A",
+    "D": "6 A",
+    "Answer": "−1 A",
+    "Image": "https://imgh.in/images/0v8p7l",
+    "Explaination": "Step-by-Step Solution:\n1. Apply KCL at nodes and solve.\n2. The current through R is −1 A."
+  },
+  {
+    "Question": "The voltage across the 1 kΩ resistor of the network shown in the given figure is :",
+    "A": "2 V",
+    "B": "4 V",
+    "C": "6 V",
+    "D": "1 V",
+    "Answer": "4 V",
+    "Image": "https://imgh.in/images/v0ef5a",
+    "Explaination": "Step-by-Step Solution:\n1. Millman's theorem: V = (10/2 − 2/2) / (1/2 + 1/2 + 1/1000).\n2. V = 4 / 1.001 ≈ 4 V."
+  },
+  {
+    "Question": "If two capacitances C1 and C2 are connected in parallel then the equivalent capacitance is given by:",
+    "A": "C1·C2",
+    "B": "C2 / C1",
+    "C": "C1 + C2",
+    "D": "C1 / C2",
+    "Answer": "C1 + C2",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Capacitors in parallel add directly.\n2. Ceq = C1 + C2."
+  },
+  {
+    "Question": "Find the node voltage VA.",
+    "A": "5.66 V",
+    "B": "6 V",
+    "C": "6.66 V",
+    "D": "5 V",
+    "Answer": "6 V",
+    "Image": "https://imgh.in/images/zlmkzm",
+    "Explaination": "Step-by-Step Solution:\n1. KCL: (12 − VA)/1 + (6 − VA)/1 = VA/1.\n2. 18 − 2VA = VA => 3VA = 18 => VA = 6 V."
+  },
+  {
+    "Question": "Find current I1, I2 and I3 respectively in the given figure.",
+    "A": "1.38 A, 1.1 A and 5.52 A",
+    "B": "1.38 A, 5.5 A and 1.1 A",
+    "C": "1.38 A, 0.9 A and 6.38 A",
+    "D": "1.1 A, 5.52 A and 1.38 A",
+    "Answer": "1.38 A, 1.1 A and 5.52 A",
+    "Image": "https://imgh.in/images/nu7dbg",
+    "Explaination": "Step-by-Step Solution:\n1. G = 1/4 + 1/5 + 1/1 = 1.45 S.\n2. V = 8 / 1.45 = 5.52 V.\n3. I1 = 1.38 A, I2 = 1.1 A, I3 = 5.52 A."
+  },
+  {
+    "Question": "All the resistances in figure shown below are 1 Ω each. The value of current 'I' is",
+    "A": "1/15 A",
+    "B": "2/15 A",
+    "C": "4/15 A",
+    "D": "8/15 A",
+    "Answer": "8/15 A",
+    "Image": "https://imgh.in/images/8netun",
+    "Explaination": "Step-by-Step Solution:\n1. Equivalent resistance = 15/8 Ω.\n2. I = 1 / (15/8) = 8/15 A."
+  },
+  {
+    "Question": "Which one of the following statement is TRUE about the Kirchhoff's voltage law?",
+    "A": "The algebraic sum of all the voltages around any closed path is infinite.",
+    "B": "The algebraic sum of all the voltages around any closed path is negative.",
+    "C": "The algebraic sum of all the voltages around any closed path is one.",
+    "D": "The algebraic sum of all the voltages around any closed path is zero.",
+    "Answer": "The algebraic sum of all the voltages around any closed path is zero.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. KVL is based on conservation of energy.\n2. Sum of voltages around a closed loop is zero."
+  },
+  {
+    "Question": "What will be the potential difference (in V) between the ends of a conductor when the current flowing through the conductor is 3 A and the value of conductance is 0.3 mho?",
+    "A": "10",
+    "B": "100",
+    "C": "20",
+    "D": "0.1",
+    "Answer": "10",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. V = I / G.\n2. V = 3 / 0.3 = 10 V."
+  }
+]

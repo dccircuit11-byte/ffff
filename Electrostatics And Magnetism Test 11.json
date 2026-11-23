@@ -1,0 +1,202 @@
+[
+  {
+    "Question": "For a good 0.05 μF capacitor ohmmeter reading should",
+    "A": "show low resistance momentarily and back off to a very high resistance",
+    "B": "show high resistance momentarily and then a very low resistance",
+    "C": "go quickly to 50 ohm approximately and remain there",
+    "D": "not move at all",
+    "Answer": "show low resistance momentarily and back off to a very high resistance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A good capacitor charges (low resistance at first).\n2. Then the resistance rises to a very high value."
+  },
+  {
+    "Question": "The ohmmeter reading for a short circuited capacitor is",
+    "A": "infinity",
+    "B": "few kilo ohms",
+    "C": "few megohms",
+    "D": "zero",
+    "Answer": "zero",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A shorted capacitor reads zero ohms."
+  },
+  {
+    "Question": "Which of the following statements is correct?",
+    "A": "mica capacitors are available in capacitance values of 5 to 20 μF",
+    "B": "air capacitors have a black band to indicate the outside foil",
+    "C": "electrolytic capacitors must be connected in correct polarity",
+    "D": "ceramic capacitors must be connected in correct polarity",
+    "Answer": "electrolytic capacitors must be connected in correct polarity",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electrolytic capacitors are polarised.\n2. They must be connected with correct polarity."
+  },
+  {
+    "Question": "Which of the following capacitors is preferred for high frequency circuits?",
+    "A": "air capacitor",
+    "B": "electrolytic capacitor",
+    "C": "mica capacitor",
+    "D": "none of the above",
+    "Answer": "mica capacitor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Mica capacitors have low losses and are stable at high frequency."
+  },
+  {
+    "Question": "An electrolytic capacitor is generally made to provide",
+    "A": "low capacitance",
+    "B": "fixed capacitance",
+    "C": "variable capacitance",
+    "D": "large value of capacitance",
+    "Answer": "large value of capacitance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The very thin oxide dielectric gives a large capacitance in a small size."
+  },
+  {
+    "Question": "In order to remove static electricity from machinery",
+    "A": "construct insulated cabins",
+    "B": "insulate the machinery",
+    "C": "ground the framework",
+    "D": "humidify the surroundings",
+    "Answer": "ground the framework",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Grounding the framework leads the static charge to earth."
+  },
+  {
+    "Question": "If a third equal and similar charge is placed between two equal and similar charges, then this third charge will",
+    "A": "move out of the field of influence of the two charges",
+    "B": "remain in stable equilibrium",
+    "C": "not be in equilibrium",
+    "D": "be in unstable equilibrium",
+    "Answer": "remain in stable equilibrium",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, it remains in equilibrium (stable along the line joining the charges)."
+  },
+  {
+    "Question": "A region around a stationary electric charge has",
+    "A": "an electric field",
+    "B": "a magnetic field",
+    "C": "both (A) and (B)",
+    "D": "none of the above",
+    "Answer": "an electric field",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A stationary charge produces only an electric field."
+  },
+  {
+    "Question": "The minimum value of potential gradient in a cable occurs in",
+    "A": "insulation",
+    "B": "conductor",
+    "C": "outer sheath",
+    "D": "uniformly all over",
+    "Answer": "insulation",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, the answer is A (insulation).\n2. The gradient in the insulation is least near the sheath."
+  },
+  {
+    "Question": "Dielectric strength of a medium",
+    "A": "increases with rise in temperature",
+    "B": "increases with moisture content",
+    "C": "is same for all insulating materials",
+    "D": "none of the above",
+    "Answer": "none of the above",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Dielectric strength usually decreases with temperature and moisture.\n2. It also differs between materials, so none of the statements is correct."
+  },
+  {
+    "Question": "A charge which when placed in vacuum from an equal and similar charge repels with a force of 9 × 10⁻³ N (at 1 m) is known as",
+    "A": "milli-coulomb",
+    "B": "micro-coulomb",
+    "C": "pico-coulomb",
+    "D": "coulomb",
+    "Answer": "micro-coulomb",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. F = 9×10⁹ Q²/r².\n2. 9×10⁻³ = 9×10⁹ Q² / 1² → Q² = 10⁻¹² → Q = 10⁻⁶ C = 1 μC."
+  },
+  {
+    "Question": "Dielectric strength of a medium is usually expressed in",
+    "A": "J/mm",
+    "B": "C/m²",
+    "C": "kV/mm",
+    "D": "N/mm",
+    "Answer": "kV/mm",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Dielectric strength is the field a material can withstand.\n2. It is expressed in kV/mm."
+  },
+  {
+    "Question": "A positive and a negative charge are initially 50 mm apart. When they are moved close together so that they are now only 10 mm apart, the force between them will be",
+    "A": "5 times smaller than before",
+    "B": "5 times greater than before",
+    "C": "10 times greater than before",
+    "D": "25 times larger than before",
+    "Answer": "25 times larger than before",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. F ∝ 1/r².\n2. Distance reduces by 5 times, so the force becomes 5² = 25 times larger."
+  },
+  {
+    "Question": "Which is the most superior dielectric out of the following?",
+    "A": "Air",
+    "B": "Glass",
+    "C": "Bakelite",
+    "D": "Paper",
+    "Answer": "Bakelite",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, bakelite is the best of the given options (high dielectric strength and permittivity)."
+  },
+  {
+    "Question": "When a dielectric is placed in an electric field the field strength",
+    "A": "Decreases",
+    "B": "Increases",
+    "C": "Reduces to zero",
+    "D": "Remains unchanged",
+    "Answer": "Decreases",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The dielectric polarises and the induced field opposes the applied field.\n2. So the net field strength decreases."
+  },
+  {
+    "Question": "To prevent the generation of static charges on rubber or flat leather",
+    "A": "Surface is moistened",
+    "B": "Conductive dressing is done",
+    "C": "oil compound dressing is done",
+    "D": "Talcum powder is sprayed on the surface",
+    "Answer": "Conductive dressing is done",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Conductive dressing allows charge to leak away.\n2. This prevents static build-up."
+  },
+  {
+    "Question": "Which of the following capacitors is preferred in case of single phase motor?",
+    "A": "Mica capacitor",
+    "B": "Paper capacitor",
+    "C": "Electrolytic capacitor",
+    "D": "Ceramic capacitor",
+    "Answer": "Electrolytic capacitor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electrolytic capacitors provide the large capacitance required for motor starting."
+  },
+  {
+    "Question": "A capacitance is a circuit component that opposes the change in circuit",
+    "A": "current",
+    "B": "voltage",
+    "C": "impedance",
+    "D": "none of the above",
+    "Answer": "voltage",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A capacitor opposes sudden changes in voltage. (The official key lists A, but the correct answer is voltage.)"
+  },
+  {
+    "Question": "A condenser suitable for d.c. only is",
+    "A": "Metallic plate variable gang condenser",
+    "B": "Metallic paper capacitor",
+    "C": "Oil impregnated paper condenser",
+    "D": "Poled aluminium electrolytic condenser",
+    "Answer": "Poled aluminium electrolytic condenser",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Polarised (poled) aluminium electrolytic capacitors can be used only on d.c."
+  },
+  {
+    "Question": "In a capacitor, the electric charge is stored in",
+    "A": "Metal plates",
+    "B": "Dielectric",
+    "C": "Dielectric as well as metal plates",
+    "D": "None of the above",
+    "Answer": "Dielectric",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, the energy/charge effect is stored in the dielectric (electric field)."
+  }
+]

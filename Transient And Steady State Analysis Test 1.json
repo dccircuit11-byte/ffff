@@ -1,0 +1,63 @@
+// JSON 1 (Questions 1–10)
+[
+  {
+    "Question": "What will be the value of current IL through the resistor at t = 1 ms if IL(0) = 6 ampere. (L = 500 mH, R = 1000 Ω)",
+    "A": "4.66 mA", "B": "456 mA", "C": "6.098 A", "D": "812 mA",
+    "Answer": "812 mA", "Image": "https://imgh.in/images/zh7ydy",
+    "Explaination": "Source-free RL circuit: τ = L/R = 0.5/1000 = 0.5 ms. IL(t) = 6 e^(−t/τ) = 6 e^(−2) = 0.812 A = 812 mA (the time value corresponds to t = 1 ms, i.e. two time constants)."
+  },
+  {
+    "Question": "The time constant of the network shown in figure is",
+    "A": "2RC", "B": "3RC", "C": "RC/2", "D": "2RC/3",
+    "Answer": "2RC/3", "Image": "https://imgh.in/images/5zmspr",
+    "Explaination": "Resistance seen by the capacitor (source shorted) = R ∥ 2R = 2R/3. τ = (2R/3) × C = 2RC/3."
+  },
+  {
+    "Question": "For the circuit shown below different time constants are given: 1. 0.5×10⁻³ sec 2. 2×10⁻³ sec 3. 0.25×10⁻³ sec 4. 10⁻³ sec. What are the charging and discharging times respectively?",
+    "A": "1, 2", "B": "2, 3", "C": "1, 3", "D": "2, 4",
+    "Answer": "1, 3", "Image": "https://imgh.in/images/t7l11c",
+    "Explaination": "Charging (switch at A): R1 × C = 1 kΩ × 0.5 µF = 0.5 ms (option 1). Discharging (switch at B): the two 0.5 µF capacitors are in series = 0.25 µF, with R2 = 1 kΩ, so τ = 0.25 ms (option 3)."
+  },
+  {
+    "Question": "The time constant for the given circuit will be",
+    "A": "1/9 sec", "B": "1/4 sec", "C": "4 sec", "D": "9 sec",
+    "Answer": "4 sec", "Image": "https://imgh.in/images/b0u8n4",
+    "Explaination": "With the current source open, the capacitors form a single loop: the two 1 F on the left are in parallel (2 F) and in series with the top 1 F, so Ceq = 2/3 F. The resistance in the loop is 3 Ω + 3 Ω = 6 Ω. τ = 6 × 2/3 = 4 s."
+  },
+  {
+    "Question": "In the system shown below, x(t) = sin t. In steady state the response y(t) will be (transfer function 1/(s+1))",
+    "A": "(1/√2) sin(t − π/4)", "B": "(1/√2) sin(t + π/4)", "C": "(1/√2) e^(−t) sin t", "D": "sin t − cos t",
+    "Answer": "(1/√2) sin(t − π/4)", "Image": "https://imgh.in/images/sehd4l",
+    "Explaination": "H(jω) = 1/(1 + jω) at ω = 1: magnitude = 1/√2 and phase = −45°. So y(t) = (1/√2) sin(t − π/4)."
+  },
+  {
+    "Question": "The circuit shown below is driven by a sinusoidal input Vi = Vp cos(t/RC). The steady state output V0 is",
+    "A": "(Vp/3) cos(t/RC)", "B": "(Vp/3) sin(t/RC)", "C": "(Vp/2) cos(t/RC)", "D": "(Vp/2) sin(t/RC)",
+    "Answer": "(Vp/3) cos(t/RC)", "Image": "https://imgh.in/images/98hb6l",
+    "Explaination": "At ω = 1/RC: series branch Zs = R − jR, parallel branch Zp = R/(1 + j). V0/Vi = Zp/(Zs + Zp) = 1/[(1 − j)(1 + j) + 1] = 1/3 (real). So V0 = (Vp/3) cos(t/RC)."
+  },
+  {
+    "Question": "For the circuit shown in the figure below, what is the time constant?",
+    "A": "(R1 + R2)(C1 × C2 / C1 + C2)", "B": "(R1 × R2 / R1 + R2)(C1 + C2)", "C": "(R1 + R2)(C1 + C2)", "D": "(R1 × R2 / R1 + R2)(C1 × C2 / C1 + C2)",
+    "Answer": "(R1 × R2 / R1 + R2)(C1 + C2)", "Image": "https://imgh.in/images/aam869",
+    "Explaination": "R1 and R2 are in parallel and C1 and C2 are in parallel, so Req = R1R2/(R1 + R2) and Ceq = C1 + C2. τ = (R1R2/(R1 + R2)) (C1 + C2), as per the official key."
+  },
+  {
+    "Question": "For a parallel RLC network shown in below, the steady state output voltage V(t) for ω = 1 rad/sec is (i(t) = cos ωt, L = 1 H, R = 1 Ω, C = 1 F)",
+    "A": "sin t", "B": "√2 cos t", "C": "cos t", "D": "√2 cos(t − 45°)",
+    "Answer": "cos t", "Image": "https://imgh.in/images/v0bzro",
+    "Explaination": "At ω = 1: XL = 1 Ω and XC = 1 Ω, so the parallel LC branch is at resonance and has infinite impedance. The whole current flows through R: V = I × R = cos t."
+  },
+  {
+    "Question": "The value of dvc/dt and diL/dt at t = 0+ for the given circuit shown in below is-",
+    "A": "−10⁶ A/sec, 0 V/sec", "B": "10⁶ A/sec, 0 V/sec", "C": "0 A/sec, 10⁶ V/sec", "D": "0 A/sec, −10⁶ V/sec",
+    "Answer": "10⁶ A/sec, 0 V/sec", "Image": "https://imgh.in/images/mkpytq",
+    "Explaination": "Use continuity of inductor current and capacitor voltage at t = 0 with the source u(−t) switching off at t = 0. Applying KVL/KCL at t = 0+ gives diL/dt = 10⁶ A/s and dvC/dt = 0 V/s (as per the official answer key)."
+  },
+  {
+    "Question": "For the circuit shown in figure, the time constant RC = 1 ms. The input voltage is vi(t) = √2 sin 10³t. The output voltage v0(t) is equal to",
+    "A": "sin(10³t − 45°)", "B": "sin(10³t + 45°)", "C": "sin(10³t − 53°)", "D": "sin(10³t + 53°)",
+    "Answer": "sin(10³t − 45°)", "Image": "https://imgh.in/images/66sz35",
+    "Explaination": "ω = 10³ rad/s, so ωRC = 1. For an RC low-pass, |H| = 1/√(1 + 1) = 1/√2 and phase = −45°. v0 = √2 × (1/√2) sin(10³t − 45°) = sin(10³t − 45°)."
+  }
+]

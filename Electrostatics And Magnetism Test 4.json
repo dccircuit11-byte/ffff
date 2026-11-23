@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "Which of the following is not a vector?",
+    "A": "linear momentum",
+    "B": "angular momentum",
+    "C": "electric field",
+    "D": "electric potential",
+    "Answer": "electric potential",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electric potential is a scalar.\n2. The official key lists B, but angular momentum is a vector; the scalar here is electric potential."
+  },
+  {
+    "Question": "Two plates of a parallel plate capacitor, after being charged from a constant voltage source, are separated apart by means of insulated handles, then the",
+    "A": "voltage across the plates increases",
+    "B": "voltage across the plates decreases",
+    "C": "charge on the capacitor decreases",
+    "D": "charge on the capacitor increases",
+    "Answer": "voltage across the plates increases",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Once charged and isolated, Q stays constant.\n2. Separating the plates reduces C (C ∝ 1/d).\n3. Therefore, V = Q/C increases. (The official key lists B, but the standard answer is A.)"
+  },
+  {
+    "Question": "If a.c. voltage is applied to a capacitive circuit, the alternating current can flow in the circuit because",
+    "A": "varying voltage produces the charging and discharging currents",
+    "B": "of high peak value",
+    "C": "charging current can flow",
+    "D": "discharge current can flow",
+    "Answer": "varying voltage produces the charging and discharging currents",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The changing voltage makes the capacitor alternately charge and discharge.\n2. This produces an alternating current in the circuit."
+  },
+  {
+    "Question": "Voltage applied across a ceramic dielectric produces an electric field 100 times greater than air. What will be the value of dielectric constant?",
+    "A": "50",
+    "B": "100",
+    "C": "150",
+    "D": "200",
+    "Answer": "100",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, the dielectric constant (relative permittivity) is taken as 100."
+  },
+  {
+    "Question": "Which of the following statements is correct?",
+    "A": "air capacitors have a black band to indicate the outside foil",
+    "B": "electrolytic capacitor must be connected in the correct polarity",
+    "C": "ceramic capacitors must be connected in the correct polarity",
+    "D": "mica capacitors are available in capacitance value of 1 to 10 pF",
+    "Answer": "electrolytic capacitor must be connected in the correct polarity",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electrolytic capacitors are polarised.\n2. They must be connected with correct polarity."
+  },
+  {
+    "Question": "The dissipation factor of a good dielectric is of the order of",
+    "A": "0.0002",
+    "B": "0.002",
+    "C": "0.02",
+    "D": "0.2",
+    "Answer": "0.0002",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A good dielectric has very small losses.\n2. Its dissipation factor (tan δ) is of the order of 0.0002."
+  },
+  {
+    "Question": "“The total electric flux through any closed surface surrounding charges is equal to the amount of charge enclosed”. The above statement is associated with",
+    "A": "Coulomb’s square law",
+    "B": "Gauss’s law",
+    "C": "Maxwell’s first law",
+    "D": "Maxwell’s second law",
+    "Answer": "Gauss’s law",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. This is the statement of Gauss's law."
+  },
+  {
+    "Question": "Three capacitors each of capacity C are given. The resultant capacity 2/3 C can be obtained by using them",
+    "A": "all in series",
+    "B": "all in parallel",
+    "C": "two in parallel and third in series with this combination",
+    "D": "two in series and third in parallel across this combination",
+    "Answer": "two in parallel and third in series with this combination",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Two in parallel give 2C.\n2. This in series with C gives (2C × C)/(3C) = 2C/3."
+  },
+  {
+    "Question": "For which of the following parameter variation, the capacitance of the capacitor remains unaffected?",
+    "A": "distance between plates",
+    "B": "area of the plates",
+    "C": "nature of dielectric",
+    "D": "thickness of the plates",
+    "Answer": "thickness of the plates",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Capacitance depends on area, separation and dielectric.\n2. It does not depend on the thickness of the plates."
+  },
+  {
+    "Question": "Which of the following statements is true?",
+    "A": "the current in the discharging capacitor grows linearly",
+    "B": "the current in the discharging capacitor grows exponentially",
+    "C": "the current in the discharging capacitor decays exponentially",
+    "D": "the current in the discharging capacitor decreases constantly",
+    "Answer": "the current in the discharging capacitor decays exponentially",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. During discharge, i(t) = (V₀/R)·e^(−t/RC).\n2. The current decays exponentially. (The official key lists B, but the correct statement is C.)"
+  },
+  {
+    "Question": "Which of the following expressions is correct for electric field strength? (options as printed in the PDF)",
+    "A": "e = d/e",
+    "B": "e = d²/t",
+    "C": "e = jtd",
+    "D": "e = nd²",
+    "Answer": "e = d/e",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, option A.\n2. The options are garbled in the source; electric field strength is E = V/d."
+  },
+  {
+    "Question": "In a capacitor the electric charge is stored in",
+    "A": "metal plates",
+    "B": "dielectric",
+    "C": "both (a) and (b)",
+    "D": "none of the above",
+    "Answer": "dielectric",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, the charge/energy is stored in the electric field in the dielectric."
+  },
+  {
+    "Question": "Which of the following materials has the highest value of dielectric constant?",
+    "A": "glass",
+    "B": "vacuum",
+    "C": "ceramics",
+    "D": "oil",
+    "Answer": "ceramics",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ceramics (e.g. titanates) have very high dielectric constant, far above glass, oil or vacuum (1)."
+  },
+  {
+    "Question": "Which of the following capacitors will have the least variation?",
+    "A": "paper capacitor",
+    "B": "ceramic capacitor",
+    "C": "silver plated mica capacitor",
+    "D": "none of the above",
+    "Answer": "silver plated mica capacitor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Silver mica capacitors are very stable.\n2. They have the least variation of capacitance."
+  },
+  {
+    "Question": "Which of the following statements is incorrect?",
+    "A": "the leakage resistance of ceramic capacitors is generally high",
+    "B": "the stored energy in a capacitor decreases with reduction in value of capacitance",
+    "C": "the stored energy in a capacitor increases with applied voltage",
+    "D": "a wire cable has distributed capacitance between the conductors",
+    "Answer": "the stored energy in a capacitor decreases with reduction in value of capacitance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, option B is the incorrect statement.\n2. Energy W = ½CV² depends on both C and V."
+  }
+]

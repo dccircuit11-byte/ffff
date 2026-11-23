@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "______ at a point may be defined as equal to the lines of force passing normally through a unit cross section at that point.",
+    "A": "electric intensity",
+    "B": "magnetic flux density",
+    "C": "electric flux",
+    "D": "none of the above",
+    "Answer": "electric intensity",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, electric intensity at a point equals the number of lines of force per unit normal area."
+  },
+  {
+    "Question": "Electric intensity at any point in an electric field is equal to the ______ at that point.",
+    "A": "electric flux",
+    "B": "magnetic flux density",
+    "C": "potential gradient",
+    "D": "none of the above",
+    "Answer": "potential gradient",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. E = −dV/dx.\n2. Electric intensity equals the (negative) potential gradient."
+  },
+  {
+    "Question": "Electric displacement is a ______ quantity.",
+    "A": "scalar",
+    "B": "vector",
+    "C": "both of the above",
+    "D": "none of the above",
+    "Answer": "vector",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electric displacement D (flux density) has direction, so it is a vector."
+  },
+  {
+    "Question": "______ at a point is equal to the negative potential gradient at that point.",
+    "A": "electric intensity",
+    "B": "electric flux",
+    "C": "magnetic flux",
+    "D": "magnetic flux density",
+    "Answer": "electric intensity",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. E = −dV/dx."
+  },
+  {
+    "Question": "The unit of dielectric strength is given by",
+    "A": "V/m",
+    "B": "V²/m",
+    "C": "m/V",
+    "D": "m/V²",
+    "Answer": "V/m",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Dielectric strength is the maximum field a material can withstand.\n2. Its unit is V/m (usually kV/mm)."
+  },
+  {
+    "Question": "Dielectric strength ______ with increasing thickness",
+    "A": "increases",
+    "B": "decreases",
+    "C": "remains unaltered",
+    "D": "none of the above",
+    "Answer": "decreases",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Dielectric strength per unit thickness decreases as the thickness increases."
+  },
+  {
+    "Question": "The property of a capacitor to store electricity is called its",
+    "A": "capacitance",
+    "B": "charge",
+    "C": "energy",
+    "D": "none of the above",
+    "Answer": "capacitance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Capacitance is the ability to store charge."
+  },
+  {
+    "Question": "______ is that property of a capacitor which delays any change of voltage across it.",
+    "A": "inductance",
+    "B": "capacitance",
+    "C": "potential gradient",
+    "D": "none of the above",
+    "Answer": "capacitance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Capacitance opposes sudden changes in voltage."
+  },
+  {
+    "Question": "A capacitance of 100 μF is connected in series with a resistance of 8000 Ω. The time constant of the circuit is",
+    "A": "0.2 s",
+    "B": "0.4 s",
+    "C": "0.6 s",
+    "D": "0.8 s",
+    "Answer": "0.8 s",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. τ = RC.\n2. τ = 8000 × 100×10⁻⁶ = 0.8 s."
+  },
+  {
+    "Question": "In a cable capacitor, voltage gradient is maximum at the surface of the",
+    "A": "earth",
+    "B": "conductor",
+    "C": "sheath",
+    "D": "insulator",
+    "Answer": "conductor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Gradient g = V/[x·ln(R/r)] is maximum at x = r.\n2. This is at the surface of the conductor (core)."
+  },
+  {
+    "Question": "The time constant of an R-C circuit is defined as the time during which capacitor charging voltage actually rises to ______ percent of its ______ value.",
+    "A": "37, initial",
+    "B": "62, initial",
+    "C": "62, final",
+    "D": "37, final",
+    "Answer": "62, final",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In charging, v = V(1 − e^(−t/RC)).\n2. At t = RC the voltage reaches about 63% (≈62%) of its final value."
+  },
+  {
+    "Question": "The time constant of an R-C circuit may also be defined as the time during which the charging current falls to ______ percent of its initial maximum value.",
+    "A": "37",
+    "B": "42",
+    "C": "63",
+    "D": "73",
+    "Answer": "37",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. i = I₀·e^(−t/RC).\n2. At t = RC the current falls to about 37% of its initial value."
+  },
+  {
+    "Question": "The capacitance of a capacitor is influenced by",
+    "A": "plate area",
+    "B": "plate separation",
+    "C": "nature of dielectric",
+    "D": "none of the above",
+    "Answer": "all of the above",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. C = ε₀εᵣA/d depends on plate area, separation and dielectric.\n2. So all of the above."
+  },
+  {
+    "Question": "A capacitor consists of two",
+    "A": "ceramic plates and one mica disc",
+    "B": "insulators separated by a dielectric",
+    "C": "silver-coated insulators",
+    "D": "conductors separated by an insulator",
+    "Answer": "conductors separated by an insulator",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A capacitor is two conductors separated by an insulator (dielectric)."
+  },
+  {
+    "Question": "Permittivity is expressed in",
+    "A": "farad/sq-m",
+    "B": "farad/meter",
+    "C": "weber/meter",
+    "D": "weber/sq-m",
+    "Answer": "farad/meter",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Permittivity ε is measured in farad per metre."
+  }
+]

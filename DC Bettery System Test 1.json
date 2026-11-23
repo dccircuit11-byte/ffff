@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "The capacity of a battery is expressed in terms of",
+    "A": "Current rating",
+    "B": "Voltage rating",
+    "C": "Ampere hour rating",
+    "D": "None of the above",
+    "Answer": "Ampere hour rating",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The capacity of a battery is the amount of electric charge it can deliver.\n2. Charge (Q) = Current (I) × Time (t).\n3. Therefore, the unit of capacity is Ampere-hour (Ah)."
+  },
+  {
+    "Question": "The storage battery generally used in electric power station is",
+    "A": "Nickel-cadmium battery",
+    "B": "Zinc carbon battery",
+    "C": "Lead-acid battery",
+    "D": "None of the above",
+    "Answer": "Lead-acid battery",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Lead-acid batteries are robust, cost-effective, and capable of delivering high currents.\n2. They are the standard choice for stationary applications like electric power stations (for switchgear control, emergency lighting, etc.)."
+  },
+  {
+    "Question": "Trickle charger of a storage battery helps to",
+    "A": "Maintain proper electrolyte level",
+    "B": "Increase its reverse capacity",
+    "C": "Prevent sulphation",
+    "D": "Keep it fresh and fully charged",
+    "Answer": "Keep it fresh and fully charged",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A trickle charger supplies a very small current to the battery.\n2. This small current compensates for the battery's internal self-discharge.\n3. As a result, the battery remains fully charged and fresh over long periods of inactivity."
+  },
+  {
+    "Question": "On over charging a battery",
+    "A": "It will bring about chemical change in active materials",
+    "B": "It will increase the capacity of the battery",
+    "C": "It will raise the specific gravity of the electrolyte",
+    "D": "None of the above",
+    "Answer": "None of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Overcharging does not increase the capacity of the battery.\n2. It causes excessive gassing, water loss, and heating, which can damage the plates.\n3. The specific gravity does not rise beyond its maximum value; instead, water loss may make it appear higher, but this is harmful.\n4. Therefore, none of the given options correctly describe a beneficial or normal effect of overcharging."
+  },
+  {
+    "Question": "Battery charging equipment is generally installed",
+    "A": "In well ventilated location",
+    "B": "In clean and dry place",
+    "C": "As near as practical to the battery being charged",
+    "D": "In location having all above features",
+    "Answer": "In location having all above features",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Charging equipment must be in a well-ventilated area to dissipate hydrogen gas produced during charging.\n2. It should be clean and dry to prevent electrical short circuits and corrosion.\n3. It should be close to the battery to minimize voltage drop in the charging cables.\n4. Therefore, all the features are required."
+  },
+  {
+    "Question": "Batteries are charged by",
+    "A": "Rectifiers",
+    "B": "Engine generator sets",
+    "C": "Motor generator sets",
+    "D": "Any of the above",
+    "Answer": "Any of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Batteries require direct current (DC) to charge.\n2. Rectifiers convert AC to DC.\n3. Engine generator sets and motor-generator sets can also produce DC.\n4. Therefore, any of these sources can be used for charging."
+  },
+  {
+    "Question": "Battery container should be acid resistance therefore it is made up of",
+    "A": "Glass",
+    "B": "Plastic",
+    "C": "Wood",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The battery container must withstand the corrosive action of the electrolyte (sulphuric acid).\n2. Acid-resistant materials like glass, hard rubber, certain plastics, and specially treated wood can be used.\n3. Therefore, all of the given options are correct."
+  },
+  {
+    "Question": "Following will happen if battery charging rate is too high",
+    "A": "Excessive gassing will occur",
+    "B": "Temperature rise will occur",
+    "C": "Bulging and buckling of plates will occur",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. High charging current causes rapid electrolysis of water, leading to excessive gassing.\n2. The high current causes significant I²R heating, raising the temperature.\n3. The heat and gassing can warp and buckle the battery plates.\n4. Therefore, all the mentioned effects will occur."
+  },
+  {
+    "Question": "Local action in a battery is indicated by",
+    "A": "Excessive gassing under load conditions",
+    "B": "Excessive drop in the specific gravity of electrolyte even when the cell is on open circuit",
+    "C": "Both (A) and (B)",
+    "D": "None of the above",
+    "Answer": "Excessive drop in the specific gravity of electrolyte even when the cell is on open circuit",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Local action is the internal self-discharge caused by impurities in the active material or electrolyte.\n2. This causes the cell to lose charge even when it is not connected to any external circuit (open circuit).\n3. This loss of charge is reflected as a drop in the specific gravity of the electrolyte."
+  },
+  {
+    "Question": "The following indicate that battery on charge has attained full charge",
+    "A": "Colour of electrode",
+    "B": "Gassing",
+    "C": "Specific gravity",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. When fully charged, the positive plate becomes dark brown/peroxide and the negative plate becomes grey/spongy lead (colour change).\n2. Free gassing occurs uniformly across the plates.\n3. The specific gravity of the electrolyte reaches its maximum and stable value.\n4. All these indicators confirm a full charge."
+  },
+  {
+    "Question": "To prevent local action in battery, only _____ is used in electrolytes",
+    "A": "Pump water",
+    "B": "Distilled water",
+    "C": "Tap water",
+    "D": "Both A and C",
+    "Answer": "Distilled water",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Local action is caused by impurities (like iron, chlorine) in the water used for the electrolyte.\n2. Tap water and pump water contain dissolved minerals.\n3. Distilled water is free from these impurities and prevents local action."
+  },
+  {
+    "Question": "Ampere hour capacity of an industrial battery is based on ______ hours discharge rate",
+    "A": "8",
+    "B": "12",
+    "C": "16",
+    "D": "24",
+    "Answer": "8",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Industrial batteries are typically rated based on an 8-hour discharge rate.\n2. This means the Ah capacity is the current the battery can supply for 8 hours before reaching the end voltage."
+  },
+  {
+    "Question": "A battery of six cells will show a drop of ______ volts from fully charged state to fully discharged state",
+    "A": "1",
+    "B": "1.5",
+    "C": "2.4",
+    "D": "2.9",
+    "Answer": "2.4",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A fully charged lead-acid cell has about 2.2 V.\n2. A fully discharged cell has about 1.8 V.\n3. Drop per cell = 2.2 - 1.8 = 0.4 V.\n4. For 6 cells, total drop = 6 × 0.4 = 2.4 V."
+  },
+  {
+    "Question": "Which of the following battery is used for aircraft?",
+    "A": "Lead acid battery",
+    "B": "Nickel-iron battery",
+    "C": "Dry cell battery",
+    "D": "Silver oxide battery",
+    "Answer": "Nickel-iron battery",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Nickel-iron (Edison) batteries are used in aircraft because they are rugged, have a long life, and can withstand severe vibration and shock.\n2. They also perform well at low temperatures."
+  },
+  {
+    "Question": "When two batteries are connected in parallel, it should be ensured that",
+    "A": "They have same emf",
+    "B": "They have same make",
+    "C": "They have same ampere hour capacity",
+    "D": "They have identical internal resistance",
+    "Answer": "They have same emf",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. In a parallel connection, the positive terminals are connected together and negative to negative.\n2. If the emfs are unequal, the battery with higher emf will try to charge the lower emf battery, causing a large circulating current.\n3. Therefore, it is essential that the emfs are the same."
+  }
+]

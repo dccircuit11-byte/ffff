@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "There are 3 lamps 40 W, 100 W and 60 W. To realize the full rated power of the lamps they are to be connected in",
+    "A": "Parallel only",
+    "B": "Series only",
+    "C": "Series or parallel",
+    "D": "Series-Parallel",
+    "Answer": "Parallel only",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Each lamp is designed to operate at its rated voltage to deliver its full rated power.\n2. In parallel, each lamp gets the full supply voltage.\n3. In series, the voltage divides according to resistance, so lamps would not get their rated voltage and would not deliver full rated power."
+  },
+  {
+    "Question": "If in an RLC series circuit, the frequency is below the resonant frequency, then:",
+    "A": "XC > XL",
+    "B": "None of the options",
+    "C": "XC = XL",
+    "D": "XC < XL",
+    "Answer": "XC > XL",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. At resonance, XL = XC.\n2. XL = 2πfL (proportional to f) and XC = 1/(2πfC) (inversely proportional to f).\n3. Below resonance (f < fr), XL decreases and XC increases, so XC > XL. The circuit is capacitive."
+  },
+  {
+    "Question": "The emf induced in a coil of N turns is given by:",
+    "A": "N dt/dφ",
+    "B": "N dφ/dt",
+    "C": "−N dφ/dt",
+    "D": "dφ/dt",
+    "Answer": "−N dφ/dt",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. According to Faraday's law of electromagnetic induction, the induced EMF is proportional to the rate of change of flux linkage.\n2. By Lenz's law, the induced EMF opposes the change in flux.\n3. Therefore, the formula is e = -N(dφ/dt)."
+  },
+  {
+    "Question": "In RLC circuits, the electric current at resonance is _______.",
+    "A": "Maximum in series circuit and minimum in parallel circuit.",
+    "B": "Maximum in parallel circuit and minimum in series circuit.",
+    "C": "Maximum in both the circuits.",
+    "D": "Minimum in both the circuits.",
+    "Answer": "Maximum in series circuit and minimum in parallel circuit.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In a series RLC circuit at resonance, impedance is minimum (Z = R), so current is maximum.\n2. In a parallel RLC circuit at resonance, impedance is maximum, so the total line current is minimum."
+  },
+  {
+    "Question": "What is the term used to describe the ability of a device to store energy in the form of an electrical charge?",
+    "A": "Inductance",
+    "B": "Conductance",
+    "C": "Reactance",
+    "D": "Capacitance",
+    "Answer": "Capacitance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Capacitance is the property of a component (capacitor) to store energy in an electric field as electrical charge.\n2. It is measured in Farads."
+  },
+  {
+    "Question": "In mutual induction, what passes between conductors in order to create voltage?",
+    "A": "Radiation",
+    "B": "Magnetic flux",
+    "C": "Current flow",
+    "D": "Resistance",
+    "Answer": "Magnetic flux",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Mutual induction occurs when a changing magnetic flux from one coil links with another coil.\n2. This changing magnetic flux induces an EMF (voltage) in the second coil."
+  },
+  {
+    "Question": "'Henry' is the unit of measurement for which of the following properties?",
+    "A": "Reactance",
+    "B": "Capacitance",
+    "C": "Resistance",
+    "D": "Induction",
+    "Answer": "Induction",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The Henry (H) is the SI unit of inductance (induction).\n2. It is defined as the inductance of a circuit when a current change of 1 A/s induces an EMF of 1 V."
+  },
+  {
+    "Question": "In a pure inductive circuit ______.",
+    "A": "The current leads applied voltage by 90°",
+    "B": "The current is in phase is in phase with applied voltage.",
+    "C": "The current lags applied voltage by 90°",
+    "D": "None of these",
+    "Answer": "The current lags applied voltage by 90°",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In a pure inductor, voltage v = L(di/dt).\n2. If current is i = Im sin(ωt), then voltage v = Im·ωL cos(ωt) = Vm sin(ωt + 90°).\n3. So the current lags the voltage by 90°."
+  },
+  {
+    "Question": "The average power in a pure inductive circuit is ______.",
+    "A": "0",
+    "B": "VI",
+    "C": "VI cos φ",
+    "D": "√3 VI cos φ",
+    "Answer": "0",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In a pure inductive circuit, the phase difference φ between voltage and current is 90°.\n2. Power P = V × I × cos(90°) = 0."
+  },
+  {
+    "Question": "In a RL series circuit the power factor is _______.",
+    "A": "Leading",
+    "B": "Lagging",
+    "C": "0",
+    "D": "1",
+    "Answer": "Lagging",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In an R-L series circuit, the current lags the applied voltage.\n2. Therefore, the power factor is lagging."
+  },
+  {
+    "Question": "Determine the capacitive reactance (in Ohms) of a series resonant circuit, when the circuit is supplied by a frequency of 50 Hz and having a capacitance of 0.04 mF.",
+    "A": "65.65",
+    "B": "79.63",
+    "C": "82.26",
+    "D": "84.64",
+    "Answer": "79.63",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. XC = 1 / (2πfC).\n2. C = 0.04 mF = 40 × 10⁻⁶ F.\n3. XC = 1 / (2π × 50 × 40 × 10⁻⁶) = 1 / (0.012566) = 79.58 Ω ≈ 79.63 Ω."
+  },
+  {
+    "Question": "Which one of the following is the correct relation between the peak and average value of an alternating current?",
+    "A": "Iavg = 0.637 Ipeak",
+    "B": "Iavg = 1.414 Ipeak",
+    "C": "Iavg = 0.707 Ipeak",
+    "D": "Iavg = 0.824 Ipeak",
+    "Answer": "Iavg = 0.637 Ipeak",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For a sinusoidal wave, the average value over a half cycle is Iavg = (2/π) × Ipeak.\n2. 2/π ≈ 0.637. (0.707 is the RMS factor.)"
+  },
+  {
+    "Question": "Determine the resonant frequency (in kHz) of a tank circuit, when the capacitance and inductance of the circuit is 0.08 mF and 0.08 mH respectively.",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "5",
+    "Answer": "2",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. f0 = 1 / (2π√(LC)).\n2. L = 0.08 mH = 80 × 10⁻⁶ H, C = 0.08 mF = 80 × 10⁻⁶ F.\n3. LC = 80 × 10⁻⁶ × 80 × 10⁻⁶ = 6400 × 10⁻¹².\n4. √(LC) = 80 × 10⁻⁶.\n5. f0 = 1 / (2π × 80 × 10⁻⁶) = 1 / (0.0005026) ≈ 1989 Hz ≈ 2 kHz."
+  },
+  {
+    "Question": "Determine the value of reactive power (in VAR) of a circuit having power factor 0.6, when the apparent power of the circuit is 120 VA.",
+    "A": "75",
+    "B": "78",
+    "C": "84",
+    "D": "96",
+    "Answer": "96",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Given pf = cos φ = 0.6.\n2. sin φ = √(1 - 0.6²) = √0.64 = 0.8.\n3. Reactive power Q = S × sin φ = 120 × 0.8 = 96 VAR."
+  },
+  {
+    "Question": "What will be the instantaneous value of the alternating current (in A) which is represented by i(t) = 20 sin(13t − 20) A. When the value of t is 5?",
+    "A": "0",
+    "B": "10",
+    "C": "14.14",
+    "D": "17.32",
+    "Answer": "14.14",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. At t = 5, the angle is (13 × 5 - 20) = 65 - 20 = 45° (assuming the phase is in degrees).\n2. i = 20 × sin(45°) = 20 × 0.7071 = 14.14 A."
+  }
+]

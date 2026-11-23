@@ -1,0 +1,93 @@
+// JSON 1 (Questions 1–15)
+[
+  {
+    "Question": "Determine the energy (in J) stored by a 0.4 H inductance, if the current flowing through it is 2 A.",
+    "A": "1.6", "B": "0.8", "C": "0.4", "D": "1.4",
+    "Answer": "0.8", "Image": "",
+    "Explaination": "The energy stored in an inductor is W = ½LI². Here L = 0.4 H and I = 2 A. First compute I² = 2² = 4 A². Then W = ½ × 0.4 × 4 = 0.2 × 4 = 0.8 J. The key point is that energy depends on the square of the current, so doubling current quadruples stored energy. Option 0.8 matches."
+  },
+  {
+    "Question": "What will be the voltage (in V) across an 8 H inductor, when the rate of change of current flowing through it is 0.5 A/sec.",
+    "A": "2", "B": "6", "C": "4", "D": "8",
+    "Answer": "4", "Image": "",
+    "Explaination": "For an inductor, the induced voltage is v = L·(di/dt). Given L = 8 H and di/dt = 0.5 A/s, v = 8 × 0.5 = 4 V. This is Faraday's law applied to self-inductance: a faster change of current produces a larger voltage. So the voltage is 4 V."
+  },
+  {
+    "Question": "The relative permeability of the diamagnetic material is",
+    "A": "Greater than 1", "B": "Greater than 10", "C": "Less than 1", "D": "Greater than 100",
+    "Answer": "Less than 1", "Image": "",
+    "Explaination": "Relative permeability μr = μ/μ0. Diamagnetic materials (e.g. copper, lead, bismuth) are weakly repelled by a magnetic field because their induced atomic currents oppose the applied field. This makes μ slightly less than μ0, so μr is slightly less than 1 (typically 0.9999). Therefore the correct choice is 'Less than 1'."
+  },
+  {
+    "Question": "Which of the following is the CORRECT formula for permeance?",
+    "A": "I/H", "B": "B/H", "C": "φ/Fm", "D": "Fm/L",
+    "Answer": "φ/Fm", "Image": "",
+    "Explaination": "Permeance is the reciprocal of reluctance and measures how easily flux passes through a magnetic circuit. Since reluctance S = Fm/φ (MMF/flux), permeance = 1/S = φ/Fm. Option A (I/H) is susceptibility, B (B/H) is permeability, and D (Fm/L) is magnetising force. Hence φ/Fm is correct."
+  },
+  {
+    "Question": "Which one of the following is the S.I unit of the magnetic field strength?",
+    "A": "Weber", "B": "Tesla", "C": "Ampere-Meter", "D": "Ampere/Meter",
+    "Answer": "Ampere/Meter", "Image": "",
+    "Explaination": "Magnetic field strength (magnetising force) H is defined as H = NI/l, i.e. ampere-turns per metre. Its SI unit is therefore ampere per metre (A/m). Weber is the unit of flux, tesla is the unit of flux density, and ampere-metre is not a standard unit for H. So the answer is Ampere/Meter."
+  },
+  {
+    "Question": "If the magnetic susceptibility of any material is less than zero then the material is _____.",
+    "A": "Paramagnetic", "B": "Ferromagnetic", "C": "Diamagnetic", "D": "Ferrimagnetic",
+    "Answer": "Diamagnetic", "Image": "",
+    "Explaination": "Magnetic susceptibility χ measures how strongly a material responds to a magnetic field (M = χH). Paramagnetic and ferromagnetic materials have χ > 0, while diamagnetic materials have χ < 0 (they are weakly repelled). Since the question states χ < 0, the material is diamagnetic."
+  },
+  {
+    "Question": "Determine the reluctance (in Amp-turns/Wb) of a coil, when the flux through the coil is 15 Wb and the produced MMF is 30 Amp-turns.",
+    "A": "4", "B": "2", "C": "1", "D": "3",
+    "Answer": "2", "Image": "",
+    "Explaination": "Reluctance is the opposition to magnetic flux, analogous to resistance in electric circuits: S = MMF/flux = Fm/φ. Here Fm = 30 AT and φ = 15 Wb, so S = 30/15 = 2 AT/Wb. Hence reluctance is 2 Amp-turns/Wb."
+  },
+  {
+    "Question": "Determine the value of produced MMF (in Amp-turns) in a coil if the coil has 120 turns carrying a current of 0.1 A.",
+    "A": "12", "B": "14", "C": "16", "D": "18",
+    "Answer": "12", "Image": "",
+    "Explaination": "Magnetomotive force (MMF) is produced by a current-carrying coil and is given by MMF = N·I, where N is the number of turns and I is the current. Here N = 120 and I = 0.1 A, so MMF = 120 × 0.1 = 12 Amp-turns."
+  },
+  {
+    "Question": "Determine the magnitude of EMF (in V) induced between the axis of rotation and the rim of the disc, when the disc of radius 10 cm rotates with an angular velocity of 60 revolutions per second and placed in the magnetic field of 3 T acting parallel to the rotation of the disc.",
+    "A": "6.69", "B": "4.64", "C": "6.67", "D": "5.65",
+    "Answer": "5.65", "Image": "",
+    "Explaination": "This is a homopolar generator (Faraday disc). The induced EMF is e = ½·B·ω·r². First convert ω: 60 rev/s = 60 × 2π = 376.99 rad/s. Radius r = 10 cm = 0.1 m, so r² = 0.01 m². Then e = 0.5 × 3 × 376.99 × 0.01 = 0.5 × 3 × 3.7699 ≈ 5.65 V. Hence the EMF is approximately 5.65 V."
+  },
+  {
+    "Question": "What will be the value of current (in A) in a 50 cm long air-core solenoid, if the value of the magnetic field at the center of the solenoid is 5 mT and the solenoid has 300 turns?",
+    "A": "6.63", "B": "5.63", "C": "4.36", "D": "8.25",
+    "Answer": "6.63", "Image": "",
+    "Explaination": "For a long air-core solenoid, B = μ0·N·I/l. Rearranging: I = B·l/(μ0·N). Given B = 5 mT = 5×10⁻³ T, l = 0.5 m, N = 300, μ0 = 4π×10⁻⁷. So I = (5×10⁻³ × 0.5)/(4π×10⁻⁷ × 300) = 2.5×10⁻³/(3.77×10⁻⁴) ≈ 6.63 A. Hence the current is about 6.63 A."
+  },
+  {
+    "Question": "Determine the maximum flux density (in T) of a material having eddy current coefficient of 2, the thickness of 4 mm, the volume of 20 cu.meter, which is supplied by the frequency of 50 Hz when the material has eddy current loss of 6 W.",
+    "A": "2.24", "B": "3.34", "C": "1.94", "D": "1.21",
+    "Answer": "1.94", "Image": "",
+    "Explaination": "Eddy current loss is Pe = ke·Bm²·f²·t²·V. Rearranging for Bm²: Bm² = Pe/(ke·f²·t²·V). Here ke = 2, f = 50 Hz (f² = 2500), t = 4 mm = 4×10⁻³ m (t² = 16×10⁻⁶), V = 20 m³, Pe = 6 W. Denominator = 2 × 2500 × 16×10⁻⁶ × 20 = 1.6. So Bm² = 6/1.6 = 3.75, giving Bm = √3.75 ≈ 1.94 T."
+  },
+  {
+    "Question": "The SI unit of the Magnetic flux is _______.",
+    "A": "Henry", "B": "Coulomb", "C": "Tesla", "D": "Weber",
+    "Answer": "Weber", "Image": "",
+    "Explaination": "Magnetic flux φ is the total number of magnetic field lines passing through an area. Its SI unit is the weber (Wb), where 1 Wb = 1 T·m². Henry is the unit of inductance, coulomb is charge, and tesla is flux density. Hence the correct unit of magnetic flux is weber."
+  },
+  {
+    "Question": "The relative permeability of the diamagnetic material is _____.",
+    "A": "Greater than 1", "B": "Greater than 10", "C": "Less than 1", "D": "Greater than 100",
+    "Answer": "Less than 1", "Image": "",
+    "Explaination": "Diamagnetic materials develop weak induced moments opposite to the applied field, so their permeability μ is slightly less than μ0. Hence relative permeability μr = μ/μ0 is slightly less than 1 (e.g. copper ≈ 0.99999). Paramagnetic and ferromagnetic materials have μr > 1. Thus the answer is 'Less than 1'."
+  },
+  {
+    "Question": "Which of the following is the reciprocal of the reluctance?",
+    "A": "Permeability", "B": "Susceptibility", "C": "Permeance", "D": "Reluctivity",
+    "Answer": "Permeance", "Image": "",
+    "Explaination": "Reluctance S is the opposition to magnetic flux (S = Fm/φ). Its reciprocal, 1/S = φ/Fm, is called permeance, which measures how easily flux flows through a magnetic circuit. Permeability (μ) and reluctivity (1/μ) describe the material, while susceptibility describes magnetisation response. So the reciprocal of reluctance is permeance."
+  },
+  {
+    "Question": "Determine the intensity of the magnetization (in A/m) of a magnet when it has a pole strength of 60 A-m and a pole area of 20 sq.m",
+    "A": "9", "B": "4", "C": "6", "D": "3",
+    "Answer": "3", "Image": "",
+    "Explaination": "Intensity of magnetisation I is defined as the magnetic moment per unit volume, which equals pole strength divided by pole area: I = m/A. Given m = 60 A·m and A = 20 m², I = 60/20 = 3 A/m. Hence the intensity of magnetisation is 3 A/m."
+  }
+]

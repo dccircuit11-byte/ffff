@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "Which of the following is the correct formula of specific resistance?",
+    "A": "R/l",
+    "B": "Rl/a",
+    "C": "Ra/l",
+    "D": "a/Rl",
+    "Answer": "Ra/l",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The formula for resistance is R = ρ × (l/A), where ρ is specific resistance (resistivity), l is length, and A is area.\n2. Rearranging for ρ: ρ = R × A / l.\n3. This corresponds to Ra/l."
+  },
+  {
+    "Question": "The dimensional formula for frequency is",
+    "A": "M⁰L⁰T⁻¹",
+    "B": "M⁰L⁰T⁻²",
+    "C": "M⁰L¹T⁻¹",
+    "D": "M⁰L⁰T⁻³",
+    "Answer": "M⁰L⁰T⁻¹",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Frequency (f) is the number of cycles per unit time, so f = 1/T.\n2. The dimension of time T is [T].\n3. Therefore, the dimension of frequency is [T⁻¹] or M⁰L⁰T⁻¹."
+  },
+  {
+    "Question": "Which one of the following is the dimensional formula of resistivity?",
+    "A": "ML³T⁻³A⁻²",
+    "B": "ML³T³A²",
+    "C": "MLT³A⁻²",
+    "D": "ML⁻³T⁻³A⁻²",
+    "Answer": "ML³T⁻³A⁻²",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Resistance R has the dimensional formula [ML²T⁻³A⁻²] (since R = V/I and V = W/Q).\n2. Resistivity ρ = R × A / l.\n3. The dimension of A/l is [L²]/[L] = [L].\n4. Therefore, the dimension of ρ is [ML²T⁻³A⁻²] × [L] = ML³T⁻³A⁻²."
+  },
+  {
+    "Question": "The SI unit of conductivity is",
+    "A": "Ohm/meter",
+    "B": "Ohm-meter",
+    "C": "Siemens/meter",
+    "D": "Siemens-meter",
+    "Answer": "Siemens/meter",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Conductivity (σ) is the reciprocal of resistivity (ρ): σ = 1/ρ.\n2. The unit of resistivity is Ohm-meter (Ω·m).\n3. Therefore, the unit of conductivity is 1/(Ω·m) = Siemens/meter (S/m).\n(Note: The book key shows D, but the correct answer is C.)"
+  },
+  {
+    "Question": "Let dq be the differential charge, dw be the differential energy. The rate of change of energy with time is given as",
+    "A": "(dw/dq) / (dq/dt)",
+    "B": "(dw/dq) + (dq/dt)",
+    "C": "(dq/dw) × (dq/dt)",
+    "D": "(dw/dq) × (dq/dt)",
+    "Answer": "(dw/dq) × (dq/dt)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Power (p) is the rate of change of energy with respect to time: p = dw/dt.\n2. Using the chain rule, we can write dw/dt = (dw/dq) × (dq/dt).\n3. Here, dw/dq is voltage (v) and dq/dt is current (i). So, p = v × i.\n(Note: The book key shows C, but the correct expression is option D.)"
+  },
+  {
+    "Question": "Determine the resistance of a 1 km strip of copper of rectangular cross-section 2.5 cm by 0.05 cm. Assume ρ is the resistivity of the copper.",
+    "A": "80×ρ mΩ",
+    "B": "8×ρ MΩ",
+    "C": "80×ρ Ω",
+    "D": "80×ρ MΩ",
+    "Answer": "80×ρ MΩ",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Length l = 1 km = 1000 m.\n2. Area A = 2.5 cm × 0.05 cm = 0.025 m × 0.0005 m = 1.25 × 10⁻⁵ m².\n3. Resistance R = ρl/A = ρ × 1000 / (1.25 × 10⁻⁵) = 8 × 10⁷ ρ Ω.\n4. 8 × 10⁷ Ω = 80 × 10⁶ Ω = 80ρ MΩ."
+  },
+  {
+    "Question": "Due to which of the following properties of a conductor, does it pass current?",
+    "A": "Reluctance",
+    "B": "Inductance",
+    "C": "Conductance",
+    "D": "Resistance",
+    "Answer": "Conductance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Conductance (G) is the property of a material that allows electric current to flow through it easily. It is the reciprocal of resistance (G = 1/R).\n2. Reluctance opposes magnetic flux, not electric current.\n3. Resistance opposes current, so it does not help it pass.\n(Note: The book key shows D, but the property that allows current flow is conductance.)"
+  },
+  {
+    "Question": "Which of the following is a common unit of a physical quantity in M.K.S. and S.I. systems.",
+    "A": "ampere",
+    "B": "kelvin",
+    "C": "mole",
+    "D": "joule/sec",
+    "Answer": "ampere",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The MKS (Meter-Kilogram-Second) system uses the ampere as the base unit for electric current.\n2. The SI system also uses the ampere as a base unit.\n3. Kelvin and mole are base units only in the modern SI system, not in the older MKS system."
+  },
+  {
+    "Question": "The energy required to move 120 Coulomb through 5 V is",
+    "A": "60 J",
+    "B": "600 J",
+    "C": "4.8 J",
+    "D": "24 J",
+    "Answer": "600 J",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The relationship between energy (W), charge (Q), and voltage (V) is W = Q × V.\n2. W = 120 C × 5 V = 600 Joules."
+  },
+  {
+    "Question": "The S.I. unit of electrical energy is ______.",
+    "A": "Watt",
+    "B": "Volts",
+    "C": "Ampere",
+    "D": "Joule",
+    "Answer": "Joule",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Energy is defined as the capacity to do work, and its SI unit is the Joule (J).\n2. Watt is the unit of power, Volt is the unit of potential difference, and Ampere is the unit of current.\n3. Electrical energy is often measured in kilowatt-hours (kWh) commercially, but the fundamental SI unit is the Joule."
+  },
+  {
+    "Question": "Here are two threads B and C have the same cross-section and are made of the same material. R_B = 500 Ω and R_C = 100 Ω. The number of times B is longer than C is",
+    "A": "1",
+    "B": "5",
+    "C": "4",
+    "D": "3",
+    "Answer": "5",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Resistance is given by R = ρl/A. If cross-section (A) and material (ρ) are the same, then R ∝ l.\n2. Therefore, the ratio of lengths is equal to the ratio of resistances: l_B / l_C = R_B / R_C.\n3. l_B / l_C = 500 / 100 = 5.\n4. Thread B is 5 times longer than thread C."
+  },
+  {
+    "Question": "The S.I. unit of electrical charge is ______.",
+    "A": "Henry",
+    "B": "Coulomb",
+    "C": "Tesla",
+    "D": "Weber",
+    "Answer": "Coulomb",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The SI unit of electric charge is the Coulomb (C).\n2. Henry is the unit of inductance, Tesla is the unit of magnetic flux density, and Weber is the unit of magnetic flux."
+  },
+  {
+    "Question": "One unit of electrical energy equals :",
+    "A": "1 KWh",
+    "B": "1 Wh",
+    "C": "10 Wh",
+    "D": "100 WH",
+    "Answer": "1 KWh",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In commercial terms, one unit of electrical energy is defined as one kilowatt-hour (kWh).\n2. It is the energy consumed by a 1 kW load running for 1 hour.\n3. 1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ Joules."
+  },
+  {
+    "Question": "What is an electric current?",
+    "A": "The power that moves the electrons",
+    "B": "The random movement of electrons in a conductor",
+    "C": "The pressure difference between two poles",
+    "D": "The movement of free electrons predominantly in one direction",
+    "Answer": "The movement of free electrons predominantly in one direction",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electric current is defined as the rate of flow of electric charge.\n2. In metallic conductors, this charge is carried by free electrons.\n3. For a current to exist, these electrons must move in a net (predominantly) single direction, not randomly."
+  },
+  {
+    "Question": "Opposition to the flow of leakage current is called :",
+    "A": "leakage coefficient",
+    "B": "resistance",
+    "C": "conductance",
+    "D": "leakage resistance",
+    "Answer": "leakage resistance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Leakage current is the small current that flows through the insulation of a conductor or capacitor.\n2. The property that opposes this specific type of current is known as leakage resistance.\n3. It is a critical parameter in capacitors and insulators."
+  }
+]

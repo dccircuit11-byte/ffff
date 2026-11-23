@@ -1,0 +1,96 @@
+// JSON 2 (Questions 16–30)
+[
+  {
+    "Question": "What will be the magnitude of induced EMF (in V) in a coil that has 200 square loops, each of the sides 5 cm and placed normal to a magnetic field? The magnetic field increases at the rate of 4 Weber per sq. meter (per second).",
+    "A": "1", "B": "2", "C": "4", "D": "3",
+    "Answer": "2", "Image": "",
+    "Explaination": "By Faraday's law, e = N·A·(dB/dt) when the coil is normal to the field. Each loop has side 5 cm = 0.05 m, so area A = 0.05² = 0.0025 m². N = 200 and dB/dt = 4 Wb/m²/s. Therefore e = 200 × 0.0025 × 4 = 2 V. The induced EMF is 2 V."
+  },
+  {
+    "Question": "What will be the value of the current (in Ampere) in a 40 cm long solenoid in free space, if it has 400 turns, 2 cm of diameter and produces a magnetic field of 4 mT at its center?",
+    "A": "4.23", "B": "5.15", "C": "3.18", "D": "2.34",
+    "Answer": "3.18", "Image": "",
+    "Explaination": "For a long solenoid B = μ0·N·I/l, so I = B·l/(μ0·N). Given B = 4 mT = 4×10⁻³ T, l = 0.4 m, N = 400, μ0 = 4π×10⁻⁷. Then I = (4×10⁻³ × 0.4)/(4π×10⁻⁷ × 400) = 1.6×10⁻³/(5.027×10⁻⁴) ≈ 3.18 A. (The diameter is extra information not needed for a long solenoid.)"
+  },
+  {
+    "Question": "What will be the self-inductance (in Henry) of a 2 m long air-core solenoid, if the diameter of the solenoid is 25 cm and has 600 turns?",
+    "A": "0.011", "B": "0.045", "C": "0.132", "D": "0.645",
+    "Answer": "0.011", "Image": "",
+    "Explaination": "Self-inductance of a long solenoid is L = μ0·N²·A/l. Diameter = 25 cm, so radius r = 0.125 m and A = πr² = π × 0.015625 = 0.0491 m². With N = 600, N² = 360000, l = 2 m: L = (4π×10⁻⁷ × 360000 × 0.0491)/2 ≈ 0.0111 H. Hence L ≈ 0.011 H."
+  },
+  {
+    "Question": "What will be the mutual inductance (in mH) between the two coils? If a current of 2 sin(100πt) passes through one of the coils, which induces a maximum EMF of 10π V in the second coil?",
+    "A": "40", "B": "20", "C": "50", "D": "60",
+    "Answer": "50", "Image": "",
+    "Explaination": "The induced EMF is e = M·(di/dt). With i = 2 sin(100πt), di/dt = 2 × 100π cos(100πt), whose maximum is 200π A/s. So e_max = M × 200π = 10π, giving M = 10π/(200π) = 0.05 H = 50 mH. Hence mutual inductance is 50 mH."
+  },
+  {
+    "Question": "What will happen to the inductance, if the number of turns of the coil is decreased?",
+    "A": "Increase", "B": "Decrease", "C": "Remain Same", "D": "None of these",
+    "Answer": "Decrease", "Image": "",
+    "Explaination": "Inductance of a coil is proportional to the square of the number of turns, L ∝ N² (since flux linkage λ = Nφ and φ itself is proportional to N). Therefore, if the number of turns is decreased, the inductance decreases. The correct answer is 'Decrease'."
+  },
+  {
+    "Question": "If the area of cross-section is reduced to half of its value, then what will happen to the flux density?",
+    "A": "Doubled", "B": "Halved", "C": "Remain the same", "D": "One-fourth",
+    "Answer": "Doubled", "Image": "",
+    "Explaination": "Flux density is B = φ/A. If the same flux φ passes through a cross-section whose area is halved (A/2), then B' = φ/(A/2) = 2φ/A = 2B. So the flux density becomes doubled. This assumes the total flux remains unchanged."
+  },
+  {
+    "Question": "Calculate the value of the flux leakage coefficient, if φg is the air gap flux and φa is the flux in the iron core.",
+    "A": "φg/φa", "B": "φa/φg", "C": "φg × φa", "D": "φg + φa",
+    "Answer": "φa/φg", "Image": "",
+    "Explaination": "Leakage coefficient (λ) is defined as the ratio of total flux produced in the magnetic circuit (iron flux φa) to the useful flux crossing the air gap (φg). Hence λ = φa/φg. Since some flux leaks, φa > φg and λ > 1. Therefore the correct formula is φa/φg."
+  },
+  {
+    "Question": "The graph shown (a straight-line B–H relationship through the origin, B up to 1.0 T for H up to about 0.8×10⁶ AT/m) represents the B-H curve for _______.",
+    "A": "Glass", "B": "Steel", "C": "Iron", "D": "Air",
+    "Answer": "Air", "Image": "",
+    "Explaination": "For non-magnetic media like air, B = μ0H exactly, so the B-H graph is a straight line passing through the origin with constant slope μ0. Ferromagnetic materials like iron and steel show a non-linear B-H curve with saturation. The slope here (1.0/0.8×10⁶ ≈ 1.25×10⁻⁶) is close to μ0, confirming the medium is air."
+  },
+  {
+    "Question": "A conductor of length 0.6 m is situated at the right angle to a uniform magnetic field of flux density 4 Wb/sq.m. The conductor is moving with a velocity of 50 m/s. Calculate the emf induced (in V) in the conductor.",
+    "A": "100", "B": "115", "C": "118", "D": "120",
+    "Answer": "120", "Image": "https://imgh.in/images/pid4t1",
+    "Explaination": "The dynamically induced EMF in a conductor moving perpendicular to a uniform field is e = B·l·v. Here B = 4 T, l = 0.6 m and v = 50 m/s, so e = 4 × 0.6 × 50 = 120 V. Since the conductor is at right angles to the field, sinθ = 1 and no further factor is needed."
+  },
+  {
+    "Question": "A flux of 2 mWb passes through a strip of length and breadth 10 cm and 20 cm respectively. It is placed at an angle of 30 degrees to the direction of uniform magnetic field. What is the magnetic flux density (in T)?",
+    "A": "0.1", "B": "0.115", "C": "0.9", "D": "1",
+    "Answer": "0.115", "Image": "",
+    "Explaination": "Area of the strip A = 0.10 × 0.20 = 0.02 m². Flux φ = B·A·cosθ, where θ is the angle between the field and the normal to the area. Taking the given 30° as this angle: B = φ/(A·cos30°) = 2×10⁻³/(0.02 × 0.866) = 2×10⁻³/0.01732 ≈ 0.115 T. Hence flux density ≈ 0.115 T."
+  },
+  {
+    "Question": "A 600-turns coil has an inductance of 0.8 H. If one-fifth of the turns are removed, then determine the new inductance (in H).",
+    "A": "0.512", "B": "1.25", "C": "2", "D": "2.5",
+    "Answer": "0.512", "Image": "",
+    "Explaination": "One-fifth of 600 = 120 turns removed, so remaining turns = 480. Since L ∝ N², L_new/L_old = (N_new/N_old)² = (480/600)² = 0.8² = 0.64. Thus L_new = 0.8 × 0.64 = 0.512 H. The new inductance is 0.512 H."
+  },
+  {
+    "Question": "A magnetic circuit of reluctance 3000 A-turns/Wb is wound by a wire of 400 turns. Determine the average E.M.F induced (in V) in the coil, if the current of 2 A flowing in the coil is reversed in 15 s.",
+    "A": "14.22", "B": "16.28", "C": "17.96", "D": "19.62",
+    "Answer": "14.22", "Image": "",
+    "Explaination": "Initial flux φ = NI/S = 400 × 2/3000 = 0.2667 Wb. Reversing the current changes flux from +0.2667 Wb to −0.2667 Wb, a change Δφ = 0.5333 Wb. By Faraday's law, average EMF e = N·Δφ/Δt = 400 × 0.5333/15 ≈ 14.22 V. Hence the average induced EMF is about 14.22 V."
+  },
+  {
+    "Question": "For the figure shown (toroidal core with 60 turns carrying 5 A, mean radius 5 cm), the permeability in the core is 4 × 10⁻⁴ Wb/A-turns-m. What is the value of flux density (in T) in the core?",
+    "A": "0.2", "B": "0.382", "C": "0.6", "D": "1",
+    "Answer": "0.382", "Image": "",
+    "Explaination": "For a toroid, the mean magnetic path length is 2πr = 2π × 0.05 = 0.314 m. Magnetising force H = NI/(2πr) = (60 × 5)/0.314 = 300/0.314 ≈ 955 AT/m. Then flux density B = μH = 4×10⁻⁴ × 955 ≈ 0.382 T. Hence B ≈ 0.382 T."
+  },
+  {
+    "Question": "Calculate the total inductance (in H) of the circuit given below (three mutually coupled coils 50 H, 20 H and 60 H in parallel, with mutual inductances 10 H, 20 H and 12 H).",
+    "A": "5.33", "B": "8.77", "C": "10.5", "D": "11.9",
+    "Answer": "8.77", "Image": "https://imgh.in/images/tv32az",
+    "Explaination": "For parallel coupled coils, the equivalent inductance is obtained from the flux-linkage matrix: Leq = 1/(1ᵀL⁻¹1), where L is the inductance matrix including mutual terms. From the dot markings, the 50 H coil has opposite polarity to the other two, so M12 = −10 H, M13 = −20 H and M23 = +12 H. Setting up and inverting the 3×3 matrix gives Leq ≈ 8.7 H, which matches option B (8.77 H) as per the official key."
+  },
+  {
+    "Question": "Which one of the following statements is NOT true about the magnetic lines of force?",
+    "A": "They attract each other while traveling in the same direction.",
+    "B": "They behave like a stretched elastic string.",
+    "C": "They do not cross each other.",
+    "D": "They can pass through all media.",
+    "Answer": "They attract each other while traveling in the same direction.", "Image": "https://imgh.in/images/zpfldm",
+    "Explaination": "Magnetic lines of force running side by side in the same direction repel each other (they behave like stretched elastic strings that push apart laterally), not attract. They never cross each other, form closed loops, and can pass through media of different permeability. Hence statement A is false and is the required answer."
+  }
+]

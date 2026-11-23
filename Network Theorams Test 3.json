@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "Which one of the following is the CORRECT statement for superposition theorem?",
+    "A": "The algebraic sum of all the voltages around any closed path is zero",
+    "B": "The overall current in any part of a linear circuit is equal to the algebraic sum of the currents produced by each source separately.",
+    "C": "The sum of currents entering a node is equal to the sum of currents leaving the node.",
+    "D": "The algebraic sum of all the voltages around any closed path is equal to one.",
+    "Answer": "The overall current in any part of a linear circuit is equal to the algebraic sum of the currents produced by each source separately.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The superposition theorem states that in a linear circuit with multiple independent sources, the response (current or voltage) in any branch is the algebraic sum of the responses caused by each source acting alone.\n2. Option B correctly describes this principle. Option A is KVL and Option C is KCL."
+  },
+  {
+    "Question": "Which one of the expression satisfies the condition of maximum power transfer theorem?",
+    "A": "ZL = ZS*",
+    "B": "ZL = RL",
+    "C": "ZL = 2ZS",
+    "D": "XL = RL",
+    "Answer": "ZL = ZS*",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For AC circuits, maximum power transfer occurs when the load impedance is the complex conjugate of the source impedance: ZL = ZS*.\n2. This ensures the reactances cancel and the resistances match."
+  },
+  {
+    "Question": "What will be the value of load impedance (in ohms) for transmitting maximum power from the source to load when the source impedance is 8 + j4 ohms?",
+    "A": "8 − j4",
+    "B": "8 + j4",
+    "C": "4 + j8",
+    "D": "4 − j8",
+    "Answer": "8 − j4",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For maximum power transfer, the load impedance must be the complex conjugate of the source impedance.\n2. ZL = (8 + j4)* = 8 − j4 Ω."
+  },
+  {
+    "Question": "Determine the load resistance (in ohms) for a circuit when the maximum power transferred from source of 80 V to the load is 80 W.",
+    "A": "40",
+    "B": "20",
+    "C": "10",
+    "D": "5",
+    "Answer": "20",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Maximum power transfer formula: Pmax = V² / (4R), where R = RL = Rth.\n2. Rearranging: R = V² / (4 × Pmax) = 80² / (4 × 80) = 6400 / 320 = 20 Ω."
+  },
+  {
+    "Question": "Determine the Norton's resistance (in ohms) between terminals A and B for the circuit given below",
+    "A": "5.8",
+    "B": "4.8",
+    "C": "3.8",
+    "D": "1.8",
+    "Answer": "4.8",
+    "Image": "https://imgh.in/images/sptlzi",
+    "Explaination": "Step-by-Step Solution:\n1. Short the 30 V source. The top 3 Ω is in parallel with the first 3 Ω = 1.5 Ω.\n2. In series with the next 3 Ω = 4.5 Ω.\n3. In parallel with the shunt 3 Ω = 1.8 Ω.\n4. In series with the last 3 Ω = 4.8 Ω."
+  },
+  {
+    "Question": "Determining the Thevenin's equivalent resistance (in ohms) across the terminal a and b for the electrical circuit given below.",
+    "A": "1",
+    "B": "0.5",
+    "C": "0.3",
+    "D": "0.2",
+    "Answer": "0.5",
+    "Image": "https://imgh.in/images/1n7k1f",
+    "Explaination": "Step-by-Step Solution:\n1. With both sources shorted, the three parallel 3 Ω give 1 Ω on the left.\n2. The 1 Ω on the right is the other path.\n3. These are in parallel across a-b: 1 ∥ 1 = 0.5 Ω."
+  },
+  {
+    "Question": "Which one of the following theorem is the converse of Thevenin's theorem?",
+    "A": "Superposition theorem",
+    "B": "Millman's theorem",
+    "C": "Compensation theorem",
+    "D": "Norton's theorem",
+    "Answer": "Norton's theorem",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Norton's theorem is the dual (converse) of Thevenin's theorem.\n2. Thevenin uses a voltage source in series with a resistance, while Norton uses a current source in parallel with a resistance."
+  },
+  {
+    "Question": "Determine the value of load impedance (in ohms) for transmitting maximum power from the source to the load, when the source impedance of the circuit is 6 + j5 ohms",
+    "A": "6 − j5",
+    "B": "5 − j6",
+    "C": "6 + j5",
+    "D": "5 + j6",
+    "Answer": "6 − j5",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For maximum power transfer, ZL = ZS* (complex conjugate).\n2. ZL = (6 + j5)* = 6 − j5 Ω."
+  },
+  {
+    "Question": "What will be the Norton's resistance (in ohms) between terminals A and B for the circuit given below?",
+    "A": "2.25",
+    "B": "2.75",
+    "C": "3.25",
+    "D": "3.75",
+    "Answer": "2.75",
+    "Image": "https://imgh.in/images/72jpte",
+    "Explaination": "Step-by-Step Solution:\n1. Short the 30 V source.\n2. Reduce the 2 Ω ladder (with diagonal branches) using series-parallel combinations.\n3. The resistance seen between A and B is 2.75 Ω."
+  },
+  {
+    "Question": "What will be the value of Norton's current (in A) through load resistance for the given electrical circuit?",
+    "A": "6.2",
+    "B": "5.2",
+    "C": "4.2",
+    "D": "2.5",
+    "Answer": "2.5",
+    "Image": "https://imgh.in/images/l7t0ra",
+    "Explaination": "Step-by-Step Solution:\n1. Short the load. The shunt 4 Ω is in parallel with the shorted branch's second 4 Ω: 4 ∥ 4 = 2 Ω.\n2. Total R = 4 + 2 = 6 Ω, so I = 30/6 = 5 A.\n3. The Norton current (through the shorted second 4 Ω) = 5 × 4/8 = 2.5 A."
+  }
+]

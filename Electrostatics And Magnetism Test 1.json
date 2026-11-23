@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "Three parallel plates each of area A with separation d1 between first and second and d2 between second and third are arranged to form a capacitor. If the dielectric constants are K1 and K2, the capacitance of this capacitor is",
+    "A": "https://imgh.in/images/sb9mfd",
+    "B": "https://imgh.in/images/uhwwsc",
+    "C": "https://imgh.in/images/84shpc",
+    "D": "https://imgh.in/images/i0x4rv",
+    "Answer": "https://imgh.in/images/i0x4rv",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The two dielectric layers are in series.\n2. The equivalent capacitance for two series dielectrics is C = ε₀A / (d₁/K₁ + d₂/K₂)."
+  },
+  {
+    "Question": "Three capacitors C1, C2 and C3 whose values are 10 μF, 5 μF and 2 μF respectively, have breakdown voltages of 10 V, 5 V and 2 V respectively. For the interconnection shown (C1 in parallel with the series pair C2–C3), the maximum safe voltage in volts that can be applied across the combination, and the corresponding total charge in μC stored in the effective capacitance across the terminals are respectively,",
+    "A": "2.8 and 36",
+    "B": "7 and 119",
+    "C": "2.8 and 32",
+    "D": "7 and 80",
+    "Answer": "2.8 and 32",
+    "Image": "https://imgh.in/images/qpnkvl",
+    "Explaination": "Step-by-Step Solution:\n1. C2 and C3 are in series: C23 = (5 × 2)/(5 + 2) = 10/7 = 1.428 μF.\n2. The maximum charge allowed: Q2_max = 5 μF × 5 V = 25 μC; Q3_max = 2 μF × 2 V = 4 μC. The limiting value is 4 μC.\n3. Safe voltage across the series branch = Q_max / C23 = 4 / 1.428 ≈ 2.8 V.\n4. C1 (10 μF) is in parallel, so it also sees 2.8 V (safe, since 2.8 V < 10 V rating).\n5. Total capacitance = 10 + 1.428 = 11.428 μF. Total charge = 11.428 × 2.8 ≈ 32 μC."
+  },
+  {
+    "Question": "A parallel plate capacitor with plate area A and separation d is filled with dielectrics K1 and K2 as shown (two layers, each of thickness d/2, one above the other). The capacitance of the system is",
+    "A": "https://imgh.in/images/fvkt9q",
+    "B": "https://imgh.in/images/abnx8f",
+    "C": "https://imgh.in/images/q7u9u7",
+    "D": "https://imgh.in/images/yxdrqb",
+    "Answer": "https://imgh.in/images/q7u9u7",
+    "Image": "https://imgh.in/images/0fyy1z",
+    "Explaination": "Step-by-Step Solution:\n1. The two dielectric layers are in series.\n2. C = ε₀A / (d/2K₁ + d/2K₂) = (2ε₀A/d) × (K₁K₂)/(K₁+K₂)."
+  },
+  {
+    "Question": "A cable is 300 km long and has a conductor of 0.5 cm in diameter with an insulation covering of 0.4 cm thickness. Calculate the capacitance of the cable if relative permittivity of insulation is [value not printed in the PDF]",
+    "A": "72 μF",
+    "B": "76 μF",
+    "C": "78 μF",
+    "D": "78.2 μF",
+    "Answer": "78 μF",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Capacitance of a single-core cable: C = 2πε₀εᵣl / ln(R/r).\n2. Here r = 0.25 cm, R = 0.25 + 0.4 = 0.65 cm. ln(R/r) = ln(2.6) = 0.9555.\n3. l = 300 km = 3 × 10⁵ m.\n4. The value of εᵣ is missing. Using the key value of 78 μF, εᵣ ≈ 4.5."
+  },
+  {
+    "Question": "A parallel plate capacitor is filled with two dielectrics as shown . The capacitance of the system is",
+    "A": "https://imgh.in/images/ruq57d",
+    "B": "https://imgh.in/images/1ufb18",
+    "C": "https://imgh.in/images/y3ywfw",
+    "D": "https://imgh.in/images/y1eaua",
+    "Answer": "https://imgh.in/images/y3ywfw",
+    "Image": "https://imgh.in/images/hkt21k",
+    "Explaination": "Step-by-Step Solution:\n1. The dielectrics are side-by-side, forming two capacitors in parallel.\n2. C = ε₀K₁(A/2)/d + ε₀K₂(A/2)/d = ε₀A(K₁+K₂)/(2d)."
+  },
+  {
+    "Question": "The resultant capacitance between points P and Q in the figure is (ladder network: 3 μF series arms on top and bottom; shunt capacitors 2 μF, 2 μF and 3 μF)",
+    "A": "6 μF",
+    "B": "1 μF",
+    "C": "9 μF",
+    "D": "None of the above",
+    "Answer": "1 μF",
+    "Image": "https://imgh.in/images/nfgu2l",
+    "Explaination": "Step-by-Step Solution:\n1. Work from right to left. Last three caps (3, 3, 3 μF) in series = 1 μF.\n2. This is in parallel with 2 μF = 3 μF.\n3. Then 3 + 3 + 3 in series = 1 μF; in parallel with 2 μF = 3 μF.\n4. Finally 3 + 3 + 3 in series = 1 μF between P and Q."
+  },
+  {
+    "Question": "A parallel plate capacitor with air as medium between the plates has a capacitance of 10 μF. The capacitor is divided into two halves and filled with two media (side by side) having dielectric constants K1 = 2 and K2 = 4. The capacitance of the system is now",
+    "A": "30 μF",
+    "B": "40 μF",
+    "C": "60 μF",
+    "D": "10 μF",
+    "Answer": "30 μF",
+    "Image": "https://imgh.in/images/90zdxq",
+    "Explaination": "Step-by-Step Solution:\n1. Two halves are in parallel: C = (C₀/2)·K₁ + (C₀/2)·K₂.\n2. C = 5 × 2 + 5 × 4 = 10 + 20 = 30 μF."
+  },
+  {
+    "Question": "A parallel plate capacitor is filled with three dielectrics of constants K1, K2 and K3 as shown (K1 fills the left half; K2 and K3 are stacked, each of thickness d/2, in the right half). If A is the area of each plate and d the separation, the capacitance is",
+    "A": "https://imgh.in/images/jxvyvm",
+    "B": "https://imgh.in/images/ywrzu0",
+    "C": "https://imgh.in/images/9u4t8n",
+    "D": "https://imgh.in/images/k19zz8",
+    "Answer": "https://imgh.in/images/9u4t8n",
+    "Image": "https://imgh.in/images/x9hxyh",
+    "Explaination": "Step-by-Step Solution:\n1. Left half: C₁ = ε₀K₁(A/2)/d.\n2. Right half: K₂ and K₃ in series: C₂₃ = ε₀A·K₂K₃/[d(K₂+K₃)].\n3. Total = ε₀A/d × [K₁/2 + K₂K₃/(K₂+K₃)]."
+  },
+  {
+    "Question": "Two spherical conductors A and B of radii a and b (b > a) are placed concentrically in air. A is given a charge +Q and B is earthed. The equivalent capacitance of the system is",
+    "A": "https://imgh.in/images/5i491b",
+    "B": "https://imgh.in/images/0uz7nm",
+    "C": "https://imgh.in/images/6du6qn",
+    "D": "https://imgh.in/images/iswcp6",
+    "Answer": "https://imgh.in/images/0uz7nm",
+    "Image": "https://imgh.in/images/x9rymh",
+    "Explaination": "Step-by-Step Solution:\n1. Inner sphere charged +Q, outer earthed.\n2. The field exists only between the spheres.\n3. C = 4πε₀ × ab/(b − a)."
+  },
+  {
+    "Question": "Four metal plates, each of surface area A on one side, are placed at a distance d from each other as shown. The alternate plates are connected to points A and B. The capacitance C_AB is",
+    "A": "2ε0A/d",
+    "B": "3ε0A/d",
+    "C": "4ε0A/d",
+    "D": "ε0A/d",
+    "Answer": "3ε0A/d",
+    "Image": "https://imgh.in/images/fd4kdv",
+    "Explaination": "Step-by-Step Solution:\n1. Four plates with alternate connections form 3 capacitors (between 1–2, 2–3, 3–4).\n2. All 3 are in parallel: C = 3ε₀A/d."
+  },
+  {
+    "Question": "Four metallic plates, each of surface area A, are placed at a distance d apart from each other. The two inner plates are connected to point B and the other two plates to point A. The capacitance C_AB is",
+    "A": "ε0A/d",
+    "B": "2ε0A/d",
+    "C": "3ε0A/d",
+    "D": "4ε0A/d",
+    "Answer": "2ε0A/d",
+    "Image": "https://imgh.in/images/vnxblv",
+    "Explaination": "Step-by-Step Solution:\n1. The two inner plates are at the same potential, so no field exists between them.\n2. Only gaps 1–2 and 3–4 act as capacitors, in parallel: C = 2ε₀A/d."
+  },
+  {
+    "Question": "A dielectric is placed in between two parallel plates of a capacitor as shown (it fills half the plate area, full separation). The dielectric constant of the dielectric is K. If the initial capacitance is C, then the new capacitance will be",
+    "A": "KC",
+    "B": "C(K+1)/2",
+    "C": "(K−1)C",
+    "D": "(K+1)C",
+    "Answer": "C(K+1)/2",
+    "Image": "https://imgh.in/images/qfr9g1",
+    "Explaination": "Step-by-Step Solution:\n1. Half the area has air: C/2. Half has dielectric: KC/2.\n2. They are in parallel: C_new = C/2 + KC/2 = C(K+1)/2."
+  },
+  {
+    "Question": "A 50 μF capacitor is initially charged to accumulate 100 μC. One uncharged capacitor of 200 μF is connected across it in parallel. How much charge will be transferred?",
+    "A": "Q1 = 20 μC and Q2 = 80 μC",
+    "B": "Q1 = 80 μC and Q2 = 20 μC",
+    "C": "Q1 = 10 μC and Q2 = 70 μC",
+    "D": "Q1 = 30 μC and Q2 = 90 μC",
+    "Answer": "Q1 = 20 μC and Q2 = 80 μC",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Total charge Q = 100 μC is shared in proportion to capacitance.\n2. Common voltage V = Q_total / C_total = 100 / (50 + 200) = 0.4 V.\n3. Q1 = 50 × 0.4 = 20 μC, Q2 = 200 × 0.4 = 80 μC."
+  },
+  {
+    "Question": "A voltage of 100 V d.c. is applied across two capacitors in series having capacitances 100 μF and 25 μF. Find the voltage drop across each capacitor.",
+    "A": "VC1 = 80 V, VC2 = 20 V",
+    "B": "VC1 = 20 V, VC2 = 80 V",
+    "C": "VC1 = 10 V, VC2 = 70 V",
+    "D": "VC1 = 80 V, VC2 = 30 V",
+    "Answer": "VC1 = 20 V, VC2 = 80 V",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In series, voltage divides inversely with capacitance.\n2. V(100 μF) = 100 × 25/(100 + 25) = 100 × 25/125 = 20 V.\n3. V(25 μF) = 100 × 100/125 = 80 V."
+  },
+  {
+    "Question": "Determine equivalent capacitance across terminals (a–b) in the figure . Also find the charging time to charge these capacitances by a steady direct current of constant magnitude of [value not printed in the PDF; 10 A assumed].",
+    "A": "165 micro sec",
+    "B": "150 micro sec",
+    "C": "160 micro sec",
+    "D": "160.2 micro sec",
+    "Answer": "160 micro sec",
+    "Image": "https://imgh.in/images/ufl0xz",
+    "Explaination": "Step-by-Step Solution:\n1. C2 (3 μF) and C1 (5 μF) in parallel = 8 μF; in series with C3 (8 μF) = 4 μF.\n2. C5 (8 μF) and C4 (4 μF) are directly between a and b.\n3. Ceq = 8 + 4 + 4 = 16 μF.\n4. Charge Q = C × V = 16 μF × 100 V = 1600 μC.\n5. Time t = Q/I = 1600 μC / 10 A = 160 μs (using 10 A as the assumed current)."
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "The resistance of a wire is 6 Ω. If the length of the same wire is increased 3 times and cross-sectional area is increased 2 times, then the resistance of wire will become.",
+    "A": "3 Ω",
+    "B": "9 Ω",
+    "C": "12 Ω",
+    "D": "36 Ω",
+    "Answer": "9 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The formula for resistance is R = ρl/A.\n2. New length l' = 3l. New area A' = 2A.\n3. New resistance R' = ρ(3l)/(2A) = (3/2) × (ρl/A) = 1.5 × R.\n4. R' = 1.5 × 6 = 9 Ω."
+  },
+  {
+    "Question": "Electric resistance offers ______ to the flow of current.",
+    "A": "conductance",
+    "B": "voltage",
+    "C": "opposition",
+    "D": "a path",
+    "Answer": "opposition",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. By definition, electrical resistance is the property of a material that opposes the flow of electric current through it.\n2. It converts electrical energy into heat energy when current flows."
+  },
+  {
+    "Question": "V-I characteristics of a device are shown in figure The element is",
+    "A": "non-linear, active, bilateral",
+    "B": "non-linear, passive, bilateral",
+    "C": "non-linear, active, unilateral",
+    "D": "linear, passive, unilateral",
+    "Answer": "non-linear, passive, bilateral",
+    "Image": "https://imgh.in/images/4ln7sf",
+    "Explaination": "Step-by-Step Solution:\n1. The V-I graph is not a straight line (it curves/saturates), so it is non-linear.\n2. The curve lies in the first and third quadrants, meaning it consumes power (V and I have the same sign), so it is passive.\n3. The curve is symmetric with respect to the origin, meaning it behaves the same way for both current directions, so it is bilateral."
+  },
+  {
+    "Question": "The rate of doing work is called ______.",
+    "A": "energy",
+    "B": "power",
+    "C": "current",
+    "D": "voltage",
+    "Answer": "power",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Power is defined as the rate at which work is done or energy is transferred.\n2. Mathematically, Power (P) = Work (W) / Time (t).\n3. Its SI unit is the Watt (Joules per second)."
+  },
+  {
+    "Question": "Electron volt is the unit of",
+    "A": "Charge",
+    "B": "Potential",
+    "C": "Energy",
+    "D": "Electric power",
+    "Answer": "Energy",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. An electron volt (eV) is defined as the amount of kinetic energy gained by a single electron accelerating from rest through an electric potential difference of one volt.\n2. Since it is a measure of energy, its SI equivalent is Joules (1 eV ≈ 1.602 × 10⁻¹⁹ J).\n3. Therefore, the electron volt is a unit of energy."
+  },
+  {
+    "Question": "Which of the following is not the same as watt?",
+    "A": "Joule/sec",
+    "B": "(Ampere)² × ohm",
+    "C": "(Volt)² / ohm",
+    "D": "Volt/ampere",
+    "Answer": "Volt/ampere",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The unit of power is the Watt (W).\n2. W = J/s (Option A).\n3. W = I²R (Option B).\n4. W = V²/R (Option C).\n5. Option D is V/I, which is the unit of resistance (Ohm), not power."
+  },
+  {
+    "Question": "In electrical energy one horse power = ______.",
+    "A": "436 W",
+    "B": "746 W",
+    "C": "647 W",
+    "D": "1000 W",
+    "Answer": "746 W",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The mechanical horsepower is defined as exactly 745.7 watts.\n2. In electrical terms, it is commonly rounded to 746 watts."
+  },
+  {
+    "Question": "The curve representing Ohm's law is",
+    "A": "Linear",
+    "B": "Hyperbolic",
+    "C": "Parabolic",
+    "D": "Triangular",
+    "Answer": "Linear",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ohm's law is V = IR.\n2. If we plot V on the y-axis and I on the x-axis, the equation represents a straight line passing through the origin with a slope of R.\n3. Therefore, the curve is linear."
+  },
+  {
+    "Question": "Ohm's law is applicable to :",
+    "A": "Constant and variable temperatures",
+    "B": "Constant temperature",
+    "C": "Variable temperature",
+    "D": "Any of the options",
+    "Answer": "Constant temperature",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ohm's law states that V ∝ I, provided all physical conditions remain constant.\n2. The resistance of a material changes with temperature.\n3. Therefore, Ohm's law is only strictly applicable when the temperature (and other physical conditions) is constant."
+  },
+  {
+    "Question": "How much time (in sec) will be taken by 40 C of charge to pass through a point in a circuit, if a current of 8 A flows through it?",
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "5",
+    "Answer": "5",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The relationship is Q = I × t.\n2. Rearranging for time: t = Q / I.\n3. t = 40 C / 8 A = 5 seconds."
+  },
+  {
+    "Question": "Which one of the following statement is TRUE about the Ohm's law?",
+    "A": "Ohm's law is applicable to the diodes.",
+    "B": "Ohm's law is not applicable to diodes.",
+    "C": "Ohm's law is applicable to voltage regulators.",
+    "D": "Ohm's law is applicable to transistors.",
+    "Answer": "Ohm's law is not applicable to diodes.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ohm's law is applicable only to linear devices where the V-I relationship is a straight line.\n2. Diodes are non-linear devices (their resistance changes with voltage), so Ohm's law does not apply to them."
+  },
+  {
+    "Question": "The ratio of voltage and current in a closed circuit?",
+    "A": "Varies",
+    "B": "Remains constant",
+    "C": "Increases",
+    "D": "Decreases",
+    "Answer": "Remains constant",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. According to Ohm's law, V = IR.\n2. Therefore, V/I = R.\n3. For a given resistor, the resistance R is constant, so the ratio of V/I remains constant."
+  },
+  {
+    "Question": "The unit of charge is",
+    "A": "volts",
+    "B": "ampere hour",
+    "C": "coulomb",
+    "D": "ampere",
+    "Answer": "coulomb",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The standard SI unit of electric charge is the Coulomb (C).\n2. While an ampere-hour is a unit of charge, the fundamental SI unit is the Coulomb."
+  },
+  {
+    "Question": "Which of the following devices will obey Ohm's Law?",
+    "A": "Rectifier",
+    "B": "Incandescent bulb",
+    "C": "Arc lamp",
+    "D": "Zener diode",
+    "Answer": "Incandescent bulb",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Rectifiers, arc lamps, and Zener diodes are non-linear devices.\n2. An incandescent bulb uses a metallic filament, which is essentially a resistor (although its resistance varies slightly with temperature, it is approximately ohmic for standard applications).\n3. Therefore, the incandescent bulb is the most suitable answer."
+  },
+  {
+    "Question": "The flow of electric current in a metallic conductor is only due to?",
+    "A": "neutral charges",
+    "B": "electrons",
+    "C": "positive ions and electrons",
+    "D": "positive ions",
+    "Answer": "electrons",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In a metallic conductor, the atoms are arranged in a crystal lattice.\n2. The positive ions are fixed in the lattice and cannot move.\n3. The current is carried solely by the free (conduction) electrons moving through the lattice."
+  }
+]

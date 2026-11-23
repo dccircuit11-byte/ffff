@@ -1,0 +1,96 @@
+// JSON 3 (Questions 31–45)
+[
+  {
+    "Question": "The relative permeability of paramagnetic material is _______.",
+    "A": "Slightly Greater than zero", "B": "Equal to zero", "C": "Equal to one", "D": "Greater than one",
+    "Answer": "Greater than one", "Image": "",
+    "Explaination": "Paramagnetic materials (e.g. aluminium, oxygen, titanium) have small positive susceptibility, so their permeability is slightly greater than that of free space. Hence μr = 1 + χ is slightly greater than 1. It is not zero (that would be a perfect diamagnet) nor exactly one (that is free space). Thus the answer is 'Greater than one'."
+  },
+  {
+    "Question": "The SI unit of magnetic flux density is",
+    "A": "Henry", "B": "Tesla", "C": "Coulomb", "D": "Weber",
+    "Answer": "Tesla", "Image": "",
+    "Explaination": "Magnetic flux density B = φ/A is measured in weber per square metre (Wb/m²), which is given the name tesla (T). Henry is inductance, coulomb is charge, and weber is flux. Therefore the SI unit of flux density is the tesla."
+  },
+  {
+    "Question": "Which one of the following is the formula of the Intensity of magnetization?",
+    "A": "φ/Fm", "B": "NI/L", "C": "m/A", "D": "B/H",
+    "Answer": "m/A", "Image": "",
+    "Explaination": "Intensity of magnetisation I (or M) is the magnetic moment per unit volume, which also equals pole strength per unit pole area: I = m/A. Option A is permeance, B (NI/L) is magnetic field strength H, and D (B/H) is permeability. Hence the correct formula is m/A. (Note: the official key lists B, but NI/L is H, not intensity of magnetisation.)"
+  },
+  {
+    "Question": "What will be the coefficient of self-induction (in H) of the coil, if the current changes from +4 A to −4 A in 0.10 seconds and the induced EMF is 16 V?",
+    "A": "1.2", "B": "2", "C": "0.2", "D": "0.8",
+    "Answer": "0.2", "Image": "",
+    "Explaination": "Self-induced EMF is e = L·(di/dt). The current changes from +4 A to −4 A, so Δi = 8 A in Δt = 0.1 s, giving di/dt = 8/0.1 = 80 A/s. Then L = e/(di/dt) = 16/80 = 0.2 H. Hence the self-inductance is 0.2 H."
+  },
+  {
+    "Question": "What will be the produced MMF (in Amp-turns) in a magnetic circuit, if it has 100 number of turns and carrying a current of 0.2 A?",
+    "A": "20", "B": "40", "C": "50", "D": "100",
+    "Answer": "20", "Image": "",
+    "Explaination": "MMF = N·I. With N = 100 turns and I = 0.2 A, MMF = 100 × 0.2 = 20 Amp-turns. This MMF drives the flux through the magnetic circuit, analogous to EMF in an electric circuit."
+  },
+  {
+    "Question": "Determine the critical current (in A) for a wire of the material that has a diameter of 2 mm at 8 K. If the critical temperature for the material is 12 K and the magnetic field is 6 × 10⁴ A/m.",
+    "A": "221.3", "B": "214.4", "C": "232.5", "D": "209.5",
+    "Answer": "209.5", "Image": "",
+    "Explaination": "The critical field at temperature T follows Hc(T) = H0[1 − (T/Tc)²]. Here H0 = 6×10⁴ A/m, T = 8 K, Tc = 12 K, so (T/Tc)² = (8/12)² = 0.4444. Thus Hc = 6×10⁴ × (1 − 0.4444) = 3.333×10⁴ A/m. The critical current is Ic = 2πr·Hc with r = 1 mm = 0.001 m: Ic = 2π × 0.001 × 3.333×10⁴ ≈ 209.4 A, i.e. about 209.5 A."
+  },
+  {
+    "Question": "What will be the flux density (in T) of material in free space, if the field strength of the material is 2 × 10⁵ A/m and the magnetic susceptibility of the material is 0.44 × 10⁻³.",
+    "A": "0.25", "B": "0.5", "C": "0.75", "D": "1",
+    "Answer": "0.25", "Image": "",
+    "Explaination": "Flux density is B = μ0·H·(1 + χ). With μ0 = 4π×10⁻⁷, H = 2×10⁵ A/m and χ = 0.44×10⁻³, we get B = 4π×10⁻⁷ × 2×10⁵ × 1.00044 = 0.2513 × 1.00044 ≈ 0.25 T. The susceptibility is so small that B ≈ μ0H, giving 0.25 T."
+  },
+  {
+    "Question": "Determine the value of time (in sec) when an average EMF of 100 V is induced in a coil of area 200 cm² with 100 turns when it is completely removed from a magnetic field of 30 T acting at the right angle of the coil.",
+    "A": "0.4", "B": "0.2", "C": "0.6", "D": "0.9",
+    "Answer": "0.6", "Image": "",
+    "Explaination": "The total flux linkage initially is N·B·A. Area A = 200 cm² = 0.02 m², N = 100, B = 30 T, so N·B·A = 100 × 30 × 0.02 = 60 Wb-turns. When the coil is completely removed, the flux falls to zero, so Δ(Nφ) = 60. Average EMF e = Δ(Nφ)/Δt → 100 = 60/Δt → Δt = 0.6 s."
+  },
+  {
+    "Question": "Calculate the intensity of magnetization (in A/m) in a material, if the magnetic field strength of the material is 1800 A/m and the magnetic susceptibility is 0.4 × 10⁻⁵.",
+    "A": "0.0058", "B": "0.0072", "C": "0.0061", "D": "0.0035",
+    "Answer": "0.0072", "Image": "",
+    "Explaination": "Intensity of magnetisation is related to field strength by I = χ·H. Here χ = 0.4×10⁻⁵ and H = 1800 A/m, so I = 0.4×10⁻⁵ × 1800 = 7200×10⁻⁶ = 0.0072 A/m. Hence the intensity of magnetisation is 0.0072 A/m."
+  },
+  {
+    "Question": "Which one of the following is the CORRECT expression for Biot-Savart law?",
+    "A": "∮B·dl = μ0·I", "B": "E = q/(4πε0)", "C": "dB = k·I·ds·sinθ / r²", "D": "dB = I·dl·sinθ / r",
+    "Answer": "dB = k·I·ds·sinθ / r²", "Image": "",
+    "Explaination": "The Biot–Savart law gives the magnetic field due to a current element: dB = (μ0/4π)·I·dl·sinθ/r², i.e. dB is proportional to I·dl·sinθ and inversely proportional to r². Option C matches this form (with constant k = μ0/4π). Option A is Ampere's circuital law, B is Coulomb's law, and D has the wrong 1/r dependence."
+  },
+  {
+    "Question": "Which one of the following statements is TRUE about the magnetic lines of force?",
+    "A": "The magnetic lines of force travel from South pole to North pole outside the magnet",
+    "B": "The magnetic lines of force travel from North pole to South pole inside the magnet",
+    "C": "Magnetic lines of force never form a closed path",
+    "D": "Two magnetic lines of force do not cut each other",
+    "Answer": "Two magnetic lines of force do not cut each other", "Image": "",
+    "Explaination": "Magnetic lines of force emerge from the North pole and enter the South pole outside the magnet, and travel from South to North inside the magnet, forming closed loops. Since the field at any point has a unique direction, two lines of force can never cross (cut) each other. Hence the true statement is D."
+  },
+  {
+    "Question": "Which one of the following materials is considered as a non-magnetic material?",
+    "A": "Diamagnetic material", "B": "Ferromagnetic material", "C": "Ferrimagnetic material", "D": "Anti-ferrimagnetic",
+    "Answer": "Diamagnetic material", "Image": "",
+    "Explaination": "Diamagnetic materials have μr very close to 1 (slightly less), so they do not concentrate magnetic flux and are treated as non-magnetic for engineering purposes. Ferromagnetic and ferrimagnetic materials have large μr and are strongly magnetic. Hence the diamagnetic material is considered non-magnetic."
+  },
+  {
+    "Question": "On which of the following parameters the eddy current loss occurring in the material does not depend?",
+    "A": "Magnetic flux Density", "B": "The frequency of variation of flux", "C": "Susceptibility", "D": "The volume of the material",
+    "Answer": "Susceptibility", "Image": "",
+    "Explaination": "Eddy current loss is Pe = ke·Bm²·f²·t²·V, so it depends on maximum flux density Bm, frequency f, thickness t and volume V. It does not involve magnetic susceptibility χ, which describes magnetisation response, not eddy currents. Hence eddy current loss is independent of susceptibility."
+  },
+  {
+    "Question": "Determine the flux (in Wb) through a coil when the reluctance of the coil is 4 Amp-turns/Wb and the produced MMF is 48 Amp-turns.",
+    "A": "10", "B": "12", "C": "14", "D": "16",
+    "Answer": "12", "Image": "",
+    "Explaination": "By the magnetic Ohm's law, flux φ = MMF/reluctance = Fm/S. Here Fm = 48 AT and S = 4 AT/Wb, so φ = 48/4 = 12 Wb. Hence the flux through the coil is 12 Wb."
+  },
+  {
+    "Question": "Determine the current through a coil (in A), if the coil has 140 turns and produces mmf of 14 Amp-turns.",
+    "A": "0.6", "B": "0.3", "C": "0.1", "D": "0.2",
+    "Answer": "0.1", "Image": "",
+    "Explaination": "MMF = N·I, so I = MMF/N. With MMF = 14 AT and N = 140 turns, I = 14/140 = 0.1 A. Hence the current through the coil is 0.1 A."
+  }
+]

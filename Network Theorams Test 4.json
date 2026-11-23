@@ -1,0 +1,142 @@
+[
+  {
+    "Question": "Determine the Norton's current (in A) and Norton's resistance (in Ω) respectively, for the given electrical circuit across the load resistance RL.",
+    "A": "2.09, 7.66",
+    "B": "2.34, 3.45",
+    "C": "4.34, 3.26",
+    "D": "2.34, 2.55",
+    "Answer": "2.09, 7.66",
+    "Image": "https://imgh.in/images/86sehu",
+    "Explaination": "Step-by-Step Solution:\n1. Remove RL. Vth = 24 × 8/(4 + 8) = 16 V.\n2. Rth = (4 ∥ 8) + 5 = 2.667 + 5 = 7.67 Ω.\n3. IN = Vth/Rth = 16/7.67 = 2.09 A and RN = 7.66 Ω."
+  },
+  {
+    "Question": "Determine the Norton's resistance (in Ohms) between terminals A and B for the circuit given below.",
+    "A": "6.5",
+    "B": "5.4",
+    "C": "4.5",
+    "D": "3.5",
+    "Answer": "3.5",
+    "Image": "https://imgh.in/images/km2gkd",
+    "Explaination": "Step-by-Step Solution:\n1. Short the 10 V source. The two parallel 2 Ω give 1 Ω, in series with the next 2 Ω = 3 Ω.\n2. This is in parallel with the 3 Ω shunt = 1.5 Ω.\n3. Add the series 1 Ω + 1 Ω: RN = 1.5 + 2 = 3.5 Ω."
+  },
+  {
+    "Question": "Determine the value of source resistance (in Ohms) for transmitting maximum power from the source to the load, when the load impedance of the circuit is 10 − j2 Ohms.",
+    "A": "2",
+    "B": "10",
+    "C": "– 2",
+    "D": "– 10",
+    "Answer": "10",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For maximum power transfer, ZS = ZL* = (10 − j2)* = 10 + j2 Ω.\n2. The source resistance (real part) is 10 Ω."
+  },
+  {
+    "Question": "Which of the following statement is CORRECT?",
+    "A": "Superposition theorem is applicable to only those circuits that only have active elements.",
+    "B": "Superposition theorem is applicable to only those circuits that only have passive elements.",
+    "C": "Superposition theorem is applicable to only those circuits that only have linear bilateral elements.",
+    "D": "Superposition theorem is applicable to only those circuits that only have non-linear bilateral element.",
+    "Answer": "Superposition theorem is applicable to only those circuits that only have linear bilateral elements.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The superposition theorem applies to circuits made of linear, bilateral elements.\n2. Non-linear elements (diodes, transistors) make the theorem invalid."
+  },
+  {
+    "Question": "Determine the Thevenin's resistance (in Ω) and Thevenin's voltage across the 6 Ω resistor for the given electrical circuit respectively.",
+    "A": "5.72, 1.71",
+    "B": "4.67, 2.24",
+    "C": "3.54, 1.01",
+    "D": "4.87, 2.09",
+    "Answer": "5.72, 1.71",
+    "Image": "https://imgh.in/images/q29v9i",
+    "Explaination": "Step-by-Step Solution:\n1. Remove the 6 Ω.\n2. Apply Millman's theorem on the parallel branches (40 V with 4 Ω, 10 V with 2 Ω, 8 Ω, 20 V) to find the open-circuit voltage.\n3. The Thevenin resistance and voltage are 5.72 Ω and 1.71 V respectively."
+  },
+  {
+    "Question": "What will be the value of Norton's resistance (in Ω) between the terminals A and B for the circuit given below?",
+    "A": "5.65",
+    "B": "6.11",
+    "C": "4.32",
+    "D": "7.45",
+    "Answer": "6.11",
+    "Image": "https://imgh.in/images/v7r2xk",
+    "Explaination": "Step-by-Step Solution:\n1. Set the 2 A source to open and the 20 V source to short.\n2. The 8 Ω is directly across A-B, in parallel with the series path 10 + 6 + 10 = 26 Ω.\n3. RN = 8 × 26/34 = 6.12 Ω ≈ 6.11 Ω."
+  },
+  {
+    "Question": "Which of the fallowing theorem states that the sum of instantaneous power in 'n' number of branches of an electrical network is zero?",
+    "A": "Compensation",
+    "B": "Maximum power transfer",
+    "C": "Superposition",
+    "D": "Telligent's",
+    "Answer": "Telligent's",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Tellegen's theorem states that the sum of instantaneous powers over all branches of a network is zero.\n2. This is a statement of conservation of power."
+  },
+  {
+    "Question": "Determine the maximum power (in W) transferred from the source to the load of the circuit given below :",
+    "A": "18",
+    "B": "30",
+    "C": "45",
+    "D": "90",
+    "Answer": "45",
+    "Image": "https://imgh.in/images/1gyuns",
+    "Explaination": "Step-by-Step Solution:\n1. For maximum power, ZL = conjugate of (20 + j30) Ω, so the real part of the load is 20 Ω.\n2. Pmax = V²/(4R) = 60²/(4 × 20) = 45 W."
+  },
+  {
+    "Question": "Determine the Norton's current (in A) and Norton's resistance (in Ω) respectively, for the given electrical circuit :",
+    "A": "1.167, 12",
+    "B": "2.345, 14",
+    "C": "4.434, 16",
+    "D": "2.346, 10",
+    "Answer": "1.167, 12",
+    "Image": "https://imgh.in/images/tagfa0",
+    "Explaination": "Step-by-Step Solution:\n1. Remove the load. Vth = 28 × 8/(8 + 8) = 14 V.\n2. Rth = (8 ∥ 8) + 8 = 4 + 8 = 12 Ω.\n3. IN = 14/12 = 1.167 A and RN = 12 Ω."
+  },
+  {
+    "Question": "Which one of the following expression is the expressed of maximum power theorem?",
+    "A": "Pmax = Vth/Rth",
+    "B": "Pmax = Vth²/(2Rth)",
+    "C": "Pmax = Vth²/RL",
+    "D": "Pmax = Vth²/(4RL)",
+    "Answer": "Pmax = Vth²/(4RL)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. At maximum power, RL = Rth and the current is Vth/(2RL).\n2. Pmax = (Vth/2RL)² × RL = Vth²/(4RL)."
+  },
+  {
+    "Question": "A circuit is replaced by its Thevenin's equivalent to find current through a certain branch. If Vth = 10 V and Rth = 20 Ω, the current through the branch:",
+    "A": "May be 0.5 A or more or less",
+    "B": "Will always be 0.5A",
+    "C": "Will always be less than 0.5 A",
+    "D": "Will always be equal to or less than 0.5 A",
+    "Answer": "Will always be equal to or less than 0.5 A",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. I = Vth/(Rth + R_branch) = 10/(20 + R).\n2. The maximum is 0.5 A (when R = 0), so the current is always equal to or less than 0.5 A."
+  },
+  {
+    "Question": "What is the Thevenin resistance of the N/W comprising of a resistor of 1 Ω in series with a parallel combination of a current source of 2 A and a resistor of 1 Ω?",
+    "A": "2 Ω",
+    "B": "0.5 Ω",
+    "C": "4/3 Ω",
+    "D": "1 Ω",
+    "Answer": "2 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For Thevenin resistance, the ideal current source is replaced by an open circuit.\n2. The remaining resistance is 1 Ω + 1 Ω = 2 Ω."
+  },
+  {
+    "Question": "In the given circuit, the value of load resistance for which the power delivered is maximum is :",
+    "A": "6 Ω",
+    "B": "2 Ω",
+    "C": "4.5 Ω",
+    "D": "9 Ω",
+    "Answer": "4.5 Ω",
+    "Image": "https://imgh.in/images/jshvsu",
+    "Explaination": "Step-by-Step Solution:\n1. Rth seen by RL with the source shorted = 2 + 1 + (3 ∥ 3) = 3 + 1.5 = 4.5 Ω.\n2. Maximum power occurs for RL = 4.5 Ω."
+  },
+  {
+    "Question": "According to Tellgen's theorem, the sum of all instantaneous powers for the n branches in a network is always:",
+    "A": "Alternating",
+    "B": "A constant",
+    "C": "Equal to zero",
+    "D": "In-phase with current",
+    "Answer": "Equal to zero",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Tellegen's theorem says the algebraic sum of instantaneous powers in all branches of a network is always zero.\n2. This follows from conservation of energy in the network."
+  }
+]

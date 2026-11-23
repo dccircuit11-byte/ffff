@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "A typical output of a solar cell is",
+    "A": "0.1 V",
+    "B": "0.26 V",
+    "C": "1.1 V",
+    "D": "2 V",
+    "Answer": "0.26 V",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The open-circuit voltage of a single silicon solar cell is typically around 0.5 to 0.6 V.\n2. Under load, the operating voltage is lower.\n3. Based on the provided key, the typical output is taken as 0.26 V."
+  },
+  {
+    "Question": "Which of the following material is used in solar cells?",
+    "A": "Barium",
+    "B": "Silicon",
+    "C": "Silver",
+    "D": "Selenium",
+    "Answer": "Silicon",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Silicon is the most widely used semiconductor material for manufacturing solar cells (photovoltaic cells).\n2. It is abundant and has suitable bandgap energy for absorbing sunlight."
+  },
+  {
+    "Question": "The efficiency of a solar cell may be in the range",
+    "A": "2 to 5%",
+    "B": "10 to 15%",
+    "C": "30 to 40%",
+    "D": "70 to 80%",
+    "Answer": "10 to 15%",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Typical commercial solar cells have an efficiency of converting sunlight to electricity in the range of 10% to 15%.\n2. Research cells can be higher, but standard panels fall in this range."
+  },
+  {
+    "Question": "Satellite power requirement is provided through",
+    "A": "Solar cells",
+    "B": "Dry cells",
+    "C": "Nickel cadmium cells",
+    "D": "Lead acid batteries",
+    "Answer": "Solar cells",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Satellites use solar panels (arrays of solar cells) to generate electrical power from sunlight.\n2. Batteries are used for storage, but the primary source is solar cells."
+  },
+  {
+    "Question": "Which of the following constitutes the major load for an automobile battery?",
+    "A": "Brake light",
+    "B": "Self starter",
+    "C": "Parking lights",
+    "D": "Spark plugs",
+    "Answer": "Self starter",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The self starter (starter motor) draws a very high current (hundreds of amperes) to crank the engine.\n2. Other loads like lights and spark plugs draw much less current.\n3. Therefore, the self starter is the major load."
+  },
+  {
+    "Question": "The body of an Edison cell is made of",
+    "A": "Bakelite",
+    "B": "Rubber",
+    "C": "Nickel plated steel",
+    "D": "Aluminum",
+    "Answer": "Nickel plated steel",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The Edison cell (nickel-iron battery) uses a container made of nickel-plated steel.\n2. This provides strength and resistance to the alkaline electrolyte (KOH)."
+  },
+  {
+    "Question": "Specific gravity of electrolyte in Edison cell is",
+    "A": "0.8",
+    "B": "0.95",
+    "C": "1.1",
+    "D": "1.25",
+    "Answer": "1.25",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The electrolyte in an Edison cell is potassium hydroxide (KOH).\n2. Its specific gravity is typically around 1.25 (range 1.17 - 1.25)."
+  },
+  {
+    "Question": "Life of the Edison cell is at least",
+    "A": "Five years",
+    "B": "Seven years",
+    "C": "Eight years",
+    "D": "Ten years",
+    "Answer": "Five years",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Edison cells (nickel-iron) are known for their long life and ruggedness.\n2. The minimum expected life is at least five years, and often much longer."
+  },
+  {
+    "Question": "The EMF of an Edison cell when fully charged is nearly",
+    "A": "1.4 V",
+    "B": "1 V",
+    "C": "0.9 V",
+    "D": "0.8 V",
+    "Answer": "1.4 V",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A fully charged Edison cell (nickel-iron) has an open-circuit voltage of approximately 1.4 V."
+  },
+  {
+    "Question": "Electrolyte used in an Edison cell is",
+    "A": "NaOH",
+    "B": "KOH",
+    "C": "HCl",
+    "D": "HNO3",
+    "Answer": "KOH",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The Edison cell uses an alkaline electrolyte.\n2. Specifically, it uses potassium hydroxide (KOH) solution."
+  },
+  {
+    "Question": "Dry cell is the modification of",
+    "A": "Daniell cell",
+    "B": "Leclanche cell",
+    "C": "Lead acid cell",
+    "D": "Edison cell",
+    "Answer": "Leclanche cell",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The dry cell is a modified, portable version of the Leclanché cell.\n2. The liquid electrolyte is replaced by a paste or gel to make it leak-proof."
+  },
+  {
+    "Question": "All dry cells have about _____ V.",
+    "A": "1.0",
+    "B": "1.2",
+    "C": "1.5",
+    "D": "2",
+    "Answer": "1.5",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The standard nominal voltage of a dry cell (carbon-zinc or alkaline) is 1.5 V."
+  },
+  {
+    "Question": "Even though voltage of a dry cell, big or small, is 1.5 V, small cell delivers less current because it has comparatively ______ internal resistance",
+    "A": "Zero",
+    "B": "Less",
+    "C": "More",
+    "D": "Same",
+    "Answer": "More",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A smaller cell has a smaller electrode surface area and shorter distance between electrodes, but the overall chemical capacity and conductivity are lower.\n2. This results in a higher internal resistance.\n3. Higher internal resistance means the cell delivers less current (I = V / (R + r))."
+  },
+  {
+    "Question": "The internal resistance of a dry cell is of the order of",
+    "A": "0.01 to 0.04 ohm",
+    "B": "0.2 to 0.5 ohm",
+    "C": "2 to 5 ohm",
+    "D": "10 to 30 ohm",
+    "Answer": "0.2 to 0.5 ohm",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A typical dry cell has an internal resistance in the range of a few tenths of an ohm.\n2. The value 0.2 to 0.5 ohm is representative for standard dry cells."
+  },
+  {
+    "Question": "Which of the following has lower specific gravity?",
+    "A": "Dilute H2SO4",
+    "B": "Concentrated H2SO4",
+    "C": "Water",
+    "D": "Any of the above",
+    "Answer": "Water",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The specific gravity of water is 1.0.\n2. Concentrated sulphuric acid has a specific gravity of about 1.84.\n3. Dilute acid has a specific gravity between 1.0 and 1.84.\n4. Therefore, water has the lowest specific gravity."
+  }
+]

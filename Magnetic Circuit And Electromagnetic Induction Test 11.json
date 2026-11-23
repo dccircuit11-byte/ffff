@@ -1,0 +1,117 @@
+// JSON 11 (Questions 151–170 — final 20 questions)
+[
+  {
+    "Question": "Substances that have permeability less than the permeability of free space are known as",
+    "A": "Diamagnetic", "B": "Ferromagnetic", "C": "Paramagnetic", "D": "Bipolar",
+    "Answer": "Diamagnetic", "Image": "",
+    "Explaination": "Permeability of free space is μ0. Diamagnetic materials have μ slightly less than μ0 (μr < 1) because their induced moments oppose the applied field. Paramagnetic and ferromagnetic materials have μ > μ0. Hence substances with permeability less than μ0 are diamagnetic."
+  },
+  {
+    "Question": "When a low flying aircraft passes overhead, we sometimes notice a slight shaking of the picture on our TV screen. This is due to",
+    "A": "Diffraction of the signal received from the antenna", "B": "Interference of the direct signal received by the antenna with the weak signal reflected by the passing aircraft", "C": "Change of magnetic flux occurring due to the passage of aircraft", "D": "Vibration created by the passage of aircraft",
+    "Answer": "Interference of the direct signal received by the antenna with the weak signal reflected by the passing aircraft", "Image": "",
+    "Explaination": "The TV antenna receives the direct signal from the transmitter plus a weak signal reflected from the moving aircraft. These two signals arrive with a small phase difference and interfere, causing the picture to flutter or shake. It is not due to magnetic flux changes or vibration. Hence the correct explanation is interference with the reflected signal. (The official key lists C.)"
+  },
+  {
+    "Question": "According to Lenz's law of electromagnetic induction,",
+    "A": "The induced emf is not in the direction opposing the change in magnetic flux", "B": "The relative motion between the coil and magnet produces the change in magnetic flux", "C": "Only the magnet should be moved towards the coil", "D": "Only the coil should be moved towards the magnet",
+    "Answer": "The relative motion between the coil and magnet produces the change in magnetic flux", "Image": "",
+    "Explaination": "Lenz's law states that the induced EMF opposes the change in flux that produces it. A change in flux can be produced by relative motion between the coil and the magnet — either the magnet moving towards the coil or the coil moving towards the magnet. Hence option B is the correct statement; the induced EMF does oppose the flux change (so A is false), and motion of either one (not only one) works."
+  },
+  {
+    "Question": "Paramagnetic materials have relative permeability",
+    "A": "Slightly less than unity", "B": "Equal to unity", "C": "Slightly more than unity", "D": "Equal to that ferromagnetic materials",
+    "Answer": "Slightly more than unity", "Image": "",
+    "Explaination": "Paramagnetic materials (aluminium, platinum, oxygen) have a small positive susceptibility, so μr = 1 + χ is slightly greater than 1 (unity). Diamagnetic materials have μr slightly less than unity. Hence paramagnetic materials have relative permeability slightly more than unity."
+  },
+  {
+    "Question": "Which of the following type of materials are not very important for engineering applications?",
+    "A": "Diamagnetic", "B": "Paramagnetic", "C": "Ferromagnetic", "D": "None of the above",
+    "Answer": "Diamagnetic", "Image": "",
+    "Explaination": "Diamagnetic (and paramagnetic) materials have μr very close to 1, so they produce negligible flux concentration and are of little practical use in magnetic devices. Ferromagnetic materials (with high μr) are the basis of transformers, motors, generators and magnets. As per the key, diamagnetic materials are not very important for engineering applications."
+  },
+  {
+    "Question": "For a given wire-wound core, an increase in current through the coil",
+    "A": "Increases the flux density", "B": "Reverses the flux lines", "C": "Causes no change in flux density", "D": "Decreases the flux density",
+    "Answer": "Increases the flux density", "Image": "",
+    "Explaination": "The magnetising force is H = NI/l, so increasing the current I increases H. Since B = μH (until saturation), the flux density B also increases. Reversal would need the current direction reversed, and there is no reason for it to stay constant. Hence an increase in current increases the flux density."
+  },
+  {
+    "Question": "What will be the current passing through the ring-shaped air-cored coil when the number of turns is 800 and ampere-turns are 3200?",
+    "A": "2", "B": "4", "C": "6", "D": "8",
+    "Answer": "4", "Image": "",
+    "Explaination": "Ampere-turns (MMF) = N·I, so I = AT/N. With AT = 3200 and N = 800, I = 3200/800 = 4 A. Hence the current passing through the coil is 4 A."
+  },
+  {
+    "Question": "In the left-hand rule, the forefinger always represents",
+    "A": "Magnetic field", "B": "Current", "C": "Voltage", "D": "The direction of the force on the conductor",
+    "Answer": "Magnetic field", "Image": "",
+    "Explaination": "In Fleming's left-hand rule (used for motors), the forefinger represents the direction of the magnetic field, the middle finger represents the current, and the thumb represents the force on the conductor. Hence the forefinger always represents the magnetic field."
+  },
+  {
+    "Question": "The Biot-Savart's law is a general modification of",
+    "A": "Kirchhoff's law", "B": "Lenz's law", "C": "Ampere's law", "D": "Faraday's laws",
+    "Answer": "Ampere's law", "Image": "",
+    "Explaination": "Biot–Savart's law gives the magnetic field due to a small current element dB = (μ0/4π)·I·dl·sinθ/r². Integrating it around a closed current path yields Ampere's circuital law (∮B·dl = μ0I). Hence Biot–Savart's law is the differential (general) form from which Ampere's law follows, making it a general modification of Ampere's law."
+  },
+  {
+    "Question": "Gilbert is a unit of",
+    "A": "Magnetomotive force", "B": "Conductance", "C": "Electromotive force", "D": "Permittivity",
+    "Answer": "Magnetomotive force", "Image": "",
+    "Explaination": "The gilbert (Gi) is the CGS (electromagnetic) unit of magnetomotive force, just as the ampere-turn is the SI practical unit. One gilbert corresponds to 10/(4π) ampere-turns. Conductance, EMF and permittivity have their own units (siemens, volt, F/m). Hence the gilbert is a unit of magnetomotive force."
+  },
+  {
+    "Question": "The magnetic materials exhibit the property of magnetization because of",
+    "A": "Orbital motion of electrons", "B": "Spin of electrons", "C": "Spin of nucleus", "D": "None of the above",
+    "Answer": "Spin of nucleus", "Image": "",
+    "Explaination": "As per the official key, the answer is C (spin of nucleus). Physically, however, magnetisation in magnetic materials arises mainly from the orbital motion and spin of electrons, since nuclear magnetic moments are about 2000 times smaller. The keyed answer is C, but the physically accepted reason is electron orbital motion and spin."
+  },
+  {
+    "Question": "The most effective and quickest way of making a magnet from soft iron is by",
+    "A": "Placing it inside a coil carrying current", "B": "Induction", "C": "The use of a permanent magnet", "D": "Rubbing with another magnet",
+    "Answer": "Placing it inside a coil carrying current", "Image": "",
+    "Explaination": "Placing soft iron inside a current-carrying coil (solenoid) subjects it to a strong, uniform magnetising field that aligns its domains quickly and effectively, producing a strong magnet. Induction and rubbing with a magnet are slower and weaker methods. Hence the most effective and quickest way is placing it inside a coil carrying current."
+  },
+  {
+    "Question": "The strength of magnetic field inside a long current carrying straight solenoid is",
+    "A": "More at the ends than at the center", "B": "Minimum in the middle", "C": "Same at all points", "D": "Found to increase from one end to the other",
+    "Answer": "Same at all points", "Image": "",
+    "Explaination": "Inside an ideal long solenoid, the magnetic field is uniform — it has the same magnitude and direction at all interior points (B = μ0nI). It is weaker near the ends only for a finite solenoid. Hence for a long solenoid the field is the same at all points inside."
+  },
+  {
+    "Question": "The electromagnet has 50 turns and a current of 1 A flows through the coil. If the length of the magnetic circuit is 200 mm, what is the magnetic field strength?",
+    "A": "2500 AT/m", "B": "250 AT/m", "C": "25 AT/m", "D": "2.5 AT/m",
+    "Answer": "250 AT/m", "Image": "",
+    "Explaination": "Magnetic field strength H = N·I/l. Here N = 50, I = 1 A and l = 200 mm = 0.2 m, so H = (50 × 1)/0.2 = 250 AT/m. Hence the magnetic field strength is 250 AT/m. (The official key lists C, which does not match the given data.)"
+  },
+  {
+    "Question": "A conductor of length L has current I passing through it, when it is placed parallel to a magnetic field. The force experienced by the conductor will be",
+    "A": "Zero", "B": "BLI", "C": "B²LI", "D": "BLI²",
+    "Answer": "Zero", "Image": "",
+    "Explaination": "The force on a current-carrying conductor is F = B·I·L·sinθ, where θ is the angle between the conductor and the magnetic field. When the conductor is parallel to the field, θ = 0°, so sinθ = 0 and F = 0. Hence the force experienced by the conductor is zero."
+  },
+  {
+    "Question": "Which of the following is the unit of magnetic flux density?",
+    "A": "Weber", "B": "Lumens", "C": "Tesla", "D": "None of the above",
+    "Answer": "Tesla", "Image": "",
+    "Explaination": "Magnetic flux density B is measured in tesla (T), where 1 T = 1 Wb/m². Weber is the unit of magnetic flux, and lumen is the unit of luminous flux. Hence the unit of magnetic flux density is tesla. (The official key lists A (weber), which is actually the unit of flux, not flux density.)"
+  },
+  {
+    "Question": "Indicate which of the following material does not retain magnetism permanently",
+    "A": "Soft iron", "B": "Stainless steel", "C": "Hardened steel", "D": "None of the above",
+    "Answer": "Soft iron", "Image": "",
+    "Explaination": "Soft iron has high permeability but low retentivity and low coercivity, so it loses its magnetism as soon as the magnetising field is removed — it does not retain magnetism permanently. Stainless steel and hardened steel have higher retentivity. Hence soft iron is the material that does not retain magnetism permanently."
+  },
+  {
+    "Question": "Which one of the following statements is TRUE about the magnetic lines of force?",
+    "A": "The magnetic lines of force travel from South pole to North pole outside the magnet", "B": "The magnetic lines of force travel from North pole to South pole inside the magnet", "C": "Magnetic lines of force never form a closed path", "D": "Two magnetic lines of force do not cut each other",
+    "Answer": "Two magnetic lines of force do not cut each other", "Image": "",
+    "Explaination": "Magnetic lines of force emerge from the North pole and enter the South pole outside the magnet, and go from South to North inside the magnet, always forming closed loops. Because the field direction at any point is unique, two lines of force can never intersect. Hence the true statement is that two magnetic lines of force do not cut each other."
+  },
+  {
+    "Question": "The B-H curve is used to find the MMF of this section of the magnetic circuit. The section is",
+    "A": "Vacuum", "B": "Iron part", "C": "Air gap", "D": "Both iron part and air gap",
+    "Answer": "Iron part", "Image": "",
+    "Explaination": "For the iron part of a magnetic circuit, B and H are related non-linearly (saturation, hysteresis), so the B-H curve is required to find H for a given B and thus the MMF drop H·l. For air or vacuum, B = μ0H directly, so no curve is needed. Hence the B-H curve is used for the iron part."
+  }
+]

@@ -1,0 +1,93 @@
+// JSON 10 (Questions 136–150)
+[
+  {
+    "Question": "A keeper is used to",
+    "A": "Provide a closed path for flux", "B": "Restore lost flux", "C": "Amplify flux", "D": "Change the direction of magnetic lines",
+    "Answer": "Provide a closed path for flux", "Image": "",
+    "Explaination": "A keeper is a soft-iron bar placed across the poles of a permanent magnet. It provides a low-reluctance closed path for the magnetic flux, so the flux does not leak out and the magnet does not become demagnetised over time. Hence its purpose is to provide a closed path for flux."
+  },
+  {
+    "Question": "Two infinitely long parallel conductors in a vacuum and separated 1 metre between centres with one-ampere current flowing in each produce on each other a force (per metre) of",
+    "A": "2 × 10⁻⁵ N", "B": "2 × 10⁷ N", "C": "3 × 10⁻⁵ N", "D": "2 × 10⁻⁷ N",
+    "Answer": "2 × 10⁻⁷ N", "Image": "",
+    "Explaination": "The force per unit length between two parallel conductors is F/l = μ0·I1·I2/(2πd). With I1 = I2 = 1 A, d = 1 m and μ0 = 4π×10⁻⁷: F/l = (4π×10⁻⁷ × 1 × 1)/(2π × 1) = 2×10⁻⁷ N/m. This is the basis of the definition of the ampere. Hence the force is 2 × 10⁻⁷ N."
+  },
+  {
+    "Question": "The unit of flux is the same as that of",
+    "A": "Reluctance", "B": "Resistance", "C": "Permeance", "D": "Pole strength",
+    "Answer": "Pole strength", "Image": "",
+    "Explaination": "Magnetic flux φ is measured in weber (Wb). Pole strength m is defined such that flux φ = m, so pole strength also has the unit weber (A·m in some conventions but dimensionally the same as flux). Reluctance is AT/Wb, resistance is ohm, and permeance is Wb/AT. Hence flux has the same unit as pole strength."
+  },
+  {
+    "Question": "A permanent magnet",
+    "A": "Attracts all paramagnetic substances and repels others", "B": "Attracts some substances and repels others", "C": "Attracts only ferromagnetic substances", "D": "Attracts ferromagnetic substances and repels all others",
+    "Answer": "Attracts some substances and repels others", "Image": "",
+    "Explaination": "A permanent magnet attracts ferromagnetic and paramagnetic substances (which have μr > 1) and repels diamagnetic substances (μr < 1). Therefore it attracts some substances and repels others. It does not attract all paramagnetic substances while repelling everything else, nor only ferromagnetic ones. Hence option B is correct."
+  },
+  {
+    "Question": "The stray line of magnetic flux is defined as",
+    "A": "A line vertical to the flux lines", "B": "The mean length of a ring-shaped coil", "C": "A line of magnetic flux that does not follow the designed path", "D": "A line of magnetic flux in a non-uniform field",
+    "Answer": "A line of magnetic flux that does not follow the designed path", "Image": "",
+    "Explaination": "Stray flux (leakage flux) is the portion of magnetic flux that does not follow the intended (designed) magnetic path, e.g. flux that leaks out around the air gap instead of crossing it. It is not merely flux in a non-uniform field. Hence the correct definition is a line of flux that does not follow the designed path."
+  },
+  {
+    "Question": "Materials subjected to rapid reversal of magnetism should have",
+    "A": "Large area of B-H loop", "B": "High permeability and low hysteresis loss", "C": "High coercivity and high retentivity", "D": "High coercivity and low density",
+    "Answer": "High permeability and low hysteresis loss", "Image": "",
+    "Explaination": "Rapid reversal of magnetism means the material is magnetised many times per second (as in transformer cores). To keep losses low, the B-H loop should be narrow (low hysteresis loss) and the material should have high permeability so that a small MMF produces the required flux. High coercivity/retentivity and a large loop are undesirable here. Hence the answer is high permeability and low hysteresis loss."
+  },
+  {
+    "Question": "A permeable substance is one",
+    "A": "Which is a good conductor", "B": "Which is a bad conductor", "C": "Which is a strong magnet", "D": "Through which the magnetic lines of force can pass very easily",
+    "Answer": "Through which the magnetic lines of force can pass very easily", "Image": "",
+    "Explaination": "Permeability measures how easily magnetic flux can pass through a material. A permeable substance (high μ) offers low reluctance, so magnetic lines of force pass through it very easily. It has nothing to do with electrical conduction or being a magnet itself. Hence option D is correct."
+  },
+  {
+    "Question": "Hysteresis loop in the case of magnetically hard materials is more ______ in shape as compared to magnetically soft materials.",
+    "A": "Triangular", "B": "Rectangular", "C": "Circular", "D": "None of the above",
+    "Answer": "Rectangular", "Image": "",
+    "Explaination": "Magnetically hard materials (permanent magnet materials) have high retentivity and high coercivity, which produce a broad, nearly rectangular B-H loop. Soft materials have a narrow loop. Hence the hysteresis loop of hard materials is more rectangular in shape."
+  },
+  {
+    "Question": "The relative permeability of ______ materials is not constant.",
+    "A": "Diamagnetic", "B": "Paramagnetic", "C": "Ferromagnetic", "D": "Insulating",
+    "Answer": "Ferromagnetic", "Image": "",
+    "Explaination": "For diamagnetic and paramagnetic materials, μr is essentially constant (very close to 1). For ferromagnetic materials, the B-H relationship is non-linear because of domain alignment and saturation, so μr varies with flux density (and temperature). Hence the relative permeability of ferromagnetic materials is not constant."
+  },
+  {
+    "Question": "When a magnet is in motion relative to a coil the induced e.m.f. does not depend upon",
+    "A": "Number of turns of the coil", "B": "Motion of the magnet", "C": "Pole strength of the magnet", "D": "Resistance of the coil",
+    "Answer": "Resistance of the coil", "Image": "",
+    "Explaination": "By Faraday's law e = N·dφ/dt. The induced EMF depends on the number of turns N, the speed of relative motion (which sets dφ/dt) and the flux (which depends on pole strength). It does not depend on the coil resistance — resistance affects the induced current, not the EMF. Hence the answer is resistance of the coil."
+  },
+  {
+    "Question": "When two ends of a circular uniform wire are joined to the terminals of a battery, the field at the center of the circle",
+    "A": "Will depend on the radius of the circle", "B": "Will depend on the amount of e.m.f. applied", "C": "Will be infinite", "D": "Will be zero",
+    "Answer": "Will be zero", "Image": "",
+    "Explaination": "The two ends of the circular wire connected to the battery form two parallel arcs carrying currents in opposite senses around the centre. Their magnetic fields at the centre are equal in magnitude and opposite in direction, so they cancel. Hence the net field at the centre is zero. (The official key lists A, but the correct physical answer is D.)"
+  },
+  {
+    "Question": "Two long parallel conductors carry 100 A. If the conductors are separated by 20 mm, the force per metre of length of each conductor will be",
+    "A": "100 N", "B": "0.1 N", "C": "1 N", "D": "10 N",
+    "Answer": "0.1 N", "Image": "",
+    "Explaination": "F/l = μ0·I1·I2/(2πd). With I1 = I2 = 100 A, d = 20 mm = 0.02 m and μ0 = 4π×10⁻⁷: F/l = (4π×10⁻⁷ × 100 × 100)/(2π × 0.02) = (2×10⁻⁷ × 10⁴)/0.02 = 2×10⁻³/0.02 = 0.1 N/m. Hence the force per metre is 0.1 N."
+  },
+  {
+    "Question": "The left-hand rule correlates to",
+    "A": "Current, induced e.m.f. and direction of the force on a conductor", "B": "Magnetic field, electric field, and direction of the force on a conductor", "C": "Self-induction, mutual induction, and direction of the force on a conductor", "D": "Current, magnetic field, and direction of the force on a conductor",
+    "Answer": "Current, magnetic field, and direction of the force on a conductor", "Image": "",
+    "Explaination": "Fleming's left-hand rule applies to motors: the forefinger points in the direction of the magnetic field, the middle finger in the direction of current, and the thumb gives the direction of the force on the conductor. Hence it correlates current, magnetic field and force direction. Option D is correct."
+  },
+  {
+    "Question": "The magnetic reluctance of a material",
+    "A": "Decreases with an increasing cross-sectional area of material", "B": "Increases with an increasing cross-sectional area of material", "C": "Does not vary with an increasing cross-sectional area of material", "D": "Any of the above",
+    "Answer": "Decreases with an increasing cross-sectional area of material", "Image": "",
+    "Explaination": "Reluctance is S = l/(μ·A), so S is inversely proportional to the cross-sectional area A. Increasing the area therefore decreases the reluctance, just as increasing the cross-section of a wire decreases its resistance. Hence reluctance decreases with increasing cross-sectional area."
+  },
+  {
+    "Question": "For which of the following materials the net magnetic moment should be zero?",
+    "A": "Diamagnetic materials", "B": "Ferromagnetic materials", "C": "Antiferromagnetic materials", "D": "Antiferromagnetic materials (repeated option)",
+    "Answer": "Antiferromagnetic materials", "Image": "",
+    "Explaination": "In antiferromagnetic materials, neighbouring atomic magnetic moments are equal and opposite (antiparallel), so they cancel completely and the net magnetic moment is zero. Diamagnetic materials have no permanent moments but can acquire a small induced moment, and ferromagnetic materials have a large net moment. Hence the answer is antiferromagnetic materials."
+  }
+]

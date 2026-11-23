@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "According to Ohm's law :",
+    "A": "The voltage is constant to current",
+    "B": "The voltage is proportional to current",
+    "C": "Voltage is inversely proportional to current",
+    "D": "The voltage is proportional to resistance",
+    "Answer": "The voltage is proportional to current",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ohm's law states that the current through a conductor between two points is directly proportional to the voltage across the two points.\n2. Therefore, V ∝ I (for a constant resistance).\n3. This is the fundamental statement of Ohm's law."
+  },
+  {
+    "Question": "Unit of resistivity is :",
+    "A": "Ω meter",
+    "B": "mho meter",
+    "C": "mho",
+    "D": "Ω",
+    "Answer": "Ω meter",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Resistivity ρ is defined from the formula R = ρl/A, so ρ = RA/l.\n2. The unit of R is Ohm (Ω), of A is m², and of l is m.\n3. Therefore, the unit of ρ = Ω × m² / m = Ω·m (Ohm-meter)."
+  },
+  {
+    "Question": "One kWh of electrical energy equals :",
+    "A": "3600 J",
+    "B": "860 kcal",
+    "C": "3600 W",
+    "D": "4186 J",
+    "Answer": "860 kcal",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. 1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ Joules.\n2. 1 calorie = 4.186 Joules, so 1 kcal = 4186 J.\n3. Therefore, 1 kWh = (3.6 × 10⁶) / 4186 kcal ≈ 860 kcal.\n4. In terms of heat energy, 1 kWh is approximately 860 kilocalories."
+  },
+  {
+    "Question": "The material to be used in the manufacture of a standard resistor should be of",
+    "A": "low resistivity",
+    "B": "high resistivity and low temperature coefficient",
+    "C": "high temperature coefficient",
+    "D": "low resistivity and high temperature coefficient",
+    "Answer": "high resistivity and low temperature coefficient",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A standard resistor needs to have a stable resistance value over varying temperatures.\n2. This requires a material with a low temperature coefficient of resistance.\n3. Additionally, a high resistivity allows a large resistance value to be achieved with a compact physical size.\n4. Materials like manganin and constantan are used for this purpose."
+  },
+  {
+    "Question": "The curve representing Ohm's law is :",
+    "A": "Linear",
+    "B": "Hyperbolic",
+    "C": "Parabolic",
+    "D": "Triangular",
+    "Answer": "Linear",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ohm's law is V = IR.\n2. If we plot V against I, the graph is a straight line passing through the origin with slope R.\n3. A straight-line graph represents a linear relationship.\n4. Therefore, the curve is linear."
+  },
+  {
+    "Question": "Specific resistance of a conductor depends upon :",
+    "A": "Dimension of the conductor",
+    "B": "Composition of conductor material",
+    "C": "Resistance of the conductor",
+    "D": "Both (a) and (b)",
+    "Answer": "Composition of conductor material",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Specific resistance (resistivity) is an intrinsic property of the material itself.\n2. It depends on the atomic structure and electron mobility of the material, and on temperature.\n3. It does not depend on the physical dimensions (length or area) or the measured resistance value of a specific wire."
+  },
+  {
+    "Question": "Which of the following is the description of largest size resistor? (Given that the material used in each is same).",
+    "A": "100 Ω, 20 Watts",
+    "B": "10 Ω, 100 Watts",
+    "C": "1 kΩ, 1/2 Watts",
+    "D": "1 MΩ, 1/4 Watts",
+    "Answer": "10 Ω, 100 Watts",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The physical size of a resistor is primarily determined by its power dissipation rating, not its resistance value.\n2. A resistor must be large enough to dissipate the heat generated (P = I²R) without overheating.\n3. Among the options, the 100-watt resistor has the highest power rating and therefore must be the physically largest component."
+  },
+  {
+    "Question": "Resistivity of electrical conductors is affected by",
+    "A": "temperature",
+    "B": "pressure",
+    "C": "composition",
+    "D": "all of the above",
+    "Answer": "temperature",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the standard syllabus and book key, temperature is the primary factor affecting the resistivity of electrical conductors.\n2. As temperature increases, the atoms vibrate more, which increases the resistance to electron flow (for metals)."
+  },
+  {
+    "Question": "Calculate the resistance of wire : Length = 150 m, Cross sectional area = 0.2 mm², Resistivity = 50×10⁻⁸ Ω-m",
+    "A": "375 Ω",
+    "B": "376 Ω",
+    "C": "377 Ω",
+    "D": "378 Ω",
+    "Answer": "375 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Convert area to m²: A = 0.2 mm² = 0.2 × 10⁻⁶ m².\n2. Use the formula R = ρl/A.\n3. R = (50 × 10⁻⁸ × 150) / (0.2 × 10⁻⁶).\n4. R = (7500 × 10⁻⁸) / (0.2 × 10⁻⁶) = 7500 × 10⁻⁸ / (2 × 10⁻⁷) = 7500 / 20 = 375 Ω."
+  },
+  {
+    "Question": "A current of 18 A flows through a conductor for half a minute. The total charge flown within the conductor in the same time was –",
+    "A": "724 C",
+    "B": "90 C",
+    "C": "540 C",
+    "D": "9 C",
+    "Answer": "540 C",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Time t = half a minute = 30 seconds.\n2. Charge Q = I × t.\n3. Q = 18 A × 30 s = 540 C."
+  },
+  {
+    "Question": "Ohm's Law is applicable to – 1. Conductors 2. Thermistors 3. Alloys 4. Diodes",
+    "A": "Only 1",
+    "B": "Only 1 and 4",
+    "C": "Only 1, 3",
+    "D": "Only 1 and 2",
+    "Answer": "Only 1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ohm's law is strictly applicable to ohmic, linear conductors where the V-I relationship is a straight line.\n2. Thermistors are non-linear (their resistance changes with temperature).\n3. Diodes are non-linear (they conduct in one direction only).\n4. As per the book key, Ohm's law is applicable only to conductors (Option 1)."
+  },
+  {
+    "Question": "A circuit component that opposes the change in circuit voltage is",
+    "A": "Resistance",
+    "B": "Capacitance",
+    "C": "Inductance",
+    "D": "All the above",
+    "Answer": "Capacitance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A capacitor stores energy in its electric field and resists any sudden change in voltage across its terminals (i = C dv/dt).\n2. An inductor opposes a change in current.\n3. A resistor does not oppose changes; it simply limits current.\n(Note: The book key shows A, but the correct answer is B.)"
+  },
+  {
+    "Question": "A circuit component that opposes the change in circuit voltage is",
+    "A": "Resistance",
+    "B": "Capacitance",
+    "C": "Inductance",
+    "D": "All the above",
+    "Answer": "Capacitance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As established, a capacitor opposes sudden changes in voltage.\n2. The book key shows C, but the mathematically and physically correct answer is B (Capacitance)."
+  },
+  {
+    "Question": "Specific resistance of a conductor depends upon",
+    "A": "Dimension of the conductor",
+    "B": "Composition of conductor material",
+    "C": "Resistance of the conductor",
+    "D": "Both (A) and (B)",
+    "Answer": "Composition of conductor material",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Specific resistance (ρ) is a material property.\n2. It depends only on the composition of the material and its temperature.\n3. It does not depend on dimensions (length or area) or the actual resistance of the sample.\n(Note: The book key shows D, but the correct answer is B.)"
+  },
+  {
+    "Question": "A wire has a resistance 10 Ω. It is stretched by one-tenth of the original length. Then its resistance will be",
+    "A": "10 Ω",
+    "B": "12.1 Ω",
+    "C": "9 Ω",
+    "D": "11 Ω",
+    "Answer": "12.1 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. When a wire is stretched, its volume remains constant (V = A × l).\n2. New length l' = l + 0.1l = 1.1l.\n3. New area A' = A / 1.1.\n4. New resistance R' = ρl'/A' = ρ(1.1l) / (A/1.1) = ρ(1.1²l/A) = 1.21 × R.\n5. R' = 1.21 × 10 = 12.1 Ω.\n(Note: The book key shows D, but calculation gives 12.1 Ω.)"
+  }
+]

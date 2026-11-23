@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "Composition in Carbon Resistor",
+    "A": "Coal dust",
+    "B": "Wood coal dust",
+    "C": "Properly separated carbon black",
+    "D": "Paper dust",
+    "Answer": "Properly separated carbon black",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Carbon composition resistors are manufactured using a mixture of finely ground carbon black and an insulating binder (like phenolic resin).\n2. The carbon black provides the conductive path, while the binder holds the material together.\n3. Therefore, the correct composition is properly separated carbon black."
+  },
+  {
+    "Question": "What will be the resultant capacitance of the given combination? ",
+    "A": "0.67 mF",
+    "B": "0.48 mF",
+    "C": "10 mF",
+    "D": "5 mF",
+    "Answer": "10 mF",
+    "Image": "https://imgh.in/images/b1yjox",
+    "Explaination": "Step-by-Step Solution:\n1. From the given figure, the capacitors (1 mF, 2 mF, 3 mF, and 4 mF) are connected in parallel.\n2. In a parallel connection, the equivalent capacitance is the sum of individual capacitances: C_eq = C1 + C2 + C3 + C4.\n3. C_eq = 1 + 2 + 3 + 4 = 10 mF."
+  },
+  {
+    "Question": "Which one is high velocity charge",
+    "A": "negative ions",
+    "B": "positive ions",
+    "C": "electrons",
+    "D": "holes",
+    "Answer": "electrons",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electrons are fundamental particles with extremely small mass compared to ions or atoms.\n2. Because of their low mass, when accelerated by an electric field, they attain very high velocities.\n3. Ions (positive or negative) are much heavier and move slowly. Holes are simply the absence of electrons and their effective movement is slower.\n4. Therefore, electrons have the highest velocity."
+  },
+  {
+    "Question": "A conductor having 0.5 mm diameter gives 400 ohm resistance. If the diameter of same wire is doubled then its resistance if length remains unchanged.",
+    "A": "200 Ω",
+    "B": "100 Ω",
+    "C": "50 Ω",
+    "D": "150 Ω",
+    "Answer": "100 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The resistance of a wire is given by R = ρL/A, where A = π(d/2)².\n2. Therefore, R is inversely proportional to the square of the diameter: R ∝ 1/d².\n3. If the diameter is doubled (d' = 2d), the new area becomes 4 times the original area (A' = 4A).\n4. The new resistance R' = R/4 = 400/4 = 100 Ω."
+  },
+  {
+    "Question": "Number of Basic SI units",
+    "A": "7",
+    "B": "5",
+    "C": "4",
+    "D": "6",
+    "Answer": "7",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The International System of Units (SI) is built upon seven fundamental base units.\n2. These are: metre (length), kilogram (mass), second (time), ampere (electric current), kelvin (temperature), mole (amount of substance), and candela (luminous intensity).\n3. Hence, there are 7 basic SI units."
+  },
+  {
+    "Question": "A cable consists of two conductors which for the purposes of a test are connected together at one end of the cable. The combined loop resistance measured from the other end is found to be 100 Ω when the cable is 700 m long. The value of the resistance of 8 km of similar cable is",
+    "A": "1143 Ω",
+    "B": "1200 Ω",
+    "C": "1134 Ω",
+    "D": "1100 Ω",
+    "Answer": "1143 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The resistance of a conductor is directly proportional to its length (R ∝ L), assuming constant area and material.\n2. The given loop resistance for 700 m is 100 Ω. This is the resistance of both conductors combined.\n3. To find the resistance for 8 km (8000 m), we set up a proportion: R2 = R1 × (L2/L1).\n4. R2 = 100 × (8000/700) = 100 × 11.4286 = 1142.86 Ω.\n5. Rounding off, we get approximately 1143 Ω."
+  },
+  {
+    "Question": "If the voltage across an element in a circuit is linearly proportional to the current through it, then it is a",
+    "A": "Capacitor",
+    "B": "Transformer",
+    "C": "Resistor",
+    "D": "Inductor",
+    "Answer": "Resistor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A linear relationship between voltage (V) and current (I) means V ∝ I, which can be written as V = IR.\n2. This is the exact statement of Ohm's Law, which applies to resistors.\n3. Capacitors and inductors have a time-dependent relationship (I = C dV/dt and V = L dI/dt), not a simple linear proportionality at all times."
+  },
+  {
+    "Question": "Which of the following is a group of passive devices only?",
+    "A": "Diode, Capacitor, Inductor, Transistor",
+    "B": "Resistor, Capacitor, Inductor, Transistor",
+    "C": "Transformer, Resistor, Capacitor, Inductor",
+    "D": "Resistor, Capacitor, Inductor, FET",
+    "Answer": "Transformer, Resistor, Capacitor, Inductor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Passive devices are those that cannot generate or amplify electrical energy; they can only dissipate, store, or transfer it.\n2. Resistors, capacitors, inductors, and transformers are all passive components.\n3. Active devices include diodes, transistors (BJT, FET), and vacuum tubes, which can control the flow of current or amplify signals."
+  },
+  {
+    "Question": "Which of the following relations is INCORRECT?",
+    "A": "P = I²R (P: power, R: resistance, I: current)",
+    "B": "R = ρl²/A (ρ: resistivity, l: current, A: cross-section area)",
+    "C": "P = VI (P: power, V: voltage, I: current)",
+    "D": "V = IR (R: resistance, V: voltage, I: current)",
+    "Answer": "R = ρl²/A (ρ: resistivity, l: current, A: cross-section area)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The correct formula for resistance is R = ρl/A, where 'l' is the length of the conductor.\n2. Option B incorrectly shows 'l' as current and writes 'l²', which is dimensionally and physically wrong.\n3. The other relations (P = I²R, P = VI, V = IR) are standard correct electrical formulas."
+  },
+  {
+    "Question": "Resistivity of a wire depends upon",
+    "A": "Material",
+    "B": "Area",
+    "C": "Length",
+    "D": "All of these",
+    "Answer": "Material",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Resistivity (ρ) is an intrinsic property of a material that indicates how strongly it opposes the flow of electric current.\n2. It is solely determined by the material's composition and its temperature.\n3. It does not depend on the physical dimensions (length or cross-sectional area) of the specific wire being used."
+  },
+  {
+    "Question": "Which of the following is the Curie temperature (in Kelvin) of Iron (Fe)?",
+    "A": "948",
+    "B": "713",
+    "C": "1043",
+    "D": "858",
+    "Answer": "1043",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The Curie temperature is the temperature above which a ferromagnetic material loses its permanent magnetic properties.\n2. For iron (Fe), the Curie temperature is approximately 770 °C.\n3. To convert this to Kelvin, add 273.15: 770 + 273 = 1043 K."
+  },
+  {
+    "Question": "A copper conductor has a resistance of 10 Ω at 20°C and RTC of 0.0039 per °C at 20°C. Find RTC at 0°C.",
+    "A": "0.0000423 per °C",
+    "B": "0.00324 per °C",
+    "C": "0.00423 per °C",
+    "D": "0.000124 per °C",
+    "Answer": "0.00423 per °C",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The relationship between temperature coefficients at two different reference temperatures is: α0 = α20 / (1 - α20 × ΔT).\n2. Here, α20 = 0.0039, and the temperature difference from 20°C to 0°C is ΔT = 20.\n3. α0 = 0.0039 / (1 - (0.0039 × 20)) = 0.0039 / (1 - 0.078) = 0.0039 / 0.922.\n4. α0 ≈ 0.00423 per °C."
+  },
+  {
+    "Question": "For transferring a charge of 300 C, how long must a current of 0.1 A flow?",
+    "A": "50 min",
+    "B": "5 min",
+    "C": "50 s",
+    "D": "5 s",
+    "Answer": "50 min",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The relationship between charge (Q), current (I), and time (t) is Q = I × t.\n2. Rearranging for time: t = Q / I.\n3. t = 300 C / 0.1 A = 3000 seconds.\n4. To convert seconds to minutes, divide by 60: 3000 / 60 = 50 minutes."
+  },
+  {
+    "Question": "When the current flows through the heater coil, it will illuminate, but the power supply line will not illuminate because :",
+    "A": "current through supply wire flows at low speed",
+    "B": "resistance of heater coil is more than supply wire",
+    "C": "supply wiring is covered with insulation layer",
+    "D": "supply wires are made of superior material",
+    "Answer": "resistance of heater coil is more than supply wire",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The heat produced by a current-carrying wire is given by Joule's law: H = I²Rt.\n2. The same current (I) flows through both the heater coil and the supply wire (they are in series).\n3. The heater coil is made of a material (like nichrome) with high resistance (R), so it produces significant heat and glows.\n4. The supply wire is made of copper with very low resistance, so it produces negligible heat and does not glow."
+  },
+  {
+    "Question": "If a copper wire was wrapped around the earth 10 times it would take how many seconds to turn the light on at the other end?",
+    "A": "0.5 sec",
+    "B": "2.5 sec",
+    "C": "1.3 sec",
+    "D": "1.5 sec",
+    "Answer": "1.3 sec",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The electrical signal travels through a wire at approximately the speed of light, c ≈ 3 × 10⁸ m/s (in a vacuum; in copper it's slightly less, but for estimation, we use this).\n2. The circumference of the Earth is approximately 40,075 km = 4.0075 × 10⁷ m.\n3. 10 wraps around the Earth = 10 × 4.0075 × 10⁷ m = 4.0075 × 10⁸ m.\n4. Time t = distance / speed = (4.0075 × 10⁸) / (3 × 10⁸) ≈ 1.336 seconds.\n5. Rounding to one decimal place, we get approximately 1.3 seconds."
+  }
+]

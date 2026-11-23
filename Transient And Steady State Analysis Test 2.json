@@ -1,0 +1,63 @@
+// JSON 2 (Questions 11–20)
+[
+  {
+    "Question": "In figure the steady state output voltage corresponding to the input voltage (3 + 4 sin 100t) V is (R = 1 kΩ, C = 10 µF)",
+    "A": "3 + (4/√2) sin(100t − π/4) V", "B": "3 + 4√2 sin(100t − π/4) V", "C": "3/2 + (4/√2) sin(100t + π/4) V", "D": "3 + 4 sin(100t − π/4) V",
+    "Answer": "3 + (4/√2) sin(100t − π/4) V", "Image": "https://imgh.in/images/0k34b1",
+    "Explaination": "DC part: the capacitor is open, so the output is 3 V. AC part: ωRC = 100 × 1000 × 10×10⁻⁶ = 1, so the gain is 1/√2 with −45° phase. Output = 3 + (4/√2) sin(100t − π/4) V."
+  },
+  {
+    "Question": "For the circuit given in the figure, the voltage VC (in volts) across the capacitor is (source 5 sin(5t), two 100 kΩ resistors, 1 µF)",
+    "A": "1.25√2 sin(5t − 0.25π)", "B": "1.25√2 sin(5t − 0.125π)", "C": "2.5√2 sin(5t − 0.25π)", "D": "2.5√2 sin(5t − 0.125π)",
+    "Answer": "2.5√2 sin(5t − 0.25π)", "Image": "https://imgh.in/images/lsr20d",
+    "Explaination": "Total R = 200 kΩ and XC = 1/(5 × 1 µF) = 200 kΩ. VC = Vs × (−jXC)/(R − jXC): magnitude = 5/√2 = 2.5√2 and phase = −45° = −0.25π. So VC = 2.5√2 sin(5t − 0.25π). (The official key shows '*'.)"
+  },
+  {
+    "Question": "The switch in the circuit shown below is at position 1 for a long time. At time t = 0, it is moved to position 2. The value of vR at t = 0+ is",
+    "A": "– 50 V", "B": "– 100 V", "C": "+50 V", "D": "–150 V",
+    "Answer": "–150 V", "Image": "https://imgh.in/images/tex5lr",
+    "Explaination": "At position 1 the capacitor charges to 100 V. At t = 0+ the capacitor voltage remains 100 V. With the 50 V source (reversed polarity) in the loop, KVL gives vR = −50 − 100 = −150 V."
+  },
+  {
+    "Question": "A unit step voltage u(t − 5) is applied to the R-L network below (R = 1 Ω, L = 1 H). The current is given by",
+    "A": "1 − e^(−t)", "B": "[1 − e^(−(t−5))] u(t − 5)", "C": "[1 − e^(−t)] u(t − 5)", "D": "1 − e^(−(t−5))",
+    "Answer": "[1 − e^(−(t−5))] u(t − 5)", "Image": "https://imgh.in/images/u5gsnu",
+    "Explaination": "τ = L/R = 1 s and the final current is 1 A. The step is applied at t = 5, so i(t) = [1 − e^(−(t−5))] u(t − 5). (The printed key shows A, but that expression ignores the 5 s delay; B is correct.)"
+  },
+  {
+    "Question": "For the circuit shown in the figure below, what is the time constant?",
+    "A": "(R1 + R2)(C1 × C2 / C1 + C2)", "B": "(R1 × R2 / R1 + R2)(C1 + C2)", "C": "(R1 + R2)(C1 + C2)", "D": "(R1 × R2 / R1 + R2)(C1 × C2 / C1 + C2)",
+    "Answer": "(R1 × R2 / R1 + R2)(C1 + C2)", "Image": "https://imgh.in/images/xx6bv7",
+    "Explaination": "R1 ∥ R2 = R1R2/(R1 + R2) and C1 ∥ C2 = C1 + C2, so τ = (R1R2/(R1 + R2))(C1 + C2)."
+  },
+  {
+    "Question": "For a parallel RLC network shown in below, the steady state output voltage V(t) for ω = 1 rad/sec is (i(t) = cos ωt, L = 1 H, R = 1 Ω, C = 1 F)",
+    "A": "sin t", "B": "√2 cos t", "C": "cos t", "D": "√2 cos(t − 45°)",
+    "Answer": "cos t", "Image": "https://imgh.in/images/2z6jwr",
+    "Explaination": "The 1 H and 1 F are at resonance at ω = 1 rad/s (parallel LC is an open circuit), so all of the current passes through 1 Ω: V = cos t."
+  },
+  {
+    "Question": "The value of dvc/dt and diL/dt at t = 0+ for the given circuit shown in below is",
+    "A": "−10⁶ A/sec, 0 V/sec", "B": "10⁶ A/sec, 0 V/sec", "C": "0 A/sec, 10⁶ V/sec", "D": "0 A/sec, −10⁶ V/sec",
+    "Answer": "10⁶ A/sec, 0 V/sec", "Image": "https://imgh.in/images/r35m4y",
+    "Explaination": "Same circuit as the earlier question: using continuity of iL and vC at t = 0 and the source switching off at t = 0+, the values are diL/dt = 10⁶ A/s and dvC/dt = 0 (as per the official answer key)."
+  },
+  {
+    "Question": "A voltage waveform v(t) = 12t² is applied across a 1 H inductor for t ≥ 0, with initial current through it being zero. The current through the inductor for t > 0 is given by",
+    "A": "12t", "B": "24t", "C": "12t³", "D": "4t³",
+    "Answer": "4t³", "Image": "",
+    "Explaination": "i(t) = (1/L)∫v dt = ∫12t² dt = 4t³ A (with zero initial current). (The printed key shows B, but 24t is the derivative of v, not the current; the correct option is D.)"
+  },
+  {
+    "Question": "A current impulse, 5δ(t) is forced through a capacitor C. The voltage VC(t) across the capacitor is given by",
+    "A": "5t", "B": "4u(t)C", "C": "(5/C) t", "D": "5u(t)/C",
+    "Answer": "5u(t)/C", "Image": "",
+    "Explaination": "vC(t) = (1/C)∫i dt = (1/C)∫5δ(t) dt = 5u(t)/C."
+  },
+  {
+    "Question": "In the circuit of figure the energy absorbed by the 4 Ω resistor in time interval (0, ∞) is [Given: VC(0) = 6 V] (10 V source, 4 Ω, 2 F)",
+    "A": "36 J", "B": "16 J", "C": "256 J", "D": "None of these",
+    "Answer": "16 J", "Image": "https://imgh.in/images/80pl0n",
+    "Explaination": "Charge delivered by the source = C(10 − 6) = 2 × 4 = 8 C, so source energy = 10 × 8 = 80 J. Increase in capacitor energy = ½ × 2 × (10² − 6²) = 64 J. Energy absorbed by the resistor = 80 − 64 = 16 J."
+  }
+]

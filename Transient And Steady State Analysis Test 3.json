@@ -1,0 +1,63 @@
+// JSON 3 (Questions 21–30)
+[
+  {
+    "Question": "In the circuit shown in figure, it is desired to have a constant direct current i(t) through the ideal inductor L. The nature of the voltage source v(t) must be",
+    "A": "Constant voltage.", "B": "Linearly increasing voltage.", "C": "An ideal impulse.", "D": "Exponentially increasing voltage.",
+    "Answer": "An ideal impulse.", "Image": "https://imgh.in/images/pvqgka",
+    "Explaination": "v = L di/dt. To get a constant current starting from zero, the current must jump instantly, which needs an impulse of voltage; afterwards v = 0 holds the current constant. So the source must be an ideal impulse."
+  },
+  {
+    "Question": "For both the questions, assume that the switch S is in position-1 for a long time and thrown to position-2 at t = 0. At t = 0+, the current i1 is",
+    "A": "−V/(2R) A", "B": "−V/R A", "C": "−V/(4R) A", "D": "Zero",
+    "Answer": "−V/(2R) A", "Image": "https://imgh.in/images/5qkywy",
+    "Explaination": "Before switching, the capacitors and inductor are in DC steady state. At t = 0+ the capacitor voltages and inductor current are continuous; applying KVL to mesh 1 with the new source connection gives i1(0+) = −V/(2R) (as per the official answer key)."
+  },
+  {
+    "Question": "For the R-L circuit shown in figure, the input voltage vi(t) = u(t). The current i(t) is (L = 1 H, R = 2 Ω)",
+    "A": "https://imgh.in/images/k7xv9p", "B": "https://imgh.in/images/sydovl", "C": "https://imgh.in/images/xg4u2x", "D": "https://imgh.in/images/c00xwg",
+    "Answer": "https://imgh.in/images/xg4u2x", "Image": "https://imgh.in/images/mq7aqc",
+    "Explaination": "τ = L/R = 1/2 = 0.5 s and the final current = 1/2 = 0.5 A. After one time constant i = 0.632 × 0.5 = 0.31 A. So the graph rises to 0.5 A with 0.31 A at t = 1/2 s."
+  },
+  {
+    "Question": "The circuit shown in the figure has initial current iL(0−) = 1 Amp through the inductor and an initial voltage vC(0−) = −1 V across the capacitor. For input v(t) = u(t), the Laplace transform of the current i(t) for t ≥ 0 will be (R = 1 Ω, L = 1 H, C = 1 F)",
+    "A": "s/(s² + s + 1)", "B": "(s + 2)/(s² + s + 1)", "C": "(s − 2)/(s² + s + 1)", "D": "(s + 1)/(s² + s + 1)",
+    "Answer": "(s + 2)/(s² + s + 1)", "Image": "https://imgh.in/images/cik24f",
+    "Explaination": "KVL in the s-domain: 1/s = (1 + s)I(s) − L·iL(0) + I(s)/s + vC(0)/s = (1 + s + 1/s)I − 1 − 1/s. So I(s)(s² + s + 1)/s = 1 + 2/s, giving I(s) = (s + 2)/(s² + s + 1)."
+  },
+  {
+    "Question": "In the circuit shown, VC is 0 volts at t = 0 sec. For t > 0, the capacitor current iC(t), where t is in seconds, is given by (10 V, 20 kΩ, 20 kΩ, 4 µF)",
+    "A": "0.50 exp(−25t) mA", "B": "0.25 exp(−25t) mA", "C": "0.50 exp(−12.5t) mA", "D": "0.25 exp(−6.25t) mA",
+    "Answer": "0.50 exp(−25t) mA", "Image": "https://imgh.in/images/ifid9q",
+    "Explaination": "Thevenin: Vth = 5 V and Rth = 20k ∥ 20k = 10 kΩ. τ = 10k × 4 µF = 40 ms (1/τ = 25). iC(0+) = 5/10k = 0.5 mA, so iC(t) = 0.5 e^(−25t) mA."
+  },
+  {
+    "Question": "In the given circuit, the switch S is closed at t = 0. The rate of change of current di/dt(0+) is given by",
+    "A": "0", "B": "RS·IS/L", "C": "(R + RS)·IS/L", "D": "∞",
+    "Answer": "RS·IS/L", "Image": "https://imgh.in/images/1o7aih",
+    "Explaination": "Just after closing, the inductor current is zero, so all of IS flows through RS and the voltage across the R–L branch = RS·IS. This all appears across L: L di/dt = RS·IS, so di/dt(0+) = RS·IS/L."
+  },
+  {
+    "Question": "The switch in the circuit shown was on position a for a long time, and is moved to position b at time t = 0. The current i(t) for t > 0 is given by",
+    "A": "0.2 e^(−125t) u(t) mA", "B": "20 e^(−1250t) u(t) mA", "C": "0.2 e^(−1250t) u(t) mA", "D": "20 e^(−1000t) u(t) mA",
+    "Answer": "20 e^(−1250t) u(t) mA", "Image": "https://imgh.in/images/x6j59j",
+    "Explaination": "At t = 0+ the uncharged capacitor behaves as a short, so i(0+) = 100 V/5 kΩ = 20 mA. The 0.2 µF is in series with (0.5 + 0.3) = 0.8 µF: Ceq = 0.16 µF, so τ = 5 kΩ × 0.16 µF = 0.8 ms (1/τ = 1250). i(t) = 20 e^(−1250t) u(t) mA."
+  },
+  {
+    "Question": "In the circuit shown below, the initial charge on the capacitor is 2.5 mC, with the voltage polarity as indicated. The switch is closed at time t = 0. The current i(t) at a time t after the switch is closed is",
+    "A": "i(t) = 15 exp(−2×10³t) A", "B": "i(t) = 5 exp(−2×10³t) A", "C": "i(t) = 10 exp(−2×10³t) A", "D": "i(t) = −5 exp(−2×10³t) A",
+    "Answer": "i(t) = 15 exp(−2×10³t) A", "Image": "https://imgh.in/images/9axldd",
+    "Explaination": "Initial capacitor voltage = Q/C = 2.5 mC/50 µF = 50 V, with the polarity opposing the current flow from the source (as in the figure). i(0+) = (100 + 50)/10 = 15 A. τ = RC = 10 × 50 µF = 0.5 ms (1/τ = 2×10³). So i(t) = 15 e^(−2×10³t) A. (The printed key shows C (10 A), which does not follow from these values; A is the calculated answer.)"
+  },
+  {
+    "Question": "For the circuit given in the figure, the magnitude of the loop current (in amperes, correct to three decimal places) at 0.5 second after closing the switch is _______.",
+    "A": "0.1545", "B": "52", "C": "0.655", "D": "0.316",
+    "Answer": "0.316", "Image": "https://imgh.in/images/1ghitm",
+    "Explaination": "The loop is a series circuit: 1 Ω + 1 Ω = 2 Ω with L = 1 H and 1 V source. τ = L/R = 0.5 s and the final current = 1/2 = 0.5 A. i(0.5) = 0.5(1 − e^(−1)) = 0.5 × 0.632 = 0.316 A."
+  },
+  {
+    "Question": "In below figure, the capacitor initially has a charge of 10 C. The current in the circuit one second after the switch S is closed will be (100 V, 2 Ω, 0.5 F)",
+    "A": "14.7 A", "B": "18.5 A", "C": "40.0 A", "D": "50.0 A",
+    "Answer": "14.7 A", "Image": "https://imgh.in/images/uwfbp8",
+    "Explaination": "Initial capacitor voltage = Q/C = 10/0.5 = 20 V. i(0+) = (100 − 20)/2 = 40 A and τ = RC = 2 × 0.5 = 1 s. i(1) = 40 e^(−1) = 14.7 A."
+  }
+]

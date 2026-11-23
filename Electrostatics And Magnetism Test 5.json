@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "The absolute permittivity of free space is given by",
+    "A": "8.854 × 10⁻⁹ F/m",
+    "B": "8.854 × 10⁻¹⁰ F/m",
+    "C": "8.854 × 10⁻¹¹ F/m",
+    "D": "8.854 × 10⁻¹² F/m",
+    "Answer": "8.854 × 10⁻¹² F/m",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. ε₀ = 8.854 × 10⁻¹² F/m.\n2. (The official key lists B, but the correct value is option D.)"
+  },
+  {
+    "Question": "The relative permittivity of free space is given by",
+    "A": "1",
+    "B": "10",
+    "C": "100",
+    "D": "1000",
+    "Answer": "1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Relative permittivity of free space (vacuum) is 1 by definition."
+  },
+  {
+    "Question": "Electric field intensity is a ______ quantity",
+    "A": "scalar",
+    "B": "vector",
+    "C": "both (A) and (B)",
+    "D": "none of the above",
+    "Answer": "vector",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electric field has both magnitude and direction, so it is a vector."
+  },
+  {
+    "Question": "When 4 volts e.m.f. is applied across a 1 farad capacitor, it will store energy of",
+    "A": "2 joules",
+    "B": "4 joules",
+    "C": "6 joules",
+    "D": "8 joules",
+    "Answer": "8 joules",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. W = ½CV².\n2. W = ½ × 1 × 4² = 8 J."
+  },
+  {
+    "Question": "The capacitor preferred for high frequency circuits is",
+    "A": "air capacitor",
+    "B": "mica capacitor",
+    "C": "electrolytic capacitor",
+    "D": "none of the above",
+    "Answer": "mica capacitor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Mica capacitors have low losses and stable values.\n2. They suit high frequency circuits."
+  },
+  {
+    "Question": "The capacity of capacitor bank used in power factor correction is expressed in terms of",
+    "A": "kW",
+    "B": "kVA",
+    "C": "kVAR",
+    "D": "volts",
+    "Answer": "kVAR",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Capacitor banks supply reactive power.\n2. Therefore, their rating is in kVAR."
+  },
+  {
+    "Question": "While testing a capacitor with ohmmeter, if the capacitor shows charging, but the final resistance reading is appreciably less than normal, it can be concluded that the capacitor is",
+    "A": "short-circuited",
+    "B": "open circuited",
+    "C": "alright",
+    "D": "leaky",
+    "Answer": "leaky",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A charging action with a low final resistance indicates leakage through the dielectric.\n2. The capacitor is leaky."
+  },
+  {
+    "Question": "If a 6 μF capacitor is charged to 200 V, the charge in coulombs will be",
+    "A": "800 μC",
+    "B": "900 μC",
+    "C": "1200 μC",
+    "D": "1600 μC",
+    "Answer": "1200 μC",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Q = CV.\n2. Q = 6 μF × 200 V = 1200 μC."
+  },
+  {
+    "Question": "Which capacitor will be physically smaller for the same ratings?",
+    "A": "ceramic capacitor",
+    "B": "paper capacitor",
+    "C": "both will be of equal size",
+    "D": "none of the above",
+    "Answer": "ceramic capacitor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ceramic dielectric has high permittivity.\n2. Therefore, the capacitor is physically smaller."
+  },
+  {
+    "Question": "What is the value of capacitance that must be connected in parallel with 50 pF condenser to make an equivalent capacitance of 150 pF?",
+    "A": "50 pF",
+    "B": "100 pF",
+    "C": "150 pF",
+    "D": "200 pF",
+    "Answer": "100 pF",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Parallel capacitances add.\n2. C = 150 − 50 = 100 pF."
+  },
+  {
+    "Question": "A mica capacitor and a ceramic capacitor both have the same physical dimensions. Which will have more value of capacitance?",
+    "A": "ceramic capacitor",
+    "B": "mica capacitor",
+    "C": "both will have identical value of capacitance",
+    "D": "it depends on applied voltage",
+    "Answer": "ceramic capacitor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ceramic has a much higher dielectric constant than mica.\n2. For the same size, its capacitance is larger."
+  },
+  {
+    "Question": "Which of the following materials has the least value of dielectric constant?",
+    "A": "ceramics",
+    "B": "oil",
+    "C": "glass",
+    "D": "paper",
+    "Answer": "oil",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, oil has the least dielectric constant among these options."
+  },
+  {
+    "Question": "Which of the following capacitors will have the least value of breakdown voltage?",
+    "A": "mica",
+    "B": "paper",
+    "C": "ceramic",
+    "D": "electrolytic",
+    "Answer": "electrolytic",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electrolytic capacitors have the lowest voltage ratings (breakdown voltage)."
+  },
+  {
+    "Question": "The breakdown voltage for paper capacitors is usually",
+    "A": "20 to 60 volts",
+    "B": "200 to 1600 volts",
+    "C": "2000 to 3000 volts",
+    "D": "more than 10000 volts",
+    "Answer": "200 to 1600 volts",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Paper capacitors are usually rated 200 V to 1600 V."
+  },
+  {
+    "Question": "Dielectric constant for mica is nearly",
+    "A": "200",
+    "B": "100",
+    "C": "3 to 8",
+    "D": "1 to 2",
+    "Answer": "3 to 8",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Mica has a dielectric constant of about 3 to 8."
+  }
+]

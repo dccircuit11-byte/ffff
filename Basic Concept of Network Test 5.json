@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "Which one of the following statement is TRUE about the Ohm's law?",
+    "A": "Ohm's law is applicable to the diodes.",
+    "B": "Ohm's law is not applicable to diodes.",
+    "C": "Ohm's law is applicable to voltage regulators.",
+    "D": "Ohm's law is applicable to transistors",
+    "Answer": "Ohm's law is not applicable to diodes.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Diodes are non-linear devices because their V-I characteristics are not a straight line.\n2. They conduct only in one direction and have a non-linear forward and reverse region.\n3. Hence, Ohm's law does not apply to them."
+  },
+  {
+    "Question": "How much time (in sec) will be taken by 40 C of charge to pass through a point in a circuit, if a current of 8 A flows through it?",
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "5",
+    "Answer": "5",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The formula is Q = I × t.\n2. t = Q / I = 40 / 8 = 5 seconds."
+  },
+  {
+    "Question": "Ohm's law is applicable to",
+    "A": "Constant and variable temperatures",
+    "B": "Constant temperature",
+    "C": "Variable temperature",
+    "D": "Any of the options",
+    "Answer": "Constant temperature",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ohm's law assumes that the resistance remains constant.\n2. Resistance changes with temperature for most materials.\n3. Therefore, Ohm's law is valid only at a constant temperature."
+  },
+  {
+    "Question": "Which of the following is the dimension of resistance? (Q = charge)",
+    "A": "ML²/(Q²T)",
+    "B": "Q²T²/(ML²)",
+    "C": "ML²/(QT²)",
+    "D": "ML/(QT²)",
+    "Answer": "ML²/(Q²T)",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Resistance R = V/I.\n2. Voltage V = Work/Charge = W/Q = (ML²T⁻²)/Q.\n3. Current I = Q/T.\n4. R = [(ML²T⁻²)/Q] / (Q/T) = ML²T⁻² / (Q²/T) = ML²/(Q²T)."
+  },
+  {
+    "Question": "Ohm is the S.I. unit of ______.",
+    "A": "Capacitance",
+    "B": "Inductance",
+    "C": "Resistance",
+    "D": "Conductance",
+    "Answer": "Resistance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The Ohm (Ω) is the derived SI unit for electrical resistance.\n2. It is defined as the resistance between two points of a conductor when a constant potential difference of 1 volt produces a current of 1 ampere."
+  },
+  {
+    "Question": "Which one of the following is the dimension of energy?",
+    "A": "ML²/T³",
+    "B": "ML²/T²",
+    "C": "T²/(ML²)",
+    "D": "ML²/(QT²)",
+    "Answer": "ML²/T²",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Energy = Force × Distance.\n2. Force = Mass × Acceleration = M × LT⁻² = MLT⁻².\n3. Energy = (MLT⁻²) × L = ML²T⁻².\n4. Written as a fraction, it is ML²/T²."
+  },
+  {
+    "Question": "If 12.25×10¹⁶ electron pass through a conductor in 1 s, then how much current (in mA) will flow?",
+    "A": "17.6",
+    "B": "18.6",
+    "C": "19.6",
+    "D": "20.6",
+    "Answer": "19.6",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Current I = Total charge / Time = (n × e) / t.\n2. I = (12.25 × 10¹⁶ × 1.602 × 10⁻¹⁹ C) / 1 s.\n3. I ≈ 0.01962 A.\n4. Convert to mA: 0.01962 A × 1000 = 19.62 mA ≈ 19.6 mA."
+  },
+  {
+    "Question": "Correct form of Ohm's law is ______.",
+    "A": "I = VR",
+    "B": "V ∝ I",
+    "C": "V = IR",
+    "D": "Both V ∝ I and V = IR",
+    "Answer": "Both V ∝ I and V = IR",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ohm's law states that the voltage across a conductor is directly proportional to the current through it, provided the temperature remains constant.\n2. This gives the proportional relation V ∝ I.\n3. When the constant of proportionality (R) is introduced, it becomes the equation V = IR.\n4. Both forms are correct representations of Ohm's law."
+  },
+  {
+    "Question": "The normal resistance of a pilot wire is",
+    "A": "More than 500 ohms",
+    "B": "More than 1500 ohms",
+    "C": "Less than 500 ohms",
+    "D": "Less than 1500 ohms",
+    "Answer": "Less than 500 ohms",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Pilot wires are used in remote control and protection circuits (like carrier communication or relay circuits).\n2. For reliable signal transmission with minimal voltage drop, their loop resistance must be kept low.\n3. The standard specification is typically less than 500 ohms for the entire loop."
+  },
+  {
+    "Question": "The precision resistors are?",
+    "A": "carbon composition resistors",
+    "B": "wire-wound resistors",
+    "C": "resistors with a negative temperature coefficient",
+    "D": "resistors with a positive temperatures coefficient",
+    "Answer": "wire-wound resistors",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Precision resistors require very tight tolerances (e.g., ±0.01%) and low temperature coefficients.\n2. Wire-wound resistors (using alloys like manganin or constantan) are manufactured with high precision and are highly stable over temperature variations.\n3. Carbon composition resistors have wide tolerances and are not suitable for precision applications."
+  },
+  {
+    "Question": "Electric charge measured in Coulombs has the charge of how many electrons?",
+    "A": "6.242×10¹⁸",
+    "B": "6.242×10⁸",
+    "C": "8.242×10¹⁸",
+    "D": "8.242×10⁻¹⁸",
+    "Answer": "6.242×10¹⁸",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The charge of one electron is e = 1.602 × 10⁻¹⁹ C.\n2. The number of electrons in 1 Coulomb is n = 1 / e.\n3. n = 1 / (1.602 × 10⁻¹⁹) ≈ 6.242 × 10¹⁸ electrons."
+  },
+  {
+    "Question": "The resistance of human body is around ______ Ω.",
+    "A": "250",
+    "B": "25",
+    "C": "0",
+    "D": "1000",
+    "Answer": "1000",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The electrical resistance of the human body varies greatly depending on skin moisture, contact area, and path through the body.\n2. A commonly used dry-skin average for safety calculations is around 1000 ohms (or 1 kΩ), although it can be much lower if the skin is wet."
+  },
+  {
+    "Question": "If the resistor obeys Ohm's law, it is called a :",
+    "A": "linear resistor",
+    "B": "non-linear resistor",
+    "C": "non-parasitic resistor",
+    "D": "parasitic resistor",
+    "Answer": "linear resistor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A device that obeys Ohm's law has a V-I characteristic that is a straight line through the origin.\n2. In mathematics, a straight-line relationship is called 'linear'.\n3. Therefore, such a resistor is called a linear resistor."
+  },
+  {
+    "Question": "Ohm's law is not applicable to :",
+    "A": "carbon resistors",
+    "B": "vacuum tubes",
+    "C": "circuits at low current densities",
+    "D": "high voltage circuits",
+    "Answer": "vacuum tubes",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ohm's law applies to linear, ohmic materials.\n2. Vacuum tubes (like diodes and triodes) have highly non-linear characteristics because the current depends on the 3/2 power of the voltage (Child-Langmuir law).\n3. Therefore, Ohm's law is not applicable to vacuum tubes."
+  },
+  {
+    "Question": "The specific resistance of a copper conductor is ______.",
+    "A": "less than the specific resistance of silver",
+    "B": "more than the specific resistance of silver",
+    "C": "more than the specific resistance of gold",
+    "D": "more than the specific resistance of aluminium",
+    "Answer": "more than the specific resistance of silver",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Resistivity (specific resistance) values: Silver is the best conductor with ρ ≈ 1.59 × 10⁻⁸ Ω·m. Copper is second with ρ ≈ 1.68 × 10⁻⁸ Ω·m.\n2. Comparing the two, copper's resistivity is higher than that of silver.\n3. Therefore, the specific resistance of copper is more than that of silver."
+  }
+]

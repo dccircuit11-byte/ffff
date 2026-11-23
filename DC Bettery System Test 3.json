@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "Which of the following primary cells has the lowest voltage?",
+    "A": "Lithium",
+    "B": "Zinc chloride",
+    "C": "Mercury",
+    "D": "Carbon zinc",
+    "Answer": "Mercury",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Mercury cells typically have a voltage of about 1.35 V.\n2. Carbon-zinc cells are about 1.5 V.\n3. Alkaline/zinc-chloride cells are about 1.5 V.\n4. Lithium cells are around 3 V.\n5. Therefore, the mercury cell has the lowest voltage."
+  },
+  {
+    "Question": "Which of the following primary cells has the highest voltage?",
+    "A": "Manganese-alkaline",
+    "B": "Carbon-zinc",
+    "C": "Lithium",
+    "D": "Mercury",
+    "Answer": "Lithium",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Lithium primary cells have a nominal voltage of about 3 V.\n2. The others (manganese-alkaline, carbon-zinc) are around 1.5 V, and mercury is around 1.35 V.\n3. Therefore, lithium has the highest voltage."
+  },
+  {
+    "Question": "Short-circuiting of a cell may be caused by",
+    "A": "Buckling of plates",
+    "B": "Faulty separators",
+    "C": "Lead particles forming circuit between positive and negative plates",
+    "D": "Any of the above",
+    "Answer": "Any of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Buckled plates can touch each other.\n2. Faulty or damaged separators allow direct contact between plates.\n3. Shedded active material (like lead particles) can bridge the gap between plates.\n4. All these can cause internal short circuits."
+  },
+  {
+    "Question": "A cell which is used as a voltage difference source for instrument calibration is",
+    "A": "Dry cell",
+    "B": "Solar cell",
+    "C": "Mercury cadmium cell",
+    "D": "Nickel cadmium cell",
+    "Answer": "Mercury cadmium cell",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The mercury-cadmium (Weston) cell has a very stable and reproducible EMF (about 1.018 V).\n2. Due to its high stability, it is used as a standard voltage reference for calibrating instruments."
+  },
+  {
+    "Question": "A fuel cell converts ......... energy into electrical energy",
+    "A": "Mechanical",
+    "B": "Magnetic",
+    "C": "Solar",
+    "D": "Chemical",
+    "Answer": "Chemical",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A fuel cell generates electricity through an electrochemical reaction (combining fuel and oxidant).\n2. It converts the chemical energy of the fuel directly into electrical energy, without combustion."
+  },
+  {
+    "Question": "Internal resistance of a cell is due to",
+    "A": "Resistance of electrolyte",
+    "B": "Electrode resistance",
+    "C": "Surface contact resistance between electrode and electrolyte",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The electrolyte has its own resistance to ion flow.\n2. The electrode materials have resistance.\n3. There is contact resistance at the interface between the electrode and the electrolyte.\n4. The total internal resistance is the sum of all these factors."
+  },
+  {
+    "Question": "If the battery is wrongly connected on charge following will happen",
+    "A": "Current delivered by the battery will be high",
+    "B": "Current drawing will be Nil",
+    "C": "Current drawing will be very small",
+    "D": "Current drawing will be very high",
+    "Answer": "Current drawing will be very high",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. If connected with reversed polarity, the charger voltage and the battery voltage add up instead of opposing each other.\n2. This results in a very large potential difference driving a very high current through the circuit, which can damage the battery and charger."
+  },
+  {
+    "Question": "Battery charging room is to be kept well ventilated so as to reduce the hydrogen concentration below ......... percent",
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four",
+    "Answer": "Three",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. During charging, lead-acid batteries produce hydrogen gas, which is explosive if it accumulates.\n2. The lower explosive limit of hydrogen in air is about 4%.\n3. To maintain a safe margin, ventilation must keep the concentration below 3%."
+  },
+  {
+    "Question": "Under normal charging rate, the charging current should be",
+    "A": "10% of capacity",
+    "B": "20% of capacity",
+    "C": "30% of capacity",
+    "D": "40% of capacity",
+    "Answer": "10% of capacity",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The normal charging rate for a lead-acid battery is typically the 10-hour rate.\n2. This means the charging current should be about 10% of the battery's Ah capacity.\n3. Example: A 100 Ah battery should be charged at about 10 A."
+  },
+  {
+    "Question": "Trickle charge is required for",
+    "A": "Primary cells",
+    "B": "Lead acid batteries",
+    "C": "Nickel iron cells",
+    "D": "All of the above",
+    "Answer": "Lead acid batteries",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Trickle charging is used to maintain secondary (rechargeable) batteries at full charge when not in use.\n2. Primary cells cannot be recharged.\n3. Among the secondary batteries listed, lead-acid batteries commonly require trickle charging to compensate for self-discharge."
+  },
+  {
+    "Question": "The output voltage of a charger is",
+    "A": "Less than the battery voltage",
+    "B": "Higher than the battery voltage",
+    "C": "The same as the battery voltage",
+    "D": "None of the above",
+    "Answer": "Higher than the battery voltage",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. To force current into the battery (charging), the charger's voltage must be greater than the battery's EMF.\n2. Current flows from higher potential to lower potential."
+  },
+  {
+    "Question": "It is noticed that during charging",
+    "A": "There is a rise in voltage",
+    "B": "Energy is absorbed by the cell",
+    "C": "Specific gravity of H2SO4 is increased",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The terminal voltage of the cell increases as it charges.\n2. The cell absorbs electrical energy to drive the reverse chemical reaction.\n3. The concentration (and specific gravity) of the sulphuric acid increases as water is consumed and acid is regenerated.\n4. Therefore, all statements are correct."
+  },
+  {
+    "Question": "Overcharging .......",
+    "A": "Produces excessive gassing",
+    "B": "Loosens the active material",
+    "C": "Increases the temperature resulting in buckling of plates",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Overcharging causes excessive electrolysis of water, producing a lot of gas.\n2. The violent gassing can loosen and shed the active material from the plates.\n3. The heat generated can warp and buckle the plates.\n4. Therefore, all the effects are correct."
+  },
+  {
+    "Question": "Undercharging ______.",
+    "A": "Reduces specific gravity of the electrolyte",
+    "B": "Increases specific gravity of the electrolyte",
+    "C": "Produces excessive gassing",
+    "D": "Increases the temperature",
+    "Answer": "Reduces specific gravity of the electrolyte",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Undercharging means the battery never reaches a full state of charge.\n2. The electrolyte remains more dilute (less acid, more water), so its specific gravity is lower than normal.\n3. Continuous undercharging leads to sulphation."
+  },
+  {
+    "Question": "In ______ system the charging current is intermittently controlled at either a maximum or minimum value",
+    "A": "Two rate charge control",
+    "B": "Trickle charge",
+    "C": "Floating charge",
+    "D": "An equalizing charge",
+    "Answer": "Two rate charge control",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A two-rate charger initially charges at a high rate (maximum).\n2. When the battery reaches a certain voltage, it switches to a low rate (minimum) to finish charging and maintain the charge."
+  }
+]

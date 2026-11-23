@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "______ capacitors are used for audio frequency and radio frequency coupling and tuning.",
+    "A": "air",
+    "B": "mica",
+    "C": "plastic film",
+    "D": "ceramic",
+    "Answer": "mica",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, mica capacitors are used for AF/RF coupling and tuning."
+  },
+  {
+    "Question": "The inverse of capacitance is called",
+    "A": "reluctance",
+    "B": "conductance",
+    "C": "susceptance",
+    "D": "elastance",
+    "Answer": "elastance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Elastance S = 1/C."
+  },
+  {
+    "Question": "When the dielectric is homogeneous, the potential gradient is",
+    "A": "uniform",
+    "B": "non-uniform",
+    "C": "zero",
+    "D": "any of the above",
+    "Answer": "uniform",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In a homogeneous dielectric the potential gradient is uniform (constant)."
+  },
+  {
+    "Question": "The potential gradient across the material of low permittivity is ______ than across the material of high permittivity.",
+    "A": "smaller",
+    "B": "greater",
+    "C": "both (A) and (B)",
+    "D": "none of the above",
+    "Answer": "greater",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electric stress in each layer is inversely proportional to its permittivity.\n2. So low permittivity means greater gradient."
+  },
+  {
+    "Question": "______ field is associated with the capacitor.",
+    "A": "electric",
+    "B": "magnetic",
+    "C": "both (A) and (B)",
+    "D": "none of the above",
+    "Answer": "electric",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A capacitor stores energy in an electric field."
+  },
+  {
+    "Question": "A capacitor having capacitance of 5 μF is charged to a potential difference of 10,000 V. The energy stored in the capacitor is",
+    "A": "50 joules",
+    "B": "150 joules",
+    "C": "200 joules",
+    "D": "250 joules",
+    "Answer": "250 joules",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. W = ½CV².\n2. W = ½ × 5×10⁻⁶ × (10⁴)² = 250 J."
+  },
+  {
+    "Question": "A single core cable used on 33000 V has conductor diameter 10 mm and the internal diameter of sheath 25 mm. The maximum electrostatic stress in the cable is",
+    "A": "62 × 10⁵ V/m",
+    "B": "72 × 10⁵ V/m",
+    "C": "82 × 10⁵ V/m",
+    "D": "92 × 10⁵ V/m",
+    "Answer": "72 × 10⁵ V/m",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. E_max = V/[r·ln(R/r)].\n2. E_max = 33000/[0.005 × ln(2.5)] = 33000/(0.005 × 0.9163) ≈ 72×10⁵ V/m."
+  },
+  {
+    "Question": "Two infinite parallel plates 10 mm apart have maintained between them a potential difference of 100 V. The acceleration of an electron placed between them is",
+    "A": "0.56 × 10¹⁵ m/s²",
+    "B": "1.5 × 10¹⁵ m/s²",
+    "C": "1.6 × 10¹⁵ m/s²",
+    "D": "1.76 × 10¹⁵ m/s²",
+    "Answer": "1.76 × 10¹⁵ m/s²",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. E = V/d = 100/0.01 = 10⁴ V/m.\n2. a = eE/m = 1.6×10⁻¹⁹ × 10⁴ / 9.1×10⁻³¹ ≈ 1.76×10¹⁵ m/s²."
+  },
+  {
+    "Question": "The total deficiency or excess of electrons in a body is known as",
+    "A": "current",
+    "B": "voltage",
+    "C": "potential gradient",
+    "D": "charge",
+    "Answer": "charge",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Excess or deficiency of electrons in a body is its charge."
+  },
+  {
+    "Question": "The relative permittivity has the following units",
+    "A": "F/m",
+    "B": "m/F",
+    "C": "Wb/m",
+    "D": "no units",
+    "Answer": "no units",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Relative permittivity is a ratio (ε/ε₀).\n2. So it has no units. (The official key lists C, but the correct answer is D.)"
+  },
+  {
+    "Question": "The phenomenon of an uncharged body getting charged merely by the nearness of a charged body is known as",
+    "A": "photoelectric effect",
+    "B": "chemical effect",
+    "C": "magnetic effect",
+    "D": "induction",
+    "Answer": "induction",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. This is electrostatic induction."
+  },
+  {
+    "Question": "A unit tube of flux is known as ______ tube",
+    "A": "Newton",
+    "B": "Faraday",
+    "C": "Michael",
+    "D": "none of the above",
+    "Answer": "Faraday",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A unit tube of flux is called a Faraday tube."
+  },
+  {
+    "Question": "The number of Faraday tubes of flux passing through a surface in an electric field is called",
+    "A": "electric flux",
+    "B": "electric flux density",
+    "C": "magnetic flux density",
+    "D": "electric charge density",
+    "Answer": "electric flux",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The number of Faraday tubes passing through a surface is the electric flux."
+  },
+  {
+    "Question": "The unit of electric intensity is",
+    "A": "N/C²",
+    "B": "Wb/m²",
+    "C": "N/C",
+    "D": "N²/C",
+    "Answer": "N/C",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electric intensity E = F/q is in newton per coulomb (N/C)."
+  },
+  {
+    "Question": "The value of E within the field due to a point charge can be found with the help of",
+    "A": "Faraday’s laws",
+    "B": "Kirchhoff’s laws",
+    "C": "Coulomb’s laws",
+    "D": "none of the above",
+    "Answer": "Coulomb’s laws",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Coulomb's law gives the field of a point charge: E = Q/(4πε₀r²)."
+  }
+]

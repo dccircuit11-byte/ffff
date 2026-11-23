@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "Tellegen's theorem states that",
+    "A": "Σ Power delivered = Σ power absorbed",
+    "B": "Σ Power delivered = K / Σ power absorbed",
+    "C": "Σ Power delivered = 1 / Σ power absorbed",
+    "D": "Σ Power delivered = 2 × Σ power absorbed",
+    "Answer": "Σ Power delivered = Σ power absorbed",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Tellegen's theorem is a statement of conservation of power in any electrical network.\n2. It states that the algebraic sum of the instantaneous powers delivered by all sources equals the algebraic sum of the powers absorbed by all other elements (or the sum of all powers is zero).\n3. Therefore, the total power delivered equals the total power absorbed."
+  },
+  {
+    "Question": "In the given delta-wye conversion. Find the value of R1, R2 and R3 (delta: 2 Ω, 3 Ω, 4 Ω)",
+    "A": "9/12, 9/6, 9/8",
+    "B": "6/9, 12/9, 8/9",
+    "C": "8/9, 6/9, 12/9",
+    "D": "9/6, 9/12, 9/8",
+    "Answer": "8/9, 6/9, 12/9",
+    "Image": "https://imgh.in/images/4emzgy",
+    "Explaination": "Step-by-Step Solution:\n1. For delta-to-star conversion, each star resistor = (product of the two adjacent delta resistors) / (sum of all three delta resistors).\n2. Sum of delta resistors = 2 + 3 + 4 = 9 Ω.\n3. R1 = (2 × 4)/9 = 8/9 Ω.\n4. R2 = (2 × 3)/9 = 6/9 Ω.\n5. R3 = (3 × 4)/9 = 12/9 Ω."
+  },
+  {
+    "Question": "According to super position theorem a voltage source of 0V can be replaced by a :",
+    "A": "5 V",
+    "B": "Cannot be replaced",
+    "C": "Open circuit",
+    "D": "Short circuit",
+    "Answer": "Short circuit",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In superposition, an independent voltage source is turned off by setting its voltage to zero.\n2. A 0 V source has zero potential difference across its terminals.\n3. A component with zero potential difference regardless of current is a short circuit."
+  },
+  {
+    "Question": "Which one of the following is the condition for maximum power transfer in a circuit?",
+    "A": "RL = RS",
+    "B": "RL = 4RS",
+    "C": "RL = RS/2",
+    "D": "RL = 2RS",
+    "Answer": "RL = RS",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Maximum power transfer theorem states that maximum power is delivered to the load when the load resistance equals the Thevenin equivalent resistance of the source network.\n2. Therefore, RL = RS (or Rth)."
+  },
+  {
+    "Question": "Find the thevenin's voltage Vth across 2 ohm resistance",
+    "A": "4.778 V",
+    "B": "2.571 V",
+    "C": "3.455 V",
+    "D": "8.908 V",
+    "Answer": "2.571 V",
+    "Image": "https://imgh.in/images/rp9msn",
+    "Explaination": "Step-by-Step Solution:\n1. Remove the 2 Ω resistor to find the open-circuit voltage.\n2. No current flows through the 5 Ω resistor, so the voltage across it is zero.\n3. Vth is the voltage across the 4 Ω shunt resistor in the voltage divider formed by the 4 Ω and 6 Ω resistors.\n4. Vth = 9 V × 4 Ω / (4 Ω + 6 Ω) = 36/14 = 2.571 V."
+  },
+  {
+    "Question": "Using Superposition theorem find the current I in circuit.",
+    "A": "150 mA",
+    "B": "200 mA",
+    "C": "100 mA",
+    "D": "375 mA",
+    "Answer": "375 mA",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Consider each source (8 V, 2 A, 6 V) acting alone.\n2. For each case, turn off the other sources: short voltage sources and open current sources.\n3. Calculate the current I due to each source acting alone.\n4. Add the individual contributions algebraically to find the total current I = 375 mA."
+  },
+  {
+    "Question": "The value of currents in the network shown below is: (10 V with 1 Ω, 20 V with 2 Ω, and 18 Ω in the middle)",
+    "A": "2.85 A, – 3.57 A, – 0.72 A",
+    "B": "2.85 A, 3.57 A, 0.72 A",
+    "C": "2 A, 4 A, 6A",
+    "D": "– 2.85 A, 3.57 A, 0.72 A",
+    "Answer": "– 2.85 A, 3.57 A, 0.72 A",
+    "Image": "https://imgh.in/images/sw8md6",
+    "Explaination": "Step-by-Step Solution:\n1. Apply Millman's theorem to find the common node voltage V = (10/1 + 20/2) / (1/1 + 1/2 + 1/18) = 20 / (1.555) = 12.857 V.\n2. I1 = (10 − 12.857)/1 = −2.85 A.\n3. I2 = (20 − 12.857)/2 = 3.57 A.\n4. I3 (through 18 Ω) = 12.857/18 = 0.72 A."
+  },
+  {
+    "Question": "Using superposition theorem find the value of Vo is,",
+    "A": "4.6 V",
+    "B": "7.4 V",
+    "C": "12 V",
+    "D": "10 V",
+    "Answer": "7.4 V",
+    "Image": "https://imgh.in/images/c7zylq",
+    "Explaination": "Step-by-Step Solution:\n1. Let Vm be the middle node. The 3 Ω + 2 Ω form a divider so Vo = 0.4 Vm and the 3 Ω current is Vm/5.\n2. KCL at Vm: Vm/5 + (Vm − 12)/5 = 5, giving Vm = 18.5 V.\n3. Vo = 0.4 × 18.5 = 7.4 V."
+  },
+  {
+    "Question": "Potential difference across 2 ohm resistor",
+    "A": "2.8 V",
+    "B": "2.1 V",
+    "C": "10.1 V",
+    "D": "5.2 V",
+    "Answer": "2.1 V",
+    "Image": "https://imgh.in/images/1jh2db",
+    "Explaination": "Step-by-Step Solution:\n1. Let T be the top node. KCL: (10 − V_T)/4 + (20 − V_T)/8 = V_T/(8 + 2).\n2. Solving gives V_T = 10.53 V.\n3. The 2 Ω is in a divider with the 8 Ω, so V = 10.53 × 2/10 = 2.1 V."
+  },
+  {
+    "Question": "Value of R for maximum power transfer.",
+    "A": "23.8 Ω",
+    "B": "238 Ω",
+    "C": "3 Ω",
+    "D": "2.38 Ω",
+    "Answer": "2.38 Ω",
+    "Image": "https://imgh.in/images/ml7fz4",
+    "Explaination": "Step-by-Step Solution:\n1. Find the Thevenin resistance across R with sources shorted.\n2. Left side: 1 Ω ∥ 2 Ω = 0.667 Ω. Right side: 3 Ω ∥ 4 Ω = 1.714 Ω.\n3. Rth = 0.667 + 1.714 = 2.38 Ω.\n4. For maximum power transfer, R = Rth = 2.38 Ω."
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "If a battery is to be charged at a much higher rate as compared to normal charging rate, the charging should be restricted to",
+    "A": "95% of the capacity of battery",
+    "B": "80% of the capacity of battery",
+    "C": "55% of the capacity of battery",
+    "D": "35% of the capacity of battery",
+    "Answer": "80% of the capacity of battery",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. High-rate charging causes excessive heating and gassing, which can damage the plates.\n2. To prevent damage, the high-rate charge is stopped early, typically at about 80% of the capacity.\n3. The remaining capacity is charged at a lower, normal rate."
+  },
+  {
+    "Question": "A floating battery is one",
+    "A": "Which gets charged and discharged simultaneously",
+    "B": "Which supplies current intermittently and also during off cycle gets charged",
+    "C": "In which battery voltage is equal to charger voltage",
+    "D": "In which the current in the circuit is fully supplied by the battery",
+    "Answer": "Which supplies current intermittently and also during off cycle gets charged",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. In a 'floating' configuration, the battery is connected in parallel with the charger and the load.\n2. The charger supplies the normal continuous load.\n3. The battery supplies high intermittent currents (e.g., for motor starting) and is recharged by the charger during off-peak periods."
+  },
+  {
+    "Question": "The terminal voltage when the battery is being charged decreases with",
+    "A": "Increasing temperature",
+    "B": "Increasing charging rate",
+    "C": "Increasing stage of charge",
+    "D": "All of the above",
+    "Answer": "Increasing temperature",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The terminal voltage during charging is V = E + I*r.\n2. As temperature increases, the internal resistance (r) decreases.\n3. Therefore, for a given charging current (I), the voltage drop I*r is smaller, causing the terminal voltage to decrease."
+  },
+  {
+    "Question": "Which test is used to ascertain whether the battery plates are defective or not?",
+    "A": "Open volt test",
+    "B": "Cadmium test",
+    "C": "High discharge test",
+    "D": "Specific gravity test",
+    "Answer": "Cadmium test",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The cadmium test uses a cadmium reference electrode.\n2. By measuring voltages between the cadmium rod and each plate, it can determine if the positive or negative plates are defective (sulphated or worn out)."
+  },
+  {
+    "Question": "The electrode for a battery must be",
+    "A": "A semi conductor",
+    "B": "An insulator",
+    "C": "A good conductor of electricity",
+    "D": "A bad conductor of electricity",
+    "Answer": "A good conductor of electricity",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Electrodes must allow electric current to flow into or out of the electrolyte.\n2. Therefore, they must be made of materials that are good conductors of electricity (like lead, lead peroxide, etc.)."
+  },
+  {
+    "Question": "Cells are connected in series in order to",
+    "A": "Increase the voltage rating",
+    "B": "Increase the current rating",
+    "C": "Increase the life of the cells",
+    "D": "None of the above",
+    "Answer": "Increase the voltage rating",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. In a series connection, the voltages of individual cells add up (V_total = V1 + V2 + ...).\n2. The current capacity remains the same as a single cell.\n3. Therefore, series connection is used to increase the voltage."
+  },
+  {
+    "Question": "Five 2 V cells are connected in parallel. The output voltage is",
+    "A": "1 V",
+    "B": "1.5 V",
+    "C": "1.75 V",
+    "D": "2 V",
+    "Answer": "2 V",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. In a parallel connection, the voltage across all branches is the same.\n2. The output voltage equals the voltage of a single cell, which is 2 V.\n3. The parallel connection increases the current capacity."
+  },
+  {
+    "Question": "A dead storage battery can be revived by",
+    "A": "Adding distilled water",
+    "B": "Adding so-called battery restorer",
+    "C": "A dose of H2SO4",
+    "D": "None of the above",
+    "Answer": "None of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A truly 'dead' battery has permanent damage to its plates (severe sulphation or shedding of active material).\n2. Adding water or acid cannot reverse this chemical/structural damage.\n3. Therefore, none of the additives can revive a dead battery."
+  },
+  {
+    "Question": "The open circuit voltage of any storage cell depends wholly upon",
+    "A": "Its chemical constituents",
+    "B": "On the strength of its electrolyte",
+    "C": "Its temperature",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The open-circuit voltage depends on the electrochemical potential difference between the electrode materials (chemical constituents).\n2. It also varies with the concentration of the electrolyte (strength).\n3. It has a slight temperature dependence.\n4. Therefore, all listed factors influence the open-circuit voltage."
+  },
+  {
+    "Question": "Each cell has a vent cap",
+    "A": "To allow gases out when the cell is on charge",
+    "B": "To add water to the cell if needed",
+    "C": "To check the level of electrolyte",
+    "D": "To do all above functions",
+    "Answer": "To add water to the cell if needed",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The vent cap is removable.\n2. Its primary purpose is to allow the addition of distilled water to maintain the electrolyte level.\n3. It also allows gases to escape."
+  },
+  {
+    "Question": "Cell short circuit results in",
+    "A": "Low specific gravity electrolyte",
+    "B": "Abnormal high-temperature",
+    "C": "Reduced gassing on charge",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A short-circuited cell has a low specific gravity because the active material is depleted.\n2. The short circuit causes a large internal current, leading to abnormal heating.\n3. Because the shorted cell cannot accept charge efficiently, it will show reduced gassing during charging.\n4. Therefore, all the mentioned effects occur."
+  },
+  {
+    "Question": "Internal resistance of a cell is reduced to by",
+    "A": "Using vent plug to permit gas formed during discharge",
+    "B": "Increasing the plate area",
+    "C": "Putting plates very close together",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Larger plate area provides more surface for the chemical reaction, reducing resistance.\n2. Closer plate spacing reduces the path length through the electrolyte, lowering resistance.\n3. Venting gases prevents gas bubbles from blocking the electrode surface, keeping the effective resistance low."
+  },
+  {
+    "Question": "Capacity of dry cells is",
+    "A": "More when it is supplying current for intermittent periods",
+    "B": "More when it is supplying current for continuous period",
+    "C": "Unaffected by the type of discharge",
+    "D": "None of the above",
+    "Answer": "More when it is supplying current for intermittent periods",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. During rest periods, the chemicals in the dry cell diffuse and the polarization effect reduces.\n2. This allows the cell to recover and deliver more total capacity over time.\n3. Therefore, dry cells have a higher capacity when used intermittently."
+  },
+  {
+    "Question": "Shelf life of a small dry cell is",
+    "A": "Equal to that of larger dry cell",
+    "B": "Less than that of large dry cell",
+    "C": "More than that of large dry cell",
+    "D": "None of the above",
+    "Answer": "Less than that of large dry cell",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A small dry cell has a higher internal resistance and less active material.\n2. It is more susceptible to self-discharge and drying out.\n3. Therefore, its shelf life is generally less than that of a larger dry cell."
+  },
+  {
+    "Question": "The current in a chemical cell is a movement of",
+    "A": "Positive ions only",
+    "B": "Positive and negative ions",
+    "C": "Negative ions only",
+    "D": "Positive hole charges",
+    "Answer": "Positive and negative ions",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. In the electrolyte of a chemical cell, current is carried by the movement of both positive ions (cations) towards the cathode and negative ions (anions) towards the anode."
+  }
+]

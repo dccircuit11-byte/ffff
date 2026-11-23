@@ -1,0 +1,93 @@
+// JSON 8 (Questions 106–120)
+[
+  {
+    "Question": "Two coupled inductors L1 = 0.2 H and L2 = 0.8 H have a coefficient of coupling K = 0.8. The mutual inductance M is",
+    "A": "0.16 H", "B": "0.02 H", "C": "0.32 H", "D": "0.24 H",
+    "Answer": "0.32 H", "Image": "",
+    "Explaination": "M = k√(L1·L2) = 0.8 × √(0.2 × 0.8) = 0.8 × √0.16 = 0.8 × 0.4 = 0.32 H. Hence the mutual inductance is 0.32 H."
+  },
+  {
+    "Question": "A coil with a certain number of turns has a specified time constant. If the number of turns is doubled, its time constant would",
+    "A": "Become doubled", "B": "Get halved", "C": "Remain Unaffected", "D": "Become Fourfold",
+    "Answer": "Become Fourfold", "Image": "",
+    "Explaination": "Time constant τ = L/R. Inductance L ∝ N², so doubling N makes L four times larger. Taking R as unchanged (as per the key), τ becomes fourfold. (In practice, if the extra turns also increase the wire length and hence R, τ would only double.) Hence the keyed answer is 'Become Fourfold'."
+  },
+  {
+    "Question": "The iron loss per unit frequency in a ferromagnetic core, when plotted against frequency, is a",
+    "A": "Constant", "B": "Straight-line with positive slope", "C": "Straight-line with a negative slope", "D": "Parabola",
+    "Answer": "Straight-line with positive slope", "Image": "",
+    "Explaination": "Total iron loss Pi = hysteresis loss (Wh = η·Bm^1.6·f) + eddy loss (We = ke·Bm²·f²·t²·V). Dividing by f: Pi/f = Wh_const + (eddy coefficient)·f, which is of the form y = c + mf. Hence Pi/f versus f is a straight line with positive slope. This is the standard method of separating hysteresis and eddy current losses."
+  },
+  {
+    "Question": "The mutual inductance between two closely coupled coils is 1 H. If the turns of one coil is decreased to half and those of the other is doubled, the new value of mutual inductance would be",
+    "A": "1/4 H", "B": "1 H", "C": "2 H", "D": "1/2 H",
+    "Answer": "1 H", "Image": "",
+    "Explaination": "Mutual inductance is proportional to the product of turns: M ∝ N1·N2. If N1 becomes N1/2 and N2 becomes 2N2, the product (N1/2)(2N2) = N1·N2 is unchanged. Hence the mutual inductance remains 1 H."
+  },
+  {
+    "Question": "The graph (iron loss per unit frequency Pi/f versus f, intercept 0.01 and slope 0.001) shows the loss characteristics of a ferromagnetic sheet. Hysteresis and eddy current losses of the sheet at 100 Hz are",
+    "A": "10 W, 100 W", "B": "10 W, 50 W", "C": "1 W, 5 W", "D": "1 W, 10 W",
+    "Answer": "1 W, 10 W", "Image": "https://imgh.in/images/n47ssi",
+    "Explaination": "The graph gives Pi/f = 0.01 + 0.001f, so Pi = 0.01f + 0.001f². The constant term 0.01f is hysteresis loss and the term 0.001f² is eddy current loss. At f = 100 Hz: hysteresis = 0.01 × 100 = 1 W, eddy = 0.001 × 100² = 0.001 × 10000 = 10 W. Hence hysteresis loss = 1 W and eddy current loss = 10 W."
+  },
+  {
+    "Question": "Hysteresis losses are present in iron core coil when",
+    "A": "The current in the coil is sinusoidal only", "B": "The current in the coil is alternating", "C": "The current is unsymmetrical alternation only", "D": "The current in the coil is DC only",
+    "Answer": "The current in the coil is alternating", "Image": "",
+    "Explaination": "Hysteresis loss occurs whenever the core flux is taken through a cycle of magnetisation, i.e. whenever the current (and hence flux) alternates. It occurs for any alternating waveform, not only sinusoidal or unsymmetrical ones. DC current produces a steady flux and no hysteresis loss. Hence the answer is 'The current in the coil is alternating'."
+  },
+  {
+    "Question": "Eddy current loss in the ferromagnetic core is proportional to",
+    "A": "Square of frequency", "B": "The square root of frequency", "C": "Frequency", "D": "Reciprocal of the frequency",
+    "Answer": "Square of frequency", "Image": "",
+    "Explaination": "Eddy current loss is Pe = ke·Bm²·f²·t²·V. Since f appears squared, eddy current loss is proportional to the square of the frequency. Hysteresis loss, by contrast, is proportional to the first power of frequency. Hence the answer is 'Square of frequency'."
+  },
+  {
+    "Question": "Two inductors have self-inductances of 9 mH and 25 mH. The mutual inductance between the two is 12 mH. The coefficient of inductive coupling between the two inductors is",
+    "A": "18.75", "B": "0.25", "C": "0.8", "D": "1.25",
+    "Answer": "0.8", "Image": "",
+    "Explaination": "Coupling coefficient k = M/√(L1·L2) = 12/√(9 × 25) = 12/√225 = 12/15 = 0.8. Hence the coefficient of coupling is 0.8."
+  },
+  {
+    "Question": "The magnetic materials that are used to prepare permanent magnets should have",
+    "A": "The steeply rising magnetization curve", "B": "Small hysteresis loop", "C": "Highly retentivity", "D": "Low coercive force",
+    "Answer": "Highly retentivity", "Image": "",
+    "Explaination": "Permanent magnets must retain their magnetism after the magnetising field is removed (high retentivity) and resist demagnetisation (high coercivity, broad loop). A small hysteresis loop and low coercive force suit temporary magnets. Hence permanent magnet materials should have high retentivity."
+  },
+  {
+    "Question": "The resonant frequency of the AC series circuit shown (two 2 H inductors with mutual inductance M = 1 H, dot markings opposing, in series with a 2 F capacitor) in Hz is",
+    "A": "1/(4π√3)", "B": "1/(4π√2)", "C": "1/(4π)", "D": "1/(4π√10)",
+    "Answer": "1/(4π)", "Image": "https://imgh.in/images/9ur7xx",
+    "Explaination": "From the dot markings the two 2 H coils are in series opposing, so the equivalent inductance is L = L1 + L2 − 2M = 2 + 2 − 2(1) = 2 H. Resonance occurs at f = 1/(2π√(LC)). With L = 2 H and C = 2 F, √(LC) = √4 = 2, so f = 1/(2π × 2) = 1/(4π) Hz. Hence the resonant frequency is 1/(4π) Hz."
+  },
+  {
+    "Question": "Permeance is analogous to",
+    "A": "Conductance", "B": "Reluctance", "C": "Inductance", "D": "Resistance",
+    "Answer": "Conductance", "Image": "",
+    "Explaination": "In the magnetic circuit, reluctance S is analogous to electrical resistance R. Since permeance is the reciprocal of reluctance (1/S), it is analogous to the reciprocal of resistance, i.e. conductance. Hence permeance is analogous to conductance."
+  },
+  {
+    "Question": "Which of the following will improve the mutual coupling between primary and secondary circuits?",
+    "A": "Transformer oil of high break down voltage", "B": "High reluctance magnetic core", "C": "Winding material of high resistivity", "D": "Low reluctance magnetic core",
+    "Answer": "Low reluctance magnetic core", "Image": "",
+    "Explaination": "Mutual coupling improves when more of the flux produced by one winding links the other. A low-reluctance (high-permeability) core provides an easy path for the flux and keeps it confined to link both windings, increasing k. A high-reluctance core would let flux leak. Hence a low-reluctance magnetic core improves coupling."
+  },
+  {
+    "Question": "Two coupled coils with L1 = L2 = 0.6 H have the coupling coefficient of K = 0.8. The turn ratio N1/N2 is",
+    "A": "4", "B": "2", "C": "1", "D": "0.5",
+    "Answer": "1", "Image": "",
+    "Explaination": "Self-inductance is proportional to the square of turns (L ∝ N²) for identical geometry. Since L1 = L2 = 0.6 H, we have N1² = N2², so N1 = N2 and the turn ratio N1/N2 = 1. The coupling coefficient value does not affect this ratio."
+  },
+  {
+    "Question": "Which among the following magnetic materials has the highest energy-product to make it a permanent magnet?",
+    "A": "Alnico", "B": "Ferrite", "C": "Samarium cobalt", "D": "Cobalt-Iron alloy",
+    "Answer": "Samarium cobalt", "Image": "",
+    "Explaination": "The energy product (BH)max measures the strength of a permanent magnet. Rare-earth magnets such as samarium cobalt have very high (BH)max (typically 150–240 kJ/m³), far higher than Alnico, ferrite or Co-Fe alloys. Hence samarium cobalt has the highest energy product among the options. (The official key lists A, but physically C is correct.)"
+  },
+  {
+    "Question": "The strength of an electromagnet can be increased by",
+    "A": "Increasing the cross-sectional area", "B": "Increasing the number of turns", "C": "Increasing current supply", "D": "All of the above",
+    "Answer": "All of the above", "Image": "",
+    "Explaination": "The magnetic flux of an electromagnet is φ = N·I/(l/(μA)) = μ·A·N·I/l. Increasing turns N, current I, or core cross-sectional area A all increase the flux and hence the strength. Therefore all three methods increase the strength, making 'All of the above' correct."
+  }
+]

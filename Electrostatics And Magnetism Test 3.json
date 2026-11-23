@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "The electric field intensity at a point situated 4 metres from a point charge is 200 N/C. If the distance is reduced to 2 metres, the field intensity will be",
+    "A": "400 N/C",
+    "B": "600 N/C",
+    "C": "800 N/C",
+    "D": "1200 N/C",
+    "Answer": "800 N/C",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. E ∝ 1/r².\n2. Halving the distance makes E four times: 200 × 4 = 800 N/C."
+  },
+  {
+    "Question": "The lines of force due to charged particles are",
+    "A": "Always straight",
+    "B": "Always curved",
+    "C": "Sometimes curved",
+    "D": "None of the above",
+    "Answer": "Always curved",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, lines of force are taken as curved lines (e.g. between two charges they are curved and start/end on charges)."
+  },
+  {
+    "Question": "The electric field at a point situated at a distance d from a straight charged conductor is",
+    "A": "proportional to d",
+    "B": "inversely proportional to d",
+    "C": "inversely proportional to d (second option as printed)",
+    "D": "none of the above",
+    "Answer": "inversely proportional to d",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For a long straight line charge, E = λ/(2πε₀·d).\n2. So E is inversely proportional to d."
+  },
+  {
+    "Question": "The direction of electric field due to a positive charge is",
+    "A": "away from the charge",
+    "B": "towards the charge",
+    "C": "both (A) and (B)",
+    "D": "none of the above",
+    "Answer": "away from the charge",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The field of a positive charge points radially outward, away from the charge."
+  },
+  {
+    "Question": "A field line and an equipotential surface are",
+    "A": "Always parallel",
+    "B": "Always at 90°",
+    "C": "Inclined at any angle",
+    "D": "None of the above",
+    "Answer": "Always at 90°",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electric field lines are always perpendicular to equipotential surfaces."
+  },
+  {
+    "Question": "The ability of charged bodies to exert force on one another is attributed to the existence of",
+    "A": "Electrons",
+    "B": "Protons",
+    "C": "Neutrons",
+    "D": "Electric field",
+    "Answer": "Electric field",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The force between charged bodies acts through the electric field around them."
+  },
+  {
+    "Question": "If the sheet of a bakelite is inserted between the plates of an air capacitor, the capacitance will",
+    "A": "decrease",
+    "B": "increase",
+    "C": "remain unchanged",
+    "D": "become zero",
+    "Answer": "increase",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Bakelite has εᵣ > 1.\n2. C = ε₀εᵣA/d increases with the insertion of the dielectric."
+  },
+  {
+    "Question": "A capacitor stores 0.24 coulombs at 10 volts. Its capacitance is",
+    "A": "0.024 F",
+    "B": "0.12 F",
+    "C": "0.6 F",
+    "D": "0.8 F",
+    "Answer": "0.024 F",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. C = Q/V.\n2. C = 0.24/10 = 0.024 F."
+  },
+  {
+    "Question": "For making a capacitor, it is better to select a dielectric having",
+    "A": "low permittivity",
+    "B": "high permittivity",
+    "C": "permittivity same as that of air",
+    "D": "permittivity slightly more than that of air",
+    "Answer": "high permittivity",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. C = ε₀εᵣA/d.\n2. A dielectric with high permittivity gives larger capacitance in the same size."
+  },
+  {
+    "Question": "The units of capacitance are",
+    "A": "volts/coulomb",
+    "B": "coulombs/volt",
+    "C": "ohms",
+    "D": "henry/weber",
+    "Answer": "coulombs/volt",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. C = Q/V.\n2. The unit is coulomb per volt (farad)."
+  },
+  {
+    "Question": "If three 15 μF capacitors are connected in series, the net capacitance is",
+    "A": "5 μF",
+    "B": "30 μF",
+    "C": "45 μF",
+    "D": "50 μF",
+    "Answer": "5 μF",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For n equal capacitors in series, C = C/n.\n2. C = 15/3 = 5 μF."
+  },
+  {
+    "Question": "If three 10 μF capacitors are connected in parallel, the net capacitance is",
+    "A": "20 μF",
+    "B": "30 μF",
+    "C": "40 μF",
+    "D": "50 μF",
+    "Answer": "30 μF",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In parallel, capacitances add.\n2. C = 10 + 10 + 10 = 30 μF."
+  },
+  {
+    "Question": "A dielectric material must be",
+    "A": "resistor",
+    "B": "insulator",
+    "C": "good conductor",
+    "D": "semi conductor",
+    "Answer": "insulator",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A dielectric is an electrical insulator that can be polarised by an electric field."
+  },
+  {
+    "Question": "An electrolytic capacitor can be used for",
+    "A": "d.c. only",
+    "B": "a.c. only",
+    "C": "both d.c.",
+    "D": "as well as a.c.",
+    "Answer": "d.c. only",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electrolytic capacitors are polarised.\n2. They are used on d.c. only, since a.c. would damage them."
+  },
+  {
+    "Question": "The capacitance of a capacitor is not affected by",
+    "A": "distance between plates",
+    "B": "area of plates",
+    "C": "thickness of plates",
+    "D": "all of the above",
+    "Answer": "thickness of plates",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. C = ε₀εᵣA/d depends on plate area, separation and dielectric.\n2. It does not depend on the thickness of the plates."
+  }
+]

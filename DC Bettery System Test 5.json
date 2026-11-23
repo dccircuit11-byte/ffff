@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "Active materials of a lead acid cell are",
+    "A": "Spongy lead",
+    "B": "Lead peroxide",
+    "C": "Dilute H2SO4",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The active materials are the substances that participate in the electrochemical reaction.\n2. Negative plate: Spongy lead (Pb).\n3. Positive plate: Lead peroxide (PbO2).\n4. Electrolyte: Dilute sulphuric acid (H2SO4).\n5. Therefore, all are active materials."
+  },
+  {
+    "Question": "Sulphation in a lead acid battery occurs due to",
+    "A": "Heavy charging",
+    "B": "Fast charging",
+    "C": "Trickle charging",
+    "D": "Incomplete charging",
+    "Answer": "Incomplete charging",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Sulphation is the formation of hard lead sulphate crystals on the plates.\n2. It occurs when the battery is left in a discharged state (due to incomplete charging) for a long time.\n3. The lead sulphate that forms during discharge is not converted back to active material during charging, and it hardens."
+  },
+  {
+    "Question": "During the charging of a lead acid cell",
+    "A": "Its voltage increases",
+    "B": "It gives out energy",
+    "C": "Its cathode becomes dark chocolate brown in color",
+    "D": "Specific gravity of H2SO4 decreases",
+    "Answer": "Its voltage increases",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. During charging, the cell stores energy, so its terminal voltage rises.\n2. The specific gravity of the electrolyte also increases.\n3. The positive plate (anode during discharge, cathode during charge) changes colour."
+  },
+  {
+    "Question": "During charging the specific gravity of the electrolyte of a lead acid battery",
+    "A": "Increases",
+    "B": "Decreases",
+    "C": "Remains the same",
+    "D": "Becomes zero",
+    "Answer": "Increases",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Charging drives the chemical reaction in reverse, converting lead sulphate and water back into lead, lead peroxide and sulphuric acid.\n2. The concentration of sulphuric acid increases, so the specific gravity increases."
+  },
+  {
+    "Question": "When a lead acid battery is in fully charged condition the colour of its positive plate is",
+    "A": "Dark green",
+    "B": "Brown",
+    "C": "Dark brown",
+    "D": "None of the above",
+    "Answer": "Dark brown",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The positive plate in a fully charged lead-acid cell is made of lead peroxide (PbO2).\n2. Lead peroxide has a characteristic dark chocolate brown colour."
+  },
+  {
+    "Question": "The capacity of a lead acid cell does not depend on its",
+    "A": "Temperature",
+    "B": "Rate of charge",
+    "C": "Rate of discharge",
+    "D": "Quantity of active material",
+    "Answer": "Rate of charge",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Capacity depends on the amount of active material, the rate of discharge, and the temperature.\n2. The rate of charge does not determine how much energy the cell can hold or deliver; it only affects how quickly the cell is charged."
+  },
+  {
+    "Question": "In a lead acid cell dilute sulphuric acid (electrolyte) approximately comprises the following",
+    "A": "One part H2O, three parts H2SO4",
+    "B": "Two part H2O, two parts H2SO4",
+    "C": "Three parts H2O, One part of H2SO4",
+    "D": "All H2SO4",
+    "Answer": "Three parts H2O, One part of H2SO4",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The standard electrolyte for a lead-acid battery is approximately 3 parts water to 1 part concentrated sulphuric acid by volume.\n2. This gives the correct specific gravity (around 1.200 - 1.280)."
+  },
+  {
+    "Question": "The watt-hour efficiency of a lead acid cell varies between",
+    "A": "25 to 35%",
+    "B": "40 to 60%",
+    "C": "70 to 80%",
+    "D": "90 to 95%",
+    "Answer": "70 to 80%",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The watt-hour (energy) efficiency of a lead-acid battery accounts for both voltage and capacity losses.\n2. It is typically in the range of 70% to 80%."
+  },
+  {
+    "Question": "The capacity of a lead acid cell depends on",
+    "A": "Amperes",
+    "B": "Ampere-hours",
+    "C": "Watts",
+    "D": "Watt-hours",
+    "Answer": "Ampere-hours",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Battery capacity is a measure of the total charge it can deliver.\n2. Charge (Q) = Current × Time, so the unit is Ampere-hours (Ah)."
+  },
+  {
+    "Question": "The capacity of a lead acid cell depends on",
+    "A": "Rate of discharge",
+    "B": "Temperature",
+    "C": "Density of electrolyte",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Higher discharge rates reduce the available capacity (Peukert effect).\n2. Lower temperatures reduce capacity.\n3. The density (concentration) of the electrolyte affects the reaction rate and capacity.\n4. Therefore, all factors affect capacity."
+  },
+  {
+    "Question": "When the lead acid cell is fully charged, the electrolyte assumes ______ appearance",
+    "A": "Dull",
+    "B": "Reddish",
+    "C": "Bright",
+    "D": "Milky",
+    "Answer": "Milky",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. As per the given key, when the cell is fully charged, it gases freely and the electrolyte may appear milky due to the suspension of tiny gas bubbles."
+  },
+  {
+    "Question": "Lead acid cell has a life of nearly ______ charges and discharges",
+    "A": "500",
+    "B": "700",
+    "C": "1000",
+    "D": "1250",
+    "Answer": "1250",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A well-maintained lead-acid cell can undergo approximately 1000 to 1500 charge-discharge cycles.\n2. The value 1250 is a typical average for this range."
+  },
+  {
+    "Question": "The internal resistance of a lead acid cell is ______ that of Edison cell",
+    "A": "Less than",
+    "B": "More than",
+    "C": "Equal to",
+    "D": "None of the above",
+    "Answer": "Less than",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Lead-acid cells have very low internal resistance (fraction of an ohm).\n2. Edison (nickel-iron) cells have higher internal resistance.\n3. Therefore, the internal resistance of a lead-acid cell is less than that of an Edison cell."
+  },
+  {
+    "Question": "Electrolyte used in a lead acid cell is",
+    "A": "NaOH",
+    "B": "KOH",
+    "C": "HCl",
+    "D": "HNO3",
+    "Answer": "KOH",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The correct electrolyte is dilute sulphuric acid (H2SO4), which is not listed.\n2. The key gives KOH, which is actually the electrolyte for an Edison cell. This is likely an error in the source book."
+  },
+  {
+    "Question": "In a lead acid cell, lead is called as",
+    "A": "Positive active material",
+    "B": "Negative active material",
+    "C": "Passive material",
+    "D": "None of the above",
+    "Answer": "Negative active material",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. In a fully charged lead-acid cell, the negative plate is made of spongy lead (Pb).\n2. Therefore, lead is the negative active material."
+  }
+]

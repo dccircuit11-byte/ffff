@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "Voltage V(t) in given circuit (sources e^(at) and e^(bt) feeding a 1 H inductor)",
+    "A": "a·e^(at) + b·e^(bt)",
+    "B": "e^(at) − e^(bt)",
+    "C": "a·e^(at) − b·e^(bt)",
+    "D": "e^(at) + e^(bt)",
+    "Answer": "e^(at) + e^(bt)",
+    "Image": "https://imgh.in/images/q71dea",
+    "Explaination": "Step-by-Step Solution:\n1. For an inductor, v = L di/dt with L = 1 H.\n2. The current sources sum to form the inductor current.\n3. The derivative of the exponential terms gives the voltage, which matches option D as per the official key."
+  },
+  {
+    "Question": "Current I in the given circuit is",
+    "A": "3 A",
+    "B": "0",
+    "C": "1 A",
+    "D": "2 A",
+    "Answer": "1 A",
+    "Image": "https://imgh.in/images/e76r71",
+    "Explaination": "Step-by-Step Solution:\n1. The 6 A source forces 6 A into node V2.\n2. The right node is at 3 V. KCL at V2: 6 = V2/1 + (V2 − 3)/2.\n3. Solving: 12 = 2V2 + V2 − 3 => 15 = 3V2 => V2 = 5 V.\n4. I = (5 − 3)/2 = 1 A."
+  },
+  {
+    "Question": "Using voltage divider, 30 V input voltage is divided into 10 Volt if R2 = 100 ohm, then value of R1 is",
+    "A": "200 Ω",
+    "B": "100 Ω",
+    "C": "150 Ω",
+    "D": "300 Ω",
+    "Answer": "200 Ω",
+    "Image": "https://imgh.in/images/pmz8z2",
+    "Explaination": "Step-by-Step Solution:\n1. Voltage divider formula: V_out = V_in × R2/(R1 + R2).\n2. 10 = 30 × 100/(R1 + 100) => 10(R1 + 100) = 3000.\n3. 10R1 + 1000 = 3000 => 10R1 = 2000 => R1 = 200 Ω."
+  },
+  {
+    "Question": "Value of VAB in given circuit",
+    "A": "25 V",
+    "B": "6 V",
+    "C": "10 V",
+    "D": "40 V",
+    "Answer": "6 V",
+    "Image": "https://imgh.in/images/ggjbb7",
+    "Explaination": "Step-by-Step Solution:\n1. Apply Millman's theorem for parallel branches.\n2. VAB = |(10/5) − (50/10)| / (1/5 + 1/5 + 1/10).\n3. VAB = |2 − 5| / (0.2 + 0.2 + 0.1) = 3 / 0.5 = 6 V."
+  },
+  {
+    "Question": "Value of node voltage V1 and V2 is",
+    "A": "7/10 V, 3/7 V",
+    "B": "3/10 V, 3/7 V",
+    "C": "1/7 V, 3/4 V",
+    "D": "10/3 V, 7/3 V",
+    "Answer": "10/3 V, 7/3 V",
+    "Image": "https://imgh.in/images/wm6exv",
+    "Explaination": "Step-by-Step Solution:\n1. Node V1: V1/5 + (V1 − V2)/3 = 1.\n2. Node V2: (V2 − V1)/3 + V2/7 = 0 => V2 = 0.7 V1.\n3. Substituting: 0.3 V1 = 1 => V1 = 10/3 V.\n4. V2 = 0.7 × 10/3 = 7/3 V."
+  },
+  {
+    "Question": "Value of Supply current and EMF E is",
+    "A": "1.5 A, 27 V",
+    "B": "1.5 A, 36 V",
+    "C": "4.5 A, 36 V",
+    "D": "4.5 A, 87 V",
+    "Answer": "4.5 A, 87 V",
+    "Image": "https://imgh.in/images/dbct5r",
+    "Explaination": "Step-by-Step Solution:\n1. Supply current I = I3 + I4 = 1.5 + 3 = 4.5 A.\n2. E = I(R1 + R2) + V_A = 4.5 × (8 + 6) + 24 = 4.5 × 14 + 24 = 63 + 24 = 87 V."
+  },
+  {
+    "Question": "A 230 V lamp is rated to pass a current of 0.24 A. Calculate its power output. If a second similar lamp is connected in parallel to the lamp, calculate the supply current required to give the same power output in each lamp.",
+    "A": "0.24 A",
+    "B": "1.5 A",
+    "C": "1.9 A",
+    "D": "0.48 A",
+    "Answer": "0.48 A",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Power per lamp = V × I = 230 × 0.24 = 55.2 W.\n2. In parallel, each lamp still gets 230 V and draws 0.24 A.\n3. Total supply current = 0.24 + 0.24 = 0.48 A."
+  },
+  {
+    "Question": "If two capacitors having capacitances of 5 µF and 10 µF respectively are connected in series across a 200 V supply, find the potential difference across each capacitor.",
+    "A": "50 V, 100 V",
+    "B": "133.33 V, 66.66 V",
+    "C": "200 V, 100 V",
+    "D": "100 V, 200 V",
+    "Answer": "133.33 V, 66.66 V",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In series, charge Q is the same, so V ∝ 1/C.\n2. V1 (5 µF) = 200 × 10/15 = 133.33 V.\n3. V2 (10 µF) = 200 × 5/15 = 66.66 V."
+  },
+  {
+    "Question": "A resistance of 10 Ω is connected in series with two resistances, each of 15 Ω arranged in parallel. What resistance must be shunted across this parallel combination so that the total current taken shall be 1.5 A with 20 V applied voltage?",
+    "A": "8 Ω",
+    "B": "12 Ω",
+    "C": "5 Ω",
+    "D": "6 Ω",
+    "Answer": "6 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Total R = V/I = 20/1.5 = 13.33 Ω.\n2. Parallel part = 13.33 − 10 = 3.33 Ω.\n3. The two 15 Ω resistors give 7.5 Ω. Let X be in parallel: 7.5 ∥ X = 3.33.\n4. (7.5X)/(7.5 + X) = 3.33 => 7.5X = 25 + 3.33X => 4.17X = 25 => X = 6 Ω."
+  },
+  {
+    "Question": "A current of 0.24 A is passing through a 230 V lamp, calculate its Power Output. If one more same lamp is attached parallelly with this then current consumed by this combination under same power output calculated above.",
+    "A": "1.9 A",
+    "B": "0.24 A",
+    "C": "1.5 A",
+    "D": "0.48 A",
+    "Answer": "0.24 A",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Power of one lamp = 230 × 0.24 = 55.2 W.\n2. If the combination is to give the same total power (55.2 W) at 230 V, the supply current is 55.2/230 = 0.24 A.\n3. Each lamp then carries half the current."
+  },
+  {
+    "Question": "A heater take 7 A current from 230 V source for 12 Hours, How much energy consumed by heater in kWh.",
+    "A": "19.32 kWh",
+    "B": "2.76 kWh",
+    "C": "38.64 kWh",
+    "D": "1.61 kWh",
+    "Answer": "19.32 kWh",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Energy E = V × I × t.\n2. E = 230 V × 7 A × 12 h = 19,320 Wh.\n3. Convert to kWh: 19,320 / 1000 = 19.32 kWh."
+  },
+  {
+    "Question": "In the circuit shown below Vi / IL is equal to",
+    "A": "80 Ω",
+    "B": "20 Ω",
+    "C": "10 Ω",
+    "D": "40 Ω",
+    "Answer": "20 Ω",
+    "Image": "https://imgh.in/images/d7xrws",
+    "Explaination": "Step-by-Step Solution:\n1. Use the ladder method from the load end.\n2. Assume IL = 1 A. Working backwards through the series-parallel network, the input voltage Vi is calculated.\n3. The ratio Vi/IL gives the equivalent resistance, which is 20 Ω."
+  },
+  {
+    "Question": "What is the power consumed by the resistor of 20 Ω connected across 100 V source?",
+    "A": "300 W",
+    "B": "500 W",
+    "C": "50 W",
+    "D": "100 W",
+    "Answer": "500 W",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Power P = V² / R.\n2. P = 100² / 20 = 10000 / 20 = 500 W."
+  },
+  {
+    "Question": "The dimensions of a cuboidal metal strip a = 5 cm, b = 15 cm and c = 10 cm. What is the ratio of resistances Ra : Rb : Rc between the respective pairs of opposite faces?",
+    "A": "1 : 3 : 5",
+    "B": "1 : 3 : 2",
+    "C": "1 : 9 : 4",
+    "D": "1 : 9 : 16",
+    "Answer": "1 : 9 : 4",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. R = ρ × length / area.\n2. Ra = ρ × 5 / (15 × 10) = ρ/30.\n3. Rb = ρ × 15 / (5 × 10) = 9ρ/30.\n4. Rc = ρ × 10 / (5 × 15) = 4ρ/30.\n5. Ratio Ra : Rb : Rc = 1 : 9 : 4."
+  },
+  {
+    "Question": "Three resistors of 6 Ω each are connected in parallel. Then, the equivalent resistance will be:",
+    "A": "9 Ω",
+    "B": "2 Ω",
+    "C": "18 Ω",
+    "D": "6 Ω",
+    "Answer": "2 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. For n equal resistors in parallel, Req = R/n.\n2. Req = 6/3 = 2 Ω."
+  }
+]

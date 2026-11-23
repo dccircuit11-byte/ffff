@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "Dielectric strength of a material depends on",
+    "A": "moisture content",
+    "B": "temperature",
+    "C": "thickness",
+    "D": "all of the above",
+    "Answer": "all of the above",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Dielectric strength depends on moisture content, temperature and thickness.\n2. So all of the above."
+  },
+  {
+    "Question": "What will happen to an insulating medium if voltage more than the breakdown voltage is applied on it?",
+    "A": "it will become magnetic",
+    "B": "it will melt",
+    "C": "it will get punctured or cracked",
+    "D": "its molecular structure will get changed",
+    "Answer": "it will get punctured or cracked",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Beyond breakdown voltage the insulation fails.\n2. It is punctured or cracked by the discharge."
+  },
+  {
+    "Question": "Which medium has the least dielectric strength?",
+    "A": "paraffin wax",
+    "B": "quartz",
+    "C": "glass",
+    "D": "air",
+    "Answer": "air",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Air has the lowest dielectric strength (about 3 kV/mm) among these."
+  },
+  {
+    "Question": "1 volt/metre is same as",
+    "A": "1 metre/coulomb",
+    "B": "1 newton-metre",
+    "C": "1 newton/metre",
+    "D": "1 joule/coulomb",
+    "Answer": "1 newton/metre",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. 1 V/m equals 1 N/C.\n2. The official key gives C (printed as newton/metre, which seems to be a typo for newton/coulomb)."
+  },
+  {
+    "Question": "One volt is the same as",
+    "A": "one joule/coulomb",
+    "B": "one coulomb/joule",
+    "C": "one coulomb",
+    "D": "one joule",
+    "Answer": "one joule/coulomb",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. V = W/Q.\n2. So 1 V = 1 J/C."
+  },
+  {
+    "Question": "The capacitance between two plates increases with",
+    "A": "shorter plate area and higher applied voltage",
+    "B": "shorter plate area and shorter distance between them",
+    "C": "larger plate area, longer distance between plates and higher applied voltage",
+    "D": "larger plate area and shorter distance between plates",
+    "Answer": "larger plate area and shorter distance between plates",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. C = ε₀εᵣA/d.\n2. C increases with larger area and smaller separation."
+  },
+  {
+    "Question": "The capacitance C is charged through a resistance R. The time constant of the charging circuit is given by",
+    "A": "C/R",
+    "B": "1/RC",
+    "C": "RC",
+    "D": "R/C",
+    "Answer": "RC",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Time constant τ = RC."
+  },
+  {
+    "Question": "The bridge used for the measurement of the value of the capacitance is",
+    "A": "Wien’s bridge",
+    "B": "Wheatstone bridge",
+    "C": "Schering bridge",
+    "D": "Hay’s bridge",
+    "Answer": "Schering bridge",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The Schering bridge is used to measure capacitance (and dielectric loss)."
+  },
+  {
+    "Question": "If an ohmmeter reading immediately goes practically to zero and stays there, capacitor is",
+    "A": "charged",
+    "B": "short-circuited",
+    "C": "lossy",
+    "D": "satisfactory",
+    "Answer": "short-circuited",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. A steady near-zero reading means the capacitor is short-circuited."
+  },
+  {
+    "Question": "Out of the following capacitors of identical rating which one will have the smallest dimensions?",
+    "A": "aluminium foil capacitor",
+    "B": "mica capacitor",
+    "C": "ceramic capacitor",
+    "D": "paper capacitor",
+    "Answer": "ceramic capacitor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, the ceramic capacitor (high permittivity) is the smallest."
+  },
+  {
+    "Question": "An uncharged conductor is placed near a charged conductor, then",
+    "A": "the uncharged conductor gets charged by conduction",
+    "B": "the uncharged conductor gets charged by induction and then attracted towards the charging body",
+    "C": "the uncharged conductor is attracted first and then charged by induction",
+    "D": "it remains as such",
+    "Answer": "the uncharged conductor gets charged by induction and then attracted towards the charging body",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The uncharged conductor gets charged by induction.\n2. It is then attracted to the charged body."
+  },
+  {
+    "Question": "The presence of an uncharged conductor near a charged one increases the",
+    "A": "charge of the charged conductor",
+    "B": "capacity of the charged conductor",
+    "C": "potential of the charged conductor",
+    "D": "all of the above",
+    "Answer": "capacity of the charged conductor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Induced charges reduce the potential of the charged conductor.\n2. So its capacity (C = Q/V) increases."
+  },
+  {
+    "Question": "Paper condenser is",
+    "A": "always polarized",
+    "B": "usually of fixed value",
+    "C": "electrolytic condenser",
+    "D": "a variable condenser",
+    "Answer": "usually of fixed value",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Paper capacitors are usually of fixed value."
+  },
+  {
+    "Question": "Mica capacitors are characterised by all of the following except",
+    "A": "stable operation",
+    "B": "accurate value",
+    "C": "low leakage reactance",
+    "D": "low losses",
+    "Answer": "low leakage reactance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Mica capacitors have stable operation, accurate value and low losses.\n2. “Low leakage reactance” is not a characteristic."
+  },
+  {
+    "Question": "A potential of 400 V is applied to a capacitor, the plates of which are 4 mm apart. The strength of electric field is",
+    "A": "100 kV/m",
+    "B": "10 kV/m",
+    "C": "5 kV/m",
+    "D": "2 kV/m",
+    "Answer": "100 kV/m",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. E = V/d.\n2. E = 400/0.004 = 100,000 V/m = 100 kV/m."
+  }
+]

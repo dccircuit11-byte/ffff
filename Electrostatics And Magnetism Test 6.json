@@ -1,0 +1,142 @@
+[
+  {
+    "Question": "The value of dielectric constant for vacuum is taken as",
+    "A": "zero",
+    "B": "1",
+    "C": "4",
+    "D": "10",
+    "Answer": "1",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Relative permittivity of vacuum is 1."
+  },
+  {
+    "Question": "Which of the following capacitors is marked for polarity?",
+    "A": "air",
+    "B": "paper",
+    "C": "mica",
+    "D": "electrolytic",
+    "Answer": "electrolytic",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Electrolytic capacitors are polarised and carry polarity marks."
+  },
+  {
+    "Question": "Which of the following capacitors can be used for temperature compensation?",
+    "A": "air capacitor",
+    "B": "ceramic capacitor",
+    "C": "paper capacitor",
+    "D": "none of the above",
+    "Answer": "ceramic capacitor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Ceramic capacitors with a suitable temperature coefficient are used for temperature compensation."
+  },
+  {
+    "Question": "Which of the following statements is incorrect?",
+    "A": "the thinner the dielectric, the more the capacitance and the lower the voltage breakdown rating for a capacitor",
+    "B": "a six dot mica capacitor colour coded white, green, black, red and yellow has the capacitance value of 500 pF",
+    "C": "capacitors in series provide less capacitance but a higher voltage breakdown rating for the combination",
+    "D": "a capacitor can store charge because it has a dielectric between two conductors",
+    "Answer": "a six dot mica capacitor colour coded white, green, black, red and yellow has the capacitance value of 500 pF",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, statement B (the colour-code value) is the incorrect one.\n2. The other statements are correct."
+  },
+  {
+    "Question": "Paper capacitors usually have a tolerance of",
+    "A": "± 5%",
+    "B": "± 10%",
+    "C": "± 15%",
+    "D": "± 20%",
+    "Answer": "± 10%",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Paper capacitors typically have a tolerance of ±10%."
+  },
+  {
+    "Question": "For closer tolerances which of the following capacitors is usually preferred?",
+    "A": "paper capacitor",
+    "B": "mica capacitor",
+    "C": "ceramic disc capacitor",
+    "D": "none of the above",
+    "Answer": "mica capacitor",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Mica capacitors can be made with close tolerances (e.g. ±1%)."
+  },
+  {
+    "Question": "The electrostatic force between two charges of one coulomb each and placed at a distance of 0.5 m will be",
+    "A": "36 × 10⁶ N",
+    "B": "36 × 10⁷ N",
+    "C": "36 × 10⁸ N",
+    "D": "36 × 10⁹ N",
+    "Answer": "36 × 10⁹ N",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. F = k·Q₁Q₂/r².\n2. F = 9×10⁹ × 1 × 1 / (0.5)² = 36×10⁹ N."
+  },
+  {
+    "Question": "The units of volume charge density are",
+    "A": "coulomb/metre",
+    "B": "coulomb/metre²",
+    "C": "coulomb/metre³",
+    "D": "coulomb·metre³",
+    "Answer": "coulomb/metre³",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Volume charge density ρ = charge/volume.\n2. The unit is C/m³. (Exponents are missing in the printed options.)"
+  },
+  {
+    "Question": "“The surface integral of the normal component of the electric displacement D over any closed surface equals the charge enclosed by the surface”. The above statement is associated with",
+    "A": "Gauss’s law",
+    "B": "Kirchhoff’s law",
+    "C": "Faraday’s law",
+    "D": "Lenz’s law",
+    "Answer": "Gauss’s law",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. This is Gauss's law."
+  },
+  {
+    "Question": "Dielectric strength of mica is",
+    "A": "10 to 20 kV/mm",
+    "B": "30 to 50 kV/mm",
+    "C": "50 to 200 kV/mm",
+    "D": "300 to 500 kV/mm",
+    "Answer": "50 to 200 kV/mm",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Mica has a dielectric strength of about 50 to 200 kV/mm."
+  },
+  {
+    "Question": "The dielectric constant (relative permittivity) of glass is given by",
+    "A": "0.1 to 0.4",
+    "B": "0.5 to 1.0",
+    "C": "2.0 to 4.0",
+    "D": "5 to 100",
+    "Answer": "5 to 100",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, the range is given as 5 to 100 (glass is about 5 to 10)."
+  },
+  {
+    "Question": "Capacitors are mainly used for radio frequency tuning.",
+    "A": "paper",
+    "B": "air",
+    "C": "mica",
+    "D": "electrolytic",
+    "Answer": "air",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Variable air capacitors are used for radio frequency tuning."
+  },
+  {
+    "Question": "Capacitors can be used only for d.c.",
+    "A": "air",
+    "B": "paper",
+    "C": "mica",
+    "D": "electrolytic",
+    "Answer": "electrolytic",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Polarised electrolytic capacitors can be used only on d.c."
+  },
+  {
+    "Question": "______ capacitors are used in transistor circuits.",
+    "A": "ceramic",
+    "B": "paper",
+    "C": "air",
+    "D": "electrolytic",
+    "Answer": "ceramic",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. As per the key, ceramic capacitors are used in transistor circuits."
+  }
+]

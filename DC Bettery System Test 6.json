@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "The lead acid cell should never be discharged beyond",
+    "A": "1.8 V",
+    "B": "1.9 V",
+    "C": "2 V",
+    "D": "2.1 V",
+    "Answer": "1.8 V",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The cell voltage drops during discharge.\n2. Discharging below about 1.8 V per cell causes the formation of hard lead sulphate (sulphation), which reduces capacity and can permanently damage the battery."
+  },
+  {
+    "Question": "If a lead-acid cell is discharged below 1.8 V, the following will happen",
+    "A": "Capacity of cell will reduce",
+    "B": "Sulphation of plates will occur",
+    "C": "Internal resistance will increase",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Over-discharge leads to sulphation, which reduces capacity.\n2. The sulphated plates have higher resistance.\n3. The increase in resistance and loss of active material further reduces capacity.\n4. Therefore, all the statements are correct."
+  },
+  {
+    "Question": "In a lead acid battery the energy is stored in the form of",
+    "A": "Charged ions",
+    "B": "Chemical energy",
+    "C": "Electrostatic energy",
+    "D": "Electromagnetic energy",
+    "Answer": "Chemical energy",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Batteries store energy in the chemical bonds of their active materials.\n2. This chemical energy is converted to electrical energy during discharge."
+  },
+  {
+    "Question": "Which of the following factors adversely affects the capacity of the lead acid battery?",
+    "A": "Temperature of surroundings",
+    "B": "Specific gravity of electrolyte",
+    "C": "Rate of discharge",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Low temperature reduces capacity.\n2. Incorrect specific gravity (too low or too high) affects performance.\n3. High discharge rates reduce available capacity (Peukert's law).\n4. All these factors can adversely affect capacity."
+  },
+  {
+    "Question": "In a lead acid battery, separators are provided to",
+    "A": "Reduce internal resistance",
+    "B": "Facilitate flow of current",
+    "C": "Reduce tendency for polarization",
+    "D": "Avoid internal short circuits",
+    "Answer": "Avoid internal short circuits",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Separators are thin insulating sheets placed between the positive and negative plates.\n2. Their main function is to prevent the plates from touching each other, which would cause an internal short circuit."
+  },
+  {
+    "Question": "The life of a lead acid battery is expected to be",
+    "A": "Two month",
+    "B": "One year",
+    "C": "Two to five years",
+    "D": "Ten to fifteen years",
+    "Answer": "Two to five years",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. A typical lead-acid battery used in vehicles or UPS systems lasts for about 2 to 5 years, depending on usage and maintenance."
+  },
+  {
+    "Question": "In a lead acid battery during charging",
+    "A": "Specific gravity of acid increases",
+    "B": "Voltage drops",
+    "C": "Anode becomes white in color",
+    "D": "The cell gives out energy",
+    "Answer": "Specific gravity of acid increases",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. During charging, the concentration of the sulphuric acid electrolyte increases.\n2. This leads to an increase in specific gravity."
+  },
+  {
+    "Question": "A lead acid battery, even when not in use, should be recharged once in",
+    "A": "Ten days",
+    "B": "Three weeks",
+    "C": "Six weeks",
+    "D": "Six months",
+    "Answer": "Six weeks",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Lead-acid batteries self-discharge over time.\n2. To prevent sulphation, they should be given a freshening charge periodically, typically once every six weeks if not in use."
+  },
+  {
+    "Question": "Sedimentation in lead acid batteries occurs due to",
+    "A": "Slow charging at a low rate",
+    "B": "Overcharging at high rate",
+    "C": "Non-utilization for longer periods",
+    "D": "Over discharging at slow rate",
+    "Answer": "Overcharging at high rate",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Overcharging at a high rate causes violent gassing and heating.\n2. This can cause the active material to loosen and shed from the plates.\n3. The shed material falls to the bottom of the container as sediment."
+  },
+  {
+    "Question": "In a lead acid cell, hydrogen is liberated at",
+    "A": "Positive plate",
+    "B": "Negative plate",
+    "C": "Both positive and negative plates",
+    "D": "None of the above",
+    "Answer": "Negative plate",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. During charging, the negative plate acts as the cathode where reduction occurs.\n2. Water is reduced to hydrogen gas at the negative plate: 2H2O + 2e- → H2 + 2OH-."
+  },
+  {
+    "Question": "The current flow through electrolyte is due to the movement of",
+    "A": "Ions",
+    "B": "Holes",
+    "C": "Electrons",
+    "D": "None of the above",
+    "Answer": "Ions",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Electrolytes are ionic conductors.\n2. Current in the electrolyte is carried by the movement of positive ions (cations) and negative ions (anions)."
+  },
+  {
+    "Question": "Level of electrolyte in a cell should be ______ the level of plates",
+    "A": "Below",
+    "B": "Equal to",
+    "C": "Above",
+    "D": "None of the above",
+    "Answer": "Above",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. The electrolyte level must cover the plates completely to ensure the full active area is involved in the reaction.\n2. If the level is below the plates, they will dry out and be damaged."
+  },
+  {
+    "Question": "______ of electrolyte indicates the state of charge of the battery",
+    "A": "Color",
+    "B": "Mass",
+    "C": "Viscosity",
+    "D": "Specific gravity",
+    "Answer": "Specific gravity",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. As the battery charges and discharges, the concentration of the acid changes.\n2. Specific gravity is a direct measure of this concentration and thus indicates the state of charge."
+  },
+  {
+    "Question": "While preparing electrolyte for a lead acid battery",
+    "A": "Water is poured into acid",
+    "B": "Acid is poured into water",
+    "C": "Anyone of the two can be added to other chemical",
+    "D": "None of the above",
+    "Answer": "Acid is poured into water",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Mixing acid with water is highly exothermic (releases a lot of heat).\n2. If water is poured into concentrated acid, it can boil and splatter violently.\n3. To control the heat, acid should be added slowly to water while stirring."
+  },
+  {
+    "Question": "Electrolyte for silver plating is",
+    "A": "Potassium nitrate solution",
+    "B": "Dilute sulphuric acid",
+    "C": "Double cyanide of silver and potassium solution",
+    "D": "Any of the above",
+    "Answer": "Double cyanide of silver and potassium solution",
+    "Image": "1",
+    "Explaination": "Step-by-Step Solution:\n1. Silver plating is an electroplating process.\n2. The electrolyte must contain silver ions.\n3. A common electrolyte is a solution of double cyanide of silver and potassium (potassium argentocyanide)."
+  }
+]

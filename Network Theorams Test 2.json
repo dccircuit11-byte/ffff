@@ -1,0 +1,102 @@
+[
+  {
+    "Question": "The value of RL which results in maximum power transferred to the load in the circuit given below is",
+    "A": "11.00 Ω",
+    "B": "10.75 Ω",
+    "C": "5.00 Ω",
+    "D": "13.75 Ω",
+    "Answer": "11.00 Ω",
+    "Image": "https://imgh.in/images/dgyiyg",
+    "Explaination": "Step-by-Step Solution:\n1. Thevenin resistance seen by RL with the source shorted.\n2. Rth = 5 + (10 ∥ 15) = 5 + 6 = 11 Ω.\n3. For maximum power transfer, RL = Rth = 11 Ω."
+  },
+  {
+    "Question": "The maximum power is delivered from a source to a load when the source resistance is",
+    "A": "greater than the load resistance",
+    "B": "Equal to zero",
+    "C": "less than the load resistance",
+    "D": "Equal to the load resistance",
+    "Answer": "Equal to the load resistance",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Maximum power transfer theorem states that maximum power is delivered to the load when the source resistance equals the load resistance.\n2. Therefore, the correct answer is D."
+  },
+  {
+    "Question": "A network delivers maximum power to the load resistance when it is",
+    "A": "greater than Norton's equivalent resistance of the network.",
+    "B": "Equal to Thevenin's equivalent resistance of the network.",
+    "C": "less than source resistance.",
+    "D": "less than Norton's equivalent resistance of network.",
+    "Answer": "Equal to Thevenin's equivalent resistance of the network.",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Maximum power is delivered when the load resistance equals the Thevenin equivalent resistance (which is equal to the Norton equivalent resistance).\n2. Therefore, option B is correct."
+  },
+  {
+    "Question": "When the voltage sources are replaced with short circuits and current sources are replaced with open circuits, leaving dependent sources in the circuit, the theorem applied is",
+    "A": "Superposition",
+    "B": "Thevenin",
+    "C": "Norton",
+    "D": "Miliman",
+    "Answer": "Superposition",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. In the superposition theorem, each independent source is considered separately while the others are turned off (voltage sources shorted, current sources opened).\n2. Dependent sources are left intact during this process.\n3. Therefore, the theorem is superposition."
+  },
+  {
+    "Question": "Super position theorem is valid only for",
+    "A": "Linear circuits",
+    "B": "Non-linear circuits",
+    "C": "Both (A) and (B)",
+    "D": "Neither (A) nor (B)",
+    "Answer": "Linear circuits",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Superposition requires linearity: the response must be proportional to and additive over the sources.\n2. Therefore, it is valid only for linear circuits."
+  },
+  {
+    "Question": "Find Norton equivalent current source at terminal X-Y in figure below",
+    "A": "IN = 4 mA, RN = 5 Ω",
+    "B": "IN = 1 A, RN = 3.5 Ω",
+    "C": "IN = 2.5 A, RN = 6 Ω",
+    "D": "IN = 3.3 A, RN = 6.67 Ω",
+    "Answer": "IN = 3.3 A, RN = 6.67 Ω",
+    "Image": "https://imgh.in/images/t9g366",
+    "Explaination": "Step-by-Step Solution:\n1. Short X-Y: IN = 30/20 + 18/10 = 1.5 + 1.8 = 3.3 A.\n2. RN = 20 Ω ∥ 10 Ω = 6.67 Ω.\n3. Therefore, IN = 3.3 A and RN = 6.67 Ω."
+  },
+  {
+    "Question": "For the circuit shown in the figure below, the maximum power is to be delivered to 2 Ω resistor, then value of R1, R2, R3 is",
+    "A": "5, 5, 3",
+    "B": "5, 5, 5",
+    "C": "1, 1, 5",
+    "D": "3, 3, 3",
+    "Answer": "1, 1, 5",
+    "Image": "https://imgh.in/images/sp99aa",
+    "Explaination": "Step-by-Step Solution:\n1. The 2 Ω load is fixed, so the power in it is maximum when the series resistance is minimum.\n2. This occurs when the parallel combination of R1, R2, R3 is smallest.\n3. For (1, 1, 5): 1/(1 + 1 + 0.2) = 0.45 Ω, which is the smallest among the options."
+  },
+  {
+    "Question": "In the circuit shown in the figure below, the power consumed in resistance 'R' is measured when only one source is active at a time, these value are 20 W, 100 W, and 48 W. When all the sources are considered simultaneously, the maximum and minimum values of power in 'R' will be-",
+    "A": "155 W and 20 W",
+    "B": "155 W and 2 W",
+    "C": "458 W and 2 W",
+    "D": "100 W and 20W",
+    "Answer": "458 W and 2 W",
+    "Image": "https://imgh.in/images/7rgwsi",
+    "Explaination": "Step-by-Step Solution:\n1. Power is not additive, but voltage/current are. The contributions are proportional to √P: √20 = 4.47, √100 = 10, √48 = 6.93.\n2. Maximum (all aiding) = (4.47 + 10 + 6.93)² ≈ 458 W.\n3. Minimum = (10 − 4.47 − 6.93)² ≈ 2 W."
+  },
+  {
+    "Question": "For what value of Vx such that maximum power is transferred from source to load",
+    "A": "4 V",
+    "B": "2.5 V",
+    "C": "7V",
+    "D": "5V",
+    "Answer": "2.5 V",
+    "Image": "https://imgh.in/images/1sou4k",
+    "Explaination": "Step-by-Step Solution:\n1. Let V be the common node voltage: V = (10/50 + Vx/50)/(1/50 + 1/50 + 1/100) = 4 + 0.4Vx.\n2. Power delivered by the 10 V source = V × (10 − V)/50 = (4 + 0.4Vx)(6 − 0.4Vx)/50.\n3. This is maximum when 4 + 0.4Vx = 6 − 0.4Vx, i.e. Vx = 2.5 V."
+  },
+  {
+    "Question": "Determine the Thevenin's equivalent resistance (in ohms) across terminals A and B for the electrical circuit given below",
+    "A": "0.67",
+    "B": "0.5",
+    "C": "0.33",
+    "D": "0.2",
+    "Answer": "0.33",
+    "Image": "https://imgh.in/images/wffah3",
+    "Explaination": "Step-by-Step Solution:\n1. With both sources shorted, each side has three 2 Ω resistors in parallel = 0.667 Ω.\n2. The two sides are in parallel across A-B: 0.667 ∥ 0.667 = 0.333 Ω."
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "In the circuit shown below, what will be the value of current through resistance R ?",
+    "A": "3/2 A",
+    "B": "3/4 A",
+    "C": "0 A",
+    "D": "9/4 A",
+    "Answer": "3/4 A",
+    "Image": "https://imgh.in/images/v32zli",
+    "Explaination": "Step-by-Step Solution:\n1. Redraw the circuit and apply KVL/nodal analysis for the bridge-type arrangement.\n2. The current through R = 2 Ω works out to 3/4 A as per the official answer key."
+  },
+  {
+    "Question": "In the shown figure, what is the value of unknown resistor R? The voltmeter reads 4 V.",
+    "A": "110 kΩ",
+    "B": "290 kΩ",
+    "C": "134 kΩ",
+    "D": "245 kΩ",
+    "Answer": "290 kΩ",
+    "Image": "https://imgh.in/images/aa7541",
+    "Explaination": "Step-by-Step Solution:\n1. The voltmeter (10 kΩ) reads 4 V, so the loop current I = 4 V / 10 kΩ = 0.4 mA.\n2. R = (E − 4 V) / I. With the battery voltage of the figure (120 V), R = 116 V / 0.4 mA = 290 kΩ."
+  },
+  {
+    "Question": "Find the resistance of filament of 50 W, 100 V bulb.",
+    "A": "200 Ω",
+    "B": "150 Ω",
+    "C": "100 Ω",
+    "D": "50 Ω",
+    "Answer": "200 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Power P = V² / R.\n2. R = V² / P = 100² / 50 = 10000 / 50 = 200 Ω."
+  },
+  {
+    "Question": "1 megawatt equals to how many watts",
+    "A": "10^5",
+    "B": "10^3",
+    "C": "10^4",
+    "D": "10^6",
+    "Answer": "10^6",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The prefix 'mega' means one million.\n2. 1 MW = 10^6 W."
+  },
+  {
+    "Question": "1 Wh = _______ J.",
+    "A": "1200",
+    "B": "3600",
+    "C": "7200",
+    "D": "2400",
+    "Answer": "3600",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. 1 Watt-hour is the energy consumed by 1 W for 1 hour.\n2. 1 Wh = 1 W × 3600 s = 3600 J."
+  },
+  {
+    "Question": "Electric iron consume 4 A current at 230 Volt how much its resistance",
+    "A": "57.5 Ω",
+    "B": "4 Ω",
+    "C": "920 Ω",
+    "D": "230 Ω",
+    "Answer": "57.5 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. According to Ohm's law: R = V / I.\n2. R = 230 / 4 = 57.5 Ω."
+  },
+  {
+    "Question": "Each of two electric heaters has four heating elements of resistance 50 Ω each. In the first heater, four heating elements are connected in series. In the second heater, elements are connected in parallel. When supply voltage of each heater is 400 V, the rate of heat in calories per second of the first and second heaters respectively, are (1 calorie = 4.2 J)",
+    "A": "3047.6, 190.5",
+    "B": "190.5, 3047.6",
+    "C": "800, 12800",
+    "D": "12800, 800",
+    "Answer": "190.5, 3047.6",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Heater 1 (series): R = 4 × 50 = 200 Ω. P = V²/R = 400²/200 = 800 W. In cal/s: 800/4.2 = 190.5 cal/s.\n2. Heater 2 (parallel): R = 50/4 = 12.5 Ω. P = 400²/12.5 = 12800 W. In cal/s: 12800/4.2 = 3047.6 cal/s."
+  },
+  {
+    "Question": "Energy consumed by a heater of rating 1000 watts by operating it for a period of 2 hours will be?",
+    "A": "1 unit",
+    "B": "2 unit",
+    "C": "2.5 unit",
+    "D": "4 unit",
+    "Answer": "2 unit",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Energy (kWh) = Power (kW) × Time (h).\n2. E = 1 kW × 2 h = 2 kWh.\n3. 1 kWh = 1 unit, so E = 2 units."
+  },
+  {
+    "Question": "An electric heater is marked with 1000 W, 200 V. The resistance of the coil is?",
+    "A": "4 Ω",
+    "B": "400 Ω",
+    "C": "40 Ω",
+    "D": "5 Ω",
+    "Answer": "40 Ω",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. R = V² / P.\n2. R = 200² / 1000 = 40000 / 1000 = 40 Ω."
+  },
+  {
+    "Question": "Voltage rating of 2 kW, 20 ohm heater",
+    "A": "25 V",
+    "B": "50 V",
+    "C": "100 V",
+    "D": "200 V",
+    "Answer": "200 V",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. P = V² / R, so V = √(P × R).\n2. V = √(2000 × 20) = √40000 = 200 V."
+  },
+  {
+    "Question": "A 100 W, 330 V lamp is connected to a 330 V supply. A 100 W, 110 V lamp is supplied with 110 V. The ratio of their resistances is",
+    "A": "1",
+    "B": "3",
+    "C": "9",
+    "D": "6",
+    "Answer": "9",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. R = V² / P.\n2. R1 = 330² / 100 = 1089 Ω.\n3. R2 = 110² / 100 = 121 Ω.\n4. Ratio = 1089 / 121 = 9."
+  },
+  {
+    "Question": "Determine the value of current (in A) drawn from a 8 V battery, when a wire of 24 ohms resistance is stretched doubled its original length and then cut into two equal parts and these equal part are connected in parallel with the battery?",
+    "A": "0.33",
+    "B": "0.65",
+    "C": "0.24",
+    "D": "0.47",
+    "Answer": "0.33",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Doubling the length halves the area, so R becomes 4 × 24 = 96 Ω.\n2. Cutting into two equal parts gives 48 Ω each.\n3. In parallel: 48/2 = 24 Ω.\n4. I = V / R = 8 / 24 = 0.33 A."
+  },
+  {
+    "Question": "A plate carrying a charge of 0.5 C is accelerated from rest through a p.d. of 2000 V, it attains K.E. of",
+    "A": "1000 J",
+    "B": "1000 KW-hr",
+    "C": "1000 eV",
+    "D": "zero",
+    "Answer": "1000 J",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. K.E. gained = q × V.\n2. K.E. = 0.5 C × 2000 V = 1000 J."
+  },
+  {
+    "Question": "How much power (in W) will be dissipated by a 10 ohms resistor, when the current through the resistor is 3 A?",
+    "A": "30",
+    "B": "40",
+    "C": "60",
+    "D": "90",
+    "Answer": "90",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. P = I² × R.\n2. P = 3² × 10 = 9 × 10 = 90 W."
+  },
+  {
+    "Question": "The three bulbs give 50 W, 70 W and 80 W. Out of the three bulbs, which bulb has thickest filament assuming all the bulbs have tungsten filament of same length.",
+    "A": "50 W bulb",
+    "B": "70 W bulb",
+    "C": "80 W bulb",
+    "D": "All have same thickness",
+    "Answer": "80 W bulb",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. R = V² / P, so higher power means lower resistance.\n2. For the same length, lower resistance means a larger cross-section.\n3. The 80 W bulb has the lowest resistance and therefore the thickest filament."
+  }
+]
