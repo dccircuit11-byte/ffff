@@ -1,0 +1,82 @@
+[
+  {
+    "Question": "Regulation of a transformer is defined by rise in primary voltage required to maintain rated output voltage at a given power factor for a lagging power factor load :",
+    "A": "From no load to 50% of full load",
+    "B": "From no load to full load",
+    "C": "From no load to 25% of full load",
+    "D": "From no load to 75% of full load",
+    "Answer": "From no load to full load",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Voltage regulation of a transformer is defined as the change in secondary terminal voltage when the load is reduced from full load to no load, with the primary voltage held constant.\n2. Equivalently, it is the rise in primary voltage required to maintain the rated secondary output voltage when the load changes from no load to full load at a specified power factor.\n3. The standard definition always considers the full range: from NO LOAD to FULL LOAD.\n4. Conclusion: Regulation is defined for the load change from no load to full load."
+  },
+  {
+    "Question": "The efficiency of a transformer depends :",
+    "A": "on both load power factor and load magnitude",
+    "B": "on load power factor",
+    "C": "on load magnitude",
+    "D": "neither on load power factor nor on load magnitude",
+    "Answer": "on both load power factor and load magnitude",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The efficiency of a transformer is given by: η = Output Power / (Output Power + Losses).\n2. Output Power = V × I × cos φ, where 'cos φ' is the load power factor and 'I' (load current) represents the load magnitude.\n3. Losses consist of constant iron losses and variable copper losses (I²R), which depend on the load magnitude (current).\n4. Therefore, efficiency depends on BOTH the load power factor (cos φ) AND the load magnitude (current).\n5. Conclusion: Efficiency depends on both load power factor and load magnitude."
+  },
+  {
+    "Question": "Distribution transformers must be designed to have maximum efficiency at :",
+    "A": "Full load",
+    "B": "No loader",
+    "C": "About 90% of the full load",
+    "D": "About 50% of the full load",
+    "Answer": "About 50% of the full load",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Distribution transformers supply residential and commercial loads, which vary throughout the day. They rarely operate at full load; their average load is typically around 50% of full load.\n2. Maximum efficiency occurs when variable copper losses equal constant iron losses (Copper Loss = Iron Loss).\n3. To achieve this at the typical operating load (around 50%), distribution transformers are designed with a lower copper loss relative to iron loss.\n4. Conclusion: Distribution transformers are designed for maximum efficiency at about 50% of full load."
+  },
+  {
+    "Question": "The voltage regulation of a transformer having copper loss 1% of output and percentage reactance drop of 5% and power factor 0.9 lagging is ______ :",
+    "A": "3.08%",
+    "B": "3%",
+    "C": "– 3.08%",
+    "D": "3.8%",
+    "Answer": "3.08%",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/w76o2t"
+  },
+  {
+    "Question": "For a 100% efficient transformer, the primary winding has 1000 turns and the secondary 100 turns. If the power input to the above transformer is 1000 watts, the power output is ______",
+    "A": "1000 watts",
+    "B": "100 watts",
+    "C": "10 watts",
+    "D": "10 kW",
+    "Answer": "1000 watts",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/ep4e6t"
+  },
+  {
+    "Question": "A transformer has a core loss of 64 W and copper loss of 144W, when it is carrying 20% overload current. The load at which this transformer will operate at the maximum efficiency ______",
+    "A": "80%",
+    "B": "66%",
+    "C": "120%",
+    "D": "44%",
+    "Answer": "80%",
+    "Image": "",
+    "Explaination": "https://imgh.in/images/hh5red"
+  },
+  {
+    "Question": "Which of the following transformers is smallest?",
+    "A": "1 kVA, 50 Hz",
+    "B": "1 kVA, 200 Hz",
+    "C": "1 kVA, 400 Hz",
+    "D": "1 kVA, 600 Hz",
+    "Answer": "1 kVA, 600 Hz",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. The size of a transformer core is determined by the EMF equation: E = 4.44 × f × N × Bm × A.\n2. For a given voltage (E) and flux density (Bm), the required core area (A) is inversely proportional to the frequency (f): A ∝ 1/f.\n3. Higher frequency means a smaller required core area and fewer turns, resulting in a physically smaller and lighter transformer.\n4. Comparing the options, 600 Hz is the highest frequency, so it requires the smallest core.\n5. Conclusion: The 1 kVA, 600 Hz transformer is the smallest."
+  },
+  {
+    "Question": "Under heavy loads, transformer efficiency is comparatively low because ______",
+    "A": "voltage drops both in primary and secondary-becomes large",
+    "B": "secondary output is much less as compared to primary input",
+    "C": "copper loss becomes high in proportion to the output",
+    "D": "iron loss is increased considerably",
+    "Answer": "copper loss becomes high in proportion to the output",
+    "Image": "",
+    "Explaination": "Step-by-Step Solution:\n1. Transformer efficiency is given by: η = Output / (Output + Iron Loss + Copper Loss).\n2. Iron losses are constant and independent of load. Copper losses (I²R) vary with the square of the load current.\n3. Under heavy loads (high current), the copper loss increases significantly and becomes a large proportion of the output power.\n4. This large increase in copper loss reduces the overall efficiency of the transformer.\n5. Conclusion: Efficiency is low under heavy loads because copper loss becomes high in proportion to the output."
+  }
+]

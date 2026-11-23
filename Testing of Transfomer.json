@@ -1,0 +1,162 @@
+[
+  {
+    "Question": "What is the primary purpose of conducting an Open Circuit (OC) test on a transformer?",
+    "A": "To determine the copper losses",
+    "B": "To determine the core (iron) losses and no-load parameters",
+    "C": "To determine the voltage regulation",
+    "D": "To determine the winding resistance",
+    "Answer": "To determine the core (iron) losses and no-load parameters",
+    "Image": "1",
+    "Explaination": "The Open Circuit test is performed to determine the core (iron) losses, magnetizing current, and no-load parameters of the transformer."
+  },
+  {
+    "Question": "On which side of the transformer is the Open Circuit (OC) test normally performed?",
+    "A": "High voltage side",
+    "B": "Low voltage side",
+    "C": "Either side",
+    "D": "Both sides simultaneously",
+    "Answer": "Low voltage side",
+    "Image": "1",
+    "Explaination": "The OC test is normally performed on the low voltage side because the no-load current is small, and it is safer and easier to apply rated voltage to the low voltage winding."
+  },
+  {
+    "Question": "What is the primary purpose of conducting a Short Circuit (SC) test on a transformer?",
+    "A": "To determine the core losses",
+    "B": "To determine the full-load copper losses and equivalent circuit parameters",
+    "C": "To determine the voltage regulation",
+    "D": "To determine the winding resistance",
+    "Answer": "To determine the full-load copper losses and equivalent circuit parameters",
+    "Image": "1",
+    "Explaination": "The Short Circuit test is performed to determine the full-load copper losses and the equivalent resistance and reactance of the transformer."
+  },
+  {
+    "Question": "On which side of the transformer is the Short Circuit (SC) test normally performed?",
+    "A": "High voltage side",
+    "B": "Low voltage side",
+    "C": "Either side",
+    "D": "Both sides simultaneously",
+    "Answer": "High voltage side",
+    "Image": "1",
+    "Explaination": "The SC test is normally performed on the high voltage side because the applied voltage is very low (a few percent of rated voltage), and the currents are high, making it practical to measure on the high voltage side."
+  },
+  {
+    "Question": "During the Open Circuit (OC) test, which of the following is true?",
+    "A": "The secondary winding is short-circuited",
+    "B": "The secondary winding is open-circuited",
+    "C": "The primary winding is short-circuited",
+    "D": "The primary winding is open-circuited",
+    "Answer": "The secondary winding is open-circuited",
+    "Image": "1",
+    "Explaination": "During the OC test, the secondary winding is left open-circuited, and rated voltage is applied to the primary winding to measure the no-load current and power."
+  },
+  {
+    "Question": "During the Short Circuit (SC) test, which of the following is true?",
+    "A": "The secondary winding is open-circuited",
+    "B": "The secondary winding is short-circuited",
+    "C": "The primary winding is open-circuited",
+    "D": "The primary winding is short-circuited",
+    "Answer": "The secondary winding is short-circuited",
+    "Image": "1",
+    "Explaination": "During the SC test, the secondary winding is short-circuited, and a reduced voltage is applied to the primary winding to circulate rated current and measure the copper losses."
+  },
+  {
+    "Question": "In the Open Circuit (OC) test, the wattmeter reading represents:",
+    "A": "Copper losses",
+    "B": "Core (iron) losses",
+    "C": "Total losses",
+    "D": "Dielectric losses",
+    "Answer": "Core (iron) losses",
+    "Image": "1",
+    "Explaination": "In the OC test, the wattmeter reading represents the core (iron) losses, as the copper losses are negligible due to the very small no-load current."
+  },
+  {
+    "Question": "In the Short Circuit (SC) test, the wattmeter reading represents:",
+    "A": "Core (iron) losses",
+    "B": "Full-load copper losses",
+    "C": "Total losses",
+    "D": "Dielectric losses",
+    "Answer": "Full-load copper losses",
+    "Image": "1",
+    "Explaination": "In the SC test, the wattmeter reading represents the full-load copper losses, as the core losses are negligible due to the very low applied voltage."
+  },
+  {
+    "Question": "What is the Sumpner's test also known as?",
+    "A": "Open Circuit test",
+    "B": "Short Circuit test",
+    "C": "Back-to-Back test",
+    "D": "Polarity test",
+    "Answer": "Back-to-Back test",
+    "Image": "1",
+    "Explaination": "Sumpner's test is also known as the Back-to-Back test, used to determine the efficiency and temperature rise of two identical transformers connected in parallel."
+  },
+  {
+    "Question": "What is the main advantage of Sumpner's test?",
+    "A": "It requires less equipment",
+    "B": "It determines the efficiency and temperature rise under actual load conditions without loading the transformers",
+    "C": "It is faster than the OC and SC tests",
+    "D": "It requires only one transformer",
+    "Answer": "It determines the efficiency and temperature rise under actual load conditions without loading the transformers",
+    "Image": "1",
+    "Explaination": "The main advantage of Sumpner's test is that it determines the efficiency and temperature rise under actual load conditions without actually loading the transformers, saving energy."
+  },
+  {
+    "Question": "What is the Polarity test of a transformer used for?",
+    "A": "To determine the winding resistance",
+    "B": "To determine the relative polarity of the primary and secondary windings for parallel operation",
+    "C": "To determine the core losses",
+    "D": "To determine the voltage regulation",
+    "Answer": "To determine the relative polarity of the primary and secondary windings for parallel operation",
+    "Image": "1",
+    "Explaination": "The Polarity test determines the relative polarity of the primary and secondary windings, which is essential for connecting transformers in parallel."
+  },
+  {
+    "Question": "What is the typical value of the applied voltage during the Short Circuit (SC) test?",
+    "A": "Rated voltage",
+    "B": "5% to 10% of rated voltage",
+    "C": "50% of rated voltage",
+    "D": "110% of rated voltage",
+    "Answer": "5% to 10% of rated voltage",
+    "Image": "1",
+    "Explaination": "During the SC test, a reduced voltage of about 5% to 10% of the rated voltage is applied to circulate rated current in the short-circuited secondary."
+  },
+  {
+    "Question": "What is the typical value of the applied voltage during the Open Circuit (OC) test?",
+    "A": "Rated voltage",
+    "B": "5% to 10% of rated voltage",
+    "C": "50% of rated voltage",
+    "D": "110% of rated voltage",
+    "Answer": "Rated voltage",
+    "Image": "1",
+    "Explaination": "During the OC test, rated voltage is applied to the primary winding, and the secondary is left open-circuited."
+  },
+  {
+    "Question": "What is the purpose of the Dielectric test on a transformer?",
+    "A": "To determine the winding resistance",
+    "B": "To test the insulation strength of the transformer",
+    "C": "To determine the core losses",
+    "D": "To determine the voltage regulation",
+    "Answer": "To test the insulation strength of the transformer",
+    "Image": "1",
+    "Explaination": "The Dielectric test is performed to test the insulation strength of the transformer by applying a high voltage between the windings and the ground."
+  },
+  {
+    "Question": "What is the purpose of the Impulse test on a transformer?",
+    "A": "To determine the winding resistance",
+    "B": "To test the transformer's ability to withstand lightning and switching surges",
+    "C": "To determine the core losses",
+    "D": "To determine the voltage regulation",
+    "Answer": "To test the transformer's ability to withstand lightning and switching surges",
+    "Image": "1",
+    "Explaination": "The Impulse test is performed to test the transformer's ability to withstand lightning and switching surges by applying a high-voltage impulse to the windings."
+  },
+  {
+    "Question": "What is the purpose of the Temperature Rise test on a transformer?",
+    "A": "To determine the winding resistance",
+    "B": "To determine the temperature rise of the transformer under full-load conditions",
+    "C": "To determine the core losses",
+    "D": "To determine the voltage regulation",
+    "Answer": "To determine the temperature rise of the transformer under full-load conditions",
+    "Image": "1",
+    "Explaination": "The Temperature Rise test is performed to determine the temperature rise of the transformer under full-load conditions, ensuring it operates within safe limits."
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "Question": "What is an auto-transformer?",
+    "A": "A transformer with only one winding which acts as both primary and secondary",
+    "B": "A transformer with two separate windings",
+    "C": "A transformer with three windings",
+    "D": "A transformer with no windings",
+    "Answer": "A transformer with only one winding which acts as both primary and secondary",
+    "Image": "1",
+    "Explaination": "An auto-transformer is a transformer with only one winding, part of which is common to both the primary and secondary circuits."
+  },
+  {
+    "Question": "What is the main advantage of an auto-transformer over a two-winding transformer?",
+    "A": "Higher efficiency and lower cost for the same rating",
+    "B": "Higher isolation between primary and secondary",
+    "C": "Higher voltage regulation",
+    "D": "Lower power transfer capability",
+    "Answer": "Higher efficiency and lower cost for the same rating",
+    "Image": "1",
+    "Explaination": "An auto-transformer is more efficient and less costly than a two-winding transformer of the same rating because it uses less winding material and has lower losses."
+  },
+  {
+    "Question": "What is the main disadvantage of an auto-transformer?",
+    "A": "Lower efficiency",
+    "B": "No electrical isolation between primary and secondary",
+    "C": "Higher cost",
+    "D": "Larger size",
+    "Answer": "No electrical isolation between primary and secondary",
+    "Image": "1",
+    "Explaination": "The main disadvantage of an auto-transformer is that there is no electrical isolation between the primary and secondary circuits, which can be a safety hazard."
+  },
+  {
+    "Question": "In an auto-transformer, the power transferred from primary to secondary is:",
+    "A": "Entirely by conduction",
+    "B": "Entirely by induction",
+    "C": "Partly by conduction and partly by induction",
+    "D": "By radiation",
+    "Answer": "Partly by conduction and partly by induction",
+    "Image": "1",
+    "Explaination": "In an auto-transformer, power is transferred partly by conduction (through the common winding) and partly by induction (through the magnetic field)."
+  },
+  {
+    "Question": "What is the condition for parallel operation of two transformers?",
+    "A": "Same voltage ratio, same polarity, and same percentage impedance",
+    "B": "Different voltage ratios",
+    "C": "Different polarities",
+    "D": "Different frequencies",
+    "Answer": "Same voltage ratio, same polarity, and same percentage impedance",
+    "Image": "1",
+    "Explaination": "For parallel operation, transformers must have the same voltage ratio, same polarity, and same percentage impedance to ensure proper load sharing."
+  },
+  {
+    "Question": "What happens if two transformers with different voltage ratios are connected in parallel?",
+    "A": "They share load equally",
+    "B": "A circulating current flows between them even at no load",
+    "C": "The transformers operate efficiently",
+    "D": "The transformers are damaged immediately",
+    "Answer": "A circulating current flows between them even at no load",
+    "Image": "1",
+    "Explaination": "If two transformers with different voltage ratios are connected in parallel, a circulating current flows between them even at no load, causing unnecessary losses and heating."
+  },
+  {
+    "Question": "What happens if two transformers with different percentage impedances are connected in parallel?",
+    "A": "They share load equally",
+    "B": "The load is shared in proportion to their impedances",
+    "C": "The transformers operate efficiently",
+    "D": "The transformers are damaged immediately",
+    "Answer": "The load is shared in proportion to their impedances",
+    "Image": "1",
+    "Explaination": "If two transformers with different percentage impedances are connected in parallel, the load is shared in proportion to their impedances, which may lead to unequal loading."
+  },
+  {
+    "Question": "What is the condition for parallel operation of two transformers regarding polarity?",
+    "A": "They must have the same polarity",
+    "B": "They must have opposite polarity",
+    "C": "Polarity does not matter",
+    "D": "They must have different polarities",
+    "Answer": "They must have the same polarity",
+    "Image": "1",
+    "Explaination": "For parallel operation, transformers must have the same polarity to avoid a short circuit between the windings."
+  },
+  {
+    "Question": "What is the condition for parallel operation of two transformers regarding phase sequence?",
+    "A": "They must have the same phase sequence",
+    "B": "They must have opposite phase sequence",
+    "C": "Phase sequence does not matter",
+    "D": "They must have different phase sequences",
+    "Answer": "They must have the same phase sequence",
+    "Image": "1",
+    "Explaination": "For parallel operation of three-phase transformers, they must have the same phase sequence to avoid a short circuit between the phases."
+  },
+  {
+    "Question": "What is the condition for parallel operation of two transformers regarding voltage ratio?",
+    "A": "They must have the same voltage ratio",
+    "B": "They must have different voltage ratios",
+    "C": "Voltage ratio does not matter",
+    "D": "They must have a 10% difference in voltage ratio",
+    "Answer": "They must have the same voltage ratio",
+    "Image": "1",
+    "Explaination": "For parallel operation, transformers must have the same voltage ratio to avoid circulating currents."
+  },
+  {
+    "Question": "What is the condition for parallel operation of two transformers regarding percentage impedance?",
+    "A": "They must have the same percentage impedance",
+    "B": "They must have different percentage impedances",
+    "C": "Percentage impedance does not matter",
+    "D": "They must have a 10% difference in percentage impedance",
+    "Answer": "They must have the same percentage impedance",
+    "Image": "1",
+    "Explaination": "For parallel operation, transformers should have the same percentage impedance to ensure equal load sharing."
+  },
+  {
+    "Question": "What is the condition for parallel operation of two transformers regarding kVA rating?",
+    "A": "They must have the same kVA rating",
+    "B": "They can have different kVA ratings",
+    "C": "kVA rating does not matter",
+    "D": "They must have a 10% difference in kVA rating",
+    "Answer": "They can have different kVA ratings",
+    "Image": "1",
+    "Explaination": "Transformers with different kVA ratings can be operated in parallel, provided the other conditions (voltage ratio, polarity, percentage impedance) are met, and the load is shared proportionally to their ratings."
+  },
+  {
+    "Question": "What is the purpose of the tap changer in a transformer?",
+    "A": "To change the voltage ratio",
+    "B": "To change the frequency",
+    "C": "To change the power factor",
+    "D": "To change the phase sequence",
+    "Answer": "To change the voltage ratio",
+    "Image": "1",
+    "Explaination": "A tap changer is used to change the voltage ratio of a transformer by adjusting the number of turns in the winding."
+  },
+  {
+    "Question": "What is the difference between an on-load tap changer and an off-load tap changer?",
+    "A": "An on-load tap changer can be operated while the transformer is energized, while an off-load tap changer requires the transformer to be de-energized",
+    "B": "An on-load tap changer is used for low voltage, while an off-load tap changer is used for high voltage",
+    "C": "An on-load tap changer is more expensive than an off-load tap changer",
+    "D": "An on-load tap changer is used for DC, while an off-load tap changer is used for AC",
+    "Answer": "An on-load tap changer can be operated while the transformer is energized, while an off-load tap changer requires the transformer to be de-energized",
+    "Image": "1",
+    "Explaination": "An on-load tap changer (OLTC) can be operated while the transformer is energized, allowing voltage adjustment without interrupting the power supply. An off-load tap changer requires the transformer to be de-energized before changing taps."
+  },
+  {
+    "Question": "What is the purpose of the tertiary winding in a three-winding transformer?",
+    "A": "To provide a path for zero-sequence currents",
+    "B": "To increase the voltage ratio",
+    "C": "To improve the power factor",
+    "D": "To change the phase sequence",
+    "Answer": "To provide a path for zero-sequence currents",
+    "Image": "1",
+    "Explaination": "A tertiary winding in a three-winding transformer provides a path for zero-sequence currents and can be used for auxiliary power or reactive power compensation."
+  },
+  {
+    "Question": "What is the difference between a three-winding transformer and an auto-transformer?",
+    "A": "A three-winding transformer has three separate windings, while an auto-transformer has only one winding",
+    "B": "A three-winding transformer has higher efficiency",
+    "C": "A three-winding transformer has lower cost",
+    "D": "A three-winding transformer has no isolation",
+    "Answer": "A three-winding transformer has three separate windings, while an auto-transformer has only one winding",
+    "Image": "1",
+    "Explaination": "A three-winding transformer has three separate windings (primary, secondary, and tertiary), while an auto-transformer has only one winding with a tapped portion."
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "Question": "What is the main advantage of a three-phase transformer over three single-phase transformers?",
+    "A": "Lower cost, smaller size, and higher efficiency",
+    "B": "Higher cost and larger size",
+    "C": "Lower efficiency",
+    "D": "Higher maintenance requirements",
+    "Answer": "Lower cost, smaller size, and higher efficiency",
+    "Image": "1",
+    "Explaination": "A three-phase transformer is more economical, compact, and efficient compared to three separate single-phase transformers of the same total rating."
+  },
+  {
+    "Question": "Which of the following is a common three-phase transformer connection?",
+    "A": "Star-Star (Y-Y)",
+    "B": "Delta-Delta (Δ-Δ)",
+    "C": "Star-Delta (Y-Δ)",
+    "D": "All of the above",
+    "Answer": "All of the above",
+    "Image": "1",
+    "Explaination": "Star-Star, Delta-Delta, Star-Delta, and Delta-Star are all common three-phase transformer connections, each with specific applications."
+  },
+  {
+    "Question": "Which three-phase transformer connection is most commonly used for stepping up voltage at generating stations?",
+    "A": "Star-Star (Y-Y)",
+    "B": "Delta-Star (Δ-Y)",
+    "C": "Star-Delta (Y-Δ)",
+    "D": "Delta-Delta (Δ-Δ)",
+    "Answer": "Delta-Star (Δ-Y)",
+    "Image": "1",
+    "Explaination": "The Delta-Star connection is commonly used for stepping up voltage at generating stations because it provides a neutral point for grounding on the high-voltage side."
+  },
+  {
+    "Question": "Which three-phase transformer connection is most commonly used for stepping down voltage at distribution substations?",
+    "A": "Star-Star (Y-Y)",
+    "B": "Delta-Star (Δ-Y)",
+    "C": "Star-Delta (Y-Δ)",
+    "D": "Delta-Delta (Δ-Δ)",
+    "Answer": "Delta-Star (Δ-Y)",
+    "Image": "1",
+    "Explaination": "The Delta-Star connection is commonly used for stepping down voltage at distribution substations, providing a neutral point for the low-voltage distribution system."
+  },
+  {
+    "Question": "What is the main disadvantage of the Star-Star (Y-Y) connection?",
+    "A": "It has no neutral point",
+    "B": "It allows third harmonic currents to flow",
+    "C": "It requires a neutral connection for proper operation and can cause instability with unbalanced loads",
+    "D": "It has the highest cost",
+    "Answer": "It requires a neutral connection for proper operation and can cause instability with unbalanced loads",
+    "Image": "1",
+    "Explaination": "The main disadvantage of the Star-Star connection is that it requires a neutral connection for proper operation and can cause instability with unbalanced loads due to the presence of third harmonic voltages."
+  },
+  {
+    "Question": "What is the main advantage of the Delta-Star (Δ-Y) connection?",
+    "A": "It provides a neutral point for grounding on the secondary side",
+    "B": "It has no neutral point",
+    "C": "It allows third harmonic currents to flow",
+    "D": "It has the lowest cost",
+    "Answer": "It provides a neutral point for grounding on the secondary side",
+    "Image": "1",
+    "Explaination": "The Delta-Star connection provides a neutral point for grounding on the secondary side, making it suitable for distribution systems."
+  },
+  {
+    "Question": "What is the main advantage of the Star-Delta (Y-Δ) connection?",
+    "A": "It provides a neutral point for grounding on the primary side",
+    "B": "It has no neutral point",
+    "C": "It allows third harmonic currents to flow",
+    "D": "It has the lowest cost",
+    "Answer": "It provides a neutral point for grounding on the primary side",
+    "Image": "1",
+    "Explaination": "The Star-Delta connection provides a neutral point for grounding on the primary side and is commonly used in high-voltage transmission systems."
+  },
+  {
+    "Question": "What is the main disadvantage of the Delta-Delta (Δ-Δ) connection?",
+    "A": "It has no neutral point",
+    "B": "It allows third harmonic currents to flow",
+    "C": "It has the highest cost",
+    "D": "It has the lowest efficiency",
+    "Answer": "It has no neutral point",
+    "Image": "1",
+    "Explaination": "The main disadvantage of the Delta-Delta connection is that it has no neutral point, making it unsuitable for systems requiring a neutral for grounding or single-phase loads."
+  },
+  {
+    "Question": "What is the phase shift between the primary and secondary voltages in a Delta-Star (Δ-Y) transformer?",
+    "A": "0°",
+    "B": "30°",
+    "C": "60°",
+    "D": "90°",
+    "Answer": "30°",
+    "Image": "1",
+    "Explaination": "In a Delta-Star (Δ-Y) transformer, there is a 30° phase shift between the primary and secondary voltages."
+  },
+  {
+    "Question": "What is the phase shift between the primary and secondary voltages in a Star-Delta (Y-Δ) transformer?",
+    "A": "0°",
+    "B": "30°",
+    "C": "60°",
+    "D": "90°",
+    "Answer": "30°",
+    "Image": "1",
+    "Explaination": "In a Star-Delta (Y-Δ) transformer, there is a 30° phase shift between the primary and secondary voltages."
+  },
+  {
+    "Question": "What is the phase shift between the primary and secondary voltages in a Star-Star (Y-Y) transformer?",
+    "A": "0°",
+    "B": "30°",
+    "C": "60°",
+    "D": "90°",
+    "Answer": "0°",
+    "Image": "1",
+    "Explaination": "In a Star-Star (Y-Y) transformer, there is a 0° phase shift between the primary and secondary voltages."
+  },
+  {
+    "Question": "What is the phase shift between the primary and secondary voltages in a Delta-Delta (Δ-Δ) transformer?",
+    "A": "0°",
+    "B": "30°",
+    "C": "60°",
+    "D": "90°",
+    "Answer": "0°",
+    "Image": "1",
+    "Explaination": "In a Delta-Delta (Δ-Δ) transformer, there is a 0° phase shift between the primary and secondary voltages."
+  },
+  {
+    "Question": "What is a 'tertiary winding' in a three-winding transformer?",
+    "A": "A third winding used to provide a path for zero-sequence currents or for auxiliary power",
+    "B": "A winding used to increase the voltage ratio",
+    "C": "A winding used to improve the power factor",
+    "D": "A winding used to change the phase sequence",
+    "Answer": "A third winding used to provide a path for zero-sequence currents or for auxiliary power",
+    "Image": "1",
+    "Explaination": "A tertiary winding is a third winding in a three-winding transformer, used to provide a path for zero-sequence currents, supply auxiliary power, or connect to a synchronous condenser."
+  },
+  {
+    "Question": "What is the purpose of a three-winding transformer?",
+    "A": "To connect three different voltage levels",
+    "B": "To increase the voltage ratio",
+    "C": "To improve the power factor",
+    "D": "To change the phase sequence",
+    "Answer": "To connect three different voltage levels",
+    "Image": "1",
+    "Explaination": "A three-winding transformer is used to connect three different voltage levels, such as high voltage, medium voltage, and low voltage."
+  },
+  {
+    "Question": "What is the difference between a core-type and a shell-type three-phase transformer?",
+    "A": "In a core-type transformer, the windings surround the core, while in a shell-type transformer, the core surrounds the windings",
+    "B": "In a core-type transformer, the core surrounds the windings, while in a shell-type transformer, the windings surround the core",
+    "C": "A core-type transformer has higher efficiency",
+    "D": "A shell-type transformer has lower cost",
+    "Answer": "In a core-type transformer, the windings surround the core, while in a shell-type transformer, the core surrounds the windings",
+    "Image": "1",
+    "Explaination": "In a core-type transformer, the windings surround the core, while in a shell-type transformer, the core surrounds the windings, providing better mechanical protection."
+  }
+]
